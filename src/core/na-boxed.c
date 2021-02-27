@@ -106,7 +106,6 @@ static void            bool_from_void( NABoxed *boxed, const void *value );
 static gchar          *bool_to_string( const NABoxed *boxed );
 static gboolean        bool_to_bool( const NABoxed *boxed );
 static gconstpointer   bool_to_pointer( const NABoxed *boxed );
-static gchar          *bool_to_string( const NABoxed *boxed );
 static void            bool_to_value( const NABoxed *boxed, GValue *value );
 static void           *bool_to_void( const NABoxed *boxed );
 
