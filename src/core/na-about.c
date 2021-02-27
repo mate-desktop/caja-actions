@@ -122,7 +122,7 @@ na_about_display( GtkWindow *toplevel )
 gchar *
 na_about_get_application_name( void )
 {
-	/* i18n: title of the About dialog box, when seen from Caja file manager */
+	/* Translators: title of the About dialog box, when seen from Caja file manager */
 	return( g_strdup( _( "Caja-Actions" )));
 }
 

@@ -37,7 +37,7 @@
       <listitem>
         <para>
           The new menu is inserted at the correct place, regarding the
-          <!-- i18n: "New Caja menu" is a UI label -->
+          <!-- Translators: "New Caja menu" is a UI label -->
           default &#171;&#160;<literal>New Caja menu</literal>&#160;&#187;
           label.
         </para>

@@ -285,7 +285,7 @@ on_browse_folder_clicked( GtkButton *button, BaseWindow *window )
 	uri = NULL;
 	toplevel = base_window_get_gtk_toplevel( window );
 
-	/* i18n: title of the FileChoose dialog when selecting an URI which
+	/* Translators: title of the FileChoose dialog when selecting an URI which
 	 * will be compare to Caja 'current_folder'
 	 */
 	dialog = base_gtk_utils_file_chooser_dialog_new( _( "Select a folder" ),

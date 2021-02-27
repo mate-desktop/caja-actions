@@ -49,7 +49,7 @@ struct _CactIPropertiesTabInterfacePrivate {
 	void *empty;						/* so that gcc -pedantic is happy */
 };
 
-/* i18n: label of the push button when there is not yet any shortcut */
+/* Translators: label of the push button when there is not yet any shortcut */
 #define NO_SHORTCUT						N_( "None" )
 
 /* data set against the instance

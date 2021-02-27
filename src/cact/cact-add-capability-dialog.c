@@ -521,7 +521,7 @@ setup_values_iter( GtkTreeModel *model, GtkTreePath *path, GtkTreeIter* iter, GS
 	gtk_tree_model_get( model, iter, CAPABILITY_KEYWORD_COLUMN, &keyword, CAPABILITY_DESC_COLUMN, &description, -1 );
 
 	if( na_core_utils_slist_find_negated( capabilities, keyword )){
-		/* i18n: add a comment when a capability is already used by current item */
+		/* Translators: add a comment when a capability is already used by current item */
 		new_description = g_strdup_printf( _( "%s (already inserted)"), description );
 		gtk_list_store_set( GTK_LIST_STORE( model ), iter, CAPABILITY_DESC_COLUMN, new_description, CAPABILITY_ALREADY_USED_COLUMN, TRUE, -1 );
 		g_free( new_description );

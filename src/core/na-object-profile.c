@@ -764,7 +764,7 @@ na_object_profile_new_with_defaults( void )
 {
 	NAObjectProfile *profile = na_object_profile_new();
 	na_object_set_id( profile, "profile-zero" );
-	/* i18n: label for the default profile */
+	/* Translators: label for the default profile */
 	na_object_set_label( profile, _( "Default profile" ));
 	na_factory_object_set_defaults( NA_IFACTORY_OBJECT( profile ));
 

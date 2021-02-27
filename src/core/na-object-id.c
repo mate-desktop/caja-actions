@@ -325,7 +325,7 @@ na_object_id_set_copy_of_label( NAObjectId *object )
 
 		label = na_object_get_label( object );
 
-		/* i18n: copied items have a label as 'Copy of original label' */
+		/* Translators: copied items have a label as 'Copy of original label' */
 		new_label = g_strdup_printf( _( "Copy of %s" ), label );
 
 		na_object_set_label( object, new_label );

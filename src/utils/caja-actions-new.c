@@ -583,7 +583,7 @@ output_to_desktop( NAObjectAction *action, GSList **msgs )
 		code = ( ret == NA_IIO_PROVIDER_CODE_OK );
 
 	} else {
-		/* i18n: 'na-desktop' is a plugin identifier - do not translate */
+		/* Translators: 'na-desktop' is a plugin identifier - do not translate */
 		*msgs = g_slist_append( *msgs, _( "Error: unable to find 'na-desktop' i/o provider." ));
 		code = FALSE;
 	}

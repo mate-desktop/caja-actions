@@ -211,27 +211,27 @@ class_init( CactTreeViewClass *klass )
 	g_object_class_install_property( object_class, TREE_PROP_WINDOW_ID,
 			g_param_spec_pointer(
 					TREE_PROP_WINDOW,
-					/* i18n: this is a class name and should not be translated */
+					/* Translators: this is a class name and should not be translated */
 					_( "BaseWindow" ),
-					/* i18n: CactTreeView property long description */
+					/* Translators: CactTreeView property long description */
 					_( "The BaseWindow parent" ),
 					G_PARAM_CONSTRUCT_ONLY | G_PARAM_STATIC_STRINGS | G_PARAM_READWRITE ));
 
 	g_object_class_install_property( object_class, TREE_PROP_PARENT_ID,
 			g_param_spec_pointer(
 					TREE_PROP_PARENT,
-					/* i18n: CactTreeView property short description */
+					/* Translators: CactTreeView property short description */
 					_( "Container" ),
-					/* i18n: CactTreeView property long description */
+					/* Translators: CactTreeView property long description */
 					_( "A GtkContainer which contains the GtkTreeView widget" ),
 					G_PARAM_CONSTRUCT_ONLY | G_PARAM_STATIC_STRINGS | G_PARAM_READWRITE ));
 
 	g_object_class_install_property( object_class, TREE_PROP_WIDGET_NAME_ID,
 			g_param_spec_string(
 					TREE_PROP_WIDGET_NAME,
-					/* i18n: CactTreeView property short description */
+					/* Translators: CactTreeView property short description */
 					_( "Widget name" ),
-					/* i18n: CactTreeView property long description */
+					/* Translators: CactTreeView property long description */
 					_( "The name of GtkTreeView widget" ),
 					"",
 					G_PARAM_CONSTRUCT_ONLY | G_PARAM_STATIC_STRINGS | G_PARAM_READWRITE ));
@@ -239,9 +239,9 @@ class_init( CactTreeViewClass *klass )
 	g_object_class_install_property( object_class, TREE_PROP_MODE_ID,
 			g_param_spec_uint(
 					TREE_PROP_MODE,
-					/* i18n: CactTreeView property short description */
+					/* Translators: CactTreeView property short description */
 					_( "Management mode" ),
-					/* i18n: CactTreeView property long description */
+					/* Translators: CactTreeView property long description */
 					_( "Management mode of the tree view, selection or edition" ),
 					0,
 					TREE_MODE_N_MODES,
@@ -251,9 +251,9 @@ class_init( CactTreeViewClass *klass )
 	g_object_class_install_property( object_class, TREE_PROP_NOTIFY_ALLOWED_ID,
 			g_param_spec_boolean(
 					TREE_PROP_NOTIFY_ALLOWED,
-					/* i18n: CactTreeView property short description */
+					/* Translators: CactTreeView property short description */
 					_( "Allow notify" ),
-					/* i18n: CactTreeView property loong description */
+					/* Translators: CactTreeView property loong description */
 					_( "Whether notifications are allowed" ),
 					FALSE,
 					G_PARAM_CONSTRUCT | G_PARAM_STATIC_STRINGS | G_PARAM_READWRITE ));

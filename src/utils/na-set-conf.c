@@ -64,7 +64,7 @@ static GOptionEntry st_entries[] = {
 	{ "key"                  , 'k', 0, G_OPTION_ARG_STRING        , &st_key,
 			N_( "The key to be updated" ), N_( "<STRING>" ) },
 	{ "type"                 , 't', 0, G_OPTION_ARG_STRING        , &st_type,
-			/* i18n: 'str', 'int' and 'bool' are literal values: do not translate */
+			/* Translators: 'str', 'int' and 'bool' are literal values: do not translate */
 			N_( "The type of the value to be set, may be 'str', 'int' or 'bool'" ), N_( "<STRING>" ) },
 	{ "value"                , 'v', 0, G_OPTION_ARG_STRING        , &st_value,
 			N_( "The value to be set" ), N_( "<STRING>" ) },
@@ -155,7 +155,7 @@ main( int argc, char** argv )
 	} else if( !g_utf8_collate( st_type, "bool" )){
 		type = TYPE_BOOL;
 	} else {
-		/* i18n: 'str', 'int' and 'bool' are literal values: do not translate */
+		/* Translators: 'str', 'int' and 'bool' are literal values: do not translate */
 		msgerr = g_strdup_printf( _( "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n" ), st_type );
 		g_printerr( "%s", msgerr );
 		g_free( msgerr );

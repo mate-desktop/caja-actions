@@ -761,11 +761,11 @@ prepare_importdone( CactAssistantImport *window, GtkAssistant *assistant, GtkWid
 		/* display the import log
 		 */
 		if( result->imported ){
-			/* i18n: indicate that the file has been successfully imported */
+			/* Translators: indicate that the file has been successfully imported */
 			text = g_strdup( _( "Import OK" ));
 			id = na_object_get_id( result->imported );
 			item_label = na_object_get_label( result->imported );
-			/* i18n: this is the globally unique identifier and the label of the newly imported action */
+			/* Translators: this is the globally unique identifier and the label of the newly imported action */
 			text2 = g_strdup_printf( _( "Id.: %s\t%s" ), id, item_label);
 			g_free( item_label );
 			g_free( id );
@@ -775,7 +775,7 @@ prepare_importdone( CactAssistantImport *window, GtkAssistant *assistant, GtkWid
 			text = tmp;
 
 		} else {
-			/* i18n: indicate that the file was not imported */
+			/* Translators: indicate that the file was not imported */
 			text = g_strdup( _( "Not imported" ));
 		}
 

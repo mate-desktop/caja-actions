@@ -610,7 +610,7 @@ check_for_label( CactIActionTab *instance, GtkEntry *entry, const gchar *label )
 
 	if( item && g_utf8_strlen( label, -1 ) == 0 ){
 
-		/* i18n: status bar message when the action label is empty */
+		/* Translators: status bar message when the action label is empty */
 		cact_main_statusbar_display_status(
 				CACT_MAIN_WINDOW( instance ),
 				IACTION_TAB_CONTEXT,

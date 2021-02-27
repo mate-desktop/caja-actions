@@ -256,11 +256,11 @@ init_view_setup_providers( GtkTreeView *treeview, BaseWindow *window )
 			g_free( libelle );
 
 			if( na_io_provider_is_available( provider )){
-				/* i18n: default name when the I/O providers doesn't provide one */
+				/* Translators: default name when the I/O providers doesn't provide one */
 				libelle = g_strdup_printf( "<%s: %s>", id, _( "no name" ));
 
 			} else {
-				/* i18n: name displayed when the corresponding I/O provider is unavailable at runtime */
+				/* Translators: name displayed when the corresponding I/O provider is unavailable at runtime */
 				libelle = g_strdup_printf( "<%s: %s>", id, _( "unavailable I/O provider" ));
 			}
 		}

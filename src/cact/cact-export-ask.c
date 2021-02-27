@@ -397,10 +397,10 @@ on_base_initialize_window( CactExportAsk *editor, gpointer user_data )
 		item_label = na_object_get_label( priv->item );
 
 		if( NA_IS_OBJECT_ACTION( priv->item )){
-			/* i18n: The action <label> is about to be exported */
+			/* Translators: The action <label> is about to be exported */
 			label = g_strdup_printf( _( "The action \"%s\" is about to be exported." ), item_label );
 		} else {
-			/* i18n: The menu <label> is about to be exported */
+			/* Translators: The menu <label> is about to be exported */
 			label = g_strdup_printf( _( "The menu \"%s\" is about to be exported." ), item_label );
 		}
 

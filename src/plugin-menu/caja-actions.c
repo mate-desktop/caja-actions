@@ -929,9 +929,9 @@ create_root_menu( CajaActions *plugin, GList *menu )
 
 	root_item = caja_menu_item_new(
 			"CajaActionsExtensions",
-			/* i18n: label of an automagic root submenu */
+			/* Translators: label of an automagic root submenu */
 			_( "Caja-Actions actions" ),
-			/* i18n: tooltip of an automagic root submenu */
+			/* Translators: tooltip of an automagic root submenu */
 			_( "A submenu which embeds the currently available Caja-Actions actions and menus" ),
 			na_about_get_icon_name());
 	attach_submenu_to_item( root_item, menu );

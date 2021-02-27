@@ -97,7 +97,7 @@ static guint             ask_user_for_mode( const NAObjectItem *importing, const
 static guint             get_id_from_string( const gchar *str );
 static NAIOption        *get_mode_from_struct( const NAImportModeStr *str );
 
-/* i18n: '%s' stands for the file URI */
+/* Translators: '%s' stands for the file URI */
 #define ERR_NOT_LOADABLE	_( "%s is not loadable (empty or too big or not a regular file)" )
 
 /*
@@ -413,7 +413,7 @@ renumber_label_item( NAObjectItem *item )
 
 	label = na_object_get_label( item );
 
-	/* i18n: the action has been renumbered during import operation */
+	/* Translators: the action has been renumbered during import operation */
 	tmp = g_strdup_printf( "%s %s", label, _( "(renumbered)" ));
 
 	na_object_set_label( item, tmp );

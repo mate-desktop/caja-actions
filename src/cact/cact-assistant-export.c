@@ -842,7 +842,7 @@ assist_prepare_exportdone( CactAssistantExport *window, GtkAssistant *assistant,
 		 */
 		text = NULL;
 		if( str->fname ){
-			/* i18n: action as been successfully exported to <filename> */
+			/* Translators: action as been successfully exported to <filename> */
 			text = g_strdup_printf( "%s %s", _( "Successfully exported as" ), str->fname );
 
 		} else if( strcmp( str->format, EXPORTER_FORMAT_NOEXPORT ) != 0 ){

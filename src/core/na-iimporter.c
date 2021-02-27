@@ -307,7 +307,7 @@ renumber_label_item( NAIImporterManageImportModeParms *parms )
 
 	label = na_object_get_label( parms->imported );
 
-	/* i18n: the action has been renumbered during import operation */
+	/* Translators: the action has been renumbered during import operation */
 	tmp = g_strdup_printf( "%s %s", label, _( "(renumbered)" ));
 
 	na_object_set_label( parms->imported, tmp );

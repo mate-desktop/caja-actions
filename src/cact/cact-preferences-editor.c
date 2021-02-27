@@ -113,7 +113,7 @@ enum {
 	DESKTOP_N_COLUMN
 };
 
-/* i18n: the user is not willing to identify his current desktop environment,
+/* Translators: the user is not willing to identify his current desktop environment,
  *       and prefers rely on the runtime detection */
 static const NADesktopEnv st_no_desktop     = { "None", N_( "Rely on runtime detection" ) };
 
@@ -810,7 +810,7 @@ terminal_pattern_on_changed( GtkEntry *entry, CactPreferencesEditor *editor )
 		example_widget = base_window_get_widget( BASE_WINDOW( editor ), "TerminalPrefixExample" );
 		example_label = na_tokens_command_for_terminal( editor->private->terminal_pattern, "ls -l" );
 
-		/* i18n: command-line example: Ex.: mate-terminal -c "ls -l" */
+		/* Translators: command-line example: Ex.: mate-terminal -c "ls -l" */
 		example_markup = g_markup_printf_escaped(
 				"<i><b><span size=\"small\">%s %s</span></b></i>", _( "Ex.:" ), example_label );
 
