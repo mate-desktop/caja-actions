@@ -34,13 +34,14 @@ ui_datadir = $(pkgdatadir)/ui
 egg_platform_defines = -DEGG_SM_CLIENT_BACKEND_XSMP
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)									\
-	-I $(top_srcdir)/src								\
-	-DMATELOCALEDIR=\""$(datadir)/locale"\"			\
-	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_CACT}\"				\
-	-DPKGUIDIR=\"$(ui_datadir)\"						\
-	$(egg_platform_defines)								\
-	$(CAJA_ACTIONS_CFLAGS)							\
+	-I $(top_srcdir)				\
+	-I $(top_srcdir)/src				\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"		\
+	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_CACT}\"		\
+	-DPKGUIDIR=\"$(ui_datadir)\"			\
+	$(egg_platform_defines)				\
+	$(CAJA_ACTIONS_CFLAGS)				\
+	$(WARN_CFLAGS)					\
 	$(NULL)
 
 BUILT_SOURCES = \
