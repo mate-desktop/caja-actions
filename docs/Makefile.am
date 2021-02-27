@@ -28,7 +28,7 @@
 #   ... and many others (see AUTHORS)
 
 SUBDIRS = \
-	cact								\
+	help								\
 	$(NULL)
 
 pkgdocdir = $(datarootdir)/doc/@PACKAGE@

@@ -130,7 +130,7 @@ AC_CONFIG_FILES([
 	data/actions/Makefile
 	data/exports/Makefile
 	docs/Makefile
-	docs/cact/Makefile
+	docs/help/Makefile
 	m4/Makefile
 	icons/Makefile
 	icons/16x16/Makefile
