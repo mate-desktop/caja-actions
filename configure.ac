@@ -76,12 +76,12 @@ intltool_required=0.50.2
 caja_required=1.17.1
 
 # localization
-# note that this same version is also required by autogen.sh
-IT_PROG_INTLTOOL([${intltool_required}])
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
+
 GETTEXT_PACKAGE=${PACKAGE}
 AC_SUBST([GETTEXT_PACKAGE])
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["${GETTEXT_PACKAGE}"],[gettext package])
-AM_GLIB_GNU_GETTEXT
 
 # a counter of fatal warnings emitted
 let na_fatal_count=0

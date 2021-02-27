@@ -31,9 +31,9 @@
 #include <config.h>
 #endif
 
-#include <gdk/gdkkeysyms.h>
+#include <glib.h>
 #include <glib/gi18n.h>
-#include <libintl.h>
+#include <gdk/gdkkeysyms.h>
 
 #include <api/na-core-utils.h>
 
