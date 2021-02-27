@@ -103,7 +103,7 @@ na_about_display( GtkWindow *toplevel )
 			"license", license_i18n->str,
 			"logo-icon-name", na_about_get_icon_name(),
 			"program-name", application_name,
-			"translator-credits", _( "The MATE Translation Project <mate-i18n@gnome.org>" ),
+			"translator-credits", _("translator-credits"),
 			"version", PACKAGE_VERSION,
 			"website", "http://www.caja-actions.org",
 			"wrap-license", TRUE,
