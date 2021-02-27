@@ -44,11 +44,12 @@ pkglibexec_PROGRAMS = \
 	$(NULL)
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)											\
-	-I $(top_srcdir)/src										\
-	-DMATELOCALEDIR=\""$(datadir)/locale"\"					\
-	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_UTILS}\"					\
-	$(CAJA_ACTIONS_CFLAGS)									\
+	-I $(top_srcdir)				\
+	-I $(top_srcdir)/src				\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"		\
+	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_UTILS}\"	\
+	$(CAJA_ACTIONS_CFLAGS)				\
+	$(WARN_CFLAGS)					\
 	$(NULL)
 
 caja_actions_new_SOURCES = \

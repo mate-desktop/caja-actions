@@ -26,10 +26,11 @@
 #   ... and many others (see AUTHORS)
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)											\
-	-I $(top_srcdir)/src										\
-	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_PLUGIN_TRACKER}\"			\
-	$(CAJA_ACTIONS_CFLAGS)									\
+	-I $(top_srcdir)					\
+	-I $(top_srcdir)/src					\
+	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_PLUGIN_TRACKER}\"	\
+	$(CAJA_ACTIONS_CFLAGS)					\
+	$(WARN_CFLAGS)						\
 	$(NULL)
 
 caja_extensiondir = $(CAJA_EXTENSIONS_DIR)

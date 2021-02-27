@@ -47,10 +47,8 @@ AC_PROG_GCC_TRADITIONAL
 AC_STDC_HEADERS
 AM_DISABLE_STATIC
 
-# define specific compilation options
-NA_COMPILER_WARNINGS([],[-ansi -Wno-overlength-strings -Wformat=2])
-NA_COMPILER_LINK_AS_NEEDED
-AC_SUBST([AM_CFLAGS],["${AM_CFLAGS} ${WARN_CFLAGS}"])
+# define specific warning flags
+MATE_COMPILE_WARNINGS
 
 # other traditional tools
 AC_PROG_INSTALL

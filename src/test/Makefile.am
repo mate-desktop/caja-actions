@@ -40,12 +40,13 @@ noinst_PROGRAMS = \
 	$(NULL)
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)									\
-	-I $(top_srcdir)/src								\
-	-DMATELOCALEDIR=\""$(datadir)/locale"\"			\
-	-DPKGLIBDIR=\""$(pkglibdir)"\"						\
-	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_TEST}\"				\
-	$(CAJA_ACTIONS_CFLAGS)							\
+	-I $(top_srcdir)			\
+	-I $(top_srcdir)/src			\
+	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
+	-DPKGLIBDIR=\""$(pkglibdir)"\"		\
+	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_TEST}\"	\
+	$(CAJA_ACTIONS_CFLAGS)			\
+	$(WARN_CFLAGS)				\
 	$(NULL)
 
 test_reader_SOURCES = \

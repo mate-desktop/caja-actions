@@ -32,9 +32,10 @@ noinst_PROGRAMS = \
 	$(NULL)
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)											\
-	-I $(top_srcdir)/src										\
-	$(CAJA_ACTIONS_CFLAGS)									\
+	-I $(top_srcdir)			\
+	-I $(top_srcdir)/src			\
+	$(CAJA_ACTIONS_CFLAGS)			\
+	$(WARN_CFLAGS)				\
 	$(NULL)
 
 check_header_SOURCES = \

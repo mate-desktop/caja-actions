@@ -32,12 +32,13 @@ pkglib_LTLIBRARIES = libna-io-desktop.la
 provider_datadir = $(pkgdatadir)/$(provider_id)
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)									\
-	-I $(top_srcdir)/src								\
-	$(CAJA_ACTIONS_CFLAGS)							\
+	-I $(top_srcdir)					\
+	-I $(top_srcdir)/src					\
+	$(CAJA_ACTIONS_CFLAGS)					\
+	$(WARN_CFLAGS)						\
 	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_IO_DESKTOP}\"		\
-	-DPROVIDER_ID=\"$(provider_id)\"					\
-	-DPROVIDER_DATADIR=\"$(provider_datadir)\"			\
+	-DPROVIDER_ID=\"$(provider_id)\"			\
+	-DPROVIDER_DATADIR=\"$(provider_datadir)\"		\
 	$(NULL)
 
 libna_io_desktop_la_SOURCES = \

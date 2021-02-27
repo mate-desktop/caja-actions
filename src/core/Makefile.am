@@ -34,17 +34,18 @@ importmode_datadir = $(pkgdatadir)/import-mode
 ui_datadir = $(pkgdatadir)/ui
 
 AM_CPPFLAGS += \
-	-I $(top_srcdir)									\
-	-I $(top_srcdir)/src								\
+	-I $(top_srcdir)					\
+	-I $(top_srcdir)/src					\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"			\
-	-DPKGLIBDIR=\""$(pkglibdir)"\"						\
-	-DPKGLIBEXECDIR=\""$(pkglibexecdir)"\"				\
-	-DSYSCONFDIR=\"$(sysconfdir)\"						\
-	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_CORE}\"				\
+	-DPKGLIBDIR=\""$(pkglibdir)"\"				\
+	-DPKGLIBEXECDIR=\""$(pkglibexecdir)"\"			\
+	-DSYSCONFDIR=\"$(sysconfdir)\"				\
+	-DG_LOG_DOMAIN=\"${NA_LOGDOMAIN_CORE}\"			\
 	-DPKGEXPORTFORMATDIR=\"$(exportformat_datadir)\"	\
 	-DPKGIMPORTMODEDIR=\"$(importmode_datadir)\"		\
-	-DPKGUIDIR=\"$(ui_datadir)\"						\
-	$(CAJA_ACTIONS_CFLAGS)							\
+	-DPKGUIDIR=\"$(ui_datadir)\"				\
+	$(CAJA_ACTIONS_CFLAGS)					\
+	$(WARN_CFLAGS)						\
 	$(NULL)
 
 BUILT_SOURCES = \
