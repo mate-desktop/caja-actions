@@ -8,7 +8,7 @@
   </para>
   <para>
     As we have already seen, the command to be executed is configured
-      <!-- i18n: "Command" is a UI label -->
+      <!-- Translators: "Command" is a UI label -->
     in the <guilabel>Command</guilabel> page.
   </para>
   <para>
@@ -20,9 +20,9 @@
   <sect3 id="usage-execution-parameters">
     <title>Available parameters</title>
     <para>
-      <!-- i18n: "Command" is a UI label -->
+      <!-- Translators: "Command" is a UI label -->
       In the <guilabel>Command</guilabel> page,
-      <!-- i18n: "Legend" is a UI label -->
+      <!-- Translators: "Legend" is a UI label -->
       click on <guilabel>Legend</guilabel>
       button to see the list of available parameters.
     </para>
@@ -41,16 +41,16 @@
     </figure>
     <tip>
       <para>
-        <!-- i18n: "Legend" is a UI label -->
+        <!-- Translators: "Legend" is a UI label -->
         The <guibutton>Legend</guibutton> button has a toggling action:
-        <!-- i18n: "Parameter Legend" is a UI label -->
+        <!-- Translators: "Parameter Legend" is a UI label -->
         click once to display the <guilabel>Parameter Legend</guilabel>
         dialog box; click a second time to hide it.
       </para>
     </tip>
     <note>
       <para>
-        <!-- i18n: "first" is a UI label -->
+        <!-- Translators: "first" is a UI label -->
         The word &#171;&#160;<guilabel>first</guilabel>&#160;&#187; may be
         misleading as it only refers to the list of selected items
         internally provided by the file manager to the <productname>Caja-Actions</productname> plugin.
@@ -58,7 +58,7 @@
       <para>
         In particular, it has <emphasis>nothing to do</emphasis> with
         the visual selection you may have done in the file manager window.
-        <!-- i18n: "first" is a UI label -->
+        <!-- Translators: "first" is a UI label -->
         And, in fact, which is the &#171;&#160;<guilabel>first</guilabel>&#160;&#187;
         selected item in a multiple selection is absolutely undefined
         and rather unpredictable.
@@ -72,11 +72,11 @@
       Your action may be executed in a particular working directory.
     </para>
     <para>
-      <!-- i18n: "Command" is a UI label -->
+      <!-- Translators: "Command" is a UI label -->
       You may specify it in the <guilabel>Command</guilabel> tab, in the
-      <!-- i18n: "Working directory" is a UI label -->
+      <!-- Translators: "Working directory" is a UI label -->
       <guilabel>Working directory</guilabel> entry box, or by clicking
-      <!-- i18n: "Browse" is a UI (button) label -->
+      <!-- Translators: "Browse" is a UI (button) label -->
       on <guibutton>Browse</guibutton> to select a folder on the 
       filesystem.
     </para>
@@ -100,7 +100,7 @@
     </para>
     <para>
       In the particular case of the <literal>%d</literal> parameter,
-      <!-- i18n: "first" is a UI label -->
+      <!-- Translators: "first" is a UI label -->
       the &#171;&#160;<guilabel>first</guilabel>&#160;&#187; selected item
       is not very important because it is very likely that all selected
       items are located in the same base directory.
@@ -116,7 +116,7 @@
       executed.
     </para>
     <para>
-      <!-- i18n: "Execution" is a UI label -->
+      <!-- Translators: "Execution" is a UI label -->
       Click on the <guilabel>Execution</guilabel> tab to show the page
       which configures the execution of your command.
     </para>
@@ -227,10 +227,10 @@
       </figure>
       <para>
         If the execution mode of the command is <literal>Normal</literal>,
-        <!-- i18n: "remove" is a X literal, do not translate -->
+        <!-- Translators: "remove" is a X literal, do not translate -->
         and if you know that the application will send a <literal>remove</literal>
         message with the <envar>DESKTOP_STARTUP_ID</envar> environment variable set,
-        <!-- i18n: "Startup notify" is a UI label -->
+        <!-- Translators: "Startup notify" is a UI label -->
         then check the <guilabel>Startup notify</guilabel> checkbox.
       </para>
       <para>See the <ulink url="http://www.freedesktop.org/Standards/startup-notification-spec" type="http"><citetitle>Startup Notification Protocol Specification</citetitle></ulink> for more details.</para>
@@ -242,7 +242,7 @@
         If the execution mode of the command is <literal>Normal</literal>,
         and if you know that the application will map at least one window
         with a given class name, then enter that name into the
-        <!-- i18n: "Startup Window Manager class" is a UI label -->
+        <!-- Translators: "Startup Window Manager class" is a UI label -->
          <guilabel>Startup Window Manager class</guilabel>
         entry box.
       </para>

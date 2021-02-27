@@ -82,7 +82,7 @@ typedef struct {
 }
 	MatchListData;
 
-/* i18n: label of the header of the column which let the user select a positive filter
+/* Translators: label of the header of the column which let the user select a positive filter
  */
 static ColumnHeaderStruct st_match_headers[] = {
 	{ MATCH_LIST_MUST_MATCH_ONE_OF, N_( "Must match one of" ) },
@@ -241,7 +241,7 @@ create_tree_model( MatchListData *data )
 	radio_cell = gtk_cell_renderer_toggle_new();
 	gtk_cell_renderer_toggle_set_radio( GTK_CELL_RENDERER_TOGGLE( radio_cell ), TRUE );
 	column = gtk_tree_view_column_new_with_attributes(
-			/* i18n: label of the header of a column which let the user select a negative filter */
+			/* Translators: label of the header of a column which let the user select a negative filter */
 			_( "Must not match any of" ),
 			radio_cell,
 			"active", MUST_NOT_MATCH_COLUMN,

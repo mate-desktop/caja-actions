@@ -22,7 +22,7 @@
     <para>
       Multiple selection is possible in <application>Caja-Actions Configuration Tool</application>.
       You can extend the current selection
-      <!-- i18n: "Ctrl" and "Shit" are key names -->
+      <!-- Translators: "Ctrl" and "Shit" are key names -->
       by pressing <keycap>Ctrl</keycap> or <keycap>Shift</keycap>
       while selecting an item to add to the selection.
     </para>

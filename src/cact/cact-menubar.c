@@ -66,89 +66,89 @@ static const GtkActionEntry entries[] = {
 		{ "NotebookLabelMenu", NULL, N_( "Notebook _tabs" ) },
 
 		{ "NewMenuItem", NULL, N_( "New _menu" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'New menu' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'New menu' item */
 				N_( "Insert a new menu at the current position" ),
 				G_CALLBACK( cact_menubar_file_on_new_menu ) },
 		{ "NewActionItem", "document-new", N_( "_New action" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'New action' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'New action' item */
 				N_( "Define a new action" ),
 				G_CALLBACK( cact_menubar_file_on_new_action ) },
 		{ "NewProfileItem", NULL, N_( "New _profile" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'New profile' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'New profile' item */
 				N_( "Define a new profile attached to the current action" ),
 				G_CALLBACK( cact_menubar_file_on_new_profile ) },
 		{ "SaveItem", "document-save", N_( "_Save" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting 'Save' item */
+				/* Translators: tooltip displayed in the status bar when selecting 'Save' item */
 				N_( "Record all the modified actions. Invalid actions will be silently ignored" ),
 				G_CALLBACK( cact_menubar_file_on_save ) },
 		{ "QuitItem", "application-exit", N_( "_Quit" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting 'Quit' item */
+				/* Translators: tooltip displayed in the status bar when selecting 'Quit' item */
 				N_( "Quit the application" ),
 				G_CALLBACK( cact_menubar_file_on_quit ) },
 		{ "CutItem" , "edit-cut", N_( "Cu_t" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Cut item */
+				/* Translators: tooltip displayed in the status bar when selecting the Cut item */
 				N_( "Cut the selected item(s) to the clipboard" ),
 				G_CALLBACK( cact_menubar_edit_on_cut ) },
 		{ "CopyItem" , "edit-copy", N_( "_Copy" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Copy item */
+				/* Translators: tooltip displayed in the status bar when selecting the Copy item */
 				N_( "Copy the selected item(s) to the clipboard" ),
 				G_CALLBACK( cact_menubar_edit_on_copy ) },
 		{ "PasteItem" , "edit-paste", N_( "_Paste" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Paste item */
+				/* Translators: tooltip displayed in the status bar when selecting the Paste item */
 				N_( "Insert the content of the clipboard just before the current position" ),
 				G_CALLBACK( cact_menubar_edit_on_paste ) },
 		{ "PasteIntoItem" , NULL, N_( "Paste _into" ), "<Shift><Ctrl>V",
-				/* i18n: tooltip displayed in the status bar when selecting the Paste Into item */
+				/* Translators: tooltip displayed in the status bar when selecting the Paste Into item */
 				N_( "Insert the content of the clipboard as first child of the current item" ),
 				G_CALLBACK( cact_menubar_edit_on_paste_into ) },
 		{ "DuplicateItem" , NULL, N_( "D_uplicate" ), "",
-				/* i18n: tooltip displayed in the status bar when selecting the Duplicate item */
+				/* Translators: tooltip displayed in the status bar when selecting the Duplicate item */
 				N_( "Duplicate the selected item(s)" ),
 				G_CALLBACK( cact_menubar_edit_on_duplicate ) },
 		{ "DeleteItem", "edit-delete", N_( "_Delete" ), "Delete",
-				/* i18n: tooltip displayed in the status bar when selecting the Delete item */
+				/* Translators: tooltip displayed in the status bar when selecting the Delete item */
 				N_( "Delete the selected item(s)" ),
 				G_CALLBACK( cact_menubar_edit_on_delete ) },
 		{ "ReloadActionsItem", "view-refresh", N_( "_Reload the items" ), "F5",
-				/* i18n: tooltip displayed in the status bar when selecting the 'Reload' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'Reload' item */
 				N_( "Cancel your current modifications and reload the initial list of menus and actions" ),
 				G_CALLBACK( cact_menubar_edit_on_reload ) },
 		{ "PreferencesItem", "preferences-desktop", N_( "_Preferences" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'Preferences' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'Preferences' item */
 				N_( "Edit your preferences" ),
 				G_CALLBACK( cact_menubar_edit_on_prefererences ) },
 		{ "ExpandAllItem" , NULL, N_( "_Expand all" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Expand all item */
+				/* Translators: tooltip displayed in the status bar when selecting the Expand all item */
 				N_( "Entirely expand the items hierarchy" ),
 				G_CALLBACK( cact_menubar_view_on_expand_all ) },
 		{ "CollapseAllItem" , NULL, N_( "_Collapse all" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Collapse all item */
+				/* Translators: tooltip displayed in the status bar when selecting the Collapse all item */
 				N_( "Entirely collapse the items hierarchy" ),
 				G_CALLBACK( cact_menubar_view_on_collapse_all ) },
 
 		{ "ImportItem" , "emblem-downloads", N_( "_Import assistant..." ), "",
-				/* i18n: tooltip displayed in the status bar when selecting the Import item */
+				/* Translators: tooltip displayed in the status bar when selecting the Import item */
 				N_( "Import one or more actions from external files into your configuration" ),
 				G_CALLBACK( cact_menubar_tools_on_import ) },
 		{ "ExportItem", NULL, N_( "E_xport assistant..." ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Export item */
+				/* Translators: tooltip displayed in the status bar when selecting the Export item */
 				N_( "Export one or more actions from your configuration to external files" ),
 				G_CALLBACK( cact_menubar_tools_on_export ) },
 
 		{ "DumpSelectionItem", NULL, N_( "_Dump the selection" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the Dump selection item */
+				/* Translators: tooltip displayed in the status bar when selecting the Dump selection item */
 				N_( "Recursively dump selected items" ),
 				G_CALLBACK( cact_menubar_maintainer_on_dump_selection ) },
 		{ "BriefTreeStoreDumpItem", NULL, N_( "_Brief tree store dump" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the BriefTreeStoreDump item */
+				/* Translators: tooltip displayed in the status bar when selecting the BriefTreeStoreDump item */
 				N_( "Briefly dump the tree store" ),
 				G_CALLBACK( cact_menubar_maintainer_on_brief_tree_store_dump ) },
 		{ "ListModifiedItems", NULL, N_( "_List modified items" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the ListModifiedItems item */
+				/* Translators: tooltip displayed in the status bar when selecting the ListModifiedItems item */
 				N_( "List the modified items" ),
 				G_CALLBACK( cact_menubar_maintainer_on_list_modified_items ) },
 		{ "DumpClipboard", NULL, N_( "_Dump the clipboard" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the DumpClipboard item */
+				/* Translators: tooltip displayed in the status bar when selecting the DumpClipboard item */
 				N_( "Dump the content of the clipboard object" ),
 				G_CALLBACK( cact_menubar_maintainer_on_dump_clipboard ) },
 		{ "FunctionTest", NULL, "_Test a function", NULL,
@@ -156,11 +156,11 @@ static const GtkActionEntry entries[] = {
 				G_CALLBACK( cact_menubar_maintainer_on_test_function ) },
 
 		{ "HelpItem" , "help-browser", N_( "Contents" ), "F1",
-				/* i18n: tooltip displayed in the status bar when selecting the Help item */
+				/* Translators: tooltip displayed in the status bar when selecting the Help item */
 				N_( "Display help about this program" ),
 				G_CALLBACK( cact_menubar_help_on_help ) },
 		{ "AboutItem", "help-about", N_( "_About" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the About item */
+				/* Translators: tooltip displayed in the status bar when selecting the About item */
 				N_( "Display information about this program" ),
 				G_CALLBACK( cact_menubar_help_on_about ) },
 };
@@ -168,19 +168,19 @@ static const GtkActionEntry entries[] = {
 static const GtkToggleActionEntry toolbar_entries[] = {
 
 		{ "ViewFileToolbarItem", NULL, N_( "_File" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'View File toolbar' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'View File toolbar' item */
 				N_( "Display the File toolbar" ),
 				G_CALLBACK( cact_menubar_view_on_toolbar_file ), FALSE },
 		{ "ViewEditToolbarItem", NULL, N_( "_Edit" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'View Edit toolbar' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'View Edit toolbar' item */
 				N_( "Display the Edit toolbar" ),
 				G_CALLBACK( cact_menubar_view_on_toolbar_edit ), FALSE },
 		{ "ViewToolsToolbarItem", NULL, N_( "_Tools" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting 'View Tools toolbar' item */
+				/* Translators: tooltip displayed in the status bar when selecting 'View Tools toolbar' item */
 				N_( "Display the Tools toolbar" ),
 				G_CALLBACK( cact_menubar_view_on_toolbar_tools ), FALSE },
 		{ "ViewHelpToolbarItem", NULL, N_( "_Help" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting 'View Help toolbar' item */
+				/* Translators: tooltip displayed in the status bar when selecting 'View Help toolbar' item */
 				N_( "Display the Help toolbar" ),
 				G_CALLBACK( cact_menubar_view_on_toolbar_help ), FALSE },
 };
@@ -188,19 +188,19 @@ static const GtkToggleActionEntry toolbar_entries[] = {
 static const GtkRadioActionEntry tabs_pos_entries[] = {
 
 		{ "TabsPosLeftItem", NULL, N_( "On the _left" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'Set tabs position on the left' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'Set tabs position on the left' item */
 				N_( "Display the notebook tabs on the left side" ),
 				GTK_POS_LEFT },
 		{ "TabsPosRightItem", NULL, N_( "On the _right" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting the 'Set tabs position on the right' item */
+				/* Translators: tooltip displayed in the status bar when selecting the 'Set tabs position on the right' item */
 				N_( "Display the notebook tabs on the right side" ),
 				GTK_POS_RIGHT },
 		{ "TabsPosTopItem", NULL, N_( "On the _top" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting 'Set tabs position on the top' item */
+				/* Translators: tooltip displayed in the status bar when selecting 'Set tabs position on the top' item */
 				N_( "Display the notebook tabs on the top side" ),
 				GTK_POS_TOP },
 		{ "TabsPosBottomItem", NULL, N_( "On the _bottom" ), NULL,
-				/* i18n: tooltip displayed in the status bar when selecting 'Set tabs position on the bottom' item */
+				/* Translators: tooltip displayed in the status bar when selecting 'Set tabs position on the bottom' item */
 				N_( "Display the notebook tabs on the bottom side" ),
 				GTK_POS_BOTTOM },
 };
@@ -713,7 +713,7 @@ on_tree_view_count_changed( BaseWindow *window, gboolean reset, gint menus, gint
 
 	bar->private->have_exportables = ( bar->private->count_menus + bar->private->count_actions > 0 );
 
-	/* i18n: note the space at the beginning of the sentence */
+	/* Translators: note the space at the beginning of the sentence */
 	status = g_strdup_printf(
 			_( " %d menu(s), %d action(s), %d profile(s) are currently loaded" ),
 			bar->private->count_menus, bar->private->count_actions, bar->private->count_profiles );

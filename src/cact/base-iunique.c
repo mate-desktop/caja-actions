@@ -199,7 +199,7 @@ base_iunique_init_with_name( BaseIUnique *instance, const gchar *unique_app_name
 			is_first = !g_application_get_is_remote( data->handle );
 
 			if( !is_first ){
-				/* i18n: application name */
+				/* Translators: application name */
 				msg = g_strdup_printf(
 						_( "Another instance of %s is already running.\n"
 							"Please switch back to it." ),

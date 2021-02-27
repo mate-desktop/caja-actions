@@ -53,7 +53,7 @@ static gchar     *id               = "";
 static gchar     *format           = "";
 static gboolean   version          = FALSE;
 
-/* i18n: caja-actions-print program summary */
+/* Translators: caja-actions-print program summary */
 static const gchar *program_summary = N_( "Print a menu or an action to stdout." );
 
 static GOptionEntry entries[] = {
@@ -61,7 +61,7 @@ static GOptionEntry entries[] = {
 	{ "id"                   , 'i', 0, G_OPTION_ARG_STRING        , &id,
 			N_( "The identifiant of the menu or the action to be printed" ), N_( "<STRING>" ) },
 	{ "format"               , 'f', 0, G_OPTION_ARG_STRING,     &format,
-	/* i18n: 'Desktop1' here is the internal identifier of an export format; it is not translatable */
+	/* Translators: 'Desktop1' here is the internal identifier of an export format; it is not translatable */
 			N_( "An export format [Desktop1]" ), N_( "<STRING>" ) },
 	{ NULL }
 };
@@ -139,7 +139,7 @@ main( int argc, char** argv )
 
 	exporter = na_exporter_find_for_format( pivot, format );
 	if( !exporter ){
-		/* i18n: %s stands for the id of the export format, and is not translatable */
+		/* Translators: %s stands for the id of the export format, and is not translatable */
 		g_printerr( _( "Error: %s: unknown export format.\n" ), format );
 		errors += 1;
 	}

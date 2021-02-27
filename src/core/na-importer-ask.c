@@ -393,13 +393,13 @@ initialize_window( NAImporterAsk *editor, GtkWindow *toplevel )
 	existing_label = na_object_get_label( editor->private->existing );
 
 	if( NA_IS_OBJECT_ACTION( editor->private->importing )){
-		/* i18n: The action <action_label> imported from <file> has the same id than <existing_label> */
+		/* Translators: The action <action_label> imported from <file> has the same id than <existing_label> */
 		label = g_strdup_printf(
 				_( "The action \"%s\" imported from \"%s\" has the same identifiant than the already existing \"%s\"." ),
 				imported_label, editor->private->parms->uri, existing_label );
 
 	} else {
-		/* i18n: The menu <menu_label> imported from <file> has the same id than <existing_label> */
+		/* Translators: The menu <menu_label> imported from <file> has the same id than <existing_label> */
 		label = g_strdup_printf(
 				_( "The menu \"%s\" imported from \"%s\" has the same identifiant than the already existing \"%s\"." ),
 				imported_label, editor->private->parms->uri, existing_label );

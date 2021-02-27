@@ -3,7 +3,7 @@
   <para>
     Your actions and menus will be displayed in file manager context
     menus in the same order that they are listed in the
-    <!-- i18n: "Items list" is a UI label -->
+    <!-- Translators: "Items list" is a UI label -->
     <guilabel>Items list</guilabel>,
     on the left pane of the main <application>Caja-Actions Configuration Tool</application> window.
   </para>

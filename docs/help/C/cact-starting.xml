@@ -20,7 +20,7 @@
               <command><filename>caja-actions-config-tool</filename></command>
             </para>
             <para>
-              <!-- i18n: "Return" is a key name -->
+              <!-- Translators: "Return" is a key name -->
               then press <keycap>Return</keycap>.
             </para>
             <tip>
@@ -34,7 +34,7 @@
                 </command>
               </para>
               <para>
-                <!-- i18n: "Return" is a key name -->
+                <!-- Translators: "Return" is a key name -->
                 then press <keycap>Return</keycap>.
               </para>
             </tip>
@@ -390,7 +390,7 @@
               and profiles.
             </para>
             <para>
-              <!-- i18n: "read-only" may be translated -->
+              <!-- Translators: "read-only" may be translated -->
               The &#171;&#160;read-only&#160;&#187; icon 
               <inlinegraphic fileref="figures/read-only.png" />
               is displayed in
@@ -458,7 +458,7 @@
         </screenshot>
       </figure>
       <para>
-        <!-- i18n: "Items list" is a UI label -->
+        <!-- Translators: "Items list" is a UI label -->
         In the <guilabel>Items list</guilabel>, the new action is
         displayed in italic characters.
       </para>
@@ -481,13 +481,13 @@
       <itemizedlist>
         <listitem>
           <para>
-            <!-- i18n: "My first action" is a user entry -->
+            <!-- Translators: "My first action" is a user entry -->
             Enter <userinput>My first action</userinput>
-            <!-- i18n: "Context label" is a UI label -->
+            <!-- Translators: "Context label" is a UI label -->
             in the <guilabel>Context label</guilabel> entry box.
           </para>
           <para>
-            <!-- i18n: "Context label" is a UI label -->
+            <!-- Translators: "Context label" is a UI label -->
             The <guilabel>Context label</guilabel> entry box contains
             the label of the action as you want it to be displayed in
             the file manager context menu.
@@ -496,7 +496,7 @@
             The label is a mandatory property of your action. If it
             happens to be empty, then your action will be considered as
             invalid by <productname>Caja-Actions</productname>: it will be displayed in red in
-            <!-- i18n: "Items list" is a UI label -->
+            <!-- Translators: "Items list" is a UI label -->
             <guilabel>Items list</guilabel> and will never be candidate
             to be displayed in the file manager context menus.
           </para>
@@ -504,11 +504,11 @@
         <listitem>
           <para>
             Enter <userinput>This will execute an action with some parameters</userinput>
-            <!-- i18n: "Tooltip" is a UI label -->
+            <!-- Translators: "Tooltip" is a UI label -->
             in the <guilabel>Tooltip</guilabel> entry box.
           </para>
           <para>
-            <!-- i18n: "Tooltip" is a UI label -->
+            <!-- Translators: "Tooltip" is a UI label -->
             The <guilabel>Tooltip</guilabel> entry box contains the text
             you want to be displayed as a short help to your action.
           </para>
@@ -516,11 +516,11 @@
         <listitem>
           <para>
             Select <inlinegraphic fileref="figures/stock-icon-about.png" /> 
-            <!-- i18n: "Icon" is a UI label -->
+            <!-- Translators: "Icon" is a UI label -->
             in the <guilabel>Icon</guilabel> drop-down list.
           </para>
           <para>
-            <!-- i18n: "Icon" is a UI label -->
+            <!-- Translators: "Icon" is a UI label -->
             The <guilabel>Icon</guilabel> selection defines the icon
             which will be associated with your action in file manager
             context menus and in the toolbar.
@@ -532,7 +532,7 @@
           <itemizedlist>
             <listitem>
               <para>
-                <!-- i18n: "Icon" is a UI label -->
+                <!-- Translators: "Icon" is a UI label -->
                 Click on the <guilabel>Icon</guilabel> drop-down list
                 to select an icon.
               </para>
@@ -555,7 +555,7 @@
         </para>
       </formalpara>
       <para>
-        <!-- i18n: "Command" is a UI label -->
+        <!-- Translators: "Command" is a UI label -->
         Click on the <guilabel>Command</guilabel> tab to show the page
         which will permit you to enter the command.
       </para>
@@ -581,11 +581,11 @@
         <listitem>
           <para>
             Enter <userinput>matedialog</userinput> in the
-            <!-- i18n: "Path" is a UI label -->
+            <!-- Translators: "Path" is a UI label -->
             <guilabel>Path</guilabel> entry box.
           </para>
           <para>
-            <!-- i18n: "Path" is a UI label -->
+            <!-- Translators: "Path" is a UI label -->
             The <guilabel>Path</guilabel> entry box defines the command
             which will be executed when you will select your action in
             the file manager context menu.
@@ -596,7 +596,7 @@
           <itemizedlist>
             <listitem>
               <para>
-                <!-- i18n: "Path" is a UI label -->
+                <!-- Translators: "Path" is a UI label -->
                 Enter it in the <guilabel>Path</guilabel> entry box.
               </para>
             </listitem>
@@ -615,24 +615,24 @@
         </listitem>
         <listitem>
           <para>
-            <!-- i18n: only "selected item(s)" is translatable -->
+            <!-- Translators: only "selected item(s)" is translatable -->
             Enter <userinput>--info --text='%c selected item(s): %U'</userinput>
-            <!-- i18n: "Parameters" is a UI label -->
+            <!-- Translators: "Parameters" is a UI label -->
             in the <guilabel>Parameters</guilabel>
             entry box.
           </para>
           <para>
-            <!-- i18n: "Parameters" is a UI label -->
+            <!-- Translators: "Parameters" is a UI label -->
             The <guilabel>Parameters</guilabel> contains the arguments
             which will be passed to your command when it will be executed.
             These arguments may embed parameters which will be expanded
             at runtime.
           </para>
           <para>
-            <!-- i18n: "Path" and "Parameters" are UI labels -->
+            <!-- Translators: "Path" and "Parameters" are UI labels -->
             If both <guilabel>Path</guilabel> and <guilabel>Parameters</guilabel>
             are empty, then this action will be considered as invalid:
-            <!-- i18n: "Items list" is a UI label -->
+            <!-- Translators: "Items list" is a UI label -->
             it will be displayed in red in <guilabel>Items list</guilabel>
             and will never be candidate to be displayed in the file
             manager context menus.

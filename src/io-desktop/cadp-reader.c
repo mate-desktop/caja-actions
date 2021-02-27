@@ -288,7 +288,7 @@ item_from_desktop_file( const CappDesktopProvider *provider, CappDesktopFile *nd
 		item = NA_IFACTORY_OBJECT( na_object_menu_new());
 
 	} else {
-		/* i18n: 'type' is the nature of the item: Action or Menu */
+		/* Translators: 'type' is the nature of the item: Action or Menu */
 		na_core_utils_slist_add_message( messages, _( "unknown type: %s" ), type );
 	}
 

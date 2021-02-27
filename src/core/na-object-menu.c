@@ -53,7 +53,7 @@ struct _NAObjectMenuPrivate {
 	gboolean dispose_has_run;
 };
 
-/* i18n: default label for a new menu */
+/* Translators: default label for a new menu */
 #define NEW_CAJA_MENU				N_( "New Caja menu" )
 
 extern NADataGroup menu_data_groups [];			/* defined in na-item-menu-factory.c */

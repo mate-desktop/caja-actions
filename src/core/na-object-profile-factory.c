@@ -209,7 +209,7 @@ static NADataDef data_def_profile [] = {
 				TRUE,
 				TRUE,
 				N_( "Execution mode" ),
-				/* i18n: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-translatable keywords */
+				/* Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-translatable keywords */
 				N_( "Execution mode of the program.\n" \
 					"This may be chosen between following values:\n" \
 					"- Normal: starts as a standard graphical user interface\n" \

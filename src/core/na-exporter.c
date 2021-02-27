@@ -56,7 +56,7 @@ static NAExporterFormatStr st_format_ask = {
 		"export-format-ask.png"
 };
 
-/* i18n: NAIExporter is an interface name, do not even try to translate */
+/* Translators: NAIExporter is an interface name, do not even try to translate */
 #define NO_IMPLEMENTATION_MSG			N_( "No NAIExporter implementation found for '%s' format." )
 
 static GList *exporter_get_formats( const NAIExporter *exporter );
@@ -300,7 +300,7 @@ na_exporter_to_buffer( const NAPivot *pivot,
 
 		} else {
 			name = exporter_get_name( exporter );
-			/* i18n: NAIExporter is an interface name, do not even try to translate */
+			/* Translators: NAIExporter is an interface name, do not even try to translate */
 			msg = g_strdup_printf( _( "%s NAIExporter doesn't implement 'to_buffer' interface." ), name );
 			*messages = g_slist_append( *messages, msg );
 			g_free( name );
@@ -373,7 +373,7 @@ na_exporter_to_file( const NAPivot *pivot,
 
 		} else {
 			name = exporter_get_name( exporter );
-			/* i18n: NAIExporter is an interface name, do not even try to translate */
+			/* Translators: NAIExporter is an interface name, do not even try to translate */
 			msg = g_strdup_printf( _( "%s NAIExporter doesn't implement 'to_file' interface." ), name );
 			*messages = g_slist_append( *messages, msg );
 			g_free( name );

@@ -54,7 +54,7 @@ struct _NAObjectActionPrivate {
 	gboolean dispose_has_run;
 };
 
-/* i18n: default label for a new action */
+/* Translators: default label for a new action */
 #define NEW_CAJA_ACTION				N_( "New Caja action" )
 
 extern NADataGroup action_data_groups [];		/* defined in na-object-action-factory.c */
