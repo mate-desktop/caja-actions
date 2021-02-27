@@ -30,13 +30,13 @@
 ACLOCAL_AMFLAGS = -I m4
 
 SUBDIRS = \
-	m4									\
-	icons								\
-	src									\
-	po									\
-	data								\
-	docs								\
-	tools								\
+	m4					\
+	icons					\
+	src					\
+	po					\
+	data					\
+	docs					\
+	tools					\
 	$(NULL)
 
 # - caja-extdir is a foo directory so that make distcheck has a vpath
@@ -56,43 +56,34 @@ DISTCHECK_CONFIGURE_FLAGS = \
 	CFLAGS='-Wno-deprecated-declarations' \
 	$(NULL)
 
-EXTRA_DIST =	\
-	autogen.sh                          \
-	gtk-doc.make						\
-	intltool-extract.in					\
-	intltool-merge.in					\
-	intltool-update.in					\
-	$(NULL)
-
-DISTCLEANFILES =	\
-	intltool-extract					\
-	intltool-merge						\
-	intltool-update						\
+EXTRA_DIST = \
+	autogen.sh				\
+	gtk-doc.make				\
 	$(NULL)
 
 # Though the Mate doc says to add these files to DISTCLEANFILES, the
 # Automake manual states that distclean target should not remove any
-# distributed files (but leave a clean distribution)  
-MAINTAINERCLEANFILES =	\
-	gtk-doc.make		\
+# distributed files (but leave a clean distribution)
+MAINTAINERCLEANFILES = \
+	gtk-doc.make 				\
 	$(NULL)
 
 pkgdocdir = $(datarootdir)/doc/@PACKAGE@
 
-dist_pkgdoc_DATA =	\
-	AUTHORS								\
-	ChangeLog							\
-	ChangeLog-2008						\
-	ChangeLog-2009						\
-	ChangeLog-2010						\
-	ChangeLog-2011						\
-	ChangeLog-2012						\
-	COPYING								\
-	COPYING-DOCS						\
-	INSTALL								\
-	MAINTAINERS							\
-	NEWS								\
-	README								\
+dist_pkgdoc_DATA = \
+	AUTHORS					\
+	ChangeLog				\
+	ChangeLog-2008				\
+	ChangeLog-2009				\
+	ChangeLog-2010				\
+	ChangeLog-2011				\
+	ChangeLog-2012				\
+	COPYING					\
+	COPYING-DOCS				\
+	INSTALL					\
+	MAINTAINERS				\
+	NEWS					\
+	README					\
 	$(NULL)
 
 uninstall-hook:

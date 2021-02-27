@@ -5,7 +5,7 @@ src/core/na-icontext-factory.c
 src/core/na-iimporter.c
 src/core/na-importer.c
 src/core/na-importer-ask.c
-[type: gettext/glade] src/core/na-importer-ask.ui
+src/core/na-importer-ask.ui
 src/core/na-io-provider.c
 src/core/na-object-action.c
 src/core/na-object-action-factory.c
@@ -28,19 +28,19 @@ src/cact/egg-desktop-file.c
 src/cact/egg-sm-client.c
 src/cact/cact-application.c
 src/cact/cact-add-capability-dialog.c
-[type: gettext/glade] src/cact/cact-add-capability.ui
-[type: gettext/glade] src/cact/cact-add-scheme.ui
+src/cact/cact-add-capability.ui
+src/cact/cact-add-scheme.ui
 src/cact/cact-assistant-export.c
-[type: gettext/glade] src/cact/cact-assistant-export.ui
+src/cact/cact-assistant-export.ui
 src/cact/cact-assistant-import.c
-[type: gettext/glade] src/cact/cact-assistant-import.ui
+src/cact/cact-assistant-import.ui
 src/cact/cact.desktop.in
 src/cact/cact-export-ask.c
 src/cact/cact-iaction-tab.c
 src/cact/cact-ibasenames-tab.c
 src/cact/cact-icapabilities-tab.c
 src/cact/cact-icommand-tab.c
-[type: gettext/glade] src/cact/cact-icon-chooser.ui
+src/cact/cact-icon-chooser.ui
 src/cact/cact-ienvironment-tab.c
 src/cact/cact-ifolders-tab.c
 src/cact/cact-imimetypes-tab.c
@@ -51,14 +51,14 @@ src/cact/cact-match-list.c
 src/cact/cact-menubar.c
 src/cact/cact-menubar-edit.c
 src/cact/cact-menubar-file.c
-[type: gettext/glade] src/cact/cact-preferences.ui
+src/cact/cact-preferences.ui
 src/cact/cact-preferences-editor.c
 src/cact/cact-providers-list.c
 src/cact/cact-schemes-list.c
 src/cact/cact-tree-model.c
 src/cact/cact-tree-model-dnd.c
 src/cact/cact-tree-view.c
-[type: gettext/glade] src/cact/caja-actions-config-tool.ui
+src/cact/caja-actions-config-tool.ui
 src/plugin-menu/caja-actions.c
 src/test/test-reader.c
 src/utils/console-utils.c

@@ -31,8 +31,7 @@
 #include <config.h>
 #endif
 
-#include <glib/gi18n.h>
-#include <libintl.h>
+#include <glib/gi18n-lib.h>
 #include <string.h>
 #include <stdlib.h>
 

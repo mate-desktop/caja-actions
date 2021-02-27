@@ -5,7 +5,6 @@ srcdir=`dirname $0`
 test -z "$srcdir" && srcdir=.
 
 PKG_NAME="caja-actions"
-REQUIRED_INTLTOOL_VERSION=0.50.2
 
 (test -f $srcdir/configure.ac) || {
     echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
@@ -19,7 +18,7 @@ which mate-autogen || {
 }
 
 which yelp-build || {
-    echo "You need to install yelp-tools" 
+    echo "You need to install yelp-tools"
     exit 1
 }
 

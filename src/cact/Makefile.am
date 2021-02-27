@@ -198,24 +198,21 @@ ui_data_DATA = \
 	$(images_files)										\
 	$(NULL)
 
-@INTLTOOL_DESKTOP_RULE@
-
-applications_in_files = cact.desktop.in
-
-applications_files = $(applications_in_files:.desktop.in=.desktop)
-
 applicationsdir = $(datadir)/applications
+applications_in_files = cact.desktop.in
+applications_DATA = $(applications_in_files:.desktop.in=.desktop)
 
-applications_DATA = $(applications_files)
+%.desktop: %.desktop.in
+	$(AM_V_GEN) $(MSGFMT) --desktop --keyword= --keyword=Name --keyword=Comment --keyword=Keywords --template $< -d $(top_srcdir)/po -o $@
 
 CLEANFILES = \
-	$(applications_files)								\
-	$(BUILT_SOURCES)									\
+	$(applications_DATA)		\
+	$(BUILT_SOURCES)		\
 	$(NULL)
 
 EXTRA_DIST = \
-	$(applications_in_files)							\
-	$(ui_data_DATA)										\
-	base-marshal.def									\
-	cact-marshal.def									\
+	$(applications_in_files)	\
+	$(ui_data_DATA)			\
+	base-marshal.def		\
+	cact-marshal.def		\
 	$(NULL)

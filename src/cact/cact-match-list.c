@@ -31,8 +31,8 @@
 #include <config.h>
 #endif
 
+#include <glib.h>
 #include <glib/gi18n.h>
-#include <libintl.h>
 
 #include <api/na-object-api.h>
 #include <api/na-core-utils.h>
