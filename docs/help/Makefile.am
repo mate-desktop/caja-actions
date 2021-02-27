@@ -63,7 +63,10 @@ HELP_FILES = \
 
 HELP_MEDIA = $(patsubst $(srcdir)/C/%,%,$(shell \ls -1 $(srcdir)/C/figures/*.png))
 
-HELP_LINGUAS = de el es fr sl
+IGNORE_HELP_LINGUAS =
+HELP_LINGUAS = $(if $(IGNORE_HELP_LINGUAS), \
+	$(filter-out $(IGNORE_HELP_LINGUAS),$(subst /,,$(dir $(wildcard */*.po)))), \
+	$(subst /,,$(dir $(wildcard */*.po))) )
 
 # just an empty value to be able to add something for html and pdf manuals
 MAINTAINERCLEANFILES =
