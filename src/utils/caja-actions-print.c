@@ -194,33 +194,32 @@ init_options( void )
  * search for the action in the repository
  */
 static NAObjectItem *
-get_item( const gchar *id )
+get_item (const gchar *item_id)
 {
 	NAObjectItem *item = NULL;
 
-	pivot = na_pivot_new();
-	na_pivot_set_loadable( pivot, PIVOT_LOAD_ALL );
-	na_pivot_load_items( pivot );
+	pivot = na_pivot_new ();
+	na_pivot_set_loadable (pivot, PIVOT_LOAD_ALL);
+	na_pivot_load_items (pivot);
 
-	item = na_pivot_get_item( pivot, id );
-
-	if( !item ){
-		g_printerr( _( "Error: item '%s' doesn't exist.\n" ), id );
+	if ((item = na_pivot_get_item (pivot, item_id)) == NULL) {
+		g_printerr (_( "Error: item '%s' doesn't exist.\n" ), item_id);
 	}
 
-	return( item );
+	return item;
 }
 
 /*
  * displays the specified item on stdout, in the specified export format
  */
 static void
-export_item( const NAObjectItem *item, const gchar *format )
+export_item (const NAObjectItem *item,
+             const gchar        *format_str)
 {
 	GSList *messages = NULL;
 	GSList *it;
 
-	gchar *buffer = na_exporter_to_buffer( pivot, item, format, &messages );
+	gchar *buffer = na_exporter_to_buffer( pivot, item, format_str, &messages );
 
 	for( it = messages ; it ; it = it->next ){
 		g_printerr( "%s\n", ( const gchar * ) it->data );

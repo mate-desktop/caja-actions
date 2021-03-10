@@ -213,36 +213,33 @@ init_options( void )
  * search for the action in the repository
  */
 static NAObjectAction *
-get_action( const gchar *id )
+get_action (const gchar *action_id)
 {
 	NAPivot *pivot;
-	NAObjectAction *action;
+	NAObjectAction *action = NULL;
 
-	action = NULL;
+	pivot = na_pivot_new ();
+	na_pivot_set_loadable (pivot, !PIVOT_LOAD_DISABLED & !PIVOT_LOAD_INVALID);
+	na_pivot_load_items (pivot);
 
-	pivot = na_pivot_new();
-	na_pivot_set_loadable( pivot, !PIVOT_LOAD_DISABLED & !PIVOT_LOAD_INVALID );
-	na_pivot_load_items( pivot );
+	action = (NAObjectAction *) na_pivot_get_item (pivot, action_id);
 
-	action = ( NAObjectAction * ) na_pivot_get_item( pivot, id );
-
-	if( !action ){
-		g_printerr( _( "Error: action '%s' doesn't exist.\n" ), id );
-
+	if(!action){
+		g_printerr (_("Error: action '%s' doesn't exist.\n"), action_id);
 	} else {
-		if( !na_object_is_enabled( action )){
-			g_printerr( _( "Error: action '%s' is disabled.\n" ), id );
-			g_object_unref( action );
+		if (!na_object_is_enabled (action)){
+			g_printerr (_("Error: action '%s' is disabled.\n"), action_id);
+			g_object_unref (action);
 			action = NULL;
 		}
-		if( !na_object_is_valid( action )){
-			g_printerr( _( "Error: action '%s' is not valid.\n" ), id );
-			g_object_unref( action );
+		if (!na_object_is_valid (action)){
+			g_printerr (_( "Error: action '%s' is not valid.\n"), action_id);
+			g_object_unref (action);
 			action = NULL;
 		}
 	}
 
-	return( action );
+	return action;
 }
 
 /*

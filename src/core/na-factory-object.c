@@ -166,16 +166,13 @@ define_class_properties_iter( const NADataDef *def, GObjectClass *class )
 NADataDef *
 na_factory_object_get_data_def( const NAIFactoryObject *object, const gchar *name )
 {
-	NADataDef *def;
+	NADataDef *def = NULL;
 
 	g_return_val_if_fail( NA_IS_IFACTORY_OBJECT( object ), NULL );
 
-	def = NULL;
-
 	NADataGroup *groups = v_get_groups( object );
 	while( groups->group ){
-
-		NADataDef *def = groups->def;
+		def = groups->def;
 		if( def ){
 			while( def->name ){
 
