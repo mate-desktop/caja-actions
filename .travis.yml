@@ -55,7 +55,7 @@ deploy:
     on:
       tags: true
       condition: "${TRAVIS_TAG} =~ ^v.*$ && ${DISTRO} =~ ^fedora.*$"
-https://mate-desktop.github.io/caja-actions/
+
 after_success:
   - 'if [[ "$TRAVIS_SECURE_ENV_VARS" == "true" && "$TRAVIS_PULL_REQUEST" != "false" && ${DISTRO} =~ ^fedora.*$ ]]; then
         REPO_SLUG_ARRAY=(${TRAVIS_REPO_SLUG//\// });
