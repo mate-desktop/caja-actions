@@ -56,14 +56,14 @@ struct _CactMenubarClassPrivate {
 
 static const GtkActionEntry entries[] = {
 
-		{ "FileMenu",          NULL, N_( "_File" ) },
-		{ "EditMenu",          NULL, N_( "_Edit" ) },
-		{ "ViewMenu",          NULL, N_( "_View" ) },
-		{ "ViewToolbarMenu",   NULL, N_( "_Toolbars" ) },
-		{ "ToolsMenu",         NULL, N_( "_Tools" ) },
-		{ "MaintainerMenu",    NULL, N_( "_Maintainer" ) },
-		{ "HelpMenu",          NULL, N_( "_Help" ) },
-		{ "NotebookLabelMenu", NULL, N_( "Notebook _tabs" ) },
+		{ "FileMenu",          NULL, N_("_File"),          NULL, NULL, NULL },
+		{ "EditMenu",          NULL, N_("_Edit"),          NULL, NULL, NULL },
+		{ "ViewMenu",          NULL, N_("_View"),          NULL, NULL, NULL },
+		{ "ViewToolbarMenu",   NULL, N_("_Toolbars"),      NULL, NULL, NULL },
+		{ "ToolsMenu",         NULL, N_("_Tools"),         NULL, NULL, NULL },
+		{ "MaintainerMenu",    NULL, N_("_Maintainer"),    NULL, NULL, NULL },
+		{ "HelpMenu",          NULL, N_("_Help"),          NULL, NULL, NULL },
+		{ "NotebookLabelMenu", NULL, N_("Notebook _tabs"), NULL, NULL, NULL },
 
 		{ "NewMenuItem", NULL, N_( "New _menu" ), NULL,
 				/* Translators: tooltip displayed in the status bar when selecting the 'New menu' item */
