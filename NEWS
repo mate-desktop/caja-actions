@@ -1,6 +1,37 @@
 ### caja-actions 1.25.0
 
-  * prebump version
+    tx: pull from transifex
+    cact-menubar: missing initializer for a field of ‘GtkActionEntry’
+    Remove shadow warnings [-Wshadow]
+    test: remove execution bit from source files
+    caja-actions.pot: use UTF-8 charset
+    COPYING-DOCS: fix urls
+    COPYING: fix typo
+    na-boxed: redundant redeclaration of 'bool_to_string'
+    build: remove m4 files
+    i18n: capture comments that go to catalogs
+    build: remove generated files by GLIB_GENMARSHAL
+    Help: improve selecting of linguas
+    build: migrate intltool to gettext
+    i18: allow translator to be in translator-credits
+    build: Use MATE_COMPILE_WARNINGS from mate-common
+    add makepot script
+    rename cact dir to help
+    Update Copyright
+    fix typo in DISTCHECK_CONFIGURE_FLAGS
+    egg-sm-client: avoid deprecated 'g_type_class_add_private'
+    cact-menubar.c: Fix labels in menus
+    cact-menubar.c: avoid deprecated GtkStock
+    fix typo: 'unknown' instead 'unknwon'
+    disable deprecation warnings for distcheck
+    drop broken gtk-docs generation
+    avoid 'gtk_file_chooser_dialog_new' with stock ids
+    Fix FTCBFS: lintian tag autotools-pkg-config-macro-not-cross-compilation-safe.
+    WidthOfScreen and HeightOfScreen implementation
+    avoid deprecated gdk_screen_get_width/height
+    avoid deprecated gtk_show_uri
+    avoid deprecated gdk_screen_make_display_name
+    avoid deprecated gdk_display_get_screen
 
 ### caja-actions 1.8.3
 
