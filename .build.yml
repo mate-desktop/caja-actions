@@ -3,7 +3,6 @@
 ##########################################################
 requires:
   archlinux:
-    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/atril
     - autoconf-archive
     - caja
     - clang
@@ -21,7 +20,7 @@ requires:
 
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
-    # Useful URL: https://salsa.debian.org/debian-mate-team/atril
+    # Useful URL: https://salsa.debian.org/debian-mate-team/caja-actions
     - autopoint
     - clang
     - clang-tools
@@ -41,7 +40,7 @@ requires:
     - yelp-tools
 
   fedora:
-    # Useful URL: https://src.fedoraproject.org/cgit/rpms/atril.git
+    # Useful URL: https://src.fedoraproject.org/cgit/rpms/caja-actions.git
     - autoconf-archive
     - caja-devel
     - clang

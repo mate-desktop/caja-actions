@@ -63,7 +63,7 @@ HELP_FILES = \
 
 HELP_MEDIA = $(patsubst $(srcdir)/C/%,%,$(shell \ls -1 $(srcdir)/C/figures/*.png))
 
-IGNORE_HELP_LINGUAS =
+IGNORE_HELP_LINGUAS = ko
 HELP_LINGUAS = $(if $(IGNORE_HELP_LINGUAS), \
 	$(filter-out $(IGNORE_HELP_LINGUAS),$(subst /,,$(dir $(wildcard */*.po)))), \
 	$(subst /,,$(dir $(wildcard */*.po))) )
