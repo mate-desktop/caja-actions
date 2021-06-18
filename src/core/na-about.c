@@ -5,6 +5,8 @@
  * Copyright (C) 2005 The GNOME Foundation
  * Copyright (C) 2006-2008 Frederic Ruaudel and others (see AUTHORS)
  * Copyright (C) 2009-2012 Pierre Wieser and others (see AUTHORS)
+ * Copyright (C) 2013-2020 Wolfgang Ulbrich (see AUTHORS)
+ * Copyright (C) 2021 The MATE developers
  *
  * Caja-Actions is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General  Public  License  as
@@ -24,6 +26,7 @@
  *   Frederic Ruaudel <grumz@grumz.net>
  *   Rodrigo Moya <rodrigo@mate-db.org>
  *   Pierre Wieser <pwieser@trychlos.org>
+ *   Wolfgang Ulbrich <mate@raveit.de>
  *   ... and many others (see AUTHORS)
  */
 
@@ -157,9 +160,9 @@ na_about_get_copyright( gboolean console )
 	symbol = g_strdup( console ? "(C)" : "\xc2\xa9");
 
 	copyright = g_strdup_printf(
-			_( "Copyright %s 2005 The GNOME Foundation\n"
-				"Copyright %s 2006-2008 Frederic Ruaudel <grumz@grumz.net>\n"
-				"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>" ), symbol, symbol, symbol );
+			_( "Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+				"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+				"Copyright %s 2021 The MATE developers" ), symbol, symbol, symbol );
 
 	g_free( symbol );
 

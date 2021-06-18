@@ -197,8 +197,10 @@
       The first version of &prodname; was initially written by
       Frederic Ruaudel (<email>grumz@grumz.net</email>) and
       Rodrigo Moya (<email>rodrigo@gnome-db.org</email>).
-      It has been thoroughly improved and is currently maintained by
-      Pierre Wieser (<email>pwieser@trychlos.org</email>).
+      It has been thoroughly improved by
+      Pierre Wieser (<email>pwieser@trychlos.org</email>)
+      and Wolfgang Ulbrich (<email>mate@raveit.de</email>).
+      It is currently maintained by MATE developers.
     </para>
     <para>
       Artwork is due to courtesy of
@@ -213,7 +215,7 @@
       or you may prefer, at your convenience, directly open a bug
       or a request for enhancement in
       <ulink
-       url="https://github.com/NiceandGently/caja-actions/issues"
+       url="https://github.com/mate-desktop/caja-actions/issues"
        type="http">Bugzilla website</ulink>.
     </para>
   </sect1>

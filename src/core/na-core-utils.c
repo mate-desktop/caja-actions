@@ -5,6 +5,8 @@
  * Copyright (C) 2005 The GNOME Foundation
  * Copyright (C) 2006-2008 Frederic Ruaudel and others (see AUTHORS)
  * Copyright (C) 2009-2012 Pierre Wieser and others (see AUTHORS)
+ * Copyright (C) 2013-2020 Wolfgang Ulbrich (see AUTHORS)
+ * Copyright (C) 2021 The MATE developers
  *
  * Caja-Actions is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General  Public  License  as
@@ -24,6 +26,7 @@
  *   Frederic Ruaudel <grumz@grumz.net>
  *   Rodrigo Moya <rodrigo@mate-db.org>
  *   Pierre Wieser <pwieser@trychlos.org>
+ *   Wolfgang Ulbrich <mate@raveit.de>
  *   ... and many others (see AUTHORS)
  */
 
@@ -1211,6 +1214,8 @@ na_core_utils_file_load_from_uri( const gchar *uri, gsize *length )
  *   caja-actions-new (Caja-Actions) v 2.29.1
  *   Copyright (C) 2005-2007 Frederic Ruaudel
  *   Copyright (C) 2009, 2010, 2011, 2012 Pierre Wieser
+ *   Copyright (C) 2013-2020 Wolfgang Ulbrich
+ *   Copyright (C) 2021 The MATE developers
  *   Caja-Actions is free software, licensed under GPLv2 or later.
  * </programlisting>
  *
