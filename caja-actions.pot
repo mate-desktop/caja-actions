@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.25.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
-"POT-Creation-Date: 2021-05-29 16:28+0200\n"
+"POT-Creation-Date: 2021-06-18 17:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,7 @@ msgstr ""
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
 msgstr ""
 
-#: src/core/na-about.c:69
+#: src/core/na-about.c:72
 msgid ""
 "Caja-Actions Configuration Tool is free software; you can redistribute it "
 "and/or modify it under the terms of the GNU General Public License as "
@@ -52,7 +52,7 @@ msgid ""
 "or (at your option) any later version."
 msgstr ""
 
-#: src/core/na-about.c:73
+#: src/core/na-about.c:76
 msgid ""
 "Caja-Actions Configuration Tool is distributed in the hope that it will be "
 "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
@@ -60,7 +60,7 @@ msgid ""
 "Public License for more details."
 msgstr ""
 
-#: src/core/na-about.c:77
+#: src/core/na-about.c:80
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "Caja-Actions Configuration Tool ; if not, write to the Free Software "
@@ -68,25 +68,25 @@ msgid ""
 "USA."
 msgstr ""
 
-#: src/core/na-about.c:99
+#: src/core/na-about.c:102
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr ""
 
-#: src/core/na-about.c:105
+#: src/core/na-about.c:108
 msgid "translator-credits"
 msgstr ""
 
 #. Translators: title of the About dialog box, when seen from Caja file manager
-#: src/core/na-about.c:126
+#: src/core/na-about.c:129
 msgid "Caja-Actions"
 msgstr ""
 
-#: src/core/na-about.c:160
+#: src/core/na-about.c:163
 #, c-format
 msgid ""
-"Copyright %s 2005 The GNOME Foundation\n"
-"Copyright %s 2006-2008 Frederic Ruaudel <grumz@grumz.net>\n"
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>"
+"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright %s 2021 The MATE developers"
 msgstr ""
 
 #: src/core/na-desktop-environment.c:39
