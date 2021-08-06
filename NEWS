@@ -1,3 +1,9 @@
+### caja-actions 1.26.0
+
+    tx: pull from transifex
+    fix debian: disable korean language for user guide
+    update copyright to 2021
+
 ### caja-actions 1.25.0
 
     tx: pull from transifex
