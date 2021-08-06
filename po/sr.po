@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the caja-actions package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 22:16+0100\n"
+"Project-Id-Version: caja-actions 1.25.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
+"POT-Creation-Date: 2021-06-18 17:09+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
@@ -21,36 +21,36 @@ msgstr ""
 "Language: sr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../src/core/na-exporter.c:53 ../src/core/na-importer.c:87
+#: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
 msgstr "_Питај ме"
 
-#: ../src/core/na-exporter.c:54
+#: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
 "Бићете упитани да изаберете формат сваки пут када ће се извести нека ставка."
 
-#. i18n: NAIExporter is an interface name, do not even try to translate
-#: ../src/core/na-exporter.c:60
+#. Translators: NAIExporter is an interface name, do not even try to translate
+#: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
 msgstr "Нисам нашао НАИИзвозника за формат „%s“."
 
-#. i18n: NAIExporter is an interface name, do not even try to translate
-#: ../src/core/na-exporter.c:304
+#. Translators: NAIExporter is an interface name, do not even try to translate
+#: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
 msgstr "„%s“ НАИИзвозник не примењује „to_buffer“ сучеље."
 
-#. i18n: NAIExporter is an interface name, do not even try to translate
-#: ../src/core/na-exporter.c:377
+#. Translators: NAIExporter is an interface name, do not even try to translate
+#: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
 msgstr "„%s“ НАИИзвозник не примењује „to_file“ сучеље."
 
-#: ../src/core/na-about.c:70
+#: src/core/na-about.c:72
 msgid ""
 "Caja-Actions Configuration Tool is free software; you can redistribute it "
 "and/or modify it under the terms of the GNU General Public License as "
@@ -62,7 +62,7 @@ msgstr ""
 "Задужбина слободног софтвера; издања 2 лиценце или (по вашем избору) било "
 "којег новијег издања."
 
-#: ../src/core/na-about.c:74
+#: src/core/na-about.c:76
 msgid ""
 "Caja-Actions Configuration Tool is distributed in the hope that it will be "
 "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
@@ -74,7 +74,7 @@ msgstr ""
 "ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ. Погледајте Гнуову Општу јавну лиценцу за "
 "више детаља."
 
-#: ../src/core/na-about.c:78
+#: src/core/na-about.c:80
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Caja-Actions Configuration Tool ; if not, write to the Free Software "
@@ -86,63 +86,66 @@ msgstr ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA“."
 
-#. i10n: "Caja actions" here is not a typo; this does not refer to the
-#. * Caja-Actions product, but to the actions which are to be added to Caja
-#: ../src/core/na-about.c:100
+#: src/core/na-about.c:102
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr "Графичко сучеље за стварање и уређивање Цајиних радњи."
 
-#: ../src/core/na-about.c:106
-msgid "The MATE Translation Project <mate-i18n@gnome.org>"
-msgstr "Мејтов преводилачки пројекат <mate-i18n@gnome.org>"
+#: src/core/na-about.c:108
+msgid "translator-credits"
+msgstr ""
+"Мирослав Николић <miroslavnikolic@rocketmail.com>; 2012—2021.\n"
+"\n"
+"http://prevod.org — превод на српски језик."
 
-#. i18n: title of the About dialog box, when seen from Caja file manager
-#: ../src/core/na-about.c:127
+#. Translators: title of the About dialog box, when seen from Caja file
+#. manager
+#: src/core/na-about.c:129
 msgid "Caja-Actions"
 msgstr "Цаја-Радње"
 
-#: ../src/core/na-about.c:161
+#: src/core/na-about.c:163
 #, c-format
 msgid ""
-"Copyright %s 2005 The GNOME Foundation\n"
-"Copyright %s 2006-2008 Frederic Ruaudel <grumz@grumz.net>\n"
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>"
+"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright %s 2021 The MATE developers"
 msgstr ""
-"Ауторска права %s 2005 Гномова Фондација\n"
-"Ауторска права %s 2006-2008 Фредерик Руаудел <grumz@grumz.net>\n"
-"Ауторска права %s 2009-2012 Пјер Вајзер <pwieser@trychlos.org>"
+"Ауторска права %s 2009-2012 Пјер Вјезер <pwieser@trychlos.org>\n"
+"Ауторска права %s 2013-2020 Волфганг Улбрих <mate@raveit.de>\n"
+"Ауторска права %s 2021 Програмери Мејта"
 
-#: ../src/core/na-desktop-environment.c:39
+#: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
 msgstr "Мејтова радна површ"
 
-#: ../src/core/na-desktop-environment.c:40
+#: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
 msgstr "КДЕ радна површ"
 
-#: ../src/core/na-desktop-environment.c:41
+#: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
 msgstr "ЛИксДЕ радна површ"
 
-#: ../src/core/na-desktop-environment.c:42
+#: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
 msgstr "РОКс радна површ"
 
-#: ../src/core/na-desktop-environment.c:43
+#: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
 msgstr "ИксФЦЕ радна површ"
 
-#: ../src/core/na-desktop-environment.c:44
+#: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
 msgstr "Стари системи"
 
-#: ../src/core/na-icontext-factory.c:51
+#: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
 msgstr "Списак шаблона за упоређивање са изабраном датотеком/фасциклом"
 
-#. i18n: wildcard characters '*' and '?' should be considered as literals,
+#. Translators: wildcard characters '*' and '?' should be considered as
+#. literals,
 #. *  and not be translated
-#: ../src/core/na-icontext-factory.c:54
+#: src/core/na-icontext-factory.c:54
 msgid ""
 "A list of strings with joker '*' or '?' to be matched against the name(s) of the selected file(s)/folder(s). Each selected item must match at least one of the filename patterns for the action or the menu be candidate to display.\n"
 "This obviously only applies when there is a selection.\n"
@@ -152,9 +155,10 @@ msgstr ""
 "Ово се наравно примењује само када постоји избор.\n"
 "Основно је *."
 
-#. i18n: wildcard characters '*' and '?' should be considered as literalls,
+#. Translators: wildcard characters '*' and '?' should be considered as
+#. literalls,
 #. *  and not be translated
-#: ../src/core/na-icontext-factory.c:75
+#: src/core/na-icontext-factory.c:75
 msgid ""
 "A pattern to be matched against basenames of selected file(s)/folder(s). May"
 " include wildcards (* or ?). You must set one option for each pattern you "
@@ -164,22 +168,22 @@ msgstr ""
 "укључити џокере (* или ?). Морате поставити једну опцију за сваки потребан "
 "шаблон"
 
-#. i18n: the "<EXPR>" is just an abbreviation for "an expression",
+#. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
-#. i18n: "<EXPR>" is just an abbreviation for "an expression", so is
+#. Translators: "<EXPR>" is just an abbreviation for "an expression", so is
 #. tranlatable
-#: ../src/core/na-icontext-factory.c:80 ../src/core/na-icontext-factory.c:139
-#: ../src/core/na-icontext-factory.c:358
+#: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
+#: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
 msgstr "<ИЗРАЗ>"
 
-#: ../src/core/na-icontext-factory.c:86
+#: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
 msgstr "Да ли наведени називи основе разликују величину слова (основно)"
 
-#. i18n: 'true' and 'false' values are taken literally, and should not be
-#. translated
-#: ../src/core/na-icontext-factory.c:88
+#. Translators: 'true' and 'false' values are taken literally, and should not
+#. be translated
+#: src/core/na-icontext-factory.c:88
 msgid ""
 "Must be set to 'true' if the filename patterns are case sensitive, to 'false' otherwise. E.g., if you need to match a filename in a case-sensitive manner, set this key to 'true'. If you also want, for example '*.jpg' to match 'photo.JPG', then set 'false'.\n"
 "This obviously only applies when there is a selection.\n"
@@ -189,16 +193,16 @@ msgstr ""
 "Ово се наравно примењује само када постоји избор.\n"
 "Основно је „true“."
 
-#: ../src/core/na-icontext-factory.c:114
+#: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
 msgstr ""
 "Списак шаблона за упоређивање са миме врстама изабране датотеке/фасцикле"
 
-#. i18n: wildcard character '*' is taken literally, and should not be
+#. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
-#: ../src/core/na-icontext-factory.c:116
+#: src/core/na-icontext-factory.c:116
 msgid ""
 "A list of strings with joker '*' to be matched against the mimetypes of the selected file(s)/folder(s). Each selected item must match at least one of the mimetype patterns for the action to appear.\n"
 "This obviously only applies when there is a selection.\n"
@@ -208,9 +212,9 @@ msgstr ""
 "Ово се наравно примењује само када постоји избор.\n"
 "Основно је */*."
 
-#. i18n: wildcard character '*' is taken literally, and should not be
+#. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
-#: ../src/core/na-icontext-factory.c:135
+#: src/core/na-icontext-factory.c:135
 msgid ""
 "A pattern to be matched against mimetypes of selected file(s)/folder(s). May"
 " include the asterisk wildcard '*'. You must set one option for each pattern"
@@ -219,14 +223,14 @@ msgstr ""
 "Шаблон за упоређивање са миме врстама изабране датотеке/фасцикле. Може "
 "укључити џокер *. Морате поставити једну опцију за сваки потребан шаблон"
 
-#: ../src/core/na-icontext-factory.c:179
+#: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
 msgstr ""
 "Да ли се профил примењује на датотеке (застарела опција, видите миме врсту)"
 
-#. i18n: 'true' and 'false' values are taken literally, and should not be
-#. translated
-#: ../src/core/na-icontext-factory.c:181
+#. Translators: 'true' and 'false' values are taken literally, and should not
+#. be translated
+#: src/core/na-icontext-factory.c:181
 msgid ""
 "Set to 'true' if the selection can have files, to 'false' otherwise.\n"
 "This setting is tied in with the 'isdir' setting. The valid combinations are: \n"
@@ -246,15 +250,15 @@ msgstr ""
 "Ово се наравно примењује само када постоји избор.\n"
 "Основно је „true“ (изабрано)."
 
-#: ../src/core/na-icontext-factory.c:210
+#: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
 msgstr ""
 "Да ли се профил примењује на фасцикле (застарела опција, видите миме врсту)"
 
-#. i18n: 'true' and 'false' values are taken literally, and should not be
-#. translated
-#: ../src/core/na-icontext-factory.c:212
+#. Translators: 'true' and 'false' values are taken literally, and should not
+#. be translated
+#: src/core/na-icontext-factory.c:212
 msgid ""
 "Set to 'true' if the selection can have folders, to 'false' otherwise.\n"
 "This setting is tied in with the 'isfile' setting. The valid combinations are: \n"
@@ -274,16 +278,16 @@ msgstr ""
 "Ово се наравно примењује само када постоји избор.\n"
 "Основно је „false“ (изабрано)."
 
-#: ../src/core/na-icontext-factory.c:244
+#: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
 "Да ли избор може бити вишеструк (застарела опција, видите број избора)"
 
-#. i18n: 'true' and 'false' values are taken literally, and should not be
-#. translated
-#: ../src/core/na-icontext-factory.c:246
+#. Translators: 'true' and 'false' values are taken literally, and should not
+#. be translated
+#: src/core/na-icontext-factory.c:246
 msgid ""
 "If you need more than one files or folders to be selected, set this key to 'true'. If you want just one file or folder, set it to 'false'.\n"
 "This obviously only applies when there is a selection.\n"
@@ -293,16 +297,15 @@ msgstr ""
 "Ово се наравно примењује само када постоји избор.\n"
 "Основно је „false“."
 
-#: ../src/core/na-icontext-factory.c:270
+#: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
 msgstr "Списак шema за упоређивање са изабраном датотеком/фасциклом"
 
-#. too long string for iso c: 510 (max=509)
-#. i18n: schemes (sftp, ssh, ftp, file, etc.) are standard keywords which
-#. define
+#. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
+#. which define
 #. *  the access protocol to an object, they should not be translated
-#: ../src/core/na-icontext-factory.c:274
+#: src/core/na-icontext-factory.c:274
 msgid ""
 "Defines the list of valid schemes to be matched against the selected items. The scheme is the protocol used to access the files. The keyword to use is the one used in the URI by the file manager.\n"
 "Examples of valid URI include:\n"
@@ -332,7 +335,7 @@ msgstr ""
 "Наравно ово се примењује само када постоји избор или када се циља на посебну „x-caja-desktop“ шему.\n"
 "Основно је „file“ (датотека)."
 
-#: ../src/core/na-icontext-factory.c:303
+#: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
@@ -340,23 +343,22 @@ msgstr ""
 "Исправна ГИО шема где се изабрана датотека/фасцикла треба сместити. Морате "
 "поставити једну опцију за сваку шему која вам је потребна"
 
-#. i18n: "<STRING>" is just an abbreviation for "a string", so is tranlatable
-#: ../src/core/na-icontext-factory.c:306
-#: ../src/core/na-object-action-factory.c:175
-#: ../src/core/na-object-item-factory.c:112
-#: ../src/core/na-object-item-factory.c:136
-#: ../src/core/na-object-profile-factory.c:182 ../src/utils/na-set-conf.c:63
-#: ../src/utils/na-set-conf.c:65 ../src/utils/na-set-conf.c:68
-#: ../src/utils/na-set-conf.c:70 ../src/utils/caja-actions-print.c:62
-#: ../src/utils/caja-actions-print.c:65 ../src/utils/caja-actions-run.c:60
+#. Translators: "<STRING>" is just an abbreviation for "a string", so is
+#. tranlatable
+#: src/core/na-icontext-factory.c:306 src/core/na-object-action-factory.c:175
+#: src/core/na-object-item-factory.c:112 src/core/na-object-item-factory.c:136
+#: src/core/na-object-profile-factory.c:182 src/utils/na-set-conf.c:63
+#: src/utils/na-set-conf.c:65 src/utils/na-set-conf.c:68
+#: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
+#: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
 msgstr "<НИСКА>"
 
-#: ../src/core/na-icontext-factory.c:312
+#: src/core/na-icontext-factory.c:312
 msgid "List of folders"
 msgstr "Списак фасцикли"
 
-#: ../src/core/na-icontext-factory.c:313
+#: src/core/na-icontext-factory.c:313
 msgid ""
 "Defines the list of valid paths to be matched against the current folder.\n"
 " All folders 'under' the specified path are considered valid.\n"
@@ -366,7 +368,7 @@ msgstr ""
 " Све фасцикле „под“ наведеном путањом се сматрају исправним.\n"
 "Основно је /."
 
-#: ../src/core/na-icontext-factory.c:329
+#: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
@@ -374,20 +376,19 @@ msgstr ""
 "Путања (полазног) директоријума за сваку ставку биће приказана. Морате "
 "поставити једну опцију за сваку фасциклу која вам је потребна"
 
-#. i18n: "<PATH>" is just an abbreviation for "a folder path", so is
+#. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
-#. i18n: "<PATH>" is the path to a binary, so may be tranlatable
-#: ../src/core/na-icontext-factory.c:332 ../src/core/na-icontext-factory.c:433
-#: ../src/core/na-icontext-factory.c:486
-#: ../src/core/na-object-profile-factory.c:117
+#. Translators: "<PATH>" is the path to a binary, so may be tranlatable
+#: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
+#: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
 msgstr "<ПУТАЊА>"
 
-#: ../src/core/na-icontext-factory.c:338
+#: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
 msgstr "Оператер изабраног односа укупности"
 
-#: ../src/core/na-icontext-factory.c:339
+#: src/core/na-icontext-factory.c:339
 msgid ""
 "Whether this profile may be selected depending of the count of the selection.\n"
 "This is a string of the form \"{'<'|'='|'>'} number\".\n"
@@ -399,19 +400,19 @@ msgstr ""
 "Примери исправних ниски су: „=0“, „> 1“, „< 10“.\n"
 "Основно је „>0“."
 
-#: ../src/core/na-icontext-factory.c:356
+#: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
 msgstr "Однос укупности избора [>0]"
 
-#: ../src/core/na-icontext-factory.c:364
+#: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
 msgstr "Приказује само у окружењу"
 
-#: ../src/core/na-icontext-factory.c:365
+#: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
 msgstr "Основно је све."
 
-#: ../src/core/na-icontext-factory.c:379
+#: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
@@ -419,21 +420,21 @@ msgstr ""
 "Назив јединог окружења радне површи где се ставка мора приказати. Морате "
 "поставити једну опцију за свако окружење које желите"
 
-#. i18n: "<DESKTOP>" is just a placeholder for "a desktop name", so is
+#. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
-#: ../src/core/na-icontext-factory.c:382 ../src/core/na-icontext-factory.c:406
+#: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
 msgstr "<РАДНА ПОВРШ>"
 
-#: ../src/core/na-icontext-factory.c:388
+#: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
 msgstr "Не приказује у окружењу"
 
-#: ../src/core/na-icontext-factory.c:389
+#: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
 msgstr "Основно је ништа."
 
-#: ../src/core/na-icontext-factory.c:403
+#: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
@@ -441,12 +442,13 @@ msgstr ""
 "Назив окружења радне површи где ставка не сме приказати. Морате поставити "
 "једну опцију за свако окружење које желите"
 
-#: ../src/core/na-icontext-factory.c:412
+#: src/core/na-icontext-factory.c:412
 msgid "Try exec"
 msgstr "Покушава извршење"
 
-#. i18n: TryExec is a keyword of the specification, it is not translatable
-#: ../src/core/na-icontext-factory.c:414
+#. Translators: TryExec is a keyword of the specification, it is not
+#. translatable
+#: src/core/na-icontext-factory.c:414
 msgid ""
 "Note that, when specified, only the presence and the executability status of the specified file are checked.\n"
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
@@ -456,17 +458,17 @@ msgstr ""
 "Параметри се могу јавити у вредности „TryExec“, а биће замењени у време извршења.\n"
 "Основно је успешно."
 
-#: ../src/core/na-icontext-factory.c:431
+#: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
 msgstr "путања до датотеке чија ће извршивост бити проверена"
 
-#: ../src/core/na-icontext-factory.c:439
+#: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
 msgstr "Приказује ако је регистрована"
 
-#. i18n: ShowIfRegistered is a keyword of the specification, it is not
+#. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
-#: ../src/core/na-icontext-factory.c:441
+#: src/core/na-icontext-factory.c:441
 msgid ""
 "The well-known name of a DBus service.\n"
 "The item will be candidate if the named service is registered on session DBus at runtime.\n"
@@ -478,21 +480,22 @@ msgstr ""
 "Параметри се могу јавити у вредности „ShowIfRegistered“, а биће замењени у време извршења.\n"
 "Основно је успешно."
 
-#: ../src/core/na-icontext-factory.c:458
+#: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
 msgstr "Назив услуге која мора бити регистрована на Д-сабирници сесије"
 
-#: ../src/core/na-icontext-factory.c:459 ../src/core/na-icontext-factory.c:512
-#: ../src/core/na-icontext-factory.c:545
+#: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
+#: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
 msgstr "<НАЗИВ>"
 
-#: ../src/core/na-icontext-factory.c:465
+#: src/core/na-icontext-factory.c:465
 msgid "Show if True"
 msgstr "Приказује ако је изабрано"
 
-#. i18n: ShowIfTrue is a keyword of the specification, it is not translatable
-#: ../src/core/na-icontext-factory.c:467
+#. Translators: ShowIfTrue is a keyword of the specification, it is not
+#. translatable
+#: src/core/na-icontext-factory.c:467
 msgid ""
 "A command which, when executed, should output a string on stdout.\n"
 "The item will be candidate if the outputed string is equal to \"true\".\n"
@@ -504,18 +507,18 @@ msgstr ""
 "Параметри се могу јавити у вредности „ShowIfTrue“, а биће замењени у време извршења.\n"
 "Основно је успешно."
 
-#. i18n: 'true' is to be taken as a literal, must not be translated
-#: ../src/core/na-icontext-factory.c:485
+#. Translators: 'true' is to be taken as a literal, must not be translated
+#: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
 msgstr "Путања до наредбе која ће приказати ниску „true“ (изабрано)"
 
-#: ../src/core/na-icontext-factory.c:492
+#: src/core/na-icontext-factory.c:492
 msgid "Show if running"
 msgstr "Приказује ако ради"
 
-#. i18n: ShowIfRunning is a keyword of the specification, it is not
+#. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
-#: ../src/core/na-icontext-factory.c:494
+#: src/core/na-icontext-factory.c:494
 msgid ""
 "The name of a process.\n"
 "The item will be candidate if the process name is found in memory at runtime.\n"
@@ -527,18 +530,18 @@ msgstr ""
 "Параметри се могу јавити у вредности „ShowIfRunning“, а биће замењени у време извршења.\n"
 "Основно је успешно."
 
-#: ../src/core/na-icontext-factory.c:511
+#: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
 msgstr "Назив извршне која мора бити у извршењу"
 
-#: ../src/core/na-icontext-factory.c:518
+#: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
 msgstr "Могућности"
 
-#. i18n: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are all
-#. keywords
+#. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
+#. all keywords
 #. *  of the specification; they are not translatable
-#: ../src/core/na-icontext-factory.c:521
+#: src/core/na-icontext-factory.c:521
 msgid ""
 "A list of capabilities each item of the selection must satisfy in order for the item to be candidate.\n"
 "Capabilities may be negated.\n"
@@ -560,7 +563,7 @@ msgstr ""
 "- 'Local': изабране ставке су локалне.\n"
 "Основно је празан списак."
 
-#: ../src/core/na-icontext-factory.c:543
+#: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
@@ -569,14 +572,14 @@ msgstr ""
 "„Readable“ (за читање), „Writable“ (за писање), „Executable“ (за извршавање)"
 " или „Local“ (месно)"
 
-#: ../src/core/na-iimporter.c:239 ../src/core/na-importer.c:293
+#: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
 "Ставка је пренумерисана зато што позивар није доставио никакву функцију "
 "провере."
 
-#: ../src/core/na-iimporter.c:254
+#: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
@@ -584,33 +587,33 @@ msgstr ""
 "Ставка је пренумерисана зато што позивар није доставио никакву функцију "
 "питања корисника."
 
-#: ../src/core/na-iimporter.c:273 ../src/core/na-importer.c:326
+#: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
 msgstr "Ставка је пренумерисана услед захтева корисника."
 
-#: ../src/core/na-iimporter.c:279 ../src/core/na-importer.c:335
+#: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
 msgstr "Постојећа ставка је прескочена услед захтева корисника."
 
-#: ../src/core/na-iimporter.c:286 ../src/core/na-importer.c:344
+#: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
 msgstr "Ставка „%s“ већ постоји."
 
-#: ../src/core/na-iimporter.c:288 ../src/core/na-importer.c:350
+#: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
 msgstr "Увоз је отказан услед захтева корисника."
 
-#. i18n: the action has been renumbered during import operation
-#: ../src/core/na-iimporter.c:311 ../src/core/na-importer.c:417
+#. Translators: the action has been renumbered during import operation
+#: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
 msgstr "(пренумерисана)"
 
-#: ../src/core/na-importer.c:58
+#: src/core/na-importer.c:58
 msgid "Do _not import the item"
 msgstr "Немој _увести ставку"
 
-#: ../src/core/na-importer.c:59
+#: src/core/na-importer.c:59
 msgid ""
 "This used to be the historical behavior.\n"
 "The selected file will be marked as \"NOT OK\" in the Summary page.\n"
@@ -620,11 +623,11 @@ msgstr ""
 "Изабрана датотека биће означена као „НИЈЕ У РЕДУ“ на страници сажетка.\n"
 "Изабрана ставка неће бити измењена."
 
-#: ../src/core/na-importer.c:66
+#: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
 msgstr "Увези ставку, _доделивши јој нови одредник"
 
-#: ../src/core/na-importer.c:67
+#: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
@@ -632,11 +635,11 @@ msgstr ""
 "Изабрана датотека биће увезена са мало измењеним натписом који показује пренумерисање.\n"
 "Постојећа ставка неће бити измењена."
 
-#: ../src/core/na-importer.c:74
+#: src/core/na-importer.c:74
 msgid "_Override the existing item"
 msgstr "_Препиши постојећу ставку"
 
-#: ../src/core/na-importer.c:75
+#: src/core/na-importer.c:75
 msgid ""
 "The item found in the selected file will silently override the current one which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
@@ -644,25 +647,24 @@ msgstr ""
 "Ставка пронађена у изабраној датотеци ће неприметно преписати постојећу која има исти одредник.\n"
 "Упозорење: овај режим може бити опасан. Нећете бити упитани још једном."
 
-#: ../src/core/na-importer.c:88
+#: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
 msgstr "Бићете упитани сваки пут када већ постоји увезени ИБ."
 
-#. i18n: '%s' stands for the file URI
-#: ../src/core/na-importer.c:101
+#. Translators: '%s' stands for the file URI
+#: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
 msgstr ""
 "„%s“ се не може учитати (или је празна или превелика или није обична "
 "датотека)"
 
-#. l10n: 'ImporterAskDialog' is the dialog name: do not translate
-#: ../src/core/na-importer-ask.c:270
+#: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
 msgstr "Не могу да учитам „ImporterAskDialog“ из „%s“"
 
-#: ../src/core/na-importer-ask.c:398
+#: src/core/na-importer-ask.c:398
 #, c-format
 msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
@@ -670,7 +672,7 @@ msgid ""
 msgstr ""
 "Радња „%s“ увезена из „%s“ има истог одредника као већ постојећа „%s“."
 
-#: ../src/core/na-importer-ask.c:404
+#: src/core/na-importer-ask.c:404
 #, c-format
 msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
@@ -678,19 +680,19 @@ msgid ""
 msgstr ""
 "Изборник „%s“ увезен из „%s“ има истог одредника као већ постојећи „%s“."
 
-#: ../src/core/na-importer-ask.ui.h:1
+#: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
 msgstr "Већ постојећа ставка"
 
-#: ../src/core/na-importer-ask.ui.h:2
+#: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
 msgstr "Шта треба да урадим са овим ?"
 
-#: ../src/core/na-importer-ask.ui.h:3
+#: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
 msgstr "_Запамти мој избор у будућим радњама увоза"
 
-#: ../src/core/na-io-provider.c:69
+#: src/core/na-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
@@ -698,39 +700,39 @@ msgstr ""
 "Будите тако љубазни да попуните извештај о грешци на "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 
-#: ../src/core/na-io-provider.c:1364
+#: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
 msgstr "Недоступан У/И достављач."
 
-#: ../src/core/na-io-provider.c:1368
+#: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
 msgstr "Примени У/И достављача недостаје захтевани АПИ."
 
-#: ../src/core/na-io-provider.c:1372
+#: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
 msgstr "У/И достављач не жели да пише."
 
-#: ../src/core/na-io-provider.c:1376
+#: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
 msgstr "У/И достављач објављује да не може да пише."
 
-#: ../src/core/na-io-provider.c:1380
+#: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
 msgstr "У/И достављач је закључан од стране администратора."
 
-#: ../src/core/na-io-provider.c:1384
+#: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
 msgstr "У/И достављач је закључан од стране корисника."
 
-#: ../src/core/na-io-provider.c:1388
+#: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
 msgstr "Ставка је само за читање."
 
-#: ../src/core/na-io-provider.c:1392
+#: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
 msgstr "Нисам нашао уписивог У/И достављача."
 
-#: ../src/core/na-io-provider.c:1397
+#: src/core/na-io-provider.c:1397
 #, c-format
 msgid ""
 "Item is not writable for an unknown reason (%d).\n"
@@ -739,11 +741,11 @@ msgstr ""
 "Ставка није уписива због непознатог разлога (%d).\n"
 "%s"
 
-#: ../src/core/na-io-provider.c:1420
+#: src/core/na-io-provider.c:1420
 msgid "OK."
 msgstr "У реду."
 
-#: ../src/core/na-io-provider.c:1424
+#: src/core/na-io-provider.c:1424
 #, c-format
 msgid ""
 "Program flow error.\n"
@@ -752,23 +754,23 @@ msgstr ""
 "Грешка програмског тока.\n"
 "%s"
 
-#: ../src/core/na-io-provider.c:1428
+#: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
 msgstr "У/И достављач не жели ово да ради."
 
-#: ../src/core/na-io-provider.c:1432
+#: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
 msgstr "Грешка писања у У/И достављачу."
 
-#: ../src/core/na-io-provider.c:1436
+#: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
 msgstr "Не могу да обришем шеме подешавања Мејта."
 
-#: ../src/core/na-io-provider.c:1440
+#: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
 msgstr "Не могу да обришем подешавање."
 
-#: ../src/core/na-io-provider.c:1444
+#: src/core/na-io-provider.c:1444
 #, c-format
 msgid ""
 "Unknown return code (%d).\n"
@@ -777,20 +779,20 @@ msgstr ""
 "Непознат код излаза (%d).\n"
 "%s"
 
-#. i18n: default label for a new action
-#: ../src/core/na-object-action.c:59
+#. Translators: default label for a new action
+#: src/core/na-object-action.c:58
 msgid "New Caja action"
 msgstr "Нова радња Цаје"
 
-#: ../src/core/na-object-action.c:492
+#: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
 msgstr "Профил аутоматски створен из „pre-v2“ радње"
 
-#: ../src/core/na-object-action-factory.c:80
+#: src/core/na-object-action-factory.c:80
 msgid "Targets the selection context menu"
 msgstr "Циља на приручни изборник избора"
 
-#: ../src/core/na-object-action-factory.c:81
+#: src/core/na-object-action-factory.c:81
 msgid ""
 "Whether the action targets the selection file manager context menus.\n"
 "This used to be the historical behavior.\n"
@@ -802,15 +804,15 @@ msgstr ""
 "Знајте да су изборници увек потенцијални кандидати за приказ у приручним изборницима избора када садрже барем једну радњу.\n"
 "Основно је „TRUE“ (изабрано)."
 
-#: ../src/core/na-object-action-factory.c:99
+#: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
 msgstr "Циља на приручни изборник избора [true]"
 
-#: ../src/core/na-object-action-factory.c:106
+#: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
 msgstr "Циља на приручни изборник места"
 
-#: ../src/core/na-object-action-factory.c:107
+#: src/core/na-object-action-factory.c:107
 msgid ""
 "Whether the action targets the file manager context menus when there is no selection, thus applying to current location.\n"
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
@@ -820,15 +822,15 @@ msgstr ""
 "Знајте да су изборници увек потенцијални кандидати за приказ у приручним изборницима избора када садрже барем једну радњу.\n"
 "Основно је „FALSE“ (без избора)."
 
-#: ../src/core/na-object-action-factory.c:125
+#: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
 msgstr "Циља на приручни изборник места [false]"
 
-#: ../src/core/na-object-action-factory.c:132
+#: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
 msgstr "Циља на траку алата"
 
-#: ../src/core/na-object-action-factory.c:133
+#: src/core/na-object-action-factory.c:133
 msgid ""
 "Whether the action is candidate to be displayed in file manager toolbar.\n"
 "This only applies to current location.\n"
@@ -840,15 +842,15 @@ msgstr ""
 "Знајте да се изборници никада не приказују на траци алата.\n"
 "Основно је „FALSE“ (без избора)."
 
-#: ../src/core/na-object-action-factory.c:150
+#: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
 msgstr "Циља на траку алата [false]"
 
-#: ../src/core/na-object-action-factory.c:157
+#: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
 msgstr "Натпис ставке траке алата"
 
-#: ../src/core/na-object-action-factory.c:158
+#: src/core/na-object-action-factory.c:158
 msgid ""
 "The label displayed besides of the icon in the file manager toolbar.\n"
 "Note that actual display may depend of your own Desktop Environment preferences.\n"
@@ -858,17 +860,17 @@ msgstr ""
 "Знајте да стварни приказ може зависити од ваших личних поставки окружења радне површи.\n"
 "Подразумева натпис приручног изборника када није постављено или је празно."
 
-#. i18n: copied items have a label as 'Copy of original label'
-#: ../src/core/na-object-id.c:329
+#. Translators: copied items have a label as 'Copy of original label'
+#: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
 msgstr "Умножак од %s"
 
-#: ../src/core/na-object-item-factory.c:65
+#: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
 msgstr "Врста ставке"
 
-#: ../src/core/na-object-item-factory.c:66
+#: src/core/na-object-item-factory.c:66
 msgid ""
 "Defines if the item is an action or a menu. Possible values are :\n"
 "- 'Action',\n"
@@ -880,11 +882,11 @@ msgstr ""
 "– „Menu“ (изборник).\n"
 "Вредност разликује величину слова и мора бити у латиничном оригиналу."
 
-#: ../src/core/na-object-item-factory.c:94
+#: src/core/na-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
 msgstr "Натпис ставке приручног изборника (обавезан)"
 
-#: ../src/core/na-object-item-factory.c:95
+#: src/core/na-object-item-factory.c:95
 msgid ""
 "The label of the menu item that will appear in the file manager context menu when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
@@ -892,15 +894,15 @@ msgstr ""
 "Натпис ставке изборника који ће се појавити у приручном изборнику управника датотека када избор одговара поставкама услова изгледа.\n"
 "Користи се такође као основни за натпис траке алата неке радње."
 
-#: ../src/core/na-object-item-factory.c:99
+#: src/core/na-object-item-factory.c:99
 msgid "Empty label"
 msgstr "Празан натпис"
 
-#: ../src/core/na-object-item-factory.c:118
+#: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
 msgstr "Облачић ставке приручног изборника"
 
-#: ../src/core/na-object-item-factory.c:119
+#: src/core/na-object-item-factory.c:119
 msgid ""
 "The tooltip of the menu item that will appear in the file manager statusbar "
 "when the user points to the file manager context menu item with his/her "
@@ -910,11 +912,11 @@ msgstr ""
 "датотека када корисник мишем покаже на ставку приручног изборника управника "
 "датотека."
 
-#: ../src/core/na-object-item-factory.c:142
+#: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
 msgstr "Иконица ставке приручног изборника"
 
-#: ../src/core/na-object-item-factory.c:143
+#: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
@@ -922,15 +924,15 @@ msgstr ""
 "Иконица ставке изборника која ће се појавити поред натписа у приручном изборнику управника датотека када избор одговара поставкама услова изгледа.\n"
 "Може бити посрбљени назив темске иконице (латиницом), или пуна путања ка некој одговарајућој слици."
 
-#: ../src/core/na-object-item-factory.c:161
+#: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
 msgstr "<ПУТАЊА|НАЗИВ>"
 
-#: ../src/core/na-object-item-factory.c:191
+#: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
 msgstr "Опис који се односи на ставку"
 
-#: ../src/core/na-object-item-factory.c:192
+#: src/core/na-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
@@ -938,11 +940,11 @@ msgstr ""
 "Неки текст који описује циљ изборника или радње.\n"
 "Може се користити, нпр. приликом приказа доступних ставки на веб сајту."
 
-#: ../src/core/na-object-item-factory.c:214
+#: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
 msgstr "Предложена пречица"
 
-#: ../src/core/na-object-item-factory.c:215
+#: src/core/na-object-item-factory.c:215
 msgid ""
 "A shortcut suggested for the action or the menu.\n"
 "Please note that this might be only a suggestion as the shortcut may be already reserved for another use. Implementation should not override an already existing shortcut to define this one.\n"
@@ -954,11 +956,11 @@ msgstr ""
 "Неки од примера су: „<Ктрл>a“ или „<Шифт><Алт>F1“.\n"
 "Основно је празно."
 
-#: ../src/core/na-object-item-factory.c:268
+#: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
 msgstr "Списак иб-ова подставке"
 
-#: ../src/core/na-object-item-factory.c:269
+#: src/core/na-object-item-factory.c:269
 msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
@@ -966,11 +968,11 @@ msgstr ""
 "Уређени списак ИБ-ова подставки. Могу бити радње или изборници ако је ставка изборник, или профили ако је ставка радња.\n"
 "Ако овај списак не постоји или је празан за радњу или изборник, подставке су приложене редом по радњама читања."
 
-#: ../src/core/na-object-item-factory.c:293
+#: src/core/na-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
 msgstr "Да ли је укључена радња или изборник"
 
-#: ../src/core/na-object-item-factory.c:294
+#: src/core/na-object-item-factory.c:294
 msgid ""
 "If the or the menu action is disabled, it will never appear in the file manager context menu.\n"
 "Defaults to TRUE."
@@ -978,15 +980,15 @@ msgstr ""
 "Ако је или је радња изборника искључена, никада се неће појавити у приручном изборнику управника датотека.\n"
 "Основно је „TRUE“ (изабрано)."
 
-#: ../src/core/na-object-item-factory.c:310
+#: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
 msgstr "Да ли је укључена радња или изборник (укључено)"
 
-#: ../src/core/na-object-item-factory.c:409
+#: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
 msgstr "Издање формата"
 
-#: ../src/core/na-object-item-factory.c:410
+#: src/core/na-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward"
 " compatibility."
@@ -994,21 +996,21 @@ msgstr ""
 "Издање формата подешавања које ће се користити за управљање резервном "
 "сагласношћу."
 
-#. i18n: default label for a new menu
-#: ../src/core/na-object-menu.c:57
+#. Translators: default label for a new menu
+#: src/core/na-object-menu.c:57
 msgid "New Caja menu"
 msgstr "Нови изборник Цаје"
 
-#. i18n: label for the default profile
-#: ../src/core/na-object-profile.c:768
+#. Translators: label for the default profile
+#: src/core/na-object-profile.c:768
 msgid "Default profile"
 msgstr "Основни профил"
 
-#: ../src/core/na-object-profile-factory.c:49
+#: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
 msgstr "Назив профила"
 
-#: ../src/core/na-object-profile-factory.c:50
+#: src/core/na-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
@@ -1016,11 +1018,11 @@ msgstr ""
 "Може се користити као опис за функцију профила.\n"
 "Ако није постављено, подразумева самостворени назив."
 
-#: ../src/core/na-object-profile-factory.c:100
+#: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
 msgstr "Путања наредбе"
 
-#: ../src/core/na-object-profile-factory.c:101
+#: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
@@ -1028,12 +1030,11 @@ msgstr ""
 "Путања наредбе која ће се извршити када корисник изабере ставку изборника у "
 "приручном изборнику управника датотека или са траке алата."
 
-#: ../src/core/na-object-profile-factory.c:127
+#: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
 msgstr "Параметри наредбе"
 
-#. too long string for iso c: (max=509)
-#: ../src/core/na-object-profile-factory.c:129
+#: src/core/na-object-profile-factory.c:129
 msgid ""
 "The parameters of the command to be executed when the user selects the menu item in the file manager context menu or in the toolbar.\n"
 "The parameters may contain some special tokens which are replaced by the information provided by the file manager before starting the command:\n"
@@ -1111,11 +1112,11 @@ msgstr ""
 "  %X: списак размаком раздвојених проширења изабране датотеке/фасцикле\n"
 "  %%: знак процената."
 
-#: ../src/core/na-object-profile-factory.c:188
+#: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
 msgstr "Радни директоријум"
 
-#: ../src/core/na-object-profile-factory.c:189
+#: src/core/na-object-profile-factory.c:189
 #, c-format
 msgid ""
 "The working directory the command will be started in.\n"
@@ -1124,13 +1125,13 @@ msgstr ""
 "Радни директоријум у коме ће се покренути наредба.\n"
 "Основно је „%d“."
 
-#: ../src/core/na-object-profile-factory.c:211
+#: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
 msgstr "Режим извршења"
 
-#. i18n: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
+#. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
-#: ../src/core/na-object-profile-factory.c:213
+#: src/core/na-object-profile-factory.c:213
 msgid ""
 "Execution mode of the program.\n"
 "This may be chosen between following values:\n"
@@ -1148,11 +1149,11 @@ msgstr ""
 "- DisplayOutput: радни терминал се може затворити на крају наредбе, али стандардни токови (стандардни излаз, стандардна грешка) треба да се прикупе и прикажу; прихватљива резерва је „Terminal“.\n"
 "Основно је „Normal“."
 
-#: ../src/core/na-object-profile-factory.c:244
+#: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
 msgstr "Обавештење о покретању"
 
-#: ../src/core/na-object-profile-factory.c:245
+#: src/core/na-object-profile-factory.c:245
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to FALSE."
@@ -1160,11 +1161,11 @@ msgstr ""
 "Важи само када је „ExecutionMode=Normal“.\n"
 "Основно је „FALSE“ (без избора)."
 
-#: ../src/core/na-object-profile-factory.c:267
+#: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
 msgstr "Почетна класа управника прозора"
 
-#: ../src/core/na-object-profile-factory.c:268
+#: src/core/na-object-profile-factory.c:268
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to empty."
@@ -1172,11 +1173,11 @@ msgstr ""
 "Важи само када је „ExecutionMode=Normal“.\n"
 "Основно је празно."
 
-#: ../src/core/na-object-profile-factory.c:290
+#: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
 msgstr "Извршава као корисник"
 
-#: ../src/core/na-object-profile-factory.c:291
+#: src/core/na-object-profile-factory.c:291
 msgid ""
 "The user the command must be ran as. The user may be identified by its numeric UID or by its login.\n"
 "The profile is ignored if defined with a non-existing UID or login.\n"
@@ -1186,60 +1187,60 @@ msgstr ""
 "Профил се занемарује ако је дефинисан непостојећим УИБ-ом или пријавом.\n"
 "Основно је празно: наредба ће бити извршена за тренутног корисника."
 
-#: ../src/core/na-selected-info.c:869
+#: src/core/na-selected-info.c:869
 #, c-format
 msgid "Error when querying information for %s URI: %s"
 msgstr "Грешка приликом упита информација за „%s“ путању: %s"
 
-#: ../src/core/na-tokens.c:250
+#: src/core/na-tokens.c:250
 msgid "file:///path/to/file1.mid"
 msgstr "датотека:///путања/до/датотеке.mid"
 
-#: ../src/core/na-tokens.c:251
+#: src/core/na-tokens.c:251
 msgid "file:///path/to/file2.jpeg"
 msgstr "датотека:///путања/до/датотеке2.jpeg"
 
-#: ../src/core/na-tokens.c:252
+#: src/core/na-tokens.c:252
 msgid "audio/x-midi"
 msgstr "звук/x-midi"
 
-#: ../src/core/na-tokens.c:253
+#: src/core/na-tokens.c:253
 msgid "image/jpeg"
 msgstr "слика/jpeg"
 
-#: ../src/core/na-tokens.c:255
+#: src/core/na-tokens.c:255
 msgid "test.example.net"
 msgstr "тест.пример.net"
 
-#: ../src/core/na-tokens.c:256
+#: src/core/na-tokens.c:256
 msgid "user"
 msgstr "корисник"
 
-#: ../src/core/na-tokens.c:431
+#: src/core/na-tokens.c:431
 msgid "Output of the run command"
 msgstr "Излаз наредбе извршења"
 
-#: ../src/core/na-tokens.c:439
+#: src/core/na-tokens.c:439
 msgid "Run command:"
 msgstr "Наредба извршења:"
 
-#: ../src/core/na-tokens.c:440
+#: src/core/na-tokens.c:440
 msgid "Standard output:"
 msgstr "Стандардни излаз:"
 
-#: ../src/core/na-tokens.c:441
+#: src/core/na-tokens.c:441
 msgid "Standard error:"
 msgstr "Стандардна грешка:"
 
-#: ../src/io-desktop/cadp-desktop-provider.c:259
+#: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
 msgstr "Достављач У/И радне површи Цаја-Радњи"
 
-#: ../src/io-desktop/cadp-formats.c:56
+#: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
 msgstr "Извези као „._desktop“ датотеку"
 
-#: ../src/io-desktop/cadp-formats.c:57
+#: src/io-desktop/cadp-formats.c:56
 msgid ""
 "This format has been introduced with v 3.0 series. and should be your newly preferred format when exporting items.\n"
 "It let you easily share your actions with the whole world, including with users of other desktop environments, as long as their own application implements the DES-EMA specification which describes this format.\n"
@@ -1255,116 +1256,116 @@ msgstr ""
 "– превлачењем и убацивањем у алат подешавања Цаја-Радњи,\n"
 "– или умножавањем у директоријум „XDG_DATA_DIRS/file-manager/actions“."
 
-#: ../src/io-desktop/cadp-reader.c:64
+#: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
 msgstr "Достављач У/И радне површи не може да ради са путањом"
 
-#. i18n: 'type' is the nature of the item: Action or Menu
-#: ../src/io-desktop/cadp-reader.c:292
+#. Translators: 'type' is the nature of the item: Action or Menu
+#: src/io-desktop/cadp-reader.c:292
 #, c-format
 msgid "unknown type: %s"
 msgstr "непозната врста: %s"
 
-#: ../src/cact/base-application.c:186
+#: src/cact/base-application.c:186
 msgid "Arguments count"
 msgstr "Број аргумената"
 
-#: ../src/cact/base-application.c:187
+#: src/cact/base-application.c:187
 msgid "The count of command-line arguments"
 msgstr "Број аргумената линије наредби"
 
-#: ../src/cact/base-application.c:194
+#: src/cact/base-application.c:194
 msgid "Arguments"
 msgstr "Аргументи"
 
-#: ../src/cact/base-application.c:195
+#: src/cact/base-application.c:195
 msgid "The array of command-line arguments"
 msgstr "Низ аргумената линије наредби"
 
-#: ../src/cact/base-application.c:202
+#: src/cact/base-application.c:202
 msgid "Option entries"
 msgstr "Уноси опције"
 
-#: ../src/cact/base-application.c:203
+#: src/cact/base-application.c:203
 msgid "The array of command-line option definitions"
 msgstr "Низ дефиниција опције линије наредби"
 
-#: ../src/cact/base-application.c:209
+#: src/cact/base-application.c:209
 msgid "Application name"
 msgstr "Назив програма"
 
-#: ../src/cact/base-application.c:210
+#: src/cact/base-application.c:210
 msgid "The name of the application"
 msgstr "Назив програма"
 
-#: ../src/cact/base-application.c:217 ../src/cact/cact-schemes-list.c:167
+#: src/cact/base-application.c:217 src/cact/cact-schemes-list.c:167
 msgid "Description"
 msgstr "Опис"
 
-#: ../src/cact/base-application.c:218
+#: src/cact/base-application.c:218
 msgid "A short description to be displayed in the first line of --help output"
 msgstr "Кратак опис који ће бити приказан у првом реду излаза „--help“"
 
-#: ../src/cact/base-application.c:225
+#: src/cact/base-application.c:225
 msgid "Icon name"
 msgstr "Назив иконице"
 
-#: ../src/cact/base-application.c:226
+#: src/cact/base-application.c:226
 msgid "The name of the icon of the application"
 msgstr "Назив иконице програма"
 
-#: ../src/cact/base-application.c:233
+#: src/cact/base-application.c:233
 msgid "UniqueApp name"
 msgstr "Јединствени назив програма"
 
-#: ../src/cact/base-application.c:234
+#: src/cact/base-application.c:234
 msgid "The Unique name of the application"
 msgstr "Јединствени назив програма"
 
-#: ../src/cact/base-application.c:241
+#: src/cact/base-application.c:241
 msgid "Return code"
 msgstr "Резултирајући код"
 
-#: ../src/cact/base-application.c:242
+#: src/cact/base-application.c:242
 msgid "The return code of the application"
 msgstr "Резултирајући код програма"
 
-#: ../src/cact/base-application.c:605
+#: src/cact/base-application.c:605
 msgid "Unable to interpret command-line arguments"
 msgstr "Не може да протумачи аргументе линије наредби"
 
-#: ../src/cact/base-assistant.c:151
+#: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
 msgstr "Излази на „Escape“"
 
-#: ../src/cact/base-assistant.c:152
+#: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
 msgstr "Да ли помоћник треба да „Изађе“ када корисник притисне „Escape“ ?"
 
-#: ../src/cact/base-assistant.c:159
+#: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
 msgstr "Упозорава на „Escape“"
 
-#: ../src/cact/base-assistant.c:160
+#: src/cact/base-assistant.c:160
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
 msgstr ""
 "Да ли треба да пита корисника за потврду када излази из помоћника на "
 "„Escape“ ?"
 
-#: ../src/cact/base-assistant.c:460
+#: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
 msgstr "Да ли сигурно желите да изађете из овог помоћника ?"
 
-#: ../src/cact/base-gtk-utils.c:392
+#: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
 msgstr "_Откажи"
 
-#: ../src/cact/base-gtk-utils.c:394
+#: src/cact/base-gtk-utils.c:394
 msgid "_Open"
 msgstr "_Отвори"
 
-#: ../src/cact/base-iunique.c:204
+#: src/cact/base-iunique.c:204
 #, c-format
 msgid ""
 "Another instance of %s is already running.\n"
@@ -1373,243 +1374,240 @@ msgstr ""
 "Други примерак „%s“ већ ради.\n"
 "Пребаците се на њега."
 
-#: ../src/cact/base-iunique.c:207
+#: src/cact/base-iunique.c:207
 msgid "The application is not unique"
 msgstr "Програм није јединствен"
 
-#: ../src/cact/base-window.c:204
+#: src/cact/base-window.c:204
 msgid "XML UI filename"
 msgstr "Назив датотеке ИксМЛ корисничког сучеља"
 
-#: ../src/cact/base-window.c:205
+#: src/cact/base-window.c:205
 msgid "The filename which contains the XML UI definition"
 msgstr "Назив датотеке који садржи дефиницију ИксМЛ корисничког сучеља"
 
-#: ../src/cact/base-window.c:212
+#: src/cact/base-window.c:212
 msgid "Has its own GtkBuilder"
 msgstr "Има сопственог Гтк градитеља"
 
-#: ../src/cact/base-window.c:213
+#: src/cact/base-window.c:213
 msgid ""
 "Whether this BaseWindow reallocates a new GtkBuilder each time it is opened"
 msgstr ""
 "Да ли овај основни прозор поново додељује новог Гтк градитеља сваки пут када"
 " се отвори"
 
-#: ../src/cact/base-window.c:220
+#: src/cact/base-window.c:220
 msgid "Toplevel name"
 msgstr "Назив највишег нивоа"
 
-#: ../src/cact/base-window.c:221
+#: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
 msgstr "Унутрашњи назиив Гтк изградивог прозора највишег нивоа"
 
-#: ../src/cact/base-window.c:228
+#: src/cact/base-window.c:228
 msgid "BaseApplication"
 msgstr "Основни програм"
 
-#: ../src/cact/base-window.c:229
+#: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
 msgstr "Показивач (а не упута) ка примерку основног програма"
 
-#: ../src/cact/base-window.c:235 ../src/cact/cact-tree-model.c:225
+#: src/cact/base-window.c:235 src/cact/cact-tree-model.c:225
 msgid "Parent BaseWindow"
 msgstr "Полазни основни прозор"
 
-#: ../src/cact/base-window.c:236
+#: src/cact/base-window.c:236
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of this BaseWindow"
 msgstr ""
 "Показивач (а не упута) ка полазном основном прозору овог основног прозора"
 
-#: ../src/cact/base-window.c:242
+#: src/cact/base-window.c:242
 msgid "WSP name"
 msgstr "Назив величине и положаја прозора"
 
-#: ../src/cact/base-window.c:243
+#: src/cact/base-window.c:243
 msgid ""
 "The string which handles the window size and position in user preferences"
 msgstr ""
 "Ниска која рукује величином и положајем прозора у корисничким поставкама"
 
-#: ../src/cact/base-window.c:250
+#: src/cact/base-window.c:250
 msgid "Destroy the Gtk toplevel"
 msgstr "Уништава највиши ниво Гтк-а"
 
-#: ../src/cact/base-window.c:251
+#: src/cact/base-window.c:251
 msgid "Whether the embedded Gtk Toplevel should be destroyed at dispose time"
 msgstr "Да ли уграђени највиши ниво Гтк-а треба бити уништен у време уклањања"
 
-#: ../src/cact/base-window.c:735
+#: src/cact/base-window.c:735
 #, c-format
 msgid "Unable to load %s UI XML definition: %s"
 msgstr "Не могу да учитам ИксМЛ дефиницују „%s“ корисничког сучеља: %s"
 
-#: ../src/cact/base-window.c:750
+#: src/cact/base-window.c:750
 #, c-format
 msgid "Unable to load %s dialog definition."
 msgstr "Не могу да учитам дефиницују „%s“ прозорчета."
 
-#: ../src/cact/egg-desktop-file.c:165
-#, c-format
+#: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
 msgstr "Ово није исправна „.desktop“ датотека"
 
-#: ../src/cact/egg-desktop-file.c:188
+#: src/cact/egg-desktop-file.c:188
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
 msgstr "Непозната датотека радне површи издање „%s“"
 
-#: ../src/cact/egg-desktop-file.c:957
+#: src/cact/egg-desktop-file.c:957
 #, c-format
 msgid "Starting %s"
 msgstr "Покрећем „%s“"
 
-#: ../src/cact/egg-desktop-file.c:1098
-#, c-format
+#: src/cact/egg-desktop-file.c:1098
 msgid "Application does not accept documents on command line"
 msgstr "Програм не прихвата документа из линије наредби"
 
-#: ../src/cact/egg-desktop-file.c:1166
+#: src/cact/egg-desktop-file.c:1166
 #, c-format
 msgid "Unrecognized launch option: %d"
 msgstr "Непозната опција покретања: %d"
 
-#: ../src/cact/egg-desktop-file.c:1364
-#, c-format
+#: src/cact/egg-desktop-file.c:1364
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr "Не могу да проследим адресе докумената на „Type=Link“ унос"
 
-#: ../src/cact/egg-desktop-file.c:1385
-#, c-format
+#: src/cact/egg-desktop-file.c:1385
 msgid "Not a launchable item"
 msgstr "Није ставка за покретање"
 
-#: ../src/cact/egg-sm-client.c:235
+#: src/cact/egg-sm-client.c:235
 msgid "Disable connection to session manager"
 msgstr "Искључује везу са управником сесије"
 
-#: ../src/cact/egg-sm-client.c:238
+#: src/cact/egg-sm-client.c:238
 msgid "Specify file containing saved configuration"
 msgstr "Наводи датотеку која садржи сачувана подешавања"
 
-#: ../src/cact/egg-sm-client.c:238
+#: src/cact/egg-sm-client.c:238
 msgid "FILE"
 msgstr "ДАТОТЕКА"
 
-#: ../src/cact/egg-sm-client.c:241
+#: src/cact/egg-sm-client.c:241
 msgid "Specify session management ID"
 msgstr "Наводи ИБ управника сесије"
 
-#: ../src/cact/egg-sm-client.c:241
+#: src/cact/egg-sm-client.c:241
 msgid "ID"
 msgstr "ИБ"
 
-#: ../src/cact/egg-sm-client.c:263
+#: src/cact/egg-sm-client.c:263
 msgid "Session management options:"
 msgstr "Опције управљања сесијом:"
 
-#: ../src/cact/egg-sm-client.c:264
+#: src/cact/egg-sm-client.c:264
 msgid "Show session management options"
 msgstr "Приказује опције управљања сесијом"
 
-#: ../src/cact/cact-application.c:57 ../src/cact/cact.desktop.in.h:1
+#: src/cact/cact-application.c:57 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
 msgstr "Алат подешавања Цаја-Радњи"
 
-#: ../src/cact/cact-application.c:58
+#: src/cact/cact-application.c:58
 msgid "A user interface to edit your own contextual actions"
 msgstr "Корисничко сучеље за уређивање ваших сопственик контекстуалних радњи"
 
-#: ../src/cact/cact-application.c:66
+#: src/cact/cact-application.c:66
 msgid "Set it to run multiple instances of the program [unique]"
 msgstr "Поставља да покрене више примерака програма [unique]"
 
-#: ../src/cact/cact-application.c:68
+#: src/cact/cact-application.c:68
 msgid "Output the version number, and exit gracefully [no]"
 msgstr "Исписује број издања, и излази достојанствено [no]"
 
-#: ../src/cact/cact-add-capability-dialog.c:74
+#: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
 msgstr "Корисник је власник ставке"
 
-#: ../src/cact/cact-add-capability-dialog.c:75
+#: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
 msgstr "Стаку може да чита корисник"
 
-#: ../src/cact/cact-add-capability-dialog.c:76
+#: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
 msgstr "Стаку може да пише корисник"
 
-#: ../src/cact/cact-add-capability-dialog.c:77
+#: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
 msgstr "Стаку може да изврши корисник"
 
-#: ../src/cact/cact-add-capability-dialog.c:78
+#: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
 msgstr "Ставка је локална"
 
-#. i18n: add a comment when a capability is already used by current item
-#: ../src/cact/cact-add-capability-dialog.c:525
+#. Translators: add a comment when a capability is already used by current
+#. item
+#: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
 msgstr "%s (већ је уметнута)"
 
-#: ../src/cact/cact-add-capability.ui.h:1
+#: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
 msgstr "Додавање нове могућности"
 
-#: ../src/cact/cact-add-capability.ui.h:2
+#: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
 msgstr "<b>Управљане могућностима</b>"
 
-#: ../src/cact/cact-add-scheme.ui.h:1
+#: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
 msgstr "Додавање нове шеме"
 
-#: ../src/cact/cact-add-scheme.ui.h:2
+#: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
 msgstr "<b>Шема</b>"
 
-#: ../src/cact/cact-assistant-export.c:781
+#: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
 msgstr "Извоз је отказан услед радње корисника."
 
-#. i18n: action as been successfully exported to <filename>
-#: ../src/cact/cact-assistant-export.c:846
+#. Translators: action as been successfully exported to <filename>
+#: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
 msgstr "Успешно је извезена као"
 
-#: ../src/cact/cact-assistant-export.c:875
+#: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
 msgstr "Не можете имати дозволу за писање у изабраној фасцикли."
 
-#: ../src/cact/cact-assistant-export.ui.h:1
+#: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
 msgstr "Извоз радње"
 
-#: ../src/cact/cact-assistant-export.ui.h:2
+#: src/cact/cact-assistant-export.ui:96
 msgid "Which format should I choose to export it ?"
 msgstr "Који формат да изаберем за извоз?"
 
-#: ../src/cact/cact-assistant-export.ui.h:3
+#: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
 msgstr "_Запамти мој избор у будућим радњама извоза"
 
-#: ../src/cact/cact-assistant-export.ui.h:4
+#: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
 msgstr "Извоз радњи"
 
-#: ../src/cact/cact-assistant-export.ui.h:5
+#: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
 msgstr "Овај помоћник ће вас водити кроз поступак извоза радњи."
 
-#: ../src/cact/cact-assistant-export.ui.h:6
+#: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
 msgstr "_Списак радњи:"
 
-#: ../src/cact/cact-assistant-export.ui.h:7
+#: src/cact/cact-assistant-export.ui:267
 msgid ""
 "Please select one or more actions to be exported.\n"
 "\n"
@@ -1619,247 +1617,253 @@ msgstr ""
 "\n"
 "Можете користити „Ктрл“ и „Шифт“ да проширите избор."
 
-#: ../src/cact/cact-assistant-export.ui.h:10
+#: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
 msgstr "Бирање извезених радњи"
 
-#: ../src/cact/cact-assistant-export.ui.h:11
+#: src/cact/cact-assistant-export.ui:327
 msgid "Selecting the target folder"
 msgstr "Бирање циљне фасцикле"
 
-#: ../src/cact/cact-assistant-export.ui.h:12
+#: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
 msgstr "Који формат да користим када извозим ове ставке?"
 
-#: ../src/cact/cact-assistant-export.ui.h:13
+#: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
 msgstr "Бирање формата извеза"
 
-#: ../src/cact/cact-assistant-export.ui.h:14
+#: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
 msgstr "Извозите изабране ставке:"
 
-#: ../src/cact/cact-assistant-export.ui.h:15
+#: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
 msgstr "У одредишну фасциклу:"
 
-#: ../src/cact/cact-assistant-export.ui.h:16
-#: ../src/cact/cact-assistant-import.ui.h:8
+#: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
 msgstr "Сажетак"
 
-#: ../src/cact/cact-assistant-export.ui.h:17
+#: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
 msgstr "Изабране ставке су обрађене:"
 
-#: ../src/cact/cact-assistant-export.ui.h:18
+#: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
 msgstr "Извоз је готов"
 
-#. i18n: indicate that the file has been successfully imported
-#: ../src/cact/cact-assistant-import.c:765
+#. Translators: indicate that the file has been successfully imported
+#: src/cact/cact-assistant-import.c:765
 msgid "Import OK"
 msgstr "Увоз је у реду"
 
-#. i18n: this is the globally unique identifier and the label of the newly
-#. imported action
-#: ../src/cact/cact-assistant-import.c:769
+#. Translators: this is the globally unique identifier and the label of the
+#. newly imported action
+#: src/cact/cact-assistant-import.c:769
 #, c-format
 msgid "Id.: %s\t%s"
 msgstr "Иб.: %s\t%s"
 
-#. i18n: indicate that the file was not imported
-#: ../src/cact/cact-assistant-import.c:779
+#. Translators: indicate that the file was not imported
+#: src/cact/cact-assistant-import.c:779
 msgid "Not imported"
 msgstr "Није увезена"
 
-#: ../src/cact/cact-assistant-import.ui.h:1
+#: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
 msgstr "Увоз радњи"
 
-#: ../src/cact/cact-assistant-import.ui.h:2
+#: src/cact/cact-assistant-import.ui:19
 msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
 msgstr ""
 "Овај помоћник ће вас водити кроз поступак увоза ставки, радњи или изборника."
 
-#: ../src/cact/cact-assistant-import.ui.h:3
+#: src/cact/cact-assistant-import.ui:55
 msgid "Selecting files to import"
 msgstr "Бирање датотека за увоз"
 
-#: ../src/cact/cact-assistant-import.ui.h:4
+#: src/cact/cact-assistant-import.ui:81
 msgid "What should I do when importing an item whose ID already exists ?"
 msgstr "Шта да радим када увозим ставку чији ИБ већ постоји?"
 
-#: ../src/cact/cact-assistant-import.ui.h:5
+#: src/cact/cact-assistant-import.ui:122
 msgid "Managing duplicates"
 msgstr "Рад са дупликатима"
 
-#: ../src/cact/cact-assistant-import.ui.h:6
+#: src/cact/cact-assistant-import.ui:163
 msgid "About to import selected files:"
 msgstr "Увозите изабране датотеке:"
 
-#: ../src/cact/cact-assistant-import.ui.h:7
+#: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
 msgstr "Приликом увоза ставке чији ИБ већ постоји:"
 
-#: ../src/cact/cact-assistant-import.ui.h:9
+#: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
 msgstr "Изабране датотеке су обрађене:"
 
-#: ../src/cact/cact-assistant-import.ui.h:10
+#: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
 msgstr "Увоз је готов"
 
-#: ../src/cact/cact.desktop.in.h:2
+#: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
 msgstr "Подесите ставке које ће бити додате приручним изборницима Цаје"
 
-#. i18n: The action <label> is about to be exported
-#: ../src/cact/cact-export-ask.c:401
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: src/cact/cact.desktop.in:13
+msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
+msgstr ""
+"цаја;радње;подешавање;алат;поставке;Мејт;прегледник "
+"датотека;caja;actions;configuration;tool;settings;MATE;filebrowser;"
+
+#. Translators: The action <label> is about to be exported
+#: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
 msgstr "Радња „%s“ ће бити извезена."
 
-#. i18n: The menu <label> is about to be exported
-#: ../src/cact/cact-export-ask.c:404
+#. Translators: The menu <label> is about to be exported
+#: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
 msgstr "Изборник „%s“ ће бити извезен."
 
-#: ../src/cact/cact-iaction-tab.c:617
+#: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
 msgstr "Опрез: натпис је обавезан за радњу или изборник."
 
-#: ../src/cact/cact-ibasenames-tab.c:219
+#: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
 msgstr "Филтер назива основе"
 
-#: ../src/cact/cact-icapabilities-tab.c:198
+#: src/cact/cact-icapabilities-tab.c:198
 msgid "Capability filter"
 msgstr "Филтер могућности"
 
-#: ../src/cact/cact-icommand-tab.c:567
+#: src/cact/cact-icommand-tab.c:567
 msgid "Choosing a command"
 msgstr "Бира наредбу"
 
-#: ../src/cact/cact-icommand-tab.c:607
+#: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
 msgstr "Бира радни директоријум"
 
-#: ../src/cact/cact-icon-chooser.ui.h:1
+#: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
 msgstr "Бирач иконице"
 
-#: ../src/cact/cact-icon-chooser.ui.h:2
+#: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
 msgstr "_Темске иконице"
 
-#: ../src/cact/cact-icon-chooser.ui.h:3
+#: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
 msgstr "Иконице по _путањи"
 
-#: ../src/cact/cact-ienvironment-tab.c:71
+#: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
 msgstr "(изричито мање од)"
 
-#: ../src/cact/cact-ienvironment-tab.c:72
+#: src/cact/cact-ienvironment-tab.c:72
 msgid "(equal to)"
 msgstr "(једнако са)"
 
-#: ../src/cact/cact-ienvironment-tab.c:73
+#: src/cact/cact-ienvironment-tab.c:73
 msgid "(strictly greater than)"
 msgstr "(изричито веће од)"
 
-#: ../src/cact/cact-ienvironment-tab.c:769
-#: ../src/cact/cact-ienvironment-tab.c:827
+#: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
 msgstr "Бира извршну"
 
-#: ../src/cact/cact-ifolders-tab.c:203
+#: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
 msgstr "Филтер фасцикле"
 
-#. i18n: title of the FileChoose dialog when selecting an URI which
+#. Translators: title of the FileChoose dialog when selecting an URI which
 #. * will be compare to Caja 'current_folder'
-#: ../src/cact/cact-ifolders-tab.c:263 ../src/cact/cact-ifolders-tab.c:291
+#: src/cact/cact-ifolders-tab.c:263 src/cact/cact-ifolders-tab.c:291
 msgid "Select a folder"
 msgstr "Изаберите фасциклу"
 
-#: ../src/cact/cact-imimetypes-tab.c:203
+#: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
 msgstr "Филтер миме врсте"
 
-#. i18n: label of the push button when there is not yet any shortcut
-#: ../src/cact/cact-iproperties-tab.c:53
-#: ../src/cact/caja-actions-config-tool.ui.h:233
+#. Translators: label of the push button when there is not yet any shortcut
+#: src/cact/cact-iproperties-tab.c:53
+#: src/cact/caja-actions-config-tool.ui:3375
 msgid "None"
 msgstr "Ништа"
 
-#: ../src/cact/cact-iproperties-tab.c:288
+#: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
 msgstr "_Изборник"
 
-#: ../src/cact/cact-iproperties-tab.c:289
+#: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
 msgstr "<b>Својства изборника за уређивање</b>"
 
-#: ../src/cact/cact-iproperties-tab.c:291
-#: ../src/cact/caja-actions-config-tool.ui.h:95
+#: src/cact/cact-iproperties-tab.c:291
+#: src/cact/caja-actions-config-tool.ui:1197
 msgid "_Action"
 msgstr "_Радња"
 
-#: ../src/cact/cact-iproperties-tab.c:292
-#: ../src/cact/caja-actions-config-tool.ui.h:237
+#: src/cact/cact-iproperties-tab.c:292
+#: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
 msgstr "<b>Својства радње за уређивање</b>"
 
-#: ../src/cact/cact-ischemes-tab.c:201
+#: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
 msgstr "Филтер шеме"
 
-#: ../src/cact/cact-main-window.c:344
+#: src/cact/cact-main-window.c:344
 msgid "Current NAObjectItem"
 msgstr "Тренутна ставка НА објекта"
 
-#: ../src/cact/cact-main-window.c:345
+#: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
 msgstr "Показивач ка тренутно уређеној ставци НА објекта, радња или изборник"
 
-#: ../src/cact/cact-main-window.c:351
+#: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
 msgstr "Тренутни профил НА објекта"
 
-#: ../src/cact/cact-main-window.c:352
+#: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
 msgstr "Показивач ка тренутно уређеном профилу НА објекта"
 
-#: ../src/cact/cact-main-window.c:358
+#: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
 msgstr "Тренутни НАИ контекст"
 
-#: ../src/cact/cact-main-window.c:359
+#: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
 msgstr "Показивач ка тренутно уређеном НАИ контексту"
 
-#: ../src/cact/cact-main-window.c:365
+#: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
 msgstr "Ставка за уређивање?"
 
-#: ../src/cact/cact-main-window.c:366
+#: src/cact/cact-main-window.c:366
 msgid "Whether the item will be able to be updated against its I/O provider"
 msgstr "Да ли ће ставка можи да се освежи наспрам свог У/И достављача"
 
-#: ../src/cact/cact-main-window.c:373
+#: src/cact/cact-main-window.c:373
 msgid "No edition reason"
 msgstr "Нема ралога уређивања"
 
-#: ../src/cact/cact-main-window.c:374
+#: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
 msgstr "Зашто се ова ставка не може уређивати"
 
-#: ../src/cact/cact-main-window.c:1267
+#: src/cact/cact-main-window.c:1267
 msgid ""
 "One or more actions have been modified in the filesystem.\n"
 "You could keep to work with your current list of actions, or you may want to reload a fresh one."
@@ -1867,7 +1871,7 @@ msgstr ""
 "Измењена је једна или више радњи на систему датотека.\n"
 "Можете наставити да радите са вашим тренутним списком радњи, или можете пожелети поново да учитате свеж списак."
 
-#: ../src/cact/cact-main-window.c:1274
+#: src/cact/cact-main-window.c:1274
 msgid ""
 "Note that reloading a fresh list of actions requires that you give up with "
 "your current modifications."
@@ -1875,11 +1879,11 @@ msgstr ""
 "Знајте да поновно учитавање свежег списка радњи захтева да одустанете од "
 "ваших тренутних измена."
 
-#: ../src/cact/cact-main-window.c:1280
+#: src/cact/cact-main-window.c:1280
 msgid "Do you want to reload a fresh list of actions ?"
 msgstr "Да ли желите поново да учитате свеж списак радњи?"
 
-#: ../src/cact/cact-main-window.c:1303
+#: src/cact/cact-main-window.c:1303
 msgid ""
 "Reloading a fresh list of actions requires that you give up with your "
 "current modifications."
@@ -1887,34 +1891,33 @@ msgstr ""
 "Поновно учитавање свежег списка радњи захтева да одустанете од ваших "
 "тренутних измена."
 
-#: ../src/cact/cact-main-window.c:1306
+#: src/cact/cact-main-window.c:1306
 msgid "Do you really want to do this ?"
 msgstr "Да ли заиста желите то?"
 
-#: ../src/cact/cact-main-window.c:1424
-#, c-format
+#: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
 msgstr "Неке ставке су измењене."
 
-#: ../src/cact/cact-main-window.c:1425
+#: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
 msgstr "Да ли сигурно желите да изађете без њиховог чувања?"
 
-#: ../src/cact/cact-match-list.c:88
+#: src/cact/cact-match-list.c:88
 msgid "Must match one of"
 msgstr "Мора одговарати једном од"
 
-#: ../src/cact/cact-match-list.c:89
+#: src/cact/cact-match-list.c:89
 msgid "Must match all of"
 msgstr "Мора одговарати свим"
 
-#. i18n: label of the header of a column which let the user select a negative
-#. filter
-#: ../src/cact/cact-match-list.c:245
+#. Translators: label of the header of a column which let the user select a
+#. negative filter
+#: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
 msgstr "Не сме одговарати ни једном од"
 
-#: ../src/cact/cact-match-list.c:548
+#: src/cact/cact-match-list.c:548
 #, c-format
 msgid ""
 "'%s' filter already exists in the list.\n"
@@ -1923,154 +1926,159 @@ msgstr ""
 "Филтер „%s“ већ постоји на списку.\n"
 "Доставите неки други."
 
-#. i18n notes : new filter for a new row in a match/no match list
-#: ../src/cact/cact-match-list.c:926
+#: src/cact/cact-match-list.c:926
 msgid "new-filter"
 msgstr "нови-филтер"
 
-#: ../src/cact/cact-menubar.c:59 ../src/cact/cact-menubar.c:170
+#: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
 msgstr "_Датотека"
 
-#: ../src/cact/cact-menubar.c:60 ../src/cact/cact-menubar.c:174
+#: src/cact/cact-menubar.c:60 src/cact/cact-menubar.c:174
 msgid "_Edit"
 msgstr "_Уређивање"
 
-#: ../src/cact/cact-menubar.c:61
+#: src/cact/cact-menubar.c:61
 msgid "_View"
 msgstr "_Преглед"
 
-#: ../src/cact/cact-menubar.c:62
+#: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
 msgstr "_Трака алата"
 
-#: ../src/cact/cact-menubar.c:63 ../src/cact/cact-menubar.c:178
+#: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
 msgstr "_Алати"
 
-#: ../src/cact/cact-menubar.c:64
+#: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
 msgstr "_Одржавалац"
 
-#: ../src/cact/cact-menubar.c:65 ../src/cact/cact-menubar.c:182
+#: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
 msgstr "По_моћ"
 
-#: ../src/cact/cact-menubar.c:66
+#: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
 msgstr "_Језичци бележнице"
 
-#: ../src/cact/cact-menubar.c:68
+#: src/cact/cact-menubar.c:68
 msgid "New _menu"
 msgstr "Нови _изборник"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'New menu'
-#. item
-#: ../src/cact/cact-menubar.c:70
+#. Translators: tooltip displayed in the status bar when selecting the 'New
+#. menu' item
+#: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
 msgstr "Уметните нови изборник на тренутни положај"
 
-#: ../src/cact/cact-menubar.c:72
+#: src/cact/cact-menubar.c:72
 msgid "_New action"
 msgstr "_Нова радња"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'New action'
-#. item
-#: ../src/cact/cact-menubar.c:74
+#. Translators: tooltip displayed in the status bar when selecting the 'New
+#. action' item
+#: src/cact/cact-menubar.c:74
 msgid "Define a new action"
 msgstr "Дефинишите нову радњу"
 
-#: ../src/cact/cact-menubar.c:76
+#: src/cact/cact-menubar.c:76
 msgid "New _profile"
 msgstr "Нови _профил"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'New profile'
-#. item
-#: ../src/cact/cact-menubar.c:78
+#. Translators: tooltip displayed in the status bar when selecting the 'New
+#. profile' item
+#: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
 msgstr "Дефинишите нови профил приложен тренутној радњи"
 
-#: ../src/cact/cact-menubar.c:80
+#: src/cact/cact-menubar.c:80
 msgid "_Save"
 msgstr "_Сачувај"
 
-#. i18n: tooltip displayed in the status bar when selecting 'Save' item
-#: ../src/cact/cact-menubar.c:82
+#. Translators: tooltip displayed in the status bar when selecting 'Save' item
+#: src/cact/cact-menubar.c:82
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
 msgstr ""
 "Сачувајте све измењене радње. Неисправне радње биће неприметно занемарене"
 
-#: ../src/cact/cact-menubar.c:84
+#: src/cact/cact-menubar.c:84
 msgid "_Quit"
 msgstr "_Изађи"
 
-#. i18n: tooltip displayed in the status bar when selecting 'Quit' item
-#: ../src/cact/cact-menubar.c:86
+#. Translators: tooltip displayed in the status bar when selecting 'Quit' item
+#: src/cact/cact-menubar.c:86
 msgid "Quit the application"
 msgstr "Изађите из програма"
 
-#: ../src/cact/cact-menubar.c:88
+#: src/cact/cact-menubar.c:88
 msgid "Cu_t"
 msgstr "_Исеци"
 
-#. i18n: tooltip displayed in the status bar when selecting the Cut item
-#: ../src/cact/cact-menubar.c:90
+#. Translators: tooltip displayed in the status bar when selecting the Cut
+#. item
+#: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
 msgstr "Исеците изабрану ставку у оставу"
 
-#: ../src/cact/cact-menubar.c:92
+#: src/cact/cact-menubar.c:92
 msgid "_Copy"
 msgstr "_Умножи"
 
-#. i18n: tooltip displayed in the status bar when selecting the Copy item
-#: ../src/cact/cact-menubar.c:94
+#. Translators: tooltip displayed in the status bar when selecting the Copy
+#. item
+#: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
 msgstr "Умножите изабрану ставку у оставу"
 
-#: ../src/cact/cact-menubar.c:96
+#: src/cact/cact-menubar.c:96
 msgid "_Paste"
 msgstr "У_баци"
 
-#. i18n: tooltip displayed in the status bar when selecting the Paste item
-#: ../src/cact/cact-menubar.c:98
+#. Translators: tooltip displayed in the status bar when selecting the Paste
+#. item
+#: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
 msgstr "Убаците садржај оставе пре тренутног положаја"
 
-#: ../src/cact/cact-menubar.c:100
+#: src/cact/cact-menubar.c:100
 msgid "Paste _into"
 msgstr "Убаци _у"
 
-#. i18n: tooltip displayed in the status bar when selecting the Paste Into
-#. item
-#: ../src/cact/cact-menubar.c:102
+#. Translators: tooltip displayed in the status bar when selecting the Paste
+#. Into item
+#: src/cact/cact-menubar.c:102
 msgid "Insert the content of the clipboard as first child of the current item"
 msgstr "Убаците садржај оставе као првог садржаног тренутне ставке"
 
-#: ../src/cact/cact-menubar.c:104
+#: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
 msgstr "_Дуплирај"
 
-#. i18n: tooltip displayed in the status bar when selecting the Duplicate item
-#: ../src/cact/cact-menubar.c:106
+#. Translators: tooltip displayed in the status bar when selecting the
+#. Duplicate item
+#: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
 msgstr "Дуплирајте изабрану ставку"
 
-#: ../src/cact/cact-menubar.c:108
+#: src/cact/cact-menubar.c:108
 msgid "_Delete"
 msgstr "_Обриши"
 
-#. i18n: tooltip displayed in the status bar when selecting the Delete item
-#: ../src/cact/cact-menubar.c:110
+#. Translators: tooltip displayed in the status bar when selecting the Delete
+#. item
+#: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
 msgstr "Обришите изабрану ставку"
 
-#: ../src/cact/cact-menubar.c:112
+#: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
 msgstr "_Поново учитај ставке"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'Reload' item
-#: ../src/cact/cact-menubar.c:114
+#. Translators: tooltip displayed in the status bar when selecting the
+#. 'Reload' item
+#: src/cact/cact-menubar.c:114
 msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
@@ -2078,222 +2086,226 @@ msgstr ""
 "Откажите ваше тренутне измене и поново учитајте почетни списак изборника и "
 "радњи"
 
-#: ../src/cact/cact-menubar.c:116
+#: src/cact/cact-menubar.c:116
 msgid "_Preferences"
 msgstr "_Поставке"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'Preferences'
-#. item
-#: ../src/cact/cact-menubar.c:118
+#. Translators: tooltip displayed in the status bar when selecting the
+#. 'Preferences' item
+#: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
 msgstr "Уредите ваше поставке"
 
-#: ../src/cact/cact-menubar.c:120
+#: src/cact/cact-menubar.c:120
 msgid "_Expand all"
 msgstr "_Рашири све"
 
-#. i18n: tooltip displayed in the status bar when selecting the Expand all
-#. item
-#: ../src/cact/cact-menubar.c:122
+#. Translators: tooltip displayed in the status bar when selecting the Expand
+#. all item
+#: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
 msgstr "Широм отворите хијерархију ставки"
 
-#: ../src/cact/cact-menubar.c:124
+#: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
 msgstr "_Скупи све"
 
-#. i18n: tooltip displayed in the status bar when selecting the Collapse all
-#. item
-#: ../src/cact/cact-menubar.c:126
+#. Translators: tooltip displayed in the status bar when selecting the
+#. Collapse all item
+#: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
 msgstr "Скупите хијерархију ставки"
 
-#: ../src/cact/cact-menubar.c:129
+#: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
 msgstr "Помоћник _увоза..."
 
-#. i18n: tooltip displayed in the status bar when selecting the Import item
-#: ../src/cact/cact-menubar.c:131
+#. Translators: tooltip displayed in the status bar when selecting the Import
+#. item
+#: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
 msgstr "Увезите једну или више радњи из спољних датотека у ваше подешавање"
 
-#: ../src/cact/cact-menubar.c:133
+#: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
 msgstr "Помоћник _извоза..."
 
-#. i18n: tooltip displayed in the status bar when selecting the Export item
-#: ../src/cact/cact-menubar.c:135
+#. Translators: tooltip displayed in the status bar when selecting the Export
+#. item
+#: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
 msgstr "Извезите једну или више радњи из ваших подешавања у спољну датотеку"
 
-#: ../src/cact/cact-menubar.c:138
+#: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
 msgstr "_Испиши избор"
 
-#. i18n: tooltip displayed in the status bar when selecting the Dump selection
-#. item
-#: ../src/cact/cact-menubar.c:140
+#. Translators: tooltip displayed in the status bar when selecting the Dump
+#. selection item
+#: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
 msgstr "Дубински ииспишите изабране ставке"
 
-#: ../src/cact/cact-menubar.c:142
+#: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
 msgstr "_Кратко испиши смештај стабла"
 
-#. i18n: tooltip displayed in the status bar when selecting the
+#. Translators: tooltip displayed in the status bar when selecting the
 #. BriefTreeStoreDump item
-#: ../src/cact/cact-menubar.c:144
+#: src/cact/cact-menubar.c:144
 msgid "Briefly dump the tree store"
 msgstr "Кратко испишите смештај стабла"
 
-#: ../src/cact/cact-menubar.c:146
+#: src/cact/cact-menubar.c:146
 msgid "_List modified items"
 msgstr "_Испиши измењене ставке"
 
-#. i18n: tooltip displayed in the status bar when selecting the
+#. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
-#: ../src/cact/cact-menubar.c:148
+#: src/cact/cact-menubar.c:148
 msgid "List the modified items"
 msgstr "Направите списак измењених ставки"
 
-#: ../src/cact/cact-menubar.c:150
+#: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
 msgstr "_Испиши оставу"
 
-#. i18n: tooltip displayed in the status bar when selecting the DumpClipboard
-#. item
-#: ../src/cact/cact-menubar.c:152
+#. Translators: tooltip displayed in the status bar when selecting the
+#. DumpClipboard item
+#: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
 msgstr "Испишите садржај објекта оставе"
 
-#: ../src/cact/cact-menubar.c:158
+#: src/cact/cact-menubar.c:158
 msgid "Contents"
 msgstr "Садржај"
 
-#. i18n: tooltip displayed in the status bar when selecting the Help item
-#: ../src/cact/cact-menubar.c:160
+#. Translators: tooltip displayed in the status bar when selecting the Help
+#. item
+#: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
 msgstr "Прикажите помоћ за овај програм"
 
-#: ../src/cact/cact-menubar.c:162
+#: src/cact/cact-menubar.c:162
 msgid "_About"
 msgstr "_О програму"
 
-#. i18n: tooltip displayed in the status bar when selecting the About item
-#: ../src/cact/cact-menubar.c:164
+#. Translators: tooltip displayed in the status bar when selecting the About
+#. item
+#: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
 msgstr "Прикажите информације о овом програму"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'View File
-#. toolbar' item
-#: ../src/cact/cact-menubar.c:172
+#. Translators: tooltip displayed in the status bar when selecting the 'View
+#. File toolbar' item
+#: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
 msgstr "Прикажите траку алата датотеке"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'View Edit
-#. toolbar' item
-#: ../src/cact/cact-menubar.c:176
+#. Translators: tooltip displayed in the status bar when selecting the 'View
+#. Edit toolbar' item
+#: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
 msgstr "Прикажите траку алата уређивања"
 
-#. i18n: tooltip displayed in the status bar when selecting 'View Tools
+#. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
-#: ../src/cact/cact-menubar.c:180
+#: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
 msgstr "Прикажите траку алата"
 
-#. i18n: tooltip displayed in the status bar when selecting 'View Help
+#. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
-#: ../src/cact/cact-menubar.c:184
+#: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
 msgstr "Прикажите траку помоћи"
 
-#: ../src/cact/cact-menubar.c:190
+#: src/cact/cact-menubar.c:190
 msgid "On the _left"
 msgstr "Са _леве стране"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'Set tabs
-#. position on the left' item
-#: ../src/cact/cact-menubar.c:192
+#. Translators: tooltip displayed in the status bar when selecting the 'Set
+#. tabs position on the left' item
+#: src/cact/cact-menubar.c:192
 msgid "Display the notebook tabs on the left side"
 msgstr "Прикажите језчке бележнице на левој страни"
 
-#: ../src/cact/cact-menubar.c:194
+#: src/cact/cact-menubar.c:194
 msgid "On the _right"
 msgstr "Са _десне стране"
 
-#. i18n: tooltip displayed in the status bar when selecting the 'Set tabs
-#. position on the right' item
-#: ../src/cact/cact-menubar.c:196
+#. Translators: tooltip displayed in the status bar when selecting the 'Set
+#. tabs position on the right' item
+#: src/cact/cact-menubar.c:196
 msgid "Display the notebook tabs on the right side"
 msgstr "Прикажите језчке бележнице на десној страни"
 
-#: ../src/cact/cact-menubar.c:198
+#: src/cact/cact-menubar.c:198
 msgid "On the _top"
 msgstr "На _врху"
 
-#. i18n: tooltip displayed in the status bar when selecting 'Set tabs position
-#. on the top' item
-#: ../src/cact/cact-menubar.c:200
+#. Translators: tooltip displayed in the status bar when selecting 'Set tabs
+#. position on the top' item
+#: src/cact/cact-menubar.c:200
 msgid "Display the notebook tabs on the top side"
 msgstr "Прикажите језчке бележнице на горњој страни"
 
-#: ../src/cact/cact-menubar.c:202
+#: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
 msgstr "На _дну"
 
-#. i18n: tooltip displayed in the status bar when selecting 'Set tabs position
-#. on the bottom' item
-#: ../src/cact/cact-menubar.c:204
+#. Translators: tooltip displayed in the status bar when selecting 'Set tabs
+#. position on the bottom' item
+#: src/cact/cact-menubar.c:204
 msgid "Display the notebook tabs on the bottom side"
 msgstr "Прикажите језчке бележнице на доњој страни"
 
-#: ../src/cact/cact-menubar.c:718
+#: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
 msgstr " %d изборник(а), %d радња(и), %d профил(а) је тренутно учитано"
 
-#: ../src/cact/cact-menubar-edit.c:222
+#: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
 msgstr "Нису све ставке исечене јер се следеће не могу изменити:"
 
-#: ../src/cact/cact-menubar-edit.c:470
+#: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
 msgstr "Нису све ставке обрисане јер се следеће не могу изменити:"
 
-#: ../src/cact/cact-menubar-file.c:52
+#: src/cact/cact-menubar-file.c:52
 msgid "Save error"
 msgstr "Грешка чувања"
 
-#: ../src/cact/cact-menubar-file.c:53
+#: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
 msgstr "Неке ставке се не могу сачувати"
 
-#: ../src/cact/cact-menubar-file.c:54
+#: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
 msgstr "Не могу да препишем списак ставки нултог нивоа"
 
-#: ../src/cact/cact-menubar-file.c:55
+#: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
 msgstr "Неке ставке нису избрисане"
 
-#: ../src/cact/cact-menubar-file.c:201
+#: src/cact/cact-menubar-file.c:201
 msgid "New profile"
 msgstr "Нови профил"
 
-#: ../src/cact/cact-menubar-file.c:489
+#: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
 msgstr "Сам чувам заказане измене..."
 
-#: ../src/cact/cact-preferences.ui.h:1
+#: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
 msgstr "Поставке Цаја-Радњи"
 
-#: ../src/cact/cact-preferences.ui.h:2
+#: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
 msgstr "_Растућим азбучним редом"
 
-#: ../src/cact/cact-preferences.ui.h:3
+#: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
@@ -2301,11 +2313,11 @@ msgstr ""
 "Изборници и радње биће приказани растућим азбучним редом по њиховим "
 "натписима, и у приручном изборнику Цаје и у „CACT“ корисничком сучељу."
 
-#: ../src/cact/cact-preferences.ui.h:4
+#: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
 msgstr "_Опадајућим азбучним редом"
 
-#: ../src/cact/cact-preferences.ui.h:5
+#: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
@@ -2313,11 +2325,11 @@ msgstr ""
 "Изборници и радње биће приказани опадајућим азбучним редом по њиховим "
 "натписима, и у приручном изборнику Цаје и у „CACT“ корисничком сучељу."
 
-#: ../src/cact/cact-preferences.ui.h:6
+#: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
 msgstr "_Ручно поређано"
 
-#: ../src/cact/cact-preferences.ui.h:7
+#: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
@@ -2325,15 +2337,15 @@ msgstr ""
 "Редослед приказивања изборника и радње, и у приручном изборнику Цаје и у "
 "„CACT“ корисничком сучељу, мора ручно бити одређен."
 
-#: ../src/cact/cact-preferences.ui.h:8
+#: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
 msgstr "<b>Редослед ставки</b>"
 
-#: ../src/cact/cact-preferences.ui.h:9
+#: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
 msgstr "_Направи корени изборник Цаја-Радњи"
 
-#: ../src/cact/cact-preferences.ui.h:10
+#: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
@@ -2341,11 +2353,11 @@ msgstr ""
 "Када је ова опција изабрана, изборници и радње биће заправо приказани као "
 "подставке кореног изборника Цаја-Радњи у приручном изборнику Цаје."
 
-#: ../src/cact/cact-preferences.ui.h:11
+#: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
 msgstr "Додај ставку „_О Цаја-Радњама“ у приручне изборнике Цаје"
 
-#: ../src/cact/cact-preferences.ui.h:12
+#: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
@@ -2353,11 +2365,11 @@ msgstr ""
 "Када је ова опција изабрана, ставка „О Цаја-Радњама“ биће додата кореном изборнику Цаја-Радњи у приручном изборнику Цаје.\n"
 "Знајте да ће ова ставка бити приказана само ако је јединствени изборник дефинисан у приручном изборнику Цаје (нпр. када сте изабрали горњу опцију кореног изборника „Цаја-Радњи“)."
 
-#: ../src/cact/cact-preferences.ui.h:14
+#: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
 msgstr "<b>Распоред изборника Цаје</b>"
 
-#: ../src/cact/cact-preferences.ui.h:15
+#: src/cact/cact-preferences.ui:263
 msgid ""
 "This tab lets you choose how the actions are ordered in the displayed list "
 "as well as in the Caja context menu. You may also choose here how actions "
@@ -2367,11 +2379,11 @@ msgstr ""
 "списку као и у приручном изборнику Цаје. Овде можете такође изабрати како ће"
 " радње бити приказане у приручном изборнику Цаје."
 
-#: ../src/cact/cact-preferences.ui.h:16
+#: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
 msgstr "_Поставке времена извршења"
 
-#: ../src/cact/cact-preferences.ui.h:17
+#: src/cact/cact-preferences.ui:298
 msgid ""
 "Specify here the command to run and keep opened a terminal.\n"
 "This command should include a 'COMMAND' keyword, which will be substituted at runtime with the action path and parameters."
@@ -2379,46 +2391,45 @@ msgstr ""
 "Наведите овде наредбу за извршавање и држите отворен терминал.\n"
 "Ова наредба треба да садржи кључну реч „НАРЕДБА“, која ће бити замењена у време извршења са путањом и параметрима радње."
 
-#: ../src/cact/cact-preferences.ui.h:19
+#: src/cact/cact-preferences.ui:331
 msgid "_Command pattern :"
 msgstr "_Шаблон радње:"
 
-#: ../src/cact/cact-preferences.ui.h:20
+#: src/cact/cact-preferences.ui:359
 msgid "<b>Execution in a terminal</b>"
 msgstr "<b>Извршавање у терминалу</b>"
 
-#: ../src/cact/cact-preferences.ui.h:21
+#: src/cact/cact-preferences.ui:399
 msgid "Running _desktop environment :"
 msgstr "Радно окружење _радне површи:"
 
-#: ../src/cact/cact-preferences.ui.h:22
+#: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
 msgstr "<i>Тренутно откривено:</i>"
 
-#: ../src/cact/cact-preferences.ui.h:23
-#: ../src/cact/caja-actions-config-tool.ui.h:208
+#: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
 msgstr "<b>Окружење радне површи</b>"
 
-#: ../src/cact/cact-preferences.ui.h:24
+#: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
 msgstr ""
 "Ова картица вам омогућава да одредите параметре потребне за неке режиме "
 "извршавања."
 
-#: ../src/cact/cact-preferences.ui.h:25
+#: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
 msgstr "Извршење _времена извршења"
 
-#: ../src/cact/cact-preferences.ui.h:26
+#: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
 msgstr "Шта да радим приликом убацивања или дуплирања ставке у стаблу?"
 
-#: ../src/cact/cact-preferences.ui.h:27
+#: src/cact/cact-preferences.ui:534
 msgid "Relabel _menus"
 msgstr "Поново постави натпис _изборника"
 
-#: ../src/cact/cact-preferences.ui.h:28
+#: src/cact/cact-preferences.ui:538
 msgid ""
 "When a menu is copied/pasted, or duplicated, the new menu will be relabelled"
 " as 'Copy of ...'."
@@ -2426,11 +2437,11 @@ msgstr ""
 "Када је изборник умножен/убачен или дуплиран, нови изборнк ће добити нови "
 "натпис као „Умножак од ...“"
 
-#: ../src/cact/cact-preferences.ui.h:29
+#: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
 msgstr "Поново постави натпис _радњи"
 
-#: ../src/cact/cact-preferences.ui.h:30
+#: src/cact/cact-preferences.ui:555
 msgid ""
 "When an action is copied/pasted, or duplicated, the new action will be "
 "relabelled as 'Copy of ...'."
@@ -2438,11 +2449,11 @@ msgstr ""
 "Када је радња умножена/убачена или дуплирана, нова радња ће добити нови "
 "натпис као „Умножак од ...“"
 
-#: ../src/cact/cact-preferences.ui.h:31
+#: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
 msgstr "Поново постави натпис _профиле"
 
-#: ../src/cact/cact-preferences.ui.h:32
+#: src/cact/cact-preferences.ui:572
 msgid ""
 "When a profile is copied/pasted, or duplicated, the new profile will be "
 "relabelled as 'Copy of ...'."
@@ -2450,15 +2461,15 @@ msgstr ""
 "Када је профил умножен/убачен или дуплиран, нови профил ће добити нови "
 "натпис као „Умножак од ...“"
 
-#: ../src/cact/cact-preferences.ui.h:33
+#: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
 msgstr "<b>Поновно постављање натписа ставки</b>"
 
-#: ../src/cact/cact-preferences.ui.h:34
+#: src/cact/cact-preferences.ui:631
 msgid "Esc key _quits the assistant"
 msgstr "Тастер „Esc“ _излази из помоћника"
 
-#: ../src/cact/cact-preferences.ui.h:35
+#: src/cact/cact-preferences.ui:635
 msgid ""
 "When this option is checked, the 'Escape' key will let you quit the current "
 "assistant. Else, quitting the assistant is only possible by hitting the "
@@ -2468,11 +2479,11 @@ msgstr ""
 "тренутног помоћника. У супротном, излазак из помоћника је једино могућ "
 "притиском на дугме „Откажи“."
 
-#: ../src/cact/cact-preferences.ui.h:36
+#: src/cact/cact-preferences.ui:648
 msgid "Ask for a _confirmation when quitting the assistant on Esc key"
 msgstr "Питај за _потврду приликом изласка из помоћника на тастер „Esc“"
 
-#: ../src/cact/cact-preferences.ui.h:37
+#: src/cact/cact-preferences.ui:652
 msgid ""
 "This option is only relevant when the 'Escape' key lets the user quit the "
 "assistant. When checked, the user will be prompted for a confirmation in "
@@ -2482,15 +2493,15 @@ msgstr ""
 "изађе из помоћника. Када је изабрана, корисник ће бити питан за потврду да "
 "би се спречило погрешно притискање тастера „Esc“."
 
-#: ../src/cact/cact-preferences.ui.h:38
+#: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
 msgstr "<b>Помоћници</b>"
 
-#: ../src/cact/cact-preferences.ui.h:39
+#: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
 msgstr "Сам _сачувај заказане измене"
 
-#: ../src/cact/cact-preferences.ui.h:40
+#: src/cact/cact-preferences.ui:711
 msgid ""
 "When this option is checked, pending modification will be periodically and "
 "automatically saved."
@@ -2498,19 +2509,19 @@ msgstr ""
 "Када је ова опција изабрана, заказане измене биће периодично и самостално "
 "сачуване."
 
-#: ../src/cact/cact-preferences.ui.h:41
+#: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
 msgstr "Периодичност:"
 
-#: ../src/cact/cact-preferences.ui.h:42
+#: src/cact/cact-preferences.ui:764
 msgid "minutes"
 msgstr "минута"
 
-#: ../src/cact/cact-preferences.ui.h:43
+#: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
 msgstr "<b>Самочување</b>"
 
-#: ../src/cact/cact-preferences.ui.h:44
+#: src/cact/cact-preferences.ui:809
 msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
@@ -2518,11 +2529,11 @@ msgstr ""
 "Ова картица омогућава кориснику да изабере произвољне поставке за корисничко"
 " сучеље алата подешавања Цаја-Радњи."
 
-#: ../src/cact/cact-preferences.ui.h:45
+#: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
 msgstr "_Поставке корисничког сучеља"
 
-#: ../src/cact/cact-preferences.ui.h:46
+#: src/cact/cact-preferences.ui:847
 msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
@@ -2530,37 +2541,37 @@ msgstr ""
 "Шта да радим када ставка, радња или изборник, изабрани за извоз, имају исти "
 "одредник као тренутно постојећи?"
 
-#: ../src/cact/cact-preferences.ui.h:47
+#: src/cact/cact-preferences.ui:883
 msgid "<b>Import mode</b>"
 msgstr "<b>Режим увоза</b>"
 
-#: ../src/cact/cact-preferences.ui.h:48
+#: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
 msgstr ""
 "Ова картица вам омогућава да одлучите о основном понашању радњи увоза."
 
-#: ../src/cact/cact-preferences.ui.h:49
+#: src/cact/cact-preferences.ui:904
 msgid "_Import"
 msgstr "_Увези"
 
-#: ../src/cact/cact-preferences.ui.h:50
+#: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
 msgstr "Који је ваш жељени формат извоза?"
 
-#: ../src/cact/cact-preferences.ui.h:51
+#: src/cact/cact-preferences.ui:977
 msgid "<b>Export format</b>"
 msgstr "<b>Формат извоза</b>"
 
-#: ../src/cact/cact-preferences.ui.h:52
+#: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
 msgstr ""
 "Ова картица вам омогућава да одлучите о основном понашању радњи извоза."
 
-#: ../src/cact/cact-preferences.ui.h:53
+#: src/cact/cact-preferences.ui:998
 msgid "_Export"
 msgstr "_Извези"
 
-#: ../src/cact/cact-preferences.ui.h:54
+#: src/cact/cact-preferences.ui:1040
 msgid ""
 "You may define here any number of schemes. They will be proposed as default schemes when defining conditions for an action.\n"
 "If the list becomes empty, CACT will automatically refill in with this default list.\n"
@@ -2570,19 +2581,19 @@ msgstr ""
 "Ако списак постане празан, „CACT“ ће га сам поново попунити овим основним списком.\n"
 "Нову шему можете додати кликом на дугме +."
 
-#: ../src/cact/cact-preferences.ui.h:57
+#: src/cact/cact-preferences.ui:1070
 msgid "Click to add a new default scheme."
 msgstr "Кликните да додате основну шему."
 
-#: ../src/cact/cact-preferences.ui.h:58
+#: src/cact/cact-preferences.ui:1091
 msgid "Click to remove the selected default scheme."
 msgstr "Кликните да уклоните изабрану основну шему."
 
-#: ../src/cact/cact-preferences.ui.h:59
+#: src/cact/cact-preferences.ui:1123
 msgid "<b>Default schemes</b>"
 msgstr "<b>Основне шеме</b>"
 
-#: ../src/cact/cact-preferences.ui.h:60
+#: src/cact/cact-preferences.ui:1143
 msgid ""
 "This tab lets you decide which schemes are proposed by default when editing "
 "advanced conditions for an item."
@@ -2590,12 +2601,11 @@ msgstr ""
 "Ова картица вам омогућава да одлучите које шеме су предложене по основи када"
 " уређујете напредне услове за неку ставку."
 
-#: ../src/cact/cact-preferences.ui.h:61
-#: ../src/cact/caja-actions-config-tool.ui.h:188
+#: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
 msgstr "_Шеме"
 
-#: ../src/cact/cact-preferences.ui.h:62
+#: src/cact/cact-preferences.ui:1186
 msgid ""
 "Define here, for available I/O providers, if you want them to be read at "
 "startup, to be writable, and the order in which they will be tested when "
@@ -2605,11 +2615,11 @@ msgstr ""
 "при покретању, да буду уписиве и редослед по коме ће бити испробане када "
 "покушате да запишете нови изборник или радњу."
 
-#: ../src/cact/cact-preferences.ui.h:63
+#: src/cact/cact-preferences.ui:1210
 msgid "_Up"
 msgstr "_Горе"
 
-#: ../src/cact/cact-preferences.ui.h:64
+#: src/cact/cact-preferences.ui:1215
 msgid ""
 "Move up the selected I/O provider in the order of priority when trying to "
 "write a new item."
@@ -2617,15 +2627,15 @@ msgstr ""
 "Преместите изабраног У/И достављача према приоритету када покушате да "
 "запишете нову ставку."
 
-#: ../src/cact/cact-preferences.ui.h:65
+#: src/cact/cact-preferences.ui:1227
 msgid "_Down"
 msgstr "_Доле"
 
-#: ../src/cact/cact-preferences.ui.h:66
+#: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
 msgstr "<b>Активирање и приоритет</b>"
 
-#: ../src/cact/cact-preferences.ui.h:67
+#: src/cact/cact-preferences.ui:1278
 msgid ""
 "This tab lets you decide whether the I/O providers are enabled or not, and "
 "in which order they will be tried when writing a new item."
@@ -2633,88 +2643,83 @@ msgstr ""
 "Ова картица вам омогућава да одлучите да ли су У/И достављачи укључени или "
 "не, и којим рдом ће бити испробани када записујете нову ставку."
 
-#: ../src/cact/cact-preferences.ui.h:68
+#: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
 msgstr "У/И _достављачи"
 
-#. i18n: the user is not willing to identify his current desktop environment,
+#. Translators: the user is not willing to identify his current desktop
+#. environment,
 #. *       and prefers rely on the runtime detection
-#: ../src/cact/cact-preferences-editor.c:118
+#: src/cact/cact-preferences-editor.c:118
 msgid "Rely on runtime detection"
 msgstr "Уздај се у откривање времена извршења"
 
-#: ../src/cact/cact-preferences-editor.c:815
+#: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
 msgstr "Пр.:"
 
-#: ../src/cact/cact-providers-list.c:136
+#: src/cact/cact-providers-list.c:136
 msgid "Readable"
 msgstr "Читљив"
 
-#: ../src/cact/cact-providers-list.c:150
+#: src/cact/cact-providers-list.c:150
 msgid "Writable"
 msgstr "Уписив"
 
-#: ../src/cact/cact-providers-list.c:164
+#: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
 msgstr "У/И достављач"
 
-#. i18n: default name when the I/O providers doesn't provide one
-#: ../src/cact/cact-providers-list.c:260
+#. Translators: default name when the I/O providers doesn't provide one
+#: src/cact/cact-providers-list.c:260
 msgid "no name"
 msgstr "без назива"
 
-#. i18n: name displayed when the corresponding I/O provider is unavailable at
-#. runtime
-#: ../src/cact/cact-providers-list.c:264
+#. Translators: name displayed when the corresponding I/O provider is
+#. unavailable at runtime
+#: src/cact/cact-providers-list.c:264
 msgid "unavailable I/O provider"
 msgstr "недоступан У/И достављач"
 
-#: ../src/cact/cact-schemes-list.c:155
+#: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
 msgstr "Кључна реч"
 
-#. i18n notes : description of 'file' scheme
-#: ../src/cact/cact-schemes-list.c:283
+#: src/cact/cact-schemes-list.c:283
 msgid "Local files"
 msgstr "Локалне датотеке"
 
-#. i18n notes : description of 'sftp' scheme
-#: ../src/cact/cact-schemes-list.c:285
+#: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
 msgstr "Датотеке безбедне шкољке"
 
-#. i18n notes : description of 'smb' scheme
-#: ../src/cact/cact-schemes-list.c:287
+#: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
 msgstr "Виндоуз датотеке"
 
-#. i18n notes : description of 'ftp' scheme
-#: ../src/cact/cact-schemes-list.c:289
+#: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
 msgstr "ФТП датотеке"
 
-#. i18n notes : description of 'dav' scheme
-#: ../src/cact/cact-schemes-list.c:291
+#: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
 msgstr "ВебДАВ датотеке"
 
-#. i18n: add a comment when a scheme is already used by current item
-#: ../src/cact/cact-schemes-list.c:400
+#. Translators: add a comment when a scheme is already used by current item
+#: src/cact/cact-schemes-list.c:400
 #, c-format
 msgid "%s (already used)"
 msgstr "%s (већ је коришћена)"
 
-#. i18n notes : scheme name set for a new entry in the scheme list
-#: ../src/cact/cact-schemes-list.c:701
+#: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
 msgstr "нова шема"
 
-#: ../src/cact/cact-schemes-list.c:702
+#: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
 msgstr "Опис нове шеме"
 
-#: ../src/cact/cact-tree-model.c:226
+#: src/cact/cact-tree-model.c:226
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
@@ -2722,326 +2727,317 @@ msgstr ""
 "Показивач (а не упута) ка полазном основном прозору прегледа стаблом "
 "уграђивања"
 
-#: ../src/cact/cact-tree-model.c:232
+#: src/cact/cact-tree-model.c:232
 msgid "Embedding GtkTreeView"
 msgstr "Гтк преглед стаблом уграђивања"
 
-#: ../src/cact/cact-tree-model.c:233
+#: src/cact/cact-tree-model.c:233
 msgid "The GtkTreeView which relies on this CactTreeModel"
 msgstr "Гтк преглед стаблом који се заснива на овом „Cact“ моделу стабла"
 
-#: ../src/cact/cact-tree-model.c:239
+#: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
 msgstr "Режим уређивања"
 
-#: ../src/cact/cact-tree-model.c:240
+#: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
 msgstr "Режим уређивања наспрам избора"
 
-#: ../src/cact/cact-tree-model-dnd.c:120
+#: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop a profile here"
 msgstr "Не могу да убацим профил овде"
 
-#: ../src/cact/cact-tree-model-dnd.c:121
+#: src/cact/cact-tree-model-dnd.c:121
 msgid "Unable to drop an action or a menu here"
 msgstr "Не могу да убацим радњу или изборник овде"
 
-#: ../src/cact/cact-tree-model-dnd.c:122
+#: src/cact/cact-tree-model-dnd.c:122
 msgid "Unable to drop here as parent is not writable"
 msgstr "Не могу да убацим овде јер полазни није уписив"
 
-#: ../src/cact/cact-tree-model-dnd.c:123
+#: src/cact/cact-tree-model-dnd.c:123
 msgid "Unable to drop here as level zero is not writable"
 msgstr "Не могу да убацим овде јер нулти ниво није уписив"
 
-#: ../src/cact/cact-tree-model-dnd.c:926
+#: src/cact/cact-tree-model-dnd.c:926
 msgid "Some messages have occurred during drop operation."
 msgstr "Неке поруке су се јавиле за време радње убацивања."
 
-#. i18n: this is a class name and should not be translated
-#: ../src/cact/cact-tree-view.c:215
+#. Translators: this is a class name and should not be translated
+#: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
 msgstr "Основни прозор"
 
-#. i18n: CactTreeView property long description
-#: ../src/cact/cact-tree-view.c:217
+#. Translators: CactTreeView property long description
+#: src/cact/cact-tree-view.c:217
 msgid "The BaseWindow parent"
 msgstr "Полазни основног прозора"
 
-#. i18n: CactTreeView property short description
-#: ../src/cact/cact-tree-view.c:224
+#. Translators: CactTreeView property short description
+#: src/cact/cact-tree-view.c:224
 msgid "Container"
 msgstr "Контејнер"
 
-#. i18n: CactTreeView property long description
-#: ../src/cact/cact-tree-view.c:226
+#. Translators: CactTreeView property long description
+#: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
 msgstr "Гтк контејнер који садржи елемент Гтк прегледа стаблом"
 
-#. i18n: CactTreeView property short description
-#: ../src/cact/cact-tree-view.c:233
+#. Translators: CactTreeView property short description
+#: src/cact/cact-tree-view.c:233
 msgid "Widget name"
 msgstr "Назив елемента"
 
-#. i18n: CactTreeView property long description
-#: ../src/cact/cact-tree-view.c:235
+#. Translators: CactTreeView property long description
+#: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
 msgstr "Назив елемента Гтк прегледа стаблом"
 
-#. i18n: CactTreeView property short description
-#: ../src/cact/cact-tree-view.c:243
+#. Translators: CactTreeView property short description
+#: src/cact/cact-tree-view.c:243
 msgid "Management mode"
 msgstr "Режим управљања"
 
-#. i18n: CactTreeView property long description
-#: ../src/cact/cact-tree-view.c:245
+#. Translators: CactTreeView property long description
+#: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
 msgstr "Режим управљања прегледа стаблом, избором или уређивањем"
 
-#. i18n: CactTreeView property short description
-#: ../src/cact/cact-tree-view.c:255
+#. Translators: CactTreeView property short description
+#: src/cact/cact-tree-view.c:255
 msgid "Allow notify"
 msgstr "Допушта обавештења"
 
-#. i18n: CactTreeView property loong description
-#: ../src/cact/cact-tree-view.c:257
+#. Translators: CactTreeView property loong description
+#: src/cact/cact-tree-view.c:257
 msgid "Whether notifications are allowed"
 msgstr "Да ли су обавештења дозвољена"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:1
+#: src/cact/caja-actions-config-tool.ui:16
 msgid "End of session"
 msgstr "Крај сесије"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:2
+#: src/cact/caja-actions-config-tool.ui:122
 msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
 msgstr "<span size=\"larger\"><b>Легенда параметра</b></span>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:4
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
 msgstr "<b>%b</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:5
+#: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
 msgstr "(први) назив основе."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:6
+#: src/cact/caja-actions-config-tool.ui:184
 msgid "count of selected item(s)."
 msgstr "број изабране ставке."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:7
+#: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
 msgstr "(први) основни директоријум."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:8
+#: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
 msgstr ""
 "размаком раздвојен списак основних директоријума изабране датотеке/фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:9
+#: src/cact/caja-actions-config-tool.ui:220
 msgid "port number of the (first) selected URI."
 msgstr "број прикључника (прве) изабране путање."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:10
+#: src/cact/caja-actions-config-tool.ui:232
 msgid "scheme of the (first) selected URI."
 msgstr "шема (прве) изабране путање."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:11
+#: src/cact/caja-actions-config-tool.ui:244
 msgid "(first) URI."
 msgstr "(права) путања."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:12
+#: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
 msgstr "размаком раздвојен списак путања изабране датотеке/фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:13
+#: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
 msgstr "знак процента."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:14
+#: src/cact/caja-actions-config-tool.ui:280
 msgid "(first) filename."
 msgstr "(први) назив датотеке."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:15
+#: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
 msgstr "размаком раздвојен списак назива датотеке изабране датотеке/фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:16
+#: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
 msgstr "назив домаћина (прве) изабране путање."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:17
+#: src/cact/caja-actions-config-tool.ui:316
 msgid "username of the (first) selected URI."
 msgstr "корисничко име (прве) изабране путање."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:18
+#: src/cact/caja-actions-config-tool.ui:328
 msgid "(first) basename without the extension."
 msgstr "(први) назив основе без проширења."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:19
+#: src/cact/caja-actions-config-tool.ui:340
 msgid "space-separated list of the basenames without the extension."
 msgstr "размаком раздвојен списак назива основе без проширења."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:20
+#: src/cact/caja-actions-config-tool.ui:352
 msgid "(first) extension."
 msgstr "(прво) проширење."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:21
+#: src/cact/caja-actions-config-tool.ui:364
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
 msgstr "размаком раздвојен списак проширења изабране датотеке/фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:22
+#: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
 msgstr "(прва) миме врста."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:23
+#: src/cact/caja-actions-config-tool.ui:388
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
 msgstr "размаком раздвојен списак миме врста изабране датотеке/фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:24
+#: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
 msgstr "„no-op“ оператор који присиљава један облик извршења."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:25
+#: src/cact/caja-actions-config-tool.ui:412
 msgid "no-op operator which forces a plural form of execution."
 msgstr "„no-op“ оператор који присиљава више облика извршења."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:27
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:423
 msgid "<b>%B</b> :"
 msgstr "<b>%B</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:28
+#: src/cact/caja-actions-config-tool.ui:436
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
 msgstr "размаком раздвојен списак назива основе изабране датотеке/фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:30
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:447
+#, c-format
 msgid "<b>%c</b> :"
 msgstr "<b>%c</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:32
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:459
+#, c-format
 msgid "<b>%d</b> :"
 msgstr "<b>%d</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:34
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
 msgstr "<b>%D</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:36
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:483
+#, c-format
 msgid "<b>%f</b> :"
 msgstr "<b>%f</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:38
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:495
+#, c-format
 msgid "<b>%F</b> :"
 msgstr "<b>%F</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:40
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
 msgstr "<b>%h</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:42
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:519
+#, c-format
 msgid "<b>%m</b> :"
 msgstr "<b>%m</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:44
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
 msgstr "<b>%M</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:46
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:543
+#, c-format
 msgid "<b>%n</b> :"
 msgstr "<b>%n</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:48
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:555
+#, c-format
 msgid "<b>%o</b> :"
 msgstr "<b>%o</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:50
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
 msgstr "<b>%O</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:52
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:579
+#, c-format
 msgid "<b>%p</b> :"
 msgstr "<b>%p</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:54
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:591
+#, c-format
 msgid "<b>%s</b> :"
 msgstr "<b>%s</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:56
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:603
+#, c-format
 msgid "<b>%u</b> :"
 msgstr "<b>%u</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:58
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
 msgstr "<b>%U</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:60
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
 msgstr "<b>%w</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:62
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
 msgstr "<b>%W</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:64
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:651
+#, c-format
 msgid "<b>%x</b> :"
 msgstr "<b>%x</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:66
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:663
+#, c-format
 msgid "<b>%X</b> :"
 msgstr "<b>%X</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:68
-#, no-c-format
+#: src/cact/caja-actions-config-tool.ui:675
+#, c-format
 msgid "<b>%%</b> :"
 msgstr "<b>%%</b>:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:69
+#: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
 msgstr "Списак _ставки:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:70
+#: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
 msgstr "Ређа списак падајућим азбучним редом."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:71
+#: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
 msgstr "Не ређа списак, оставља вам да ручно преуредите ставке."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:72
+#: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
 msgstr "Ређа списак растућим азбучним редом."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:73
+#: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
 msgstr "Прикажи ставку у приручном изборнику _избора"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:74
+#: src/cact/caja-actions-config-tool.ui:923
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager"
 " context menu, with a non-empty selection."
@@ -3049,15 +3045,15 @@ msgstr ""
 "Када је изабрано, ставка ће бити кандидат за приказивање у приручном "
 "изборнику управника датотека, са не-празним избором."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:75
+#: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
 msgstr "Натпис ставке у приручном изборнику управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:76
+#: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
 msgstr "Прикажи ставку у приручном изборнику _места"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:77
+#: src/cact/caja-actions-config-tool.ui:954
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager context menu when the selection is empty.\n"
 "In this case, the defined conditions will be applied to the current displayed folder."
@@ -3065,15 +3061,15 @@ msgstr ""
 "Када је изабрано, ставка ће бити кандидат за приказивање у приручном изборнику управника датотека када је избор празан.\n"
 "У том случају, дефинисани услови биће примењени на тренутно приказану фасциклу."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:79
+#: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
 msgstr "_Садржајни натпис:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:80
+#: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
 msgstr "Прикажи ставку на _траци алата"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:81
+#: src/cact/caja-actions-config-tool.ui:985
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager toolbar.\n"
 "In this case, the defined conditions will be applied to the current folder, and do not depend of the possible current selection."
@@ -3081,11 +3077,11 @@ msgstr ""
 "Када је изабрано, ставка ће бити кандидат за приказивање на траци алата управника датотека.\n"
 "У том случају, дефинисани услови биће примењени над текућом фасциклом и неће зависити од могућег тренутног избора."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:83
+#: src/cact/caja-actions-config-tool.ui:998
 msgid "Use s_ame label for icon in the toolbar"
 msgstr "Користи _исти натпис за иконицу на траци алата"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:84
+#: src/cact/caja-actions-config-tool.ui:1002
 msgid ""
 "When checked, the label displayed in the toolbar will be the same that the "
 "one displayed in the context menus."
@@ -3093,43 +3089,45 @@ msgstr ""
 "Када је изабрано, натпис приказан на траци алата биће исти као онај приказан"
 " у приручним изборницима."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:85
+#: src/cact/caja-actions-config-tool.ui:1017
 msgid "T_oolbar label :"
 msgstr "Натпис _траке алата:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:86
+#: src/cact/caja-actions-config-tool.ui:1029
 msgid "The label displayed in the file manager toolbar."
 msgstr "Натпис приказан на траци алата управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:87
+#: src/cact/caja-actions-config-tool.ui:1045
 msgid "Toolti_p :"
 msgstr "_Облачић:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:88
+#: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
 msgstr "_Иконица:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:89
+#: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
 msgstr "Облачић приказан у корисничком сучељу управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:90
+#: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
 msgstr "Иконица приказана у корисничком сучељу управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:91
+#: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
 msgstr "Назив темске иконице или назив датотеке слике."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:92
+#: src/cact/caja-actions-config-tool.ui:1129
+#: src/cact/caja-actions-config-tool.ui:1441
+#: src/cact/caja-actions-config-tool.ui:2329
 msgid "_Browse..."
 msgstr "_Разгледај..."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:93
+#: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
 msgstr "<b>Ставка Цаје</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:94
+#: src/cact/caja-actions-config-tool.ui:1196
 msgid ""
 "This tab lets you determine the main characteristics of the currently "
 "selected item."
@@ -3137,19 +3135,19 @@ msgstr ""
 "Ова картица вам омогућава да одредите главне одлике тренутно изабране "
 "ставке."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:96
+#: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
 msgstr "Натпис који ће вас подсетити зашто сте направили овај профил."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:97
+#: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
 msgstr "_Натпис:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:98
+#: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
 msgstr "<b>Профил</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:99
+#: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
 "The path of the command.\n"
 "If this is not an absolute path, then the PATH environment variable at execution time will be considered."
@@ -3157,43 +3155,43 @@ msgstr ""
 "Путања наредбе.\n"
 "Ако ово није апсолутна путања, тада ће променљива окружења „ПУТАЊА“ у време извршења бити узета у обзир."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:101
+#: src/cact/caja-actions-config-tool.ui:1331
 msgid "The parameters of the command."
 msgstr "Параметри наредбе."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:102
+#: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
 msgstr "_Легенда"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:103
+#: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
 msgstr "Основни радни директоријум у коме ће наредба бити покренута."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:104
+#: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
 msgstr "_Разгледај..."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:105
+#: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
 msgstr "Пример"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:106
+#: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
 msgstr "_Путања:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:107
+#: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
 msgstr "_Параметри:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:108
+#: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
 msgstr "_Радни директоријум:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:109
+#: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
 msgstr "<b>Наредба</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:110
+#: src/cact/caja-actions-config-tool.ui:1518
 msgid ""
 "This tab lets you choose the command to be executed, along with its parameters.\n"
 "Defining several profiles lets you have several commands, each applying with a different set of conditions."
@@ -3201,33 +3199,33 @@ msgstr ""
 "Ова картица вам омогућава да изаберете наредбу за извршење, са њеним параметрима.\n"
 "Дефинисање неколико профила вам допушта да имате неколико наредби, примењујући сваку са различитим скупом услова."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:112
+#: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
 msgstr "_Наредба"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:113
+#: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
 msgstr "_Обично"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:114
+#: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
 msgstr "Наредба ће бити покренута као стандардно графичко корисничко сучеље."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:115
+#: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
 msgstr "У _терминалу"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:116
+#: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
 "The command will be started in the preferred terminal of the graphical "
 "environment."
 msgstr "Наредба ће бити покренута у жељеном терминалу графичког окружења."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:117
+#: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
 msgstr "_Уграђен"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:118
+#: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
@@ -3235,11 +3233,11 @@ msgstr ""
 "Ова опција ствара коришћење нарочите функције управника датотека, која ће омогућити терминалу да буде покренут у њему.\n"
 "Прихватљива резерва ради у стандардном терминалу."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:120
+#: src/cact/caja-actions-config-tool.ui:1616
 msgid "_Display output"
 msgstr "_Прикажи излаз"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:121
+#: src/cact/caja-actions-config-tool.ui:1620
 msgid ""
 "The command will be run in a terminal.\n"
 "The terminal will be closed at the end of the execution; standard error and output streams will be displayed.\n"
@@ -3249,19 +3247,19 @@ msgstr ""
 "Терминал ће бити затворен на крају извршења; стандардна грешка и токови излаза биће приказани.\n"
 "Прихватљива резерва ради у стандардном терминалу."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:124
+#: src/cact/caja-actions-config-tool.ui:1662
 msgid "<b>Execution mode</b>"
 msgstr "<b>Режим извршења</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:125
+#: src/cact/caja-actions-config-tool.ui:1677
 msgid "Note: this is not yet implemented in Caja-Actions.\n"
 msgstr "Напомена: ово још није примењено у Цаја-Радњама.\n"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:127
+#: src/cact/caja-actions-config-tool.ui:1699
 msgid "_Startup notify"
 msgstr "_Обавести о покретању"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:128
+#: src/cact/caja-actions-config-tool.ui:1703
 msgid ""
 "When checked, it is known that the run command will send a \"remove\" message to the desktop environment.\n"
 "See the Startup Notification Protocol Specification for more details.\n"
@@ -3271,7 +3269,7 @@ msgstr ""
 "Видите одредбу протокола обавештења о покретању за више о томе.\n"
 "Важи ссамо када је изабрани режим извршења „Обичан“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:131
+#: src/cact/caja-actions-config-tool.ui:1718
 msgid ""
 "When specified, this should be the name of a WM class of at least one window of the run command.\n"
 "See the Startup Notification Protocol Specification for more details.\n"
@@ -3281,23 +3279,23 @@ msgstr ""
 "Видите одредбу протокола обавештења о покретању за више о томе.\n"
 "Важи ссамо када је изабрани режим извршења „Обичан“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:134
+#: src/cact/caja-actions-config-tool.ui:1735
 msgid "Startup Window Manager _class :"
 msgstr "_Класа управника прозора покретања:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:135
+#: src/cact/caja-actions-config-tool.ui:1756
 msgid "<b>Startup mode</b>"
 msgstr "<b>Режим покретања</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:136
+#: src/cact/caja-actions-config-tool.ui:1771
 msgid "Note: this is not yet implemented in Caja-Actions."
 msgstr "Напомена: ово још није примењено у Цаја-Радњама."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:137
+#: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
 msgstr "Изврши _као корисник:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:138
+#: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
 "Enter here the user the command should be ran as.\n"
 "The user may be defined by his numeric UID or his login name.\n"
@@ -3307,11 +3305,11 @@ msgstr ""
 "Корисник може бити дефинисан својим бројним УИБ-ом или својим именом за пријаву.\n"
 "Оставите поље празним за покретање наредбе као тренутни корисник."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:141
+#: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
 msgstr "<b>Изврши као корисник</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:142
+#: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
 "This advanced tab lets you precisely define how your command will be "
 "executed."
@@ -3319,11 +3317,11 @@ msgstr ""
 "Ова напредна картица вам омогућава да тачније дефинишете како ће се "
 "извршавати ваше наредбе."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:143
+#: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
 msgstr "_Извршавање"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:144
+#: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
 "The current item will appear if the basename of each element of the "
 "selection matches one filter of the 'Must match one of' column, while not "
@@ -3333,7 +3331,7 @@ msgstr ""
 "поклапа са једним филтером из колоне „Мора одговарати једном од“, а не "
 "поклапа се ни са једним филтером из колоне „Не сме одговарати ни једном од“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:145
+#: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
 "This list lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may use '*' and '?' wildcards.\n"
@@ -3343,29 +3341,29 @@ msgstr ""
 "Називи основе могу да користе џокере * и ?.\n"
 "Називи основе могу бити негирани да бисте одредили за које називе основе ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:148
+#: src/cact/caja-actions-config-tool.ui:1945
 msgid "Click to add a new basename filter."
 msgstr "Кликните да додате нови филтер назива основе."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:149
+#: src/cact/caja-actions-config-tool.ui:1965
 msgid "Click to remove the current basename filter."
 msgstr "Кликните да уклоните тренутни филтер назива основе."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:150
+#: src/cact/caja-actions-config-tool.ui:1996
 msgid "Match _case"
 msgstr "Поклопи величину _слова"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:151
+#: src/cact/caja-actions-config-tool.ui:2000
 msgid "Click to define the above basename filters as case sensitive."
 msgstr ""
 "Кликните да дефинишете да горњи филтери назива основе разликују вечичину "
 "слова."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:152
+#: src/cact/caja-actions-config-tool.ui:2022
 msgid "<b>Basenames conditions</b>"
 msgstr "<b>Услови назива основе</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:153
+#: src/cact/caja-actions-config-tool.ui:2042
 msgid ""
 "This tab lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
@@ -3373,11 +3371,11 @@ msgstr ""
 "Ова картица вам омогућава да одредите за које ће називе основе тренутно изабрана ставка бити приказана у приручном изборнику Цаје.\n"
 "Називи основе могу бити негирани да бисте одредили за које називе основе ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:155
+#: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
 msgstr "_Називи основе"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:156
+#: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
 "The current item will appear if the mimetype of each element of the "
 "selection matches one filter of the 'Must match one of' column, while not "
@@ -3387,7 +3385,7 @@ msgstr ""
 "поклапа са једним филтером из колоне „Мора одговарати једном од“, а не "
 "поклапа се ни са једним филтером из колоне „Не сме одговарати ни једном од“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:157
+#: src/cact/caja-actions-config-tool.ui:2103
 msgid ""
 "This list lets you determine for which mimetypes the currently selected item will be displayed in the Caja context menu.\n"
 "Mimetypes may be specified as '*', '*/*', 'group/*' or 'group/subgroup'.\n"
@@ -3397,19 +3395,19 @@ msgstr ""
 "Миме врсте се могу навести као „*“, „*/*“, „group/*“ или „group/subgroup“.\n"
 "Миме врсте могу бити негиране да бисте одредили за које врсте објеката ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:160
+#: src/cact/caja-actions-config-tool.ui:2134
 msgid "Click to add a new mimetype filter."
 msgstr "Кликните да додате нови филтер миме врсте."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:161
+#: src/cact/caja-actions-config-tool.ui:2154
 msgid "Click to remove the current mimetype filter."
 msgstr "Кликните да уклоните тренутни филтер миме врсте."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:162
+#: src/cact/caja-actions-config-tool.ui:2193
 msgid "<b>Mimetypes conditions</b>"
 msgstr "<b>Услови миме врста</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:163
+#: src/cact/caja-actions-config-tool.ui:2213
 msgid ""
 "This tab lets you determine for which mimetypes the currently selected item will be displayed in the Caja context menu.\n"
 "Mimetypes may be specified as '*', '/*', 'group/*' or 'group/subgroup'.\n"
@@ -3419,11 +3417,11 @@ msgstr ""
 "Миме врсте се могу навести као „*“, „/*“, „group/*“ или „group/subgroup“.\n"
 "Миме врсте могу бити негиране да бисте одредили за које врсте објеката ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:166
+#: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
 msgstr "_Миме врсте"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:167
+#: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
 "The current item will appear if the location of each element of the "
 "selection is one or inside one of the paths of the 'Must match one of' "
@@ -3434,7 +3432,7 @@ msgstr ""
 "или је унутар једне од путања из колоне „Мора одговарати једном од“, а да "
 "није једна или унутар једне из колоне „Не сме одговарати ни једном од“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:168
+#: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
 "This list lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folders may use '*' or '?' wildcards.\n"
@@ -3444,25 +3442,25 @@ msgstr ""
 "Фасцикле могу да користе џокере * или ?.\n"
 "Филтери фасцикли могу бити негирани да бисте одредили за које фасцикле ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:171
+#: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
 msgstr "Кликните да додате нови филтер фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:172
+#: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
 msgstr ""
 "Кликните да разгледате систем датотека да бисте изабрали нови филтер "
 "фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:173
+#: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
 msgstr "Кликните да уклоните тренутни филтер фасцикле."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:174
+#: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
 msgstr "<b>Услови фасцикли</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:175
+#: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
@@ -3470,11 +3468,11 @@ msgstr ""
 "Ова картица вам омогућава да одредите где се (у којим фасциклама) тренутно изабране датотеке морају налазити да би ставка била приказана у приручном изборнику Цаје.\n"
 "Филтери фасцикли могу бити негирани да бисте одредили за које фасцикле ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:177
+#: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
 msgstr "_Фасцикле"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:178
+#: src/cact/caja-actions-config-tool.ui:2457
 msgid ""
 "The current item will appear if the scheme of each element of the selection "
 "matches one of the 'Must match one of' column, while not matching any of the"
@@ -3484,7 +3482,7 @@ msgstr ""
 " једном из колоне „Мора одговарати једном од“, а не поклапа ни са једном из "
 "колоне „Не сме одговарати ни једном од“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:179
+#: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
 "This list lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
@@ -3492,27 +3490,27 @@ msgstr ""
 "Овај списак вам омогућава да одредите које шеме тренутно изабране датотеке морају да задовоље да би ставка била приказана у приручном изборнику Цаје.\n"
 "Филтери могу бити негирани да бисте одредили за које шеме ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:181
+#: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
 msgstr "Кликните да додате нови филтер шеме."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:182
+#: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
 msgstr "_Основности..."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:183
+#: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
 msgstr "Кликните да изаберете нови филтер шеме из основних шема."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:184
+#: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
 msgstr "Кликните да уклоните тренутни филтер шеме."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:185
+#: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
 msgstr "<b>Услови шема</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:186
+#: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
 "This tab lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
@@ -3520,7 +3518,7 @@ msgstr ""
 "Ова картица вам омогућава да одредите које шеме тренутно изабране датотеке морају да задовоље да би ставка била приказана у приручном изборнику Цаје.\n"
 "Филтери могу бити негирани да бисте одредили за које шеме ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:189
+#: src/cact/caja-actions-config-tool.ui:2659
 msgid ""
 "The current item will appear if each element of the selection matches all "
 "capabilities of the 'Must match all of' column, while not matching any "
@@ -3530,7 +3528,7 @@ msgstr ""
 "могућностима из колоне „Мора одговарати једном од“, а не поклапа се ни са "
 "једном из колоне „Не сме одговарати ни једном од“."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:190
+#: src/cact/caja-actions-config-tool.ui:2677
 msgid ""
 "This list lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Capabilities may be negated to specify for which capabilities your item must not appear."
@@ -3538,19 +3536,19 @@ msgstr ""
 "Овај списак вам омогућава да одредите које могућности тренутно изабране датотеке морају да задовоље да би ставка била приказана у приручном изборнику Цаје.\n"
 "Могћности могу бити негиране да бисте одредили за које могућности ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:192
+#: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
 msgstr "Кликните да додате нови филтер могућности."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:193
+#: src/cact/caja-actions-config-tool.ui:2730
 msgid "Click to remove the current capability."
 msgstr "Кликните да уклоните тренутну могућност."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:194
+#: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
 msgstr "<b>Услови могућности</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:195
+#: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
 "This tab lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which capabilities your item must not appear."
@@ -3558,11 +3556,11 @@ msgstr ""
 "Ова картица вам омогућава да одредите које могућности тренутно изабране датотеке морају да задовоље да би ставка била приказана у приручном изборнику Цаје.\n"
 "Филтери могу бити негирани да бисте одредили за које могућности ваша ставка не сме да се појави."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:197
+#: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
 msgstr "_Могућности"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:198
+#: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
 "This is an advanced condition based on the count of the current selection.\n"
 "If the current selection does not match this condition, then the item will not be displayed in the file manager context menus or toolbar."
@@ -3570,15 +3568,15 @@ msgstr ""
 "Ово је напредни услов заснован на укупности тренутног избора.\n"
 "Ако тренутни избор не задовољава овај услов, тада ставка неће бити приказана у приручном изборнику или на траци алата управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:200
+#: src/cact/caja-actions-config-tool.ui:2839
 msgid "_Count :"
 msgstr "_Укупно:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:201
+#: src/cact/caja-actions-config-tool.ui:2898
 msgid "<b>Appears if selection contains</b>"
 msgstr "<b>Појављује се ако избор садржи</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:202
+#: src/cact/caja-actions-config-tool.ui:2927
 msgid ""
 "This is an advanced condition based on the running desktop environment.\n"
 "First choose on the left if the item depends of a particular desktop environment, then select on the right the adequate desktop environment."
@@ -3586,23 +3584,23 @@ msgstr ""
 "Ово је напредни услов заснован на покренутом окружењу радне површи.\n"
 "Прво изаберите на левој страни да ли ставка зависи од нарочитог окружења радне површи, затим изаберите на десној страни одговарајуће окружење радне површи."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:204
+#: src/cact/caja-actions-config-tool.ui:2939
 msgid "Item may appear depending of the desktop environment."
 msgstr "Ставка се може појавити у зависности од окружења радне површи."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:205
+#: src/cact/caja-actions-config-tool.ui:2959
 msgid "_Always appears"
 msgstr "_Увек се појављује"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:206
+#: src/cact/caja-actions-config-tool.ui:2976
 msgid "_Only appears in selected environments"
 msgstr "_Појављује се само у изабраним окружењима"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:207
+#: src/cact/caja-actions-config-tool.ui:2993
 msgid "_Never appears in selected environments"
 msgstr "_Никада се не појављује у изабраним окружењима"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:209
+#: src/cact/caja-actions-config-tool.ui:3094
 msgid ""
 "This is an advanced condition based on the presence of a particular service on the D-Bus system.\n"
 "This may be used for example for testing that a prerequisite service is currently available."
@@ -3610,7 +3608,7 @@ msgstr ""
 "Ово је напредни услов заснован на присуству нарочите услуге на систему Д-сабирнице.\n"
 "Ово се може користити на пример за тестирање тренутне доступности предодређене услуге."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:211
+#: src/cact/caja-actions-config-tool.ui:3110
 msgid ""
 "This is an advanced condition based on a runtime result.\n"
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
@@ -3620,7 +3618,7 @@ msgstr ""
 "Упишите овде наредбу која је у могућности да прикаже тачну ниску „true“ на свом стандардном излазу.\n"
 "Ово се може користити на пример за тестирање сложеног услова."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:214
+#: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
 "This is an advanced condition based on the presence of a running binary.\n"
 "Note that only the basename of the binary is checked, not its dirname nor its parameters.\n"
@@ -3630,15 +3628,15 @@ msgstr ""
 "Знајте да се само назив основе бинарне датотеке проверава, не њен назив директоријума нити њени параметри.\n"
 "Ово се може користити на пример за тестирање присуства унапред захтеваног позадинца."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:217
+#: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
 msgstr "_Разгледај..."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:218
+#: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
 msgstr "Појављује се ако је датотека _извршна:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:219
+#: src/cact/caja-actions-config-tool.ui:3171
 msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
@@ -3646,27 +3644,27 @@ msgstr ""
 "Ово је напредни услов заснован на присуству извршне датотеке на систему датотека.\n"
 "Ово се може користити на пример за тестирање предодређеног пакета."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:221
+#: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
 msgstr "_Разгледај..."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:222
+#: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
 msgstr "Појављује се ако је назив _регистрован на Д-сабирници:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:223
+#: src/cact/caja-actions-config-tool.ui:3215
 msgid "Appears if the command outputs \"_true\" :"
 msgstr "Појављује се ако наредба испише „_true“:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:224
+#: src/cact/caja-actions-config-tool.ui:3228
 msgid "Appears if the _binary is running :"
 msgstr "Појављује се ако је _бинарна покренута:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:225
+#: src/cact/caja-actions-config-tool.ui:3252
 msgid "<b>Execution environment</b>"
 msgstr "<b>Окружење извршења</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:226
+#: src/cact/caja-actions-config-tool.ui:3274
 msgid ""
 "This tab lets you determine some advanced conditions the currently selected "
 "files must satisfy in order for the item to be displayed in the file manager"
@@ -3676,15 +3674,15 @@ msgstr ""
 "изабране датотеке морају да задовоље да би се ставка приказала у приручном "
 "изборнику управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:227
+#: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
 msgstr "_Окружење"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:228
+#: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
 msgstr "_Опис:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:229
+#: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
 "Enter here a free text which may be used (e.g. in a Web service or in a "
 "search tool) to describe your item."
@@ -3692,11 +3690,11 @@ msgstr ""
 "Упишите овде произвољан текст који се може користити (нпр. у Веб услузи или "
 "у алату претраге) за описивање ваше ставке."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:230
+#: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
 msgstr "_Укључена"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:231
+#: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
 "Check the box to enable this item.\n"
 "If unchecked, then the item will never appear in the file manager context menus or toolbar."
@@ -3704,7 +3702,7 @@ msgstr ""
 "Штиклирајте ову кућицу да укључите ову ставку.\n"
 "Ако није штклирано, тада се ставка никада неће појавити у приручним изборницима или на траци алата управника датотека."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:234
+#: src/cact/caja-actions-config-tool.ui:3379
 msgid ""
 "Enter here the keyboard touch combination you suggest as a shortcut to your action.\n"
 "Note: this is not yet implemented in Caja-Actions."
@@ -3712,15 +3710,15 @@ msgstr ""
 "Упишите овде комбинацију тастера тастатуре које предлажете као пречицу за вашу радњу.\n"
 "Напомена: ово још није примењено у Цаја-Радњама."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:236
+#: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
 msgstr "Предложена _пречица:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:238
+#: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
 msgstr "Ставка само за читање"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:239
+#: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
 "This box is checked if the item cannot be edited.\n"
 "There may be multiple reasons for why an item cannot be edited. See your User's Manual."
@@ -3728,19 +3726,19 @@ msgstr ""
 "Ова кућица је штиклирана ако се ставка не мможе уређивати.\n"
 "МОже постојати више разлога зашто се нека ставка не може уређивати. Видите корисничко упутство."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:241
+#: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
 msgstr "Иб.:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:242
+#: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
 msgstr "У/И достављач:"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:243
+#: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
 msgstr "<b>Својства само за читање</b>"
 
-#: ../src/cact/caja-actions-config-tool.ui.h:244
+#: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
 "This tab lets you edit some miscellaneous properties, and access some non-"
 "modifiable information."
@@ -3748,50 +3746,50 @@ msgstr ""
 "Ова картица вам омогућава да уредите нека разна својства, и да приступите "
 "неким неимењивим информацијма."
 
-#: ../src/cact/caja-actions-config-tool.ui.h:245
+#: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
 msgstr "_Својства"
 
-#. i18n: label of an automagic root submenu
-#: ../src/plugin-menu/caja-actions.c:933
+#. Translators: label of an automagic root submenu
+#: src/plugin-menu/caja-actions.c:933
 msgid "Caja-Actions actions"
 msgstr "Радње Цаја-Радњи"
 
-#. i18n: tooltip of an automagic root submenu
-#: ../src/plugin-menu/caja-actions.c:935
+#. Translators: tooltip of an automagic root submenu
+#: src/plugin-menu/caja-actions.c:935
 msgid ""
 "A submenu which embeds the currently available Caja-Actions actions and "
 "menus"
 msgstr ""
 "Подизборник који уграђује тренутно доступне радње и изборнике Цаја-Радњи"
 
-#: ../src/plugin-menu/caja-actions.c:979
+#: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
 msgstr "О Цаја-Радњама"
 
-#: ../src/plugin-menu/caja-actions.c:980
+#: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
 msgstr "Приказује неке информације о програму"
 
-#: ../src/test/test-reader.c:48
+#: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
 msgstr "Путања датотеке за увоз"
 
-#: ../src/test/test-reader.c:48 ../src/utils/caja-actions-run.c:62
+#: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
 msgstr "<Путања>"
 
-#: ../src/test/test-reader.c:55 ../src/utils/na-print-schemas.c:67
-#: ../src/utils/caja-actions-new.c:156 ../src/utils/caja-actions-print.c:72
-#: ../src/utils/caja-actions-run.c:69
+#: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
+#: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
+#: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
 msgstr "Исписује број издања"
 
-#: ../src/test/test-reader.c:108
+#: src/test/test-reader.c:108
 msgid "Import a file."
 msgstr "Увози датотеку."
 
-#: ../src/test/test-reader.c:122
+#: src/test/test-reader.c:122
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
@@ -3799,33 +3797,31 @@ msgstr ""
 "Извештаји о грешкама су добродошли на „http://bugzilla.gnome.org“, или их "
 "можете послати на <maintainer@caja-actions.org>.\n"
 
-#: ../src/test/test-reader.c:130 ../src/utils/na-print-schemas.c:169
-#: ../src/utils/na-set-conf.c:210 ../src/utils/caja-actions-new.c:380
-#: ../src/utils/caja-actions-print.c:185 ../src/utils/caja-actions-run.c:204
+#: src/test/test-reader.c:130 src/utils/na-print-schemas.c:169
+#: src/utils/na-set-conf.c:210 src/utils/caja-actions-new.c:380
+#: src/utils/caja-actions-print.c:185 src/utils/caja-actions-run.c:204
 msgid "Miscellaneous options"
 msgstr "Остале опције"
 
-#: ../src/test/test-reader.c:151 ../src/utils/na-print-schemas.c:102
-#: ../src/utils/na-set-conf.c:122 ../src/utils/caja-actions-new.c:200
-#: ../src/utils/caja-actions-print.c:112 ../src/utils/caja-actions-run.c:113
+#: src/test/test-reader.c:151 src/utils/na-print-schemas.c:102
+#: src/utils/na-set-conf.c:122 src/utils/caja-actions-new.c:200
+#: src/utils/caja-actions-print.c:112 src/utils/caja-actions-run.c:113
 #, c-format
 msgid "Syntax error: %s\n"
 msgstr "Грешка синтаксе: %s\n"
 
-#: ../src/test/test-reader.c:166
-#, c-format
+#: src/test/test-reader.c:166
 msgid "Error: uri is mandatory.\n"
 msgstr "Грешка: путања је обавезна.\n"
 
-#. i18: '--help' is a command-line option - do not translate
-#: ../src/test/test-reader.c:178 ../src/utils/na-print-schemas.c:183
-#: ../src/utils/na-set-conf.c:224 ../src/utils/caja-actions-new.c:624
-#: ../src/utils/caja-actions-print.c:242 ../src/utils/caja-actions-run.c:433
+#: src/test/test-reader.c:178 src/utils/na-print-schemas.c:183
+#: src/utils/na-set-conf.c:224 src/utils/caja-actions-new.c:624
+#: src/utils/caja-actions-print.c:241 src/utils/caja-actions-run.c:430
 #, c-format
 msgid "Try %s --help for usage.\n"
 msgstr "Покушајте „%s --help“ за коришћење.\n"
 
-#: ../src/utils/console-utils.c:55
+#: src/utils/console-utils.c:55
 msgid ""
 "Bug reports are welcomed at https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
 "or you may prefer to mail to <maintainer@caja-actions.org>.\n"
@@ -3833,23 +3829,23 @@ msgstr ""
 "Извештаји о грешкама су добродошли на „https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,“,\n"
 "или их можете послати на <maintainer@caja-actions.org>.\n"
 
-#: ../src/utils/na-print-schemas.c:56
+#: src/utils/na-print-schemas.c:56
 msgid "Output the schema on stdout"
 msgstr "Исписује шему на стандардном излазу"
 
-#: ../src/utils/na-print-schemas.c:61
+#: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
 msgstr "Исписује шеме радње [основно]"
 
-#: ../src/utils/na-print-schemas.c:62
+#: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
 msgstr "Исписује шеме изборника"
 
-#: ../src/utils/na-print-schemas.c:140
+#: src/utils/na-print-schemas.c:140
 msgid "Output the Caja-Actions MateConf schemas on stdout."
 msgstr "Исписује шеме подешавања Мејта Цаја-Радњи на стандардном излазу."
 
-#: ../src/utils/na-print-schemas.c:144
+#: src/utils/na-print-schemas.c:144
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
@@ -3857,114 +3853,108 @@ msgstr ""
 "Од издања 3.1.0, Подешавање Мејта као У/И достављач је застарело.\n"
 "Овај програм се не одржава више."
 
-#: ../src/utils/na-print-schemas.c:163
+#: src/utils/na-print-schemas.c:163
 msgid "Type options"
 msgstr "Опције врсте"
 
-#: ../src/utils/na-set-conf.c:52
+#: src/utils/na-set-conf.c:52
 msgid "Set a key=value pair in a key file."
 msgstr "Поставља пар кључ=вредност у датотеци кључа."
 
-#: ../src/utils/na-set-conf.c:63
+#: src/utils/na-set-conf.c:63
 msgid "The group to be updated"
 msgstr "Група која ће бити освежена"
 
-#: ../src/utils/na-set-conf.c:65
+#: src/utils/na-set-conf.c:65
 msgid "The key to be updated"
 msgstr "Кључ који ће бити освежен"
 
-#. i18n: 'str', 'int' and 'bool' are literal values: do not translate
-#: ../src/utils/na-set-conf.c:68
+#. Translators: 'str', 'int' and 'bool' are literal values: do not translate
+#: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
 msgstr "Врста вредности за постављање, може бити „str“, „int“ или „bool“"
 
-#: ../src/utils/na-set-conf.c:70
+#: src/utils/na-set-conf.c:70
 msgid "The value to be set"
 msgstr "Вредност за постављање"
 
-#: ../src/utils/na-set-conf.c:77
+#: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
 msgstr "Исписује број издања и излази достојанствено"
 
-#: ../src/utils/na-set-conf.c:138
-#, c-format
+#: src/utils/na-set-conf.c:138
 msgid "Error: a group is mandatory.\n"
 msgstr "Грешка: група је обавезна.\n"
 
-#: ../src/utils/na-set-conf.c:143
-#, c-format
+#: src/utils/na-set-conf.c:143
 msgid "Error: a key is mandatory.\n"
 msgstr "Грешка: кључ је обавезан.\n"
 
-#: ../src/utils/na-set-conf.c:148
-#, c-format
+#: src/utils/na-set-conf.c:148
 msgid "Error: a type is mandatory for setting/updating a value.\n"
 msgstr "Грешка: врста је обавезна за постављање/освежавање вредности.\n"
 
-#. i18n: 'str', 'int' and 'bool' are literal values: do not translate
-#: ../src/utils/na-set-conf.c:159
+#. Translators: 'str', 'int' and 'bool' are literal values: do not translate
+#: src/utils/na-set-conf.c:159
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
 msgstr "Грешка: непозната врста: %s. Користите „str“, „int“ или „bool“.\n"
 
-#: ../src/utils/na-set-conf.c:166
-#, c-format
+#: src/utils/na-set-conf.c:166
 msgid "Error: a value is mandatory.\n"
 msgstr "Грешка: вредност је обавезна.\n"
 
-#: ../src/utils/caja-actions-new.c:134
+#: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
 msgstr "Поставите ово ако ставка треба да буде искључена при стварању"
 
-#: ../src/utils/caja-actions-new.c:136
+#: src/utils/caja-actions-new.c:136
 msgid "Set it if the item doesn't target the selection context menu"
 msgstr "Поставите ово ако ставка не циља приручни изборник избора"
 
-#: ../src/utils/caja-actions-new.c:138
+#: src/utils/caja-actions-new.c:138
 msgid "Set it if the item doesn't target the location context menu"
 msgstr "Поставите ово ако ставка не циља приручни изборник места"
 
-#: ../src/utils/caja-actions-new.c:140
+#: src/utils/caja-actions-new.c:140
 msgid "Set it if the item doesn't target the toolbar"
 msgstr "Поставите ово ако ставка не циља на траку алата"
 
-#: ../src/utils/caja-actions-new.c:142
+#: src/utils/caja-actions-new.c:142
 msgid "Set it if the basename patterns are case insensitive"
 msgstr "Поставите ово ако шаблони назива основе разликују величину слова"
 
-#: ../src/utils/caja-actions-new.c:148
+#: src/utils/caja-actions-new.c:148
 msgid "Output the new item content on stdout (default)"
 msgstr "Исписује садржај нове ставке на стандардном излазу (основно)"
 
-#: ../src/utils/caja-actions-new.c:149
+#: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
 msgstr "Ствара нову ставку као „.desktop“ датотеку"
 
-#: ../src/utils/caja-actions-new.c:160
+#: src/utils/caja-actions-new.c:160
 #, c-format
 msgid "Error: '%s' and '%s' options cannot both be specified\n"
 msgstr "Грешка: опције „%s“ и „%s“ се не могу навести заједно\n"
 
-#: ../src/utils/caja-actions-new.c:161
+#: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
 msgstr "„%s“ опција је застарела, видите „%s“\n"
 
-#: ../src/utils/caja-actions-new.c:213
-#, c-format
+#: src/utils/caja-actions-new.c:213
 msgid "Error: an action label is mandatory.\n"
 msgstr "Грешка: натпис радње је обавезан.\n"
 
-#: ../src/utils/caja-actions-new.c:259
-#, c-format
+#: src/utils/caja-actions-new.c:259
 msgid "Error: only one output option may be specified.\n"
 msgstr "Грешка: само једна опција излаза може бити наведена.\n"
 
-#: ../src/utils/caja-actions-new.c:345
+#: src/utils/caja-actions-new.c:345
 msgid "Define a new action."
 msgstr "Дефинишите нову радњу."
 
-#: ../src/utils/caja-actions-new.c:348
+#: src/utils/caja-actions-new.c:348
 msgid ""
 "The created action defaults to be written to stdout.\n"
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
@@ -3974,55 +3964,55 @@ msgstr ""
 "Такође може бити записана у излазној фасцикли, у датотеци касније погодној за увоз у „CACT“.\n"
 "Или можете изабрати да директно запишете радњу у подешавање Цаја-Радњи."
 
-#: ../src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:374
 msgid "Output of the program"
 msgstr "Испис програма"
 
-#: ../src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:374
 msgid "Choose where the program creates the action"
 msgstr "Бира где програм ствара радњу"
 
-#. i18n: 'na-desktop' is a plugin identifier - do not translate
-#: ../src/utils/caja-actions-new.c:587
+#. Translators: 'na-desktop' is a plugin identifier - do not translate
+#: src/utils/caja-actions-new.c:587
 msgid "Error: unable to find 'na-desktop' i/o provider."
 msgstr "Грешка: не могу да нађем „na-desktop“ у/и достављача."
 
-#. i18n: caja-actions-print program summary
-#: ../src/utils/caja-actions-print.c:57
+#. Translators: caja-actions-print program summary
+#: src/utils/caja-actions-print.c:57
 msgid "Print a menu or an action to stdout."
 msgstr "Исписује изборник или радњу на стандардном излазу."
 
-#: ../src/utils/caja-actions-print.c:62
+#: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
 msgstr "Одредник изборника или радње који ће бити исписан"
 
-#. i18n: 'Desktop1' here is the internal identifier of an export format; it is
-#. not translatable
-#: ../src/utils/caja-actions-print.c:65
+#. Translators: 'Desktop1' here is the internal identifier of an export
+#. format; it is not translatable
+#: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
 msgstr "Форма т извоза [Desktop1]"
 
-#: ../src/utils/caja-actions-print.c:127
-#, c-format
+#: src/utils/caja-actions-print.c:127
 msgid "Error: a menu or action id is mandatory.\n"
 msgstr "Грешка: изборник или радња је обавезан.\n"
 
-#. i18n: %s stands for the id of the export format, and is not translatable
-#: ../src/utils/caja-actions-print.c:143
+#. Translators: %s stands for the id of the export format, and is not
+#. translatable
+#: src/utils/caja-actions-print.c:143
 #, c-format
 msgid "Error: %s: unknown export format.\n"
 msgstr "Грешка: %s: непознат формат извоза.\n"
 
-#: ../src/utils/caja-actions-print.c:208
+#: src/utils/caja-actions-print.c:206
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
 msgstr "Грешка: ставка „%s“ не постоји.\n"
 
-#: ../src/utils/caja-actions-run.c:60
+#: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
 msgstr "Унутрашњи одредник радње која ће бити покренута"
 
-#: ../src/utils/caja-actions-run.c:62
+#: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
@@ -4030,41 +4020,38 @@ msgstr ""
 "Мета , датотека или фасцикла, за радњу. Може бити наведено више од једне "
 "опције"
 
-#: ../src/utils/caja-actions-run.c:128
-#, c-format
+#: src/utils/caja-actions-run.c:128
 msgid "Error: action id is mandatory.\n"
 msgstr "Грешка: радња је обавезна.\n"
 
-#: ../src/utils/caja-actions-run.c:153
-#, c-format
+#: src/utils/caja-actions-run.c:153
 msgid "No current selection. Nothing to do. Exiting.\n"
 msgstr "Нема тренутног избора. Немам шта да радим. Одлазим у топлије крајеве.\n"
 
-#: ../src/utils/caja-actions-run.c:158
+#: src/utils/caja-actions-run.c:158
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
 msgstr "Радња „%s“ није исправан кандидат. Одлазим.\n"
 
-#: ../src/utils/caja-actions-run.c:164
-#, c-format
+#: src/utils/caja-actions-run.c:164
 msgid "No valid profile is candidate to execution. Exiting.\n"
 msgstr "Никакав исправан профил није кандидат за извршење. Одох да спавам.\n"
 
-#: ../src/utils/caja-actions-run.c:185
+#: src/utils/caja-actions-run.c:185
 msgid "Execute an action on the specified target."
 msgstr "Извршава радњу над наведеном метом."
 
-#: ../src/utils/caja-actions-run.c:230
+#: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
 msgstr "Грешка: радња „%s“ не постоји.\n"
 
-#: ../src/utils/caja-actions-run.c:234
+#: src/utils/caja-actions-run.c:231
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
 msgstr "Грешка: радња „%s“ је искључена.\n"
 
-#: ../src/utils/caja-actions-run.c:239
+#: src/utils/caja-actions-run.c:236
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
 msgstr "Грешка: радња „%s“ није исправна.\n"
