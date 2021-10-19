@@ -48,8 +48,8 @@
 /* minimal and maximal size for loading the content of a file in memory
  * used by na_core_utils_file_is_size_ok()
  */
-#define SIZE_MIN		  1
-#define SIZE_MAX	1048576		/* 1 MB */
+#define CA_SIZE_MIN           1
+#define CA_SIZE_MAX     1048576 /* 1 MB */
 
 #ifdef NA_ENABLE_DEPRECATED
 static GSList  *text_to_string_list( const gchar *text, const gchar *separator, const gchar *default_value );
@@ -1089,7 +1089,7 @@ file_is_loadable( GFile *file )
 	} else {
 		size = g_file_info_get_attribute_uint64( info, G_FILE_ATTRIBUTE_STANDARD_SIZE );
 		g_debug( "%s: size=%lu", thisfn, ( unsigned long ) size );
-		isok = ( size >= SIZE_MIN && size <= SIZE_MAX );
+		isok = ( size >= CA_SIZE_MIN && size <= CA_SIZE_MAX );
 	}
 
 	if( isok ){
