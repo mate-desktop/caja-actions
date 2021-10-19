@@ -698,7 +698,7 @@ on_desktop_toggled( GtkCellRendererToggle *renderer, gchar *path, BaseWindow *wi
 	GtkTreeModel *model;
 	GtkTreeIter iter;
 	GtkTreePath *tree_path;
-	gboolean state;
+	gboolean state = FALSE;
 	gchar *desktop;
 	GtkWidget *show_button;
 	IEnvironData *data;
