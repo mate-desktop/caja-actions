@@ -44,7 +44,6 @@
 
 #define PLUGIN_NAME								"test_module_plugin"
 
-
 #if 0
 /* this is first version
  */

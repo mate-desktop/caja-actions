@@ -114,5 +114,4 @@ gboolean         egg_sm_client_end_session         (EggSMClientEndStyle  style,
 
 G_END_DECLS
 
-
 #endif /* __EGG_SM_CLIENT_H__ */

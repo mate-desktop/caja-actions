@@ -424,7 +424,6 @@ runtime_init_file_selector( CactAssistantImport *window, GtkAssistant *assistant
 	g_debug( "%s: window=%p, assistant=%p, page=%p, chooser=%p",
 			thisfn, ( void * ) window, ( void * ) assistant, ( void * ) page, ( void * ) chooser );
 
-
 	uri = na_settings_get_string( NA_IPREFS_IMPORT_ASSISTANT_URI, NULL, NULL );
 	if( uri && strlen( uri )){
 		gtk_file_chooser_set_current_folder_uri( GTK_FILE_CHOOSER( chooser ), uri );

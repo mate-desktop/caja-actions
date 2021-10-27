@@ -1390,13 +1390,11 @@ egg_desktop_file_launch (EggDesktopFile *desktop_file,
   return success;
 }
 
-
 GQuark
 egg_desktop_file_error_quark (void)
 {
   return g_quark_from_static_string ("egg-desktop_file-error-quark");
 }
-
 
 G_LOCK_DEFINE_STATIC (egg_desktop_file);
 static EggDesktopFile *egg_desktop_file;

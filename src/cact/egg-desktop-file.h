@@ -137,7 +137,6 @@ char    **egg_desktop_file_get_locale_string_list (EggDesktopFile  *desktop_file
 						   gsize           *length,
 						   GError         **error) G_GNUC_MALLOC;
 
-
 /* Errors */
 #define EGG_DESKTOP_FILE_ERROR egg_desktop_file_error_quark()
 
@@ -153,7 +152,6 @@ typedef enum {
 void            egg_set_desktop_file                  (const char *desktop_file_path);
 void            egg_set_desktop_file_without_defaults (const char *desktop_file_path);
 EggDesktopFile *egg_get_desktop_file                  (void);
-
 
 G_END_DECLS
 
