@@ -653,7 +653,6 @@ set_uri_element (NAMateVFSURI *vfs,
 
 */
 
-
 #define URI_MOVE_PAST_DELIMITER \
 	do {							\
 		cur_tok_start = (++cur);			\
@@ -662,7 +661,6 @@ set_uri_element (NAMateVFSURI *vfs,
 			goto done;				\
 		}						\
 	} while (0);
-
 
 #define uri_strlen_to(from, to)  ( (to) - (from) )
 #define uri_strdup_to(from, to)  g_strndup ((from), uri_strlen_to((from), (to)))
@@ -744,7 +742,6 @@ split_toplevel_uri (const gchar *path, guint path_len,
 	if (path == NULL || path_len == 0) {
 		return g_strdup ("/");
 	}
-
 
 	path_end = path + path_len;
 

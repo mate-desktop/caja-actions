@@ -64,7 +64,6 @@ struct _NASelectedInfoPrivate {
 	gboolean       attributes_are_set;
 };
 
-
 static GObjectClass *st_parent_class = NULL;
 
 static GType           register_type( void );

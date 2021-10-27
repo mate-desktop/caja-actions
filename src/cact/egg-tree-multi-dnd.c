@@ -392,7 +392,6 @@ on_motion_event( GtkWidget *widget, GdkEventMotion *event, EggTreeMultiDragSourc
 			context = gtk_drag_begin_with_coordinates(
 					widget, target_list, actions, priv_data->pressed_button, ( GdkEvent * ) event, priv_data->x, priv_data->y );
 
-
 			set_treeview_data( widget, path_list );
 
 			gtk_drag_set_icon_default( context );
