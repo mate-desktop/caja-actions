@@ -874,7 +874,7 @@ query_file_attributes( NASelectedInfo *nsi, GFile *location, gchar **errmsg )
 	}
 
 	if( !nsi->private->mimetype ){
-		nsi->private->mimetype = g_strdup( g_file_info_get_attribute_as_string( info, G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE ));
+		nsi->private->mimetype = g_file_info_get_attribute_as_string( info, G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE );
 	}
 
 	nsi->private->file_type = ( GFileType ) g_file_info_get_attribute_uint32( info, G_FILE_ATTRIBUTE_STANDARD_TYPE );
@@ -883,7 +883,7 @@ query_file_attributes( NASelectedInfo *nsi, GFile *location, gchar **errmsg )
 	nsi->private->can_write = g_file_info_get_attribute_boolean( info, G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE );
 	nsi->private->can_execute = g_file_info_get_attribute_boolean( info, G_FILE_ATTRIBUTE_ACCESS_CAN_EXECUTE );
 
-	nsi->private->owner = g_strdup( g_file_info_get_attribute_as_string( info, G_FILE_ATTRIBUTE_OWNER_USER ));
+	nsi->private->owner = g_file_info_get_attribute_as_string( info, G_FILE_ATTRIBUTE_OWNER_USER );
 
 	nsi->private->attributes_are_set = TRUE;
 
