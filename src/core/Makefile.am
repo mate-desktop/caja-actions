@@ -71,8 +71,6 @@ libna_core_la_SOURCES = \
 	na-factory-object.h									\
 	na-factory-provider.c								\
 	na-factory-provider.h								\
-	na-mate-vfs-uri.c									\
-	na-mate-vfs-uri.h									\
 	na-gtk-utils.c										\
 	na-gtk-utils.h										\
 	na-icontext.c										\

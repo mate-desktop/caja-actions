@@ -39,7 +39,6 @@
 #include <api/na-core-utils.h>
 #include <api/na-object-api.h>
 
-#include "na-mate-vfs-uri.h"
 #include "na-selected-info.h"
 #include "na-settings.h"
 #include "na-tokens.h"
@@ -64,7 +63,7 @@ struct _NATokensPrivate {
 	GSList  *mimetypes;
 	gchar   *hostname;
 	gchar   *username;
-	guint    port;
+	gint     port;
 	gchar   *scheme;
 };
 
@@ -177,7 +176,7 @@ instance_init( GTypeInstance *instance, gpointer klass )
 	self->private->mimetypes = NULL;
 	self->private->hostname = NULL;
 	self->private->username = NULL;
-	self->private->port = 0;
+	self->private->port = -1;
 	self->private->scheme = NULL;
 
 	self->private->dispose_has_run = FALSE;
@@ -251,10 +250,9 @@ na_tokens_new_for_example( void )
 	const gchar *ex_uri2 = _( "file:///path/to/file2.jpeg" );
 	const gchar *ex_mimetype1 = _( "audio/x-midi" );
 	const gchar *ex_mimetype2 = _( "image/jpeg" );
-	const guint  ex_port = 8080;
+	const gint   ex_port = 8080;
 	const gchar *ex_host = _( "test.example.net" );
 	const gchar *ex_user = _( "user" );
-	NAMateVFSURI *vfs;
 	gchar *dirname, *bname, *bname_woext, *ext;
 	GSList *is;
 	gboolean first;
@@ -266,25 +264,37 @@ na_tokens_new_for_example( void )
 	tokens->private->uris = g_slist_append( tokens->private->uris, g_strdup( ex_uri1 ));
 	tokens->private->uris = g_slist_append( tokens->private->uris, g_strdup( ex_uri2 ));
 
-	for( is = tokens->private->uris ; is ; is = is->next ){
-		vfs = g_new0( NAMateVFSURI, 1 );
-		na_mate_vfs_uri_parse( vfs, is->data );
+	for (is = tokens->private->uris; is; is = is->next) {
+		gchar *path = NULL;
+		gchar *scheme = NULL;
 
-		tokens->private->filenames = g_slist_append( tokens->private->filenames, g_strdup( vfs->path ));
-		dirname = g_path_get_dirname( vfs->path );
+		g_uri_split (is->data,
+		             G_URI_FLAGS_NONE,
+		             &scheme,
+		             NULL,  /* userinfo */
+		             NULL,  /* host */
+		             NULL,  /* port */
+		             &path,
+		             NULL,  /* query */
+		             NULL,  /* fragment*/
+		             NULL); /* error */
+
+		tokens->private->filenames = g_slist_append (tokens->private->filenames, g_strdup (path));
+		dirname = g_path_get_dirname (path);
 		tokens->private->basedirs = g_slist_append( tokens->private->basedirs, dirname );
-		bname = g_path_get_basename( vfs->path );
+		bname = g_path_get_basename (path);
 		tokens->private->basenames = g_slist_append( tokens->private->basenames, bname );
 		na_core_utils_dir_split_ext( bname, &bname_woext, &ext );
 		tokens->private->basenames_woext = g_slist_append( tokens->private->basenames_woext, bname_woext );
 		tokens->private->exts = g_slist_append( tokens->private->exts, ext );
 
 		if( first ){
-			tokens->private->scheme = g_strdup( vfs->scheme );
+			tokens->private->scheme = g_strdup (scheme);
 			first = FALSE;
 		}
 
-		na_mate_vfs_uri_free( vfs );
+		g_clear_pointer (&scheme, g_free);
+		g_clear_pointer (&path, g_free);
 	}
 
 	tokens->private->mimetypes = g_slist_append( tokens->private->mimetypes, g_strdup( ex_mimetype1 ));

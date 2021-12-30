@@ -44,7 +44,6 @@
 #include "na-factory-provider.h"
 #include "na-factory-object.h"
 #include "na-selected-info.h"
-#include "na-mate-vfs-uri.h"
 
 /* private class data
  */

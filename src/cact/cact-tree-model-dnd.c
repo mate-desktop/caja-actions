@@ -38,7 +38,6 @@
 #include <api/na-core-utils.h>
 #include <api/na-object-api.h>
 
-#include <core/na-mate-vfs-uri.h>
 #include <core/na-importer.h>
 
 #include "cact-application.h"

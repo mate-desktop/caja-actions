@@ -45,7 +45,6 @@
 #include <api/na-object-api.h>
 
 #include "na-desktop-environment.h"
-#include "na-mate-vfs-uri.h"
 #include "na-selected-info.h"
 #include "na-settings.h"
 

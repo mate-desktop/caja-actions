@@ -32,10 +32,9 @@
 #endif
 
 #include <glib-object.h>
+#include <glib.h>
 #include <glib/gprintf.h>
 #include <stdlib.h>
-
-#include <core/na-mate-vfs-uri.h>
 
 static const gchar *uris[] = {
 		"http://robert:azerty01@mon.domain.com/path/to/a/document?query#anchor",
@@ -47,28 +46,48 @@ static const gchar *uris[] = {
 };
 
 int
-main( int argc, char** argv )
+main (int argc, char** argv)
 {
-	int i;
+	gchar  *scheme = NULL;
+	gchar  *userinfo = NULL;
+	gchar  *host = NULL;
+	gchar  *path = NULL;
+	gint    port;
+	const gchar **uri = uris;
 
 #if !GLIB_CHECK_VERSION( 2,36, 0 )
 	g_type_init();
 #endif
 
-	g_printf( "URIs parsing test.\n\n" );
+	g_printf ("URIs parsing test.\n\n");
 
-	for( i = 0 ; uris[i] ; ++i ){
-		NAMateVFSURI *vfs = g_new0( NAMateVFSURI, 1 );
-		na_mate_vfs_uri_parse( vfs, uris[i] );
-		g_printf( "original  uri=%s\n", uris[i] );
-		g_printf( "vfs      path=%s\n", vfs->path );
-		g_printf( "vfs    scheme=%s\n", vfs->scheme );
-		g_printf( "vfs host_name=%s\n", vfs->host_name );
-		g_printf( "vfs host_port=%d\n", vfs->host_port );
-		g_printf( "vfs user_name=%s\n", vfs->user_name );
-		g_printf( "vfs  password=%s\n", vfs->password );
-		g_printf( "\n" );
+	while (*uri != NULL) {
+		g_uri_split (*uri,
+		             G_URI_FLAGS_NONE,
+		             &scheme,
+		             &userinfo,
+		             &host,
+		             &port,
+		             &path,
+		             NULL,  /* query */
+		             NULL,  /* fragment */
+		             NULL); /* error */
+
+		g_printf ("original  uri=%s\n", *uri);
+		g_printf ("vfs      path=%s\n", path);
+		g_printf ("vfs    scheme=%s\n", scheme);
+		g_printf ("vfs host_name=%s\n", host);
+		g_printf ("vfs host_port=%d\n", port);
+		g_printf ("vfs user_info=%s\n", userinfo);
+		g_printf ("\n");
+
+		g_clear_pointer (&scheme, g_free);
+		g_clear_pointer (&userinfo, g_free);
+		g_clear_pointer (&host, g_free);
+		g_clear_pointer (&path, g_free);
+
+		uri++;
 	}
 
-	return( EXIT_SUCCESS );
+	return EXIT_SUCCESS;
 }

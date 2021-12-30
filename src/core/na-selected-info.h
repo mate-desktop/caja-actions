@@ -86,7 +86,7 @@ gchar          *na_selected_info_get_path      ( const NASelectedInfo *nsi );
 gchar          *na_selected_info_get_uri       ( const NASelectedInfo *nsi );
 gchar          *na_selected_info_get_uri_host  ( const NASelectedInfo *nsi );
 gchar          *na_selected_info_get_uri_user  ( const NASelectedInfo *nsi );
-guint           na_selected_info_get_uri_port  ( const NASelectedInfo *nsi );
+gint            na_selected_info_get_uri_port  ( const NASelectedInfo *nsi );
 gchar          *na_selected_info_get_uri_scheme( const NASelectedInfo *nsi );
 gboolean        na_selected_info_is_directory  ( const NASelectedInfo *nsi );
 gboolean        na_selected_info_is_regular    ( const NASelectedInfo *nsi );

@@ -34,7 +34,6 @@
 #include <glib/gi18n.h>
 #include <string.h>
 
-#include "na-mate-vfs-uri.h"
 #include "na-selected-info.h"
 
 /* private class data
@@ -54,7 +53,7 @@ struct _NASelectedInfoPrivate {
 	gchar         *hostname;
 	gchar         *username;
 	gchar         *scheme;
-	guint          port;
+	gint           port;
 	gchar         *mimetype;
 	GFileType      file_type;
 	gboolean       can_read;
@@ -462,14 +461,14 @@ na_selected_info_get_uri_user( const NASelectedInfo *nsi )
  *
  * Returns: the port associated to this @nsi object.
  */
-guint
+gint
 na_selected_info_get_uri_port( const NASelectedInfo *nsi )
 {
-	guint port;
+	gint port;
 
 	g_return_val_if_fail( NA_IS_SELECTED_INFO( nsi ), 0 );
 
-	port = 0;
+	port = -1;
 
 	if( !nsi->private->dispose_has_run ){
 
@@ -805,8 +804,8 @@ new_from_caja_file_info( CajaFileInfo *item )
 static NASelectedInfo *
 new_from_uri( const gchar *uri, const gchar *mimetype, gchar **errmsg )
 {
-	GFile *location;
-	NAMateVFSURI *vfs;
+	GFile   *location;
+	gchar   *path = NULL;
 
 	NASelectedInfo *info = g_object_new( NA_TYPE_SELECTED_INFO, NULL );
 
@@ -824,20 +823,24 @@ new_from_uri( const gchar *uri, const gchar *mimetype, gchar **errmsg )
 	location = g_file_new_for_uri( uri );
 	info->private->filename = g_file_get_path( location );
 
-	vfs = g_new0( NAMateVFSURI, 1 );
-	na_mate_vfs_uri_parse( vfs, uri );
-	if( !info->private->filename ){
-		g_debug( "na_selected_info_new_from_uri: uri='%s', filename=NULL, setting it to '%s'", uri, vfs->path );
-		info->private->filename = g_strdup( vfs->path );
+	g_uri_split (uri,
+	             G_URI_FLAGS_NONE,
+	             &info->private->scheme,
+	             &info->private->username,
+	             &info->private->hostname,
+	             &info->private->port,
+	             &path,
+	             NULL,
+	             NULL,
+	             NULL);
+	if (info->private->filename == NULL) {
+		g_debug ("na_selected_info_new_from_uri: uri='%s', filename=NULL, setting it to '%s'", uri, path);
+		info->private->filename = g_strdup (path);
 	}
 
 	info->private->basename = g_path_get_basename( info->private->filename );
 	info->private->dirname = g_path_get_dirname( info->private->filename );
-	info->private->hostname = g_strdup( vfs->host_name );
-	info->private->username = g_strdup( vfs->user_name );
-	info->private->scheme = g_strdup( vfs->scheme );
-	info->private->port = vfs->host_port;
-	na_mate_vfs_uri_free( vfs );
+	g_free (path);
 
 	query_file_attributes( info, location, errmsg );
 	g_object_unref( location );
