@@ -445,10 +445,6 @@ main( int argc, char **argv )
 	PwiSecond *b;
 	PwiThree *c;
 
-#if !GLIB_CHECK_VERSION( 2,36, 0 )
-	g_type_init();
-#endif
-
 	a = g_object_new( PWI_TYPE_FIRST, NULL );
 	b = g_object_new( PWI_TYPE_SECOND, NULL );
 	c = g_object_new( PWI_TYPE_THREE, NULL );

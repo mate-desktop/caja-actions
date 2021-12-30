@@ -55,10 +55,6 @@ main (int argc, char** argv)
 	gint    port;
 	const gchar **uri = uris;
 
-#if !GLIB_CHECK_VERSION( 2,36, 0 )
-	g_type_init();
-#endif
-
 	g_printf ("URIs parsing test.\n\n");
 
 	while (*uri != NULL) {

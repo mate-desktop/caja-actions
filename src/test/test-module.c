@@ -56,10 +56,6 @@ main( int argc, char **argv )
 {
 	GModule *module;
 
-#if !GLIB_CHECK_VERSION( 2,36, 0 )
-	g_type_init();
-#endif
-
 	/* dynamically load the module */
 	module = load_plugin();
 
@@ -346,10 +342,6 @@ int
 main( int argc, char **argv )
 {
 	NAModule *module;
-
-#if !GLIB_CHECK_VERSION( 2,36, 0 )
-	g_type_init();
-#endif
 
 	/* dynamically load the module */
 	module = load_plugin();
