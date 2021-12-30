@@ -42,10 +42,6 @@ main( int argc, char **argv )
 	TestBase *base, *base2;
 	TestDerived *derived;
 
-#if !GLIB_CHECK_VERSION( 2,36, 0 )
-	g_type_init();
-#endif
-
 	g_debug( "allocating TestBase -------------------------------------" );
 	base = test_base_new();
 	g_debug( "calling test_iface_fna on Base object -------------------" );
