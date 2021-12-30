@@ -67,7 +67,7 @@ if test "x$PKG_CONFIG" = x; then
 	AC_MSG_ERROR([You need to install pkg-config])
 fi
 
-glib_required=2.32.1
+glib_required=2.66.0
 gtk_required=3.10
 gtop_required=2.23.1
 xml_required=2.6
