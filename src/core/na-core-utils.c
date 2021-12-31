@@ -34,16 +34,17 @@
 #include <config.h>
 #endif
 
+#include <glib/gi18n-lib.h>
+
 #include <errno.h>
 #include <stdlib.h>
 #include <string.h>
 
 #include <gio/gio.h>
 #include <glib/gstdio.h>
+#include <gtk/gtk.h>
 
 #include <api/na-core-utils.h>
-
-#include "na-about.h"
 
 /* minimal and maximal size for loading the content of a file in memory
  * used by na_core_utils_file_is_size_ok()
@@ -1224,13 +1225,12 @@ na_core_utils_file_load_from_uri( const gchar *uri, gsize *length )
 void
 na_core_utils_print_version( void )
 {
-	gchar *copyright;
 
 	g_print( "\n" );
 	g_print( "%s (%s) v %s\n", g_get_prgname(), PACKAGE_NAME, PACKAGE_VERSION );
-	copyright = na_about_get_copyright( TRUE );
-	g_print( "%s\n", copyright );
-	g_free( copyright );
+	g_print ("%s\n", _("Copyright (C) 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+	                   "Copyright (C) 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+	                   "Copyright (C) 2021 The MATE developers"));
 
 	g_print( "%s is free software, and is provided without any warranty. You may\n", PACKAGE_NAME );
 	g_print( "redistribute copies of %s under the terms of the GNU General Public\n", PACKAGE_NAME );

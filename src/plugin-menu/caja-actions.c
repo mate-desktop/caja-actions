@@ -933,7 +933,7 @@ create_root_menu( CajaActions *plugin, GList *menu )
 			_( "Caja-Actions actions" ),
 			/* Translators: tooltip of an automagic root submenu */
 			_( "A submenu which embeds the currently available Caja-Actions actions and menus" ),
-			na_about_get_icon_name());
+			PACKAGE);
 	attach_submenu_to_item( root_item, menu );
 	caja_menu = g_list_append( NULL, root_item );
 
@@ -978,7 +978,7 @@ add_about_item( CajaActions *plugin, GList *menu )
 				"AboutCajaActions",
 				_( "About Caja-Actions" ),
 				_( "Display some information about Caja-Actions" ),
-				na_about_get_icon_name());
+				PACKAGE);
 
 		g_signal_connect_data(
 				about_item,

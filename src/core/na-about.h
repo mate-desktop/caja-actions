@@ -47,10 +47,6 @@ G_BEGIN_DECLS
 
 void         na_about_display( GtkWindow *parent );
 
-gchar       *na_about_get_application_name( void );
-const gchar *na_about_get_icon_name( void );
-gchar       *na_about_get_copyright( gboolean console );
-
 G_END_DECLS
 
 #endif /* __CORE_NA_IABOUT_H__ */

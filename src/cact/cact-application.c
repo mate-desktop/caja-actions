@@ -36,8 +36,6 @@
 
 #include <api/na-core-utils.h>
 
-#include <core/na-about.h>
-
 #include "cact-application.h"
 #include "cact-main-window.h"
 
@@ -222,7 +220,7 @@ cact_application_new( void )
 			BASE_PROP_OPTIONS,          st_option_entries,
 			BASE_PROP_APPLICATION_NAME, gettext( st_application_name ),
 			BASE_PROP_DESCRIPTION,      gettext( st_description ),
-			BASE_PROP_ICON_NAME,        na_about_get_icon_name(),
+			BASE_PROP_ICON_NAME,        PACKAGE,
 			BASE_PROP_UNIQUE_NAME,      st_unique_name,
 			NULL );
 
