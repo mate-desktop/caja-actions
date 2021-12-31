@@ -99,7 +99,7 @@ na_about_display (GtkWindow *toplevel)
 	                       "program-name", _("Caja-Actions"),
 	                       "translator-credits", _("translator-credits"),
 	                       "version", PACKAGE_VERSION,
-	                       "website", "http://www.caja-actions.org",
+	                       "website", PACKAGE_URL,
 	                       "wrap-license", TRUE,
 	                       NULL);
 
