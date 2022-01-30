@@ -85,8 +85,6 @@
 #define XDS_ATOM						gdk_atom_intern( "XdndDirectSave0", FALSE )
 #define XDS_FILENAME					"xds.txt"
 
-#define CACT_ATOM						gdk_atom_intern( "XdndCajaActions", FALSE )
-
 /* as a dnd source, we provide
  * - a special XdndCajaAction format for internal move/copy
  * - a XdndDirectSave, suitable for exporting to a file manager
