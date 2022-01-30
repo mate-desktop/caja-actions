@@ -855,6 +855,7 @@ query_file_attributes( NASelectedInfo *nsi, GFile *location, gchar **errmsg )
 {
 	static const gchar *thisfn = "na_selected_info_query_file_attributes";
 	GError *error;
+	guint32 type;
 
 	error = NULL;
 	GFileInfo *info = g_file_query_info( location,
@@ -880,7 +881,8 @@ query_file_attributes( NASelectedInfo *nsi, GFile *location, gchar **errmsg )
 		nsi->private->mimetype = g_file_info_get_attribute_as_string( info, G_FILE_ATTRIBUTE_STANDARD_CONTENT_TYPE );
 	}
 
-	nsi->private->file_type = ( GFileType ) g_file_info_get_attribute_uint32( info, G_FILE_ATTRIBUTE_STANDARD_TYPE );
+	type = g_file_info_get_attribute_uint32( info, G_FILE_ATTRIBUTE_STANDARD_TYPE );
+	nsi->private->file_type = ( GFileType ) type;
 
 	nsi->private->can_read = g_file_info_get_attribute_boolean( info, G_FILE_ATTRIBUTE_ACCESS_CAN_READ );
 	nsi->private->can_write = g_file_info_get_attribute_boolean( info, G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE );
