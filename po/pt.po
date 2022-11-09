@@ -5,45 +5,48 @@
 # 
 # Translators:
 # Rui <xymarior@yandex.com>, 2021
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
-# José Vieira <jvieira33@sapo.pt>, 2021
 # Sérgio Marques <smarquespt@gmail.com>, 2021
 # Carlos Moreira, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # fc2d9c36d73e741383fbbf46a4aac49f_013445b, 2021
 # ogalho Carlos Dias Martins <ogalho@gmail.com>, 2021
 # Luis Filipe Teixeira <lufilte@gmail.com>, 2021
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2021
+# José Vieira <jvieira33@sapo.pt>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-actions 1.25.0\n"
+"Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
-"POT-Creation-Date: 2021-06-18 17:09+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2021\n"
+"Last-Translator: José Vieira <jvieira33@sapo.pt>, 2021\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "_Perguntar"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
+"Será perguntado que formato usar de cada vez que um item estiver prestes a "
+"ser exportado."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
 msgstr ""
+"Não foi encontrada nenhuma variante do NAIExporter para o formato '%s' ."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
@@ -57,7 +60,7 @@ msgstr ""
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
 msgstr ""
 
-#: src/core/na-about.c:72
+#: src/core/na-about.c:70
 msgid ""
 "Caja-Actions Configuration Tool is free software; you can redistribute it "
 "and/or modify it under the terms of the GNU General Public License as "
@@ -65,7 +68,7 @@ msgid ""
 "or (at your option) any later version."
 msgstr ""
 
-#: src/core/na-about.c:76
+#: src/core/na-about.c:74
 msgid ""
 "Caja-Actions Configuration Tool is distributed in the hope that it will be "
 "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
@@ -73,7 +76,7 @@ msgid ""
 "Public License for more details."
 msgstr ""
 
-#: src/core/na-about.c:80
+#: src/core/na-about.c:78
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Caja-Actions Configuration Tool ; if not, write to the Free Software "
@@ -81,51 +84,50 @@ msgid ""
 "USA."
 msgstr ""
 
-#: src/core/na-about.c:102
+#: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
-msgstr ""
+msgstr "Interface gráfica para criar e editar acções no Caja."
 
-#: src/core/na-about.c:108
-msgid "translator-credits"
-msgstr "Hugo Carvalho <hugokarvalho@hotmail.com>, 2018"
-
-#. Translators: title of the About dialog box, when seen from Caja file
-#. manager
-#: src/core/na-about.c:129
-msgid "Caja-Actions"
-msgstr ""
-
-#: src/core/na-about.c:163
-#, c-format
+#: src/core/na-about.c:93
 msgid ""
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
-"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
-"Copyright %s 2021 The MATE developers"
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 msgstr ""
+
+#: src/core/na-about.c:99
+msgid "Caja-Actions"
+msgstr "Ações do Caja"
+
+#: src/core/na-about.c:100
+msgid "translator-credits"
+msgstr ""
+"Hugo Carvalho <hugokarvalho@hotmail.com>, 2018\n"
+"José Vieira <jvieira33@sapo.pt>, 2021"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "Ambiente de Trabalho MATE"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "Ambiente de Trabalho KDE"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "Ambiente de Trabalho LXDE"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "Ambiente de Trabalho ROX"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "Ambiente de Trabalho XFCE"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Sistemas antigos"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
@@ -839,7 +841,7 @@ msgid "New Caja menu"
 msgstr ""
 
 #. Translators: label for the default profile
-#: src/core/na-object-profile.c:768
+#: src/core/na-object-profile.c:767
 msgid "Default profile"
 msgstr ""
 
@@ -967,48 +969,48 @@ msgid ""
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
 
-#: src/core/na-selected-info.c:869
+#: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
 msgstr ""
 
-#: src/core/na-tokens.c:250
+#: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
 msgstr ""
 
-#: src/core/na-tokens.c:251
+#: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
 msgstr ""
 
-#: src/core/na-tokens.c:252
+#: src/core/na-tokens.c:251
 msgid "audio/x-midi"
 msgstr ""
 
-#: src/core/na-tokens.c:253
+#: src/core/na-tokens.c:252
 msgid "image/jpeg"
 msgstr ""
 
-#: src/core/na-tokens.c:255
+#: src/core/na-tokens.c:254
 msgid "test.example.net"
 msgstr ""
 
-#: src/core/na-tokens.c:256
+#: src/core/na-tokens.c:255
 msgid "user"
 msgstr ""
 
-#: src/core/na-tokens.c:431
+#: src/core/na-tokens.c:441
 msgid "Output of the run command"
 msgstr ""
 
-#: src/core/na-tokens.c:439
+#: src/core/na-tokens.c:449
 msgid "Run command:"
 msgstr ""
 
-#: src/core/na-tokens.c:440
+#: src/core/na-tokens.c:450
 msgid "Standard output:"
 msgstr ""
 
-#: src/core/na-tokens.c:441
+#: src/core/na-tokens.c:451
 msgid "Standard error:"
 msgstr ""
 
@@ -1040,71 +1042,71 @@ msgstr ""
 msgid "unknown type: %s"
 msgstr ""
 
-#: src/cact/base-application.c:186
+#: src/cact/base-application.c:182
 msgid "Arguments count"
 msgstr ""
 
-#: src/cact/base-application.c:187
+#: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
 msgstr ""
 
-#: src/cact/base-application.c:194
+#: src/cact/base-application.c:190
 msgid "Arguments"
 msgstr ""
 
-#: src/cact/base-application.c:195
+#: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
 msgstr ""
 
-#: src/cact/base-application.c:202
+#: src/cact/base-application.c:198
 msgid "Option entries"
 msgstr ""
 
-#: src/cact/base-application.c:203
+#: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
 msgstr ""
 
-#: src/cact/base-application.c:209
+#: src/cact/base-application.c:205
 msgid "Application name"
 msgstr ""
 
-#: src/cact/base-application.c:210
+#: src/cact/base-application.c:206
 msgid "The name of the application"
 msgstr ""
 
-#: src/cact/base-application.c:217 src/cact/cact-schemes-list.c:167
+#: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
 msgstr "Descrição"
 
-#: src/cact/base-application.c:218
+#: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
 msgstr ""
 
-#: src/cact/base-application.c:225
+#: src/cact/base-application.c:221
 msgid "Icon name"
 msgstr ""
 
-#: src/cact/base-application.c:226
+#: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
 msgstr ""
 
-#: src/cact/base-application.c:233
+#: src/cact/base-application.c:229
 msgid "UniqueApp name"
 msgstr ""
 
-#: src/cact/base-application.c:234
+#: src/cact/base-application.c:230
 msgid "The Unique name of the application"
 msgstr ""
 
-#: src/cact/base-application.c:241
+#: src/cact/base-application.c:237
 msgid "Return code"
 msgstr ""
 
-#: src/cact/base-application.c:242
+#: src/cact/base-application.c:238
 msgid "The return code of the application"
 msgstr ""
 
-#: src/cact/base-application.c:605
+#: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
 msgstr ""
 
@@ -1278,102 +1280,102 @@ msgstr "Opções do gestor de sessão:"
 msgid "Show session management options"
 msgstr "Mostrar as opções de gestão de sessões"
 
-#: src/cact/cact-application.c:57 src/cact/cact.desktop.in:5
+#: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
 msgstr ""
 
-#: src/cact/cact-application.c:58
+#: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
-msgstr ""
+msgstr "Uma interface de utilizador para editar as acções contextuais criadas"
+
+#: src/cact/cact-application.c:64
+msgid "Set it to run multiple instances of the program [unique]"
+msgstr "Definir para executar múltiplas instâncias do programa [específico]"
 
 #: src/cact/cact-application.c:66
-msgid "Set it to run multiple instances of the program [unique]"
-msgstr ""
-
-#: src/cact/cact-application.c:68
 msgid "Output the version number, and exit gracefully [no]"
-msgstr ""
+msgstr "Apresentar o número da versão e sair normalmente [não]"
 
 #: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
-msgstr ""
+msgstr "O utilizador é o detentor do item"
 
 #: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
-msgstr ""
+msgstr "O item é legível pelo utilizador"
 
 #: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
-msgstr ""
+msgstr "O item é editável pelo utilizador"
 
 #: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
-msgstr ""
+msgstr "O item é executável pelo utilizador"
 
 #: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
-msgstr ""
+msgstr "O item é local"
 
 #. Translators: add a comment when a capability is already used by current
 #. item
 #: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
-msgstr ""
+msgstr "%s (já inserido)"
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "A adicionar uma nova capacidade"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
-msgstr ""
+msgstr "<b>Capacidades geridas</b>"
 
 #: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
-msgstr ""
+msgstr "A adicionar um novo esquema"
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
-msgstr ""
+msgstr "<b>Esquema</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
-msgstr ""
+msgstr "Exportação cancelada por acção do utilizador."
 
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
-msgstr ""
+msgstr "Exportado com êxito como"
 
 #: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
-msgstr ""
+msgstr "Pode não ter permissões de escrita na pasta selecionada."
 
 #: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
-msgstr ""
+msgstr "Exportar uma ação"
 
 #: src/cact/cact-assistant-export.ui:96
 msgid "Which format should I choose to export it ?"
-msgstr ""
+msgstr "Que formato deve ser escolhido para a exportação?"
 
 #: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
-msgstr ""
+msgstr "Em futuras exportações, r_ecordar a escolha"
 
 #: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
-msgstr ""
+msgstr "Exportar ações"
 
 #: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
-msgstr ""
+msgstr "Este assistente irá facilitar o processo de exportar ações."
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr ""
+msgstr "_Lista de ações :"
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1381,34 +1383,37 @@ msgid ""
 "\n"
 "You may use Ctrl and Shift keys to extend the selection."
 msgstr ""
+"Selecionar uma ou mais ações a exportar.\n"
+"\n"
+"Podem ser usadas as teclas Ctrl e Shift para alargar a seleção."
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
-msgstr ""
+msgstr "Selecionar as ações exportadas"
 
 #: src/cact/cact-assistant-export.ui:327
 msgid "Selecting the target folder"
-msgstr ""
+msgstr "Selecionar a pasta de destino"
 
 #: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
-msgstr ""
+msgstr "Que formato escolher ao exportar estes itens ?"
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
-msgstr ""
+msgstr "Selecionar o formato para exportação"
 
 #: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
-msgstr ""
+msgstr "Prestes a exportar os itens selecionados:"
 
 #: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
-msgstr ""
+msgstr "Na pasta de destino:"
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "Resumo"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
@@ -1416,54 +1421,55 @@ msgstr ""
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "Exportação concluída"
 
 #. Translators: indicate that the file has been successfully imported
-#: src/cact/cact-assistant-import.c:765
+#: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
-msgstr ""
+msgstr "Importação correta"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
-#: src/cact/cact-assistant-import.c:769
+#: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "Id.: %s\t%s"
 
 #. Translators: indicate that the file was not imported
-#: src/cact/cact-assistant-import.c:779
+#: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
-msgstr ""
+msgstr "Não importado"
 
 #: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
-msgstr ""
+msgstr "Importar ações"
 
 #: src/cact/cact-assistant-import.ui:19
 msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
 msgstr ""
+"Este assistente irá facilitar o processo de importar itens, ações ou menus."
 
 #: src/cact/cact-assistant-import.ui:55
 msgid "Selecting files to import"
-msgstr ""
+msgstr "Selecionar itens a importar"
 
 #: src/cact/cact-assistant-import.ui:81
 msgid "What should I do when importing an item whose ID already exists ?"
-msgstr ""
+msgstr "O que fazer ao importar um item cujo ID já existe ?"
 
 #: src/cact/cact-assistant-import.ui:122
 msgid "Managing duplicates"
-msgstr ""
+msgstr "Gerir duplicados"
 
 #: src/cact/cact-assistant-import.ui:163
 msgid "About to import selected files:"
-msgstr ""
+msgstr "Prestes a importar um item cujo ID já existe:"
 
 #: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
-msgstr ""
+msgstr "Ao importar um item cujo ID já existe:"
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
@@ -1471,33 +1477,34 @@ msgstr ""
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
-msgstr ""
+msgstr "Importação concluída"
 
 #: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
-msgstr ""
+msgstr "Configurar itens a serem adicionados aos menus de contexto do Caja"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 msgstr ""
+"caja;ações;configuração;ferramenta;definições;MATE;navegador de ficheiros;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
-msgstr ""
+msgstr "A ação \"%s\" está prestes a ser exportada."
 
 #. Translators: The menu <label> is about to be exported
 #: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
-msgstr ""
+msgstr "O menu \"%s\" está prestes a ser exportado."
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr ""
+msgstr "Atenção: é obrigatório um rótulo para a ação ou o menu."
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
@@ -1555,7 +1562,7 @@ msgstr "Selecionar uma pasta"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
-msgstr ""
+msgstr "Filtro de tipos de MIME"
 
 #. Translators: label of the push button when there is not yet any shortcut
 #: src/cact/cact-iproperties-tab.c:53
@@ -1565,11 +1572,11 @@ msgstr "Nenhuma"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "Me_nu"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr ""
+msgstr "<b>Propriedades editáveis do menu</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1579,7 +1586,7 @@ msgstr "_Ação"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr ""
+msgstr "<b>Propriedades editáveis da ação</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
@@ -1698,7 +1705,7 @@ msgstr "_Ver"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "_Barras de ferramentas"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
@@ -1706,7 +1713,7 @@ msgstr "Ferramen_tas"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "_Responsável"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1718,33 +1725,33 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
-msgstr ""
+msgstr "Novo _menu"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. menu' item
 #: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
-msgstr ""
+msgstr "Inserior um novo menu na posição atual"
 
 #: src/cact/cact-menubar.c:72
 msgid "_New action"
-msgstr ""
+msgstr "_Nova ação"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. action' item
 #: src/cact/cact-menubar.c:74
 msgid "Define a new action"
-msgstr ""
+msgstr "Definir uma nova ação"
 
 #: src/cact/cact-menubar.c:76
 msgid "New _profile"
-msgstr ""
+msgstr "Novo _prefil"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. profile' item
 #: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
-msgstr ""
+msgstr "Definir um novo prefil apenso à ação atual"
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
@@ -1755,6 +1762,8 @@ msgstr "_Guardar"
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
 msgstr ""
+"Gravar todas as ações modificadas. As ações inválidas serão ignoradas sem "
+"aviso"
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
@@ -1773,7 +1782,7 @@ msgstr "Cor_tar"
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Cortar os itens selecionados para a área de transferência"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1783,7 +1792,7 @@ msgstr "_Copiar"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Copiar os itens selecionados para a área de transferência"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
@@ -1794,10 +1803,12 @@ msgstr "Co_lar"
 #: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
 msgstr ""
+"Inserir o conteúdo da área de transferência exactamente antes da posição "
+"atual"
 
 #: src/cact/cact-menubar.c:100
 msgid "Paste _into"
-msgstr ""
+msgstr "Colar _em:"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. Into item
@@ -1813,7 +1824,7 @@ msgstr "D_uplicar"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "Duplicar os itens selecionados"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
@@ -1823,11 +1834,11 @@ msgstr "_Apagar"
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "Eliminar os itens selecionados"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr ""
+msgstr "_Recarregar os itens"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -1836,6 +1847,8 @@ msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
 msgstr ""
+"Cancelar as atuais modificações e recarregar a lista inicial de menus e "
+"ações"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1845,57 +1858,60 @@ msgstr "_Preferências"
 #. 'Preferences' item
 #: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
-msgstr ""
+msgstr "Editar as preferências"
 
 #: src/cact/cact-menubar.c:120
 msgid "_Expand all"
-msgstr ""
+msgstr "_Expandir todos"
 
 #. Translators: tooltip displayed in the status bar when selecting the Expand
 #. all item
 #: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
-msgstr ""
+msgstr "Expandir toda a hierarquia de itens"
 
 #: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
-msgstr ""
+msgstr "_Contrair todos"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr ""
+msgstr "Contrair toda a hierarquia de itens"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
-msgstr ""
+msgstr "Assistente de _importação..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Import
 #. item
 #: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
 msgstr ""
+"Importar uma ou mais ações para a configuração pessoal a partir de ficheiros"
+" externos"
 
 #: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
-msgstr ""
+msgstr "Assistente de e_xportação..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Export
 #. item
 #: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
 msgstr ""
+"Exportar uma ou mais ações da configuração pessoal para a ficheiros externos"
 
 #: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
-msgstr ""
+msgstr "_Descartar a seleção"
 
 #. Translators: tooltip displayed in the status bar when selecting the Dump
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr ""
+msgstr "Descartar recursivamente os itens selecionados"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
@@ -1909,23 +1925,23 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr ""
+msgstr "_Listar itens modificados"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
 #: src/cact/cact-menubar.c:148
 msgid "List the modified items"
-msgstr ""
+msgstr "Lista os itens modificados"
 
 #: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
-msgstr ""
+msgstr "_Esvaziar a área de transferência"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr ""
+msgstr "Descarta o conteúdo da área de transferência"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -1935,7 +1951,7 @@ msgstr "Conteúdo"
 #. item
 #: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
-msgstr ""
+msgstr "Exibe informação de ajuda para o programa"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
@@ -1945,35 +1961,35 @@ msgstr "_Sobre"
 #. item
 #: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
-msgstr ""
+msgstr "Exibe informação sobre o programa"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. File toolbar' item
 #: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
-msgstr ""
+msgstr "Exibe a barra Ficheiro"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. Edit toolbar' item
 #: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
-msgstr ""
+msgstr "Exibe a barra Editar"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
 #: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
-msgstr ""
+msgstr "Exibe a barra Ferramentas"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr ""
+msgstr "Exibe a barra Ajuda"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
-msgstr ""
+msgstr "À _esquerda"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the left' item
@@ -1983,7 +1999,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:194
 msgid "On the _right"
-msgstr ""
+msgstr "À _direita"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the right' item
@@ -1993,7 +2009,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:198
 msgid "On the _top"
-msgstr ""
+msgstr "Em _cima"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the top' item
@@ -2003,7 +2019,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
-msgstr ""
+msgstr "Em _baixo"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the bottom' item
@@ -2014,15 +2030,19 @@ msgstr ""
 #: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
-msgstr ""
+msgstr "Presentemente, estão carregados %d menus, %d ações e %d perfis"
 
 #: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
 msgstr ""
+"Nem todos os itens foram cortados, pois os seguintes itens não são "
+"modificáveis:"
 
 #: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
 msgstr ""
+"Nem todos os itens foram eliminados, pois os seguintes itens não são "
+"modificáveis:"
 
 #: src/cact/cact-menubar-file.c:52
 msgid "Save error"
@@ -2030,7 +2050,7 @@ msgstr ""
 
 #: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
-msgstr ""
+msgstr "Alguns itens podem não ter sido guardados"
 
 #: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
@@ -2038,15 +2058,15 @@ msgstr ""
 
 #: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
-msgstr ""
+msgstr "Alguns itens não foram eliminados"
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
-msgstr ""
+msgstr "Novo perfil"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
-msgstr ""
+msgstr "A guardar automaticamente as modificações pendentes..."
 
 #: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
@@ -2054,61 +2074,74 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
-msgstr ""
+msgstr "Ordem alfabética _ascendente"
 
 #: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Os menus e as ações são exibidos por ordem alfabética ascendente do seu "
+"rótulo, quer no menu de contexto do Caja, quer na interface de utilizador "
+"CACTI."
 
 #: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
-msgstr ""
+msgstr "Ordem alfabética _descendente"
 
 #: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Os menus e as ações são exibidos por ordem alfabética descendente do seu "
+"rótulo, quer no menu de contexto do Caja, quer na interface de utilizador "
+"CACTI."
 
 #: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
-msgstr ""
+msgstr "Ordem _manual"
 
 #: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
 msgstr ""
+"A ordem de exibição dos menus e das ações. quer no menu de contexto do Caja,"
+" quer na interface de utilizador CACTI, tem que ser ajustada manualmente."
 
 #: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
-msgstr ""
+msgstr "<b>Ordenação dos itens</b>"
 
 #: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
-msgstr ""
+msgstr "_Criar um menu de raiz 'Ações do Caja'"
 
 #: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
+"Quando esta opção é marcada, os menus e as ações são exibidos como sub-itens"
+" dum menu de raiz 'Ações do Caja' no menu de contexto do Caja."
 
 #: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
 msgstr ""
+"Adicionar um item 'Sobre o Ações do Caja' nos menus de contexto do Caja"
 
 #: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
 msgstr ""
+"Quando esta opção é marcada, é adicionado um item 'Sobre o Ações do Caja' ao menu de raiz 'Ações do Caja' nos menus de contexto do Caja.\n"
+"Notar que este item só é exibido se for definido um menu específico no menu de contexto do Caja (p. ex. quando é marcada a opção 'Ações do Caja' no menu de raiz)."
 
 #: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
-msgstr ""
+msgstr "<b>Esquema de menu do Caja</b>"
 
 #: src/cact/cact-preferences.ui:263
 msgid ""
@@ -2116,6 +2149,10 @@ msgid ""
 "as well as in the Caja context menu. You may also choose here how actions "
 "will be displayed in the Caja context menu."
 msgstr ""
+"Este separador possibilita a escolha da forma como as ações são ordenadas na"
+" lista de exibição, assim como no menu de contexto do Caja. Também pode ser "
+"escolhida aqui a forma como as ações são exibidas no menu de contexto do "
+"Caja."
 
 #: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
@@ -2231,7 +2268,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
-msgstr ""
+msgstr "Periodicidade :"
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
@@ -2443,23 +2480,23 @@ msgstr ""
 msgid "Edition vs. Selection mode"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:120
+#: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:121
+#: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:122
+#: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:123
+#: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:926
+#: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
 msgstr ""
 
@@ -2622,115 +2659,117 @@ msgstr ""
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
 msgstr ""
+"lista de nomes-base, separados por espaços, dos ficheiros/pastas "
+"selecionados."
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
 msgid "<b>%o</b> :"
-msgstr ""
+msgstr "<b>%o</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
-msgstr ""
+msgstr "<b>%O</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:579
 #, c-format
 msgid "<b>%p</b> :"
-msgstr ""
+msgstr "<b>%p</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:591
 #, c-format
 msgid "<b>%s</b> :"
-msgstr ""
+msgstr "<b>%s</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:603
 #, c-format
 msgid "<b>%u</b> :"
-msgstr ""
+msgstr "<b>%u</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
-msgstr ""
+msgstr "<b>%U</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
-msgstr ""
+msgstr "<b>%w</b> : "
 
 #: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
-msgstr ""
+msgstr "<b>%W</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:651
 #, c-format
 msgid "<b>%x</b> :"
-msgstr ""
+msgstr "<b>%x</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:663
 #, c-format
 msgid "<b>%X</b> :"
-msgstr ""
+msgstr "<b>%X</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:675
 #, c-format
 msgid "<b>%%</b> :"
-msgstr ""
+msgstr "<b>%%</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr ""
+msgstr "_Lista dse itens :"
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
-msgstr ""
+msgstr "Ordenar a lista por ordem alfabética descendente."
 
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
-msgstr ""
+msgstr "Não ordenar a lista, possibilitando reordenar os itens manualmente."
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
-msgstr ""
+msgstr "Ordenar a lista por ordem alfabética ascendente."
 
 #: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
@@ -2744,7 +2783,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
-msgstr ""
+msgstr "Rótulo do item no menu de contesto do gestor de ficheiros."
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
@@ -2830,11 +2869,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
-msgstr ""
+msgstr "_Rótulo :"
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>Perfil</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
@@ -2848,7 +2887,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "Le_genda"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
@@ -2856,23 +2895,23 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "_Navegar..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "Examplo"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
-msgstr ""
+msgstr "_Caminho :"
 
 #: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
-msgstr ""
+msgstr "P_arâmetros :"
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr ""
+msgstr "_Diretório de trabalho :"
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -2886,11 +2925,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "_Comando"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "_Normal"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
@@ -2898,7 +2937,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
-msgstr ""
+msgstr "Num _terminal"
 
 #: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
@@ -2908,7 +2947,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "_Embutido"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
@@ -2967,7 +3006,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
-msgstr ""
+msgstr "Executar como _utilizador :"
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
@@ -2978,7 +3017,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>Executar como utilizador</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
@@ -2988,7 +3027,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "E_xecução"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -3032,7 +3071,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "Nomes-_base"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3069,7 +3108,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "Tipos de _mime"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3131,7 +3170,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "_Predefinições..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
@@ -3184,7 +3223,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "Ca_pacidades"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
@@ -3244,7 +3283,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "_Navegar..."
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
@@ -3285,11 +3324,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "_Ambiente"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
-msgstr ""
+msgstr "_Descrição :"
 
 #: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
@@ -3299,7 +3338,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "Ativado"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
@@ -3315,11 +3354,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
-msgstr ""
+msgstr "_Atalho sugerido :"
 
 #: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
-msgstr ""
+msgstr "Item só de leitura"
 
 #: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
@@ -3329,7 +3368,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "Id. :"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
@@ -3337,7 +3376,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>Propriedades só de leitura</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
@@ -3352,7 +3391,7 @@ msgstr "P_ropriedades"
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
 msgid "Caja-Actions actions"
-msgstr ""
+msgstr "Ações do 'Ações do Caja'"
 
 #. Translators: tooltip of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:935
@@ -3363,7 +3402,7 @@ msgstr ""
 
 #: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
-msgstr ""
+msgstr "Sobre o 'Ações do Caja'"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
@@ -3375,7 +3414,7 @@ msgstr ""
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
@@ -3383,36 +3422,36 @@ msgstr ""
 msgid "Output the version number"
 msgstr ""
 
-#: src/test/test-reader.c:108
+#: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "Importar um ficheiro."
 
-#: src/test/test-reader.c:122
+#: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
 
-#: src/test/test-reader.c:130 src/utils/na-print-schemas.c:169
-#: src/utils/na-set-conf.c:210 src/utils/caja-actions-new.c:380
-#: src/utils/caja-actions-print.c:185 src/utils/caja-actions-run.c:204
+#: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
+#: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
+#: src/utils/caja-actions-print.c:181 src/utils/caja-actions-run.c:201
 msgid "Miscellaneous options"
 msgstr "Opções miscelâneas"
 
-#: src/test/test-reader.c:151 src/utils/na-print-schemas.c:102
-#: src/utils/na-set-conf.c:122 src/utils/caja-actions-new.c:200
-#: src/utils/caja-actions-print.c:112 src/utils/caja-actions-run.c:113
+#: src/test/test-reader.c:147 src/utils/na-print-schemas.c:98
+#: src/utils/na-set-conf.c:118 src/utils/caja-actions-new.c:196
+#: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "Erro de sintaxe: %s\n"
 
-#: src/test/test-reader.c:166
+#: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
 msgstr ""
 
-#: src/test/test-reader.c:178 src/utils/na-print-schemas.c:183
-#: src/utils/na-set-conf.c:224 src/utils/caja-actions-new.c:624
-#: src/utils/caja-actions-print.c:241 src/utils/caja-actions-run.c:430
+#: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
+#: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
+#: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
 msgstr ""
@@ -3435,17 +3474,17 @@ msgstr ""
 msgid "Output the menu schemas"
 msgstr ""
 
-#: src/utils/na-print-schemas.c:140
+#: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
 msgstr ""
 
-#: src/utils/na-print-schemas.c:144
+#: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
 
-#: src/utils/na-print-schemas.c:163
+#: src/utils/na-print-schemas.c:159
 msgid "Type options"
 msgstr ""
 
@@ -3474,25 +3513,25 @@ msgstr ""
 msgid "Output the version number and exit gracefully"
 msgstr ""
 
-#: src/utils/na-set-conf.c:138
+#: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
 msgstr ""
 
-#: src/utils/na-set-conf.c:143
+#: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
 msgstr ""
 
-#: src/utils/na-set-conf.c:148
+#: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
 msgstr ""
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
-#: src/utils/na-set-conf.c:159
+#: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
 msgstr ""
 
-#: src/utils/na-set-conf.c:166
+#: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
 msgstr ""
 
@@ -3534,35 +3573,35 @@ msgstr ""
 msgid "'%s' option is deprecated, see %s\n"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:213
+#: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:259
+#: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:345
+#: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
 msgstr ""
 
-#: src/utils/caja-actions-new.c:348
+#: src/utils/caja-actions-new.c:344
 msgid ""
 "The created action defaults to be written to stdout.\n"
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
 msgstr ""
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
-#: src/utils/caja-actions-new.c:587
+#: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
 msgstr ""
 
@@ -3581,18 +3620,18 @@ msgstr ""
 msgid "An export format [Desktop1]"
 msgstr ""
 
-#: src/utils/caja-actions-print.c:127
+#: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
 msgstr ""
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
-#: src/utils/caja-actions-print.c:143
+#: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
 msgstr ""
 
-#: src/utils/caja-actions-print.c:206
+#: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
 msgstr ""
@@ -3607,38 +3646,38 @@ msgid ""
 "specified"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:128
+#: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:153
+#: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:158
+#: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:164
+#: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:185
+#: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
 msgstr ""
 
-#: src/utils/caja-actions-run.c:228
+#: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:231
+#: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:236
+#: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
 msgstr ""

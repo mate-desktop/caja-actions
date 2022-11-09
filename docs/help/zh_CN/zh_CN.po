@@ -1,6 +1,6 @@
 # 
 # Translators:
-# liulitchi <xingzuo88@qq.com>, 2021
+# liu lizhi <xingzuo88@qq.com>, 2021
 # Zkdc, 2021
 # a73a47e368cc011d8f94528bd9d5d3f1_91fccdf <1b07f49e2a323989c85dd26d526f7bb9_871526>, 2021
 # 玉堂白鹤 <yjwork@qq.com>, 2021
@@ -19,7 +19,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-18 17:22+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
 "Last-Translator: Wenbin Lv <wenbin816@gmail.com>, 2021\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/mate/teams/13566/zh_CN/)\n"
@@ -4883,8 +4883,8 @@ msgstr ""
 #. (itstool) path: note/para
 #: C/index.docbook:126
 msgid ""
-"All these features are more thoroughly described in the global <productname"
-">Caja-Actions</productname> documentation."
+"All these features are more thoroughly described in the global "
+"<productname>Caja-Actions</productname> documentation."
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -4940,8 +4940,8 @@ msgid ""
 "Tool</application> or this manual, follow the directions in the <ulink "
 "url=\"help:mate-user-guide#feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>, or you may prefer, at your convenience, directly open a bug or"
-" a request for enhancement in <ulink url=\"https://github.com/mate-desktop"
-"/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
+" a request for enhancement in <ulink url=\"https://github.com/mate-"
+"desktop/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
 msgstr ""
 
 #. (itstool) path: para/ulink

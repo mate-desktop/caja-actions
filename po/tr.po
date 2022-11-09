@@ -10,15 +10,18 @@
 # mauron, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
-# hilalis <hilalis@outlook.com.tr>, 2021
+# Gurbuzguven <6mehmet6@gmail.com>, 2021
+# Hüseyin Güç <huseyinguc@outlook.com>, 2022
+# Sabri Ünal <libreajans@gmail.com>, 2022
+# hilalis <hilalis@outlook.com.tr>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-actions 1.25.0\n"
+"Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
-"POT-Creation-Date: 2021-06-18 17:09+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: hilalis <hilalis@outlook.com.tr>, 2021\n"
+"Last-Translator: hilalis <hilalis@outlook.com.tr>, 2022\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,61 +31,86 @@ msgstr ""
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "_Bana sor"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
+"Bir öğe dışa aktarılmak üzereyken her defasında çıkarılacak öğe hakkında "
+"seçeceğiniz format sorulacaktır."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "'%s' biçimi için NAIExporter uygulaması bulunamadı."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "%s NAIExporter, 'to_buffer' arabirimini uygulamaz."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter, 'to_file' arabirimini uygulamaz."
 
-#: src/core/na-about.c:72
+#: src/core/na-about.c:70
 msgid ""
 "Caja-Actions Configuration Tool is free software; you can redistribute it "
 "and/or modify it under the terms of the GNU General Public License as "
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"Caja-Actions Yapılandırma Aracı özgür bir yazılımdır; Özgür Yazılım Vakfı "
+"tarafından yayınlanan GNU Genel Kamu Lisansı koşulları altında lisansın 2. "
+"sürümü veya (sizin tercihinize göre) herhangi bir sonraki sürümü ile yeniden"
+" dağıtabilir ve/veya değiştirebilirsiniz."
 
-#: src/core/na-about.c:76
+#: src/core/na-about.c:74
 msgid ""
 "Caja-Actions Configuration Tool is distributed in the hope that it will be "
 "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"Caja-Actions Yapılandırma Aracı, faydalı olacağı ümidiyle, ancak HİÇBİR "
+"GARANTİ OLMAKSIZIN dağıtılmaktadır; SATILABİLİRLİK veya BELİRLİ BİR AMACA "
+"UYGUNLUK zımni garantisi bile olmadan. Daha fazla ayrıntı için GNU Genel "
+"Kamu Lisansına bakınız."
 
-#: src/core/na-about.c:80
+#: src/core/na-about.c:78
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Caja-Actions Configuration Tool ; if not, write to the Free Software "
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"Caja-Actions Yapılandırma Aracı ile birlikte GNU Genel Kamu Lisansının bir "
+"kopyasını almış olmalısınız; almadıysanız, Free Software Foundation, Inc., "
+"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, ABD'ye posta atınız."
 
-#: src/core/na-about.c:102
+#: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr ""
+"Caja eylemlerinizi oluşturmak ve düzenlemek için grafiksel bir arayüz."
 
-#: src/core/na-about.c:108
+#: src/core/na-about.c:93
+msgid ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
+msgstr ""
+
+#: src/core/na-about.c:99
+msgid "Caja-Actions"
+msgstr "Caja-Actions"
+
+#: src/core/na-about.c:100
 msgid "translator-credits"
 msgstr ""
 "GNOME projesine katkıda bulunanlar:\n"
@@ -97,47 +125,33 @@ msgstr ""
 "Emre FIRAT <emrefirat93@gmail.com>, 2013, 2014, 2015\n"
 "Hilalis BIRDS <hilalis@outlook.com.tr>, 2021"
 
-#. Translators: title of the About dialog box, when seen from Caja file
-#. manager
-#: src/core/na-about.c:129
-msgid "Caja-Actions"
-msgstr ""
-
-#: src/core/na-about.c:163
-#, c-format
-msgid ""
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
-"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
-"Copyright %s 2021 The MATE developers"
-msgstr ""
-
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "MATE Masaüstü"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "KDE Masaüstü"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "LXDE Masaüstü"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "ROX Masaüstü"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "XFCE Masaüstü"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Eski sistemler"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr ""
+msgstr "Seçilen dosya(lar)/klasör(ler)le eşleştirilecek kalıpların listesi"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -148,6 +162,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"Eşleme karakteri '*' veya '?' içeren dizelerin listesi seçilen dosya(lar)ın/klasör(ler)in ad(lar)ıyla eşleştirilecek. Seçilen her öğe, eylem veya menünün görüntülenmeye aday olması için dosya adı kalıplarından en az biriyle eşleşmelidir.\n"
+"Bu açıkça sadece bir seçim olduğunda geçerlidir.\n"
+"Varsayılan olarak '*' şeklindedir."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -158,6 +175,9 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"Seçili dosya(lar)ın/klasör(ler)in temel adlarıyla eşleştirilecek bir kalıp. "
+"Eşleme karakteri (* veya ?) içerebilir. İhtiyacınız olan her kalıp için bir "
+"seçenek belirlemelisiniz"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -166,11 +186,13 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<EXPR>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
 msgstr ""
+"Belirtilen temel adların büyük/küçük harfe duyarlı olup olmadığı "
+"(varsayılan)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -180,12 +202,17 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Dosya adı kalıpları büyük/küçük harfe duyarlıysa 'true', aksi takdirde 'false' olarak ayarlanmalıdır. Örneğin, bir dosya adını büyük/küçük harfe duyarlı bir şekilde eşleştirmeniz gerekiyorsa, bu anahtarı 'true' olarak ayarlayın. Ayrıca, örneğin '*.jpg' öğesinin 'photo.JPG' ile eşleşmesini istiyorsanız, 'false' olarak ayarlayın.\n"
+"Bu açıkça sadece bir seçim olduğunda geçerlidir.\n"
+"Varsayılan olarak 'true' şeklindedir."
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
 msgstr ""
+"Seçilen dosya(lar)ın/klasör(ler)in mime türleriyle eşleştirilecek kalıpların"
+" listesi"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -195,6 +222,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"Seçilen dosya(lar)ın/klasör(ler)in mime türleriyle eşleştirilecek eşleme karakteri '*' içeren dizelerin listesi. Eylemin görünmesi için seçilen her öğe, mime türü kalıplarından en az biriyle eşleşmelidir.\n"
+"Bu açıkça sadece bir seçim olduğunda geçerlidir.\n"
+"Varsayılan olarak '*/*' şeklindedir."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -204,10 +234,15 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"Seçilen dosya(lar)ın/klasör(ler)in mime türleriyle eşleştirilecek bir kalıp."
+" Yıldız eşleme karakterini '*' içerebilir. İhtiyacınız olan her kalıp için "
+"bir seçenek belirlemelisiniz"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
 msgstr ""
+"Profilin dosyalar için geçerli olup olmadığı (kullanımdan kaldırılan "
+"seçenek, lütfen mime türüne bakınız)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -222,11 +257,21 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Seçimde dosya varsa 'true', aksi takdirde 'false' olarak ayarlayın.\n"
+"Bu ayar 'isdir' ayarı ile bağlantılıdır. Geçerli kombinasyonlar şunlardır:\n"
+"isfile='true' ve isdir='false': seçim yalnızca dosyaları içerebilir\n"
+"isfile='false' ve isdir='true': seçim yalnızca klasörleri içerebilir\n"
+"isfile='true' ve isdir='true': seçim hem dosyaları hem de klasörleri içerebilir\n"
+"isfile='false' ve isdir='false': bu geçersiz bir kombinasyondur (yapılandırmanız asla görünmez).\n"
+"Bu açıkça sadece bir seçim olduğunda geçerlidir.\n"
+"Varsayılan olarak 'true' şeklindedir."
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
 msgstr ""
+"Profilin klasörler için geçerli olup olmadığı (kullanımdan kaldırılan "
+"seçenek, lütfen mime türüne bakınız)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -241,12 +286,22 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Seçimde kalsör varsa 'true', aksi takdirde 'false' olarak ayarlayın.\n"
+"Bu ayar 'isfile' ayarı ile bağlantılıdır. Geçerli kombinasyonlar şunlardır:\n"
+"isfile='true' ve isdir='false': seçim yalnızca dosyaları içerebilir\n"
+"isfile='false' ve isdir='true': seçim yalnızca klasörleri içerebilir\n"
+"isfile='true' ve isdir='true': seçim hem dosyaları hem de klasörleri içerebilir\n"
+"isfile='false' ve isdir='false': bu geçersiz bir kombinasyondur (yapılandırmanız asla görünmez).\n"
+"Bu açıkça sadece bir seçim olduğunda geçerlidir.\n"
+"Varsayılan olarak 'false' şeklindedir."
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
+"Seçimin birden fazla olup olmayacağı (kullanımdan kaldırılan seçenek, seçim "
+"sayısına bakın)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -256,11 +311,14 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Seçilecek birden fazla dosya veya dizine ihtiyacınız varsa, bu anahtarı 'true' olarak ayarlayın. Yalnızca bir dosya veya dizin seçmek istiyorsanız, onu 'yanlış' olarak ayarlayın.\n"
+"Bu durum sadece bir seçim olduğunda geçerlidir.\n"
+"Ön tanıml değeri 'yanlış'tır."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
-msgstr ""
+msgstr "Seçilen dosya(lar)/dizin(ler)le eşleştirilecek şemaların listesi"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -287,6 +345,8 @@ msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"Seçilen dosya(lar)ın/dizin(ler)in bulunduğu yerde geçerli bir GIO şeması "
+"olmalıdır. İhtiyacınız olan her şema için bir seçenek belirlemelisiniz"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -297,11 +357,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<STRING>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "Dizin(lerin) listesi"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -309,12 +369,17 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"Geçerli dizinle eşleştirilecek geçerli yolların listesini tanımlar.\n"
+"Belirtilen yolun 'altındaki' tüm dizinler geçerli kabul edilir.\n"
+"Varsayılan olarak '/' şeklindedir."
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
+"Öğenin görüntüleneceği bir (ana) dizinin yolu. İhtiyacınız olan her dizin "
+"için bir seçenek belirlemelisiniz"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -322,11 +387,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Seçim sayısı ilişkisi operatörü"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -342,11 +407,11 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "Yalnızca ortamda göster"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "Hepsine öntanımlı ayarları uygula."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
@@ -358,11 +423,11 @@ msgstr ""
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DESKTOP>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "Ortamda gösterilmiyor"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
@@ -373,10 +438,12 @@ msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+" Öğenin görüntülenmemesi gereken masaüstü ortamının adı. İstediğiniz her "
+"ortam için bir seçenek belirlemelisiniz"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "exec'i dene"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -393,7 +460,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Kayıtlıysa göster"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -412,11 +479,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "Doğruysa göster"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -435,7 +502,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "Çalışıyorsa göster"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -453,7 +520,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Kabiliyetler"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -503,16 +570,16 @@ msgstr ""
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "Kullanıcı isteği nedeniyle içe aktarma iptal edildi."
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(yeniden numaralandırıldı)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "Öğeyi  içe _aktarma"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -572,11 +639,11 @@ msgstr ""
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr ""
+msgstr "Öğe zaten mevcut"
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr ""
+msgstr "Bununla ne yapmalıyım ?"
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
@@ -614,7 +681,7 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "Salt okunur öğe."
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
@@ -629,7 +696,7 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "Tamam."
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -648,11 +715,11 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr ""
+msgstr "MateConf şemaları silinemiyor."
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "Yapılandırma silinemiyor."
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -736,7 +803,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "Öğe türü"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -758,11 +825,11 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "Boş etiket"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "Bağlam menü öğesi ipucu"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -773,7 +840,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "İçerik menü ögesinin ikonu"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
@@ -797,7 +864,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Önerilen kısayol"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -844,16 +911,16 @@ msgstr ""
 #. Translators: default label for a new menu
 #: src/core/na-object-menu.c:57
 msgid "New Caja menu"
-msgstr ""
+msgstr "Yeni Caja menüsü"
 
 #. Translators: label for the default profile
-#: src/core/na-object-profile.c:768
+#: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "Öntanımlı profil"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "Profil adı"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
@@ -863,7 +930,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "Komut yolu"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
@@ -946,7 +1013,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "Başlangıç bildirimi"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
@@ -966,7 +1033,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Kullanıcı olarak çalıştır"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -975,50 +1042,50 @@ msgid ""
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
 
-#: src/core/na-selected-info.c:869
+#: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
 msgstr ""
 
-#: src/core/na-tokens.c:250
+#: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
 msgstr ""
 
-#: src/core/na-tokens.c:251
+#: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
 msgstr ""
 
-#: src/core/na-tokens.c:252
+#: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
-#: src/core/na-tokens.c:253
+#: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
-#: src/core/na-tokens.c:255
+#: src/core/na-tokens.c:254
 msgid "test.example.net"
 msgstr ""
 
-#: src/core/na-tokens.c:256
+#: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "kullanıcı"
 
-#: src/core/na-tokens.c:431
+#: src/core/na-tokens.c:441
 msgid "Output of the run command"
 msgstr ""
 
-#: src/core/na-tokens.c:439
+#: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "Komut çalıştır:"
 
-#: src/core/na-tokens.c:440
+#: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "Standart çıktı:"
 
-#: src/core/na-tokens.c:441
+#: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "Standart hata:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
@@ -1048,71 +1115,71 @@ msgstr ""
 msgid "unknown type: %s"
 msgstr ""
 
-#: src/cact/base-application.c:186
+#: src/cact/base-application.c:182
 msgid "Arguments count"
 msgstr ""
 
-#: src/cact/base-application.c:187
+#: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
 msgstr ""
 
-#: src/cact/base-application.c:194
+#: src/cact/base-application.c:190
 msgid "Arguments"
 msgstr ""
 
-#: src/cact/base-application.c:195
+#: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
 msgstr ""
 
-#: src/cact/base-application.c:202
+#: src/cact/base-application.c:198
 msgid "Option entries"
 msgstr ""
 
-#: src/cact/base-application.c:203
+#: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
 msgstr ""
 
-#: src/cact/base-application.c:209
+#: src/cact/base-application.c:205
 msgid "Application name"
 msgstr ""
 
-#: src/cact/base-application.c:210
+#: src/cact/base-application.c:206
 msgid "The name of the application"
 msgstr ""
 
-#: src/cact/base-application.c:217 src/cact/cact-schemes-list.c:167
+#: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
 msgstr "Tanımlama"
 
-#: src/cact/base-application.c:218
+#: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
 msgstr ""
 
-#: src/cact/base-application.c:225
+#: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "İkon ismi"
 
-#: src/cact/base-application.c:226
+#: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
 msgstr ""
 
-#: src/cact/base-application.c:233
+#: src/cact/base-application.c:229
 msgid "UniqueApp name"
 msgstr ""
 
-#: src/cact/base-application.c:234
+#: src/cact/base-application.c:230
 msgid "The Unique name of the application"
 msgstr ""
 
-#: src/cact/base-application.c:241
+#: src/cact/base-application.c:237
 msgid "Return code"
 msgstr ""
 
-#: src/cact/base-application.c:242
+#: src/cact/base-application.c:238
 msgid "The return code of the application"
 msgstr ""
 
-#: src/cact/base-application.c:605
+#: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
 msgstr ""
 
@@ -1270,11 +1337,11 @@ msgstr "DOSYA"
 
 #: src/cact/egg-sm-client.c:241
 msgid "Specify session management ID"
-msgstr "Ortam yönetici ID belirtin"
+msgstr "Oturum yönetici kimliği belirtin"
 
 #: src/cact/egg-sm-client.c:241
 msgid "ID"
-msgstr "No"
+msgstr "Kimlik"
 
 #: src/cact/egg-sm-client.c:263
 msgid "Session management options:"
@@ -1284,19 +1351,19 @@ msgstr "Ortam yönetimi seçenekleri:"
 msgid "Show session management options"
 msgstr "Ortam yönetimi seçeneklerini göster"
 
-#: src/cact/cact-application.c:57 src/cact/cact.desktop.in:5
+#: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
 msgstr ""
 
-#: src/cact/cact-application.c:58
+#: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
 msgstr ""
 
-#: src/cact/cact-application.c:66
+#: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
 msgstr ""
 
-#: src/cact/cact-application.c:68
+#: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
 msgstr ""
 
@@ -1425,19 +1492,19 @@ msgid "Export is done"
 msgstr ""
 
 #. Translators: indicate that the file has been successfully imported
-#: src/cact/cact-assistant-import.c:765
+#: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
 msgstr ""
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
-#: src/cact/cact-assistant-import.c:769
+#: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "Kimlik.: %s\t%s"
 
 #. Translators: indicate that the file was not imported
-#: src/cact/cact-assistant-import.c:779
+#: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
 msgstr ""
 
@@ -1523,7 +1590,7 @@ msgstr ""
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
-msgstr ""
+msgstr "İkon Seçici"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
@@ -1531,7 +1598,7 @@ msgstr ""
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
-msgstr ""
+msgstr "Yola göre _ikonlar"
 
 #: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
@@ -2449,23 +2516,23 @@ msgstr ""
 msgid "Edition vs. Selection mode"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:120
+#: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:121
+#: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:122
+#: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:123
+#: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
 msgstr ""
 
-#: src/cact/cact-tree-model-dnd.c:926
+#: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
 msgstr ""
 
@@ -2492,12 +2559,12 @@ msgstr ""
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
 msgid "Widget name"
-msgstr ""
+msgstr "Gereç adı"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView gereç adı"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:243
@@ -2800,7 +2867,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
-msgstr ""
+msgstr "_İkon :"
 
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
@@ -2808,7 +2875,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
-msgstr ""
+msgstr "Dosya yöneticisi kullanıcı arayüzünde gösterilecek ikon."
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
@@ -3116,7 +3183,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
-msgstr "_Dizinler"
+msgstr "_Klasörler"
 
 #: src/cact/caja-actions-config-tool.ui:2457
 msgid ""
@@ -3335,7 +3402,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "Kimlik. :"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
@@ -3389,36 +3456,36 @@ msgstr ""
 msgid "Output the version number"
 msgstr ""
 
-#: src/test/test-reader.c:108
+#: src/test/test-reader.c:104
 msgid "Import a file."
 msgstr ""
 
-#: src/test/test-reader.c:122
+#: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
 
-#: src/test/test-reader.c:130 src/utils/na-print-schemas.c:169
-#: src/utils/na-set-conf.c:210 src/utils/caja-actions-new.c:380
-#: src/utils/caja-actions-print.c:185 src/utils/caja-actions-run.c:204
+#: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
+#: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
+#: src/utils/caja-actions-print.c:181 src/utils/caja-actions-run.c:201
 msgid "Miscellaneous options"
 msgstr "Çeşitli seçenekler"
 
-#: src/test/test-reader.c:151 src/utils/na-print-schemas.c:102
-#: src/utils/na-set-conf.c:122 src/utils/caja-actions-new.c:200
-#: src/utils/caja-actions-print.c:112 src/utils/caja-actions-run.c:113
+#: src/test/test-reader.c:147 src/utils/na-print-schemas.c:98
+#: src/utils/na-set-conf.c:118 src/utils/caja-actions-new.c:196
+#: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
 msgstr ""
 
-#: src/test/test-reader.c:166
+#: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
 msgstr ""
 
-#: src/test/test-reader.c:178 src/utils/na-print-schemas.c:183
-#: src/utils/na-set-conf.c:224 src/utils/caja-actions-new.c:624
-#: src/utils/caja-actions-print.c:241 src/utils/caja-actions-run.c:430
+#: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
+#: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
+#: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
 msgstr ""
@@ -3441,17 +3508,17 @@ msgstr ""
 msgid "Output the menu schemas"
 msgstr ""
 
-#: src/utils/na-print-schemas.c:140
+#: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
 msgstr ""
 
-#: src/utils/na-print-schemas.c:144
+#: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
 
-#: src/utils/na-print-schemas.c:163
+#: src/utils/na-print-schemas.c:159
 msgid "Type options"
 msgstr ""
 
@@ -3480,25 +3547,25 @@ msgstr ""
 msgid "Output the version number and exit gracefully"
 msgstr ""
 
-#: src/utils/na-set-conf.c:138
+#: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
 msgstr ""
 
-#: src/utils/na-set-conf.c:143
+#: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
 msgstr ""
 
-#: src/utils/na-set-conf.c:148
+#: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
 msgstr ""
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
-#: src/utils/na-set-conf.c:159
+#: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
 msgstr ""
 
-#: src/utils/na-set-conf.c:166
+#: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
 msgstr ""
 
@@ -3540,35 +3607,35 @@ msgstr ""
 msgid "'%s' option is deprecated, see %s\n"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:213
+#: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:259
+#: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:345
+#: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
 msgstr ""
 
-#: src/utils/caja-actions-new.c:348
+#: src/utils/caja-actions-new.c:344
 msgid ""
 "The created action defaults to be written to stdout.\n"
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
 msgstr ""
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
 msgstr ""
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
-#: src/utils/caja-actions-new.c:587
+#: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
 msgstr ""
 
@@ -3587,18 +3654,18 @@ msgstr ""
 msgid "An export format [Desktop1]"
 msgstr ""
 
-#: src/utils/caja-actions-print.c:127
+#: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
 msgstr ""
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
-#: src/utils/caja-actions-print.c:143
+#: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
 msgstr ""
 
-#: src/utils/caja-actions-print.c:206
+#: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
 msgstr ""
@@ -3613,38 +3680,38 @@ msgid ""
 "specified"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:128
+#: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:153
+#: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:158
+#: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:164
+#: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:185
+#: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
 msgstr ""
 
-#: src/utils/caja-actions-run.c:228
+#: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:231
+#: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
 msgstr ""
 
-#: src/utils/caja-actions-run.c:236
+#: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "Hata: '%s' eylemi geçersiz.\n"

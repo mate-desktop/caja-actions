@@ -7,17 +7,17 @@
 # Martin Wimpress <code@flexion.org>, 2021
 # Alexandros Kapetanios <alexandros@gnugr.org>, 2021
 # kosmmart <kosmmartak@gmail.com>, 2021
-# Efstathios Iosifidis <iefstathios@gmail.com>, 2021
 # thunk <thunk77@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-18 17:22+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2021\n"
+"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>, 2021\n"
 "Language-Team: Greek (https://www.transifex.com/mate/teams/13566/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -808,7 +808,7 @@ msgstr ""
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
@@ -1013,7 +1013,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Προτεινόμενη συντόμευση"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -2011,7 +2011,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:811
 msgid "&lt;"
-msgstr ""
+msgstr "&lt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:811
@@ -2031,7 +2031,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:813
 msgid "&gt;"
-msgstr ""
+msgstr "&gt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:813
@@ -2517,7 +2517,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
 msgid "Working directory"
-msgstr ""
+msgstr "Κατάλογος εργασίας"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:74
@@ -2758,7 +2758,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Εκτέλεση ως χρήστης"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -3380,7 +3380,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-menus.xml:41
 msgid "New Caja menu"
-msgstr ""
+msgstr "Νέο μενού Caja"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:38
@@ -3572,7 +3572,7 @@ msgstr ""
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-profiles.xml:36
 msgid "New profile"
-msgstr ""
+msgstr "Νέο προφίλ"
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:36
@@ -4879,8 +4879,8 @@ msgstr ""
 #. (itstool) path: note/para
 #: C/index.docbook:126
 msgid ""
-"All these features are more thoroughly described in the global <productname"
-">Caja-Actions</productname> documentation."
+"All these features are more thoroughly described in the global "
+"<productname>Caja-Actions</productname> documentation."
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -4936,8 +4936,8 @@ msgid ""
 "Tool</application> or this manual, follow the directions in the <ulink "
 "url=\"help:mate-user-guide#feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>, or you may prefer, at your convenience, directly open a bug or"
-" a request for enhancement in <ulink url=\"https://github.com/mate-desktop"
-"/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
+" a request for enhancement in <ulink url=\"https://github.com/mate-"
+"desktop/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
 msgstr ""
 
 #. (itstool) path: para/ulink

@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-actions 1.25.0\n"
+"Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
-"POT-Creation-Date: 2021-06-18 17:09+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
 "Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
@@ -50,7 +50,7 @@ msgstr "„%s“ НАИИзвозник не примењује „to_buffer“ 
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
 msgstr "„%s“ НАИИзвозник не примењује „to_file“ сучеље."
 
-#: src/core/na-about.c:72
+#: src/core/na-about.c:70
 msgid ""
 "Caja-Actions Configuration Tool is free software; you can redistribute it "
 "and/or modify it under the terms of the GNU General Public License as "
@@ -62,7 +62,7 @@ msgstr ""
 "Задужбина слободног софтвера; издања 2 лиценце или (по вашем избору) било "
 "којег новијег издања."
 
-#: src/core/na-about.c:76
+#: src/core/na-about.c:74
 msgid ""
 "Caja-Actions Configuration Tool is distributed in the hope that it will be "
 "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
@@ -74,7 +74,7 @@ msgstr ""
 "ПРИЛАГОЂЕНОСТИ ОДРЕЂЕНОЈ НАМЕНИ. Погледајте Гнуову Општу јавну лиценцу за "
 "више детаља."
 
-#: src/core/na-about.c:80
+#: src/core/na-about.c:78
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Caja-Actions Configuration Tool ; if not, write to the Free Software "
@@ -86,33 +86,27 @@ msgstr ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA“."
 
-#: src/core/na-about.c:102
+#: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr "Графичко сучеље за стварање и уређивање Цајиних радњи."
 
-#: src/core/na-about.c:108
+#: src/core/na-about.c:93
+msgid ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
+msgstr ""
+
+#: src/core/na-about.c:99
+msgid "Caja-Actions"
+msgstr "Цаја-Радње"
+
+#: src/core/na-about.c:100
 msgid "translator-credits"
 msgstr ""
 "Мирослав Николић <miroslavnikolic@rocketmail.com>; 2012—2021.\n"
 "\n"
 "http://prevod.org — превод на српски језик."
-
-#. Translators: title of the About dialog box, when seen from Caja file
-#. manager
-#: src/core/na-about.c:129
-msgid "Caja-Actions"
-msgstr "Цаја-Радње"
-
-#: src/core/na-about.c:163
-#, c-format
-msgid ""
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
-"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
-"Copyright %s 2021 The MATE developers"
-msgstr ""
-"Ауторска права %s 2009-2012 Пјер Вјезер <pwieser@trychlos.org>\n"
-"Ауторска права %s 2013-2020 Волфганг Улбрих <mate@raveit.de>\n"
-"Ауторска права %s 2021 Програмери Мејта"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
@@ -1002,7 +996,7 @@ msgid "New Caja menu"
 msgstr "Нови изборник Цаје"
 
 #. Translators: label for the default profile
-#: src/core/na-object-profile.c:768
+#: src/core/na-object-profile.c:767
 msgid "Default profile"
 msgstr "Основни профил"
 
@@ -1187,48 +1181,48 @@ msgstr ""
 "Профил се занемарује ако је дефинисан непостојећим УИБ-ом или пријавом.\n"
 "Основно је празно: наредба ће бити извршена за тренутног корисника."
 
-#: src/core/na-selected-info.c:869
+#: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
 msgstr "Грешка приликом упита информација за „%s“ путању: %s"
 
-#: src/core/na-tokens.c:250
+#: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
 msgstr "датотека:///путања/до/датотеке.mid"
 
-#: src/core/na-tokens.c:251
+#: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
 msgstr "датотека:///путања/до/датотеке2.jpeg"
 
-#: src/core/na-tokens.c:252
+#: src/core/na-tokens.c:251
 msgid "audio/x-midi"
 msgstr "звук/x-midi"
 
-#: src/core/na-tokens.c:253
+#: src/core/na-tokens.c:252
 msgid "image/jpeg"
 msgstr "слика/jpeg"
 
-#: src/core/na-tokens.c:255
+#: src/core/na-tokens.c:254
 msgid "test.example.net"
 msgstr "тест.пример.net"
 
-#: src/core/na-tokens.c:256
+#: src/core/na-tokens.c:255
 msgid "user"
 msgstr "корисник"
 
-#: src/core/na-tokens.c:431
+#: src/core/na-tokens.c:441
 msgid "Output of the run command"
 msgstr "Излаз наредбе извршења"
 
-#: src/core/na-tokens.c:439
+#: src/core/na-tokens.c:449
 msgid "Run command:"
 msgstr "Наредба извршења:"
 
-#: src/core/na-tokens.c:440
+#: src/core/na-tokens.c:450
 msgid "Standard output:"
 msgstr "Стандардни излаз:"
 
-#: src/core/na-tokens.c:441
+#: src/core/na-tokens.c:451
 msgid "Standard error:"
 msgstr "Стандардна грешка:"
 
@@ -1266,71 +1260,71 @@ msgstr "Достављач У/И радне површи не може да ра
 msgid "unknown type: %s"
 msgstr "непозната врста: %s"
 
-#: src/cact/base-application.c:186
+#: src/cact/base-application.c:182
 msgid "Arguments count"
 msgstr "Број аргумената"
 
-#: src/cact/base-application.c:187
+#: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
 msgstr "Број аргумената линије наредби"
 
-#: src/cact/base-application.c:194
+#: src/cact/base-application.c:190
 msgid "Arguments"
 msgstr "Аргументи"
 
-#: src/cact/base-application.c:195
+#: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
 msgstr "Низ аргумената линије наредби"
 
-#: src/cact/base-application.c:202
+#: src/cact/base-application.c:198
 msgid "Option entries"
 msgstr "Уноси опције"
 
-#: src/cact/base-application.c:203
+#: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
 msgstr "Низ дефиниција опције линије наредби"
 
-#: src/cact/base-application.c:209
+#: src/cact/base-application.c:205
 msgid "Application name"
 msgstr "Назив програма"
 
-#: src/cact/base-application.c:210
+#: src/cact/base-application.c:206
 msgid "The name of the application"
 msgstr "Назив програма"
 
-#: src/cact/base-application.c:217 src/cact/cact-schemes-list.c:167
+#: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
 msgstr "Опис"
 
-#: src/cact/base-application.c:218
+#: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
 msgstr "Кратак опис који ће бити приказан у првом реду излаза „--help“"
 
-#: src/cact/base-application.c:225
+#: src/cact/base-application.c:221
 msgid "Icon name"
 msgstr "Назив иконице"
 
-#: src/cact/base-application.c:226
+#: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
 msgstr "Назив иконице програма"
 
-#: src/cact/base-application.c:233
+#: src/cact/base-application.c:229
 msgid "UniqueApp name"
 msgstr "Јединствени назив програма"
 
-#: src/cact/base-application.c:234
+#: src/cact/base-application.c:230
 msgid "The Unique name of the application"
 msgstr "Јединствени назив програма"
 
-#: src/cact/base-application.c:241
+#: src/cact/base-application.c:237
 msgid "Return code"
 msgstr "Резултирајући код"
 
-#: src/cact/base-application.c:242
+#: src/cact/base-application.c:238
 msgid "The return code of the application"
 msgstr "Резултирајући код програма"
 
-#: src/cact/base-application.c:605
+#: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
 msgstr "Не може да протумачи аргументе линије наредби"
 
@@ -1510,19 +1504,19 @@ msgstr "Опције управљања сесијом:"
 msgid "Show session management options"
 msgstr "Приказује опције управљања сесијом"
 
-#: src/cact/cact-application.c:57 src/cact/cact.desktop.in:5
+#: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
 msgstr "Алат подешавања Цаја-Радњи"
 
-#: src/cact/cact-application.c:58
+#: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
 msgstr "Корисничко сучеље за уређивање ваших сопственик контекстуалних радњи"
 
-#: src/cact/cact-application.c:66
+#: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
 msgstr "Поставља да покрене више примерака програма [unique]"
 
-#: src/cact/cact-application.c:68
+#: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
 msgstr "Исписује број издања, и излази достојанствено [no]"
 
@@ -1654,19 +1648,19 @@ msgid "Export is done"
 msgstr "Извоз је готов"
 
 #. Translators: indicate that the file has been successfully imported
-#: src/cact/cact-assistant-import.c:765
+#: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
 msgstr "Увоз је у реду"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
-#: src/cact/cact-assistant-import.c:769
+#: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
 msgstr "Иб.: %s\t%s"
 
 #. Translators: indicate that the file was not imported
-#: src/cact/cact-assistant-import.c:779
+#: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
 msgstr "Није увезена"
 
@@ -2743,23 +2737,23 @@ msgstr "Режим уређивања"
 msgid "Edition vs. Selection mode"
 msgstr "Режим уређивања наспрам избора"
 
-#: src/cact/cact-tree-model-dnd.c:120
+#: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
 msgstr "Не могу да убацим профил овде"
 
-#: src/cact/cact-tree-model-dnd.c:121
+#: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
 msgstr "Не могу да убацим радњу или изборник овде"
 
-#: src/cact/cact-tree-model-dnd.c:122
+#: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
 msgstr "Не могу да убацим овде јер полазни није уписив"
 
-#: src/cact/cact-tree-model-dnd.c:123
+#: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
 msgstr "Не могу да убацим овде јер нулти ниво није уписив"
 
-#: src/cact/cact-tree-model-dnd.c:926
+#: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
 msgstr "Неке поруке су се јавиле за време радње убацивања."
 
@@ -3785,11 +3779,11 @@ msgstr "<Путања>"
 msgid "Output the version number"
 msgstr "Исписује број издања"
 
-#: src/test/test-reader.c:108
+#: src/test/test-reader.c:104
 msgid "Import a file."
 msgstr "Увози датотеку."
 
-#: src/test/test-reader.c:122
+#: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
@@ -3797,26 +3791,26 @@ msgstr ""
 "Извештаји о грешкама су добродошли на „http://bugzilla.gnome.org“, или их "
 "можете послати на <maintainer@caja-actions.org>.\n"
 
-#: src/test/test-reader.c:130 src/utils/na-print-schemas.c:169
-#: src/utils/na-set-conf.c:210 src/utils/caja-actions-new.c:380
-#: src/utils/caja-actions-print.c:185 src/utils/caja-actions-run.c:204
+#: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
+#: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
+#: src/utils/caja-actions-print.c:181 src/utils/caja-actions-run.c:201
 msgid "Miscellaneous options"
 msgstr "Остале опције"
 
-#: src/test/test-reader.c:151 src/utils/na-print-schemas.c:102
-#: src/utils/na-set-conf.c:122 src/utils/caja-actions-new.c:200
-#: src/utils/caja-actions-print.c:112 src/utils/caja-actions-run.c:113
+#: src/test/test-reader.c:147 src/utils/na-print-schemas.c:98
+#: src/utils/na-set-conf.c:118 src/utils/caja-actions-new.c:196
+#: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
 msgstr "Грешка синтаксе: %s\n"
 
-#: src/test/test-reader.c:166
+#: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
 msgstr "Грешка: путања је обавезна.\n"
 
-#: src/test/test-reader.c:178 src/utils/na-print-schemas.c:183
-#: src/utils/na-set-conf.c:224 src/utils/caja-actions-new.c:624
-#: src/utils/caja-actions-print.c:241 src/utils/caja-actions-run.c:430
+#: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
+#: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
+#: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
 msgstr "Покушајте „%s --help“ за коришћење.\n"
@@ -3841,11 +3835,11 @@ msgstr "Исписује шеме радње [основно]"
 msgid "Output the menu schemas"
 msgstr "Исписује шеме изборника"
 
-#: src/utils/na-print-schemas.c:140
+#: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
 msgstr "Исписује шеме подешавања Мејта Цаја-Радњи на стандардном излазу."
 
-#: src/utils/na-print-schemas.c:144
+#: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
@@ -3853,7 +3847,7 @@ msgstr ""
 "Од издања 3.1.0, Подешавање Мејта као У/И достављач је застарело.\n"
 "Овај програм се не одржава више."
 
-#: src/utils/na-print-schemas.c:163
+#: src/utils/na-print-schemas.c:159
 msgid "Type options"
 msgstr "Опције врсте"
 
@@ -3882,25 +3876,25 @@ msgstr "Вредност за постављање"
 msgid "Output the version number and exit gracefully"
 msgstr "Исписује број издања и излази достојанствено"
 
-#: src/utils/na-set-conf.c:138
+#: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
 msgstr "Грешка: група је обавезна.\n"
 
-#: src/utils/na-set-conf.c:143
+#: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
 msgstr "Грешка: кључ је обавезан.\n"
 
-#: src/utils/na-set-conf.c:148
+#: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
 msgstr "Грешка: врста је обавезна за постављање/освежавање вредности.\n"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
-#: src/utils/na-set-conf.c:159
+#: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
 msgstr "Грешка: непозната врста: %s. Користите „str“, „int“ или „bool“.\n"
 
-#: src/utils/na-set-conf.c:166
+#: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
 msgstr "Грешка: вредност је обавезна.\n"
 
@@ -3942,19 +3936,19 @@ msgstr "Грешка: опције „%s“ и „%s“ се не могу на�
 msgid "'%s' option is deprecated, see %s\n"
 msgstr "„%s“ опција је застарела, видите „%s“\n"
 
-#: src/utils/caja-actions-new.c:213
+#: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
 msgstr "Грешка: натпис радње је обавезан.\n"
 
-#: src/utils/caja-actions-new.c:259
+#: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
 msgstr "Грешка: само једна опција излаза може бити наведена.\n"
 
-#: src/utils/caja-actions-new.c:345
+#: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
 msgstr "Дефинишите нову радњу."
 
-#: src/utils/caja-actions-new.c:348
+#: src/utils/caja-actions-new.c:344
 msgid ""
 "The created action defaults to be written to stdout.\n"
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
@@ -3964,16 +3958,16 @@ msgstr ""
 "Такође може бити записана у излазној фасцикли, у датотеци касније погодној за увоз у „CACT“.\n"
 "Или можете изабрати да директно запишете радњу у подешавање Цаја-Радњи."
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
 msgstr "Испис програма"
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
 msgstr "Бира где програм ствара радњу"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
-#: src/utils/caja-actions-new.c:587
+#: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
 msgstr "Грешка: не могу да нађем „na-desktop“ у/и достављача."
 
@@ -3992,18 +3986,18 @@ msgstr "Одредник изборника или радње који ће би
 msgid "An export format [Desktop1]"
 msgstr "Форма т извоза [Desktop1]"
 
-#: src/utils/caja-actions-print.c:127
+#: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
 msgstr "Грешка: изборник или радња је обавезан.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
-#: src/utils/caja-actions-print.c:143
+#: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
 msgstr "Грешка: %s: непознат формат извоза.\n"
 
-#: src/utils/caja-actions-print.c:206
+#: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
 msgstr "Грешка: ставка „%s“ не постоји.\n"
@@ -4020,38 +4014,38 @@ msgstr ""
 "Мета , датотека или фасцикла, за радњу. Може бити наведено више од једне "
 "опције"
 
-#: src/utils/caja-actions-run.c:128
+#: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
 msgstr "Грешка: радња је обавезна.\n"
 
-#: src/utils/caja-actions-run.c:153
+#: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
 msgstr "Нема тренутног избора. Немам шта да радим. Одлазим у топлије крајеве.\n"
 
-#: src/utils/caja-actions-run.c:158
+#: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
 msgstr "Радња „%s“ није исправан кандидат. Одлазим.\n"
 
-#: src/utils/caja-actions-run.c:164
+#: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
 msgstr "Никакав исправан профил није кандидат за извршење. Одох да спавам.\n"
 
-#: src/utils/caja-actions-run.c:185
+#: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
 msgstr "Извршава радњу над наведеном метом."
 
-#: src/utils/caja-actions-run.c:228
+#: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
 msgstr "Грешка: радња „%s“ не постоји.\n"
 
-#: src/utils/caja-actions-run.c:231
+#: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
 msgstr "Грешка: радња „%s“ је искључена.\n"
 
-#: src/utils/caja-actions-run.c:236
+#: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
 msgstr "Грешка: радња „%s“ није исправна.\n"

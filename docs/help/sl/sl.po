@@ -3,18 +3,19 @@
 # worm <thewormhole@gmail.com>, 2021
 # jetomit <timotej.lazar@araneo.si>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
-# Damir Mevkić <damir.mevkic@gmail.com>, 2021
+# Damir Mevkić 52K <damir.mevkic@gmail.com>, 2021
 # Helena S <ele@tutamail.com>, 2021
 # Damir Jerovšek <jierro@windowslive.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Arnold Marko <arnold.marko@gmail.com>, 2021
+# Martin Srebotnjak <miles@filmsi.net>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-18 17:22+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Arnold Marko <arnold.marko@gmail.com>, 2021\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>, 2021\n"
 "Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1274,7 +1275,7 @@ msgstr ""
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Brisalka (Del)"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -1782,7 +1783,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "Zmožnosti"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -3111,7 +3112,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
@@ -3872,7 +3873,7 @@ msgstr ""
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "Vračalka"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para
@@ -4009,7 +4010,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
@@ -4019,7 +4020,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211
@@ -4876,8 +4877,8 @@ msgstr ""
 #. (itstool) path: note/para
 #: C/index.docbook:126
 msgid ""
-"All these features are more thoroughly described in the global <productname"
-">Caja-Actions</productname> documentation."
+"All these features are more thoroughly described in the global "
+"<productname>Caja-Actions</productname> documentation."
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -4933,8 +4934,8 @@ msgid ""
 "Tool</application> or this manual, follow the directions in the <ulink "
 "url=\"help:mate-user-guide#feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>, or you may prefer, at your convenience, directly open a bug or"
-" a request for enhancement in <ulink url=\"https://github.com/mate-desktop"
-"/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
+" a request for enhancement in <ulink url=\"https://github.com/mate-"
+"desktop/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
 msgstr ""
 
 #. (itstool) path: para/ulink

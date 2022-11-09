@@ -1,16 +1,16 @@
 # 
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
-# Aputsiak Niels Janussen <aj@isit.gl>, 2021
-# Joe Hansen <joedalton2@yahoo.dk>, 2021
+# Aputsiak Niels Janussen <aputtu@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Joe Hansen <joedalton2@yahoo.dk>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-18 17:22+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2022\n"
 "Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,22 +21,22 @@ msgstr ""
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
 msgid "GNU Free Documentation License"
-msgstr ""
+msgstr "GNU Free Documentation License"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:3
 msgid "Version 1.3, 3 November 2008"
-msgstr ""
+msgstr "Version 1.3, 3. november 2008"
 
 #. (itstool) path: simpara/ulink
 #: C/appendix-gnu-fdl-1.3.xml:6
 msgid "Free Software Foundation, Inc."
-msgstr ""
+msgstr "Free Software Foundation, Inc."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:4
 msgid "Copyright © 2000, 2001, 2002, 2007, 2008 <_:ulink-1/>"
-msgstr ""
+msgstr "Ophavsret 2000, 2001, 2002, 2007, 2008 <_:ulink-1/>"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:8
@@ -44,11 +44,13 @@ msgid ""
 "Everyone is permitted to copy and distribute verbatim copies of this license"
 " document, but changing it is not allowed."
 msgstr ""
+"Alle har ret til at kopiere og distribuere uændrede kopier af dette "
+"licensdokument, men ændring af dokumentet er ikke tilladt."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:12
 msgid "0. PREAMBLE"
-msgstr ""
+msgstr "0. FORORD"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:15
@@ -786,7 +788,7 @@ msgstr ""
 #: C/cact-starting.xml:51 C/cact-starting.xml:59 C/cact-starting.xml:74
 #: C/cact-starting.xml:82 C/cact-starting.xml:231
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Konfigurationsværktøj for Caja-Actions"
 
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
@@ -801,7 +803,7 @@ msgstr ""
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
@@ -836,7 +838,7 @@ msgstr "Wolfgang Ulbrich"
 #: C/cact-profiles.xml:52 C/cact-profiles.xml:57 C/cact-save.xml:10
 #: C/cact-starting.xml:498
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #. (itstool) path: para/productname
 #. (itstool) path: title/productname
@@ -890,7 +892,7 @@ msgstr "MATE-dokumentationsprojekt"
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "Pierre"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
@@ -926,22 +928,22 @@ msgstr ""
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:92
 msgid "May 2011"
-msgstr ""
+msgstr "Maj 2011"
 
 #. (itstool) path: revdescription/para
 #: C/articleinfo.xml:94 C/articleinfo.xml:104
 msgid "Pierre Wieser <_:email-1/>"
-msgstr ""
+msgstr "Pierre Wieser <_:email-1/>"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:101
 msgid "Caja-Actions Configuration Tool User's Manual v 3.2"
-msgstr ""
+msgstr "Brugermanual for Caja-Actions Configuration Tool version 3.2"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:102
 msgid "January 2012"
-msgstr ""
+msgstr "Januar 2012"
 
 #. (itstool) path: C/articleinfo.xml/articleinfo
 #: C/articleinfo.xml:1
@@ -950,11 +952,14 @@ msgid ""
 "<_:releaseinfo-5/> <_:publisher-6/> <_:publisher-7/> <_:authorgroup-8/> "
 "<_:revhistory-9/> legalnotice.xml"
 msgstr ""
+"<_:title-1/> <_:copyright-2/> <_:copyright-3/> <_:abstract-4/> "
+"<_:releaseinfo-5/> <_:publisher-6/> <_:publisher-7/> <_:authorgroup-8/> "
+"<_:revhistory-9/> legalnotice.xml"
 
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:2
 msgid "Known bugs"
-msgstr ""
+msgstr "Kendte fejl"
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:5
@@ -981,13 +986,13 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:14
 msgid "Known limitations"
-msgstr ""
+msgstr "Kendte begrænsninger"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: sect4/title
 #: C/cact-bugs.xml:17 C/cact-execution.xml:138
 msgid "Execution mode"
-msgstr ""
+msgstr "Afviklingstilstand"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:18
@@ -1006,7 +1011,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Foreslået genvej"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1047,6 +1052,9 @@ msgid ""
 "manager context menus or in its toolbar depends on the conditions you will "
 "have defined for it."
 msgstr ""
+"Hvorvidt handlingen vil blive vist i <_:productname-1/>-filhåndteringens "
+"kontekstmenuer eller i dets værktøjslinje afhænger af betingelserne du har "
+"defineret for den."
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:8
@@ -1138,7 +1146,7 @@ msgstr ""
 #: C/cact-conditions.xml:397 C/cact-conditions.xml:518
 #: C/cact-conditions.xml:658
 msgid "Define the new condition filter."
-msgstr ""
+msgstr "Definer det nye betingelsesfilter."
 
 #. (itstool) path: para/keycap
 #: C/cact-conditions.xml:76 C/cact-conditions.xml:220
@@ -1154,6 +1162,8 @@ msgid ""
 "Press <_:keycap-1/> or click on <_:guibutton-2/> button to insert a new "
 "condition filter"
 msgstr ""
+"Tryk på <_:keycap-1/> eller klik på knappen <_:guibutton-2/> for at indsætte"
+" et nyt betingelsesfilter"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:82
@@ -1192,14 +1202,14 @@ msgstr ""
 #: C/cact-conditions.xml:102 C/cact-conditions.xml:276
 #: C/cact-conditions.xml:437 C/cact-conditions.xml:576
 msgid "Must match one of"
-msgstr ""
+msgstr "Skal matche en af"
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:104 C/cact-conditions.xml:278
 #: C/cact-conditions.xml:439 C/cact-conditions.xml:578
 #: C/cact-conditions.xml:717
 msgid "Must not match any of"
-msgstr ""
+msgstr "Skal ikke matche"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:100 C/cact-conditions.xml:274
@@ -1225,12 +1235,12 @@ msgstr ""
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:119 C/cact-conditions.xml:131
 msgid "/my/file"
-msgstr ""
+msgstr "/min/fil"
 
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:121 C/cact-conditions.xml:133
 msgid "/My/File"
-msgstr ""
+msgstr "/Min/Fil"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:116
@@ -1297,7 +1307,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:160 C/cact-conditions.xml:174
 msgid "Mimetype-based conditions"
-msgstr ""
+msgstr "Mimetype-baserede betingelser"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:161
@@ -1313,7 +1323,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:170 C/cact-starting.xml:308
 msgid "Mimetypes"
-msgstr ""
+msgstr "Mimetyper"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:168
@@ -1352,33 +1362,36 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:208
 msgid "Defining a new mimetype-based condition involves two steps."
-msgstr ""
+msgstr "Definering af en ny mimetype-baseret betingelse involverer to trin."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:226
 msgid ""
 "Edit the newly inserted condition filter to the mimetype you want match."
 msgstr ""
+"Rediger det netop indsatte betingelsesfilter til mimjetypen, du ønsker at "
+"matche."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:233
 msgid "group/subgroup"
-msgstr ""
+msgstr "gruppe/undergruppe"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:230
 msgid "A mimetype must be defined as a <_:literal-1/> expression."
-msgstr ""
+msgstr "En mimetype skal være defineret som et <_:literal-1/>-udtryk."
 
 #. (itstool) path: tip/para
 #: C/cact-conditions.xml:237
 msgid "The « <_:literal-1/> » wildcard is supported only in some situations:"
 msgstr ""
+"Jokertegnet » <_:literal-1/> « er kun understøttet i nogle situationer:"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:244 C/cact-conditions.xml:294
 msgid "*/*"
-msgstr ""
+msgstr "*/*"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:243
@@ -1391,12 +1404,12 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:252
 msgid "group/*"
-msgstr ""
+msgstr "gruppe/*"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:254
 msgid "group"
-msgstr ""
+msgstr "gruppe"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:250
@@ -1442,22 +1455,22 @@ msgstr ""
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:304
 msgid "all/all"
-msgstr ""
+msgstr "alle/alle"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:307
 msgid "Matches all items."
-msgstr ""
+msgstr "Matcher alle elementer."
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:315
 msgid "all/allfiles"
-msgstr ""
+msgstr "alle/allefiler"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:318
 msgid "Matches all regular files."
-msgstr ""
+msgstr "Matcher alle normale filer."
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:326
@@ -1473,7 +1486,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:339 C/cact-conditions.xml:359
 msgid "Folder-based conditions"
-msgstr ""
+msgstr "Mappebaserede betingelser"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:340
@@ -1540,6 +1553,8 @@ msgstr ""
 #: C/cact-conditions.xml:410
 msgid "Edit the newly inserted condition filter to the folder you want match."
 msgstr ""
+"Rediger det netop indsatte betingelsesfilter til mappen, du ønsker at "
+"matche."
 
 #. (itstool) path: tip/para
 #: C/cact-conditions.xml:415
@@ -1778,7 +1793,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "Kapaciteter"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -1832,22 +1847,23 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:680
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Tilføjelse af en ny kapacitet"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:676
 msgid "Or click on <_:guibutton-1/> to open the <_:guilabel-2/> dialog box."
 msgstr ""
+"Eller klik på <_:guibutton-1/> for at åbne dialogboksen <_:guilabel-2/>."
 
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:684
 msgid "Managed capabilities"
-msgstr ""
+msgstr "Håndterede kapaciteter"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:691
 msgid "Shows the list of managed capabilities."
-msgstr ""
+msgstr "Viser listen over håndterede kapaciteter."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:696
@@ -1855,6 +1871,8 @@ msgid ""
 "A new capability may only be selected here if it is not already defined as a"
 " capability filter."
 msgstr ""
+"En ny kapacitet kan kun vælges her, hvis den ikke allerede er defineret som "
+"et kapacitetsfilter."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:700
@@ -1862,6 +1880,8 @@ msgid ""
 "To select a new capability, click <_:guibutton-1/>, or double-click on the "
 "desired row."
 msgstr ""
+"For at vælge en ny kapacitet, klik på <_:guibutton-1/>, eller dobbeltklik på"
+" den ønskede række."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:709
@@ -1873,7 +1893,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:715
 msgid "Must match all of"
-msgstr ""
+msgstr "Skal matche alle"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:722
@@ -2009,7 +2029,7 @@ msgstr "&lt;"
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:811
 msgid "(strictly less than)"
-msgstr ""
+msgstr "(strengt taget mindre end)"
 
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:812
@@ -2019,7 +2039,7 @@ msgstr "="
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:812
 msgid "(equal to)"
-msgstr ""
+msgstr "(lig med)"
 
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:813
@@ -2029,7 +2049,7 @@ msgstr "&gt;"
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:813
 msgid "(strictly greater than)"
-msgstr ""
+msgstr "(strengt taget større end)"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:817
@@ -2039,7 +2059,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:825
 msgid "Count &gt; (strictly greater than) 0"
-msgstr ""
+msgstr "Tæl &gt; (strengt taget større end) 0"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:822
@@ -2393,6 +2413,10 @@ msgid ""
 "edition operations, but are not considered when verifying if selection is "
 "homogeneous. Also, they cannot be explicitely selected (nor unselected)."
 msgstr ""
+"Bemærk at valg af række også betyder valg af underrækker for denne række. "
+"Disse underrækker er »implicit valgt«: De vil være en del af de næste "
+"redigeringsoperationer, men medtages ikke under verifikation af om valget er"
+" homogent. De kan heller ikke vælges eksplicit (eller fravælges)."
 
 #. (itstool) path: sect2/title
 #: C/cact-execution.xml:2
@@ -2439,7 +2463,7 @@ msgstr ""
 #. (itstool) path: para/guibutton
 #: C/cact-execution.xml:26 C/cact-execution.xml:45
 msgid "Legend"
-msgstr ""
+msgstr "Indskrift"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:22
@@ -2461,7 +2485,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:47
 msgid "Parameter Legend"
-msgstr ""
+msgstr "Parameterindskrift"
 
 #. (itstool) path: tip/para
 #: C/cact-execution.xml:43
@@ -2510,7 +2534,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
 msgid "Working directory"
-msgstr ""
+msgstr "Arbejdsmappe"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:74
@@ -2646,6 +2670,8 @@ msgid ""
 "As <_:productname-1/> does not have this feature, this option is strictly "
 "equivalent to <_:literal-2/> option."
 msgstr ""
+"Da <_:productname-1/> ikke har denne funktion, så svarer dette tilvalg "
+"strengt taget til tilvalget <_:literal-2/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:194
@@ -2695,7 +2721,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
 msgid "Startup notify"
-msgstr ""
+msgstr "Opstartspåmindelse"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:228
@@ -2751,7 +2777,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Afvikl som bruger"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -2926,123 +2952,123 @@ msgstr ""
 #: C/cact-execution.xml:430 C/cact-execution.xml:451 C/cact-execution.xml:479
 #: C/cact-execution.xml:493 C/cact-execution.xml:507 C/cact-execution.xml:556
 msgid "plural"
-msgstr ""
+msgstr "flertal"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:378
 msgid "count of selected items"
-msgstr ""
+msgstr "antal valgte elemnter"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:380 C/cact-execution.xml:415 C/cact-execution.xml:436
 #: C/cact-execution.xml:457 C/cact-execution.xml:464 C/cact-execution.xml:513
 msgid "irrelevant"
-msgstr ""
+msgstr "irrelevant"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:385
 msgid "(first) base directory"
-msgstr ""
+msgstr "(første) basismappe"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:391
 msgid "%D"
-msgstr ""
+msgstr "%D"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:392
 msgid "space-separated list of base directory of each selected items"
-msgstr ""
+msgstr "mellemrumsadskilt liste med basismapperne for hvert valgt element"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:398
 msgid "%f"
-msgstr ""
+msgstr "%f"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:399
 msgid "(first) filename"
-msgstr ""
+msgstr "(første) filnavn"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:405
 msgid "%F"
-msgstr ""
+msgstr "%F"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:406
 msgid "space-separated list of selected filenames"
-msgstr ""
+msgstr "mellemrumsadskilt liste med valgte filnavne"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:412
 msgid "%h"
-msgstr ""
+msgstr "%h"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:413
 msgid "hostname of the (first) URI"
-msgstr ""
+msgstr "værtsnavn for den (første) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:419
 msgid "%m"
-msgstr ""
+msgstr "%m"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:420
 msgid "mimetype of the (first) selected item"
-msgstr ""
+msgstr "mimetype for det (første) valgte element"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:426
 msgid "%M"
-msgstr ""
+msgstr "%M"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:427
 msgid "space-separated list of the mimetypes of the selected items"
-msgstr ""
+msgstr "mellemrumsadskilt liste med mimetyper for de valgte elementer"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:433
 msgid "%n"
-msgstr ""
+msgstr "%n"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:434
 msgid "username of the (first) URI"
-msgstr ""
+msgstr "brugernavn for den (første) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:440
 msgid "%o"
-msgstr ""
+msgstr "%o"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:441
 msgid "no-op operator which forces a singular form of execution"
-msgstr ""
+msgstr "no-op-operatør der påtvinger en en ad gangen form for afvikling"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:447
 msgid "%O"
-msgstr ""
+msgstr "%O"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:448
 msgid "no-op operator which forces a plural form of execution"
-msgstr ""
+msgstr "no-op-operatør der påtvinger en flere ad gangen form for afvikling"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:454
 msgid "%p"
-msgstr ""
+msgstr "%p"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:455
 msgid "port number of the (first) URI"
-msgstr ""
+msgstr "portnummer for den (første) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:461
@@ -3052,57 +3078,57 @@ msgstr "%s"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:462
 msgid "scheme of the (first) URI"
-msgstr ""
+msgstr "skema for den (første) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:468
 msgid "%u"
-msgstr ""
+msgstr "%u"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:469
 msgid "(first) URI"
-msgstr ""
+msgstr "(første) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:475
 msgid "%U"
-msgstr ""
+msgstr "%U"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:476
 msgid "space-separated list of selected URIs"
-msgstr ""
+msgstr "mellemrumsadskilt liste med valgte URI'er"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:482
 msgid "%w"
-msgstr ""
+msgstr "%w"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:483
 msgid "(first) basename without the extension"
-msgstr ""
+msgstr "(første) basisnavn uden udvidelsen"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:489
 msgid "%W"
-msgstr ""
+msgstr "%W"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:490
 msgid "space-separated list of basenames without their extension"
-msgstr ""
+msgstr "mellemrumsadskilt liste over basisnavne uden udvidelsen"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:496
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:497
 msgid "(first) extension"
-msgstr ""
+msgstr "(første) filendelse"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
@@ -3112,12 +3138,12 @@ msgstr "%X"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
 msgid "space-separated list of extensions"
-msgstr ""
+msgstr "mellemrumsadskilt liste med filendelser"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:510
 msgid "%%"
-msgstr ""
+msgstr "%%"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:511
@@ -3127,32 +3153,32 @@ msgstr "%"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:511
 msgid "the « <_:literal-1/> » character"
-msgstr ""
+msgstr "» <_:literal-1/> «-tegnet"
 
 #. (itstool) path: example/title
 #: C/cact-execution.xml:520
 msgid "Usage of singular <_:abbrev-1/> plural forms"
-msgstr ""
+msgstr "Brug af en <_:abbrev-1/> flere forme"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:522
 msgid "/data"
-msgstr ""
+msgstr "/data"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "pierre"
-msgstr ""
+msgstr "pierre"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "paul"
-msgstr ""
+msgstr "paul"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:525
 msgid "jacques"
-msgstr ""
+msgstr "jacques"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:521
@@ -3161,36 +3187,38 @@ msgid ""
 "contains the three files <_:filename-2/>, <_:filename-3/> and "
 "<_:filename-4/>."
 msgstr ""
+"Lad os sige at den nuværende mappe er <_:filename-1/>, og markeringen "
+"indeholder tre filer <_:filename-2/>, <_:filename-3/> og <_:filename-4/>."
 
 #. (itstool) path: title/command
 #: C/cact-execution.xml:529
 msgid "echo %b"
-msgstr ""
+msgstr "echo %b"
 
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:528 C/cact-execution.xml:561
 msgid "If we have requested <_:command-1/>,"
-msgstr ""
+msgstr "Hvis vi har anmodet om <_:command-1/>,"
 
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:531 C/cact-execution.xml:564
 msgid "then the following commands will be successively run:"
-msgstr ""
+msgstr "så vil de følgende kommandoer bliver afviklet i rækkefølge:"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:536
 msgid "echo pierre"
-msgstr ""
+msgstr "echo pierre"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:537
 msgid "echo paul"
-msgstr ""
+msgstr "echo paul"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:538
 msgid "echo jacques"
-msgstr ""
+msgstr "echo jacques"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:540
@@ -3297,7 +3325,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-import.xml:2
 msgid "Importing actions"
-msgstr ""
+msgstr "Importhandlinger"
 
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
@@ -3373,7 +3401,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-menus.xml:41
 msgid "New Caja menu"
-msgstr ""
+msgstr "Ny Cajamenu"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:38
@@ -3565,7 +3593,7 @@ msgstr ""
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-profiles.xml:36
 msgid "New profile"
-msgstr ""
+msgstr "Ny profil"
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:36
@@ -3930,7 +3958,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:84
 msgid "Shortcuts are available for some commands:"
-msgstr ""
+msgstr "Genveje er tilgængelige for nogle kommandoer:"
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:92 C/cact-starting.xml:435
@@ -3940,22 +3968,22 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:96
 msgid "Create a new action."
-msgstr ""
+msgstr "Opret en ny handling."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:109
 msgid "Save modified actions and menus."
-msgstr ""
+msgstr "Gem ændrede handlinger og menuer."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:118
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:122
 msgid "Quit the application."
-msgstr ""
+msgstr "Afslut programmet."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:131
@@ -4872,8 +4900,8 @@ msgstr ""
 #. (itstool) path: note/para
 #: C/index.docbook:126
 msgid ""
-"All these features are more thoroughly described in the global <productname"
-">Caja-Actions</productname> documentation."
+"All these features are more thoroughly described in the global "
+"<productname>Caja-Actions</productname> documentation."
 msgstr ""
 
 #. (itstool) path: sect1/title
@@ -4929,8 +4957,8 @@ msgid ""
 "Tool</application> or this manual, follow the directions in the <ulink "
 "url=\"help:mate-user-guide#feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>, or you may prefer, at your convenience, directly open a bug or"
-" a request for enhancement in <ulink url=\"https://github.com/mate-desktop"
-"/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
+" a request for enhancement in <ulink url=\"https://github.com/mate-"
+"desktop/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
 msgstr ""
 
 #. (itstool) path: para/ulink

@@ -6,26 +6,26 @@
 # Translators:
 # Dario Di Nucci <linkin88mail@gmail.com>, 2021
 # Enrico B. <enricobe@hotmail.com>, 2021
-# Marco Bartolucci <nap.84@live.it>, 2021
+# Marco Bartolucci, 2021
 # 6d1bb5d393520b00f70a137a58397ea1_b5ba1e2 <22cc5e560e0d5b6554809bfb51b90403_882095>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Giuseppe Pignataro <rogepix@gmail.com>, 2021
 # Simone Centonze <mypythonit@gmail.com>, 2021
-# Alessandro Volturno <alelvb@inwind.it>, 2021
+# Alessandro Volturno <alelvb@inwind.it>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-actions 1.25.0\n"
+"Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
-"POT-Creation-Date: 2021-06-18 17:09+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
@@ -36,7 +36,7 @@ msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
-"Ti verrà richiesto il formato da scegliere ogni volta che un oggetto dovrà "
+"Ti verrà richiesto il formato da scegliere ogni volta che un elemento dovrà "
 "essere esportato."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
@@ -56,9 +56,9 @@ msgstr "NAIExporter «%s»  non implementa l'interfaccia «to_buffer»."
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr "%s NAIExporter non implementa l'interfaccia «to_file»"
+msgstr "NAIExporter «%s» non implementa l'interfaccia «to_file»"
 
-#: src/core/na-about.c:72
+#: src/core/na-about.c:70
 msgid ""
 "Caja-Actions Configuration Tool is free software; you can redistribute it "
 "and/or modify it under the terms of the GNU General Public License as "
@@ -70,7 +70,7 @@ msgstr ""
 "License così come è pubblicata dalla Free Software Foundation; versione 2 "
 "della Licenza, o (a vostra scelta) una qualsiasi versione successiva."
 
-#: src/core/na-about.c:76
+#: src/core/na-about.c:74
 msgid ""
 "Caja-Actions Configuration Tool is distributed in the hope that it will be "
 "useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
@@ -80,9 +80,9 @@ msgstr ""
 "Lo Strumento di configurazione Caja-Actions è distribuito con lo scopo di "
 "essere utile, ma SENZA ALCUNA GARANZIA; senza neppure la garanzia implicita "
 "di COMMERCIABILITÀ o IDONEITÀ A UNO SCOPO PARTICOLARE. Consultare la licenza"
-" GNU GPL per maggiori dettagli."
+" GNU General Public License per maggiori dettagli."
 
-#: src/core/na-about.c:80
+#: src/core/na-about.c:78
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
 " Caja-Actions Configuration Tool ; if not, write to the Free Software "
@@ -94,32 +94,29 @@ msgstr ""
 "alla Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, "
 "Boston, MA 02110-1301, USA."
 
-#: src/core/na-about.c:102
+#: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr "Uno strumento grafico per creare e modificare le vostre azioni Caja."
 
-#: src/core/na-about.c:108
-msgid "translator-credits"
+#: src/core/na-about.c:93
+msgid ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 msgstr ""
-"Enrico , 2019\n"
-"Alessandro Volturno,  2020, 2021"
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 Gli sviluppatori di MATE"
 
-#. Translators: title of the About dialog box, when seen from Caja file
-#. manager
-#: src/core/na-about.c:129
+#: src/core/na-about.c:99
 msgid "Caja-Actions"
 msgstr "Caja-Actions"
 
-#: src/core/na-about.c:163
-#, c-format
-msgid ""
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
-"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
-"Copyright %s 2021 The MATE developers"
+#: src/core/na-about.c:100
+msgid "translator-credits"
 msgstr ""
-"Copyright %s 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
-"Copyright %s 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
-"Copyright %s 2021  Gli sviluppatori di MATE"
+"Enrico Bella, 2019\n"
+"Alessandro Volturno,  2020, 2021"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
@@ -159,7 +156,7 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
-"Un elenco di stringhe con caratteri jolly '*' o '?' da far corrispondere ai nomi dei file o cartelle selezionati. Ciascun oggetto selezionato deve corrispondere ad almeno uno dei modelli di filename affinché l'azione o il menu sia proposto per la visualizzazione.\n"
+"Un elenco di stringhe con caratteri jolly '*' o '?' da far corrispondere ai nomi dei file o delle cartelle selezionati. Ciascun elemento selezionato deve corrispondere ad almeno uno dei modelli di filename affinché l'azione o il menu sia proposto per la visualizzazione.\n"
 "Questo ovviamente si applica solo quando c'è una selezione.\n"
 "Valore predefinito: '*'."
 
@@ -172,9 +169,9 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
-"Un modello contro cui far corrispondere i nomi-base dei file o cartelle "
-"selezionate. Può includere caratteri jolly (* o ?). Si deve impostare "
-"un'opzione per ciascun modello di cui si necessita "
+"Un modello contro cui far corrispondere i nomi-base dei file o delle "
+"cartelle selezionate. Può includere caratteri jolly (* o ?). Occorre "
+"impostare un'opzione per ciascun modello di cui si necessita"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -218,7 +215,7 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
-"Un elenco di stringhe con il carattere '*' che funge da jolly da far corrispondere ai nomi dei file o cartelle selezionate. Ciascun elemento selezionato deve corrispondere ad almeno uno dei modelli di tipo mime affinché l'azione compaia.\n"
+"Un elenco di stringhe con il carattere '*' che funge da jolly da far corrispondere ai tipi mime dei file o delle cartelle selezionate. Ciascun elemento selezionato deve corrispondere ad almeno uno dei modelli di tipo mime affinché l'azione compaia.\n"
 "Questo ovviamente si applica solo quando c'è una selezione.\n"
 "Predefinito: '*/*'."
 
@@ -230,9 +227,9 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
-"Un modello a cui corrispondere i tipi mime dei file o cartelle selezionate. "
-"Può includere il carattere jolly asterisco '*'. Si deve impostare un'opzione"
-" per ciascun modello di cui si necessita"
+"Un modello a cui far corrispondere i tipi mime dei file o delle cartelle "
+"selezionate. Può includere il carattere jolly '*'. Occorre impostare "
+"un'opzione per ciascun modello di cui si necessita"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
@@ -257,7 +254,7 @@ msgstr ""
 "isfile='true' e isdir='false' : la selezione può contenere solo file\n"
 "isfile='false' e isdir='true' : la selezione può contenere solo cartelle\n"
 "isfile='true' e isdir='true' : la selezione può contenere sia file che cartelle\n"
-"isfile='false' e isdir='false' : questa non è una combinazione valida (la configurazione non comparirà mai).\n"
+"isfile='false' e isdir='false' : questa non è una combinazione valida (non comparirebbe mai).\n"
 "Ciò ovviamente si applica solo quando c'è una selezione\n"
 "Valore predefinito: \"true\"."
 
@@ -281,12 +278,12 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
-"Impostare a «vero» se la selezione può avere delle cartelle, a «falso» in caso contrario.\n"
+"Impostare a «true» se la selezione può avere delle cartelle, a «false» in caso contrario.\n"
 "Questa impostazione è legata all'impostazione 'isfile'. Le combinazioni valide sono:\n"
 "isfile='true' e isdir='false' : la selezione può contenere solo file\n"
 "isfile='false' e isdir='true' : la selezione può contenere solo cartelle\n"
 "isfile='true' e isdir='true': la selezione può contenere sia file che cartelle\n"
-"isfile='false' e isdir='false' : questa non è una combinazione valida (la configurazione non comparirà mai).\n"
+"isfile='false' e isdir='false' : questa non è una combinazione valida (non comparirebbe mai).\n"
 "Ciò ovviamente si applica solo quando c'è una selezione\n"
 "Valore predefinito: falso."
 
@@ -306,9 +303,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
-"Se occorre che più file o cartelle vengano selezionate, impostare questa chiave a «true». Se invece si vuole solo un file o una cartella, impostare la chiave a «false».\n"
+"Se occorre che più file o cartelle vengano selezionate, impostare questa chiave su «true». Se invece si vuole solo un file o una cartella, impostare la chiave su «false».\n"
 "Questo si applica solo quando c'è una selezione.\n"
-"Valore predefinito: falso."
+"Valore predefinito: 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
@@ -336,7 +333,7 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
-"Definisce l'elenco degli schemi validi da far corrispondere agli oggetti selezionati. Lo schema è il protocollo utilizzato per accedere ai file. La parola chiave da utilizzare è quella impiegata nell'URI dal file manager.\n"
+"Definisce l'elenco degli schemi validi da far corrispondere agli elementi selezionati. Lo schema è il protocollo utilizzato per accedere ai file. La parola chiave da utilizzare è quella impiegata nell'URI dal file manager.\n"
 "Esempi di URI validi sono:\n"
 "- file:///tmp/foo.txt\n"
 "- sftp:///root@test.example.net/tmp/foo.txt\n"
@@ -346,7 +343,7 @@ msgstr ""
 "'ftp' : file a cui si accede via FTP\n"
 "'smb' : file a cui si accede via Samba (condivisione Windows)\n"
 "'dav' : file a cui si accede via WebDAV.\n"
-"Tutti gli schemi utilizzati dal vostro file manager preferito possono essere qui utilizzati.\n"
+"Tutti gli schemi utilizzati dal vostro file manager preferito possono essere utilizzati.\n"
 "Questo ovviamente si applica quando c'è una selezione, o quando ci si riferisce allo schema speciale 'x-caja-desktop'.\n"
 "Valore predefinito: \"file\"."
 
@@ -357,7 +354,7 @@ msgid ""
 msgstr ""
 "Uno schema GIO valido in cui le cartelle o i file selezionati dovrebbero "
 "essere localizzati. Occorre impostare un'opzione per ciascuno schema "
-"richiesto"
+"desiderato"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -389,8 +386,8 @@ msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
-"Il percorso di una cartella (genitrice) per la quale l'oggetto sarà "
-"visualizzato. Occorre impostare un'opzione per ciascuna cartella necessaria"
+"Il percorso di una cartella (genitrice) per la quale l'elemento sarà "
+"visualizzato. Occorre impostare un'opzione per ciascuna cartella desiderata"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -402,7 +399,7 @@ msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr "Operatore della relazione di conteggio della selezione"
+msgstr "Operatore della relazione per il conteggio della selezione"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -426,7 +423,7 @@ msgstr "Mostra solo nell'ambiente"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr "Valore predefinito: \"all\"."
+msgstr "Predefinito: tutti."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
@@ -448,7 +445,7 @@ msgstr "Non mostre nell'ambiente"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr "Valore predefinito: \"none\"."
+msgstr "Predefinito: nessuno."
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
@@ -470,13 +467,13 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
-"Si noti che, quando specificato, vengono controllati solo la presenza e lo stato di esecutibilità del file specificato.\n"
+"Si noti che, quando specificato, vengono controllati solo la presenza e lo stato di eseguibilità del file specificato.\n"
 "I parametri possono apparire nel valore 'TryExec', e saranno sostituiti in fase di esecuzione.\n"
-"Valore predefinito: successo."
+"Predefinito: successo."
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr "Il percorso ad un file la cui esecutibilità deve essere verificata"
+msgstr "Il percorso ad un file la cui eseguibilità deve essere verificata"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
@@ -492,7 +489,7 @@ msgid ""
 "Defaults to successful."
 msgstr ""
 "Il ben noto nome di un servizio DBus.\n"
-"L'oggetto sarà candidato se il servizio nominato è registrato sulla sessione DBus all'esecuzione. I parametri possono apparire nel valore 'ShowIfRegistered', e saranno sostituiti al runtime.\n"
+"L'elemento sarà candidato se il servizio nominato è registrato sulla sessione DBus all'esecuzione. I parametri possono apparire nel valore 'ShowIfRegistered', e saranno sostituiti al runtime.\n"
 "Valore predeinito: successo."
 
 #: src/core/na-icontext-factory.c:458
@@ -518,14 +515,14 @@ msgid ""
 "Defaults to successful."
 msgstr ""
 "Un comando che, quando viene eseguito, dovrebbe mostrare una stringa sullo stdout.\n"
-"L'oggetto sarà candidato se la stringa mostrata sarà uguale a \"true\".\n"
+"L'elemento sarà candidato se la stringa mostrata sarà uguale a \"true\".\n"
 "I parametri possono apparire nel valore 'ShowIfTrue', e saranno sostituiti al runtime.\n"
 "Valore predefinito: successo."
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr "Il percorso al comando che mostrerà la stringa \"true\""
+msgstr "Il percorso al comando che mostrerà la stringa 'true'"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
@@ -541,9 +538,9 @@ msgid ""
 "Defaults to successful."
 msgstr ""
 "Il nome di un processo.\n"
-"L'oggetto sarà candidato se il nome del processo viene trovato in memoria durante il runtime.\n"
+"L'elemento sarà candidato se il nome del processo viene trovato in memoria durante il runtime.\n"
 "I parametri possono comparire sul valore 'ShowIfRunning', e saranno sostituiti al runtime.\n"
-"Valore predefinito: successo"
+"Predefinito: successo"
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
@@ -568,15 +565,15 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
-"Un elenco delle capacità che ciascuna selezione deve soddisfare affinché l'oggetto sia candidato.\n"
+"Un elenco delle capacità che ciascuna selezione deve soddisfare affinché l'elemento sia candidato.\n"
 "Le capacità possono essere negate.\n"
-"Le capacità devono essere scelte tra le predefinite seguenti:\n"
+"Le capacità devono essere scelte tra i seguenti valori le predefiniti:\n"
 "- 'Owner' : l'utente corrente è il possessore degli oggetti selezionati\n"
-"- 'Readable' : gli oggetti selezionati sono accessibili in  lettura dall'utente (è probabilmente più utile se negato)\n"
+"- 'Readable' : gli oggetti selezionati sono accessibili in  lettura dall'utente (probabilmente più utile se viene negato)\n"
 "- 'Writable' : gli oggetti selezionati sono accessibili in scrittura dall'utente\n"
 "- 'Executable' : gli oggetti selezionati sono eseguibili dall'utente\n"
 "- 'Local' : gli oggetti selezionati sono locali.\n"
-"Valore predefinito: lista vuota."
+"Predefinito: lista vuota."
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
@@ -599,15 +596,15 @@ msgid ""
 "function."
 msgstr ""
 "L'elemento è stato rinumerato perché il chiamante non ha fornito alcuna "
-"funzione per la chiamata dell'utente."
+"funzione utente ask."
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr "L'elemento è stato rinumerato per richiesta dell'utente."
+msgstr "L'elemento è stato rinumerato su richiesta dell'utente."
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr "L'elemento esistente è stato sovrascritto per richiesta dell'utente."
+msgstr "L'elemento esistente è stato sovrascritto su richiesta dell'utente."
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
@@ -639,7 +636,7 @@ msgstr ""
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr "Importa l'elemento, _assegnandogli un nuovo identificatore"
+msgstr "Importa l'elemento, _allocando per esso un nuovo identificatore"
 
 #: src/core/na-importer.c:67
 msgid ""
@@ -663,7 +660,8 @@ msgstr ""
 
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
-msgstr "Sarete interpellati ogni volta che un ID importato esiste già."
+msgstr ""
+"Sarete interpellati ogni volta che un ID importato risulti già esistente."
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
@@ -744,7 +742,7 @@ msgstr "L'elemento è di sola lettura."
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr "Nessun provider I/O trovato."
+msgstr "Non è stato trovato alcun provider I/O di scrittura."
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -778,7 +776,7 @@ msgstr "Errore di scrittura nel provider I/O."
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr "Impossibile cancellare gli shemi MateConf."
+msgstr "Impossibile cancellare gli schemi di MateConf."
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
@@ -796,7 +794,7 @@ msgstr ""
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr "Nuova azione Caja"
+msgstr "Nuova azione di Caja"
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
@@ -816,11 +814,11 @@ msgstr ""
 "Indica se l'azione si rivolge ai menu contestuali del file manager di selezione.\n"
 "Questo era il comportamento storico.\n"
 "Si noti che i menu sono sempre potenziali candidati alla visualizzazione nei menu contestuali di selezione, a condizione che contengano almeno un'azione.\n"
-"Valore predefinito: TRUE."
+"Predefinito: TRUE."
 
 #: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr "Mira al menù contestuale della selezione [vero]"
+msgstr "Mira al menù contestuale della selezione [true]"
 
 #: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
@@ -834,11 +832,11 @@ msgid ""
 msgstr ""
 "Indica se l'azione si rivolge ai menu contestuali del file manager quando non c'è alcuna selezione, quindi che si applica alla posizione corrente.\n"
 "Si noti che i menu sono sempre candidati potenziali alla visualizzazione nei menu contestuali di selezione, a condizione che contengano almeno un'azione.\n"
-"Il valore predefinito è FALSE"
+"Predefinito: FALSE"
 
 #: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr "Mira al menù contestuale della posizione [falso]"
+msgstr "Mira al menù contestuale della posizione [false]"
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
@@ -854,11 +852,11 @@ msgstr ""
 "Indica se l'azione è candidata per essere visualizzata nella barra degli strumenti del file manager.\n"
 "Questo si applica solo alla posizione corrente.\n"
 "Si noti che i menù non sono mai mostrati nella barra degli strumenti.\n"
-"Valore predefinito: FALSE."
+"Predefinito: FALSE."
 
 #: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr "Mira alla barra degli strumenti [falso]"
+msgstr "Mira alla barra degli strumenti [false]"
 
 #: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
@@ -872,7 +870,7 @@ msgid ""
 msgstr ""
 "L'etichetta mostrata affianco all'icona nella barra degli strumenti del file manager.\n"
 "Si noti che la visualizzazione effettiva dipende dalle preferenze del vostro Ambiente Desktop.\n"
-"Valore predefinito: l'etichetta del menu contestuale quando non è impostato o è vuoto."
+"Predefinito: l'etichetta del menu contestuale quando non è impostato o è vuoto."
 
 #. Translators: copied items have a label as 'Copy of original label'
 #: src/core/na-object-id.c:329
@@ -914,7 +912,7 @@ msgstr "Etichetta vuota"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr "Suggerimento dell'elemento del menù contestuale"
+msgstr "Tooltip dell'elemento del menù contestuale"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -966,9 +964,9 @@ msgid ""
 "Defaults to empty."
 msgstr ""
 "Una proposta di scorciatoia da tastiera per l'azione o il menù.\n"
-"Si presti attenzione al fatto che questa potrebbe essere solo una proposta poiché la scorciatoia potrebbe già essere riservata per altro uso. L'implementazioe non dovrebbe sovrascrivere una scorciatoia già esistente per definire questa.\n"
+"Si presti attenzione al fatto che questa potrebbe è solo una proposta poiché la scorciatoia potrebbe già essere riservata per altro uso. L'implementazione non dovrebbe sovrascrivere una scorciatoia già esistente per definire quella proposta.\n"
 "Il formato può rassomigliare a \"<Control>a\" o \"<Shift><Alt>F1\".\n"
-"Valore predefinito: vuoto."
+"Predefinito: vuoto."
 
 #: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
@@ -979,7 +977,7 @@ msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
 msgstr ""
-"Lista ordinata degli ID dei sotto-elementi. Possono essere azioni o menù se l'elemento è un menù, o profili se l'elemento è un'azione.\n"
+"Lista ordinata degli ID dei sotto-elementi. Possono essere azioni o menù se l'elemento è un menù, oppure profili se l'elemento è un'azione.\n"
 "Se per un'azione od un menù questa lista non esiste o è vuota, i sotto-elementi saranno contrassegnati nell'ordine delle operazioni di lettura."
 
 #: src/core/na-object-item-factory.c:293
@@ -992,11 +990,11 @@ msgid ""
 "Defaults to TRUE."
 msgstr ""
 "Se il menù o l'azione è disabilitata, essa non comparirà mai nel menù contestuale del file manager.\n"
-"Valore predefinito: TRUE. "
+"Predefinito: TRUE. "
 
 #: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr "Indica se l'azione o il menù sono abilitati [abilitato]"
+msgstr "Indica se l'azione o il menù sono abilitati [enabled]"
 
 #: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
@@ -1016,7 +1014,7 @@ msgid "New Caja menu"
 msgstr "Nuovo menù Caja"
 
 #. Translators: label for the default profile
-#: src/core/na-object-profile.c:768
+#: src/core/na-object-profile.c:767
 msgid "Default profile"
 msgstr "Profilo predefinito"
 
@@ -1029,7 +1027,7 @@ msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
-"Può essere utilizzato come descrizione dello scopo del profilo.\n"
+"Può essere utilizzato come descrizione della funzione del profilo.\n"
 "Se non è impostato nulla, il valore predefinito è un nome generato automaticamente."
 
 #: src/core/na-object-profile-factory.c:100
@@ -1088,7 +1086,7 @@ msgid ""
 "  %X: space-separated list of the extensions of the selected file(s)/folder(s)\n"
 "  %%: a percent sign."
 msgstr ""
-"I paramentri del comando da eseguire quando l'utente seleziona l'elemento dal menù contestuale del file manager o dalla barra degli strumenti.\n"
+"I parametri del comando da eseguire quando l'utente seleziona l'elemento nel menù contestuale del file manager o sulla barra degli strumenti.\n"
 "I parametri possono contenere alcuni token speciali che saranno sostituiti dalle informazioni fornite dal file manager prima di avviare il comando:\n"
 "- fino alla versione 2.0:\n"
 "  %d: cartella base dei file selezionati\n"
@@ -1096,7 +1094,7 @@ msgstr ""
 "  %h: nome dell'host dell'URI\n"
 "  %m: elenco separato da spazi dei nomi-base dei file o delle cartelle selezionate\n"
 "  %M: elenco separato da spazi dei file o delle cartelle selezionate con il loro percorso completo\n"
-"  %p: numero di porta del primo URI\n"
+"  %p: numero della porta del primo URI\n"
 "  %R: elenco separato da spazi degli URI selezionati\n"
 "  %s: schema degli URI\n"
 "  %u: URI\n"
@@ -1105,7 +1103,7 @@ msgstr ""
 "- a partire dalla versione 3:\n"
 "  %b: (primo) nome-base\n"
 "  %B: elenco separato da spazi dei nomi-base dei file o delle cartelle selezionate\n"
-"  %c: conteggio dei file e delle cartelle elezionate\n"
+"  %c: conteggio dei file e delle cartelle selezionate\n"
 "  %d: (prima) cartella base\n"
 "  %D: elenco separato da spazi delle cartelle base dei file o delle cartelle selezionate\n"
 "  %f: (primo) nome del file\n"
@@ -1128,7 +1126,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr "Cartella di lavoro"
+msgstr "Directory di lavoro"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -1136,7 +1134,7 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to \"%d\"."
 msgstr ""
-"La cartella di lavoro in cui il comando verrà avviato.\n"
+"il percorso di lavoro in cui il comando verrà avviato.\n"
 "Valore predefinito «%d»."
 
 #: src/core/na-object-profile-factory.c:211
@@ -1158,8 +1156,8 @@ msgstr ""
 "Modalità di esecuzione del programma.\n"
 "Può essere scelta tra i seguenti valori:\n"
 "- Normale: avvia come una interfaccia grafica utente tradizionale\n"
-"- Terminale: avvia il termiinale predefinito dell'ambiente grafico ed esegue il comando in esso.\n"
-"- Integrato: fa uso di una particolare funzionalità del file manager che consente l'esecuzione di un terminale all'interno di esso; un'alternativa consentita è Terminale\n"
+"- Terminale: avvia il terminale predefinito dell'ambiente grafico ed esegue il comando in esso.\n"
+"- Integrato: fa uso di una particolare funzionalità del file manager che consente l'esecuzione di un terminale all'interno di esso; un'alternativa consentita ad esso è Terminale\n"
 "Mostra Output: il terminale eseguito può essere chiuso alla fine del comando, ma i flussi tradizionali (stdout, stderr) devono essere collezionati e mostrati; un'alternativa consentita è Terminale.\n"
 "Valore predefinito: \"Normal\"."
 
@@ -1173,7 +1171,7 @@ msgid ""
 "Defaults to FALSE."
 msgstr ""
 "Rilevante solo quando ExecutionMode=Normal.\n"
-"Valore predefinito: FALSE"
+"Predefinito: FALSE"
 
 #: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
@@ -1185,7 +1183,7 @@ msgid ""
 "Defaults to empty."
 msgstr ""
 "Rilevante solo quando ExecutionMode=Normal.\n"
-"Valore predefinito: vuoto"
+"Predefinito: vuoto"
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
@@ -1199,56 +1197,56 @@ msgid ""
 msgstr ""
 "L'utente per il quale deve essere eseguito il comando. L'utente può essere identificato con il suo UID numerico o dal suo login.\n"
 "Il profilo viene ignorato se definito con un UID o login non esistente.\n"
-"Valore predefinito: vuoto: il comando verrà esegiito per l'utente corrente."
+"Predefinito: vuoto - il comando verrà eseguito per l'utente corrente."
 
-#: src/core/na-selected-info.c:869
+#: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
 msgstr "Errore nella richiesta di informazioni per %s URI: %s"
 
-#: src/core/na-tokens.c:250
+#: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr "file:///percorso/al/file1.mid"
+msgstr "file:///path/to/file1.mid"
+
+#: src/core/na-tokens.c:250
+msgid "file:///path/to/file2.jpeg"
+msgstr "file:///path/to/file2.jpeg"
 
 #: src/core/na-tokens.c:251
-msgid "file:///path/to/file2.jpeg"
-msgstr "file:///percorso/al/file2.jpeg"
-
-#: src/core/na-tokens.c:252
 msgid "audio/x-midi"
 msgstr "audio/x-midi"
 
-#: src/core/na-tokens.c:253
+#: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr "immagine/jpeg"
+msgstr "image/jpeg"
+
+#: src/core/na-tokens.c:254
+msgid "test.example.net"
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
-msgid "test.example.net"
-msgstr "test.esempio.net"
-
-#: src/core/na-tokens.c:256
 msgid "user"
-msgstr "utente"
+msgstr "user"
 
-#: src/core/na-tokens.c:431
+#: src/core/na-tokens.c:441
 msgid "Output of the run command"
 msgstr "Output del comando eseguito"
 
-#: src/core/na-tokens.c:439
+#: src/core/na-tokens.c:449
 msgid "Run command:"
 msgstr "Comando eseguito :"
 
-#: src/core/na-tokens.c:440
+#: src/core/na-tokens.c:450
 msgid "Standard output:"
 msgstr "Standard output:"
 
-#: src/core/na-tokens.c:441
+#: src/core/na-tokens.c:451
 msgid "Standard error:"
 msgstr "Standard error:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
-msgstr "Provider di I/O del Desktop Caja-Actions"
+msgstr "Provider di I/O del Desktop di Caja-Actions"
 
 #: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
@@ -1264,7 +1262,7 @@ msgid ""
 "- or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
 "Questo formato è stato introdotto con la serie 3.0 e dovrebbe essere il vostro nuovo formato preferito quando si esportano degli elementi.\n"
-"Consente di condividere le vostre azioni con il mondo intero, inclusi quegli utenti di altri ambienti desktop, purché la loro applicazione implementi la specifica DES-EMA che descrive qesto formato.\n"
+"Consente di condividere le vostre azioni con il mondo intero, inclusi quegli utenti di altri ambienti desktop, purché la loro applicazione implementi la specifica DES-EMA che descrive questo formato.\n"
 "Il file .desktop esportato può successivamente essere importato mediante:\n"
 "- Assistente di importazione dello Strumento di configurazione di Caja-Actions,\n"
 "- drag-n-drop nello Strumento di configurazione di Caja-Actions,\n"
@@ -1280,73 +1278,73 @@ msgstr "Il provider di I/O del desktop non è in grado di gestire l'URI"
 msgid "unknown type: %s"
 msgstr "tipo sconosciuto: %s"
 
-#: src/cact/base-application.c:186
+#: src/cact/base-application.c:182
 msgid "Arguments count"
 msgstr "Conteggio degli argomenti"
 
-#: src/cact/base-application.c:187
+#: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
 msgstr "Il conteggio degli argomenti della riga di comando"
 
-#: src/cact/base-application.c:194
+#: src/cact/base-application.c:190
 msgid "Arguments"
 msgstr "Argomenti"
 
-#: src/cact/base-application.c:195
+#: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
 msgstr "L'array degli argomenti della riga di comando"
 
-#: src/cact/base-application.c:202
+#: src/cact/base-application.c:198
 msgid "Option entries"
 msgstr "Voci delle opzioni"
 
-#: src/cact/base-application.c:203
+#: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
 msgstr "L'array delle definizioni delle opzioni della riga di comando"
 
-#: src/cact/base-application.c:209
+#: src/cact/base-application.c:205
 msgid "Application name"
 msgstr "Nome dell'applicazione"
 
-#: src/cact/base-application.c:210
+#: src/cact/base-application.c:206
 msgid "The name of the application"
 msgstr "Il nome dell'applicazione"
 
-#: src/cact/base-application.c:217 src/cact/cact-schemes-list.c:167
+#: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
 msgstr "Descrizione"
 
-#: src/cact/base-application.c:218
+#: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
 msgstr ""
 "Una breve descrizione che sarà visualizzata nella prima linea dell'output "
 "del parametro --help"
 
-#: src/cact/base-application.c:225
+#: src/cact/base-application.c:221
 msgid "Icon name"
 msgstr "Nome dell'icona"
 
-#: src/cact/base-application.c:226
+#: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
 msgstr "Il nome dell'icona dell'applicazione"
 
-#: src/cact/base-application.c:233
+#: src/cact/base-application.c:229
 msgid "UniqueApp name"
 msgstr "nome UniqueApp"
 
-#: src/cact/base-application.c:234
+#: src/cact/base-application.c:230
 msgid "The Unique name of the application"
 msgstr "il nome Unique dell'applicazione"
 
-#: src/cact/base-application.c:241
+#: src/cact/base-application.c:237
 msgid "Return code"
 msgstr "Codice di ritorno"
 
-#: src/cact/base-application.c:242
+#: src/cact/base-application.c:238
 msgid "The return code of the application"
 msgstr "Il codice di ritorno dell'applicazione"
 
-#: src/cact/base-application.c:605
+#: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
 msgstr "Impossibile interpretare gli argomenti della riga di comando"
 
@@ -1356,7 +1354,7 @@ msgstr "Esci premendo Esc"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
-msgstr "L'assistente dovrà uscire se viene premuto il tasto Esc ?"
+msgstr "L'assistente dovrà uscire quando viene premuto il tasto Esc ?"
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
@@ -1366,12 +1364,12 @@ msgstr "Avvisa quando si preme Esc"
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
 msgstr ""
-"Si deve chiedere all'utente di confermare quando esce dall'assistente "
+"Si deve chiedere all'utente unai conferma per quando esce dall'assistente "
 "premendo il tasto Esc?"
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr "Siete sicuri di voler uscire dall'assistente ?"
+msgstr "Si è sicuri di voler uscire dall'assistente ?"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1497,16 +1495,16 @@ msgstr "Opzione di avvio non riconosciuta: %d"
 #: src/cact/egg-desktop-file.c:1364
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
 msgstr ""
-"Impossibile passare percorsi URI di documenti a un elemento desktop con "
+"Impossibile passare percorsi URI di documenti a una entry desktop di tipo "
 "\"Type=Link\""
 
 #: src/cact/egg-desktop-file.c:1385
 msgid "Not a launchable item"
-msgstr "Non è un oggetto avviabile"
+msgstr "Non è un elemento avviabile"
 
 #: src/cact/egg-sm-client.c:235
 msgid "Disable connection to session manager"
-msgstr "Disabilita la connessione al gestore di sessione"
+msgstr "Disabilita la connessione al gestore della sessione"
 
 #: src/cact/egg-sm-client.c:238
 msgid "Specify file containing saved configuration"
@@ -1532,19 +1530,19 @@ msgstr "Opzioni di gestione della sessione:"
 msgid "Show session management options"
 msgstr "Mostra le opzioni di gestione della sessione"
 
-#: src/cact/cact-application.c:57 src/cact/cact.desktop.in:5
+#: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
 msgstr "Strumento di configurazione Caja-Actions"
 
-#: src/cact/cact-application.c:58
+#: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
 msgstr "Un'interfaccia per per modificare le proprie azioni contestuali"
 
-#: src/cact/cact-application.c:66
+#: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
-msgstr "Impostalo per eseguire istanze multiple del programma [unico]"
+msgstr "Impostarlo per eseguire istanze multiple del programma [unque]"
 
-#: src/cact/cact-application.c:68
+#: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
 msgstr "Mostra la versione del programma ed esci in modo pulito [no]"
 
@@ -1593,7 +1591,7 @@ msgstr "<b>Schema</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
-msgstr "Esportazione abortita per azione dell'utente"
+msgstr "Esportazione abortita per azione diretta dell'utente"
 
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
@@ -1630,7 +1628,7 @@ msgstr ""
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr "E_lenco azioni:"
+msgstr "E_lenco delle azioni:"
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1640,7 +1638,7 @@ msgid ""
 msgstr ""
 "Per favore seleziona una o più azioni da esportare.\n"
 "\n"
-"È possibile usare i tasti Ctrl e Shift per ampliare la selezione."
+"È possibile usare i tasti Ctrl e Shift per estendere la selezione."
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
@@ -1652,7 +1650,8 @@ msgstr "Selezionamento della cartella di destinazione"
 
 #: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
-msgstr "Quale formato utilizzare per l'esportazione di questi elementi ?"
+msgstr ""
+"Quale formato potri utilizzare per l'esportazione di questi elementi ?"
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
@@ -1679,19 +1678,19 @@ msgid "Export is done"
 msgstr "L'esportazione è stata completata"
 
 #. Translators: indicate that the file has been successfully imported
-#: src/cact/cact-assistant-import.c:765
+#: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
 msgstr "Importazione riuscita"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
-#: src/cact/cact-assistant-import.c:769
+#: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
 msgstr "Id.: %s\t%s"
 
 #. Translators: indicate that the file was not imported
-#: src/cact/cact-assistant-import.c:779
+#: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
 msgstr "Non importato"
 
@@ -1704,7 +1703,7 @@ msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
 msgstr ""
-"L'assistente vi guiderà durante il processo di imortazione degli elementi, "
+"L'assistente vi guiderà durante il processo di importazione degli elementi, "
 "delle azioni o dei menù."
 
 #: src/cact/cact-assistant-import.ui:55
@@ -1729,7 +1728,7 @@ msgstr "Quando si importa un elemento il cui iD esiste già:"
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
-msgstr "Si è proceduto con i file selezionati:"
+msgstr "I file selezionati sono stati elaborati:"
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
@@ -1759,7 +1758,7 @@ msgstr "Il menù «%s» sta per essere esportato."
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr "Attenzione: è obbligatoria un'etichetta per l'azione o il menù."
+msgstr "Attenzione: è obbligatoria un'etichetta per l'azione o per il menù."
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
@@ -1775,7 +1774,7 @@ msgstr "Scegliere un comando"
 
 #: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
-msgstr "Scegliere una cartella di lavoro"
+msgstr "Scegliere una directory di lavoro"
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
@@ -1783,7 +1782,7 @@ msgstr "Selezionatore dell'icona"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
-msgstr "Icone a tema"
+msgstr "Icone a _tema"
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
@@ -1803,7 +1802,7 @@ msgstr "(strettamente maggiore di)"
 
 #: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
-msgstr "Scegliere un esegiubile"
+msgstr "Scegliere un eseguibile"
 
 #: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
@@ -1831,7 +1830,7 @@ msgstr "Me_nù"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr "<b>Proprietà modificabili dei menù</b>"
+msgstr "<b>Proprietà modificabili del menù</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1841,7 +1840,7 @@ msgstr "_Azione"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr "<b>Proprietà modificabili delle azioni</b>"
+msgstr "<b>Proprietà modificabili dell'azione</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
@@ -1854,7 +1853,7 @@ msgstr "NAObjectItem corrente"
 #: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
 msgstr ""
-"Un puntatore al NAObjectItem recentemente modificato, un'azione o un menù"
+"Un puntatore al NAObjectItem attualmente modificato, un'azione o un menù"
 
 #: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
@@ -1862,7 +1861,7 @@ msgstr "NAObjectProfile corrente"
 
 #: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
-msgstr "Un puntatore al NAObjectProfile recentemente modificato"
+msgstr "Un puntatore al NAObjectProfile attualmente modificato"
 
 #: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
@@ -1870,7 +1869,7 @@ msgstr "NAIContext corrente"
 
 #: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
-msgstr "Un puntatore al NAObjectContext recentemente modificato"
+msgstr "Un puntatore al NAObjectContext attualmente modificato"
 
 #: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
@@ -1884,7 +1883,7 @@ msgstr ""
 
 #: src/cact/cact-main-window.c:373
 msgid "No edition reason"
-msgstr "Nessun motivo di edizione"
+msgstr "Nessun motivo di modifica"
 
 #: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
@@ -1936,7 +1935,7 @@ msgstr "Deve corrispondere ad uno di"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
-msgstr "Deve corrispondere a tutti di"
+msgstr "Deve corrispondere ad ognuno di"
 
 #. Translators: label of the header of a column which let the user select a
 #. negative filter
@@ -1987,7 +1986,7 @@ msgstr "Aiuto"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
-msgstr "Schede Appunti"
+msgstr "Schede degli Appun_ti"
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
@@ -2017,7 +2016,7 @@ msgstr "Nuovo _profilo"
 #. profile' item
 #: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
-msgstr "Definisce un novo profilo associato all'azione corrente"
+msgstr "Definisce un nuovo profilo associato all'azione corrente"
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
@@ -2042,7 +2041,7 @@ msgstr "Termina l'applicazione"
 
 #: src/cact/cact-menubar.c:88
 msgid "Cu_t"
-msgstr "Taglia"
+msgstr "_Taglia"
 
 #. Translators: tooltip displayed in the status bar when selecting the Cut
 #. item
@@ -2104,7 +2103,7 @@ msgstr "Elimina gli elementi selezionati"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr "_Ricarica gli elenenti selezionati"
+msgstr "_Ricarica gli elementi selezionati"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -2143,7 +2142,7 @@ msgstr "_Collassa tutto"
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr "Collassa completamente la gerarchia deli elementi"
+msgstr "Collassa completamente la gerarchia degli elementi"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
@@ -2175,21 +2174,21 @@ msgstr "_Dump della selezione"
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr "Salvataggio ricorsivo degli elementi selezionati"
+msgstr "Dump ricorsivo degli elementi selezionati"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
-msgstr "Salvataggio _breve dell'archivio ad albero"
+msgstr "Dump _breve dell'archivio ad albero"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. BriefTreeStoreDump item
 #: src/cact/cact-menubar.c:144
 msgid "Briefly dump the tree store"
-msgstr "Scarica brevemente l'archivio ad albero"
+msgstr "Fai brevemente il dump dell'archivio ad albero"
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr "Elenca oggetti modificati"
+msgstr "Elenca gli oggetti modificati"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
@@ -2205,7 +2204,7 @@ msgstr "_Dump del contenuto degli appunti"
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr "Salvataggio del contenuto dell'oggetto appunti"
+msgstr "Dump del contenuto dell'elemento negli appunti"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -2219,7 +2218,7 @@ msgstr "Mostra l'aiuto di questo programma"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
-msgstr "Informazioni"
+msgstr "Inform_azioni"
 
 #. Translators: tooltip displayed in the status bar when selecting the About
 #. item
@@ -2249,7 +2248,7 @@ msgstr "Mostra la barra degli Strumenti"
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr "Mostra la barra degli strumenti Aiuto"
+msgstr "Mostra la barra degli strumenti di Aiuto"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
@@ -2388,7 +2387,7 @@ msgid ""
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
 "Quando questa opzione è spuntata, i menù e le azioni saranno virtualmente "
-"visualizzate come sottomenù di un menù principale del menù contestuale di "
+"visualizzate come sotto-menù di un menù principale del menù contestuale di "
 "Caja."
 
 #: src/cact/cact-preferences.ui:220
@@ -2446,7 +2445,7 @@ msgstr "Ambiente _desktop in esecuzione :"
 
 #: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
-msgstr "<i>Correntemente identificato :</i>"
+msgstr "<i>Attualmente rilevato :</i>"
 
 #: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
@@ -2455,12 +2454,12 @@ msgstr "<b>Ambiente desktop</b>"
 #: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
 msgstr ""
-"Questa scheda consente di specificare i paramentri necessari ad alcune "
+"Questa scheda consente di specificare i parametri necessari ad alcune "
 "modalità di esecuzione."
 
 #: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
-msgstr "Esecuzione a runtime"
+msgstr "Esecuzione al runtime"
 
 #: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
@@ -2476,7 +2475,7 @@ msgid ""
 " as 'Copy of ...'."
 msgstr ""
 "Quando un menù viene copiato e incollato o duplicato, il nuovo menù sarà "
-"rinominato come \"Copia di ...\"."
+"rinominato come 'Copia di ...'."
 
 #: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
@@ -2488,7 +2487,7 @@ msgid ""
 "relabelled as 'Copy of ...'."
 msgstr ""
 "Quando una azione menù viene copiata e incollata o duplicata, la nuova "
-"azione sarà rinominata come \"Copia di ...\"."
+"azione sarà rinominata come 'Copia di ...'."
 
 #: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
@@ -2500,7 +2499,7 @@ msgid ""
 "relabelled as 'Copy of ...'."
 msgstr ""
 "Quando un profilo viene copiato e incollato o duplicato, il nuovo profilo "
-"sarà rinominato come \"Copia di ...\"."
+"sarà rinominato come 'Copia di ...'."
 
 #: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
@@ -2567,8 +2566,9 @@ msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
 msgstr ""
-"Questa scheda consente all'utente di scegliere preferenze personalizzate per"
-" l'interfaccia utente dello strumento di configurazione di Caja-Actions."
+"Questa scheda consente all'utente di scegliere delle preferenze "
+"personalizzate per l'interfaccia utente dello strumento di configurazione di"
+" Caja-Actions."
 
 #: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
@@ -2589,7 +2589,7 @@ msgstr "<b>modalità di importazione</b>"
 #: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
 msgstr ""
-"Questa scheda consente di decidere sul comportamento  predefinito delle "
+"Questa scheda consente di decidere sul comportamento predefinito delle "
 "operazioni di importazione."
 
 #: src/cact/cact-preferences.ui:904
@@ -2607,7 +2607,7 @@ msgstr "<b>Formato di esportazione</b>"
 #: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
 msgstr ""
-"Questa scheda consente di decidere sul comportamento  predefinito delle "
+"Questa scheda consente di decidere sul comportamento predefinito delle "
 "operazioni di esportazione."
 
 #: src/cact/cact-preferences.ui:998
@@ -2642,7 +2642,7 @@ msgid ""
 "advanced conditions for an item."
 msgstr ""
 "Questa scheda consente di decidere quali schemi saranno proposti come "
-"predefiniti quando si modificano le condizioni avanzate per un oggetto."
+"predefiniti quando si modificano le condizioni avanzate di un elemento."
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
@@ -2655,12 +2655,12 @@ msgid ""
 "trying to write a new menu or action."
 msgstr ""
 "Definire qui, per i provider I/O disponibili, se si vuole che essi siano "
-"letti all'avvio, che siano scrivibili e l'ordine in cui saranno testati "
-"quando si cerca di scrivere un nuovo menù o un'azione."
+"letti all'avvio, che siano scrivibili e l'ordine in cui saranno provati "
+"quando si cercherà di scrivere un nuovo menù o una nuova azione."
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
-msgstr "Su"
+msgstr "S_u"
 
 #: src/cact/cact-preferences.ui:1215
 msgid ""
@@ -2684,8 +2684,8 @@ msgid ""
 "in which order they will be tried when writing a new item."
 msgstr ""
 "Questa scheda consente di decidere se i provider I/O debbano essere "
-"abilitati o meno e in quale ordine dovranno essere provati quando si scrive "
-"un'elemento."
+"abilitati o meno ed in quale ordine dovranno essere provati quando si scrive"
+" un nuovo elemento."
 
 #: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
@@ -2768,7 +2768,7 @@ msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
 msgstr ""
-"Un puntatore (non una reference) al BaseWindow genitore di della "
+"Un puntatore (non una reference) al BaseWindow genitore della "
 "visualizzazione ad albero integrata"
 
 #: src/cact/cact-tree-model.c:232
@@ -2781,32 +2781,31 @@ msgstr "Il GtkTreeView che si basa su questo CactTreeMode"
 
 #: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
-msgstr "Modalità di Editione"
+msgstr "Modalità di Modifica"
 
 #: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
-msgstr "modalità Edizione vs. Selezione"
+msgstr "modalità Modifica vs. Selezione"
 
-#: src/cact/cact-tree-model-dnd.c:120
+#: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
 msgstr "Impossibile rilasciare un profilo in questa posizione"
 
-#: src/cact/cact-tree-model-dnd.c:121
+#: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
 msgstr "Impossibile rilasciare un'azione o un menù in questa posizione"
 
-#: src/cact/cact-tree-model-dnd.c:122
+#: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
 msgstr "Impossibile rilasciare qui perché il genitore non è scrivibile"
 
-#: src/cact/cact-tree-model-dnd.c:123
+#: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
 msgstr "Impossibile rilasciare qui perché il livello zero non è scrivibile"
 
-#: src/cact/cact-tree-model-dnd.c:926
+#: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
-msgstr ""
-"Sono stati generati alcuni messaggi durante l'operazione di rilascio. "
+msgstr "Sono stati generati alcuni messaggi durante l'operazione di rilascio."
 
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
@@ -2826,7 +2825,7 @@ msgstr "Contenitore"
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
-msgstr "Un GtkContainer che contiene il wifdget GtkTreeView"
+msgstr "Un GtkContainer che contiene il widget GtkTreeView"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
@@ -2846,7 +2845,8 @@ msgstr "Modalità di gestione"
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
-msgstr "Modalità di gestione della vista ad albero, a selezione o a edizione"
+msgstr ""
+"Modalità di gestione della vista ad albero, della selezione o della modifica"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:255
@@ -2880,14 +2880,14 @@ msgstr "Conteggio degli elementi selezionati."
 
 #: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
-msgstr "(prima cartella base."
+msgstr "(prima) cartella base."
 
 #: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
 msgstr ""
-"Elenco separato da spazi delle cartelle base dei file o cartelle "
+"Elenco separato da spazi delle directory base dei file o delle cartelle "
 "selezionate."
 
 #: src/cact/caja-actions-config-tool.ui:220
@@ -2904,7 +2904,8 @@ msgstr "(primo) URI."
 
 #: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
-msgstr "Elenco separato da spazi degli URI dei file o cartelle selezionati."
+msgstr ""
+"Elenco separato da spazi degli URI dei file o delle cartelle selezionate."
 
 #: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
@@ -2917,7 +2918,8 @@ msgstr "(primo) nomefile"
 #: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
-msgstr "Elenco separato da spazi dei nomi dei file o cartelle selezionati."
+msgstr ""
+"Elenco separato da spazi dei nomi dei file o delle cartelle selezionate."
 
 #: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
@@ -2943,7 +2945,8 @@ msgstr "(prima) estensione."
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
 msgstr ""
-"Elenco separato da spazi delle estensioni dei file o cartelle selezionati."
+"Elenco separato da spazi delle estensioni dei file o delle cartelle "
+"selezionate."
 
 #: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
@@ -2953,7 +2956,8 @@ msgstr "(primo) tipo mime."
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
 msgstr ""
-"Elenco separato da spazi dei tipi mime dei file o cartelle selezionati."
+"Elenco separato da spazi dei tipi mime dei file o delle cartelle "
+"selezionati."
 
 #: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
@@ -2971,7 +2975,8 @@ msgstr "<b>%B</b> :"
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
 msgstr ""
-"Elenco separato da spazi dei nomi-base dei file o cartelle selezionati."
+"Elenco separato da spazi dei nomi-base dei file o delle cartelle "
+"selezionate."
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
@@ -3068,7 +3073,7 @@ msgstr "<b>%%</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr "E_lenco degli oggetti :"
+msgstr "E_lenco degli elementi :"
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
@@ -3077,7 +3082,7 @@ msgstr "Ordina l'elenco in ordine alfabetico decrescente."
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
 msgstr ""
-"Non ordinare la lista; permetti il riordinamento manuale degli elementi. "
+"Non ordinare l'elenco; permetti il riordinamento manuale degli elementi. "
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
@@ -3102,7 +3107,7 @@ msgstr "L'etichetta dell'elemento nei menù contestuali del file manager"
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
-msgstr "Mostra l'oggetto nel menù contestuale di posizione"
+msgstr "Mostra l'elemento nel menù contestuale di posizione"
 
 #: src/cact/caja-actions-config-tool.ui:954
 msgid ""
@@ -3114,7 +3119,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
-msgstr "Etichetta del contesto :"
+msgstr "Etichetta del _contesto :"
 
 #: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
@@ -3164,7 +3169,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
-msgstr "L'icona mostrata nell'interfaccia utente file manager "
+msgstr "L'icona mostrata nell'interfaccia utente del file manager "
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
@@ -3186,12 +3191,12 @@ msgid ""
 "selected item."
 msgstr ""
 "Questa scheda consente di determinare le caratteristiche principali "
-"dell'oggetto correntemente selezionato."
+"dell'elemento correntemente selezionato."
 
 #: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
 msgstr ""
-"Una semplice etihetta per ricordare perché è stato creato questo profilo."
+"Una semplice etichetta per ricordare perché è stato creato questo profilo."
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
@@ -3240,7 +3245,7 @@ msgstr "P_arametri :"
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr "Cartella di Lavoro :"
+msgstr "Directory di Lavoro :"
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -3264,7 +3269,8 @@ msgstr "_Normale"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
-msgstr "Il comando sarà eseguito come interfaccia utente standard."
+msgstr ""
+"Il comando sarà eseguito come una interfaccia utente grafica standard."
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
@@ -3286,7 +3292,7 @@ msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
-"Questa opzione fa uso di una speciale funzione del file manager che consente ad un terminale di essere eseguito allinterno di esso.\n"
+"Questa opzione fa uso di una speciale funzione del file manager che consente ad un terminale di essere eseguito all'interno di esso.\n"
 "Un'alternativa valida consiste nell'eseguirlo nel terminale standard."
 
 #: src/cact/caja-actions-config-tool.ui:1616
@@ -3332,7 +3338,7 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
-"Uma volta specificato, Questo dovrebbe essere il nome di una classe WM di almeno una finestra del comando esegito.\n"
+"Una volta specificato, questo dovrebbe essere il nome di una classe WM di almeno una finestra del comando eseguito.\n"
 "Si veda la Specifica del Protocollo di Notifica di Startup per maggiori dettagli. L'opzione è rilevante solo se si sceglie la modalità di esecuzione Normale."
 
 #: src/cact/caja-actions-config-tool.ui:1735
@@ -3360,7 +3366,7 @@ msgid ""
 msgstr ""
 "Inserire qui il nome dell'utente secondo cui il comando dovrebbe essere eseguito.\n"
 "L'utente può essere definito mediante il suo UID numerico o il suo nome di login.\n"
-"Lsciare il campo vuoto se si vuole eseguire il comando come utente corrente."
+"Lasciare il campo vuoto se si vuole eseguire il comando come utente corrente."
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
@@ -3385,9 +3391,9 @@ msgid ""
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
 "L'elemento corrente comparirà solo se il nome-base di ciascun elemento della"
-" selezione corrisponde ad un filtro della colonna \"Deve corrispondere ad "
-"uno di\", e nel contempo non corrispondere ad alcun filtro della colonna "
-"\"Non deve corrispondere a nessuno di\"."
+" selezione corrisponde ad un filtro della colonna 'Deve corrispondere ad uno"
+" di', e nel contempo non corrispondere ad alcun filtro della colonna 'Non "
+"deve corrispondere a nessuno di'."
 
 #: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
@@ -3478,7 +3484,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr "tipi _Mime"
+msgstr "Tipi _mime"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3488,10 +3494,10 @@ msgid ""
 "column."
 msgstr ""
 "L'elemento corrente comparirà solo se la posizione di ciascun elemento della"
-" selezione è all'interno di uno dei percorsi della colonna \"Deve "
-"corrispondere ad uno di\", e nel contempo non essere un percorso o essere "
-"all'interno di un percorso della colonna \"Non deve corrispondere a nessuno "
-"di\"."
+" selezione è all'interno di uno dei percorsi della colonna 'Deve "
+"corrispondere ad uno di', e nel contempo non essere un percorso o trovarsi "
+"all'interno di un percorso della colonna 'Non deve corrispondere a nessuno "
+"di'."
 
 #: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
@@ -3499,7 +3505,7 @@ msgid ""
 "Folders may use '*' or '?' wildcards.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
-"Questo elenco consente di determinare dove (in quali cartelle) devono trovarsi i file attualmente selezionati perché l'oggetto sia visualizzato nel menù contestuale di Caja.\n"
+"Questo elenco consente di determinare dove (in quali cartelle) devono trovarsi i file attualmente selezionati perché l'elemento sia visualizzato nel menù contestuale di Caja.\n"
 "Le cartelle possono utilizzare i caratteri jolly '*' e '?'.\n"
 "I filtri delle cartelle possono essere negati per indicare per quali cartelle il vostro elemento non dovrà comparire."
 
@@ -3510,8 +3516,8 @@ msgstr "Fare clic per aggiungere un nuovo filtro per le cartelle."
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
 msgstr ""
-"Fare clic per esplorare il file system per selezionare un nuovo filtro per "
-"le cartelle."
+"Fare clic per esplorare il filesystem per selezionare un nuovo filtro per le"
+" cartelle."
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
@@ -3526,7 +3532,7 @@ msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
-"Questa scheda consente di determinare dove (in quali cartelle) devono trovarsi i file attualmente selezionati perché l'oggetto sia visualizzato nel menù contestuale di Caja.\n"
+"Questa scheda consente di determinare dove (in quali cartelle) devono trovarsi i file attualmente selezionati perché l'elemento sia visualizzato nel menù contestuale di Caja.\n"
 "I filtri delle cartelle possono essere negati per indicare per quali cartelle il vostro elemento non dovrà comparire."
 
 #: src/cact/caja-actions-config-tool.ui:2416
@@ -3540,9 +3546,9 @@ msgid ""
 " 'Must not match any of' column."
 msgstr ""
 "L'elemento corrente comparirà solo se lo schema di ciascun elemento della "
-"selezione corrisponde ad un filtro della colonna \"Deve corrispondere ad uno"
-" di\", e nel contempo non corrispondere ad alcun filtro della colonna \"Non "
-"deve corrispondere a nessuno di\"."
+"selezione corrisponde ad un filtro della colonna 'Deve corrispondere ad uno "
+"di', e nel contempo non corrispondere ad alcun filtro della colonna 'Non "
+"deve corrispondere a nessuno di'."
 
 #: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
@@ -3558,7 +3564,7 @@ msgstr "Fare clic per aggiungere un nuovo filtro per lo schema."
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr "Predefiniti..."
+msgstr "Prede_finiti..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
@@ -3589,9 +3595,9 @@ msgid ""
 "capability of the 'Must not match any of' column."
 msgstr ""
 "L'elemento corrente comparirà solo se ciascun elemento della selezione "
-"corrisponde a tutte le capacità della colonna \"Deve corrispondere a tutti "
-"di\", e nel contempo non corrispondere ad alcuna capacità della colonna "
-"\"Non deve corrispondere a nessuno di\""
+"corrisponde a tutte le capacità della colonna 'Deve corrispondere ad ognuno "
+"di', e nel contempo non corrispondere ad alcuna capacità della colonna 'Non "
+"deve corrispondere a nessuno di'"
 
 #: src/cact/caja-actions-config-tool.ui:2677
 msgid ""
@@ -3679,7 +3685,7 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
-"Questa è una condizione avanzata basata sul risultato in runtime. Si inserisca il nome di un comando che sia in grado di restituire l'esatta stringa \"true\" sul suo output standard.\n"
+"Questa è una condizione avanzata basata su un risultato in runtime. Si inserisca il nome di un comando che sia in grado di restituire l'esatta stringa \"true\" sul suo output standard.\n"
 "Può essere impiegata, per esempio, per verificare una condizione complessa."
 
 #: src/cact/caja-actions-config-tool.ui:3127
@@ -3740,7 +3746,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr "Ambiente"
+msgstr "Ambient_e"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
@@ -3808,7 +3814,7 @@ msgid ""
 "modifiable information."
 msgstr ""
 "Questa scheda consente di modificare alcune proprietà e di accedere ad "
-"alcune informazioni non moficabili. "
+"alcune informazioni non modificabili. "
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
@@ -3825,7 +3831,7 @@ msgid ""
 "A submenu which embeds the currently available Caja-Actions actions and "
 "menus"
 msgstr ""
-"Un sottomenù che integra i menù e le azioni Caja-Actions attualmente "
+"Un sotto-menù che integra i menù e le azioni Caja-Actions attualmente "
 "disponibili"
 
 #: src/plugin-menu/caja-actions.c:979
@@ -3834,7 +3840,7 @@ msgstr "Informazioni su Caja-Actions"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
-msgstr "Mostra alcune informazioni su Caja.Actions"
+msgstr "Mostra alcune informazioni su Caja-Actions"
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
@@ -3850,11 +3856,11 @@ msgstr "<URI>"
 msgid "Output the version number"
 msgstr "Mostra il numero di versione"
 
-#: src/test/test-reader.c:108
+#: src/test/test-reader.c:104
 msgid "Import a file."
 msgstr "Importa un file."
 
-#: src/test/test-reader.c:122
+#: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
@@ -3863,29 +3869,29 @@ msgstr ""
 "http://bugzilla.gnome.org, o alla seguente  e-mail <maintainer@caja-"
 "actions.org>.\n"
 
-#: src/test/test-reader.c:130 src/utils/na-print-schemas.c:169
-#: src/utils/na-set-conf.c:210 src/utils/caja-actions-new.c:380
-#: src/utils/caja-actions-print.c:185 src/utils/caja-actions-run.c:204
+#: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
+#: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
+#: src/utils/caja-actions-print.c:181 src/utils/caja-actions-run.c:201
 msgid "Miscellaneous options"
 msgstr "Opzioni varie"
 
-#: src/test/test-reader.c:151 src/utils/na-print-schemas.c:102
-#: src/utils/na-set-conf.c:122 src/utils/caja-actions-new.c:200
-#: src/utils/caja-actions-print.c:112 src/utils/caja-actions-run.c:113
+#: src/test/test-reader.c:147 src/utils/na-print-schemas.c:98
+#: src/utils/na-set-conf.c:118 src/utils/caja-actions-new.c:196
+#: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
 msgstr "Errore di sintassi: %s\n"
 
-#: src/test/test-reader.c:166
+#: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
 msgstr "Errore: l'URI è obbligatorio.\n"
 
-#: src/test/test-reader.c:178 src/utils/na-print-schemas.c:183
-#: src/utils/na-set-conf.c:224 src/utils/caja-actions-new.c:624
-#: src/utils/caja-actions-print.c:241 src/utils/caja-actions-run.c:430
+#: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
+#: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
+#: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
-msgstr "Provare %s --help per info sull'utilizzazione.\n"
+msgstr "Provare %s --help per avere informazioni sull'utilizzo.\n"
 
 #: src/utils/console-utils.c:55
 msgid ""
@@ -3901,17 +3907,17 @@ msgstr "Visualizza lo schema sullo stdout"
 
 #: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
-msgstr "Visualizza gli schemi delle azioni [predefinito]"
+msgstr "Visualizza gli schemi delle azioni [default]"
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
 msgstr "Visualizza gli schemi dei menù"
 
-#: src/utils/na-print-schemas.c:140
+#: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
-msgstr "Visualizza gli schemi MateConf di Caja-Actions sullo stdoutput."
+msgstr "Visualizza gli schemi MateConf di Caja-Actions sullo stdout."
 
-#: src/utils/na-print-schemas.c:144
+#: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
@@ -3919,7 +3925,7 @@ msgstr ""
 "Dalla versione 3.1.0, MateConf come provider I/O è deprecato.\n"
 "Il programma non è più mantenuto."
 
-#: src/utils/na-print-schemas.c:163
+#: src/utils/na-print-schemas.c:159
 msgid "Type options"
 msgstr "Opzioni dei tipi"
 
@@ -3938,7 +3944,7 @@ msgstr "La chiave da aggiornare"
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
-msgstr "Il tipo del valore da impostare, può essere «str», «int» o «bool»"
+msgstr "Il tipo del valore da impostare, può essere 'str', 'int' o 'bool'"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
@@ -3948,32 +3954,31 @@ msgstr "Il valore da impostare"
 msgid "Output the version number and exit gracefully"
 msgstr "Visualizza il numero di versione ed esce"
 
-#: src/utils/na-set-conf.c:138
+#: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
 msgstr "Errore: un gruppo è obbligatorio.\n"
 
-#: src/utils/na-set-conf.c:143
+#: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
 msgstr "Errore: una chiave è obbligatoria.\n"
 
-#: src/utils/na-set-conf.c:148
+#: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
 msgstr "Errore: per impostare o aggionare un valore, è obbligatorio un tipo.\n"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
-#: src/utils/na-set-conf.c:159
+#: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
-msgstr "Errore: tipo sconosciuto: %s. Utilizzare  «str», «int» o «bool».\n"
+msgstr "Errore: tipo sconosciuto: %s. Utilizzare  'str', 'int' o 'bool'.\n"
 
-#: src/utils/na-set-conf.c:166
+#: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
 msgstr "Errore: un valore è obbligatorio.\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
-msgstr ""
-"Impostarlo se l'elemento debba essere disabilitato alla sua creazione."
+msgstr "Impostarlo se l'elemento deve essere disabilitato alla sua creazione."
 
 #: src/utils/caja-actions-new.c:136
 msgid "Set it if the item doesn't target the selection context menu"
@@ -3989,11 +3994,13 @@ msgstr "Impostarlo se l'elemento non mira alla barra degli strumenti"
 
 #: src/utils/caja-actions-new.c:142
 msgid "Set it if the basename patterns are case insensitive"
-msgstr "Impostarlo se gli schemi dei nome-base non distinguono le Maiuscole."
+msgstr ""
+"Impostarlo se gli schemi dei nome-base non distinguono le Maiuscole dalle "
+"minuscole."
 
 #: src/utils/caja-actions-new.c:148
 msgid "Output the new item content on stdout (default)"
-msgstr "Visualizza il contenuto dell'elemento sullo stdout (predefinito)"
+msgstr "Visualizza il contenuto dell'elemento sullo stdout (default)"
 
 #: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
@@ -4007,21 +4014,21 @@ msgstr "Errore: Le opzioni \"%s\" e \"%s\" non possono essere entrambe specifica
 #: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
-msgstr "L'opzione \"%s\" è deprecata, vedi \"%s\"\n"
+msgstr "L'opzione \"%s\" è deprecata, vedi %s\n"
 
-#: src/utils/caja-actions-new.c:213
+#: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
 msgstr "Errore: un'azione è obbligatoria.\n"
 
-#: src/utils/caja-actions-new.c:259
+#: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
 msgstr "Errore: può essere specificata solo l'opzione di visualizzazione.\n"
 
-#: src/utils/caja-actions-new.c:345
+#: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
 msgstr "Definisci una nuova azione."
 
-#: src/utils/caja-actions-new.c:348
+#: src/utils/caja-actions-new.c:344
 msgid ""
 "The created action defaults to be written to stdout.\n"
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
@@ -4031,16 +4038,16 @@ msgstr ""
 "Può anche essere scritta su una cartella di output, in un file che può successivamente essere importato in CACT.\n"
 "Oppure si può scegliere se scrivere l'azione direttamente sulla configurazione di Caja-Actions."
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
 msgstr "Visualizza il programma"
 
-#: src/utils/caja-actions-new.c:374
+#: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
 msgstr "Scegli dove creare l'azione"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
-#: src/utils/caja-actions-new.c:587
+#: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
 msgstr "Errore: impossibile trovare il provider I/O 'na-desktop'. "
 
@@ -4059,18 +4066,18 @@ msgstr "L'identificativo del menù o dell'azione da stampare"
 msgid "An export format [Desktop1]"
 msgstr "Un formato di esportazione [Desktop1]"
 
-#: src/utils/caja-actions-print.c:127
+#: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr "Errore: un menù o un'azione sono obbligatori.\n"
+msgstr "Errore: un menù o l'id un'azione sono obbligatori.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
-#: src/utils/caja-actions-print.c:143
+#: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
 msgstr "Errore: %s: formato di esportazione sconosciuto.\n"
 
-#: src/utils/caja-actions-print.c:206
+#: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
 msgstr "Errore: l'elemento \"%s\" non esiste.\n"
@@ -4087,38 +4094,38 @@ msgstr ""
 "Un file o cartella bersaglio di un'azione. Possono essere specificate più "
 "opzioni"
 
-#: src/utils/caja-actions-run.c:128
+#: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
 msgstr "Errore: l'ID dell'azione è obbligatorio.\n"
 
-#: src/utils/caja-actions-run.c:153
+#: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
 msgstr "Nessuna selezione corrente. Nulla da eseguire. Esco.\n"
 
-#: src/utils/caja-actions-run.c:158
+#: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
 msgstr "L'azione %s non è una valida candidata. Esco.\n"
 
-#: src/utils/caja-actions-run.c:164
+#: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
 msgstr "Nessun valido profilo è candidato per l'esecuzione. Esco.\n"
 
-#: src/utils/caja-actions-run.c:185
+#: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
 msgstr "Esegue un'azione sulla destinazione specificata."
 
-#: src/utils/caja-actions-run.c:228
+#: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
 msgstr "Errore: l'azione \"%s\" non esiste.\n"
 
-#: src/utils/caja-actions-run.c:231
+#: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
 msgstr "Errore: l'azione \"%s\" è disabilitata.\n"
 
-#: src/utils/caja-actions-run.c:236
+#: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
 msgstr "Errore: l'azione \"%s\" non è valida.\n"

@@ -3,25 +3,25 @@
 # Dario Di Nucci <linkin88mail@gmail.com>, 2021
 # Marco Z. <minaz666@gmail.com>, 2021
 # andrea pittaro <transifex@andreapittaro.it>, 2021
+# 6d1bb5d393520b00f70a137a58397ea1_b5ba1e2 <22cc5e560e0d5b6554809bfb51b90403_882095>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
 # Giuseppe Pignataro <rogepix@gmail.com>, 2021
 # Enrico B. <enricobe@hotmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 6d1bb5d393520b00f70a137a58397ea1_b5ba1e2 <22cc5e560e0d5b6554809bfb51b90403_882095>, 2021
-# Alessandro Volturno <alelvb@inwind.it>, 2021
+# Alessandro Volturno <alelvb@inwind.it>, 2022
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-18 17:22+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2021\n"
+"Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/mate/teams/13566/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
@@ -106,8 +106,8 @@ msgstr ""
 "forniscono la medesima libertà garantita dal software. Ma questa Licenza non"
 " è limitata ai manuali software; può essere impiegata per una qualsiasi "
 "opera di testo, indipendentemente dal contenuto e dal fatto che essa sia "
-"pubblicata come libro stampato. Suggeriamo questa Licenza  principalente per"
-" lavori il cui scopo sia l'istruzione o il riferimento."
+"pubblicata come libro stampato. Suggeriamo questa Licenza  principalmente "
+"per lavori il cui scopo sia l'istruzione o il riferimento."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:39
@@ -127,10 +127,10 @@ msgid ""
 "a way requiring permission under copyright law."
 msgstr ""
 "Questa Licenza si applica ad ogni manuale o altro lavoro, su qualsiasi "
-"mezzo, che contenga un avviso posto del dententore del copyright in cui si "
+"mezzo, che contenga un avviso posto del detentore del copyright in cui si "
 "affermi che esso può essere distribuito sotto i termini di questa Licenza. "
-"Questo avviso garantisce una licenza senza royalties e di validità globale, "
-"di durata illimitata, per utilizzare quel lavoro sotto le condizioni qui "
+"Questo avviso garantisce una licenza senza royalty e di validità globale, di"
+" durata illimitata, per utilizzare quel lavoro sotto le condizioni qui "
 "affermate. Il \"Documento\", qui sotto, si riferisce ad ogni tale manuale o "
 "lavoro. Ciascun membro del pubblico è un licenziatario, e ci si riferisce ad"
 " esso come \"voi\". Si accetta la licenza se si copia, modifica o "
@@ -167,9 +167,9 @@ msgstr ""
 "argomenti correlati) e non contiene nulla che possa rientrare direttamente "
 "nell'argomento complessivo. (quindi, se il Documento è in parte un libro di "
 "matematica, Una Sezione Secondaria non deve spiegare nulla di matematica). "
-"La relazione può essere un fatto di connessione storica con l'rgomento o con"
-" argomenti correlati, o di posizione legale, commerciale, filosofica, etica "
-"o politica riguardo ad esse."
+"La relazione può essere un fatto di connessione storica con l'argomento o "
+"con argomenti correlati, o di posizione legale, commerciale, filosofica, "
+"etica o politica riguardo ad esse."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:69
@@ -182,8 +182,8 @@ msgid ""
 "Document does not identify any Invariant Sections then there are none."
 msgstr ""
 "Le \"Sezioni Non Modificabili\"  sono certe Sezioni Secondarie i cui titoli "
-"sono designati, come quelli di Sezioni Non Midificabili, nell'avviso che "
-"dice che il Documento è rilasciato sotto questa Licanza. Se una sezione non "
+"sono designati, come quelli di Sezioni Non Modificabili, nell'avviso che "
+"dice che il Documento è rilasciato sotto questa Licenza. Se una sezione non "
 "si adatta alla definizione precedente, allora non è permesso definirla come "
 "Non Modificabile. Il Documento può contenere zero Sezioni Non Modificabili. "
 "Se il Documento non identifica alcuna Sezione Non Modificabile, allora non "
@@ -200,7 +200,7 @@ msgstr ""
 "I \"Testi di Copertina\" sono certi brevi passaggi di testo che sono "
 "elencati, come Testi di Copertina e di Retro-Copertina, in un avviso che "
 "dica che il Documento viene rilasciato sotto questa Licenza. Un testo di "
-"Copertina può essere al massimo di 5 parole, e un testo di Retro-Coprtina "
+"Copertina può essere al massimo di 5 parole, e un testo di Retro-Copertina "
 "può essere al massimo di 25 parole."
 
 #. (itstool) path: appendix/simpara
@@ -230,7 +230,7 @@ msgstr ""
 "in un formato file Trasparente la cui formattazione, o l'assenza di "
 "formattazione, è stata predisposta per impedire o scoraggiare la successiva "
 "modifica dai lettori non è Trasparente. Un formato di immagine non è "
-"Trasparente se utilizzato per ogni sostanzale quantitativo di testo. Una "
+"Trasparente se utilizzato per ogni sostanziale quantitativo di testo. Una "
 "copia che non è \"Trasparente\" viene definita \"Opaca\"."
 
 #. (itstool) path: appendix/simpara
@@ -247,7 +247,7 @@ msgid ""
 "for output purposes only."
 msgstr ""
 "Esempi di formati adatti per copie Trasparenti includono il formato ASCII "
-"semplice senza formatttatori, il formato di input Texinfo, il formato di "
+"semplice senza formattatori, il formato di input Texinfo, il formato di "
 "input LaTeX, l'SGML o lo XML che utilizzano un DTD disponibile "
 "pubblicamente, e testo semplice HTML conforme allo standard, il PostScript o"
 " il PDF creati per la modifica umana. Esempi di file di immagine trasparenti"
@@ -343,11 +343,11 @@ msgstr ""
 "Potete copiare e distribuire il Documento su qualsiasi mezzo, sia per copi "
 "commerciali che non, a patto che questa Licenza, gli avvisi di copyright, e "
 "l'avviso di licenza che affermano che questa Licenza si applica al Documento"
-" vengano riprodott su ogni copia e che voi non aggiungiate alcuna ulteriore "
-"condizione oltre quelle previste da questa Licenza. Non è possibile "
+" vengano riprodotti su ogni copia e che voi non aggiungiate alcuna ulteriore"
+" condizione oltre quelle previste da questa Licenza. Non è possibile "
 "impiegare mezzi tecnici che impediscano o controllino la lettura o la "
 "creazione di nuove copie delle copie create e distribuite. È tuttavia "
-"possibile rievere un compenso in cambio delle copie. Se distribuite un "
+"possibile ricevere un compenso in cambio delle copie. Se distribuite un "
 "numero cospicuo di copie si applicano anche le condizioni della sezione 3."
 
 #. (itstool) path: appendix/simpara
@@ -379,8 +379,8 @@ msgid ""
 "title of the Document and satisfy these conditions, can be treated as "
 "verbatim copying in other respects."
 msgstr ""
-"Se si pubblicano copie del Documento stampate (o copie su un qualisasi mezzo"
-" che richieda copertine stampate), in numero suoeriore a 100, e l'avviso di "
+"Se si pubblicano copie del Documento stampate (o copie su un qualsiasi mezzo"
+" che richieda copertine stampate), in numero superiore a 100, e l'avviso di "
 "licenza del Documento richiede Testi di Copertina, si dovrà accludere le "
 "copie in copertine che riportino, chiaramente e in modo leggibile, tutti "
 "questi Testi di Copertina: Testi di Copertina sulla prima di copertina e "
@@ -401,7 +401,7 @@ msgid ""
 msgstr ""
 "Se i testi richiesti per una copertina sono troppo voluminosi, dovreste "
 "mettere quelli elencati per prima (tanti quanti ne sono possibili in modo "
-"ragionevole) sulla copetina effettiva, e continuare il resto su pagine "
+"ragionevole) sulla copertina effettiva, e continuare il resto su pagine "
 "adiacenti."
 
 #. (itstool) path: appendix/simpara
@@ -419,10 +419,10 @@ msgid ""
 "time you distribute an Opaque copy (directly or through your agents or "
 "retailers) of that edition to the public."
 msgstr ""
-"Se pubblicate o distribuite copie Opache del Documento in numero superire a "
-"100, si dovrà includere una copia Trasparente leggibile da una macchina con "
-"ciascuna copia Opaca, o indicare in ogni copia Opaca un indirizzo di rete di"
-" computer da cui il pubblico che usa la rete abbia accesso per scaricare, "
+"Se pubblicate o distribuite copie Opache del Documento in numero superiore a"
+" 100, si dovrà includere una copia Trasparente leggibile da una macchina con"
+" ciascuna copia Opaca, o indicare in ogni copia Opaca un indirizzo di rete "
+"di computer da cui il pubblico che usa la rete abbia accesso per scaricare, "
 "usando protocolli di rete standard, una copia Trasparente completa del "
 "Documento, senza materiale aggiunto.. Se si utilizza questa seconda opzione,"
 " occorre prendere ragionevoli precauzioni, quando si inizia la distribuzione"
@@ -602,7 +602,7 @@ msgid ""
 " and in their titles. Section numbers or the equivalent are not considered "
 "part of the section titles."
 msgstr ""
-"Preservare tutte le Sezioni Non Modificabili del Docuento, inalterate nel "
+"Preservare tutte le Sezioni Non Modificabili del Documento, inalterate nel "
 "testo e nei loro titoli. I numeri della sezione o equivalenti, non sono "
 "considerati parte dei titoli delle sezioni."
 
@@ -621,9 +621,8 @@ msgid ""
 "Do not retitle any existing section to be Entitled “Endorsements” or to "
 "conflict in title with any Invariant Section."
 msgstr ""
-"Non reintitolare alcuna sezione esistente che sia intitolata "
-"\"Approvazioni\" o andare in conflitto nel titolo con qualsiasi Sezione Non "
-"Modificabile."
+"Non ri-titolare alcuna sezione esistente che sia intitolata \"Approvazioni\""
+" o andare in conflitto nel titolo con qualsiasi Sezione Non Modificabile."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:314
@@ -731,7 +730,7 @@ msgid ""
 "titles in the list of Invariant Sections in the license notice of the "
 "combined work."
 msgstr ""
-"Il lavoro combinato deve contnere solo una copia di questa Licenza, e le "
+"Il lavoro combinato deve contenere solo una copia di questa Licenza, e le "
 "diverse Sezioni Non Modificabili aventi il medesimo testo possono essere "
 "sostituite da una singola copia di esse. Se ci sono più Sezioni Non "
 "Modificabili con lo stesso nome ma contenuto differente, rendere ciascuno "
@@ -792,7 +791,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:395
 msgid "7. AGGREGATION WITH INDEPENDENT WORKS"
-msgstr "7. AGGRAGAZIONI CON LAVORI INDIPENDENTI"
+msgstr "7. AGGREGAZIONI CON LAVORI INDIPENDENTI"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:398
@@ -809,8 +808,8 @@ msgstr ""
 "Una collezione del Documento o suoi derivati assieme ad altri documenti o "
 "lavori separati ed indipendenti, in o su un mezzo per la memorizzazione o la"
 " distribuzione, è chiamato \"aggregato\" se le norme sul copyright che "
-"risultano dalla collezione non sono impegate per limitare i diritti legali "
-"degli usufruitori della collezione oltre a quanto permesso dai singloli "
+"risultano dalla collezione non sono impiegate per limitare i diritti legali "
+"degli usufruitori della collezione oltre a quanto permesso dai singoli "
 "lavori. Quando il Documento è incluso in un aggregato, questa Licenza non si"
 " applica agli altri documenti dell'aggregato che non sono essi stessi lavori"
 " derivati dal Documento."
@@ -1118,7 +1117,7 @@ msgid ""
 "Texts being LIST, and with the Back-Cover Texts being LIST."
 msgstr ""
 "Con le Sezioni Non Modificabili costituite da ELENCARE I LORO TITOLI, con i "
-"Testi di Copretina costituiti da ELENCO, e con i Testi di Retro-copertina "
+"Testi di Coprertina costituiti da ELENCO, e con i Testi di Retro-copertina "
 "costituiti da ELENCO."
 
 #. (itstool) path: appendix/simpara
@@ -1260,12 +1259,12 @@ msgstr ""
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:36
 msgid "GNOME Documentation Project"
-msgstr "Progetto della documentazione GNOME"
+msgstr "Progetto Documentazione di GNOME"
 
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:40
 msgid "MATE Documentation Project"
-msgstr "Progetto della documentazione MATE"
+msgstr "Progetto Documentazione di MATE"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
@@ -1341,7 +1340,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:2
 msgid "Known bugs"
-msgstr "Malfunzionamenti noti"
+msgstr "Malfunzionamenti conosciuti"
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:5
@@ -1351,7 +1350,7 @@ msgstr "Pagina riepilogativa di Bugzilla"
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:3
 msgid "Known bugs are available on <_:ulink-1/>."
-msgstr "I bug noti sono disponibili sul <_:ulink-1/>."
+msgstr "I bug noti sono disponibili su <_:ulink-1/>."
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:10
@@ -1385,8 +1384,8 @@ msgid ""
 "As of version 3.0, execution mode may be configured in <_:application-1/> "
 "but is not yet honored by <_:productname-2/> plugin."
 msgstr ""
-"Dalla versione 3.0, la modalità di esecuzione può essere configurata nello "
-"<_:application-1/> ma non è al momento onorata di un plugin di "
+"Dalla versione 3.0, la modalità di esecuzione può essere configurata in "
+"<_:application-1/> ma non è al momento onorata da un plugin di "
 "<_:productname-2/>."
 
 #. (itstool) path: sect2/para
@@ -1411,8 +1410,8 @@ msgid ""
 "honored by <_:productname-2/> plugin."
 msgstr ""
 "Dalla versione 3.0, la scorciatoia suggerita, come descritto nella specifica"
-" DES-EMA, non può esser configurata nello <_:application-1/>, e non è "
-"onorata da un plugin di <_:productname-2/>."
+" DES-EMA, non può essere configurata in <_:application-1/>, e non è onorata "
+"da un plugin di <_:productname-2/>."
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:37
@@ -1425,9 +1424,8 @@ msgid ""
 "As of version 3.0, menu separators cannot be configured in "
 "<_:application-1/>, and are not honored by <_:productname-2/> plugin."
 msgstr ""
-"Dalla versione 3.0, i separatori dei menù non possono essere configurati "
-"nello <_:application-1/> e non sono onorati da un plugin di "
-"<_:productname-2/>."
+"Dalla versione 3.0, i separatori dei menù non possono essere configurati in "
+"<_:application-1/> e non sono onorati da un plugin di <_:productname-2/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:43
@@ -1460,9 +1458,9 @@ msgid ""
 "Conditions may be put against the location the file manager currently points"
 " to, or against the currently selected items in this location."
 msgstr ""
-"Le condizioni possono essere poste contro la posizione che il file manager "
-"attualmente punta, o contro gli elementi correntemente selezionati in questa"
-" posizione."
+"Le condizioni possono essere poste contro la posizione a cui il file manager"
+" attualmente punta, o contro gli elementi correntemente selezionati in "
+"questa posizione."
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:12
@@ -2357,8 +2355,8 @@ msgid ""
 "You may so decide that your action will appear, or not, depending on the "
 "capabilities of the selected item(s) <_:abbrev-1/> the current user."
 msgstr ""
-"Si può dunque sabilire che la vostra azione compaia, o meno, a seconda delle"
-" cappacità degli oggetti selezionati <_:abbrev-1/>utente corrente."
+"Si può dunque stabilire che la vostra azione compaia, o meno, a seconda "
+"delle capacità degli oggetti selezionati <_:abbrev-1/>utente corrente."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
@@ -2700,7 +2698,7 @@ msgstr "Selezione del Desktop"
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:833
 msgid "You may define that your action:"
-msgstr "Si può definire cha la vostra azione:"
+msgstr "Si può definire che la vostra azione:"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:838
@@ -3066,8 +3064,8 @@ msgid ""
 "current selection by pressing <_:keycap-2/> or <_:keycap-3/> while selecting"
 " an item to add to the selection."
 msgstr ""
-"Nello <_:application-1/> è possibile la selezione multipla. Potete estendere"
-" la selezione corrente premendo <_:keycap-2/> o <_:keycap-3/> mentre si "
+"In <_:application-1/> è possibile la selezione multipla. Potete estendere la"
+" selezione corrente premendo <_:keycap-2/> o <_:keycap-3/> mentre si "
 "seleziona un elemento per aggiungerlo alla selezione."
 
 #. (itstool) path: sect3/para
@@ -3206,7 +3204,7 @@ msgstr ""
 #. (itstool) path: para/emphasis
 #: C/cact-execution.xml:59
 msgid "nothing to do"
-msgstr "niente da fare"
+msgstr "niente a che fare"
 
 #. (itstool) path: note/para
 #: C/cact-execution.xml:58
@@ -3216,10 +3214,10 @@ msgid ""
 "<_:guilabel-2/> » selected item in a multiple selection is absolutely "
 "undefined and rather unpredictable."
 msgstr ""
-"In particolare, esso ha <_:emphasis-1/> con la selezione visiva che potete "
-"aver fatto nella finestra del file manager. E, infatti, quale possa essere "
-"l'elemento \" <_:guilabel-2/> \" selezionato in una selezione multipla è "
-"assolutamente indefinito e piuttosto imprevedibile."
+"In particolare, esso non ha <_:emphasis-1/> con la selezione visiva che "
+"potete aver fatto nella finestra del file manager. E, infatti, quale possa "
+"essere l'elemento \" <_:guilabel-2/> \" selezionato in una selezione "
+"multipla è assolutamente indefinito e piuttosto imprevedibile."
 
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:70
@@ -3280,7 +3278,7 @@ msgid ""
 "<_:guilabel-2/> » selected item is not very important because it is very "
 "likely that all selected items are located in the same base directory."
 msgstr ""
-"Nel caso particolare del parametro <_:literal-1/>, L' elemento « "
+"Nel caso particolare del parametro <_:literal-1/>, L'elemento « "
 "<_:guilabel-2/> » non è molto importante perché è molto probabile che tutti "
 "gli elementi selezionati siano collocati nella stessa cartella base."
 
@@ -3354,7 +3352,7 @@ msgstr "Normale"
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:162
 msgid "Starts the command as a standard graphical user interface."
-msgstr "Avvia il comando come interfaccia utente  grafica standard."
+msgstr "Avvia il comando come interfaccia utente grafica standard."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -3468,7 +3466,7 @@ msgstr "Specifica del protocollo della notifica di avvio"
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:236 C/cact-execution.xml:249
 msgid "See the <_:ulink-1/> for more details."
-msgstr "Vedere <_:ulink-1/> per maggiori dettagli."
+msgstr "Consultare <_:ulink-1/> per maggiori dettagli."
 
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:240
@@ -4019,8 +4017,9 @@ msgid ""
 "This is because <_:literal-1/> marks a <_:emphasis-2/> parameter. The "
 "command is then run only once, with the list of selected items as arguments."
 msgstr ""
-"Ciò perché <_:literal-1/> indica un parametro <_:emphasis-2/>. Il comando è "
-"dunque eseguito solo una volta con l'elenco degli elementi come argomenti."
+"Questo perché <_:literal-1/> indica un parametro <_:emphasis-2/>. Il comando"
+" è dunque eseguito solo una volta con l'elenco degli elementi come "
+"argomenti."
 
 #. (itstool) path: title/command
 #: C/cact-execution.xml:562
@@ -4055,8 +4054,8 @@ msgid ""
 "occurrence the <_:literal-3/> parameter with the corresponding item. The "
 "second parameter is computed and added as arguments to the executed command."
 msgstr ""
-"Ciò perché il primo parametro <_:emphasis-1/> è <_:literal-2/>, e quindi il "
-"comando viene eseguito una volta per ciascun elemento selezionato, "
+"Questo perché il primo parametro <_:emphasis-1/> è <_:literal-2/>, e quindi "
+"il comando viene eseguito una volta per ciascun elemento selezionato, "
 "rimpiazzando ad ogni occorrenza il parametro <_:literal-3/> con il "
 "corrispondente elemento. Il secondo parametro viene elaborato ed aggiunto "
 "come argomento al comando eseguito."
@@ -4293,12 +4292,12 @@ msgstr "Preferenze dell'interfaccia utente"
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:56
 msgid "UI preferences"
-msgstr "preferenze IU"
+msgstr "preferenze UI"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:63
 msgid "Shows the tab which lets you define UI preferences."
-msgstr "Mostra la scheda che consente di definire le preferenze dell'IU."
+msgstr "Mostra la scheda che consente di definire le preferenze dell'UI."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
@@ -4416,7 +4415,7 @@ msgid ""
 "selected a directory, then <_:productname-2/> will just try with your second"
 " profile."
 msgstr ""
-"In runtime, <_:productname-1/> esaminerà ogni profilo legato alla vostra "
+"Al runtime, <_:productname-1/> esaminerà ogni profilo legato alla vostra "
 "azione. Se il primo profilo mira ad un file mentre avete selezionato una "
 "cartella,  <_:productname-2/> tenterà con il secondo profilo."
 
@@ -4505,7 +4504,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-profiles.xml:73
 msgid "You may order your profiles inside an action in two ways."
-msgstr "Ê possibile ordinar i profili in una azione in due modi differenti."
+msgstr "È possibile ordinar i profili in una azione in due modi differenti."
 
 #. (itstool) path: listitem/para
 #: C/cact-profiles.xml:78
@@ -4747,7 +4746,7 @@ msgstr "Aspetto"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:10
 msgid "Choose <_:menuchoice-1/>."
-msgstr "Seleziona <_:menuchoice-1/>."
+msgstr "Selezionare <_:menuchoice-1/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:14
@@ -4792,7 +4791,7 @@ msgstr "--help-all"
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:46
 msgid "The first run"
-msgstr "Il primo avvio"
+msgstr "La prima esecuzione"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:47
@@ -4961,7 +4960,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:226
 msgid "Items list."
-msgstr "Elenco degli elemeni."
+msgstr "Elenco degli elementi."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:228
@@ -4991,7 +4990,7 @@ msgstr "i elementi non validi saranno mostrati in colore rosso."
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:241
 msgid "Modified items are displayed in italic characters."
-msgstr "Gli elementi modificati saranno mostrati col il carattere corsivo."
+msgstr "Gli elementi modificati saranno mostrati con il carattere corsivo."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:247
@@ -5002,7 +5001,7 @@ msgstr "ulsanti di ordinamento."
 #: C/cact-starting.xml:249
 msgid "Three buttons allow you to toggle between sort modes."
 msgstr ""
-"Tre pulsanti che consentono di alternare tra i modi di ordinamento "
+"Tre pulsanti che consentono di alternare tra le modalità di ordinamento "
 "disponibili."
 
 #. (itstool) path: varlistentry/term
@@ -5140,7 +5139,7 @@ msgid ""
 "The « read-only » icon <_:inlinegraphic-1/> is displayed in the right of the"
 " statusbar when appropriate."
 msgstr ""
-"L'icona <_:inlinegraphic-1/>di « sola-lettura » viene visualizzata sulla "
+"L'icona  di « sola-lettura » <_:inlinegraphic-1/> viene visualizzata sulla "
 "destra della barra di stato quando è opportuno."
 
 #. (itstool) path: sect2/title
@@ -5280,7 +5279,7 @@ msgstr ""
 #. (itstool) path: para/userinput
 #: C/cact-starting.xml:485
 msgid "My first action"
-msgstr "La mia prima zaione"
+msgstr "La mia prima azione"
 
 #. (itstool) path: para/guilabel
 #: C/cact-starting.xml:487 C/cact-starting.xml:491 C/cact-where.xml:105
@@ -5299,7 +5298,7 @@ msgid ""
 "The <_:guilabel-1/> entry box contains the label of the action as you want "
 "it to be displayed in the file manager context menu."
 msgstr ""
-"Il campo <_:guilabel-1/> contiene l'etichetta  dell'azione come la si vuole "
+"Il campo <_:guilabel-1/> contiene l'etichetta dell'azione come la si vuole "
 "mostrata nel menù contestuale del file manager."
 
 #. (itstool) path: listitem/para
@@ -5319,7 +5318,7 @@ msgstr ""
 #. (itstool) path: para/userinput
 #: C/cact-starting.xml:506
 msgid "This will execute an action with some parameters"
-msgstr "Questo eseguirà una azione con alcuni paramentri."
+msgstr "Questo eseguirà una azione con alcuni parametri."
 
 #. (itstool) path: para/guilabel
 #: C/cact-starting.xml:508 C/cact-starting.xml:512 C/cact-where.xml:118
@@ -5703,9 +5702,9 @@ msgid ""
 "currently selected (or not). In order to be displayed, all the conditions "
 "defined in your candidate action must so be met by the current location."
 msgstr ""
-"Le azioni visualizzate nella barra degli strumenti  gestiscono la posizione "
-"attualmente visualizzata nel file manager, non con gli elementi che possono "
-"essere attualmente selezionati. Affinché sia visualizzata, tutte le "
+"Le azioni visualizzate nella barra degli strumenti gestiscono la posizione "
+"attualmente visualizzata nel file manager, non gli elementi che possono "
+"essere attualmente selezionati. Affinché siano visualizzate, tutte le "
 "condizioni definite nella vostra azione dovranno essere soddisfatte dalla "
 "posizione corrente."
 
@@ -5818,8 +5817,8 @@ msgid ""
 "values which will depend on currently selected item(s)."
 msgstr ""
 "È possibile incorporare dei parametri nell'etichetta della barra degli "
-"strumenti, del nome dell'icona o per il tooltip. Questi parametri verranno "
-"automaticamente sostituiti al runtime con i valori che dipenderanno dagli "
+"strumenti, nel nome dell'icona o nel suggerimento. Questi parametri verranno"
+" automaticamente sostituiti al runtime con i valori che dipenderanno dagli "
 "elementi correntemente selezionati."
 
 #. (itstool) path: formalpara/title
@@ -5876,7 +5875,7 @@ msgstr ""
 "<productname>Caja-Actions</productname> è una estensione di "
 "<productname>Caja</productname> la cui funzione principale è consentire "
 "all'utente di aggiungere azioni arbitrarie ai menù contestuali del file "
-"manager. Queste azioni possono essere organizzate in menù e sotto-menù, "
+"manager. Queste azioni possono essere organizzate in menù e sottomenù, "
 "esportate o condivise con altri ambienti desktop."
 
 #. (itstool) path: sect1/para
@@ -5899,17 +5898,17 @@ msgid ""
 "following features:"
 msgstr ""
 "Lo <application>Strumento di configurazione di Caja-Actions</application> "
-"fornisce le seguenti cìfunzionalità:"
+"fornisce le seguenti funzionalità:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:90
 msgid "Define and configure actions from scratch."
-msgstr "Definire e configurare azioni partendo da zero."
+msgstr "Definire e configurare le azioni partendo da zero."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:93
 msgid "Organize actions into menus, submenus and so on."
-msgstr "Organizzare le azioni in menù, sotto-menù eccetera."
+msgstr "Organizzare le azioni in menù, sottomenù eccetera."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:96
@@ -5959,8 +5958,8 @@ msgstr "Un programma a linea di comando in grado di creare una nuova azione."
 #. (itstool) path: note/para
 #: C/index.docbook:126
 msgid ""
-"All these features are more thoroughly described in the global <productname"
-">Caja-Actions</productname> documentation."
+"All these features are more thoroughly described in the global "
+"<productname>Caja-Actions</productname> documentation."
 msgstr ""
 "Tutte queste caratteristiche sono spiegate con maggiori dettagli nella "
 "documentazione generale di <productname>Caja-Actions</productname>."
@@ -5985,7 +5984,7 @@ msgstr "Informazioni varie"
 #. (itstool) path: sect1/title
 #: C/index.docbook:181
 msgid "Known Bugs and Limitations"
-msgstr "Bug conosciuti e Limitazioni"
+msgstr "Malfunzionamenti noti e Limitazioni"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:195
@@ -6032,8 +6031,8 @@ msgid ""
 "Tool</application> or this manual, follow the directions in the <ulink "
 "url=\"help:mate-user-guide#feedback\" type=\"help\">MATE Feedback "
 "Page</ulink>, or you may prefer, at your convenience, directly open a bug or"
-" a request for enhancement in <ulink url=\"https://github.com/mate-desktop"
-"/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
+" a request for enhancement in <ulink url=\"https://github.com/mate-"
+"desktop/caja-actions/issues\" type=\"http\">Bugzilla website</ulink>."
 msgstr ""
 "Per segnalare un malfunzionamento o un suggerimento su <productname>Caja-"
 "Actions</productname>, sullo<application>Strumento di configurazione di "
@@ -6063,8 +6062,8 @@ msgstr ""
 "documento in base ai termini della GNU Free Documentation License (GFDL), "
 "Versione 1.3 o qualsiasi versione successiva pubblicata dalla Free Software "
 "Foundation senza sezioni invarianti, senza testi di copertina e nessun testo"
-" di retro copertina. Puoi trovare una copia del GFDL qui <_:ulink-1/> o nel "
-"file COPYING-DOCS distribuito con questo manuale."
+" di retro copertina. Puoi trovare una copia della GFDL qui <_:ulink-1/> o "
+"nel file COPYING-DOCS distribuito con questo manuale."
 
 #. (itstool) path: legalnotice/para
 #: C/legalnotice.xml:17
