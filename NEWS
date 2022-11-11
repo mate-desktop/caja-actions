@@ -1,3 +1,23 @@
+### caja-actions 1.27.0
+
+  * tx: sync with transifex
+  * tx: update resource
+  * tx: migrate config file
+  * cact-tree-model-dnd: remove unused macro
+  * na-selected-info: build warning -Wbad-function-cast
+  * README.md: Remove '--with-gtk=2/3'
+  * build: remove generated file: INSTALL
+  * Remove g_type_init()
+  * Bump glib 2.66 because of g_uri_split
+  * Drop NAMateVFSURI
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * na-about: Fix website
+  * na-about: remove unnecessary getters
+  * cact-ienvironment-tab: variable 'state' is uninitialized
+  * 'SIZE_MAX' macro redefined
+  * na-selected-info: fix memory leak
+  * Use a blank line at most
+
 ### caja-actions 1.26.0
 
     tx: pull from transifex
