@@ -2,14 +2,15 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021
+# Wolfgang Ulbrich <mate@raveit.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>, 2021\n"
-"Language-Team: Serbian (https://www.transifex.com/mate/teams/13566/sr/)\n"
+"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2023\n"
+"Language-Team: Serbian (https://app.transifex.com/mate/teams/13566/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3959,7 +3960,7 @@ msgstr "echo %B %b"
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:581
 msgid "And if we have requested <_:literal-1/>,"
-msgstr "И ако сте затражили наредбу „<_:command-1/>“,"
+msgstr "И ако сте затражили наредбу „<_:literal-1/>“,"
 
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:584
