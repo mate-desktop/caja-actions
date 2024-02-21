@@ -1,0 +1,201 @@
+<html>
+<head>
+<title>rootdir - scan-build results</title>
+<link type="text/css" rel="stylesheet" href="scanview.css"/>
+<script src="sorttable.js"></script>
+<script language='javascript' type="text/javascript">
+function SetDisplay(RowClass, DisplayVal)
+{
+  var Rows = document.getElementsByTagName("tr");
+  for ( var i = 0 ; i < Rows.length; ++i ) {
+    if (Rows[i].className == RowClass) {
+      Rows[i].style.display = DisplayVal;
+    }
+  }
+}
+
+function CopyCheckedStateToCheckButtons(SummaryCheckButton) {
+  var Inputs = document.getElementsByTagName("input");
+  for ( var i = 0 ; i < Inputs.length; ++i ) {
+    if (Inputs[i].type == "checkbox") {
+      if(Inputs[i] != SummaryCheckButton) {
+        Inputs[i].checked = SummaryCheckButton.checked;
+        Inputs[i].onclick();
+      }
+    }
+  }
+}
+
+function returnObjById( id ) {
+    if (document.getElementById)
+        var returnVar = document.getElementById(id);
+    else if (document.all)
+        var returnVar = document.all[id];
+    else if (document.layers)
+        var returnVar = document.layers[id];
+    return returnVar;
+}
+
+var NumUnchecked = 0;
+
+function ToggleDisplay(CheckButton, ClassName) {
+  if (CheckButton.checked) {
+    SetDisplay(ClassName, "");
+    if (--NumUnchecked == 0) {
+      returnObjById("AllBugsCheck").checked = true;
+    }
+  }
+  else {
+    SetDisplay(ClassName, "none");
+    NumUnchecked++;
+    returnObjById("AllBugsCheck").checked = false;
+  }
+}
+</script>
+<!-- SUMMARYENDHEAD -->
+</head>
+<body>
+<h1>rootdir - scan-build results</h1>
+
+<table>
+<tr><th>User:</th><td>root@1b11283728c7</td></tr>
+<tr><th>Working Directory:</th><td>/rootdir</td></tr>
+<tr><th>Command Line:</th><td>make -j 2</td></tr>
+<tr><th>Clang Version:</th><td>clang version 13.0.0 (Fedora 13.0.0-3.fc35)
+</td></tr>
+<tr><th>Date:</th><td>Sat Feb 19 22:46:10 2022</td></tr>
+</table>
+<h2>Bug Summary</h2><table>
+<thead><tr><td>Bug Type</td><td>Quantity</td><td class="sorttable_nosort">Display?</td></tr></thead>
+<tr style="font-weight:bold"><td class="SUMM_DESC">All Bugs</td><td class="Q">35</td><td><center><input type="checkbox" id="AllBugsCheck" onClick="CopyCheckedStateToCheckButtons(this);" checked/></center></td></tr>
+<tr><th>Logic error</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Cast from non-struct type to struct type</td><td class="Q">5</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_cast_from_non-struct_type_to_struct_type');" checked/></center></td></tr>
+<tr><td class="SUMM_DESC">Dereference of null pointer</td><td class="Q">5</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_dereference_of_null_pointer');" checked/></center></td></tr>
+<tr><td class="SUMM_DESC">Uninitialized argument value</td><td class="Q">1</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_logic_error_uninitialized_argument_value');" checked/></center></td></tr>
+<tr><th>Unused code</th><th colspan=2></th></tr>
+<tr><td class="SUMM_DESC">Dead assignment</td><td class="Q">9</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_unused_code_dead_assignment');" checked/></center></td></tr>
+<tr><td class="SUMM_DESC">Unreachable code</td><td class="Q">15</td><td><center><input type="checkbox" onClick="ToggleDisplay(this,'bt_unused_code_unreachable_code');" checked/></center></td></tr>
+</table>
+<h2>Reports</h2>
+
+<table class="sortable" style="table-layout:automatic">
+<thead><tr>
+  <td>Bug Group</td>
+  <td class="sorttable_sorted">Bug Type<span id="sorttable_sortfwdind">&nbsp;&#x25BE;</span></td>
+  <td>File</td>
+  <td>Function/Method</td>
+  <td class="Q">Line</td>
+  <td class="Q">Path Length</td>
+  <td class="sorttable_nosort"></td>
+  <!-- REPORTBUGCOL -->
+</tr></thead>
+<tbody>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>cact/egg-sm-client-xsmp.c</td><td class="DESC">ptrarray_prop</td><td class="Q">1202</td><td class="Q">1</td><td><a href="report-226fbd.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-226fbd.html" -->
+</tr>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>cact/cact-clipboard.c</td><td class="DESC">cact_clipboard_dnd_get_data</td><td class="Q">348</td><td class="Q">1</td><td><a href="report-a09bd8.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a09bd8.html" -->
+</tr>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>cact/egg-sm-client-xsmp.c</td><td class="DESC">array_prop</td><td class="Q">1169</td><td class="Q">1</td><td><a href="report-a50197.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a50197.html" -->
+</tr>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>cact/cact-clipboard.c</td><td class="DESC">cact_clipboard_primary_get</td><td class="Q">746</td><td class="Q">1</td><td><a href="report-c46b18.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-c46b18.html" -->
+</tr>
+<tr class="bt_logic_error_cast_from_non-struct_type_to_struct_type"><td class="DESC">Logic error</td><td class="DESC">Cast from non-struct type to struct type</td><td>cact/cact-clipboard.c</td><td class="DESC">cact_clipboard_dnd_drag_end</td><td class="Q">424</td><td class="Q">1</td><td><a href="report-e91702.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-e91702.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>core/na-factory-object.c</td><td class="DESC">na_factory_object_are_equal</td><td class="Q">430</td><td class="Q">1</td><td><a href="report-174afb.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-174afb.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>cact/cact-tree-model-dnd.c</td><td class="DESC">drop_uri_list</td><td class="Q">861</td><td class="Q">1</td><td><a href="report-209a72.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-209a72.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>core/na-iprefs.c</td><td class="DESC">na_iprefs_write_level_zero</td><td class="Q">191</td><td class="Q">1</td><td><a href="report-29935f.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-29935f.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>core/na-core-utils.c</td><td class="DESC">na_core_utils_file_is_loadable</td><td class="Q">1057</td><td class="Q">1</td><td><a href="report-6b8377.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6b8377.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>cact/cact-preferences-editor.c</td><td class="DESC">auto_save_setup</td><td class="Q">1114</td><td class="Q">1</td><td><a href="report-7bf45f.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-7bf45f.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>core/na-factory-object.c</td><td class="DESC">na_factory_object_is_valid</td><td class="Q">496</td><td class="Q">1</td><td><a href="report-a4d6e1.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a4d6e1.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>core/na-icontext.c</td><td class="DESC">is_compatible_scheme</td><td class="Q">1003</td><td class="Q">1</td><td><a href="report-cc3bb0.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-cc3bb0.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>cact/cact-tree-ieditable.c</td><td class="DESC">do_insert_before</td><td class="Q">870</td><td class="Q">1</td><td><a href="report-ee69ba.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-ee69ba.html" -->
+</tr>
+<tr class="bt_unused_code_dead_assignment"><td class="DESC">Unused code</td><td class="DESC">Dead assignment</td><td>core/na-settings.c</td><td class="DESC">read_key_value</td><td class="Q">1291</td><td class="Q">1</td><td><a href="report-f80791.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-f80791.html" -->
+</tr>
+<tr class="bt_logic_error_dereference_of_null_pointer"><td class="DESC">Logic error</td><td class="DESC">Dereference of null pointer</td><td>core/na-exporter.c</td><td class="DESC">na_exporter_to_buffer</td><td class="Q">305</td><td class="Q">22</td><td><a href="report-33a767.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-33a767.html" -->
+</tr>
+<tr class="bt_logic_error_dereference_of_null_pointer"><td class="DESC">Logic error</td><td class="DESC">Dereference of null pointer</td><td>cact/cact-tree-model.c</td><td class="DESC">cact_tree_model_object_to_path</td><td class="Q">966</td><td class="Q">23</td><td><a href="report-5710f9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-5710f9.html" -->
+</tr>
+<tr class="bt_logic_error_dereference_of_null_pointer"><td class="DESC">Logic error</td><td class="DESC">Dereference of null pointer</td><td>core/na-exporter.c</td><td class="DESC">na_exporter_to_file</td><td class="Q">378</td><td class="Q">22</td><td><a href="report-d31896.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-d31896.html" -->
+</tr>
+<tr class="bt_logic_error_dereference_of_null_pointer"><td class="DESC">Logic error</td><td class="DESC">Dereference of null pointer</td><td>cact/cact-clipboard.c</td><td class="DESC">cact_clipboard_dnd_get_data</td><td class="Q">355</td><td class="Q">17</td><td><a href="report-df1646.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-df1646.html" -->
+</tr>
+<tr class="bt_logic_error_dereference_of_null_pointer"><td class="DESC">Logic error</td><td class="DESC">Dereference of null pointer</td><td>cact/cact-tree-model-dnd.c</td><td class="DESC">drop_uri_list</td><td class="Q">917</td><td class="Q">52</td><td><a href="report-fe57fe.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-fe57fe.html" -->
+</tr>
+<tr class="bt_logic_error_uninitialized_argument_value"><td class="DESC">Logic error</td><td class="DESC">Uninitialized argument value</td><td>cact/cact-tree-model.c</td><td class="DESC">cact_tree_model_insert_into</td><td class="Q">803</td><td class="Q">2</td><td><a href="report-241ede.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-241ede.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/na-print-schemas.c</td><td class="DESC">main</td><td class="Q">113</td><td class="Q">1</td><td><a href="report-1ee8c5.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-1ee8c5.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/caja-actions-run.c</td><td class="DESC">main</td><td class="Q">161</td><td class="Q">1</td><td><a href="report-32b941.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-32b941.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>cact/cact-iproperties-tab.c</td><td class="DESC">on_readonly_toggled</td><td class="Q">418</td><td class="Q">1</td><td><a href="report-4da48d.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-4da48d.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/na-print-schemas.c</td><td class="DESC">main</td><td class="Q">114</td><td class="Q">1</td><td><a href="report-52f8b9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-52f8b9.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/caja-actions-print.c</td><td class="DESC">main</td><td class="Q">116</td><td class="Q">1</td><td><a href="report-6e4cd5.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-6e4cd5.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>cact/cact-tree-model.c</td><td class="DESC">cact_tree_model_insert_into</td><td class="Q">819</td><td class="Q">1</td><td><a href="report-7de593.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-7de593.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/na-set-conf.c</td><td class="DESC">main</td><td class="Q">126</td><td class="Q">1</td><td><a href="report-80e122.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-80e122.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>cact/cact-menubar.c</td><td class="DESC">on_base_initialize_window</td><td class="Q">499</td><td class="Q">1</td><td><a href="report-a08ba9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a08ba9.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>cact/cact-tree-view.c</td><td class="DESC">toggle_collapse_iter</td><td class="Q">1437</td><td class="Q">1</td><td><a href="report-a13ada.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-a13ada.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>core/na-exporter.c</td><td class="DESC">na_exporter_to_buffer</td><td class="Q">312</td><td class="Q">1</td><td><a href="report-bbfe45.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-bbfe45.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/na-print-schemas.c</td><td class="DESC">main</td><td class="Q">104</td><td class="Q">1</td><td><a href="report-bf8e54.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-bf8e54.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/caja-actions-run.c</td><td class="DESC">main</td><td class="Q">150</td><td class="Q">1</td><td><a href="report-bfc42a.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-bfc42a.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>utils/caja-actions-run.c</td><td class="DESC">main</td><td class="Q">118</td><td class="Q">1</td><td><a href="report-c427e9.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-c427e9.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>cact/cact-iproperties-tab.c</td><td class="DESC">on_enabled_toggled</td><td class="Q">368</td><td class="Q">1</td><td><a href="report-c71a86.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-c71a86.html" -->
+</tr>
+<tr class="bt_unused_code_unreachable_code"><td class="DESC">Unused code</td><td class="DESC">Unreachable code</td><td>core/na-object-item.c</td><td class="DESC">na_object_item_get_position</td><td class="Q">464</td><td class="Q">1</td><td><a href="report-e95381.html#EndPath">View Report</a></td>
+<!-- REPORTBUG id="report-e95381.html" -->
+</tr>
+</tbody>
+</table>
+
+</body></html>
