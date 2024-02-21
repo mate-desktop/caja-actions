@@ -7,7 +7,7 @@
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Allan Nordhøy <epost@anotheragency.no>, 2021
-# Joe Hansen <joedalton2@yahoo.dk>, 2022
+# Joe Hansen <joedalton2@yahoo.dk>, 2023
 # 
 msgid ""
 msgstr ""
@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2022\n"
-"Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2023\n"
+"Language-Team: Danish (https://app.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3453,6 +3453,9 @@ msgid ""
 "Folders may use '*' or '?' wildcards.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Denne liste lader dig hvor (i hvilke mapper) de aktuelt valgte filer skal findes for at elementet bliver vist i  kontekstmenuen for Caja.\n"
+"Mapper kan bruge »*« eller »?« jokertegn.\n"
+"Mappefiltre kan blive negeret for at angive for hvilke mapper dit element ikke må fremgå af."
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
@@ -3475,6 +3478,8 @@ msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Dette faneblad lader dig bestemme hvor (i hvilke mapper) de aktuelt valgte filer skal findes for at elementet bliver vist i  kontekstmenuen for Caja.\n"
+"Mappefiltre kan blive negeret for at angive for hvilke mapper dit element ikke må fremgå af."
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
@@ -3486,6 +3491,9 @@ msgid ""
 "matches one of the 'Must match one of' column, while not matching any of the"
 " 'Must not match any of' column."
 msgstr ""
+"Det nuværende element vil fremgå hvis skemaet for hvert element af "
+"markeringen matcher et filter for kolonnen »Skal matche en af«, mens den "
+"ikke matcher nogen af filtrene for kolonnen »Må ikke matche nogen af«."
 
 #: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
@@ -3520,6 +3528,8 @@ msgid ""
 "This tab lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Denne liste lader dig bestemme hvilke skemaer de aktuelt valgte filer skal overholde for at elementet bliver vist i kontekstmenuen for Caja.\n"
+"Filtre kan blive negeret for at angive for hvilke skemaer dit element ikke må fremgå af."
 
 #: src/cact/caja-actions-config-tool.ui:2659
 msgid ""
@@ -3536,6 +3546,8 @@ msgid ""
 "This list lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Capabilities may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Denne liste lader dig bestemme hvilke kapaciteter de valgte filer skal overholde for at elementet bliver vist i Cajas kontekstmenu.\n"
+"Kapaciteter kan negeres for at angive for hvilke kapaciteter dit element ikke må fremgå."
 
 #: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
@@ -3615,6 +3627,9 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
+"Dette er en avanceret betingelse baseret på et kørseltidsresultat.\n"
+"Indtast her en kommando, der kan vise den præcise »true« (sand) streng på standardud.\n"
+"Dette kan for eksempel bruge til at teste en kompleks betingelse."
 
 #: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
@@ -3622,6 +3637,9 @@ msgid ""
 "Note that only the basename of the binary is checked, not its dirname nor its parameters.\n"
 "This may be used for example for testing the presence of a prerequisite daemon."
 msgstr ""
+"Dette er en avanceret betingelse baseret på tilstedeværelsen af en kørende binær fil.\n"
+"Bemærk at kun grundnavnet for den binære fil kontrolleres, ikke dets mappenavn eller dets parametre.\n"
+"Dette kan for eksempel bruges til at teste tilstedeværelsen af en krævet dæmon."
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
@@ -3636,6 +3654,8 @@ msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
 msgstr ""
+"Dette er en avanceret betingelse baseret på tilstedeværelsen af en bestemt fil på filsystemet.\n"
+"Dette kan for eksempel bruges til at teste, at en krævet pakke er tilgængelig."
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
@@ -3700,6 +3720,8 @@ msgid ""
 "Enter here the keyboard touch combination you suggest as a shortcut to your action.\n"
 "Note: this is not yet implemented in Caja-Actions."
 msgstr ""
+"Indtast her tastaturkombinationen du foreslår som en genvej til din handling.\n"
+"Bemærk: Dette er endnu ikke implementeret i Caja-Actions."
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
@@ -3952,6 +3974,9 @@ msgid ""
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
+"Den oprettede handling skrives som standard til standardud.\n"
+"Kan også skrives til en resultatmappe, i en egnet fil til senere import i CACT.\n"
+"Eller du kan vælge at skrive handlingen direkte i din Caja-Action-konfiguration."
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
@@ -3973,7 +3998,7 @@ msgstr "Vis en menu eller en handling på standardud."
 
 #: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
-msgstr ""
+msgstr "Identifikatoren for menuen eller handlingen til udskrivning"
 
 #. Translators: 'Desktop1' here is the internal identifier of an export
 #. format; it is not translatable

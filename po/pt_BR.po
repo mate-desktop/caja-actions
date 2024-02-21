@@ -20,6 +20,7 @@
 # Roger Araújo <roger.rf@gmail.com>, 2021
 # Rangel <carlosrangelsantos@gmail.com>, 2021
 # Josué Teodoro Moreira <jteodomo@gmail.com>, 2021
+# Walter Andrade, 2023
 # 
 msgid ""
 msgstr ""
@@ -27,8 +28,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Josué Teodoro Moreira <jteodomo@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
+"Last-Translator: Walter Andrade, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -185,7 +186,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<EXPR>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
@@ -316,11 +317,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<STRING>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "Lista de pastas"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -341,7 +342,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
@@ -377,7 +378,7 @@ msgstr ""
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DESKTOP>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
@@ -431,7 +432,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
@@ -985,7 +986,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Executar como usuário"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -1009,11 +1010,11 @@ msgstr ""
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "áudio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "imagem/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
@@ -1021,7 +1022,7 @@ msgstr ""
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "usuário"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
@@ -1029,15 +1030,15 @@ msgstr ""
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "Executar comando:"
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "Saída padrão: "
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "Erro padrão: "
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
@@ -3005,7 +3006,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>Executar como usuário</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
@@ -3115,7 +3116,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
-msgstr ""
+msgstr "Clique para adicionar um novo filtro de pasta."
 
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
@@ -3123,11 +3124,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
-msgstr ""
+msgstr "Clique para remover o filtro de pasta atual."
 
 #: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
-msgstr ""
+msgstr "<b>Condições das pastas</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
@@ -3154,7 +3155,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
-msgstr ""
+msgstr "Clique para adicionar um novo filtro de esquema."
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
@@ -3166,11 +3167,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
-msgstr ""
+msgstr "Clique para remover um filtro de esquema."
 
 #: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
-msgstr ""
+msgstr "<b>Condições dos esquemas</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
@@ -3201,7 +3202,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
-msgstr ""
+msgstr "<b>Condições de capacidade</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
@@ -3356,7 +3357,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "Id.:"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
@@ -3364,7 +3365,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>Propriedades só de leitura</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
@@ -3398,21 +3399,21 @@ msgstr ""
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
-msgstr ""
+msgstr "O URI do arquivo a ser importado"
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
 #: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
-msgstr ""
+msgstr "Saída do número da versão"
 
 #: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "Importar um arquivo."
 
 #: src/test/test-reader.c:118
 msgid ""
@@ -3431,11 +3432,11 @@ msgstr "Opções adicionais"
 #: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "Erro de sintaxe: %s\n"
 
 #: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
-msgstr ""
+msgstr "Erro: uri é obrigatório.\n"
 
 #: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
 #: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
@@ -3460,7 +3461,7 @@ msgstr ""
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
-msgstr ""
+msgstr "Saída dos esquemas de menu"
 
 #: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
@@ -3495,7 +3496,7 @@ msgstr ""
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
-msgstr ""
+msgstr "O valor a ser definido"
 
 #: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
@@ -3503,11 +3504,11 @@ msgstr ""
 
 #: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
-msgstr ""
+msgstr "Erro: um grupo é obrigatório.\n"
 
 #: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
-msgstr ""
+msgstr "Erro: uma chave é obrigatória.\n"
 
 #: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
@@ -3521,7 +3522,7 @@ msgstr ""
 
 #: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
-msgstr ""
+msgstr "Erro: um valor é obrigatório.\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
@@ -3549,29 +3550,29 @@ msgstr ""
 
 #: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
-msgstr ""
+msgstr "Crie o novo item como um arquivo .desktop "
 
 #: src/utils/caja-actions-new.c:160
 #, c-format
 msgid "Error: '%s' and '%s' options cannot both be specified\n"
-msgstr ""
+msgstr "Erro: as opções '%s' e '%s' não podem ser ambas especificadas.\n"
 
 #: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
-msgstr ""
+msgstr "Opção '%s' obsoleta, veja %s\n"
 
 #: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
-msgstr ""
+msgstr "Erro: um rótulo de ação é obrigatório.\n"
 
 #: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
-msgstr ""
+msgstr "Erro: apenas um opção de saída pode ser especificada.\n"
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "Defina uma nova ação."
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
@@ -3582,7 +3583,7 @@ msgstr ""
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "Saída do programa."
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
@@ -3606,66 +3607,68 @@ msgstr ""
 #. format; it is not translatable
 #: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
-msgstr ""
+msgstr "Um formato de exportação [Desktop1]"
 
 #: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr ""
+msgstr "Erro: um menu ou ID da ação é obrigatório.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
 #: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
-msgstr ""
+msgstr "Erro: %s: formato de exportação desconhecido.\n"
 
 #: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Erro: item '%s' não existe.\n"
 
 #: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
-msgstr ""
+msgstr "O identificador da ação a ser iniciada"
 
 #: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
 msgstr ""
+"Um destino, arquivo ou pasta para a ação. Mais de uma opção pode ser "
+"especificada."
 
 #: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
-msgstr ""
+msgstr "Erro: ID da ação é obrigatório.\n"
 
 #: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
-msgstr ""
+msgstr "Nenhuma seleção atual. Nada para fazer. Saindo.\n"
 
 #: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
-msgstr ""
+msgstr "A ação %snão é uma candidata válida. Saindo.\n"
 
 #: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
-msgstr ""
+msgstr "Nenhum perfil válido é candidato à execução. Saindo.\n"
 
 #: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
-msgstr ""
+msgstr "Execute uma ação no alvo especificado."
 
 #: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Erro: a ação '%s' não existe.\n"
 
 #: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
-msgstr ""
+msgstr "Erro: a ação '%s' está desabilitada.\n"
 
 #: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "Erro: a ação '%s' não é válida.\n"

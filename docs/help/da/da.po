@@ -3,15 +3,15 @@
 # Martin Wimpress <code@flexion.org>, 2021
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Joe Hansen <joedalton2@yahoo.dk>, 2022
+# Joe Hansen <joedalton2@yahoo.dk>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2022\n"
-"Language-Team: Danish (https://www.transifex.com/mate/teams/13566/da/)\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2023\n"
+"Language-Team: Danish (https://app.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -897,33 +897,33 @@ msgstr "Pierre"
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
 msgid "Wieser"
-msgstr ""
+msgstr "Wieser"
 
 #. (itstool) path: author/email
 #. (itstool) path: para/email
 #: C/articleinfo.xml:47 C/articleinfo.xml:96 C/articleinfo.xml:106
 msgid "pwieser@trychlos.org"
-msgstr ""
+msgstr "pwieser@trychlos.org"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:51
 msgid "Wolfgang"
-msgstr ""
+msgstr "Wolfgang"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:52
 msgid "Ulbrich"
-msgstr ""
+msgstr "Ulbrich"
 
 #. (itstool) path: author/email
 #: C/articleinfo.xml:53
 msgid "chat-to-me@raveit.de"
-msgstr ""
+msgstr "chat-to-me@raveit.de"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:91
 msgid "Caja-Actions Configuration Tool User's Manual v 3.1"
-msgstr ""
+msgstr "Brugermanual for Caja-Actions Configuration Tool version 3.1"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:92
@@ -969,7 +969,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:3
 msgid "Known bugs are available on <_:ulink-1/>."
-msgstr ""
+msgstr "Kendte fejl er tilgængelige på <_:ulink-1/>."
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:10

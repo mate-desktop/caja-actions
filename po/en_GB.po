@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
-# Andi Chandler <andi@gowling.com>, 2022
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Andi Chandler <andi@gowling.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +14,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2022\n"
-"Language-Team: English (United Kingdom) (https://www.transifex.com/mate/teams/13566/en_GB/)\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
+"Language-Team: English (United Kingdom) (https://app.transifex.com/mate/teams/13566/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,7 +50,7 @@ msgstr "%s NAIExporter doesn't implement 'to_buffer' interface."
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter doesn't implement 'to_file' interface."
 
 #: src/core/na-about.c:70
 msgid ""
@@ -59,6 +59,10 @@ msgid ""
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"Caja-Actions Configuration Tool is free software; you can redistribute it "
+"and/or modify it under the terms of the GNU General Public Licence as "
+"published by the Free Software Foundation; either version 2 of the Licence, "
+"or (at your option) any later version."
 
 #: src/core/na-about.c:74
 msgid ""
@@ -67,6 +71,10 @@ msgid ""
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"Caja-Actions Configuration Tool is distributed in the hope that it will be "
+"useful, but WITHOUT ANY WARRANTY; without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+"Public Licence for more details."
 
 #: src/core/na-about.c:78
 msgid ""
@@ -75,10 +83,14 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"You should have received a copy of the GNU General Public Licence along with"
+" Caja-Actions Configuration Tool ; if not, write to the Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
-msgstr ""
+msgstr "A graphical interface to create and edit your Caja actions."
 
 #: src/core/na-about.c:93
 msgid ""
@@ -86,42 +98,47 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
-msgstr "Martin Wimpress"
+msgstr ""
+"Martin Wimpress\n"
+"Andi Chandler"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "MATE desktop"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "KDE desktop"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "LXDE desktop"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "ROX desktop"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "XFCE desktop"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Legacy systems"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr ""
+msgstr "List of patterns to be matched against the selected file(s)/folder(s)"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -132,6 +149,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"A list of strings with joker '*' or '?' to be matched against the name(s) of the selected file(s)/folder(s). Each selected item must match at least one of the filename patterns for the action or the menu be candidate to display.\n"
+"This obviously only applies when there is a selection.\n"
+"Defaults to '*'."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -142,6 +162,9 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"A pattern to be matched against basenames of selected file(s)/folder(s). May"
+" include wildcards (* or ?). You must set one option for each pattern you "
+"need"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -150,11 +173,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<EXPR>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "Whether the specified basenames are case sensitive (default)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -164,12 +187,17 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Must be set to 'true' if the filename patterns are case sensitive, to 'false' otherwise. E.g., if you need to match a filename in a case-sensitive manner, set this key to 'true'. If you also want, for example '*.jpg' to match 'photo.JPG', then set 'false'.\n"
+"This obviously only applies when there is a selection.\n"
+"Defaults to 'true'."
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
 msgstr ""
+"List of patterns to be matched against the mimetypes of the selected "
+"file(s)/folder(s)"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -179,6 +207,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"A list of strings with joker '*' to be matched against the mimetypes of the selected file(s)/folder(s). Each selected item must match at least one of the mimetype patterns for the action to appear.\n"
+"This obviously only applies when there is a selection.\n"
+"Defaults to '*/*'."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -188,10 +219,14 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"A pattern to be matched against mimetypes of selected file(s)/folder(s). May"
+" include the asterisk wildcard '*'. You must set one option for each pattern"
+" you need"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
 msgstr ""
+"Whether the profile applies to files (deprecated option, see mimetype)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -206,11 +241,20 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Set to 'true' if the selection can have files, to 'false' otherwise.\n"
+"This setting is tied in with the 'isdir' setting. The valid combinations are: \n"
+"isfile='true' and isdir='false': the selection may hold only files\n"
+"isfile='false' and isdir='true': the selection may hold only folders\n"
+"isfile='true' and isdir='true': the selection may hold both files and folders\n"
+"isfile='false' and isdir='false': this is an invalid combination (your configuration will never appear).\n"
+"This obviously only applies when there is a selection.\n"
+"Defaults to 'true'."
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
 msgstr ""
+"Whether the profile applies to folders (deprecated option, see mimetype)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -225,12 +269,22 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Set to 'true' if the selection can have folders, to 'false' otherwise.\n"
+"This setting is tied in with the 'isfile' setting. The valid combinations are: \n"
+"isfile='true' and isdir='false': the selection may hold only files\n"
+"isfile='false' and isdir='true': the selection may hold only folders\n"
+"isfile='true' and isdir='true': the selection may hold both files and folders\n"
+"isfile='false' and isdir='false': this is an invalid combination (your configuration will never appear).\n"
+"This obviously only applies when there is a selection.\n"
+"Defaults to 'false'."
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
+"Whether the selection may be multiple (deprecated option, see selection "
+"count)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -240,11 +294,15 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"If you need more than one files or folders to be selected, set this key to 'true'. If you want just one file or folder, set it to 'false'.\n"
+"This obviously only applies when there is a selection.\n"
+"Defaults to 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
 msgstr ""
+"List of schemes to be matched against those of selected file(s)/folder(s)"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -265,12 +323,27 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"Defines the list of valid schemes to be matched against the selected items. The scheme is the protocol used to access the files. The keyword to use is the one used in the URI by the file manager.\n"
+"Examples of valid URI include:\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@test.example.net/tmp/foo.txt\n"
+"The most common schemes are:\n"
+"'file': local files\n"
+"'sftp': files accessed via SSH\n"
+"'ftp': files accessed via FTP\n"
+"'smb': files accessed via Samba (Windows share)\n"
+"'dav': files accessed via WebDAV.\n"
+"All schemes used by your favorite file manager may be used here.\n"
+"This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
+"Defaults to 'file'."
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"A valid GIO scheme where the selected file(s)/folder(s) should be located. "
+"You must set one option for each scheme you need"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -281,11 +354,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<STRING>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "List of folders"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -293,12 +366,17 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"Defines the list of valid paths to be matched against the current folder.\n"
+" All folders 'under' the specified path are considered valid.\n"
+"Defaults to '/'."
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
+"The path of a (parent) directory for which the item will be displayed. You "
+"must set one option for each folder you need"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -306,11 +384,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Operator of the selection count relation"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -319,48 +397,56 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"Whether this profile may be selected depends on the count of the selection.\n"
+"This is a string of the form \"{'<'|'='|'>'} number\".\n"
+"Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
+"Defaults to \">0\"."
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "Selection count relation [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "Only show in environment"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "Defaults to all."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
+"The name of a desktop environment where the item must be displayed. You must"
+" set one option for each environment you want"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DESKTOP>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "Not show in environment"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "Defaults to none."
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+"The name of a desktop environment where the item must not be displayed. You "
+"must set one option for each environment you want"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "Try exec"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -370,14 +456,17 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Note that, when specified, only the presence and the executability status of the specified file are checked.\n"
+"Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
+"Defaults to successful."
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "the path to a file whose executability is to be checked"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Show if registered"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -388,19 +477,23 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"The well-known name of a DBus service.\n"
+"The item will be candidate if the named service is registered on session DBus at runtime.\n"
+"Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
+"Defaults to successful."
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "The name of a service which must be registered on session DBus"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "Show if True"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -411,15 +504,19 @@ msgid ""
 "Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"A command which, when executed, should output a string on stdout.\n"
+"The item will be candidate if the outputed string is equal to \"true\".\n"
+"Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
+"Defaults to successful."
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr ""
+msgstr "The path to a command which will display the 'true' string"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "Show if running"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -430,14 +527,18 @@ msgid ""
 "Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"The name of a process.\n"
+"The item will be a candidate if the process name is found in memory at runtime.\n"
+"Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
+"Defaults to successful."
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "The name of a binary which must be running"
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Capabilities"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -454,49 +555,63 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"A list of capabilities each item of the selection must satisfy in order for the item to be candidate.\n"
+"Capabilities may be negated.\n"
+"Capabilities have to be chosen between following predefined ones:\n"
+"- 'Owner': current user is the owner of selected items\n"
+"- 'Readable': selected items are readable by user (probably more useful when negated)\n"
+"- 'Writable': selected items are writable by user\n"
+"- 'Executable': selected items are executable by user\n"
+"- 'Local': selected items are local.\n"
+"Defaults to empty list."
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
 msgstr ""
+"The name of a capability the selection must meet. May be 'Owner', "
+"'Readable', 'Writable', 'Executable' or 'Local'"
 
 #: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
+"Item was renumbered because the caller did not provide any check function."
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
 msgstr ""
+"Item was renumbered because the caller did not provide any ask user "
+"function."
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "Item was renumbered due to user request."
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "Existing item was overridden due to user request."
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "Item %s already exists."
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "Import was cancelled due to user request."
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(renumbered)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "Do _not import the item"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -930,7 +1045,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "Startup notify"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
@@ -950,7 +1065,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Execute as user"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -2850,7 +2965,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "Example"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"

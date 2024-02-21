@@ -12,8 +12,8 @@
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # Gurbuzguven <6mehmet6@gmail.com>, 2021
 # Hüseyin Güç <huseyinguc@outlook.com>, 2022
-# Sabri Ünal <libreajans@gmail.com>, 2022
 # hilalis <hilalis@outlook.com.tr>, 2022
+# Sabri Ünal <libreajans@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
@@ -21,8 +21,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: hilalis <hilalis@outlook.com.tr>, 2022\n"
-"Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>, 2023\n"
+"Language-Team: Turkish (https://app.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -311,14 +311,14 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
-"Seçilecek birden fazla dosya veya dizine ihtiyacınız varsa, bu anahtarı 'true' olarak ayarlayın. Yalnızca bir dosya veya dizin seçmek istiyorsanız, onu 'yanlış' olarak ayarlayın.\n"
+"Seçilecek birden fazla dosya veya klasöre ihtiyacınız varsa, bu anahtarı 'true' olarak ayarlayın. Yalnızca tek dosya ya da klasör seçmek istiyorsanız, onu 'false' olarak ayarlayın.\n"
 "Bu durum sadece bir seçim olduğunda geçerlidir.\n"
-"Ön tanıml değeri 'yanlış'tır."
+"Ön tanımlı değeri 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
-msgstr "Seçilen dosya(lar)/dizin(ler)le eşleştirilecek şemaların listesi"
+msgstr "Seçilen dosya(lar)/klasörler(ler)le eşleştirilecek şemaların listesi"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -345,7 +345,7 @@ msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
-"Seçilen dosya(lar)ın/dizin(ler)in bulunduğu yerde geçerli bir GIO şeması "
+"Seçilen dosya(lar)ın/klasör(ler)in bulunduğu yerde geçerli bir GIO şeması "
 "olmalıdır. İhtiyacınız olan her şema için bir seçenek belirlemelisiniz"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is

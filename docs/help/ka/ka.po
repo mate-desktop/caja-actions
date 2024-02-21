@@ -2,14 +2,15 @@
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
-"Language-Team: Georgian (https://www.transifex.com/mate/teams/13566/ka/)\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023\n"
+"Language-Team: Georgian (https://app.transifex.com/mate/teams/13566/ka/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -888,7 +889,7 @@ msgstr ""
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "პიერი"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
@@ -1143,7 +1144,7 @@ msgstr ""
 #: C/cact-conditions.xml:404 C/cact-conditions.xml:525
 #: C/cact-conditions.xml:665
 msgid "Insert"
-msgstr ""
+msgstr "ჩასმა"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:74 C/cact-conditions.xml:218

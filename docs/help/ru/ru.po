@@ -3,7 +3,7 @@
 # Дмитрий Михирев, 2021
 # Cyber Tailor <cyber@sysrq.in>, 2021
 # Dmitry Mandryk <dmandryk@gmail.com>, 2021
-# Михаил Ильинский <mail@milinsky.com>, 2021
+# Михаил Ильинский (milinsky) <mail@milinsky.com>, 2021
 # Dmitriy Kulikov <kulikov@dima.perm.ru>, 2021
 # Дмитрий Астанков <mornie@basealt.ru>, 2021
 # XRevan86, 2021
@@ -15,17 +15,19 @@
 # Olesya Gerasimenko <gammaray@basealt.ru>, 2021
 # Иван Л. <lukyanenkoiv@bk.ru>, 2021
 # Igor Vornovskii, 2022
-# Ser82, 2022
-# Леонид Дягилев, 2022
+# Sergej A. <Ser82-png@yandex.ru>, 2022
 # Alex Puts, 2022
+# slichtzzz, 2022
+# Леонид Дягилев, 2023
+# Andrei Stepanov, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Alex Puts, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"Last-Translator: Andrei Stepanov, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -35,7 +37,7 @@ msgstr ""
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
 msgid "GNU Free Documentation License"
-msgstr "Лицензия Свободной Документации GNU "
+msgstr "Лицензия свободной документации GNU"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:3
@@ -109,6 +111,15 @@ msgid ""
 "printed book. We recommend this License principally for works whose purpose "
 "is instruction or reference."
 msgstr ""
+"Мы разработали эту Лицензию, чтобы использовать ее для руководств по "
+"свободному программному обеспечению, потому что свободное программное "
+"обеспечение нуждается в бесплатной документации: бесплатная программа должна"
+" поставляться с руководствами, обеспечивающими те же свободы, что и "
+"программное обеспечение. Но эта Лицензия не ограничивается руководствами по "
+"программному обеспечению; его можно использовать для любой текстовой работы,"
+" независимо от предмета или того, опубликована ли она в виде печатной книги."
+" Мы рекомендуем эту Лицензию главным образом для работ, целью которых "
+"является обучение или ссылка."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:39
@@ -127,6 +138,17 @@ msgid ""
 "“you”. You accept the license if you copy, modify or distribute the work in "
 "a way requiring permission under copyright law."
 msgstr ""
+"Настоящая Лицензия распространяется на любое руководство или другую работу "
+"на любом носителе, которая содержит размещенное владельцем авторских прав "
+"уведомление о том, что она может распространяться в соответствии с условиями"
+" настоящей Лицензии. Такое уведомление предоставляет всемирную безвозмездную"
+" лицензию с неограниченным сроком действия на использование этого "
+"произведения на условиях, изложенных в настоящем документе. «Документ» ниже "
+"относится к любому такому руководству или работе. Любой представитель "
+"общественности является лицензиатом, и к нему обращаются на «вы». Вы "
+"принимаете лицензию, если копируете, изменяете или распространяете "
+"произведение способом, требующим разрешения в соответствии с законом об "
+"авторском праве."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:53
@@ -135,6 +157,9 @@ msgid ""
 "or a portion of it, either copied verbatim, or with modifications and/or "
 "translated into another language."
 msgstr ""
+"«Модифицированная версия» Документа означает любую работу, содержащую "
+"Документ или его часть, скопированную дословно или с изменениями и/или "
+"переведенную на другой язык."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:58
@@ -149,6 +174,15 @@ msgid ""
 "matters, or of legal, commercial, philosophical, ethical or political "
 "position regarding them."
 msgstr ""
+"«Вторичный раздел» — это поименованное приложение или основной раздел "
+"Документа, который касается исключительно отношений издателей или авторов "
+"Документа к общей теме Документа (или к связанным с ней вопросам) и не "
+"содержит ничего, что могло бы напрямую относиться к в рамках этой общей "
+"темы. (Таким образом, если Документ частично является учебником по "
+"математике, Вторичный раздел не может объяснять какую-либо математику.) "
+"Отношения могут быть вопросом исторической связи с предметом или связанными "
+"с ним вопросами или юридическими, коммерческими, философскими, этическими "
+"вопросами. или политическая позиция по отношению к ним."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:69
@@ -160,6 +194,15 @@ msgid ""
 " Invariant. The Document may contain zero Invariant Sections. If the "
 "Document does not identify any Invariant Sections then there are none."
 msgstr ""
+"«Вторичный раздел» — это поименованное приложение или основной раздел "
+"Документа, который касается исключительно отношений издателей или авторов "
+"Документа к общей теме Документа (или к переходу с ее вопросами) и не "
+"содержит ничего, что можно было бы непосредственно отнести к этой общей "
+"теме. (Таким образом, если Документ частично является учебником по "
+"математике, второй раздел не может объяснить какую-либо математику.) "
+"Отношения могут быть историческими связями с закреплением или переходами с "
+"ними вопросами или юридическими, коммерческими, философскими, этическими "
+"вопросами. или политическая позиция по отношению к ним."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:78
@@ -169,6 +212,11 @@ msgid ""
 "Document is released under this License. A Front-Cover Text may be at most 5"
 " words, and a Back-Cover Text may be at most 25 words."
 msgstr ""
+"«Тексты на обложке» — это определенные короткие отрывки текста, которые "
+"указаны как «Тексты на передней обложке» или «Тексты на задней обложке» в "
+"уведомлении о том, что Документ выпущен под настоящей Лицензией. Текст на "
+"передней обложке может содержать не более 5 слов, а текст на задней обложке "
+"— не более 25 слов."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:84
@@ -186,6 +234,19 @@ msgid ""
 "substantial amount of text. A copy that is not “Transparent” is called "
 "“Opaque”."
 msgstr ""
+"«Прозрачная» копия Документа означает машиночитаемую копию, представленную в"
+" формате, спецификация которого доступна для широкой публики, которая "
+"подходит для непосредственного редактирования документа с помощью обычных "
+"текстовых редакторов или (для изображений, состоящих из пикселей) "
+"стандартной краски. программы или (для рисунков) какой-либо широко доступный"
+" редактор рисунков, который подходит для ввода в форматировщики текста или "
+"для автоматического перевода в различные форматы, подходящие для ввода в "
+"форматировщики текста. Копия, сделанная в другом формате файла «Прозрачный»,"
+" разметка или отсутствие разметки которого предназначена для предотвращения "
+"или предотвращения последующего изменения читателями, не является "
+"«Прозрачной». Формат изображения не является прозрачным, если он "
+"используется для значительного объема текста. Копия, которая не является "
+"«Прозрачной», называется «Непрозрачной»."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:98
@@ -200,6 +261,16 @@ msgid ""
 "machine-generated HTML, PostScript or PDF produced by some word processors "
 "for output purposes only."
 msgstr ""
+"Примеры подходящих форматов для прозрачных копий включают простой ASCII без "
+"разметки, входной формат Texinfo, входной формат LaTeX, SGML или XML с "
+"использованием общедоступного DTD, а также соответствующий стандарту простой"
+" HTML, PostScript или PDF, предназначенный для модификации человеком. "
+"Примеры форматов прозрачных изображений включают PNG, XCF и JPG. К "
+"непрозрачным форматам относятся проприетарные форматы, которые могут "
+"читаться и редактироваться только собственными текстовыми процессорами, SGML"
+" или XML, для которых DTD и/или инструменты обработки обычно недоступны, а "
+"также машинно-генерируемые HTML, PostScript или PDF, создаваемые некоторыми "
+"текстовыми процессорами для только для целей вывода."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:109
@@ -211,6 +282,13 @@ msgid ""
 " appearance of the work’s title, preceding the beginning of the body of the "
 "text."
 msgstr ""
+"«Титульный лист» для печатной книги означает сам титульный лист, а также "
+"такие последующие страницы, которые необходимы для разборчивого размещения "
+"материала, требуемого настоящей Лицензией, для размещения на титульном "
+"листе. Для произведений в форматах, не имеющих титульного листа как "
+"такового, «Титульный лист» означает текст, расположенный вблизи наиболее "
+"заметного места названия произведения, предшествующий началу основной части "
+"текста."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:117
@@ -218,6 +296,8 @@ msgid ""
 "The “publisher” means any person or entity that distributes copies of the "
 "Document to the public."
 msgstr ""
+"«Издатель» означает любое физическое или юридическое лицо, которое "
+"распространяет копии Документа среди общественности."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:121
@@ -230,6 +310,13 @@ msgid ""
 "when you modify the Document means that it remains a section “Entitled XYZ” "
 "according to this definition."
 msgstr ""
+"Раздел «Под названием XYZ» означает именованный подраздел Документа, "
+"заголовок которого либо в точности соответствует XYZ, либо содержит XYZ в "
+"круглых скобках после текста, который переводит XYZ на другой язык. (Здесь "
+"XYZ означает конкретное имя раздела, упомянутое ниже, например "
+"«Благодарности», «Посвящения», «Подтверждения» или «История».) «Сохранить "
+"название» такого раздела при изменении документа означает, что он согласно "
+"этому определению остается разделом «Под названием XYZ»."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:132
@@ -241,11 +328,18 @@ msgid ""
 "Disclaimers may have is void and has no effect on the meaning of this "
 "License."
 msgstr ""
+"Документ может включать отказ от гарантийных обязательств рядом с "
+"уведомлением о том, что настоящая Лицензия распространяется на Документ. "
+"Настоящие Отказ от гарантийных обязательств считаются включенными в "
+"настоящую Лицензию посредством ссылки, но только в отношении отказа от "
+"гарантий: любые другие последствия, которые могут иметь эти Отказ от "
+"гарантийных обязательств, являются недействительными и не влияют на смысл "
+"настоящей Лицензии."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:140
 msgid "2. VERBATIM COPYING"
-msgstr ""
+msgstr "2. ДОСЛОВНОЕ КОПИРОВАНИЕ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:143
@@ -260,6 +354,17 @@ msgid ""
 "distribute a large enough number of copies you must also follow the "
 "conditions in section 3."
 msgstr ""
+"Вы можете копировать и распространять Документ на любом носителе, как в "
+"коммерческих, так и в некоммерческих целях, при условии, что настоящая "
+"Лицензия, уведомления об авторских правах и уведомление о лицензии, в "
+"котором говорится, что данная Лицензия применима к Документу, "
+"воспроизводятся во всех копиях и что вы не добавляете никаких других "
+"условий. положениям настоящей Лицензии. Вы не можете использовать "
+"технические меры, чтобы препятствовать или контролировать чтение или "
+"дальнейшее копирование копий, которые вы делаете или распространяете. Тем не"
+" менее, вы можете принять компенсацию в обмен на копии. Если вы "
+"распространяете достаточно большое количество копий, вы также должны "
+"соблюдать условия раздела 3."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:154
@@ -267,11 +372,13 @@ msgid ""
 "You may also lend copies, under the same conditions stated above, and you "
 "may publicly display copies."
 msgstr ""
+"Вы также можете предоставлять копии на условиях, указанных выше, и вы можете"
+" публично демонстрировать копии."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:158
 msgid "3. COPYING IN QUANTITY"
-msgstr ""
+msgstr "3. МНОЖЕСТВЕННОЕ КОПИРОВАНИЕ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:161
@@ -288,6 +395,18 @@ msgid ""
 "title of the Document and satisfy these conditions, can be treated as "
 "verbatim copying in other respects."
 msgstr ""
+"Если вы публикуете печатные копии (или копии на носителях, которые обычно "
+"имеют печатные обложки) Документа, числом более 100, и в уведомлении о "
+"лицензии на Документ требуются тексты обложки, вы должны вложить копии в "
+"обложки, которые ясно и разборчиво содержат все эти Тексты на обложке: "
+"тексты на передней обложке на передней обложке и тексты на задней обложке на"
+" задней обложке. Обе обложки также должны четко и разборчиво "
+"идентифицировать вас как издателя этих копий. На передней обложке должно "
+"быть указано полное название, причем все слова заголовка должны быть "
+"одинаково заметными и видимыми. Вы можете дополнительно добавить на обложки "
+"другой материал. Копирование с изменениями, ограниченными обложками, при "
+"условии, что они сохраняют название Документа и удовлетворяют этим условиям,"
+" в других отношениях может рассматриваться как дословное копирование."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:174
@@ -324,7 +443,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:197
 msgid "4. MODIFICATIONS"
-msgstr ""
+msgstr "4. МОДИФИКАЦИИ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:200
@@ -368,6 +487,7 @@ msgstr ""
 #: C/appendix-gnu-fdl-1.3.xml:234
 msgid "Preserve all the copyright notices of the Document."
 msgstr ""
+"Сохраните все уведомления об авторских правах, содержащиеся в документе."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:239
@@ -394,7 +514,7 @@ msgstr ""
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:259
 msgid "Include an unaltered copy of this License."
-msgstr ""
+msgstr "Приложите неизмененную копию этой лицензии."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:264
@@ -452,7 +572,7 @@ msgstr ""
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:314
 msgid "Preserve any Warranty Disclaimers."
-msgstr ""
+msgstr "Сохраните все заявления об отказе от гарантий."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:319
@@ -499,7 +619,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:350
 msgid "5. COMBINING DOCUMENTS"
-msgstr ""
+msgstr "5. ОБЪЕДИНЕНИЕ ДОКУМЕНТОВ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:353
@@ -537,7 +657,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:379
 msgid "6. COLLECTIONS OF DOCUMENTS"
-msgstr ""
+msgstr "6. КОЛЛЕКЦИИ ДОКУМЕНТОВ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:382
@@ -561,7 +681,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:395
 msgid "7. AGGREGATION WITH INDEPENDENT WORKS"
-msgstr ""
+msgstr "7. ОБЪЕДИНЕНИЕ С САМОСТОЯТЕЛЬНЫМИ РАБОТАМИ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:398
@@ -590,7 +710,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:416
 msgid "8. TRANSLATION"
-msgstr ""
+msgstr "8. ПЕРЕВОД"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:419
@@ -619,7 +739,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:438
 msgid "9. TERMINATION"
-msgstr ""
+msgstr "9. ПРЕКРАЩЕНИЕ ДЕЙСТВИЯ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:441
@@ -663,12 +783,12 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:469
 msgid "10. FUTURE REVISIONS OF THIS LICENSE"
-msgstr ""
+msgstr "10. БУДУЩИЕ РЕДАКЦИИ НАСТОЯЩЕЙ ЛИЦЕНЗИИ"
 
 #. (itstool) path: simpara/ulink
 #: C/appendix-gnu-fdl-1.3.xml:477
 msgid "Copyleft"
-msgstr ""
+msgstr "Авторское лево"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:472
@@ -698,7 +818,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:492
 msgid "11. RELICENSING"
-msgstr ""
+msgstr "11. ПОВТОРНОЕ ЛИЦЕНЗИРОВАНИЕ"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:495
@@ -818,12 +938,12 @@ msgstr "Инструмент настройки действий меню для
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
 msgid "<_:application-1/> User's Manual"
-msgstr ""
+msgstr "<_:application-1/> Руководство пользователя"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:5
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
@@ -833,22 +953,22 @@ msgstr "2011"
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:8 C/articleinfo.xml:13
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:9 C/articleinfo.xml:14
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:10
 msgid "Pierre Wieser"
-msgstr ""
+msgstr "Пьер Визер"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:15
@@ -917,18 +1037,18 @@ msgstr "Проект документирования MATE"
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "Пьер"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
 msgid "Wieser"
-msgstr ""
+msgstr "Визер"
 
 #. (itstool) path: author/email
 #. (itstool) path: para/email
 #: C/articleinfo.xml:47 C/articleinfo.xml:96 C/articleinfo.xml:106
 msgid "pwieser@trychlos.org"
-msgstr ""
+msgstr "pwieser@trychlos.org"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:51
@@ -943,7 +1063,7 @@ msgstr ""
 #. (itstool) path: author/email
 #: C/articleinfo.xml:53
 msgid "chat-to-me@raveit.de"
-msgstr ""
+msgstr "chat-to-me@raveit.de"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:91
@@ -953,12 +1073,12 @@ msgstr ""
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:92
 msgid "May 2011"
-msgstr ""
+msgstr "Май 2011"
 
 #. (itstool) path: revdescription/para
 #: C/articleinfo.xml:94 C/articleinfo.xml:104
 msgid "Pierre Wieser <_:email-1/>"
-msgstr ""
+msgstr "Пьер Визер <_:email-1/>"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:101
@@ -968,7 +1088,7 @@ msgstr ""
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:102
 msgid "January 2012"
-msgstr ""
+msgstr "Январь 2012"
 
 #. (itstool) path: C/articleinfo.xml/articleinfo
 #: C/articleinfo.xml:1
@@ -981,12 +1101,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:2
 msgid "Known bugs"
-msgstr ""
+msgstr "Известные проблемы"
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:5
 msgid "Bugzilla summary page"
-msgstr ""
+msgstr "Страница сводки в Bugzilla"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:3
@@ -996,7 +1116,7 @@ msgstr ""
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:10
 msgid "Bugzilla web site"
-msgstr ""
+msgstr "Веб-сайт Bugzilla"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:7
@@ -1008,7 +1128,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:14
 msgid "Known limitations"
-msgstr ""
+msgstr "Известные ограничения"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: sect4/title
@@ -1029,6 +1149,8 @@ msgid ""
 "This concern working directory, execution mode, startup notification and "
 "execution's owner parameters."
 msgstr ""
+"Это касается рабочего каталога, режима выполнения, уведомления о запуске и "
+"параметров владельца выполнения."
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
@@ -1065,7 +1187,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-conditions.xml:2
 msgid "Defining the conditions"
-msgstr ""
+msgstr "Определение условий"
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:3
@@ -1111,7 +1233,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:29 C/cact-starting.xml:296
 msgid "Basenames"
-msgstr ""
+msgstr "Базовые имена"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:27
@@ -1252,12 +1374,12 @@ msgstr ""
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:119 C/cact-conditions.xml:131
 msgid "/my/file"
-msgstr ""
+msgstr "/мой/файл"
 
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:121 C/cact-conditions.xml:133
 msgid "/My/File"
-msgstr ""
+msgstr "/Мой/Файл"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:116
@@ -1405,7 +1527,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:244 C/cact-conditions.xml:294
 msgid "*/*"
-msgstr ""
+msgstr "*/*"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:243
@@ -1423,7 +1545,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:254
 msgid "group"
-msgstr ""
+msgstr "группа"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:250
@@ -1451,7 +1573,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:293
 msgid "must match one of */*"
-msgstr ""
+msgstr "должно соответствовать одному из */*"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:290
@@ -1474,7 +1596,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:307
 msgid "Matches all items."
-msgstr ""
+msgstr "Соответствует всем элементам."
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:315
@@ -1484,12 +1606,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:318
 msgid "Matches all regular files."
-msgstr ""
+msgstr "Соответствует всем обычным файлам."
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:326
 msgid "inode/directory"
-msgstr ""
+msgstr "узел ФС / каталог"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:329
@@ -1585,7 +1707,7 @@ msgstr "Обзор"
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:423
 msgid "Or click on <_:guibutton-1/> to select a folder on the file system."
-msgstr ""
+msgstr "Или нажмите на <_:guibutton-1/> для выбора папки в файловой системе."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:444
@@ -1638,7 +1760,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:477 C/cact-starting.xml:332
 msgid "Schemes"
-msgstr ""
+msgstr "Схемы"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:475
@@ -1650,7 +1772,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:481
 msgid "Scheme-based conditions"
-msgstr ""
+msgstr "Условия на основе схемы"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:488
@@ -1779,7 +1901,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:606
 msgid "Local"
-msgstr ""
+msgstr "Локально"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:604
@@ -1848,7 +1970,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:663
 msgid "Press <_:keycap-1/> to insert a new condition filter."
-msgstr ""
+msgstr "Нажмите <_:keycap-1/> для вставки нового фильтра условий."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:670
@@ -1953,7 +2075,7 @@ msgstr ""
 #: C/cact-conditions.xml:1010 C/cact-conditions.xml:1049
 #: C/cact-starting.xml:356
 msgid "Environment"
-msgstr ""
+msgstr "Окружение"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:751 C/cact-conditions.xml:856
@@ -1966,7 +2088,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:758
 msgid "Environment-based conditions"
-msgstr ""
+msgstr "Условия на основе среды"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:765
@@ -1994,7 +2116,7 @@ msgstr ""
 #. (itstool) path: phrase/guilabel
 #: C/cact-conditions.xml:787
 msgid "Appears if selection contains"
-msgstr ""
+msgstr "Появляется, если выделенное содержит"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:786 C/cact-conditions.xml:874
@@ -2019,7 +2141,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:807
 msgid "Count"
-msgstr ""
+msgstr "Счётчик"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:805
@@ -2036,7 +2158,7 @@ msgstr "&lt;"
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:811
 msgid "(strictly less than)"
-msgstr ""
+msgstr "(строго меньше, чем)"
 
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:812
@@ -2061,7 +2183,7 @@ msgstr "(строго больше, чем)"
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:817
 msgid "Enter the reference count you wish."
-msgstr ""
+msgstr "Введите желаемое количество ссылок."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:825
@@ -2111,7 +2233,7 @@ msgstr ""
 #. (itstool) path: phrase/guilabel
 #: C/cact-conditions.xml:864 C/cact-conditions.xml:875
 msgid "Desktop environment"
-msgstr ""
+msgstr "Среда рабочего стола"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:861
@@ -2131,13 +2253,15 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:886
 msgid "First select the type of filter:"
-msgstr ""
+msgstr "Сначала выберите тип фильтра:"
 
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:890
 msgid ""
 "should your action always appear, regardless of the desktop environment ?"
 msgstr ""
+"должно ли ваше действие появляться всегда, независимо от окружения рабочего "
+"стола?"
 
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:892
@@ -2159,7 +2283,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:909
 msgid "Always appear"
-msgstr ""
+msgstr "Отображать всегда"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:906
@@ -2189,7 +2313,7 @@ msgstr ""
 #: C/cact-conditions.xml:980 C/cact-conditions.xml:1013
 #: C/cact-conditions.xml:1052
 msgid "Execution environment"
-msgstr ""
+msgstr "Среда выполнения"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:929
@@ -2200,7 +2324,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:935
 msgid "Execution environment frame"
-msgstr ""
+msgstr "Рамка среды выполнения"
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:951
@@ -2232,7 +2356,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-conditions.xml:970
 msgid "D-Bus registration condition"
-msgstr ""
+msgstr "Условие регистрации D-Bus"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:971
@@ -2297,7 +2421,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:1024
 msgid "Appears if the command outputs \"true\""
-msgstr ""
+msgstr "Отображается, если команда выводит «true»"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:1021
@@ -2346,7 +2470,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-edit.xml:2
 msgid "Editing"
-msgstr ""
+msgstr "Правка"
 
 #. (itstool) path: sect2/para
 #: C/cact-edit.xml:3
@@ -2358,7 +2482,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-edit.xml:8
 msgid "Cut/Delete"
-msgstr ""
+msgstr "Вырезать/удалить"
 
 #. (itstool) path: sect3/para
 #: C/cact-edit.xml:9
@@ -2466,7 +2590,7 @@ msgstr ""
 #. (itstool) path: para/guibutton
 #: C/cact-execution.xml:26 C/cact-execution.xml:45
 msgid "Legend"
-msgstr ""
+msgstr "Легенда"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:22
@@ -2488,7 +2612,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:47
 msgid "Parameter Legend"
-msgstr ""
+msgstr "Условные обозначения параметров"
 
 #. (itstool) path: tip/para
 #: C/cact-execution.xml:43
@@ -2527,7 +2651,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:70
 msgid "Where the action should it be executed ?"
-msgstr ""
+msgstr "Где это действие должно быть выполнено?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:71
@@ -2595,7 +2719,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:120 C/cact-starting.xml:286
 msgid "Execution"
-msgstr ""
+msgstr "Выполнение"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:118
@@ -2607,7 +2731,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:124
 msgid "Configuration of the execution modes"
-msgstr ""
+msgstr "Настройка режимов выполнения"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:131
@@ -2617,7 +2741,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:140
 msgid "Configuration of the execution mode"
-msgstr ""
+msgstr "Настройка режима выполнения"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:147
@@ -2697,7 +2821,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:214
 msgid "Startup notification"
-msgstr ""
+msgstr "Уведомление о запуске"
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:216
@@ -2712,12 +2836,12 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-execution.xml:231
 msgid "remove"
-msgstr ""
+msgstr "убрать"
 
 #. (itstool) path: para/envar
 #: C/cact-execution.xml:232
 msgid "DESKTOP_STARTUP_ID"
-msgstr ""
+msgstr "DESKTOP_STARTUP_ID"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
@@ -2745,7 +2869,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:240
 msgid "Window class"
-msgstr ""
+msgstr "Класс окна"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:246
@@ -2768,12 +2892,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:255
 msgid "Configuration of the owner of the run"
-msgstr ""
+msgstr "Настройка владельца запуска"
 
 #. (itstool) path: phrase/guilabel
 #: C/cact-execution.xml:262
 msgid "Execute as"
-msgstr ""
+msgstr "Выполнить как"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
@@ -2783,7 +2907,7 @@ msgstr "Выполнять от имени пользователя"
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
 msgid "UID"
-msgstr ""
+msgstr "Идентификатор пользователя"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:267
@@ -2829,13 +2953,13 @@ msgstr ""
 #. (itstool) path: para/abbrev
 #: C/cact-execution.xml:295 C/cact-execution.xml:301 C/cact-execution.xml:308
 msgid "e.g."
-msgstr ""
+msgstr "напр.,"
 
 #. (itstool) path: para/literal
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:295 C/cact-execution.xml:377
 msgid "%c"
-msgstr ""
+msgstr "%c"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:293
@@ -2917,7 +3041,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:356
 msgid "Parameter"
-msgstr ""
+msgstr "Параметр"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:357
@@ -2927,7 +3051,7 @@ msgstr "Описание"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:358
 msgid "Repetition"
-msgstr ""
+msgstr "Повторение"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:364
@@ -2958,13 +3082,13 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:378
 msgid "count of selected items"
-msgstr ""
+msgstr "число выбранных элементов"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:380 C/cact-execution.xml:415 C/cact-execution.xml:436
 #: C/cact-execution.xml:457 C/cact-execution.xml:464 C/cact-execution.xml:513
 msgid "irrelevant"
-msgstr ""
+msgstr "неподходящий"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:385
@@ -2974,12 +3098,13 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:391
 msgid "%D"
-msgstr ""
+msgstr "%D"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:392
 msgid "space-separated list of base directory of each selected items"
 msgstr ""
+"разделённый пробелами список базового каталога каждого выбранного элемента"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:398
@@ -2989,7 +3114,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:399
 msgid "(first) filename"
-msgstr ""
+msgstr "(first) имя файла"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:405
@@ -3034,7 +3159,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:433
 msgid "%n"
-msgstr ""
+msgstr "%n"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:434
@@ -3054,7 +3179,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:447
 msgid "%O"
-msgstr ""
+msgstr "%O"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:448
@@ -3089,12 +3214,12 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:469
 msgid "(first) URI"
-msgstr ""
+msgstr "(first) URI-ссылка"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:475
 msgid "%U"
-msgstr ""
+msgstr "%U"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:476
@@ -3104,12 +3229,12 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:482
 msgid "%w"
-msgstr ""
+msgstr "%w"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:483
 msgid "(first) basename without the extension"
-msgstr ""
+msgstr "(first) базовое имя без расширения"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:489
@@ -3124,12 +3249,12 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:496
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:497
 msgid "(first) extension"
-msgstr ""
+msgstr "(first) расширение"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
@@ -3154,7 +3279,7 @@ msgstr "%"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:511
 msgid "the « <_:literal-1/> » character"
-msgstr ""
+msgstr "символ « <_:literal-1/> »"
 
 #. (itstool) path: example/title
 #: C/cact-execution.xml:520
@@ -3169,7 +3294,7 @@ msgstr ""
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "pierre"
-msgstr ""
+msgstr "пьер"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
@@ -3329,7 +3454,7 @@ msgstr "Импорт действий"
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
 msgid "Organizing actions in menus"
-msgstr ""
+msgstr "Организация действий в меню"
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:3
@@ -3360,7 +3485,7 @@ msgstr ""
 #. (itstool) path: para/abbrev
 #: C/cact-menus.xml:10 C/cact-where.xml:202
 msgid "i.e."
-msgstr ""
+msgstr "напр.,"
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:8
@@ -3379,12 +3504,13 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-menus.xml:19
 msgid "Manual order:"
-msgstr ""
+msgstr "Ручной порядок:"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:23
 msgid "The new menu is inserted just before the current action or menu."
 msgstr ""
+"Новое меню вставляется непосредственно перед текущим действием или меню."
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:27
@@ -3447,6 +3573,7 @@ msgstr ""
 msgid ""
 "Choose <_:menuchoice-1/> to access to the configuration of your preferences."
 msgstr ""
+"Выберите <_:menuchoice-1/> для доступа к настройке ваших предпочтений."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
@@ -3473,12 +3600,12 @@ msgstr ""
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:46
 msgid "Let the user explicitely configure the current desktop."
-msgstr ""
+msgstr "Позволяет пользователю явно настраивать текущий рабочий стол."
 
 #. (itstool) path: sect3/title
 #: C/cact-prefs.xml:54
 msgid "User interface preferences"
-msgstr ""
+msgstr "Настройки пользовательского интерфейса"
 
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:56
@@ -3494,7 +3621,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:71 C/cact-prefs.xml:73
 msgid "Import preferences"
-msgstr ""
+msgstr "Импортировать параметры"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:80
@@ -3505,7 +3632,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:90 C/cact-prefs.xml:92
 msgid "Export preferences"
-msgstr ""
+msgstr "Экспортировать параметры"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:99
@@ -3527,7 +3654,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:128 C/cact-prefs.xml:130
 msgid "I/O providers preferences"
-msgstr ""
+msgstr "Параметры поставщиков ввода-вывода"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:137
@@ -3671,6 +3798,8 @@ msgstr ""
 #: C/cact-profiles.xml:84
 msgid "Click on the profile to be moved, and drag it to its right place."
 msgstr ""
+"Щёлкните на профиль, который нужно переместить, и перетащите его на нужное "
+"место."
 
 #. (itstool) path: sect2/title
 #: C/cact-properties.xml:2
@@ -3698,7 +3827,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-save.xml:2
 msgid "Saving your modifications"
-msgstr ""
+msgstr "Сохранение ваших изменений"
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-save.xml:3 C/cact-starting.xml:105 C/cact-starting.xml:644
@@ -3738,7 +3867,7 @@ msgstr ""
 #: C/cact-sorting.xml:7 C/cact-starting.xml:462 C/cact-starting.xml:500
 #: C/cact-starting.xml:636
 msgid "Items list"
-msgstr ""
+msgstr "Список элементов"
 
 #. (itstool) path: sect2/para
 #: C/cact-sorting.xml:3
@@ -3770,7 +3899,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-sorting.xml:29
 msgid "Alphabetically sorting your actions and menus"
-msgstr ""
+msgstr "Алфавитная сортировка ваших действий и меню"
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:30
@@ -3792,7 +3921,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:47
 msgid "You may sort your actions by:"
-msgstr ""
+msgstr "Вы можете отсортировать свои действия по:"
 
 #. (itstool) path: para/abbrev
 #: C/cact-sorting.xml:52
@@ -3814,12 +3943,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-sorting.xml:55 C/cact-sorting.xml:86
 msgid "Or edit the corresponding preference."
-msgstr ""
+msgstr "Или изменить соответствующие настройки."
 
 #. (itstool) path: sect3/title
 #: C/cact-sorting.xml:63
 msgid "Manually organizing your actions and menus"
-msgstr ""
+msgstr "Ручная организация ваших действий и меню"
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:64
@@ -3849,12 +3978,12 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:2
 msgid "Starting <_:application-1/>"
-msgstr ""
+msgstr "Запускается <_:application-1/>"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:3
 msgid "You can start <_:application-1/> in the following ways:"
-msgstr ""
+msgstr "Вы можете запустить <_:application-1/> следующими способами:"
 
 #. (itstool) path: term/guimenu
 #: C/cact-starting.xml:8
@@ -3890,7 +4019,7 @@ msgstr ""
 #. (itstool) path: command/filename
 #: C/cact-starting.xml:20 C/cact-starting.xml:32
 msgid "caja-actions-config-tool"
-msgstr ""
+msgstr "caja-actions-config-tool"
 
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
@@ -3902,7 +4031,7 @@ msgstr "Return"
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:22 C/cact-starting.xml:36 C/cact-starting.xml:430
 msgid "then press <_:keycap-1/>."
-msgstr ""
+msgstr "затем нажмите <_:keycap-1/>."
 
 #. (itstool) path: tip/para
 #: C/cact-starting.xml:27
@@ -3917,7 +4046,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:46
 msgid "The first run"
-msgstr ""
+msgstr "Первый запуск"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:47
@@ -3940,12 +4069,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:73
 msgid "The <_:application-1/> main window contains the following elements:"
-msgstr ""
+msgstr "Главное окно <_:application-1/> содержит следующие элементы:"
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:78
 msgid "Menubar."
-msgstr ""
+msgstr "Строка меню."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:80
@@ -3957,7 +4086,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:84
 msgid "Shortcuts are available for some commands:"
-msgstr ""
+msgstr "Для некоторых команд доступны ярлыки:"
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:92 C/cact-starting.xml:435
@@ -3967,12 +4096,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:96
 msgid "Create a new action."
-msgstr ""
+msgstr "Создать новое действие."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:109
 msgid "Save modified actions and menus."
-msgstr ""
+msgstr "Сохранить изменённые действия и меню."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:118
@@ -4002,7 +4131,7 @@ msgstr "°C"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:148
 msgid "Copy the current selection to the clipboard."
-msgstr ""
+msgstr "Копировать текущее выделение в буфер обмена."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:157 C/cact-starting.xml:171
@@ -4018,6 +4147,8 @@ msgstr ""
 #: C/cact-starting.xml:175
 msgid "Insert the content of the clipboard as subitem(s) of the current item."
 msgstr ""
+"Вставьте содержимое буфера обмена в качестве подпункта(-ов) текущего "
+"элемента."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:183
@@ -4027,7 +4158,7 @@ msgstr "Удалить"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:187
 msgid "Delete the current selection."
-msgstr ""
+msgstr "Удалить текущее выделение."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
@@ -4052,7 +4183,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:220
 msgid "Toolbar."
-msgstr ""
+msgstr "Панель инструментов."
 
 #. (itstool) path: menuchoice/guimenu
 #: C/cact-starting.xml:222
@@ -4098,7 +4229,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:241
 msgid "Modified items are displayed in italic characters."
-msgstr ""
+msgstr "Изменённые элементы отображаются курсивом."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:247
@@ -4125,7 +4256,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:264
 msgid "Action/Menu"
-msgstr ""
+msgstr "Действие/меню"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:268
@@ -4199,7 +4330,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:381
 msgid "Statusbar."
-msgstr ""
+msgstr "Строка состояния."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:383
@@ -4225,7 +4356,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:405
 msgid "Creating your first action"
-msgstr ""
+msgstr "Создание вашего первого действия"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:406
@@ -4330,7 +4461,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:475
 msgid "Qualifying your new action"
-msgstr ""
+msgstr "Уточнение вашего нового действия"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:476
@@ -4380,7 +4511,7 @@ msgstr ""
 #: C/cact-starting.xml:508 C/cact-starting.xml:512 C/cact-where.xml:118
 #: C/cact-where.xml:160
 msgid "Tooltip"
-msgstr ""
+msgstr "Всплывающая подсказка"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:510
@@ -4470,7 +4601,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:593
 msgid "You have two ways of defining the command to be executed:"
-msgstr ""
+msgstr "У вас есть два способа определения команды для выполнения:"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:598
@@ -4503,7 +4634,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-starting.xml:621 C/cact-starting.xml:626 C/cact-starting.xml:633
 msgid "Parameters"
-msgstr ""
+msgstr "Параметры"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:624
@@ -4525,7 +4656,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:643
 msgid "Saving"
-msgstr ""
+msgstr "Сохранение"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:644
@@ -4542,7 +4673,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:651
 msgid "Your first action in the <_:productname-1/> context menu"
-msgstr ""
+msgstr "Ваше первое действие в контекстном меню <_:productname-1/>"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-starting.xml:658
@@ -4559,7 +4690,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:669
 msgid "The result of the execution of your first action"
-msgstr ""
+msgstr "Результат выполнения вашего первого действия"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-starting.xml:676
@@ -4576,7 +4707,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-where.xml:4
 msgid "Target configuration"
-msgstr ""
+msgstr "Целевая настройка"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-where.xml:11
@@ -4636,7 +4767,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-where.xml:47
 msgid "This target is checked by default."
-msgstr ""
+msgstr "Этот целевой объект установлен по умолчанию."
 
 #. (itstool) path: sect3/title
 #: C/cact-where.xml:53
@@ -4754,7 +4885,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-where.xml:147
 msgid "Toolbar label"
-msgstr ""
+msgstr "Надпись в панели инструментов"
 
 #. (itstool) path: note/para
 #: C/cact-where.xml:165
@@ -4852,7 +4983,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/index.docbook:90
 msgid "Define and configure actions from scratch."
-msgstr ""
+msgstr "Определить и настройть действия с нуля."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:93
@@ -4916,17 +5047,17 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:170
 msgid "Miscellaneous informations"
-msgstr ""
+msgstr "Прочие сведения"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:181
 msgid "Known Bugs and Limitations"
-msgstr ""
+msgstr "Известные проблемы и ограничения"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:195
 msgid "About <application>Caja-Actions Configuration Tool</application>"
-msgstr ""
+msgstr "Об <application>инструменте настройки Caja-Actions</application>"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:196

@@ -7,16 +7,16 @@
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
-# Andika Triwidada <andika@gmail.com>, 2021
 # Reza Almanda <rezaalmanda27@gmail.com>, 2022
+# Andika Triwidada <andika@gmail.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>, 2022\n"
-"Language-Team: Indonesian (https://www.transifex.com/mate/teams/13566/id/)\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>, 2023\n"
+"Language-Team: Indonesian (https://app.transifex.com/mate/teams/13566/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -895,7 +895,7 @@ msgstr "Projek Dokumentasi MATE"
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "Pierre"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46

@@ -16,9 +16,10 @@
 # Alexey Rodionov <melenki@yandex.ru>, 2021
 # Павел Коваленко, 2021
 # Igor Vornovskii, 2022
-# Ser82, 2022
+# Sergej A. <Ser82-png@yandex.ru>, 2022
 # Леонид Дягилев, 2022
 # Alex Puts, 2022
+# Andrei Stepanov, 2023
 # 
 msgid ""
 msgstr ""
@@ -26,8 +27,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Alex Puts, 2022\n"
-"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
+"Last-Translator: Andrei Stepanov, 2023\n"
+"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -111,6 +112,9 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
@@ -959,14 +963,14 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr "Иконка пункта контекстного меню"
+msgstr "Значок пункта контекстного меню"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
 msgstr ""
-"Иконка пункта меню, которая появится рядом с ярлыком в контекстном меню файлового менеджера при совпадении выбора с настройками условий появления.\n"
+"Значок пункта меню, который появится рядом с ярлыком в контекстном меню файлового менеджера при совпадении выбора с настройками условий появления.\n"
 "Может быть локализованным названием тематического значка или полным путем к любому подходящему изображению."
 
 #: src/core/na-object-item-factory.c:161

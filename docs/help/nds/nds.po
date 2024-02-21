@@ -2,15 +2,15 @@
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Benedikt Straub <benedikt-straub@web.de>, 2022
+# Benedikt Straub <benedikt-straub@web.de>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2022\n"
-"Language-Team: Low German (https://www.transifex.com/mate/teams/13566/nds/)\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2023\n"
+"Language-Team: Low German (https://app.transifex.com/mate/teams/13566/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2013,7 +2013,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:812
 msgid "="
-msgstr ""
+msgstr "="
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:812

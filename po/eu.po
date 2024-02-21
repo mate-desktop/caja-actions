@@ -7,6 +7,7 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2021
+# Alexander Gabilondo <alexgabi@disroot.org>, 2023
 # 
 msgid ""
 msgstr ""
@@ -14,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2021\n"
-"Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
+"Last-Translator: Alexander Gabilondo <alexgabi@disroot.org>, 2023\n"
+"Language-Team: Basque (https://app.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,13 +25,15 @@ msgstr ""
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "_Galde iezadazu"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
+"Elementu bat esportatzear dagoen bakoitzean aukeratzeko formatua eskatuko "
+"zaizu."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60

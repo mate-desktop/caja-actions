@@ -18,14 +18,16 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
 # Laíres Sales <lairess@gmail.com>, 2021
+# Vitor Henrique, 2023
+# Walter Andrade, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Laíres Sales <lairess@gmail.com>, 2021\n"
-"Language-Team: Portuguese (Brazil) (https://www.transifex.com/mate/teams/13566/pt_BR/)\n"
+"Last-Translator: Walter Andrade, 2023\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -815,7 +817,7 @@ msgstr ""
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
@@ -2765,7 +2767,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Executar como usuário"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -3882,7 +3884,7 @@ msgstr ""
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "Enter"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para

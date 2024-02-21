@@ -12,14 +12,15 @@
 # seacat <seacat.linux@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Toni Estévez <toni.estevez@gmail.com>, 2021
+# Francisco Serrador, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2021\n"
-"Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
+"Last-Translator: Francisco Serrador, 2023\n"
+"Language-Team: Spanish (https://app.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -29,22 +30,22 @@ msgstr ""
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
 msgid "GNU Free Documentation License"
-msgstr ""
+msgstr "Licencia de Documentación Libre GNU"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:3
 msgid "Version 1.3, 3 November 2008"
-msgstr ""
+msgstr "Versión 1.3, 3 Noviembre 2008"
 
 #. (itstool) path: simpara/ulink
 #: C/appendix-gnu-fdl-1.3.xml:6
 msgid "Free Software Foundation, Inc."
-msgstr ""
+msgstr "Free Software Foundation, Inc."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:4
 msgid "Copyright © 2000, 2001, 2002, 2007, 2008 <_:ulink-1/>"
-msgstr ""
+msgstr "Copyright © 2000, 2001, 2002, 2007, 2008 <_:ulink-1/>"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:8
@@ -799,37 +800,37 @@ msgstr "Herramienta de configuración de las acciones de Caja"
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
 msgid "<_:application-1/> User's Manual"
-msgstr ""
+msgstr "Manual del Usuario"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:5
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:8 C/articleinfo.xml:13
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:9 C/articleinfo.xml:14
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:10
 msgid "Pierre Wieser"
-msgstr ""
+msgstr "Pierre Wieser"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:15
@@ -871,6 +872,11 @@ msgid ""
 "context menus. These actions may be organized in menus and submenus, "
 "exported and shared with other desktop environments."
 msgstr ""
+"<_:productname-1/> es una <_:productname-2/> extensión cuya función "
+"principal es permitir al usuario añadir acciones arbitrarias a los menús de "
+"contexto del gestor de archivos. Estas acciones pueden ser organizadas en "
+"menús y submenús, exportados y compartidos con otros entornos de "
+"escritorios."
 
 #. (itstool) path: abstract/para
 #: C/articleinfo.xml:24
@@ -879,11 +885,16 @@ msgid ""
 "how you may configure your menus and actions, making them be displayed and "
 "applied depending on specific conditions."
 msgstr ""
+"Este manual describe el <_:application-1/> interfaz del usuario, y explica "
+"como puede configurar sus menús y acciones, haciéndolas representadas y "
+"aplicadas dependiendo de condiciones específicas."
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/articleinfo.xml:31
 msgid "This manual describes version 3.2 of Caja-Actions Configuration Tool."
 msgstr ""
+"Este manual describe la versión 3.2 de la Herramienta de Configuración Caja-"
+"Acciones."
 
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:36
@@ -898,58 +909,60 @@ msgstr "Proyecto de documentación de MATE"
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "Pierre"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
 msgid "Wieser"
-msgstr ""
+msgstr "Wieser"
 
 #. (itstool) path: author/email
 #. (itstool) path: para/email
 #: C/articleinfo.xml:47 C/articleinfo.xml:96 C/articleinfo.xml:106
 msgid "pwieser@trychlos.org"
-msgstr ""
+msgstr "pwieser@trychlos.org"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:51
 msgid "Wolfgang"
-msgstr ""
+msgstr "Wolfgang"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:52
 msgid "Ulbrich"
-msgstr ""
+msgstr "Ulbrich"
 
 #. (itstool) path: author/email
 #: C/articleinfo.xml:53
 msgid "chat-to-me@raveit.de"
-msgstr ""
+msgstr "chat-to-me@raveit.de"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:91
 msgid "Caja-Actions Configuration Tool User's Manual v 3.1"
 msgstr ""
+"Manual de Usuario para Herramientas de Configuración Caja-Acciones v 3.1"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:92
 msgid "May 2011"
-msgstr ""
+msgstr "May 2011"
 
 #. (itstool) path: revdescription/para
 #: C/articleinfo.xml:94 C/articleinfo.xml:104
 msgid "Pierre Wieser <_:email-1/>"
-msgstr ""
+msgstr "Pierre Wieser <_:email-1/>"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:101
 msgid "Caja-Actions Configuration Tool User's Manual v 3.2"
 msgstr ""
+"Manual de Usuario para Herramientas de Configuración Caja-Acciones v 3.2"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:102
 msgid "January 2012"
-msgstr ""
+msgstr "Enero 2012"
 
 #. (itstool) path: C/articleinfo.xml/articleinfo
 #: C/articleinfo.xml:1
@@ -958,26 +971,29 @@ msgid ""
 "<_:releaseinfo-5/> <_:publisher-6/> <_:publisher-7/> <_:authorgroup-8/> "
 "<_:revhistory-9/> legalnotice.xml"
 msgstr ""
+"<_:title-1/> <_:copyright-2/> <_:copyright-3/> <_:abstract-4/> "
+"<_:releaseinfo-5/> <_:publisher-6/> <_:publisher-7/> <_:authorgroup-8/> "
+"<_:revhistory-9/> legalnotice.xml"
 
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:2
 msgid "Known bugs"
-msgstr ""
+msgstr "Fallos conocidos"
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:5
 msgid "Bugzilla summary page"
-msgstr ""
+msgstr "Página de sumario Bugzilla"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:3
 msgid "Known bugs are available on <_:ulink-1/>."
-msgstr ""
+msgstr "Fallos conocidos están disponibles en <_:ulink-1/>."
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:10
 msgid "Bugzilla web site"
-msgstr ""
+msgstr "Sitio web Bugzilla"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:7
@@ -985,11 +1001,13 @@ msgid ""
 "If you find some new bug in <_:productname-1/>, you are welcome to open it "
 "by pointing your favorite browser to <_:ulink-2/>."
 msgstr ""
+"Si encuentras algún fallo nuevo en <_:productname-1/>, es bienvenido abrirlo"
+" apuntando su explorador favorito a <_:ulink-2/>."
 
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:14
 msgid "Known limitations"
-msgstr ""
+msgstr "Limitaciones conocidas"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: sect4/title
@@ -1003,6 +1021,9 @@ msgid ""
 "As of version 3.0, execution mode may be configured in <_:application-1/> "
 "but is not yet honored by <_:productname-2/> plugin."
 msgstr ""
+"Tal como la versión 3.0, el modo de ejecución puede ser configurado en "
+"<_:application-1/> pero aún no es honrado por el complemento "
+"<_:productname-2/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:23
@@ -1233,7 +1254,7 @@ msgstr ""
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:119 C/cact-conditions.xml:131
 msgid "/my/file"
-msgstr ""
+msgstr "/mi/archivo"
 
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:121 C/cact-conditions.xml:133
@@ -1290,7 +1311,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:152 C/cact-conditions.xml:593
 msgid "must match one of *"
-msgstr ""
+msgstr "debe coincidir uno de *"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:149
@@ -1305,7 +1326,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:160 C/cact-conditions.xml:174
 msgid "Mimetype-based conditions"
-msgstr ""
+msgstr "Condiciones basadas en Mimetype"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:161
@@ -2441,13 +2462,13 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:21
 msgid "Available parameters"
-msgstr ""
+msgstr "Parámetros disponibles"
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: para/guibutton
 #: C/cact-execution.xml:26 C/cact-execution.xml:45
 msgid "Legend"
-msgstr ""
+msgstr "Leyenda"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:22
@@ -2469,7 +2490,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:47
 msgid "Parameter Legend"
-msgstr ""
+msgstr "Leyenda de Parámetros"
 
 #. (itstool) path: tip/para
 #: C/cact-execution.xml:43
@@ -2481,7 +2502,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:54 C/cact-execution.xml:62 C/cact-execution.xml:104
 msgid "first"
-msgstr ""
+msgstr "primero"
 
 #. (itstool) path: note/para
 #: C/cact-execution.xml:52
@@ -2490,11 +2511,14 @@ msgid ""
 " of selected items internally provided by the file manager to the "
 "<_:productname-2/> plugin."
 msgstr ""
+"La palabra « <_:guilabel-1/> » puede estar mal dirigido como solamente "
+"refiere al listado de elementos seleccionados proporcionados internamente "
+"por el gestos de archivo al complemento <_:productname-2/>."
 
 #. (itstool) path: para/emphasis
 #: C/cact-execution.xml:59
 msgid "nothing to do"
-msgstr ""
+msgstr "nada para hacer"
 
 #. (itstool) path: note/para
 #: C/cact-execution.xml:58
@@ -2508,7 +2532,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:70
 msgid "Where the action should it be executed ?"
-msgstr ""
+msgstr "¿Donde la acción sería ejecutada?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:71
@@ -2542,7 +2566,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:97 C/cact-execution.xml:102 C/cact-execution.xml:384
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:96
@@ -2550,6 +2574,8 @@ msgid ""
 "The working directory defaults to <_:literal-1/>, which runs the command in "
 "the base directory of the (first) selected item."
 msgstr ""
+"La carpeta de trabajo predetermina a <_:literal-1/>, la cual ejecuta la "
+"instrucción en el directorio base del elemento (primero) seleccionado."
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:101
@@ -2558,11 +2584,15 @@ msgid ""
 "<_:guilabel-2/> » selected item is not very important because it is very "
 "likely that all selected items are located in the same base directory."
 msgstr ""
+"En caso particular del parámetro <_:literal-1/>, el elemento "
+"«<_:guilabel-2/>» seleccionado no es muy importante porque es muy como que "
+"todos los elementos seleccionados están localizados en el mismo directorio "
+"base."
 
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:111
 msgid "How should the action be executed ?"
-msgstr ""
+msgstr "¿Cómo la acción sería ejecutada?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:112
@@ -2576,7 +2606,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:120 C/cact-starting.xml:286
 msgid "Execution"
-msgstr ""
+msgstr "Ejecución"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:118
@@ -2584,32 +2614,36 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which configures the "
 "execution of your command."
 msgstr ""
+"Pulse sobre la etiqueta <_:guilabel-1/> para mostrar la página la cual "
+"configura la ejecución de su instrucción."
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:124
 msgid "Configuration of the execution modes"
-msgstr ""
+msgstr "Configuración de los modos de ejecución"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:131
 msgid "Shows how to configure the execution modes of a command."
-msgstr ""
+msgstr "Muestra como configurar los modos de ejecución de una instrucción."
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:140
 msgid "Configuration of the execution mode"
-msgstr ""
+msgstr "Configuración del modo de ejecución"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:147
 msgid "Focus on the execution mode frame."
-msgstr ""
+msgstr "Dar foco sobre el marco de modo de ejecución."
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:152
 msgid ""
 "The execution mode of your command may be chosen between following values:"
 msgstr ""
+"El modo de ejecución de su orden puede ser elegido entre los valores "
+"siguientes:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -2621,7 +2655,7 @@ msgstr "Normal"
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:162
 msgid "Starts the command as a standard graphical user interface."
-msgstr ""
+msgstr "Inicia la instrucción como un interfaz de usuario gráfico estándar."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -2635,6 +2669,8 @@ msgid ""
 "Starts the preferred terminal of the desktop environment, and runs the "
 "command in it."
 msgstr ""
+"Inicia el terminal preferido del entorno de escritorio, y ejecuta la "
+"instrucción dentro de éste."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:179
@@ -2647,6 +2683,8 @@ msgid ""
 "Makes use of a special feature of the file manager which may allow a "
 "terminal to be ran in it."
 msgstr ""
+"Hace el uso de una característica especial del gestor de archivo la cual "
+"puede permitir un terminal sera ejecutado dentro de esto."
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:187
@@ -2654,11 +2692,13 @@ msgid ""
 "As <_:productname-1/> does not have this feature, this option is strictly "
 "equivalent to <_:literal-2/> option."
 msgstr ""
+"Como <_:productname-1/> no tiene esta característica, esta opción es "
+"estrictamente equivalente a la opción <_:literal-2/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:194
 msgid "Display output"
-msgstr ""
+msgstr "Representar salida"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:198
@@ -2678,27 +2718,27 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:214
 msgid "Startup notification"
-msgstr ""
+msgstr "Iniciar notificación"
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:216
 msgid "Configuration of the startup modes"
-msgstr ""
+msgstr "Configuración de los modos de arranque"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:223
 msgid "Focus on the Startup mode frame."
-msgstr ""
+msgstr "Enfoque al marco del modo de Arrancar"
 
 #. (itstool) path: para/literal
 #: C/cact-execution.xml:231
 msgid "remove"
-msgstr ""
+msgstr "retirar"
 
 #. (itstool) path: para/envar
 #: C/cact-execution.xml:232
 msgid "DESKTOP_STARTUP_ID"
-msgstr ""
+msgstr "DESKTOP_STARTUP_ID"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
@@ -2712,26 +2752,29 @@ msgid ""
 " the application will send a <_:literal-2/> message with the <_:envar-3/> "
 "environment variable set, then check the <_:guilabel-4/> checkbox."
 msgstr ""
+"Si el modo de ejecución de la instrucción es <_:literal-1/>, y si conoce que"
+" la aplicación enviará un mensaje <_:literal-2/> con la variable de entorno "
+"<_:envar-3/> fijada, entonces marque la casilla <_:guilabel-4/>."
 
 #. (itstool) path: ulink/citetitle
 #: C/cact-execution.xml:236 C/cact-execution.xml:249
 msgid "Startup Notification Protocol Specification"
-msgstr ""
+msgstr "Especificación Protocolaria de Notificación de Arranque"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:236 C/cact-execution.xml:249
 msgid "See the <_:ulink-1/> for more details."
-msgstr ""
+msgstr "Vea la <_:ulink-1/> para más detalles."
 
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:240
 msgid "Window class"
-msgstr ""
+msgstr "Clase de ventana"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:246
 msgid "Startup Window Manager class"
-msgstr ""
+msgstr "Clase de Gestor de Ventana de Arranque"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:241
@@ -2740,21 +2783,25 @@ msgid ""
 " the application will map at least one window with a given class name, then "
 "enter that name into the <_:guilabel-2/> entry box."
 msgstr ""
+"Si el modo de ejecución de la instrucción es <_:literal-1/>, y si conoce que"
+" la aplicación asignará en al menos una ventana con un nombre de clase "
+"proporcionada, entonces introduzca ese nombre a la caja de apunte "
+"<_:guilabel-2/>."
 
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:253
 msgid "Owner of the execution"
-msgstr ""
+msgstr "Propietario de la ejecución"
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:255
 msgid "Configuration of the owner of the run"
-msgstr ""
+msgstr "Configuración del propietario de la ejecución"
 
 #. (itstool) path: phrase/guilabel
 #: C/cact-execution.xml:262
 msgid "Execute as"
-msgstr ""
+msgstr "Ejecutar como"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
@@ -2764,7 +2811,7 @@ msgstr "Ejecutar como usuario"
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
 msgid "UID"
-msgstr ""
+msgstr "UID"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:267
@@ -2772,6 +2819,8 @@ msgid ""
 "Enter in the <_:guilabel-1/> entry box the username or the <_:acronym-2/> of"
 " the user your command will be run as."
 msgstr ""
+"Introduzca en la caja de apunte <_:guilabel-1/> el nombre de usuario o la "
+"<_:acronym-2/> del usuario de su orden como será ejecutada."
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:272

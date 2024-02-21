@@ -2,15 +2,15 @@
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Andi Chandler <andi@gowling.com>, 2022
+# Andi Chandler <andi@gowling.com>, 2023
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2021-06-18 17:22+0200\n"
+"POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2022\n"
-"Language-Team: English (United Kingdom) (https://www.transifex.com/mate/teams/13566/en_GB/)\n"
+"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
+"Language-Team: English (United Kingdom) (https://app.transifex.com/mate/teams/13566/en_GB/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,22 +20,22 @@ msgstr ""
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
 msgid "GNU Free Documentation License"
-msgstr ""
+msgstr "GNU Free Documentation Licence"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:3
 msgid "Version 1.3, 3 November 2008"
-msgstr ""
+msgstr "Version 1.3, 3 November 2008"
 
 #. (itstool) path: simpara/ulink
 #: C/appendix-gnu-fdl-1.3.xml:6
 msgid "Free Software Foundation, Inc."
-msgstr ""
+msgstr "Free Software Foundation, Inc."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:4
 msgid "Copyright © 2000, 2001, 2002, 2007, 2008 <_:ulink-1/>"
-msgstr ""
+msgstr "Copyright © 2000, 2001, 2002, 2007, 2008 <_:ulink-1/>"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:8
@@ -43,11 +43,13 @@ msgid ""
 "Everyone is permitted to copy and distribute verbatim copies of this license"
 " document, but changing it is not allowed."
 msgstr ""
+"Everyone is permitted to copy and distribute verbatim copies of this licence"
+" document, but changing it is not allowed."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:12
 msgid "0. PREAMBLE"
-msgstr ""
+msgstr "0. PREAMBLE"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:15
@@ -60,6 +62,13 @@ msgid ""
 " work, while not being considered responsible for modifications made by "
 "others."
 msgstr ""
+"The purpose of this Licence is to make a manual, textbook, or other "
+"functional and useful document “free” in the sense of freedom: to assure "
+"everyone the effective freedom to copy and redistribute it, with or without "
+"modifying it, either commercially or noncommercially. Secondarily, this "
+"License preserves for the author and publisher a way to get credit for their"
+" work, while not being considered responsible for modifications made by "
+"others."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:24
@@ -69,6 +78,10 @@ msgid ""
 "GNU General Public License, which is a copyleft license designed for free "
 "software."
 msgstr ""
+"This Licence is a kind of “copyleft”, which means that derivative works of "
+"the document must themselves be free in the same sense. It complements the "
+"GNU General Public Licence, which is a copyleft licence designed for free "
+"software."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:30
@@ -81,11 +94,18 @@ msgid ""
 "printed book. We recommend this License principally for works whose purpose "
 "is instruction or reference."
 msgstr ""
+"We have designed this Licence in order to use it for manuals for free "
+"software, because free software needs free documentation: a free program "
+"should come with manuals providing the same freedoms that the software does."
+" But this Licence is not limited to software manuals; it can be used for any"
+" textual work, regardless of subject matter or whether it is published as a "
+"printed book. We recommend this Licence principally for works whose purpose "
+"is instruction or reference."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:39
 msgid "1. APPLICABILITY AND DEFINITIONS"
-msgstr ""
+msgstr "1. APPLICABILITY AND DEFINITIONS"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:42
@@ -99,6 +119,14 @@ msgid ""
 "“you”. You accept the license if you copy, modify or distribute the work in "
 "a way requiring permission under copyright law."
 msgstr ""
+"This Licence applies to any manual or other work, in any medium, that "
+"contains a notice placed by the copyright holder saying it can be "
+"distributed under the terms of this Licence. Such a notice grants a world-"
+"wide, royalty-free licence, unlimited in duration, to use that work under "
+"the conditions stated herein. The “Document”, below, refers to any such "
+"manual or work. Any member of the public is a licencee, and is addressed as "
+"“you”. You accept the licence if you copy, modify or distribute the work in "
+"a way requiring permission under copyright law."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:53
@@ -107,6 +135,9 @@ msgid ""
 "or a portion of it, either copied verbatim, or with modifications and/or "
 "translated into another language."
 msgstr ""
+"A “Modified Version” of the Document means any work containing the Document "
+"or a portion of it, either copied verbatim, or with modifications and/or "
+"translated into another language."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:58
@@ -121,6 +152,15 @@ msgid ""
 "matters, or of legal, commercial, philosophical, ethical or political "
 "position regarding them."
 msgstr ""
+"A “Secondary Section” is a named appendix or a front-matter section of the "
+"Document that deals exclusively with the relationship of the publishers or "
+"authors of the Document to the Document’s overall subject (or to related "
+"matters) and contains nothing that could fall directly within that overall "
+"subject. (Thus, if the Document is in part a textbook of mathematics, a "
+"Secondary Section may not explain any mathematics.) The relationship could "
+"be a matter of historical connection with the subject or with related "
+"matters, or of legal, commercial, philosophical, ethical or political "
+"position regarding them."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:69
@@ -132,6 +172,12 @@ msgid ""
 " Invariant. The Document may contain zero Invariant Sections. If the "
 "Document does not identify any Invariant Sections then there are none."
 msgstr ""
+"The “Invariant Sections” are certain Secondary Sections whose titles are "
+"designated, as being those of Invariant Sections, in the notice that says "
+"that the Document is released under this Licence. If a section does not fit "
+"the above definition of Secondary then it is not allowed to be designated as"
+" Invariant. The Document may contain zero Invariant Sections. If the "
+"Document does not identify any Invariant Sections then there are none."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:78
@@ -141,6 +187,10 @@ msgid ""
 "Document is released under this License. A Front-Cover Text may be at most 5"
 " words, and a Back-Cover Text may be at most 25 words."
 msgstr ""
+"The “Cover Texts” are certain short passages of text that are listed, as "
+"Front-Cover Texts or Back-Cover Texts, in the notice that says that the "
+"Document is released under this Licence. A Front-Cover Text may be at most 5"
+" words, and a Back-Cover Text may be at most 25 words."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:84
@@ -217,7 +267,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:140
 msgid "2. VERBATIM COPYING"
-msgstr ""
+msgstr "2. VERBATIM COPYING"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:143
@@ -296,7 +346,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:197
 msgid "4. MODIFICATIONS"
-msgstr ""
+msgstr "4. MODIFICATIONS"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:200
@@ -335,11 +385,13 @@ msgid ""
 "State on the Title page the name of the publisher of the Modified Version, "
 "as the publisher."
 msgstr ""
+"State on the Title page the name of the publisher of the Modified Version, "
+"as the publisher."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:234
 msgid "Preserve all the copyright notices of the Document."
-msgstr ""
+msgstr "Preserve all the copyright notices of the Document."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:239
@@ -347,6 +399,8 @@ msgid ""
 "Add an appropriate copyright notice for your modifications adjacent to the "
 "other copyright notices."
 msgstr ""
+"Add an appropriate copyright notice for your modifications adjacent to the "
+"other copyright notices."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:245
@@ -420,11 +474,13 @@ msgid ""
 "Do not retitle any existing section to be Entitled “Endorsements” or to "
 "conflict in title with any Invariant Section."
 msgstr ""
+"Do not retitle any existing section to be Entitled “Endorsements” or to "
+"conflict in title with any Invariant Section."
 
 #. (itstool) path: listitem/simpara
 #: C/appendix-gnu-fdl-1.3.xml:314
 msgid "Preserve any Warranty Disclaimers."
-msgstr ""
+msgstr "Preserve any Warranty Disclaimers."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:319
@@ -471,7 +527,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:350
 msgid "5. COMBINING DOCUMENTS"
-msgstr ""
+msgstr "5. COMBINING DOCUMENTS"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:353
@@ -509,7 +565,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:379
 msgid "6. COLLECTIONS OF DOCUMENTS"
-msgstr ""
+msgstr "6. COLLECTIONS OF DOCUMENTS"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:382
@@ -533,7 +589,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:395
 msgid "7. AGGREGATION WITH INDEPENDENT WORKS"
-msgstr ""
+msgstr "7. AGGREGATION WITH INDEPENDENT WORKS"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:398
@@ -562,7 +618,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:416
 msgid "8. TRANSLATION"
-msgstr ""
+msgstr "8. TRANSLATION"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:419
@@ -591,7 +647,7 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:438
 msgid "9. TERMINATION"
-msgstr ""
+msgstr "9. TERMINATION"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:441
@@ -635,12 +691,12 @@ msgstr ""
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:469
 msgid "10. FUTURE REVISIONS OF THIS LICENSE"
-msgstr ""
+msgstr "10. FUTURE REVISIONS OF THIS LICENCE"
 
 #. (itstool) path: simpara/ulink
 #: C/appendix-gnu-fdl-1.3.xml:477
 msgid "Copyleft"
-msgstr ""
+msgstr "Copyleft"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:472
@@ -825,7 +881,7 @@ msgstr ""
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:15
 msgid "Wolfgang Ulbrich"
-msgstr ""
+msgstr "Wolfgang Ulbrich"
 
 #. (itstool) path: para/productname
 #: C/articleinfo.xml:19 C/cact-bugs.xml:8 C/cact-conditions.xml:14
@@ -835,7 +891,7 @@ msgstr ""
 #: C/cact-profiles.xml:52 C/cact-profiles.xml:57 C/cact-save.xml:10
 #: C/cact-starting.xml:498
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #. (itstool) path: para/productname
 #. (itstool) path: title/productname
@@ -1777,7 +1833,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "Capabilities"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -2003,7 +2059,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:811
 msgid "&lt;"
-msgstr ""
+msgstr "&lt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:811
@@ -2023,7 +2079,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:813
 msgid "&gt;"
-msgstr ""
+msgstr "&gt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:813
@@ -2522,18 +2578,18 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:84
 msgid "Working directory frame"
-msgstr ""
+msgstr "Working directory frame"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:91
 msgid "Focus on the working directory selection frame."
-msgstr ""
+msgstr "Focus on the working directory selection frame."
 
 #. (itstool) path: para/literal
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:97 C/cact-execution.xml:102 C/cact-execution.xml:384
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:96
@@ -2553,7 +2609,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:111
 msgid "How should the action be executed ?"
-msgstr ""
+msgstr "How should the action be executed ?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:112
@@ -2567,7 +2623,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:120 C/cact-starting.xml:286
 msgid "Execution"
-msgstr ""
+msgstr "Execution"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:118
@@ -2579,7 +2635,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:124
 msgid "Configuration of the execution modes"
-msgstr ""
+msgstr "Configuration of the execution modes"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:131
@@ -2589,18 +2645,19 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:140
 msgid "Configuration of the execution mode"
-msgstr ""
+msgstr "Configuration of the execution mode"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:147
 msgid "Focus on the execution mode frame."
-msgstr ""
+msgstr "Focus on the execution mode frame."
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:152
 msgid ""
 "The execution mode of your command may be chosen between following values:"
 msgstr ""
+"The execution mode of your command may be chosen between following values:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -2612,7 +2669,7 @@ msgstr "Normal"
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:162
 msgid "Starts the command as a standard graphical user interface."
-msgstr ""
+msgstr "Starts the command as a standard graphical user interface."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -2649,7 +2706,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:194
 msgid "Display output"
-msgstr ""
+msgstr "Display output"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:198
@@ -2669,32 +2726,32 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:214
 msgid "Startup notification"
-msgstr ""
+msgstr "Startup notification"
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:216
 msgid "Configuration of the startup modes"
-msgstr ""
+msgstr "Configuration of the startup modes"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:223
 msgid "Focus on the Startup mode frame."
-msgstr ""
+msgstr "Focus on the Startup mode frame."
 
 #. (itstool) path: para/literal
 #: C/cact-execution.xml:231
 msgid "remove"
-msgstr ""
+msgstr "remove"
 
 #. (itstool) path: para/envar
 #: C/cact-execution.xml:232
 msgid "DESKTOP_STARTUP_ID"
-msgstr ""
+msgstr "DESKTOP_STARTUP_ID"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
 msgid "Startup notify"
-msgstr ""
+msgstr "Startup notify"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:228
@@ -2707,22 +2764,22 @@ msgstr ""
 #. (itstool) path: ulink/citetitle
 #: C/cact-execution.xml:236 C/cact-execution.xml:249
 msgid "Startup Notification Protocol Specification"
-msgstr ""
+msgstr "Startup Notification Protocol Specification"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:236 C/cact-execution.xml:249
 msgid "See the <_:ulink-1/> for more details."
-msgstr ""
+msgstr "See the <_:ulink-1/> for more details."
 
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:240
 msgid "Window class"
-msgstr ""
+msgstr "Window class"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:246
 msgid "Startup Window Manager class"
-msgstr ""
+msgstr "Startup Window Manager class"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:241
@@ -2735,27 +2792,27 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:253
 msgid "Owner of the execution"
-msgstr ""
+msgstr "Owner of the execution"
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:255
 msgid "Configuration of the owner of the run"
-msgstr ""
+msgstr "Configuration of the owner of the run"
 
 #. (itstool) path: phrase/guilabel
 #: C/cact-execution.xml:262
 msgid "Execute as"
-msgstr ""
+msgstr "Execute as"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Execute as user"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
 msgid "UID"
-msgstr ""
+msgstr "UID"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:267
@@ -2774,7 +2831,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:279
 msgid "Multiple executions"
-msgstr ""
+msgstr "Multiple executions"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:280
@@ -2801,13 +2858,13 @@ msgstr ""
 #. (itstool) path: para/abbrev
 #: C/cact-execution.xml:295 C/cact-execution.xml:301 C/cact-execution.xml:308
 msgid "e.g."
-msgstr ""
+msgstr "e.g."
 
 #. (itstool) path: para/literal
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:295 C/cact-execution.xml:377
 msgid "%c"
-msgstr ""
+msgstr "%c"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:293
@@ -2822,7 +2879,7 @@ msgstr ""
 #: C/cact-execution.xml:302 C/cact-execution.xml:363 C/cact-execution.xml:541
 #: C/cact-execution.xml:575 C/cact-execution.xml:576 C/cact-execution.xml:596
 msgid "%b"
-msgstr ""
+msgstr "%b"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:300
@@ -2830,13 +2887,15 @@ msgid ""
 "a « singular » one, <_:abbrev-1/> « <_:literal-2/> », the basename of the "
 "selected item;"
 msgstr ""
+"a « singular » one, <_:abbrev-1/> « <_:literal-2/> », the basename of the "
+"selected item;"
 
 #. (itstool) path: para/literal
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:309 C/cact-execution.xml:370 C/cact-execution.xml:556
 #: C/cact-execution.xml:593 C/cact-execution.xml:594
 msgid "%B"
-msgstr ""
+msgstr "%B"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:307
@@ -2855,7 +2914,7 @@ msgstr ""
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:319
 msgid "When the selection contains more than one item:"
-msgstr ""
+msgstr "When the selection contains more than one item:"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:324
@@ -2889,7 +2948,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:356
 msgid "Parameter"
-msgstr ""
+msgstr "Parameter"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:357
@@ -2899,12 +2958,12 @@ msgstr "Description"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:358
 msgid "Repetition"
-msgstr ""
+msgstr "Repetition"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:364
 msgid "(first) basename"
-msgstr ""
+msgstr "(first) basename"
 
 #. (itstool) path: row/entry
 #. (itstool) path: para/emphasis
@@ -2912,12 +2971,12 @@ msgstr ""
 #: C/cact-execution.xml:421 C/cact-execution.xml:442 C/cact-execution.xml:470
 #: C/cact-execution.xml:484 C/cact-execution.xml:498 C/cact-execution.xml:541
 msgid "singular"
-msgstr ""
+msgstr "singular"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:371
 msgid "space-separated list of basenames"
-msgstr ""
+msgstr "space-separated list of basenames"
 
 #. (itstool) path: row/entry
 #. (itstool) path: para/emphasis
@@ -2925,123 +2984,123 @@ msgstr ""
 #: C/cact-execution.xml:430 C/cact-execution.xml:451 C/cact-execution.xml:479
 #: C/cact-execution.xml:493 C/cact-execution.xml:507 C/cact-execution.xml:556
 msgid "plural"
-msgstr ""
+msgstr "plural"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:378
 msgid "count of selected items"
-msgstr ""
+msgstr "count of selected items"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:380 C/cact-execution.xml:415 C/cact-execution.xml:436
 #: C/cact-execution.xml:457 C/cact-execution.xml:464 C/cact-execution.xml:513
 msgid "irrelevant"
-msgstr ""
+msgstr "irrelevant"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:385
 msgid "(first) base directory"
-msgstr ""
+msgstr "(first) base directory"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:391
 msgid "%D"
-msgstr ""
+msgstr "%D"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:392
 msgid "space-separated list of base directory of each selected items"
-msgstr ""
+msgstr "space-separated list of base directory of each selected items"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:398
 msgid "%f"
-msgstr ""
+msgstr "%f"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:399
 msgid "(first) filename"
-msgstr ""
+msgstr "(first) filename"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:405
 msgid "%F"
-msgstr ""
+msgstr "%F"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:406
 msgid "space-separated list of selected filenames"
-msgstr ""
+msgstr "space-separated list of selected filenames"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:412
 msgid "%h"
-msgstr ""
+msgstr "%h"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:413
 msgid "hostname of the (first) URI"
-msgstr ""
+msgstr "hostname of the (first) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:419
 msgid "%m"
-msgstr ""
+msgstr "%m"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:420
 msgid "mimetype of the (first) selected item"
-msgstr ""
+msgstr "mimetype of the (first) selected item"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:426
 msgid "%M"
-msgstr ""
+msgstr "%M"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:427
 msgid "space-separated list of the mimetypes of the selected items"
-msgstr ""
+msgstr "space-separated list of the mimetypes of the selected items"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:433
 msgid "%n"
-msgstr ""
+msgstr "%n"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:434
 msgid "username of the (first) URI"
-msgstr ""
+msgstr "username of the (first) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:440
 msgid "%o"
-msgstr ""
+msgstr "%o"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:441
 msgid "no-op operator which forces a singular form of execution"
-msgstr ""
+msgstr "no-op operator which forces a singular form of execution"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:447
 msgid "%O"
-msgstr ""
+msgstr "%O"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:448
 msgid "no-op operator which forces a plural form of execution"
-msgstr ""
+msgstr "no-op operator which forces a plural form of execution"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:454
 msgid "%p"
-msgstr ""
+msgstr "%p"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:455
 msgid "port number of the (first) URI"
-msgstr ""
+msgstr "port number of the (first) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:461
@@ -3051,57 +3110,57 @@ msgstr "%s"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:462
 msgid "scheme of the (first) URI"
-msgstr ""
+msgstr "scheme of the (first) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:468
 msgid "%u"
-msgstr ""
+msgstr "%u"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:469
 msgid "(first) URI"
-msgstr ""
+msgstr "(first) URI"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:475
 msgid "%U"
-msgstr ""
+msgstr "%U"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:476
 msgid "space-separated list of selected URIs"
-msgstr ""
+msgstr "space-separated list of selected URIs"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:482
 msgid "%w"
-msgstr ""
+msgstr "%w"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:483
 msgid "(first) basename without the extension"
-msgstr ""
+msgstr "(first) basename without the extension"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:489
 msgid "%W"
-msgstr ""
+msgstr "%W"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:490
 msgid "space-separated list of basenames without their extension"
-msgstr ""
+msgstr "space-separated list of basenames without their extension"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:496
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:497
 msgid "(first) extension"
-msgstr ""
+msgstr "(first) extension"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
@@ -3111,12 +3170,12 @@ msgstr "%X"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
 msgid "space-separated list of extensions"
-msgstr ""
+msgstr "space-separated list of extensions"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:510
 msgid "%%"
-msgstr ""
+msgstr "%%"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:511
@@ -3126,32 +3185,32 @@ msgstr "%"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:511
 msgid "the « <_:literal-1/> » character"
-msgstr ""
+msgstr "the « <_:literal-1/> » character"
 
 #. (itstool) path: example/title
 #: C/cact-execution.xml:520
 msgid "Usage of singular <_:abbrev-1/> plural forms"
-msgstr ""
+msgstr "Usage of singular <_:abbrev-1/> plural forms"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:522
 msgid "/data"
-msgstr ""
+msgstr "/data"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "pierre"
-msgstr ""
+msgstr "pierre"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "paul"
-msgstr ""
+msgstr "paul"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:525
 msgid "jacques"
-msgstr ""
+msgstr "jacques"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:521
@@ -3160,36 +3219,39 @@ msgid ""
 "contains the three files <_:filename-2/>, <_:filename-3/> and "
 "<_:filename-4/>."
 msgstr ""
+"Say the current folder is <_:filename-1/>, and the current selection "
+"contains the three files <_:filename-2/>, <_:filename-3/> and "
+"<_:filename-4/>."
 
 #. (itstool) path: title/command
 #: C/cact-execution.xml:529
 msgid "echo %b"
-msgstr ""
+msgstr "echo %b"
 
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:528 C/cact-execution.xml:561
 msgid "If we have requested <_:command-1/>,"
-msgstr ""
+msgstr "If we have requested <_:command-1/>,"
 
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:531 C/cact-execution.xml:564
 msgid "then the following commands will be successively run:"
-msgstr ""
+msgstr "then the following commands will be successively run:"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:536
 msgid "echo pierre"
-msgstr ""
+msgstr "echo pierre"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:537
 msgid "echo paul"
-msgstr ""
+msgstr "echo paul"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:538
 msgid "echo jacques"
-msgstr ""
+msgstr "echo jacques"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:540
@@ -3197,26 +3259,28 @@ msgid ""
 "This is because <_:literal-1/> marks a <_:emphasis-2/> parameter. The "
 "command is then run once for each of the selected items."
 msgstr ""
+"This is because <_:literal-1/> marks a <_:emphasis-2/> parameter. The "
+"command is then run once for each of the selected items."
 
 #. (itstool) path: title/command
 #: C/cact-execution.xml:546
 msgid "echo %B"
-msgstr ""
+msgstr "echo %B"
 
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:545
 msgid "Contrarily, if we have requested <_:command-1/>,"
-msgstr ""
+msgstr "Contrarily, if we have requested <_:command-1/>,"
 
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:548
 msgid "then the following command will be run:"
-msgstr ""
+msgstr "then the following command will be run:"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:553
 msgid "echo pierre paul jacques"
-msgstr ""
+msgstr "echo pierre paul jacques"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:555
@@ -3228,27 +3292,27 @@ msgstr ""
 #. (itstool) path: title/command
 #: C/cact-execution.xml:562
 msgid "echo %b %B"
-msgstr ""
+msgstr "echo %b %B"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:569
 msgid "echo pierre pierre paul jacques"
-msgstr ""
+msgstr "echo pierre pierre paul jacques"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:570
 msgid "echo paul pierre paul jacques"
-msgstr ""
+msgstr "echo paul pierre paul jacques"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:571
 msgid "echo jacques pierre paul jacques"
-msgstr ""
+msgstr "echo jacques pierre paul jacques"
 
 #. (itstool) path: para/emphasis
 #: C/cact-execution.xml:574 C/cact-execution.xml:592
 msgid "relevant"
-msgstr ""
+msgstr "relevant"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:573
@@ -3262,22 +3326,22 @@ msgstr ""
 #. (itstool) path: title/literal
 #: C/cact-execution.xml:582
 msgid "echo %B %b"
-msgstr ""
+msgstr "echo %B %b"
 
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:581
 msgid "And if we have requested <_:literal-1/>,"
-msgstr ""
+msgstr "And if we have requested <_:literal-1/>,"
 
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:584
 msgid "then the following commands will be run:"
-msgstr ""
+msgstr "then the following commands will be run:"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:589
 msgid "echo pierre paul jacques pierre"
-msgstr ""
+msgstr "echo pierre paul jacques pierre"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:591

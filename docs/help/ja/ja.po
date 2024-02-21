@@ -9,15 +9,15 @@
 # ABE Tsunehiko, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Wolfgang Ulbrich <mate@raveit.de>, 2021
-# Green, 2021
+# Green <usergreen@users.osdn.me>, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Green, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
+"Last-Translator: Green <usergreen@users.osdn.me>, 2024\n"
+"Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -227,6 +227,11 @@ msgid ""
 "when you modify the Document means that it remains a section “Entitled XYZ” "
 "according to this definition."
 msgstr ""
+"XYZと題された \"セクションとは、そのタイトルが正確にXYZであるか、またはXYZを他 "
+"の言語で翻訳したテキストの後に括弧で囲んでXYZを含む、『文書』の名前付き小部分を意味する "
+"（ここでXYZは、『謝辞』、『献辞』、『推薦』、『沿革』など、後述の特定のセクション名を表す）。(ここでXYZは、「謝辞」、「献辞」、「裏書」、「歴史」など、後述の特定のセクション名を表す)"
+" このようなセクションの \"タイトルを保持する \"ということは、あなたが文書を変更したときに、そのセクションがこの定義に従って \"XYZと題された"
+" \"セクションであり続けることを意味します。"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:132
@@ -238,11 +243,14 @@ msgid ""
 "Disclaimers may have is void and has no effect on the meaning of this "
 "License."
 msgstr ""
+"『文書』には、本許諾書が『文書』に適用されることを示す注意書きの隣に、 "
+"保証の否認が含まれている場合があります。これらの保証の否認は本許諾書に参考として含まれるものとみなされますが、 "
+"それは保証の否認に関してのみです。本保証の免責条項が持つその他の暗示は無効であり、本ライセンスの意味には影響しません。"
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:140
 msgid "2. VERBATIM COPYING"
-msgstr ""
+msgstr "2. 逐語的に忠実な複製"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:143
@@ -257,18 +265,22 @@ msgid ""
 "distribute a large enough number of copies you must also follow the "
 "conditions in section 3."
 msgstr ""
+"あなたは、本許諾書、著作権表示、および本許諾書が『文書』に適用される旨 の使用許諾表示をすべての複製物に複製し、本許諾書の条件に他のいかなる条件 "
+"も付加しないことを条件に、営利・非営利を問わず、いかなる媒体においても『文書』を "
+"複製し頒布することができます。あなたは、あなたが作成または頒布した複製物の閲覧や更なる複製を妨害または制 "
+"御する技術的手段を用いてはいけません。ただし、あなたはコピーの対価として報酬を受け取ることができます。あなたが十分な数の複製物を頒布する場合、あなたは第3項の条件にも従わなければなりません。"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:154
 msgid ""
 "You may also lend copies, under the same conditions stated above, and you "
 "may publicly display copies."
-msgstr ""
+msgstr "またあなたは、上記と同じ条件の下で、複製物を貸与したり複製物を公に開示することができます。"
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:158
 msgid "3. COPYING IN QUANTITY"
-msgstr ""
+msgstr "3. 大量の複製"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:161
@@ -285,6 +297,9 @@ msgid ""
 "title of the Document and satisfy these conditions, can be treated as "
 "verbatim copying in other respects."
 msgstr ""
+"あなたが『文書』の印刷物(または一般的に印刷された表紙を持つ媒体の複製物)を100部以上発行し、『文書』のライセンス告知でカバーテキストが要求されている場合、あなたはその複製物を、以下のカバーテキストをすべて明瞭かつ読みやすく記載した表紙に封入しなければなりません："
+" "
+"表表紙には「表紙本文」、裏表紙には「裏表紙本文」。また、両表紙とも、あなたがこれらのコピーの発行者であることを明確かつ判読しやすいように明記しなければなりません。表表紙は、タイトルの全単語を等しく目立たせ、見えるようにしなければなりません。さらに、表紙に他の資料を追加することもできます。本『文書』の題名を保持し、これらの条件を満たす限り、表紙に限定して変更を加えた複製は、その他の点において逐語的複製として扱うことができます。"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:174
@@ -293,6 +308,7 @@ msgid ""
 "you should put the first ones listed (as many as fit reasonably) on the "
 "actual cover, and continue the rest onto adjacent pages."
 msgstr ""
+"どちらかの表紙に必要な文章が多すぎて読みやすく収まらない場合は、最初に挙げたもの（無理なく収まる数）を実際の表紙に掲載し、残りは隣のページに続けて掲載します。"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:179
@@ -815,7 +831,7 @@ msgstr "Caja アクション設定ツール"
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
 msgid "<_:application-1/> User's Manual"
-msgstr "<_:application-1/> ユーザー・マニュアル"
+msgstr "<_:application-1/> ユーザマニュアル"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:5
@@ -887,7 +903,7 @@ msgid ""
 "context menus. These actions may be organized in menus and submenus, "
 "exported and shared with other desktop environments."
 msgstr ""
-"<_:productname-1/>は<_:productname-2/>の拡張機能であり、主な機能は、ユーザーがファイル・マネージャのコンテキスト・メニューに任意のアクションを追加できるようにすることです。これらのアクションは、メニューおよびサブメニューに追加したり、エクスポートしたり、他のデスクトップ環境と共有したりできます。"
+"<_:productname-1/>は<_:productname-2/>の拡張機能であり、主な機能は、ユーザがファイルマネージャのコンテキスト・メニューに任意のアクションを追加できるようにすることです。これらのアクションは、メニューおよびサブメニューに追加したり、エクスポートしたり、他のデスクトップ環境と共有したりできます。"
 
 #. (itstool) path: abstract/para
 #: C/articleinfo.xml:24
@@ -947,7 +963,7 @@ msgstr "chat-to-me@raveit.de"
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:91
 msgid "Caja-Actions Configuration Tool User's Manual v 3.1"
-msgstr "Caja アクション設定ツール・ユーザー・マニュアル 3.1 版"
+msgstr "Caja アクション設定ツール・ユーザマニュアル 3.1 版"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:92
@@ -962,7 +978,7 @@ msgstr "Pierre Wieser <_:email-1/>"
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:101
 msgid "Caja-Actions Configuration Tool User's Manual v 3.2"
-msgstr "Caja アクション設定ツール・ユーザー・マニュアル 3.2 版"
+msgstr "Caja アクション設定ツール・ユーザマニュアル 3.2 版"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:102
@@ -1025,18 +1041,20 @@ msgid ""
 "As of version 3.0, execution mode may be configured in <_:application-1/> "
 "but is not yet honored by <_:productname-2/> plugin."
 msgstr ""
+"バージョン 3.0 "
+"では、実行モードは<_:application-1/>プラグインで設定することができますが、まだ<_:productname-2/>プラグインは対応していません。"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:23
 msgid ""
 "This concern working directory, execution mode, startup notification and "
 "execution's owner parameters."
-msgstr ""
+msgstr "これは、作業ディレクトリ、実行モード、起動通知、実行時の所有者パラメータに関係します。"
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "推奨するショートカット"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1045,11 +1063,13 @@ msgid ""
 "specification, cannot be configured in <_:application-1/>, and is not "
 "honored by <_:productname-2/> plugin."
 msgstr ""
+"バージョン 3.0 では、DES-EMA "
+"仕様に記述されている推奨ショートカットは、<_:application-1/>で設定することができず、<_:productname-2/>プラグインは対応していません。"
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:37
 msgid "Menu separator"
-msgstr ""
+msgstr "メニュー・セパレータ"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:38
@@ -1057,6 +1077,8 @@ msgid ""
 "As of version 3.0, menu separators cannot be configured in "
 "<_:application-1/>, and are not honored by <_:productname-2/> plugin."
 msgstr ""
+"バージョン 3.0 "
+"では、メニュー・セパレータは<_:application-1/>で設定できません。また、<_:productname-2/>プラグインは対応していません。"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:43
@@ -1064,11 +1086,13 @@ msgid ""
 "One has to note that, for now, <_:productname-1/> file manager does not "
 "allow its plugins to define separators in the context menu."
 msgstr ""
+"現在のところ、<_:productname-1/> "
+"ファイルマネージャは、プラグインがコンテキスト・メニューにセパレータを定義することを許可していません。"
 
 #. (itstool) path: sect2/title
 #: C/cact-conditions.xml:2
 msgid "Defining the conditions"
-msgstr ""
+msgstr "条件を定義するには"
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:3
@@ -1077,13 +1101,15 @@ msgid ""
 "manager context menus or in its toolbar depends on the conditions you will "
 "have defined for it."
 msgstr ""
+"あなたのアクションが最終的に <_:productname-1/> "
+"ファイルマネージャのコンテキストメニューに表示されるか、ツールバーに表示されるかは、これから定義する条件に依存します。"
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:8
 msgid ""
 "Conditions may be put against the location the file manager currently points"
 " to, or against the currently selected items in this location."
-msgstr ""
+msgstr "各条件は、ファイルマネージャが現在示している場所、またはその場所で現在選択したアイテムに対して設定することができます。"
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:12
@@ -1093,12 +1119,13 @@ msgid ""
 " against the new location and selection: all defined conditions must be "
 "satisfied in order your action be actually displayed."
 msgstr ""
+"ファイルマネージャで選択範囲や場所が変更されるたびに、定義された条件を新しい場所や選択範囲と比較しながら、すべてのアクションをチェックします。つまり、アクションが実際に表示されるためには、定義されたすべての条件が満たされている必要があります。"
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:20 C/cact-conditions.xml:33
 msgid "Basename-based conditions"
-msgstr ""
+msgstr "ベースネームに基づく条件"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:21
@@ -1109,24 +1136,25 @@ msgid ""
 "simultaneously decide that none of the selected item(s) can have some other "
 "sort of basename."
 msgstr ""
+"ファイルマネージャで現在選択されているアイテムのベース名に応じて、アクションを表示するように設定することもできます。つまり、選択する各アイテムが何らかのベース名を満たしていなければならないと定義し、同時に、選択アイテムのどれもが他のベース名を持つことはできないと決めることができます。"
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:29 C/cact-starting.xml:296
 msgid "Basenames"
-msgstr ""
+msgstr "ベース名"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:27
 msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which will permit you to "
 "configure your basename-based conditions."
-msgstr ""
+msgstr "<_:guilabel-1/>タブをクリックすると、ベース名にもとづく条件を設定するページが表示されます。"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:40
 msgid "Shows the tab which lets you define basename-based conditions."
-msgstr ""
+msgstr "ベース名にもとづく条件を定義するためのタブを表示します。"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:45
@@ -1222,14 +1250,14 @@ msgstr ""
 #: C/cact-conditions.xml:102 C/cact-conditions.xml:276
 #: C/cact-conditions.xml:437 C/cact-conditions.xml:576
 msgid "Must match one of"
-msgstr ""
+msgstr "次のいずれかと一致しなければなりません"
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:104 C/cact-conditions.xml:278
 #: C/cact-conditions.xml:439 C/cact-conditions.xml:578
 #: C/cact-conditions.xml:717
 msgid "Must not match any of"
-msgstr ""
+msgstr "いずれにも一致してはなりません"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:100 C/cact-conditions.xml:274
@@ -1808,7 +1836,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "ケイパビリティ"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -1862,7 +1890,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:680
 msgid "Adding a new capability"
-msgstr ""
+msgstr "新しいケイパビリティを追加"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:676
@@ -1903,7 +1931,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:715
 msgid "Must match all of"
-msgstr ""
+msgstr "すべてに一致しなくてはなりません"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:722
@@ -2540,7 +2568,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
 msgid "Working directory"
-msgstr ""
+msgstr "作業用ディレクトリ"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:74
@@ -2725,7 +2753,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
 msgid "Startup notify"
-msgstr ""
+msgstr "スタートアップ通知"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:228
@@ -2781,7 +2809,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "ユーザとして実行する"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -3327,7 +3355,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-import.xml:2
 msgid "Importing actions"
-msgstr ""
+msgstr "アクションのインポート"
 
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
@@ -3403,7 +3431,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-menus.xml:41
 msgid "New Caja menu"
-msgstr ""
+msgstr "新しい Caja メニュー"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:38
@@ -3553,7 +3581,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/cact-profiles.xml:9
 msgid "Open a terminal here"
-msgstr ""
+msgstr "ここで端末を開く"
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:10
@@ -3595,7 +3623,7 @@ msgstr ""
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-profiles.xml:36
 msgid "New profile"
-msgstr ""
+msgstr "新しいプロファイル"
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:36
@@ -3893,7 +3921,7 @@ msgstr ""
 #. (itstool) path: command/filename
 #: C/cact-starting.xml:20 C/cact-starting.xml:32
 msgid "caja-actions-config-tool"
-msgstr ""
+msgstr "caja-actions-config-tool"
 
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
@@ -4815,12 +4843,12 @@ msgstr ""
 #. (itstool) path: article/indexterm
 #: C/index.docbook:60
 msgid "<primary><productname>Caja</productname></primary>"
-msgstr ""
+msgstr "<primary><productname>Caja</productname></primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:63
 msgid "<primary><productname>Caja-Actions</productname></primary>"
-msgstr ""
+msgstr "<primary><productname>Caja アクション</productname></primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:73
@@ -4844,13 +4872,16 @@ msgid ""
 " your actions should appear in <productname>Caja</productname> context "
 "menus, and how they will be executed."
 msgstr ""
+"<application>Caja "
+"アクション設定ツール</application>アプリケーションは、<productname>Caja</productname> "
+"のコンテキストメニューに、いつ、どこで、どのようにアクションが表示され、どのように実行されるかを正確に設定できる、ユーザインタフェースです。"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:85
 msgid ""
 "<application>Caja-Actions Configuration Tool</application> provides the "
 "following features:"
-msgstr ""
+msgstr "<application>Caja アクション設定ツール</application>は以下の機能を提供します。"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:90
@@ -4914,7 +4945,7 @@ msgstr "はじめましょう"
 #. (itstool) path: sect1/title
 #: C/index.docbook:152
 msgid "Using <application>Caja-Actions Configuration Tool</application>"
-msgstr ""
+msgstr "<application>Caja アクション設定ツール</application>を使うには"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:170
@@ -4929,7 +4960,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:195
 msgid "About <application>Caja-Actions Configuration Tool</application>"
-msgstr ""
+msgstr "<application>Caja-アクション設定ツール</application>について"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:196
