@@ -17,10 +17,12 @@ requires=(
 # https://gitlab.archlinux.org/archlinux/packaging/packages/caja-actions
 requires+=(
 	autoconf-archive
+	caja
 	gcc
 	git
 	glib2-devel
 	itstool
+	libgtop
 	make
 	mate-common
 	python-packaging
