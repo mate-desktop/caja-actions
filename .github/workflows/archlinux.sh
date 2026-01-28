@@ -11,21 +11,20 @@ infoend() {
 # Required packages on Archlinux
 requires=(
 	ccache # Use ccache to speed up build
+	clang  # Build with clang on Archlinux
 )
 
+# https://gitlab.archlinux.org/archlinux/packaging/packages/caja-actions
 requires+=(
 	autoconf-archive
-	caja
-	dblatex
 	gcc
 	git
-	libxml2
-	libgtop2
-	libICE
-	libSM
-	libuuid
+	glib2-devel
+	itstool
 	make
 	mate-common
+	python-packaging
+	which
 	yelp-tools
 )
 

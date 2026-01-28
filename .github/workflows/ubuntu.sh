@@ -13,6 +13,7 @@ requires=(
 	ccache # Use ccache to speed up build
 )
 
+# https://git.launchpad.net/ubuntu/+source/caja-actions/tree/debian/control
 requires+=(
 	autopoint
 	dblatex
