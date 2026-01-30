@@ -1804,7 +1804,7 @@ Only relevant when chosen execution mode is Normal.</property>
                                           <object class="GtkEntry" id="ExecuteAsEntry">
                                             <property name="visible">True</property>
                                             <property name="can_focus">True</property>
-                                            <property name="tooltip_text" translatable="yes">Enter here the user the command should be ran as.
+                                            <property name="tooltip_text" translatable="yes">Enter here the user the command should be run as.
 The user may be defined by his numeric UID or his login name.
 Leave the field empty to run the command as the current user.</property>
                                             <property name="invisible_char">●</property>
