@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: caja-actions 1.26.0\n"
+"Project-Id-Version: caja-actions 1.28.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
-"POT-Creation-Date: 2022-10-29 15:29+0200\n"
+"POT-Creation-Date: 2026-02-04 18:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -570,8 +570,8 @@ msgstr ""
 
 #: src/core/na-io-provider.c:69
 msgid ""
-"Please, be kind enough to fill out a bug report on https://bugzilla.gnome."
-"org/enter_bug.cgi?product=caja-actions."
+"Please, be kind enough to fill out a bug report on https://"
+"bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 msgstr ""
 
 #: src/core/na-io-provider.c:1364
@@ -1301,7 +1301,7 @@ msgstr ""
 msgid "Show session management options"
 msgstr ""
 
-#: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
+#: src/cact/cact-application.c:55 src/cact/cact.desktop.in:4
 msgid "Caja-Actions Configuration Tool"
 msgstr ""
 
@@ -1493,12 +1493,12 @@ msgstr ""
 msgid "Import is done"
 msgstr ""
 
-#: src/cact/cact.desktop.in:6
+#: src/cact/cact.desktop.in:5
 msgid "Configure items to be added to the Caja context menus"
 msgstr ""
 
 #. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
-#: src/cact/cact.desktop.in:13
+#: src/cact/cact.desktop.in:12
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 msgstr ""
 
@@ -2618,12 +2618,10 @@ msgid ""
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:447
-#, c-format
 msgid "<b>%c</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:459
-#, c-format
 msgid "<b>%d</b> :"
 msgstr ""
 
@@ -2632,12 +2630,10 @@ msgid "<b>%D</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:483
-#, c-format
 msgid "<b>%f</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:495
-#, c-format
 msgid "<b>%F</b> :"
 msgstr ""
 
@@ -2646,7 +2642,6 @@ msgid "<b>%h</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:519
-#, c-format
 msgid "<b>%m</b> :"
 msgstr ""
 
@@ -2655,12 +2650,10 @@ msgid "<b>%M</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:543
-#, c-format
 msgid "<b>%n</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:555
-#, c-format
 msgid "<b>%o</b> :"
 msgstr ""
 
@@ -2669,17 +2662,14 @@ msgid "<b>%O</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:579
-#, c-format
 msgid "<b>%p</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:591
-#, c-format
 msgid "<b>%s</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:603
-#, c-format
 msgid "<b>%u</b> :"
 msgstr ""
 
@@ -2696,17 +2686,14 @@ msgid "<b>%W</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:651
-#, c-format
 msgid "<b>%x</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:663
-#, c-format
 msgid "<b>%X</b> :"
 msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:675
-#, c-format
 msgid "<b>%%</b> :"
 msgstr ""
 
@@ -2976,7 +2963,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
-"Enter here the user the command should be ran as.\n"
+"Enter here the user the command should be run as.\n"
 "The user may be defined by his numeric UID or his login name.\n"
 "Leave the field empty to run the command as the current user."
 msgstr ""
