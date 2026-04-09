@@ -10,7 +10,7 @@
 # fbc955180bc2b956cb4ef52d00eb80a0_91487f8, 2021
 # shinmili <rmsk.pl.ur.lpt@gmail.com>, 2021
 # c7a0a66e0476db158663636124cfb54f_370a183, 2021
-# Green, 2021
+# green <usergreen@users.osdn.me>, 2026
 # 
 msgid ""
 msgstr ""
@@ -18,8 +18,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Green, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/mate/teams/13566/ja/)\n"
+"Last-Translator: green <usergreen@users.osdn.me>, 2026\n"
+"Language-Team: Japanese (https://app.transifex.com/mate/teams/13566/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -96,6 +96,9 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 MATE 開発者"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
@@ -140,11 +143,11 @@ msgstr "XFCE デスクトップ"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr "レガシー・システム"
+msgstr "レガシーシステム"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr "選択したファイル/フォルダーと照合するパターンのリスト"
+msgstr "選択したファイル/フォルダと照合するパターンのリスト"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -155,6 +158,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"ワイルドカード '*' または '?' を持つ文字列のリストで、選択されたファイル/フォルダの名前と一致するものです。選択された各項目は、アクションまたはメニューの表示候補のファイル名パターンと、少なくとも 1 つには一致しなければなりません。\n"
+"これは明らかに、選択がある場合にのみ適用されます。\n"
+"既定は '*' です。"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -165,6 +171,8 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"選択したファイル/フォルダのベース名と一致するパターン。ワイルドカード (* または ?) を含めることができます。必要なパターンごとに 1 "
+"つのオプションを設定する必要があります。"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -173,11 +181,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<EXPR>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "指定したベース名の大文字と小文字を区別するかどうか（既定）"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -187,12 +195,15 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"ファイル名のパターンが大文字か小文字を区別する場合は 'true'、そうでない場合は 'false' に設定してください。例えば、ファイル名の大文字／小文字を区別して一致させたい場合は、 このキーを 'true' に設定します。例えば '*.jpg' を 'photo.JPG' に一致させたい場合は、'false' を設定します。\n"
+"これは、明確に選択がある場合にのみ適用されます。\n"
+"既定は 'true' です。"
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
-msgstr ""
+msgstr "選択したファイル/フォルダの MIME タイプと一致するパターンのリスト"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -202,6 +213,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"ワイルドカード '*' または '?' を持つ文字列のリストで、選択したファイル/フォルダの MIME タイプと一致するものです。選択された各項目は、アクションまたはメニューの表示候補の MIME タイプと、少なくとも 1 つには一致しなければなりません。\n"
+"これは明らかに、選択がある場合にのみ適用されます。\n"
+"既定は '*' です。"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -211,10 +225,12 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"選択したファイル/フォルダの MIME タイプと一致するパターン。アスタリスクワイルドカード (* または ?) "
+"を含めることができます。必要なパターンごとに 1 つのオプションを設定する必要があります。"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
-msgstr ""
+msgstr "プロファイルをファイルに適用するかどうか (非推奨オプション。 MIME タイプ参照。)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -229,11 +245,19 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"選択範囲にファイルがある場合は 'true'、ない場合は 'false' に設定します。\n"
+"この設定は 'isdir' 設定と関連しています。有効な組み合わせは以下のとおり。\n"
+"isfile='true' と isdir='false': 選択範囲はファイルのみを持つことができます。\n"
+"isfile='false' と isdir='true': 選択範囲はフォルダのみになります。\n"
+"isfile='true' と isdir='true': 選択範囲にファイルとフォルダの両方を含めることができます。\n"
+"isfile='false' と isdir='false': これは無効な組み合わせです（設定は決して表示されません）。\n"
+"これは明らかに選択範囲がある場合にのみ適用されます。\n"
+"既定は 'true' です。"
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
-msgstr ""
+msgstr "プロファイルをフォルダに適用するかどうか (非推奨オプション。 MIME タイプ参照。)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -248,12 +272,20 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"選択範囲にフォルダがある場合は 'true'、ない場合は 'false' に設定します。\n"
+"この設定は 'isfile' 設定と関連しています。有効な組み合わせは以下のとおり。\n"
+"isfile='true' と isdir='false': 選択範囲はファイルのみを持つことができます。\n"
+"isfile='false' と isdir='true': 選択範囲はフォルダのみになります。\n"
+"isfile='true' と isdir='true': 選択範囲にファイルとフォルダの両方を含めることができます。\n"
+"isfile='false' と isdir='false': これは無効な組み合わせです（設定は決して表示されません）。\n"
+"これは明らかに選択範囲がある場合にのみ適用されます。\n"
+"既定は 'false' です。"
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
-msgstr ""
+msgstr "選択範囲が複数あるかどうか (非推奨オプション。選択カウント参照。)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -263,11 +295,14 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"複数のファイルやフォルダを選択したい場合は、このキーを 'true' に設定します。ファイルやフォルダを 1 つのみ選択する場合は、'false' に設定します。\n"
+"これは、明らかに選択がある場合にのみ適用されます。\n"
+"既定は 'false' です。"
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
-msgstr ""
+msgstr "選択したファイル/フォルダのスキームと一致する、スキームのリスト"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -288,12 +323,25 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"選択したアイテムと一致する、有効なスキームのリストを定義します。スキームは、ファイルへのアクセスに使用するプロトコルです。使用するキーワードは、ファイルマネージャが URI で使用するものです。\n"
+"以下に有効な URI の例を示します。\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@test.example.net/tmp/foo.txt\n"
+"最も一般的なスキームは\n"
+"'file': ローカルファイル\n"
+"'sftp': SSH 経由でアクセスするファイル\n"
+"'ftp': FTP 経由でアクセスするファイル\n"
+"'smb': Samba (Windows 共有) 経由でアクセスするファイル\n"
+"'dav': WebDAV 経由でアクセスするファイル。\n"
+"お気に入りファイルマネージャで使用する、すべてのスキームがここで利用できます。\n"
+"これは明確な選択がある場合、または特別な 'x-caja-desktop' スキームをターゲットにしている場合にのみ適用されます。\n"
+"既定は 'file' です。"
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
-msgstr ""
+msgstr "選択したファイル/フォルダを配置する、有効な GIO スキーム。必要なスキームごとに 1 個のオプションを設定する必要があります。"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -304,11 +352,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<STRING>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "フォルダのリスト"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -316,12 +364,15 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"現在のフォルダに一致する、有効なパスのリストを定義します。\n"
+"指定したパスの '下にある' すべてのフォルダが有効とみなされます。\n"
+"既定は '/' です。"
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
-msgstr ""
+msgstr "項目を表示する（親）ディレクトリのパス。必要なフォルダごとに、1 つのオプションを設定する必要があります。"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -329,11 +380,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "選択カウント関係の演算子"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -342,48 +393,52 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"このプロファイルが選択のカウント数によって選択されるかどうかです。\n"
+"これは、\"{'<'|'='|'>'} number\" という形式の文字列です。\n"
+"有効な文字列の例： \"=0\", \"> 1\", \"< 10\".\n"
+"既定は \">0\" です。"
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "選択カウント関係 [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "環境でのみ表示"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "既定はすべて。"
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
-msgstr ""
+msgstr "アイテムを表示する唯一のデスクトップ環境の名前。必要な環境ごとに 1 個のオプションを設定する必要があります。"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DESKTOP>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "環境で表示されない"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "既定はなし。"
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
-msgstr ""
+msgstr "項目を表示してはいけないデスクトップ環境の名前。表示させたい環境ごとに、1 つずつ設定する必要があります。"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "Try exec"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -393,14 +448,17 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"指定した場合、指定のファイルの存在と実行可能状態のみをチェックすることに注意してください。\n"
+"パラメータは 'TryExec' 値に記述することができ、実行時に置き換えられます。\n"
+"既定は成功です。"
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "実行可能性をチェックするファイルへのパス"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "登録されているときは表示"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -411,19 +469,23 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"DBus サービスのよく知られている名前。\n"
+"指定されたサービスが実行時にセッション DBus に登録されている場合、この項目が候補となります。\n"
+"パラメータは 'ShowIfRegistered' 値で指定でき、実行時に代入されます。\n"
+"既定は成功。"
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "セッション DBus に登録しなければならない、サービスの名前"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "True のときは表示する"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -434,15 +496,19 @@ msgid ""
 "Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"実行時の stdout 出力に文字列を出力するコマンド。\n"
+"出力された文字列が \"true\" であれば、その項目は候補となります。\n"
+"パラメータは 'ShowIfTrue' の値で指定でき、実行時に代入されます。\n"
+"既定はは成功です。"
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr ""
+msgstr "文字列 'true' を表示するコマンドへのパス"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "実行中は表示する"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -453,14 +519,18 @@ msgid ""
 "Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"プロセス名。\n"
+"このアイテムは、実行時にメモリ上でプロセス名が見つかった場合に候補となります。\n"
+"パラメータは 'ShowIfRunning' の値で指定することができ、実行時に代入されます。\n"
+"既定は成功です。"
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "実行していなければならないバイナリの名前"
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "ケイパビリティ"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -477,49 +547,60 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"セレクションの各項目が候補となるために満たさなければならない、ケイパビリティのリスト。\n"
+"ケイパビリティは否定することもできます。\n"
+"ケイパビリティは、以下の定義済みのものから選択する必要があります：\n"
+"- 所有者：現在のユーザが選択項目の所有者です。\n"
+"- 読み込み可能：選択した項目はユーザが読むことが可能です (おそらく否定した方がより便利です)\n"
+"- 書き込み可能：選択した項目はユーザによって書き込み可能です。\n"
+"- 実行可能：選択した項目はユーザによって実行可能です。\n"
+"- ローカル：選択した項目はローカルに保存されます。\n"
+"既定は空のリスト。"
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
 msgstr ""
+"選択項目が満たすべきケイパビリティの名前。おそらく、'Owner'、'Readable'、'Writable'、'Executable'、'Local'"
+" のいずれかです。"
 
 #: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
-msgstr ""
+msgstr "呼び出し元がチェック関数を提供しなかったので、アイテムの番号が変更されました。"
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
-msgstr ""
+msgstr "呼び出し元が ask user 関数を提供しなかったので、アイテムの番号が変更されました。"
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "ユーザからの要望により、番号を変更しました。"
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "ユーザからの要望により、既存のアイテムは上書きされました。"
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "アイテム \"%s\" はすでに存在しています。"
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "ユーザの操作により、インポートを取り消しました。"
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(番号変更)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "アイテムをインポートしない(_N)"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -527,105 +608,114 @@ msgid ""
 "The selected file will be marked as \"NOT OK\" in the Summary page.\n"
 "The existing item will not be modified."
 msgstr ""
+"これは以前の動作です。\n"
+"選択したファイルは、サマリのページに「NOT OK」と表示されます。\n"
+"既存のアイテムは変更されません。"
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr ""
+msgstr "アイテムをインポートし、新しい識別子を割り当てる(_A)"
 
 #: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
+"選択したファイルは、番号変更を示す、少々修正したラベルでインポートされます。\n"
+"既存のアイテムは変更されません。"
 
 #: src/core/na-importer.c:74
 msgid "_Override the existing item"
-msgstr ""
+msgstr "既存のアイテムを上書きする(_O)"
 
 #: src/core/na-importer.c:75
 msgid ""
 "The item found in the selected file will silently override the current one which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
 msgstr ""
+"選択したファイルで見つかったアイテムは、同じ識別子を持つ現在のアイテムへ通知なしで上書きします。\n"
+"警告：このモードは危険です。次回はプロンプトが表示されません。"
 
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
-msgstr ""
+msgstr "インポートした ID がすでに存在する時は、その都度たずねます。"
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
-msgstr ""
+msgstr "%s を読み込めません（空ファイルか、大き過ぎるか、通常のファイルではないため）"
 
 #: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
-msgstr ""
+msgstr "%s より 'ImporterAskDialog' をロードできません"
 
 #: src/core/na-importer-ask.c:398
 #, c-format
 msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
-msgstr ""
+msgstr "%sよりインポートしたアクション \"%s\" は、すでに存在する \"%s\" と同じ識別子を持ちます。"
 
 #: src/core/na-importer-ask.c:404
 #, c-format
 msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
-msgstr ""
+msgstr "%sよりインポートしたメニュー \"%s\" は、すでに存在する \"%s\" と同じ識別子を持ちます。"
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr ""
+msgstr "すでに存在するアイテム"
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr ""
+msgstr "これはどうすれば良いのでしょうか？"
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
-msgstr ""
+msgstr "今後のインポート操作で本人の選択を記憶しておく(_M)"
 
 #: src/core/na-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 msgstr ""
+"どうぞ、https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions "
+"宛へ不具合報告をお願いします。"
 
 #: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
-msgstr ""
+msgstr "利用不可の I/O プロバイダ。"
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr ""
+msgstr "I/O プロバイダの実装には、必要な API が不足しています。"
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
-msgstr ""
+msgstr "I/O プロバイダは書き込もうとしません。"
 
 #: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
-msgstr ""
+msgstr "I/O プロバイダは、書き込みができないと表明しています。"
 
 #: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
-msgstr ""
+msgstr "I/O プロバイダは管理者によってロックされています。"
 
 #: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
-msgstr ""
+msgstr "I/O プロバイダはユーザによってロックされています。"
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "アイテムは読み取り専用です。"
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr ""
+msgstr "書き込み可能な I/O プロバイダが見つかりません。"
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -633,10 +723,12 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
+"アイテムが理由不明で書き込みできません (%d)\n"
+"%s"
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "OK"
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -644,22 +736,24 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
+"プログラムのフローエラー。\n"
+"%s"
 
 #: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
-msgstr ""
+msgstr "I/O プロバイダはそれをするつもりがありません。"
 
 #: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
-msgstr ""
+msgstr "I/O プロバイダでの書き込みエラー。"
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr ""
+msgstr "MateConf スキーマを削除できません。"
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "設定を削除できません。"
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -667,19 +761,21 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
+"不明なリターンコード (%d).\n"
+"%s"
 
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr ""
+msgstr "新しい Caja アクション"
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
-msgstr ""
+msgstr "pre-v2 アクションから自動的に作成したプロフィール"
 
 #: src/core/na-object-action-factory.c:80
 msgid "Targets the selection context menu"
-msgstr ""
+msgstr "選択範囲のコンテキストメニューを表示する"
 
 #: src/core/na-object-action-factory.c:81
 msgid ""
@@ -688,14 +784,18 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to TRUE."
 msgstr ""
+"アクションが選択ファイルマネージャのコンテキストメニューを対象とするかどうか。\n"
+"これは以前の動作です。\n"
+"メニューは、少なくとも１つのアクションを含んでいれば、常に選択コンテキストメニューに表示される可能性があります。\n"
+"既定は TRUE です。"
 
 #: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr ""
+msgstr "選択範囲のコンテキストメニュー [true] をターゲットにする"
 
 #: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
-msgstr ""
+msgstr "場所のコンテキストメニューを対象にする"
 
 #: src/core/na-object-action-factory.c:107
 msgid ""
@@ -703,14 +803,17 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to FALSE"
 msgstr ""
+"選択されていないときに、ファイルマネージャのコンテキストメニューをターゲットにするかどうか。したがって、現在の場所に適用されます。\n"
+"メニューは、少なくとも一つのアクションを含んでいれば、常に選択コンテキストメニューに表示される可能性があることに注意してください。\n"
+"既定は FALSE です。"
 
 #: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr ""
+msgstr "場所のコンテキストメニューを対象にする [false］"
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "ツールバーを対象とする"
 
 #: src/core/na-object-action-factory.c:133
 msgid ""
@@ -719,14 +822,18 @@ msgid ""
 "Note that menus are never displayed in the toolbar.\n"
 "Defaults to FALSE."
 msgstr ""
+"ファイルマネージャツールバーに表示するアクションの候補かどうか。\n"
+"これは現在の場所にのみ適用されます。\n"
+"メニューがツールバーに表示されることはありません。\n"
+"既定は FALSE です。"
 
 #: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr ""
+msgstr "ツールバーを対象にする [false]"
 
 #: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
-msgstr ""
+msgstr "ツールバーのアイテムのラベル"
 
 #: src/core/na-object-action-factory.c:158
 msgid ""
@@ -734,16 +841,19 @@ msgid ""
 "Note that actual display may depend of your own Desktop Environment preferences.\n"
 "Defaults to label of the context menu when not set or empty."
 msgstr ""
+"ファイルマネージャで、ツールバーのアイコン以外に表示されるラベル。\n"
+"実際の表示は、お使いのデスクトップ環境設定に依存することに注意してください。\n"
+"未設定または空の場合、コンテキストメニューのラベルが既定となります。"
 
 #. Translators: copied items have a label as 'Copy of original label'
 #: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "%sのコピー"
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "アイテムのタイプ"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -752,24 +862,30 @@ msgid ""
 "- 'Menu'.\n"
 "The value is case sensitive and must not be localized."
 msgstr ""
+"アイテムがアクションかメニューかを定義します。指定できる値は\n"
+"- 'アクション'、\n"
+"- 'メニュー'。\n"
+"値は大文字と小文字を区別し、ローカライズしてはいけません。"
 
 #: src/core/na-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
-msgstr ""
+msgstr "コンテキストメニュー・アイテムのラベル（必須）"
 
 #: src/core/na-object-item-factory.c:95
 msgid ""
 "The label of the menu item that will appear in the file manager context menu when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
 msgstr ""
+"ファイルマネージャのコンテキストメニューに表示されるメニューアイテムのラベルで、選択範囲が出現条件の設定に一致するとき。\n"
+"アクションのツールバー・ラベルの既定としても使用されます。"
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "空白ラベル"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "コンテキストメニュー・アイテムのツールチップ"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -777,34 +893,39 @@ msgid ""
 "when the user points to the file manager context menu item with his/her "
 "mouse."
 msgstr ""
+"ユーザがファイルマネージャのコンテキストメニュー・アイテムをマウスでポイントした時、ファイルマネージャのステータスバーに表示されるメニューアイテムのツールチップ。"
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "コンテキストメニュー・アイテムのアイコン"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
 msgstr ""
+"ファイルマネージャのコンテキストメニューで、ラベルの横に表示されるメニューアイテムのアイコン。ただし、選択範囲が出現条件の設定に一致するとき。\n"
+"テーマアイコンのローカライズされた名前か、適切な画像へのフルパスを指定します。"
 
 #: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<PATH|NAME>"
 
 #: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
-msgstr ""
+msgstr "アイテムに関する説明"
 
 #: src/core/na-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
 msgstr ""
+"メニューやアクションの目的を説明する、何らかのテキスト。\n"
+"例えば、ウェブサイトで利用可能な項目を表示するときに使用されます。"
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "推奨するショートカット"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -813,74 +934,84 @@ msgid ""
 "The format may look like \"<Control>a\" or \"<Shift><Alt>F1\".\n"
 "Defaults to empty."
 msgstr ""
+"アクションまたはメニューに提案されるショートカット。\n"
+"そのショートカットはすでに別の用途のために予約済みかもしれないので、これは単なる提案であることに注意してください。このショートカットを定義するために、すでに存在するショートカットを上書きしないでください。\n"
+"形式は \"a \"または \"F1 \"のようになります。\n"
+"既定は空です。"
 
 #: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
-msgstr ""
+msgstr "サブアイテム ID のリスト"
 
 #: src/core/na-object-item-factory.c:269
 msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
 msgstr ""
+"サブ項目のIDの順序付きリスト。項目がメニューの場合はアクションまたはメニュー、項目がアクションの場合はプロファイルになります。\n"
+"このリストが存在しないか、アクションまたはメニューに対して空である場合、サブ項目は読み込み操作の順に添付されます。"
 
 #: src/core/na-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
-msgstr ""
+msgstr "アクションまたはメニューが有効かどうか"
 
 #: src/core/na-object-item-factory.c:294
 msgid ""
 "If the or the menu action is disabled, it will never appear in the file manager context menu.\n"
 "Defaults to TRUE."
 msgstr ""
+"もしメニューアクションが無効になっている場合は、ファイルマネージャのコンテキストメニューに表示されなくなります。\n"
+"既定は TRUE です。"
 
 #: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr ""
+msgstr "アクションまたはメニューが有効かどうか [enabled]"
 
 #: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
-msgstr ""
+msgstr "フォーマットのバージョン"
 
 #: src/core/na-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward"
 " compatibility."
-msgstr ""
+msgstr "後方互換性を管理するために使用する、設定フォーマットのバージョン。"
 
 #. Translators: default label for a new menu
 #: src/core/na-object-menu.c:57
 msgid "New Caja menu"
-msgstr ""
+msgstr "新しい Caja メニュー"
 
 #. Translators: label for the default profile
 #: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "既定のプロファイル"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "プロファイルの名前"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
+"プロファイルの機能の説明として使用することができます。\n"
+"もし設定していない場合は、既定で自動生成された名前になります。"
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "コマンドのパス"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
-msgstr ""
+msgstr "ファイルマネージャのコンテキストメニュー、またはツールバーでメニューアイテムを選択した際に実行される、コマンドのパス。"
 
 #: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "コマンドのパラメータ"
 
 #: src/core/na-object-profile-factory.c:129
 msgid ""
@@ -922,10 +1053,47 @@ msgid ""
 "  %X: space-separated list of the extensions of the selected file(s)/folder(s)\n"
 "  %%: a percent sign."
 msgstr ""
+"ファイルマネージャのコンテキストメニューまたはツールバーでメニュー項目を選択したときに実行されるコマンドのパラメータ。\n"
+"パラメータは、コマンドを開始する前にファイルマネージャによって提供される情報によって置き換えられる、いくつかの特別なトークンを含むことができる：\n"
+"- バージョン 2.0 まで：\n"
+"%d選択されたファイルのベースフォルダ\n"
+"%f選択されたファイルの名前、または複数選択されている場合は最初のファイルの名前。\n"
+"h: URIのホスト名\n"
+"m: 選択されたファイル/フォルダのベース名のスペース区切りリスト\n"
+"m: 選択されたファイル/フォルダのベースネームのスペース区切りリスト。\n"
+"%p最初のURIのポート番号\n"
+"R: 選択された URI のスペース区切りリスト。\n"
+"%sURI のスキーム\n"
+"%u: URI\n"
+"U: URIのユーザ名\n"
+"%%: パーセント記号。\n"
+"- バージョン3から：\n"
+"b: (最初の)ベース名\n"
+"B: 選択されたファイル/フォルダのベース名のスペース区切りリスト。\n"
+"%c: 選択されたファイル/フォルダを数える。\n"
+"%d: (最初の)ベースディレクトリ\n"
+"D:選択されたファイル/フォルダのベースディレクトリのスペース区切りリスト\n"
+"%f: (最初の)ファイル名\n"
+"%F: (最初の)ファイル名 : 選択されたファイル/フォルダのファイル名のスペース区切りリスト\n"
+"h: (最初の)URIのホスト名\n"
+"m: (最初の) mimetype\n"
+"m: (最初の)ミメタイプ %M: 選択されたファイル/フォルダの MIME タイプのスペース区切りリスト\n"
+"%n: (最初の)URIのユーザ名\n"
+"%o: 単数形の実行を強制する no-op 演算子 (3.0.2 以降)\n"
+"O：複数形の実行を強制するno-op演算子（3.0.2以降）\n"
+"%p最初の）URIのポート番号\n"
+"%s最初の）URIのスキーム\n"
+"%u最初の）URI\n"
+"U: 選択されたファイル/フォルダのURIのスペース区切りリスト\n"
+"%w: 拡張子なしの(最初の)ベース名\n"
+"W: 拡張子を除いたベース名のスペース区切りリスト\n"
+"%x: (最初の) 拡張子\n"
+"%X: 選択されたファイル/フォルダの拡張子をスペースで区切ったリスト。\n"
+"パーセント記号。"
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "作業用ディレクトリ"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -933,6 +1101,8 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to \"%d\"."
 msgstr ""
+"コマンドを開始する作業用ディレクトリ。\n"
+"既定は \"%d\"。"
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
@@ -950,30 +1120,41 @@ msgid ""
 "- DisplayOutput: the ran terminal may be closed at end of the command, but standard streams (stdout, stderr) should be collected and displayed; an acceptable fallback is Terminal.\n"
 "Defaults to \"Normal\"."
 msgstr ""
+"プログラムの実行モード。\n"
+"これは以下の値から選択できます。\n"
+"- 標準: 標準的なグラフィカル・ユーザインタフェースとして起動します。\n"
+"- 端末: グラフィカル環境でお気に入りの端末を起動し、その中でコマンドを実行します。\n"
+"- Embedded: ファイルマネージャの特別な機能を利用し、その中で端末を実行します。\n"
+"- 出力表示: 実行した端末はコマンドの終了時に閉じますが、標準ストリーム (stdout、stderr) は収集され表示されます。\n"
+"既定は \"標準\"。"
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "スタートアップ通知"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to FALSE."
 msgstr ""
+"ExecutionMode=Normal のときのみ関係します。\n"
+"既定は FALSE。"
 
 #: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
-msgstr ""
+msgstr "スタートアップ WM クラス"
 
 #: src/core/na-object-profile-factory.c:268
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to empty."
 msgstr ""
+"ExecutionMode=Normal のときのみ関係します。\n"
+"既定は空。"
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "ユーザとして実行する"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -981,59 +1162,62 @@ msgid ""
 "The profile is ignored if defined with a non-existing UID or login.\n"
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
+"コマンドを実行するユーザ。ユーザは、数値 UID またはログイン名で識別されます。\n"
+"存在しない UID またはログインで定義された場合、プロファイルは無視されます。\n"
+"既定は空です：コマンドは現在のユーザとして実行されます。"
 
 #: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
-msgstr ""
+msgstr "%s URI の情報照会する際に発生したエラー: %s"
 
 #: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///path/to/file1.mid"
 
 #: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///path/to/file2.jpeg"
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
-msgstr ""
+msgstr "実行コマンドの出力"
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "実行コマンド:"
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "標準出力:"
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "標準エラー:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
-msgstr ""
+msgstr "Caja アクション・デスクトップ I/O プロバイダ"
 
 #: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
-msgstr ""
+msgstr ".desktop ファイルとしてエクスポートする(_D)"
 
 #: src/io-desktop/cadp-formats.c:56
 msgid ""
@@ -1044,48 +1228,54 @@ msgid ""
 "- drag-n-drop into the Caja-Actions Configuration Tool,\n"
 "- or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
+"このフォーマットは v 3.0シリーズで導入されました。アイテムをエクスポートする際に、新たに優先されるフォーマットです。\n"
+"他のデスクトップ環境のユーザを含め、そのアプリケーションがこのフォーマットを記述する DES-EMA 仕様を実装している限り、あなたのアクションを簡単に全世界と共有することができます。\n"
+"エクスポートした .desktop ファイルは、後に以下の手段でインポート可能です。\n"
+"- Caja アクション設定ツールのインポートアシスタント、\n"
+"- Caja アクション設定ツールにドラッグ＆ドロップ、\n"
+"- または、XDG_DATA_DIRS/file-manager/actions ディレクトリへのコピー。"
 
 #: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr ""
+msgstr "デスクトップ I/O プロバイダが URI を扱えません"
 
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
 #, c-format
 msgid "unknown type: %s"
-msgstr ""
+msgstr "不明な種類"
 
 #: src/cact/base-application.c:182
 msgid "Arguments count"
-msgstr ""
+msgstr "引数カウント"
 
 #: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
-msgstr ""
+msgstr "コマンドライン引数のカウント"
 
 #: src/cact/base-application.c:190
 msgid "Arguments"
-msgstr ""
+msgstr "引数"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
-msgstr ""
+msgstr "コマンドライン引数の配列"
 
 #: src/cact/base-application.c:198
 msgid "Option entries"
-msgstr ""
+msgstr "オプションのエントリ"
 
 #: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
-msgstr ""
+msgstr "コマンドラインオプション定義の配列"
 
 #: src/cact/base-application.c:205
 msgid "Application name"
-msgstr ""
+msgstr "アプリケーション名"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
-msgstr ""
+msgstr "アプリケーションの名前"
 
 #: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
@@ -1093,56 +1283,56 @@ msgstr "説明"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
-msgstr ""
+msgstr "--help 出力の最初の行に表示される短い説明。"
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "アイコン名"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
-msgstr ""
+msgstr "アプリケーションのアイコンの名前"
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
-msgstr ""
+msgstr "一意のアプリ名"
 
 #: src/cact/base-application.c:230
 msgid "The Unique name of the application"
-msgstr ""
+msgstr "アプリケーションのユニークな名前"
 
 #: src/cact/base-application.c:237
 msgid "Return code"
-msgstr ""
+msgstr "リターンコード"
 
 #: src/cact/base-application.c:238
 msgid "The return code of the application"
-msgstr ""
+msgstr "アプリケーションが返すコード"
 
 #: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
-msgstr ""
+msgstr "コマンドライン引数を解釈できない"
 
 #: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
-msgstr ""
+msgstr "Escape キーで中止"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
-msgstr ""
+msgstr "ユーザが Escape キーを押すとアシスタントを '終了' しますか？"
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
-msgstr ""
+msgstr "Escape キーで警告する"
 
 #: src/cact/base-assistant.c:160
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
-msgstr ""
+msgstr "Escape キーでアシスタントを終了するとき、ユーザに確認を求めますか？"
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr ""
+msgstr "本当にこのアシスタントを止めたいのですか？"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1158,79 +1348,81 @@ msgid ""
 "Another instance of %s is already running.\n"
 "Please switch back to it."
 msgstr ""
+"%sという別のインスタンスがすでに実行されています。\n"
+"そちらに切り替えてください。"
 
 #: src/cact/base-iunique.c:207
 msgid "The application is not unique"
-msgstr ""
+msgstr "このアプリケーションはユニークではありません"
 
 #: src/cact/base-window.c:204
 msgid "XML UI filename"
-msgstr ""
+msgstr "XML UI のファイル名"
 
 #: src/cact/base-window.c:205
 msgid "The filename which contains the XML UI definition"
-msgstr ""
+msgstr "XML UI の定義を含むファイル名"
 
 #: src/cact/base-window.c:212
 msgid "Has its own GtkBuilder"
-msgstr ""
+msgstr "独自の GtkBuilder を持つ"
 
 #: src/cact/base-window.c:213
 msgid ""
 "Whether this BaseWindow reallocates a new GtkBuilder each time it is opened"
-msgstr ""
+msgstr "この BaseWindow を開くたびに新しい GtkBuilder を再割り当てするかどうか"
 
 #: src/cact/base-window.c:220
 msgid "Toplevel name"
-msgstr ""
+msgstr "トップレベルの名前"
 
 #: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
-msgstr ""
+msgstr "トップレベル・ウィンドウの内部 GtkBuildable の名前"
 
 #: src/cact/base-window.c:228
 msgid "BaseApplication"
-msgstr ""
+msgstr "ベースアプリケーション"
 
 #: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
-msgstr ""
+msgstr "ベースアプリケーション・インスタンスへのポインタ (参照ではない)"
 
 #: src/cact/base-window.c:235 src/cact/cact-tree-model.c:225
 msgid "Parent BaseWindow"
-msgstr ""
+msgstr "親ベースウィンドウ"
 
 #: src/cact/base-window.c:236
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of this BaseWindow"
-msgstr ""
+msgstr "このベースウィンドウの親の、ベースウィンドウへのポインタ (参照ではない)"
 
 #: src/cact/base-window.c:242
 msgid "WSP name"
-msgstr ""
+msgstr "WSP 名"
 
 #: src/cact/base-window.c:243
 msgid ""
 "The string which handles the window size and position in user preferences"
-msgstr ""
+msgstr "ユーザ設定で、ウィンドウサイズと位置を扱う文字列"
 
 #: src/cact/base-window.c:250
 msgid "Destroy the Gtk toplevel"
-msgstr ""
+msgstr "Gtk のトップレベルを破棄する"
 
 #: src/cact/base-window.c:251
 msgid "Whether the embedded Gtk Toplevel should be destroyed at dispose time"
-msgstr ""
+msgstr "破棄時に埋め込まれた Gtk トップレベルを破棄するかどうか"
 
 #: src/cact/base-window.c:735
 #, c-format
 msgid "Unable to load %s UI XML definition: %s"
-msgstr ""
+msgstr "次の %s UI XML 定義を読み込めません:%s"
 
 #: src/cact/base-window.c:750
 #, c-format
 msgid "Unable to load %s dialog definition."
-msgstr ""
+msgstr "%sダイアログ定義を読み込めません"
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
@@ -1257,7 +1449,7 @@ msgstr "不明な起動オプションです: %d"
 
 #: src/cact/egg-desktop-file.c:1364
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "'Type=Link' の .desktop エントリーにはドキュメントの URI を渡せません"
+msgstr "'Type=Link' の .desktop エントリには文書の URI を渡せません"
 
 #: src/cact/egg-desktop-file.c:1385
 msgid "Not a launchable item"
@@ -1297,96 +1489,96 @@ msgstr "Caja アクション設定ツール"
 
 #: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
-msgstr ""
+msgstr "ユーザ独自のコンテキスト・アクションを編集するためのユーザインタフェース"
 
 #: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
-msgstr ""
+msgstr "プログラムで複数のインスタンスを実行するように設定する [unique]"
 
 #: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
-msgstr ""
+msgstr "バージョン番号を出力し、潔く終了する [no]"
 
 #: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
-msgstr ""
+msgstr "ユーザはアイテムの所有者です"
 
 #: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
-msgstr ""
+msgstr "アイテムはユーザによる読み込みが可能です"
 
 #: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
-msgstr ""
+msgstr "アイテムはユーザによる書き込みが可能です"
 
 #: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
-msgstr ""
+msgstr "アイテムはユーザによる実行が可能です"
 
 #: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
-msgstr ""
+msgstr "アイテムはローカルです"
 
 #. Translators: add a comment when a capability is already used by current
 #. item
 #: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
-msgstr ""
+msgstr "%s (すでに挿入済み)"
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "新しいケイパビリティを追加"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
-msgstr ""
+msgstr "<b>管理しているケイパビリティ</b>"
 
 #: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
-msgstr ""
+msgstr "新しいスキームの追加"
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
-msgstr ""
+msgstr "<b>スキーム</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
-msgstr ""
+msgstr "ユーザの操作によりエクスポートをキャンセルしました。"
 
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
-msgstr ""
+msgstr "エクスポートに成功しました"
 
 #: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
-msgstr ""
+msgstr "選択したフォルダに書き込み権限が無いかもしれません"
 
 #: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
-msgstr ""
+msgstr "アクションのエクスポート"
 
 #: src/cact/cact-assistant-export.ui:96
 msgid "Which format should I choose to export it ?"
-msgstr ""
+msgstr "どの形式でエクスポートすれば良いのですか？"
 
 #: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
-msgstr ""
+msgstr "今後のエクスポートでは、自分の選択を記憶する"
 
 #: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
-msgstr ""
+msgstr "アクションのエクスポート"
 
 #: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
-msgstr ""
+msgstr "このアシスタントは、アクションをエクスポートするプロセスを案内します。"
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr ""
+msgstr "アクション・リスト:(_L)"
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1394,151 +1586,154 @@ msgid ""
 "\n"
 "You may use Ctrl and Shift keys to extend the selection."
 msgstr ""
+"エクスポートする 1 つ以上のアクションを選択してください。\n"
+"Ctrl キーと Shift キーを使うと選択範囲を広げることができます。"
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
-msgstr ""
+msgstr "エクスポートしたアクションの選択"
 
 #: src/cact/cact-assistant-export.ui:327
 msgid "Selecting the target folder"
-msgstr ""
+msgstr "対象フォルダの選択"
 
 #: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
-msgstr ""
+msgstr "これらのアイテムをエクスポートする場合、どのフォーマットを使用すれば良いのですか？"
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
-msgstr ""
+msgstr "エクスポート形式の選択"
 
 #: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
-msgstr ""
+msgstr "選択したアイテムのエクスポートについて:"
 
 #: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
-msgstr ""
+msgstr "保存先のフォルダへ:"
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "要約"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
-msgstr ""
+msgstr "選択したアイテムを処理しています:"
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "エクスポート完了"
 
 #. Translators: indicate that the file has been successfully imported
 #: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
-msgstr ""
+msgstr "インポート OK"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
 #: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "ID: %s\t%s"
 
 #. Translators: indicate that the file was not imported
 #: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
-msgstr ""
+msgstr "インポートできませんでした"
 
 #: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
-msgstr ""
+msgstr "アクションのインポート"
 
 #: src/cact/cact-assistant-import.ui:19
 msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
-msgstr ""
+msgstr "このアシスタントは、アイテム・アクション・メニューのインポートなどのプロセスをガイドします。"
 
 #: src/cact/cact-assistant-import.ui:55
 msgid "Selecting files to import"
-msgstr ""
+msgstr "インポートするファイルを選択"
 
 #: src/cact/cact-assistant-import.ui:81
 msgid "What should I do when importing an item whose ID already exists ?"
-msgstr ""
+msgstr "ID がすでに存在するアイテムをインポートする場合、どうすれば良いのですか？"
 
 #: src/cact/cact-assistant-import.ui:122
 msgid "Managing duplicates"
-msgstr ""
+msgstr "重複の管理"
 
 #: src/cact/cact-assistant-import.ui:163
 msgid "About to import selected files:"
-msgstr ""
+msgstr "選択したファイルのインポートについて:"
 
 #: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
-msgstr ""
+msgstr "ID がすでに存在するアイテムをインポートする場合:"
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
-msgstr ""
+msgstr "選択したファイルを処理しています:"
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
-msgstr ""
+msgstr "インポート完了"
 
 #: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
-msgstr ""
+msgstr "Caja のコンテキストメニューに追加するアイテムを設定する"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 msgstr ""
+"caja;actions;アクション;configuration;設定;tool;ツール;settings;MATE;filebrowser;ファイルブラウザ;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
-msgstr ""
+msgstr "アクション \"%s\" をエクスポートしようとしています。"
 
 #. Translators: The menu <label> is about to be exported
 #: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
-msgstr ""
+msgstr "メニュー \"%s\" をエクスポートしようとしています。"
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr ""
+msgstr "注意: アクションやメニューにはラベルが必要です。"
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
-msgstr ""
+msgstr "ベース名のフィルタ"
 
 #: src/cact/cact-icapabilities-tab.c:198
 msgid "Capability filter"
-msgstr ""
+msgstr "ケイパビリティ・フィルタ"
 
 #: src/cact/cact-icommand-tab.c:567
 msgid "Choosing a command"
-msgstr ""
+msgstr "コマンドの選択"
 
 #: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
-msgstr ""
+msgstr "作業用ディレクトリの選択"
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
-msgstr ""
+msgstr "アイコン選択ツール"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
-msgstr ""
+msgstr "テーマアイコン(_T)"
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
-msgstr ""
+msgstr "パス別のアイコン"
 
 #: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
@@ -1554,11 +1749,11 @@ msgstr ""
 
 #: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
-msgstr ""
+msgstr "実行可能なファイルの選択"
 
 #: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
-msgstr ""
+msgstr "フォルダ・フィルタ"
 
 #. Translators: title of the FileChoose dialog when selecting an URI which
 #. * will be compare to Caja 'current_folder'
@@ -1568,7 +1763,7 @@ msgstr "フォルダを選択"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
-msgstr ""
+msgstr "MIME タイプ・フィルタ"
 
 #. Translators: label of the push button when there is not yet any shortcut
 #: src/cact/cact-iproperties-tab.c:53
@@ -1578,11 +1773,11 @@ msgstr "なし"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "メニュー(_N)"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr ""
+msgstr "<b>メニュー編集可能なプロパティ</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1592,99 +1787,101 @@ msgstr "操作(_A)"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr ""
+msgstr "<b>アクション編集可能なプロパティ</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
-msgstr ""
+msgstr "スキーム・フィルタ"
 
 #: src/cact/cact-main-window.c:344
 msgid "Current NAObjectItem"
-msgstr ""
+msgstr "現在の NAObjectItem"
 
 #: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
-msgstr ""
+msgstr "現在編集中の NAObjectItem へのポインタ、アクションまたはメニュー"
 
 #: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
-msgstr ""
+msgstr "現在の NAObjectProfile"
 
 #: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
-msgstr ""
+msgstr "現在編集中 NAObjectProfile へのポインタ"
 
 #: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
-msgstr ""
+msgstr "現在の NAIContext"
 
 #: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
-msgstr ""
+msgstr "現在編集中の NAIContext へのポインタ"
 
 #: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
-msgstr ""
+msgstr "編集可能なアイテム？"
 
 #: src/cact/cact-main-window.c:366
 msgid "Whether the item will be able to be updated against its I/O provider"
-msgstr ""
+msgstr "I/O プロバイダに対してアイテムを更新できるかどうか"
 
 #: src/cact/cact-main-window.c:373
 msgid "No edition reason"
-msgstr ""
+msgstr "編集理由なし"
 
 #: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
-msgstr ""
+msgstr "なぜこのアイテムは編集できないのか？"
 
 #: src/cact/cact-main-window.c:1267
 msgid ""
 "One or more actions have been modified in the filesystem.\n"
 "You could keep to work with your current list of actions, or you may want to reload a fresh one."
 msgstr ""
+"１つ以上のアクションがファイルシステム内で変更されています。\n"
+"現在のアクションリストで作業を続けるか、または新しいものをリロードできます。"
 
 #: src/cact/cact-main-window.c:1274
 msgid ""
 "Note that reloading a fresh list of actions requires that you give up with "
 "your current modifications."
-msgstr ""
+msgstr "新しいアクション・リストを再読み込みすると、現在の修正をあきらめる必要があるので注意してください。"
 
 #: src/cact/cact-main-window.c:1280
 msgid "Do you want to reload a fresh list of actions ?"
-msgstr ""
+msgstr "新しいアクション・リストを再読み込みしますか？"
 
 #: src/cact/cact-main-window.c:1303
 msgid ""
 "Reloading a fresh list of actions requires that you give up with your "
 "current modifications."
-msgstr ""
+msgstr "新しいアクション・リストを再読み込みすると、現在の修正をあきらめる必要があります。"
 
 #: src/cact/cact-main-window.c:1306
 msgid "Do you really want to do this ?"
-msgstr ""
+msgstr "本当にそれを実行しますか？"
 
 #: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
-msgstr ""
+msgstr "一部のアイテムは修正されています。"
 
 #: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
-msgstr ""
+msgstr "本当に保存しないで中止しますか？"
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
-msgstr ""
+msgstr "次のいずれかと一致しなければなりません"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
-msgstr ""
+msgstr "すべてに一致しなくてはなりません"
 
 #. Translators: label of the header of a column which let the user select a
 #. negative filter
 #: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
-msgstr ""
+msgstr "いずれにも一致してはなりません"
 
 #: src/cact/cact-match-list.c:548
 #, c-format
@@ -1692,10 +1889,12 @@ msgid ""
 "'%s' filter already exists in the list.\n"
 "Please provide another one."
 msgstr ""
+"'%s' フィルタはすでにリストに存在します。\n"
+"別のものを用意してください。"
 
 #: src/cact/cact-match-list.c:926
 msgid "new-filter"
-msgstr ""
+msgstr "新しいフィルタ"
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
@@ -1711,7 +1910,7 @@ msgstr "表示(_V)"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "ツールバー(_T)"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
@@ -1719,7 +1918,7 @@ msgstr "ツール(_T)"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "メンテナ(_M)"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1727,37 +1926,37 @@ msgstr "ヘルプ(_H)"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
-msgstr ""
+msgstr "ノートブック・タブ(_T)"
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
-msgstr ""
+msgstr "新規メニュー(_M)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. menu' item
 #: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
-msgstr ""
+msgstr "現在位置に新しいメニューを挿入する"
 
 #: src/cact/cact-menubar.c:72
 msgid "_New action"
-msgstr ""
+msgstr "新しいアクション(_N)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. action' item
 #: src/cact/cact-menubar.c:74
 msgid "Define a new action"
-msgstr ""
+msgstr "新しいアクションの定義"
 
 #: src/cact/cact-menubar.c:76
 msgid "New _profile"
-msgstr ""
+msgstr "新しいプロファイル(_P)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. profile' item
 #: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
-msgstr ""
+msgstr "新しいプロファイルを定義して、現在のアクションに追加する"
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
@@ -1767,7 +1966,7 @@ msgstr "保存(_S)"
 #: src/cact/cact-menubar.c:82
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
-msgstr ""
+msgstr "修正したすべてのアクションを記録します。無効なアクションは粛然と無視します。"
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
@@ -1786,7 +1985,7 @@ msgstr "切取り(_T)"
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "選択した項目をクリップボードへ切り取ります"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1796,7 +1995,7 @@ msgstr "コピー(_C)"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "選択したアイテムをクリップボードへコピーします"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
@@ -1806,17 +2005,17 @@ msgstr "貼り付け(_P)"
 #. item
 #: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
-msgstr ""
+msgstr "クリップボードの内容を現在位置の直前に挿入する。"
 
 #: src/cact/cact-menubar.c:100
 msgid "Paste _into"
-msgstr ""
+msgstr "指定先に貼り付け(_I)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. Into item
 #: src/cact/cact-menubar.c:102
 msgid "Insert the content of the clipboard as first child of the current item"
-msgstr ""
+msgstr "クリップボードの内容を現在のアイテムの最初の子として挿入します"
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
@@ -1826,7 +2025,7 @@ msgstr "複製(_U)"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "選択したアイテムを複製する"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
@@ -1836,11 +2035,11 @@ msgstr "削除(_D)"
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "選択したアイテムを削除する"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr ""
+msgstr "再読み込み(_R)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -1848,7 +2047,7 @@ msgstr ""
 msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
-msgstr ""
+msgstr "現在の変更をキャンセルし、メニューとアクションの初期リストを再読み込みする"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1858,57 +2057,57 @@ msgstr "設定(_P)"
 #. 'Preferences' item
 #: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
-msgstr ""
+msgstr "あなたの設定を編集します"
 
 #: src/cact/cact-menubar.c:120
 msgid "_Expand all"
-msgstr ""
+msgstr "全体に拡張する(_E)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Expand
 #. all item
 #: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
-msgstr ""
+msgstr "アイテムの階層を全体に拡張する"
 
 #: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
-msgstr ""
+msgstr "すべて折りたたむ(_C)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr ""
+msgstr "アイテムの階層を完全に折りたたむ"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
-msgstr ""
+msgstr "_アシスタントのインポート...(_I)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Import
 #. item
 #: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
-msgstr ""
+msgstr "外部のファイルから１個以上のアクションをあなたの設定にインポートします"
 
 #: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
-msgstr ""
+msgstr "アシスタントのエクスポート...(_E)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Export
 #. item
 #: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
-msgstr ""
+msgstr "あなたの設定から１個以上のアクションを外部のファイルへエクスポートします"
 
 #: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
-msgstr ""
+msgstr "選択を破棄する(_D)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Dump
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr ""
+msgstr "選択したアイテムを再帰的にダンプします"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
@@ -1922,23 +2121,23 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr ""
+msgstr "変更されたアイテムをリストアップ(_L)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
 #: src/cact/cact-menubar.c:148
 msgid "List the modified items"
-msgstr ""
+msgstr "変更されたアイテムをリストアップします"
 
 #: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
-msgstr ""
+msgstr "クリップボードのダンプ(_D)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr ""
+msgstr "クリップボード・オブジェクトの内容を破棄します"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -1948,7 +2147,7 @@ msgstr "目次"
 #. item
 #: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
-msgstr ""
+msgstr "このプログラムについてのヘルプを表示します"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
@@ -1958,170 +2157,180 @@ msgstr "情報(_A)"
 #. item
 #: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
-msgstr ""
+msgstr "このプログラムについての情報を表示します"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. File toolbar' item
 #: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
-msgstr ""
+msgstr "ファイル・ツールバーを表示します"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. Edit toolbar' item
 #: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
-msgstr ""
+msgstr "編集ツールバーを表示します"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
 #: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
-msgstr ""
+msgstr "ツール・ツールバーを表示します"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr ""
+msgstr "ヘルプ・ツールバーを表示します"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
-msgstr ""
+msgstr "左側に(_L)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the left' item
 #: src/cact/cact-menubar.c:192
 msgid "Display the notebook tabs on the left side"
-msgstr ""
+msgstr "左側にノートブックのタブを表示します"
 
 #: src/cact/cact-menubar.c:194
 msgid "On the _right"
-msgstr ""
+msgstr "右側に(_R)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the right' item
 #: src/cact/cact-menubar.c:196
 msgid "Display the notebook tabs on the right side"
-msgstr ""
+msgstr "右側にノートブックのタブを表示します"
 
 #: src/cact/cact-menubar.c:198
 msgid "On the _top"
-msgstr ""
+msgstr "トップに(_T)"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the top' item
 #: src/cact/cact-menubar.c:200
 msgid "Display the notebook tabs on the top side"
-msgstr ""
+msgstr "トップにノートブックのタブを表示します"
 
 #: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
-msgstr ""
+msgstr "ボトムに(_B)"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the bottom' item
 #: src/cact/cact-menubar.c:204
 msgid "Display the notebook tabs on the bottom side"
-msgstr ""
+msgstr "ボトムにノートブックのタブを表示します"
 
 #: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
-msgstr ""
+msgstr "%dメニュー、%dアクション、%dプロフィールが現在ロードされています"
 
 #: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
-msgstr ""
+msgstr "以下のアイテムは変更できないため、すべてのアイテムを削除したわけではありません"
 
 #: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
-msgstr ""
+msgstr "以下のアイテムは修正不可能なため、すべてのアイテムを削除したわけではありません"
 
 #: src/cact/cact-menubar-file.c:52
 msgid "Save error"
-msgstr ""
+msgstr "セーブエラー"
 
 #: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
-msgstr ""
+msgstr "一部のアイテムは保存されていない可能性があります"
 
 #: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
-msgstr ""
+msgstr "level-zero のアイテムリストを書き換えることができません"
 
 #: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
-msgstr ""
+msgstr "一部のアイテムは削除されていません"
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
-msgstr ""
+msgstr "新しいプロファイル"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
-msgstr ""
+msgstr "保留中の変更を自動的に保存しています..."
 
 #: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
-msgstr ""
+msgstr "Caja アクション設定"
 
 #: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
-msgstr ""
+msgstr "アルファベットの昇順(_A)"
 
 #: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"メニューとアクションが、Caja のコンテキストメニューと Caja "
+"アクション設定ツールのと両方のユーザインタフェースにて、ラベルのアルファベット昇順で表示されます。"
 
 #: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
-msgstr ""
+msgstr "アルファベットの降順(_D)"
 
 #: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"メニューとアクションが、Caja のコンテキストメニューと Caja "
+"アクション設定ツールのと両方のユーザインタフェースにて、ラベルのアルファベット降順で表示されます。"
 
 #: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
-msgstr ""
+msgstr "マニュアルの順序(_M)"
 
 #: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
 msgstr ""
+"メニューとアクションの表示順を、Caja コンテキストメニューと Caja "
+"アクション設定ツールの両方のユーザインタフェースで、手動で調整する必要があります。"
 
 #: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
-msgstr ""
+msgstr "<b>アイテムの順序</b>"
 
 #: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
-msgstr ""
+msgstr "ルート 'Caja-Actions' メニューを作成する(_C)"
 
 #: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
+"このオプションをチェックした場合、メニューとアクションは、 Caja コンテキストメニューで、ルート 'Caja-Actions' "
+"メニューのサブアイテムとして表示します。"
 
 #: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
-msgstr ""
+msgstr "Cajaのコンテキストメニューに、'Caja アクションについて' という項目を追加する(_B)"
 
 #: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
 msgstr ""
+"このオプションをチェックすると、「Caja アクションについて」という項目が Caja コンテキストメニューの root Caja-Actions メニューに追加されます。\n"
+"この項目は、Caja コンテキストメニューにユニークなメニューを定義している場合にのみ表示することに注意してください (例えば、上記の root 'Caja-Actions' メニューオプションをチェックした場合）。"
 
 #: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
-msgstr ""
+msgstr "<b>Caja メニューレイアウト</b>"
 
 #: src/cact/cact-preferences.ui:263
 msgid ""
@@ -2129,86 +2338,90 @@ msgid ""
 "as well as in the Caja context menu. You may also choose here how actions "
 "will be displayed in the Caja context menu."
 msgstr ""
+"このタブでは、表示リストと Caja コンテキストメニューで、どのようにアクションを並べるかを選択できます。また、ここで、Caja "
+"コンテキストメニューにアクションを表示する方法も選択できます。"
 
 #: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
-msgstr ""
+msgstr "ランタイム環境設定"
 
 #: src/cact/cact-preferences.ui:298
 msgid ""
 "Specify here the command to run and keep opened a terminal.\n"
 "This command should include a 'COMMAND' keyword, which will be substituted at runtime with the action path and parameters."
 msgstr ""
+"ここで、実行するコマンドを指定し、端末を開いておきます。\n"
+"このコマンドには 'COMMAND' キーワードを含める必要があり、実行時にアクションのパスとパラメータで置き換えられます。"
 
 #: src/cact/cact-preferences.ui:331
 msgid "_Command pattern :"
-msgstr ""
+msgstr "コマンド・パターン :(_C)"
 
 #: src/cact/cact-preferences.ui:359
 msgid "<b>Execution in a terminal</b>"
-msgstr ""
+msgstr "<b>端末で実行する</b>"
 
 #: src/cact/cact-preferences.ui:399
 msgid "Running _desktop environment :"
-msgstr ""
+msgstr "デスクトップ環境の実行 :(_D)"
 
 #: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
-msgstr ""
+msgstr "<i>現在検出されたもの :</i>"
 
 #: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
-msgstr ""
+msgstr "<b>デスクトップ環境</b>"
 
 #: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
-msgstr ""
+msgstr "このタブでは、一部の実行モードで必要なパラメータを指定します。"
 
 #: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
-msgstr ""
+msgstr "ランタイムの実行(_X)"
 
 #: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
-msgstr ""
+msgstr "ツリー内のアイテムを貼り付けたり、複製したりした時は何を行いますか？"
 
 #: src/cact/cact-preferences.ui:534
 msgid "Relabel _menus"
-msgstr ""
+msgstr "メニューのラベルを変更する"
 
 #: src/cact/cact-preferences.ui:538
 msgid ""
 "When a menu is copied/pasted, or duplicated, the new menu will be relabelled"
 " as 'Copy of ...'."
-msgstr ""
+msgstr "メニューがコピー/貼り付け、複製されたりすると、新しいメニューは 'Copy of ...' として再ラベルされます。"
 
 #: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
-msgstr ""
+msgstr "アクションを再ラベルする(_A)"
 
 #: src/cact/cact-preferences.ui:555
 msgid ""
 "When an action is copied/pasted, or duplicated, the new action will be "
 "relabelled as 'Copy of ...'."
-msgstr ""
+msgstr "アクションがコピー/貼り付け、複製されたりすると、新しいアクションは 'Copy of ...' として再ラベルされます。"
 
 #: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
-msgstr ""
+msgstr "プロファイルのラベル変更"
 
 #: src/cact/cact-preferences.ui:572
 msgid ""
 "When a profile is copied/pasted, or duplicated, the new profile will be "
 "relabelled as 'Copy of ...'."
-msgstr ""
+msgstr "プロファイルがコピー/貼り付け、複製されたりすると、新しいプロファイルは 'Copy of ...' として再ラベルされます。"
 
 #: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
-msgstr ""
+msgstr "<b>アイテムのラベル変更</b>"
 
 #: src/cact/cact-preferences.ui:631
 msgid "Esc key _quits the assistant"
-msgstr ""
+msgstr "Esc キーでアシスタントを中止"
 
 #: src/cact/cact-preferences.ui:635
 msgid ""
@@ -2216,10 +2429,11 @@ msgid ""
 "assistant. Else, quitting the assistant is only possible by hitting the "
 "'Cancel' button."
 msgstr ""
+"このオプションをチェックすると、「Escape」キーで現在のアシスタントを中止できます。それ以外の場合、アシスタントを止めるには「キャンセル」ボタンを押してください。"
 
 #: src/cact/cact-preferences.ui:648
 msgid "Ask for a _confirmation when quitting the assistant on Esc key"
-msgstr ""
+msgstr "Esc キーでアシスタントを終了するには確認を求める"
 
 #: src/cact/cact-preferences.ui:652
 msgid ""
@@ -2227,24 +2441,26 @@ msgid ""
 "assistant. When checked, the user will be prompted for a confirmation in "
 "order to help prevent erroneous hits of the Esc key."
 msgstr ""
+"このオプションは 'Escape' キーでユーザがアシスタントを終了する場合にのみ関連します。チェックした場合、Esc "
+"キーの誤入力を防ぐ目的で、ユーザに確認のプロンプトを表示します。"
 
 #: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
-msgstr ""
+msgstr "<b>アシスタント</b>"
 
 #: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
-msgstr ""
+msgstr "保留中の変更を自動的に保存"
 
 #: src/cact/cact-preferences.ui:711
 msgid ""
 "When this option is checked, pending modification will be periodically and "
 "automatically saved."
-msgstr ""
+msgstr "このオプションをチェックすると、保留中の変更を定期的かつ自動的に保存します。"
 
 #: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
-msgstr ""
+msgstr "定期性 :"
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
@@ -2252,51 +2468,51 @@ msgstr "分"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
-msgstr ""
+msgstr "<b>自動セーブ</b>"
 
 #: src/cact/cact-preferences.ui:809
 msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
-msgstr ""
+msgstr "このタブでは、Caja アクション設定ツールのユーザインタフェースで、カスタム設定を選択できます。"
 
 #: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
-msgstr ""
+msgstr "UI 環境設定(_U)"
 
 #: src/cact/cact-preferences.ui:847
 msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
-msgstr ""
+msgstr "インポートする目的で選択したアイテムやアクション、メニューが、現在存在するものと同じ識別子を持つ場合、どのようにしますか？"
 
 #: src/cact/cact-preferences.ui:883
 msgid "<b>Import mode</b>"
-msgstr ""
+msgstr "<b>インポートモード</b>"
 
 #: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
-msgstr ""
+msgstr "このタブでは、インポート操作の既定動作を決めることができます。"
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "インポート(_I)"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
-msgstr ""
+msgstr "お気に入りのエクスポート形式は何ですか？"
 
 #: src/cact/cact-preferences.ui:977
 msgid "<b>Export format</b>"
-msgstr ""
+msgstr "<b>フォーマットのエクスポート</b>"
 
 #: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
-msgstr ""
+msgstr "このタブでは、エクスポート操作の既定動作を決めることができます。"
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "エクスポート(_E)"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2304,28 +2520,31 @@ msgid ""
 "If the list becomes empty, CACT will automatically refill in with this default list.\n"
 "You can add a new scheme by clicking on the '+' button."
 msgstr ""
+"ここでは、いくつでもスキームを定義できます。これらのスキームは、アクションの条件を定義する時に既定のスキームとして提案されます。\n"
+"リストが空になると、CACT は自動的にこの既定リストを補充します。\n"
+"新しいスキームを追加するには、「+」ボタンをクリックしてください。"
 
 #: src/cact/cact-preferences.ui:1070
 msgid "Click to add a new default scheme."
-msgstr ""
+msgstr "クリックして新しい既定スキームを追加します。"
 
 #: src/cact/cact-preferences.ui:1091
 msgid "Click to remove the selected default scheme."
-msgstr ""
+msgstr "クリックして選択した既定スキームを削除します。"
 
 #: src/cact/cact-preferences.ui:1123
 msgid "<b>Default schemes</b>"
-msgstr ""
+msgstr "<b>既定のスキーム</b>"
 
 #: src/cact/cact-preferences.ui:1143
 msgid ""
 "This tab lets you decide which schemes are proposed by default when editing "
 "advanced conditions for an item."
-msgstr ""
+msgstr "このタブでは、アイテムの詳細条件を編集するときに、既定で提案されるスキームを決定できます。"
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
-msgstr ""
+msgstr "スキーム(_S)"
 
 #: src/cact/cact-preferences.ui:1186
 msgid ""
@@ -2333,6 +2552,8 @@ msgid ""
 "startup, to be writable, and the order in which they will be tested when "
 "trying to write a new menu or action."
 msgstr ""
+"ここでは、利用可能な I/O "
+"プロバイダについて、起動時に読み込むかどうか、書き込み可能かどうか、新しいメニューやアクションを書き込むときにテストする順番を定義します。"
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
@@ -2342,7 +2563,7 @@ msgstr "上へ(_U)"
 msgid ""
 "Move up the selected I/O provider in the order of priority when trying to "
 "write a new item."
-msgstr ""
+msgstr "新しい項目を書き込むときに、選択した I/O プロバイダを優先順位の高い順に繰り上げます。"
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
@@ -2350,476 +2571,480 @@ msgstr "下へ(_D)"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
-msgstr ""
+msgstr "<b>アクティブ化と優先順位</b>"
 
 #: src/cact/cact-preferences.ui:1278
 msgid ""
 "This tab lets you decide whether the I/O providers are enabled or not, and "
 "in which order they will be tried when writing a new item."
-msgstr ""
+msgstr "このタブでは、I/O プロバイダを有効にするかどうか、新しい項目を書くときにどの順番で試行するかを決めることができます。"
 
 #: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
-msgstr ""
+msgstr "I/O プロバイダ"
 
 #. Translators: the user is not willing to identify his current desktop
 #. environment,
 #. *       and prefers rely on the runtime detection
 #: src/cact/cact-preferences-editor.c:118
 msgid "Rely on runtime detection"
-msgstr ""
+msgstr "ランタイム検出に依存する"
 
 #: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
-msgstr ""
+msgstr "例:"
 
 #: src/cact/cact-providers-list.c:136
 msgid "Readable"
-msgstr ""
+msgstr "読み込み可"
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "書き込み可"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
-msgstr ""
+msgstr "I/O プロバイダ"
 
 #. Translators: default name when the I/O providers doesn't provide one
 #: src/cact/cact-providers-list.c:260
 msgid "no name"
-msgstr ""
+msgstr "名前なし"
 
 #. Translators: name displayed when the corresponding I/O provider is
 #. unavailable at runtime
 #: src/cact/cact-providers-list.c:264
 msgid "unavailable I/O provider"
-msgstr ""
+msgstr "利用不可の I/O プロバイダ"
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "キーワード"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
-msgstr ""
+msgstr "ローカルファイル"
 
 #: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
-msgstr ""
+msgstr "SSH ファイル"
 
 #: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
-msgstr ""
+msgstr "Windows ファイル"
 
 #: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
-msgstr ""
+msgstr "FTP ファイル"
 
 #: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
-msgstr ""
+msgstr "WebDAV ファイル"
 
 #. Translators: add a comment when a scheme is already used by current item
 #: src/cact/cact-schemes-list.c:400
 #, c-format
 msgid "%s (already used)"
-msgstr ""
+msgstr "%s (使用済み)"
 
 #: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
-msgstr ""
+msgstr "新しいスキーム"
 
 #: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
-msgstr ""
+msgstr "新しいスキームの説明"
 
 #: src/cact/cact-tree-model.c:226
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
-msgstr ""
+msgstr "埋め込みツリービューの、ベースウィンドウの親へのポインタ（参照ではありません）"
 
 #: src/cact/cact-tree-model.c:232
 msgid "Embedding GtkTreeView"
-msgstr ""
+msgstr "GtkTreeView の埋め込み"
 
 #: src/cact/cact-tree-model.c:233
 msgid "The GtkTreeView which relies on this CactTreeModel"
-msgstr ""
+msgstr "この CactTreeModel に依存する GtkTreeView"
 
 #: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
-msgstr ""
+msgstr "編集モード"
 
 #: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
-msgstr ""
+msgstr "編集モード 対 選択モード"
 
 #: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
-msgstr ""
+msgstr "ここにプロファイルをドロップできません"
 
 #: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
-msgstr ""
+msgstr "ここにアクションやメニューをドロップできません"
 
 #: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
-msgstr ""
+msgstr "親が書き込み不能なため、ここにドロップできません"
 
 #: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
-msgstr ""
+msgstr "level zero は書き込み不可のため、ここにドロップできません"
 
 #: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
-msgstr ""
+msgstr "ドロップ操作中にメッセージが発生しました。"
 
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
-msgstr ""
+msgstr "ベースウィンドウ"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:217
 msgid "The BaseWindow parent"
-msgstr ""
+msgstr "ベースウィンドウの親"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "コンテナ"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView ウィジェットを含む GtkContainer"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
 msgid "Widget name"
-msgstr ""
+msgstr "ウィジェット名"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView ウィジェットの名前"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:243
 msgid "Management mode"
-msgstr ""
+msgstr "管理モード"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
-msgstr ""
+msgstr "ツリービュー・選択・編集についての管理モード"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:255
 msgid "Allow notify"
-msgstr ""
+msgstr "通知の許可"
 
 #. Translators: CactTreeView property loong description
 #: src/cact/cact-tree-view.c:257
 msgid "Whether notifications are allowed"
-msgstr ""
+msgstr "通知を許可するかどうか"
 
 #: src/cact/caja-actions-config-tool.ui:16
 msgid "End of session"
-msgstr ""
+msgstr "セッションの終了"
 
 #: src/cact/caja-actions-config-tool.ui:122
 msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
-msgstr ""
+msgstr "<span size=\"larger\"><b>パラメーターの凡例</b></span>"
 
 #: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
-msgstr ""
+msgstr "<b>%b</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
-msgstr ""
+msgstr "(最初の) ベース名。"
 
 #: src/cact/caja-actions-config-tool.ui:184
 msgid "count of selected item(s)."
-msgstr ""
+msgstr "選択したアイテムのカウント。"
 
 #: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
-msgstr ""
+msgstr "(最初の) ベースディレクトリ。"
 
 #: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
-msgstr ""
+msgstr "選択したファイル/フォルダのベースディレクトリを、スペースで区切ったリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:220
 msgid "port number of the (first) selected URI."
-msgstr ""
+msgstr "(最初に) 選択した URI のポート番号。"
 
 #: src/cact/caja-actions-config-tool.ui:232
 msgid "scheme of the (first) selected URI."
-msgstr ""
+msgstr "(最初に) 選択した URI のスキーム。"
 
 #: src/cact/caja-actions-config-tool.ui:244
 msgid "(first) URI."
-msgstr ""
+msgstr "(最初の) URI"
 
 #: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "選択したファイル/フォルダの URI をスペースで区切ったリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
-msgstr ""
+msgstr "パーセント記号。"
 
 #: src/cact/caja-actions-config-tool.ui:280
 msgid "(first) filename."
-msgstr ""
+msgstr "(最初の) ファイル名。"
 
 #: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "選択したファイル/フォルダのファイル名をスペースで区切ったリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
-msgstr ""
+msgstr "(最初に) 選択した URI のホスト名。"
 
 #: src/cact/caja-actions-config-tool.ui:316
 msgid "username of the (first) selected URI."
-msgstr ""
+msgstr "(最初に) 選択した URI のユーザ名。"
 
 #: src/cact/caja-actions-config-tool.ui:328
 msgid "(first) basename without the extension."
-msgstr ""
+msgstr "(最初の) 拡張子なしのベース名。"
 
 #: src/cact/caja-actions-config-tool.ui:340
 msgid "space-separated list of the basenames without the extension."
-msgstr ""
+msgstr "拡張子を除くベース名のスペース区切りリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:352
 msgid "(first) extension."
-msgstr ""
+msgstr "(最初の) エクステンション。"
 
 #: src/cact/caja-actions-config-tool.ui:364
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "選択したファイル/フォルダの拡張子をスペースで区切ったリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
-msgstr ""
+msgstr "(最初の) MIME タイプ。"
 
 #: src/cact/caja-actions-config-tool.ui:388
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "選択したファイル/フォルダの MIME タイプをスペースで区切ったリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
-msgstr ""
+msgstr "単一形式の実行を強制する no-op 演算子。"
 
 #: src/cact/caja-actions-config-tool.ui:412
 msgid "no-op operator which forces a plural form of execution."
-msgstr ""
+msgstr "複数形式の実行を強制する no-op 演算子。"
 
 #: src/cact/caja-actions-config-tool.ui:423
 msgid "<b>%B</b> :"
-msgstr ""
+msgstr "<b>%B</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:436
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "選択したファイル/フォルダのベース名をスペースで区切ったリスト。"
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
 msgid "<b>%o</b> :"
-msgstr ""
+msgstr "<b>%o</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
-msgstr ""
+msgstr "<b>%O</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:579
 #, c-format
 msgid "<b>%p</b> :"
-msgstr ""
+msgstr "<b>%p</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:591
 #, c-format
 msgid "<b>%s</b> :"
-msgstr ""
+msgstr "<b>%s</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:603
 #, c-format
 msgid "<b>%u</b> :"
-msgstr ""
+msgstr "<b>%u</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
-msgstr ""
+msgstr "<b>%U</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
-msgstr ""
+msgstr "<b>%w</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
-msgstr ""
+msgstr "<b>%W</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:651
 #, c-format
 msgid "<b>%x</b> :"
-msgstr ""
+msgstr "<b>%x</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:663
 #, c-format
 msgid "<b>%X</b> :"
-msgstr ""
+msgstr "<b>%X</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:675
 #, c-format
 msgid "<b>%%</b> :"
-msgstr ""
+msgstr "<b>%%</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr ""
+msgstr "アイテムリスト :(_L)"
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
-msgstr ""
+msgstr "リストをアルファベットの降順で並べ替える。"
 
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
-msgstr ""
+msgstr "リストを並べ替えず、手動でアイテムをを並べ替え直す。"
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
-msgstr ""
+msgstr "リストをアルファベットの昇順で並べ替える。"
 
 #: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
-msgstr ""
+msgstr "選択のコンテキストメニューにアイテムを表示する(_S)"
 
 #: src/cact/caja-actions-config-tool.ui:923
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager"
 " context menu, with a non-empty selection."
-msgstr ""
+msgstr "チェックを入れると、アイテムはファイルマネージャのコンテキストメニュー表示の候補となり、空でない選択となります。"
 
 #: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
-msgstr ""
+msgstr "ファイルマネージャのコンテキストメニューにある、アイテムのラベル。"
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
-msgstr ""
+msgstr "場所のコンテキストメニューにアイテムを表示する(_L)"
 
 #: src/cact/caja-actions-config-tool.ui:954
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager context menu when the selection is empty.\n"
 "In this case, the defined conditions will be applied to the current displayed folder."
 msgstr ""
+"チェックを入れると、選択が空の時ファイルマネージャのコンテキストメニューに表示するアイテム候補となります。\n"
+"この場合、定義した条件は現在表示しているフォルダに適用されます。"
 
 #: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
-msgstr ""
+msgstr "コンテキストのラベル :(_C)"
 
 #: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
-msgstr ""
+msgstr "ツールバーにアイテムを表示する(_T)"
 
 #: src/cact/caja-actions-config-tool.ui:985
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager toolbar.\n"
 "In this case, the defined conditions will be applied to the current folder, and do not depend of the possible current selection."
 msgstr ""
+"チェックを入れると、アイテムがファイルマネージャ・ツールバーに表示する候補になります。\n"
+"この場合、定義した条件は現在のフォルダに適用され、現在の選択には左右されません。"
 
 #: src/cact/caja-actions-config-tool.ui:998
 msgid "Use s_ame label for icon in the toolbar"
-msgstr ""
+msgstr "ツールバー・アイコンに同じラベルを使用する(_A)"
 
 #: src/cact/caja-actions-config-tool.ui:1002
 msgid ""
 "When checked, the label displayed in the toolbar will be the same that the "
 "one displayed in the context menus."
-msgstr ""
+msgstr "チェックすると、ツールバーに表示するラベルは、コンテキストメニューに表示するラベルと同じになります。"
 
 #: src/cact/caja-actions-config-tool.ui:1017
 msgid "T_oolbar label :"
-msgstr ""
+msgstr "ツールバーのラベル :(_O)"
 
 #: src/cact/caja-actions-config-tool.ui:1029
 msgid "The label displayed in the file manager toolbar."
-msgstr ""
+msgstr "ファイルマネージャ・ツールバーに表示されるラベル。"
 
 #: src/cact/caja-actions-config-tool.ui:1045
 msgid "Toolti_p :"
-msgstr ""
+msgstr "ツールチップ :(_P)"
 
 #: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
-msgstr ""
+msgstr "アイコン :(_I)"
 
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
-msgstr ""
+msgstr "ファイルマネージャ・ユーザインタフェースに表示されるツールチップ。"
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
-msgstr ""
+msgstr "ファイルマネージャ・ユーザインタフェースに表示されるアイコン。"
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
-msgstr ""
+msgstr "テーマアイコンの名前、または画像のファイル名。"
 
 #: src/cact/caja-actions-config-tool.ui:1129
 #: src/cact/caja-actions-config-tool.ui:1441
@@ -2829,47 +3054,49 @@ msgstr "参照(_B)..."
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
-msgstr ""
+msgstr "<b>Caja アイテム</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1196
 msgid ""
 "This tab lets you determine the main characteristics of the currently "
 "selected item."
-msgstr ""
+msgstr "このタブでは、現在選択したアイテムの主な特徴を決定することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
-msgstr ""
+msgstr "このプロフィールの作成理由を思い起こさすためのラベル。"
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
-msgstr ""
+msgstr "ラベル :(_L)"
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>プロファイル</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
 "The path of the command.\n"
 "If this is not an absolute path, then the PATH environment variable at execution time will be considered."
 msgstr ""
+"コマンドのパス。\n"
+"絶対パスでない場合には、実行時の PATH 環境変数が考慮されます。"
 
 #: src/cact/caja-actions-config-tool.ui:1331
 msgid "The parameters of the command."
-msgstr ""
+msgstr "コマンドのパラメータ。"
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "凡例(_G)"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
-msgstr ""
+msgstr "コマンドを開始する既定の作業用ディレクトリ。"
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "ブラウズ...(_R)"
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
@@ -2877,15 +3104,15 @@ msgstr "一例"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
-msgstr ""
+msgstr "パス :(_P)"
 
 #: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
-msgstr ""
+msgstr "パラメータ :(_A)"
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr ""
+msgstr "作業ディレクトリ :(_W)"
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -2896,42 +3123,46 @@ msgid ""
 "This tab lets you choose the command to be executed, along with its parameters.\n"
 "Defining several profiles lets you have several commands, each applying with a different set of conditions."
 msgstr ""
+"このタブでは、実行するコマンドとそのパラメータを選択できます。\n"
+"複数のプロファイルを定義することで、複数のコマンドをそれぞれ異なる条件で適用することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "コマンド(_C)"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "標準(_N)"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
-msgstr ""
+msgstr "コマンドは標準的なグラフィカル・ユーザインタフェースとして起動します。"
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
-msgstr ""
+msgstr "端末で(_T)"
 
 #: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
 "The command will be started in the preferred terminal of the graphical "
 "environment."
-msgstr ""
+msgstr "コマンドはグラフィカル環境にて、お気に入りの端末で開始します。"
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "埋め込み(_E)"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"このオプションは、ファイルマネージャの特別な機能を利用し、その中で端末を実行できるようにします。\n"
+"フォールバックとして、標準の端末で実行することもできます。"
 
 #: src/cact/caja-actions-config-tool.ui:1616
 msgid "_Display output"
-msgstr ""
+msgstr "出力表示(_D)"
 
 #: src/cact/caja-actions-config-tool.ui:1620
 msgid ""
@@ -2939,14 +3170,17 @@ msgid ""
 "The terminal will be closed at the end of the execution; standard error and output streams will be displayed.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"コマンドは端末で実行されます。\n"
+"実行終了時に端末は閉じて、標準のエラーストリームと出力ストリームを表示します。\n"
+"フォールバックとして、標準的な端末で実行することもできます。"
 
 #: src/cact/caja-actions-config-tool.ui:1662
 msgid "<b>Execution mode</b>"
-msgstr ""
+msgstr "<b>実行モード</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1677
 msgid "Note: this is not yet implemented in Caja-Actions.\n"
-msgstr ""
+msgstr "注意。これはまだ Caja アクションには実装されていません。\n"
 
 #: src/cact/caja-actions-config-tool.ui:1699
 msgid "_Startup notify"
@@ -2958,6 +3192,9 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"チェックすると、実行コマンドがデスクトップ環境に \"remove \"メッセージを送信することが知られています。\n"
+"詳細については、スタートアップ通知プロトコルの仕様をご覧ください。\n"
+"選択した実行モードが標準の場合のみ関係します。"
 
 #: src/cact/caja-actions-config-tool.ui:1718
 msgid ""
@@ -2965,22 +3202,25 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"指定する場合は、run コマンドの少なくとも1つのウィンドウの WM クラス名でなければなりません。\n"
+"詳細については、スタートアップ通知プロトコル仕様をご覧ください。\n"
+"選択した実行モードが標準の場合のみ関係します。"
 
 #: src/cact/caja-actions-config-tool.ui:1735
 msgid "Startup Window Manager _class :"
-msgstr ""
+msgstr "自動起動するウィンドウマネージャ・クラス : (_C)"
 
 #: src/cact/caja-actions-config-tool.ui:1756
 msgid "<b>Startup mode</b>"
-msgstr ""
+msgstr "<b>起動モード</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1771
 msgid "Note: this is not yet implemented in Caja-Actions."
-msgstr ""
+msgstr "注意。これはまだ Caja アクションには実装されていません。"
 
 #: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
-msgstr ""
+msgstr "ユーザとして実行する :"
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
@@ -2988,20 +3228,23 @@ msgid ""
 "The user may be defined by his numeric UID or his login name.\n"
 "Leave the field empty to run the command as the current user."
 msgstr ""
+"ここに、コマンドを実行するユーザを入力します。\n"
+"ユーザはUIDの数値またはログイン名で定義できます。\n"
+"現在のユーザとしてコマンドを実行するには、このフィールドを空のままにしてください。"
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>ユーザとして実行する</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
 "This advanced tab lets you precisely define how your command will be "
 "executed."
-msgstr ""
+msgstr "この詳細タブでは、コマンドの実行方法を正確に定義することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "実行(_E)"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -3009,6 +3252,8 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"選択したアイテムの各要素のベース名が、「Must match one of」列のフィルタのひとつに一致し、「Must not match any "
+"of」列のフィルタのどれにも一致しない場合に、現在の項目が表示されます。"
 
 #: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
@@ -3016,36 +3261,41 @@ msgid ""
 "Basenames may use '*' and '?' wildcards.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"このリストによって、現在選択したアイテムがどのベース名で Caja のコンテキストメニューに表示するかを決定することができます。\n"
+"ベース名には '*' および '?' のワイルドカードを使用できます。\n"
+"ベース名を否定することで、アイテムを表示させないベース名を指定することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:1945
 msgid "Click to add a new basename filter."
-msgstr ""
+msgstr "クリックで新しいベース名フィルタを追加します。"
 
 #: src/cact/caja-actions-config-tool.ui:1965
 msgid "Click to remove the current basename filter."
-msgstr ""
+msgstr "クリックすると、現在のベース名フィルタを削除します。"
 
 #: src/cact/caja-actions-config-tool.ui:1996
 msgid "Match _case"
-msgstr ""
+msgstr "ケースに一致(_C)"
 
 #: src/cact/caja-actions-config-tool.ui:2000
 msgid "Click to define the above basename filters as case sensitive."
-msgstr ""
+msgstr "クリックすると、大文字と小文字を区別して上記のベース名フィルタを定義します。"
 
 #: src/cact/caja-actions-config-tool.ui:2022
 msgid "<b>Basenames conditions</b>"
-msgstr ""
+msgstr "<b>ベース名の条件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2042
 msgid ""
 "This tab lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"このタブによって、現在選択したアイテムがどのベース名で Caja のコンテキストメニューに表示するかを決定することができます。\n"
+"ベース名を否定することで、アイテムを表示させないベース名を指定することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "ベース名(_B)"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3053,6 +3303,8 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"選択したアイテムの各要素の MIME タイプが、「Must match one of」列のフィルタのひとつに一致し、「Must not match "
+"any of」列のフィルタのどれにも一致しない場合に、現在の項目が表示されます。"
 
 #: src/cact/caja-actions-config-tool.ui:2103
 msgid ""
@@ -3060,18 +3312,21 @@ msgid ""
 "Mimetypes may be specified as '*', '*/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"このリストでは、現在選択したアイテムがどのタイプで Caja のコンテキストメニューに表示されるかを決定することができます。\n"
+"MIME タイプは'*'、'*/*'、'group/*'、'group/subgroup' として指定できます。\n"
+"MIME タイプを否定することで、どのタイプのオブジェクトにアイテムを表示させないかを指定することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:2134
 msgid "Click to add a new mimetype filter."
-msgstr ""
+msgstr "クリックすると、新しい MIME タイプフィルタを追加します。"
 
 #: src/cact/caja-actions-config-tool.ui:2154
 msgid "Click to remove the current mimetype filter."
-msgstr ""
+msgstr "クリックすると、現在の MIME タイプフィルタを削除します。"
 
 #: src/cact/caja-actions-config-tool.ui:2193
 msgid "<b>Mimetypes conditions</b>"
-msgstr ""
+msgstr "<b>MIMEタイプの条件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2213
 msgid ""
@@ -3079,10 +3334,13 @@ msgid ""
 "Mimetypes may be specified as '*', '/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"このタブでは、現在選択したアイテムがどのタイプで Caja のコンテキストメニューに表示されるかを決定することができます。\n"
+"MIME タイプは '*'、'*/*'、'group/*'、'group/subgroup' として指定できます。\n"
+"MIME タイプを否定することで、どのタイプのオブジェクトにアイテムを表示させないかを指定することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "MIME タイプ(_M)"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3091,6 +3349,8 @@ msgid ""
 "column, while not being one or inside one of the 'Must not match any of' "
 "column."
 msgstr ""
+"現在のアイテムは、選択項目の各要素の場所が「Must match one of」列のパスの 1 つまたは 1 つ内側にあり、「Must not "
+"match any of」列のパスの 1 つまたは 1 つ内側にない場合に表示されます。"
 
 #: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
@@ -3101,19 +3361,19 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
-msgstr ""
+msgstr "クリックすると、新しいフォルダ・フィルタを追加します。"
 
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
-msgstr ""
+msgstr "クリックすると、新しいフォルダフィルタを選択する目的でファイルシステムを検索します。"
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
-msgstr ""
+msgstr "クリックすると、現在のフォルダフィルタを削除します。"
 
 #: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
-msgstr ""
+msgstr "<b>フォルダの条件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
@@ -3140,23 +3400,23 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
-msgstr ""
+msgstr "クリックすると、新しいスキーム・フィルタを追加します。"
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "既定...(_F)"
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
-msgstr ""
+msgstr "クリックすると、既定のスキームの中から新しいスキームフィルタを選択できます。"
 
 #: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
-msgstr ""
+msgstr "クリックすると、現在のスキームフィルタを削除します。"
 
 #: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
-msgstr ""
+msgstr "<b>スキームの条件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
@@ -3179,15 +3439,15 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
-msgstr ""
+msgstr "クリックすると、新しいケイパビリティ・フィルタを追加します。"
 
 #: src/cact/caja-actions-config-tool.ui:2730
 msgid "Click to remove the current capability."
-msgstr ""
+msgstr "クリックすると、現在のケイパビリティを削除します。"
 
 #: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
-msgstr ""
+msgstr "<b>ケイパビリティの条件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
@@ -3197,7 +3457,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "ケイパビリティ(_P)"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
@@ -3207,39 +3467,43 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2839
 msgid "_Count :"
-msgstr ""
+msgstr "カウント :(_C)"
 
 #: src/cact/caja-actions-config-tool.ui:2898
 msgid "<b>Appears if selection contains</b>"
-msgstr ""
+msgstr "<b>選択に含まれる場合に表示する</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2927
 msgid ""
 "This is an advanced condition based on the running desktop environment.\n"
 "First choose on the left if the item depends of a particular desktop environment, then select on the right the adequate desktop environment."
 msgstr ""
+"これは高度な条件で、実行中のデスクトップ環境に基づきます。\n"
+"まず左側で特定のデスクトップ環境に依存する項目を選択し、次に右側で適切なデスクトップ環境を選択します。"
 
 #: src/cact/caja-actions-config-tool.ui:2939
 msgid "Item may appear depending of the desktop environment."
-msgstr ""
+msgstr "デスクトップ環境によっては、項目が表示される場合があります。"
 
 #: src/cact/caja-actions-config-tool.ui:2959
 msgid "_Always appears"
-msgstr ""
+msgstr "常に表示する(_A)"
 
 #: src/cact/caja-actions-config-tool.ui:2976
 msgid "_Only appears in selected environments"
-msgstr ""
+msgstr "選択した環境でのみ表示する(_O)"
 
 #: src/cact/caja-actions-config-tool.ui:2993
 msgid "_Never appears in selected environments"
-msgstr ""
+msgstr "選択した環境では決して表示しない(_N)"
 
 #: src/cact/caja-actions-config-tool.ui:3094
 msgid ""
 "This is an advanced condition based on the presence of a particular service on the D-Bus system.\n"
 "This may be used for example for testing that a prerequisite service is currently available."
 msgstr ""
+"これは高度な条件で、Dバスシステム上の特定のサービスの存在に基づきます。\n"
+"これは、前提条件となるサービスが現在利用可能であることをテストする場合などに使用できます。"
 
 #: src/cact/caja-actions-config-tool.ui:3110
 msgid ""
@@ -3247,6 +3511,9 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
+"これは高度な条件で、実行時の結果に基づきます。\n"
+"正確な「true」文字列を標準出力に表示できるコマンドをここに入力してください。\n"
+"これは、複雑な条件のテストなどに使用できます。"
 
 #: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
@@ -3257,37 +3524,39 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "ブラウズ...(_S)"
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
-msgstr ""
+msgstr "ファイルが実行可能である場合に表示する :"
 
 #: src/cact/caja-actions-config-tool.ui:3171
 msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
 msgstr ""
+"これは高度な条件で、ファイルシステム上の実行可能ファイルの存在に基づきます。\n"
+"これは、例えば、前提条件となるパッケージのテストに使用します。"
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
-msgstr ""
+msgstr "ブラウズ...(_W)"
 
 #: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
-msgstr ""
+msgstr "D-Bus に名前を登録している場合に表示します : (_R)"
 
 #: src/cact/caja-actions-config-tool.ui:3215
 msgid "Appears if the command outputs \"_true\" :"
-msgstr ""
+msgstr "コマンドが \"true\" を出力する場合に表示する: (_T)"
 
 #: src/cact/caja-actions-config-tool.ui:3228
 msgid "Appears if the _binary is running :"
-msgstr ""
+msgstr "バイナリが実行中の場合に表示する : (_B)"
 
 #: src/cact/caja-actions-config-tool.ui:3252
 msgid "<b>Execution environment</b>"
-msgstr ""
+msgstr "<b>実行環境</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3274
 msgid ""
@@ -3295,30 +3564,34 @@ msgid ""
 "files must satisfy in order for the item to be displayed in the file manager"
 " context menu."
 msgstr ""
+"このタブでは、ファイルマネージャのコンテキストメニューにアイテムを表示するために、現在選択しているファイルが満たさなければならない一部の高度な条件を決定することができます。"
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "環境(_E)"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
-msgstr ""
+msgstr "説明(_D)"
 
 #: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
 "Enter here a free text which may be used (e.g. in a Web service or in a "
 "search tool) to describe your item."
 msgstr ""
+"ここには、自由なテキストを入力してください。それは（例えば、ウェブサービスや検索ツールで）あなたのアイテムを説明する目的で使われる可能性のあるものです。"
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "有効化(_N)"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
 "Check the box to enable this item.\n"
 "If unchecked, then the item will never appear in the file manager context menus or toolbar."
 msgstr ""
+"ボックスをチェックすると、このアイテムが有効になります。\n"
+"チェックを外すと、アイテムはファイルマネージャのコンテキストメニューやツールバーに表示しません。"
 
 #: src/cact/caja-actions-config-tool.ui:3379
 msgid ""
@@ -3328,11 +3601,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
-msgstr ""
+msgstr "推奨のショートカット"
 
 #: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
-msgstr ""
+msgstr "読み取り専用アイテム"
 
 #: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
@@ -3342,15 +3615,15 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "ID :"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
-msgstr ""
+msgstr "I/O プロバイダ :"
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>読み取り専用プロパティ</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
@@ -3376,7 +3649,7 @@ msgstr ""
 
 #: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
-msgstr ""
+msgstr "Caja アクションについて"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
@@ -3384,27 +3657,29 @@ msgstr ""
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
-msgstr ""
+msgstr "インポートするファイルの URI"
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
 #: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
-msgstr ""
+msgstr "バージョン番号を出力する"
 
 #: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "ファイルをインポートする。"
 
 #: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"不具合報告は以下のアドレスへお願いします。 http://bugzilla.gnome.org\n"
+"または電子メールで次の宛先まで。 <maintainer@caja-actions.org>\n"
 
 #: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
 #: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
@@ -3417,36 +3692,38 @@ msgstr "その他のオプション"
 #: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "構文エラー: %s\n"
 
 #: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
-msgstr ""
+msgstr "エラー: URI は必須です。\n"
 
 #: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
 #: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
 #: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
-msgstr ""
+msgstr "使い方については %s --help を試してください。\n"
 
 #: src/utils/console-utils.c:55
 msgid ""
 "Bug reports are welcomed at https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
 "or you may prefer to mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"不具合報告は以下のアドレスへお願いします。 https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
+"または電子メールで次の宛先まで。 <maintainer@caja-actions.org>.\n"
 
 #: src/utils/na-print-schemas.c:56
 msgid "Output the schema on stdout"
-msgstr ""
+msgstr "スキーマを標準出力に出力する"
 
 #: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
-msgstr ""
+msgstr "アクション・スキーマを出力する [既定］"
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
-msgstr ""
+msgstr "メニュー・スキーマを出力する"
 
 #: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
@@ -3460,7 +3737,7 @@ msgstr ""
 
 #: src/utils/na-print-schemas.c:159
 msgid "Type options"
-msgstr ""
+msgstr "タイプ・オプション"
 
 #: src/utils/na-set-conf.c:52
 msgid "Set a key=value pair in a key file."
@@ -3468,20 +3745,20 @@ msgstr ""
 
 #: src/utils/na-set-conf.c:63
 msgid "The group to be updated"
-msgstr ""
+msgstr "更新するグループ"
 
 #: src/utils/na-set-conf.c:65
 msgid "The key to be updated"
-msgstr ""
+msgstr "更新するキー"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
-msgstr ""
+msgstr "設定する値のタイプ。'str'、'int'、あるいは 'bool'"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
-msgstr ""
+msgstr "設定する値"
 
 #: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
@@ -3489,11 +3766,11 @@ msgstr ""
 
 #: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
-msgstr ""
+msgstr "エラー: グループは必須です。\n"
 
 #: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
-msgstr ""
+msgstr "エラー: キーは必須です。\n"
 
 #: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
@@ -3507,7 +3784,7 @@ msgstr ""
 
 #: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
-msgstr ""
+msgstr "エラー: 値は必須です。\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
@@ -3568,7 +3845,7 @@ msgstr ""
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "プログラムの出力"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"

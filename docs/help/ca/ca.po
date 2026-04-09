@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Francesc Famadas, 2021
 # Martin Wimpress <code@flexion.org>, 2021

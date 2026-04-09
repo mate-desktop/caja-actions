@@ -12,7 +12,7 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Moritz Bruder <muesli4@gmail.com>, 2021
 # Tobias Bannert <tobannert@gmail.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
 # Marcel Artz, 2021
 # 
 msgid ""

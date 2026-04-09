@@ -7,7 +7,7 @@
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Allan Nordhøy <epost@anotheragency.no>, 2021
-# Joe Hansen <joedalton2@yahoo.dk>, 2023
+# Joe Hansen <joedalton2@yahoo.dk>, 2025
 # 
 msgid ""
 msgstr ""
@@ -15,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2023\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2025\n"
 "Language-Team: Danish (https://app.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -100,6 +100,9 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Ophavsret 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Ophavsret 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Ophavsret 2021 MATE-udviklerne"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"

@@ -17,6 +17,7 @@
 # Daniel Tokarzewski <bezimo@gmail.com>, 2021
 # f91d578b5f6d79f8731c18a004205359_9ca50b9, 2022
 # Marek Adamski, 2022
+# Bartek Adamski, 2025
 # 
 msgid ""
 msgstr ""
@@ -24,7 +25,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Marek Adamski, 2022\n"
+"Last-Translator: Bartek Adamski, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -175,6 +176,8 @@ msgstr "<EXPR>"
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
 msgstr ""
+"Mówi, czy określone nazwy podstawowe są wrażliwe na wielkość liter (opcja "
+"domyślna)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -190,6 +193,8 @@ msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
 msgstr ""
+"Lista wzorców, z jakimi będą porównywane typy MIME zaznaczonych "
+"plików/folderów."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -393,7 +398,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "ścieżka do pliku, którego wykonywalność ma zostać sprawdzona"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
@@ -498,7 +503,7 @@ msgstr ""
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "Nadpisano istniejący element na prośbę użytkownika."
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
@@ -618,7 +623,7 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "Element tylko do odczytu."
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
@@ -707,7 +712,7 @@ msgstr ""
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "Celem jest pasek narzędzi"
 
 #: src/core/na-object-action-factory.c:133
 msgid ""
@@ -740,7 +745,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "Typ elementu"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -766,7 +771,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "Podpowiedź dla elementu menu kontekstowego"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -777,7 +782,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "Ikona elementu menu kontekstowego"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
@@ -801,7 +806,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Sugerowany skrót"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -857,7 +862,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "Nazwa profilu"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
@@ -867,17 +872,19 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "Ścieżka polecenia"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
 msgstr ""
+"Ścieżka polecenia, które zostanie wykonane po wybraniu w menedżerze plików "
+"elementu menu kontekstowego albo paska narzędzi."
 
 #: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "Parametry polecenia"
 
 #: src/core/na-object-profile-factory.c:129
 msgid ""
@@ -933,7 +940,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "Tryb wykonywania"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -970,7 +977,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Wykonaj jako użytkownik"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -1090,15 +1097,15 @@ msgstr "Opis"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
-msgstr ""
+msgstr "Krótki opis wyświetlany w pierwszej linijce po użyciu opcji --help"
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "Nazwa ikony"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
-msgstr ""
+msgstr "Nazwa ikony ustawionej dla programu"
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
@@ -1122,7 +1129,7 @@ msgstr ""
 
 #: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
-msgstr ""
+msgstr "Wyjdź po naciśnięciu Escape"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
@@ -1130,7 +1137,7 @@ msgstr ""
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
-msgstr ""
+msgstr "Ostrzegaj po naciśnięciu Escape"
 
 #: src/cact/base-assistant.c:160
 msgid ""
@@ -1139,7 +1146,7 @@ msgstr ""
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr ""
+msgstr "Czy na pewno chcesz opuścić asystenta?"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1380,7 +1387,7 @@ msgstr ""
 #: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
-msgstr ""
+msgstr "Ten asystent przeprowadzi cię przez proces eksportowania działań."
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
@@ -1407,27 +1414,27 @@ msgstr ""
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
-msgstr ""
+msgstr "Wybór formatu wyjściowego"
 
 #: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
-msgstr ""
+msgstr "Elementy gotowe do wyeksportowania:"
 
 #: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
-msgstr ""
+msgstr "Do folderu docelowego:"
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "Podsumowanie"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
-msgstr ""
+msgstr "Przetworzono następujące elementy:"
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "Eksportowanie zakończone"
 
 #. Translators: indicate that the file has been successfully imported
 #: src/cact/cact-assistant-import.c:764
@@ -1448,7 +1455,7 @@ msgstr ""
 
 #: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
-msgstr ""
+msgstr "Importowanie działań"
 
 #: src/cact/cact-assistant-import.ui:19
 msgid ""
@@ -1665,11 +1672,11 @@ msgstr ""
 
 #: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
-msgstr ""
+msgstr "Niektóre elementy zostały zmienione."
 
 #: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
-msgstr ""
+msgstr "Czy chcesz opuścić program bez ich zapisania?"
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
@@ -1785,7 +1792,7 @@ msgstr "_Wytnij"
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Wycina zaznaczone elementy i umieszcza je w schowku"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1795,7 +1802,7 @@ msgstr "S_kopiuj"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Kopiuje zaznaczone elementy do schowka"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
@@ -1825,7 +1832,7 @@ msgstr "Powie_l"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "Powiela zaznaczone elementy"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
@@ -1835,7 +1842,7 @@ msgstr "_Usuń"
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "Usuwa zaznaczone elementy"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
@@ -1848,6 +1855,7 @@ msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
 msgstr ""
+"Anuluje bieżące zmiany i wczytuje ponownie początkową listę menu i działań"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1947,7 +1955,7 @@ msgstr "Spis treści"
 #. item
 #: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
-msgstr ""
+msgstr "Wyświetla pomoc związaną z programem"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
@@ -1957,7 +1965,7 @@ msgstr "_O programie"
 #. item
 #: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
-msgstr ""
+msgstr "Wyświetla informacje na temat tego programu"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. File toolbar' item

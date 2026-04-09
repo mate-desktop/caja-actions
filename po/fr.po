@@ -6,7 +6,7 @@
 # Translators:
 # Charles Monzat <c.monzat@laposte.net>, 2021
 # jeremy shields <jeremy.shields@orange.fr>, 2021
-# roxfr <roxfr@outlook.fr>, 2021
+# roxfr, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # Étienne Deparis <etienne@depar.is>, 2021
@@ -14,6 +14,7 @@
 # Yoshida Shouyou, 2021
 # Laurent Napias, 2021
 # Tubuntu, 2021
+# David D, 2025
 # 
 msgid ""
 msgstr ""
@@ -21,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Tubuntu, 2021\n"
+"Last-Translator: David D, 2025\n"
 "Language-Team: French (https://app.transifex.com/mate/teams/13566/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,31 +32,33 @@ msgstr ""
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "Me poser la _question"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
+"Vous serez invité(e) à choisir le format chaque fois qu’un élément sera "
+"exporté."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "Aucune implémentation NAIExporter n’a été trouvée pour le format \"%s\"."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "%s NAIExporter n’implémente pas l’interface 'to_buffer'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter n’implémente pas l’interface 'to_file'."
 
 #: src/core/na-about.c:70
 msgid ""
@@ -64,6 +67,10 @@ msgid ""
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"Caja-Actions Configuration Tool est un logiciel libre ; vous pouvez le "
+"redistribuer et/ou le modifier selon les termes de la Licence Publique "
+"Générale GNU telle que publiée par la Free Software Foundation ; soit la "
+"version 2 de la licence, soit (à votre choix) toute version ultérieure."
 
 #: src/core/na-about.c:74
 msgid ""
@@ -72,6 +79,10 @@ msgid ""
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"Caja-Actions Configuration Tool est distribué dans l’espoir qu’il sera "
+"utile, mais SANS AUCUNE GARANTIE ; sans même la garantie implicite de "
+"QUALITÉ MARCHANDE ou D’ADÉQUATION À UN USAGE PARTICULIER. Voir la GNU "
+"General Public License pour plus de détails."
 
 #: src/core/na-about.c:78
 msgid ""
@@ -80,6 +91,10 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"Vous devriez avoir reçu une copie de la GNU General Public License avec "
+"l’outil de configuration de Caja-Actions ; sinon, écrivez à la Free Software"
+" Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
@@ -94,7 +109,7 @@ msgstr ""
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
@@ -136,11 +151,12 @@ msgstr ""
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Anciens systèmes"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
 msgstr ""
+"Liste des motifs à comparer au(x) fichier(s) /dossier(s) sélectionné(s)"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -151,6 +167,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"Une liste de chaînes avec le joker \"*\" ou \"?\" à comparer au(x) nom(s) du (des) fichier(s) /dossier(s) sélectionné(s). Chaque élément sélectionné doit correspondre à au moins un des modèles de noms de fichiers pour l’action ou le menu doit être candidat à afficher.\n"
+"Cela ne s’applique évidemment que lorsqu’il y a une sélection.\n"
+"Par défaut à \"*\"."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -169,11 +188,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<EXPR>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "Si les noms de base spécifiés sont sensibles à la casse (par défaut)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -3555,7 +3574,7 @@ msgstr ""
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "Définir une nouvelle action."
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
@@ -3563,93 +3582,98 @@ msgid ""
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
+"L’action créée sera écrite par défaut dans stdout.\n"
+"Elle peut également être écrite dans un dossier de sortie, dans un fichier ultérieurement adapté à une importation dans CACT.\n"
+"Ou vous pouvez choisir d’écrire directement l’action dans votre configuration Caja-Actions."
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "Sortie issue du programme"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
-msgstr ""
+msgstr "Choisissez où le programme crée l’action"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
 #: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
-msgstr ""
+msgstr "Erreur : impossible de trouver le fournisseur d’e/s 'na-desktop'."
 
 #. Translators: caja-actions-print program summary
 #: src/utils/caja-actions-print.c:57
 msgid "Print a menu or an action to stdout."
-msgstr ""
+msgstr "Imprimer un menu ou une action vers stdout."
 
 #: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
-msgstr ""
+msgstr "L’identifiant du menu ou de l’action à imprimer"
 
 #. Translators: 'Desktop1' here is the internal identifier of an export
 #. format; it is not translatable
 #: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
-msgstr ""
+msgstr "Un format d’export [Desktop1]"
 
 #: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr ""
+msgstr "Erreur : un id de menu ou d’action est obligatoire.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
 #: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
-msgstr ""
+msgstr "Erreur : %s: format d’exportation inconnu.\n"
 
 #: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Erreur : l’élément \"%s\" n’existe pas.\n"
 
 #: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
-msgstr ""
+msgstr "L’identifiant interne de l’action à lancer"
 
 #: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
 msgstr ""
+"Une cible, un fichier ou un dossier, pour l’action. Plusieurs options "
+"peuvent être spécifiées"
 
 #: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
-msgstr ""
+msgstr "Erreur : l’id de l’action est obligatoire.\n"
 
 #: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
-msgstr ""
+msgstr "Pas de sélection actuelle. Rien à faire. Sortie en cours.\n"
 
 #: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
-msgstr ""
+msgstr "Action %s n’est pas une candidate valide. Sortie.\n"
 
 #: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
-msgstr ""
+msgstr "Aucun profil valide n’est candidat à l’exécution. Sortie.\n"
 
 #: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
-msgstr ""
+msgstr "Exécuter une action sur la cible spécifiée."
 
 #: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Erreur : l’action \"%s\" n’existe pas.\n"
 
 #: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
-msgstr ""
+msgstr "Erreur : l’action \"%s\" est désactivée.\n"
 
 #: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "Erreur : l’action \"%s\" n’est pas valide.\n"

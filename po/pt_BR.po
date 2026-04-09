@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Matheus Macabu <mkbu95@gmail.com>, 2021
+# e0468a3273212d32165a91bfa31ede41_72f4ea0 <bc0cf8dd1a62f7f5ee4a64d16d2178af_44233>, 2021
 # Willian Nunes de Oliveira <williangd@yahoo.com.br>, 2021
 # jose, 2021
 # Herick Vinicius <herick.gustavo@gmail.com>, 2021
@@ -21,6 +21,7 @@
 # Rangel <carlosrangelsantos@gmail.com>, 2021
 # Josué Teodoro Moreira <jteodomo@gmail.com>, 2021
 # Walter Andrade, 2023
+# Davi Ricieri, 2025
 # 
 msgid ""
 msgstr ""
@@ -28,7 +29,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Walter Andrade, 2023\n"
+"Last-Translator: Davi Ricieri, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/mate/teams/13566/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,31 +39,33 @@ msgstr ""
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "_Pergunte-me"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
+"Você será perguntado acerca de qual formato utilizar cada vez que um item "
+"estiver prestes a ser exportado."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "Nenhuma implementação de NAIExporter  encontrada para o formato '%s'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "NAIExporter %s não implementa nenhuma interface 'to_buffer'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "NAIExporter %s não implementa nenhuma interface 'to_file'."
 
 #: src/core/na-about.c:70
 msgid ""
@@ -71,6 +74,10 @@ msgid ""
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"A Ferramenta de Configurações das Ações-do-Caja é um software livre; você "
+"pode redistribuí-lo e/ou modificá-lo sob os termos da Licença Pública Geral "
+"GNU como publicado pela Fundação de Software Livre; tanto na versão 2 da "
+"Licença, ou (à sua escolha) qualquer versão posterior."
 
 #: src/core/na-about.c:74
 msgid ""
@@ -79,6 +86,10 @@ msgid ""
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"A Ferramenta de Configuração das Ações-do-Caja é distribuída no intuito de "
+"ser útil, mas SEM QUALQUER GARANTIA; sem mesmo a garantia implícita de "
+"MERCANTILIDADE ou de ADEQUAÇÃO A UM PROPÓSITO PARTICULAR. Veja a Licença "
+"Pública Geral GNU para mais detalhes."
 
 #: src/core/na-about.c:78
 msgid ""
@@ -87,10 +98,15 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"Você deve ter recebido uma cópia da Licença Pública Geral GNU juntamente à "
+"Ferramenta de Configuração das Ações-do-Caja; se não, escreva para a the "
+"Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA "
+"02110-1301, USA."
 
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr ""
+"Uma interface gráfica para criar e editar suas pŕoprias ações do Caja."
 
 #: src/core/na-about.c:93
 msgid ""
@@ -101,7 +117,7 @@ msgstr ""
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Ações-do-Caja"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
@@ -133,7 +149,7 @@ msgstr ""
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "Ambiente de Trabalho MATE"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
@@ -153,11 +169,13 @@ msgstr ""
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Sistemas legados"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
 msgstr ""
+"Lista de padrões a serem comparados com os tipos de arquivo(s)/pasta(s) "
+"selecionados"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -168,6 +186,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"Uma lista de caracteres com os padrões '*' ou '?' para ser comparada com o(s) nome(s) dos arquivo(s)/pasta(s) selecionadas. Cada item selecionado deve ser compatível com pelo menos um dos padrões de nome de arquivo para que a ação ou menu seja válida para exibição.  \n"
+"Isso obviamente só se aplica quando há uma seleção.  \n"
+"O padrão é '*'."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -178,6 +199,8 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"Um padrão para ser comparado com nomes-base de arquivo(s)/pasta(s) "
+"selecionados. Pode incluir curingas"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -191,6 +214,8 @@ msgstr "<EXPR>"
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
 msgstr ""
+"Se os nomes-base especificados apresentam diferenciação entre maiúsculas e "
+"minúsculas (padrão)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated

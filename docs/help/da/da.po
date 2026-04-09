@@ -1,16 +1,15 @@
-# 
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
 # Aputsiak Niels Janussen <aputtu@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Joe Hansen <joedalton2@yahoo.dk>, 2023
+# Joe Hansen <joedalton2@yahoo.dk>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2023\n"
+"Last-Translator: Joe Hansen <joedalton2@yahoo.dk>, 2026\n"
 "Language-Team: Danish (https://app.transifex.com/mate/teams/13566/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,6 +62,12 @@ msgid ""
 " work, while not being considered responsible for modifications made by "
 "others."
 msgstr ""
+"Formålet med denne licens er at gøre en manual, tekstbog eller et andet "
+"funktionelt eller nyttigt dokument »frit« i form af frihed: for at sikre den"
+" effektive frihed til at kopiere og distribuere den, med eller uden "
+"ændringer, enten kommercielt eller ikkekommercielt. Sekundært så bevarer "
+"denne licens en måde for forfatteren og udgiveren til at få kredit for deres"
+" arbejde, uden at være ansvarlige for ændringer lavet af andre."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:24
@@ -1450,7 +1455,7 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/cact-conditions.xml:299
 msgid "Example of usual mimetypes"
-msgstr ""
+msgstr "Eksempler på normale mimetyper"
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:304
@@ -1713,12 +1718,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:545
 msgid "Selecting a scheme among predefined defaults"
-msgstr ""
+msgstr "Valg af et skema blandt prædefinerede standarder"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:552
 msgid "Show the list of predefined schemes."
-msgstr ""
+msgstr "Vis listen med prædefinerede skemaer."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:557
@@ -1726,6 +1731,8 @@ msgid ""
 "A new scheme may only be selected here if it is not already defined as a "
 "scheme filter."
 msgstr ""
+"Et nyt skema kan kun vælges her, hvis den ikke allerede er defineret som et "
+"skemafilter."
 
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:563 C/cact-conditions.xml:702
@@ -1738,6 +1745,8 @@ msgid ""
 "To select a new scheme, click <_:guibutton-1/>, or double-click on the "
 "desired row."
 msgstr ""
+"For at vælge et nyt skema, klik på <_:guibutton-1/>, eller dobbeltklik på "
+"den ønskede række."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:583
@@ -1745,6 +1754,8 @@ msgid ""
 "Removing a defined scheme-based condition is as simple as selecting it, and "
 "pressing <_:keycap-1/> (or clicking on <_:guibutton-2/> button)."
 msgstr ""
+"Fjernelse af en defineret skemabaseret betingelse er så simpel som at vælge "
+"den og trykke på  <_:keycap-1/> (eller klikke på knappen <_:guibutton-2/>)."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:590
@@ -1752,22 +1763,24 @@ msgid ""
 "By default, the scheme-based condition is just one « <_:literal-1/> » "
 "condition, which means that schemes are not relevant for this action."
 msgstr ""
+"Som standard er den skemabaseret betingelse kun » <_:literal-1/> « "
+"betingelse, hvilket betyder at skemaer ikke er relevante for denne handling."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:599 C/cact-conditions.xml:620
 msgid "Capability-based conditions"
-msgstr ""
+msgstr "Kapacitetsbaserede betingelser"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:600
 msgid "Capabilities are some properties that a file may exhibit to the user."
-msgstr ""
+msgstr "Kapaciteter er nogle egenskaber som en fil kan udstille for brugeren."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:606
 msgid "Local"
-msgstr ""
+msgstr "Lokal"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:604
@@ -1775,12 +1788,14 @@ msgid ""
 "But except for the <_:literal-1/> capability, all others depend on the user "
 "who executes the command."
 msgstr ""
+"Med undtagelse af kapaciteten <_:literal-1/> så afhænger alle andre af "
+"brugeren, der afvikler kommandoen."
 
 #. (itstool) path: para/abbrev
 #. (itstool) path: title/abbrev
 #: C/cact-conditions.xml:611 C/cact-execution.xml:347 C/cact-execution.xml:520
 msgid "vs."
-msgstr ""
+msgstr "vs."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:609
@@ -1836,13 +1851,15 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:663
 msgid "Press <_:keycap-1/> to insert a new condition filter."
-msgstr ""
+msgstr "Tryk <_:keycap-1/> for at indsætte et nyt betingelsesfiler."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:670
 msgid ""
 "Edit the newly inserted condition filter to the capability you want match."
 msgstr ""
+"Rediger det netop indsatte betingelsesfilter til funktionen, du ønsker at "
+"matche."
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:680
@@ -2078,69 +2095,69 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:833
 msgid "You may define that your action:"
-msgstr ""
+msgstr "Du kan definere at din handling:"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:838
 msgid "will always appear,"
-msgstr ""
+msgstr "altid fremgår,"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:843
 msgid "or will only appear in some given desktop environments,"
-msgstr ""
+msgstr "eller kun vil fremgå i nogle angivne skrivebordsmiljøer,"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:848
 msgid "or will not appear in some given desktop environments."
-msgstr ""
+msgstr "eller ikke vil fremgå af nogle angivne skrivebordsmiljøer"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:853
 msgid "Only one choice between these three items is possible."
-msgstr ""
+msgstr "Kun et valg blandt disse tre valgmuligheder."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: phrase/guilabel
 #: C/cact-conditions.xml:864 C/cact-conditions.xml:875
 msgid "Desktop environment"
-msgstr ""
+msgstr "Skrivebordsmiljø"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:861
 msgid "The desktop selection is defined in the <_:guilabel-1/> frame."
-msgstr ""
+msgstr "Skrivebordsudvalget er defineret i rammen <_:guilabel-1/>."
 
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:867
 msgid "Desktop selection frame"
-msgstr ""
+msgstr "Skrivebordsudvalgsramme"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:881
 msgid "To define the desktop environment condition:"
-msgstr ""
+msgstr "For at definere skrivebordsmiljøbetingelsen:"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:886
 msgid "First select the type of filter:"
-msgstr ""
+msgstr "Vælg først filtertypen:"
 
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:890
 msgid ""
 "should your action always appear, regardless of the desktop environment ?"
-msgstr ""
+msgstr "skal din handling altid fremgå, uanset skrivebordsmiljøet?"
 
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:892
 msgid "should your action only appear in some desktop environment(s) ?"
-msgstr ""
+msgstr "skal din handling kun fremgå af nogle skrivebordsmiljøer?"
 
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:894
 msgid "should your action never appear in some desktop environment(s) ?"
-msgstr ""
+msgstr "skal din handing aldrig fremgå i nogle skrivebordsmiljøer?"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:899
@@ -2148,11 +2165,13 @@ msgid ""
 "If your action should not always appear, then select the relevant desktop "
 "environment(s) in the listbox in the right side."
 msgstr ""
+"Hvis din handling ikke altid skal fremgå, så vælg de relevante "
+"skrivebordsmiljøer i boksen på den højre side."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:909
 msgid "Always appear"
-msgstr ""
+msgstr "Fremgå altid"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:906
@@ -2457,7 +2476,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:21
 msgid "Available parameters"
-msgstr ""
+msgstr "Tilgængelige parametre"
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: para/guibutton
@@ -2471,16 +2490,18 @@ msgid ""
 "In the <_:guilabel-1/> page, click on <_:guilabel-2/> button to see the list"
 " of available parameters."
 msgstr ""
+"På siden <_:guilabel-1/>, klik på knappen <_:guilabel-2/> for at se listen "
+"over tilgængelige parametre."
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:30
 msgid "List of available parameters"
-msgstr ""
+msgstr "Liste over tilgængelige parametre"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:37
 msgid "Shows the list of available parameters."
-msgstr ""
+msgstr "Vis listen over tilgængelig parametre."
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:47
@@ -2493,11 +2514,13 @@ msgid ""
 "The <_:guibutton-1/> button has a toggling action: click once to display the"
 " <_:guilabel-2/> dialog box; click a second time to hide it."
 msgstr ""
+"Knappen <_:guibutton-1/> har en aktiver/deaktiver handling: klik en gang for"
+" at vise dialogboksen <_:guilabel-2/>; klik endnu en gang for at skjule den."
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:54 C/cact-execution.xml:62 C/cact-execution.xml:104
 msgid "first"
-msgstr ""
+msgstr "først"
 
 #. (itstool) path: note/para
 #: C/cact-execution.xml:52
@@ -2506,11 +2529,14 @@ msgid ""
 " of selected items internally provided by the file manager to the "
 "<_:productname-2/> plugin."
 msgstr ""
+"Ordet » <_:guilabel-1/> « kan være misvisende da det kun refererer til "
+"listen over valgte elementer internt tilbudt af filhåndteringen til "
+"udvidelsesmodulet <_:productname-2/>."
 
 #. (itstool) path: para/emphasis
 #: C/cact-execution.xml:59
 msgid "nothing to do"
-msgstr ""
+msgstr "intet at gøre"
 
 #. (itstool) path: note/para
 #: C/cact-execution.xml:58
@@ -2558,7 +2584,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:97 C/cact-execution.xml:102 C/cact-execution.xml:384
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:96
@@ -2578,7 +2604,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:111
 msgid "How should the action be executed ?"
-msgstr ""
+msgstr "Hvordan skal handlingen afvikles?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:112
@@ -3230,7 +3256,7 @@ msgstr ""
 #. (itstool) path: title/command
 #: C/cact-execution.xml:546
 msgid "echo %B"
-msgstr ""
+msgstr "echo %B"
 
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:545
@@ -3291,7 +3317,7 @@ msgstr ""
 #. (itstool) path: title/literal
 #: C/cact-execution.xml:582
 msgid "echo %B %b"
-msgstr ""
+msgstr "echo %B %b"
 
 #. (itstool) path: formalpara/title
 #: C/cact-execution.xml:581
@@ -3320,7 +3346,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-export.xml:2
 msgid "Exporting your actions"
-msgstr ""
+msgstr "Eksport af dine handlinger"
 
 #. (itstool) path: sect2/title
 #: C/cact-import.xml:2
@@ -3330,7 +3356,7 @@ msgstr "Importhandlinger"
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
 msgid "Organizing actions in menus"
-msgstr ""
+msgstr "Organiser handlinger i menuer"
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:3
@@ -3338,6 +3364,8 @@ msgid ""
 "As your list of actions will grow, you most probably will want to organize "
 "them into menus, submenus, and so on."
 msgstr ""
+"Efterhånden som din liste over handlinger vokser, så vil du sandsynligvis "
+"ønske at organisere dem i menuer, undermenuer og så videre."
 
 #. (itstool) path: menuchoice/guimenu
 #. (itstool) path: menuchoice/guisubmenu
@@ -3351,12 +3379,12 @@ msgstr "Fil"
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-menus.xml:7
 msgid "New menu"
-msgstr ""
+msgstr "Ny menu"
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:7
 msgid "In order to create a new menu, choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "For at oprette en ny menu, vælg <_:menuchoice-1/>."
 
 #. (itstool) path: para/abbrev
 #: C/cact-menus.xml:10 C/cact-where.xml:202
@@ -3380,18 +3408,19 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-menus.xml:19
 msgid "Manual order:"
-msgstr ""
+msgstr "Manuel rækkefølge:"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:23
 msgid "The new menu is inserted just before the current action or menu."
-msgstr ""
+msgstr "Den nye menu indsættes lige før den aktuelle handling eller menu."
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:27
 msgid ""
 "This place will not change when you later modify the label of the menu."
 msgstr ""
+"Placeringen vil ikke ændre sig når du senere ændrer etiketten for menuen."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-menus.xml:34
@@ -3551,12 +3580,13 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/cact-profiles.xml:9
 msgid "Open a terminal here"
-msgstr ""
+msgstr "Åbn en terminal her"
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:10
 msgid "Say you have an action which opens a terminal in the current location."
 msgstr ""
+"Hvis du har en handling, der åbner en terminal i den nuværende placering."
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:14
@@ -3564,6 +3594,8 @@ msgid ""
 "You have configured it to open your preferred terminal in the location your "
 "file manager currently points to."
 msgstr ""
+"Du har konfigureret den til at åbne din foretrukne terminal på placeringen "
+"din filhåndtering peger på."
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:18
@@ -3573,6 +3605,10 @@ msgid ""
 "current file manager location, your terminal will open in the parent of the "
 "targeted directory."
 msgstr ""
+"Men hvad hvis du ønsker at vælge en mappe i din filhåndtering og direkte "
+"åbne din terminal i denne mappe? Hvis du bevarer baseret på den nuværende "
+"filhåndterings placering, så vil din terminal åben i hovedmappen for den "
+"ønskede mappe."
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:24
@@ -3580,6 +3616,8 @@ msgid ""
 "One solution is to define a new profile to your action, configuring this "
 "profile to open the terminal in the targeted directory."
 msgstr ""
+"En løsning er at definere en ny profil til din handling hvor du konfigurerer"
+" denne profil til at åbne terminalen i den ønskede mappe."
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:29
@@ -3605,7 +3643,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:37
 msgid "A new profile is created in your action."
-msgstr ""
+msgstr "En ny profil er oprettet i din handling."
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:40
@@ -3676,18 +3714,18 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-properties.xml:2
 msgid "Accessing and editing item properties"
-msgstr ""
+msgstr "Tilgå og rediger element-egenskaber"
 
 #. (itstool) path: sect2/para
 #: C/cact-properties.xml:3
 msgid "An item has both editable and read-only properties."
-msgstr ""
+msgstr "Et element har både redigerbare og skrivebeskyttede egenskaber."
 
 #. (itstool) path: figure/title
 #. (itstool) path: caption/para
 #: C/cact-properties.xml:8 C/cact-properties.xml:18
 msgid "Item properties"
-msgstr ""
+msgstr "Elementegenskaber"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-properties.xml:15
@@ -3699,7 +3737,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-save.xml:2
 msgid "Saving your modifications"
-msgstr ""
+msgstr "Gem dine ændringer"
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-save.xml:3 C/cact-starting.xml:105 C/cact-starting.xml:644
@@ -3714,7 +3752,7 @@ msgstr "Gem"
 #. (itstool) path: sect2/para
 #: C/cact-save.xml:3
 msgid "To save your modifications, choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "For at vælge dine ændringer, vælg <_:menuchoice-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-save.xml:4
@@ -3733,13 +3771,13 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-sorting.xml:2
 msgid "Sorting the items list"
-msgstr ""
+msgstr "Sorter punktlisten"
 
 #. (itstool) path: para/guilabel
 #: C/cact-sorting.xml:7 C/cact-starting.xml:462 C/cact-starting.xml:500
 #: C/cact-starting.xml:636
 msgid "Items list"
-msgstr ""
+msgstr "Punktliste"
 
 #. (itstool) path: sect2/para
 #: C/cact-sorting.xml:3
@@ -3815,12 +3853,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-sorting.xml:55 C/cact-sorting.xml:86
 msgid "Or edit the corresponding preference."
-msgstr ""
+msgstr "Eller rediger den tilsvarende præference."
 
 #. (itstool) path: sect3/title
 #: C/cact-sorting.xml:63
 msgid "Manually organizing your actions and menus"
-msgstr ""
+msgstr "Organiser manuelt dine handlinger og menuer"
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:64
@@ -3828,6 +3866,8 @@ msgid ""
 "When items are manually sorted in the list, new items are usually inserted "
 "just at the current position."
 msgstr ""
+"Når elementer sorteres manuelt i listen, vil nye elementer normalt indsættes"
+" lige ved den nuværende position."
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:68
@@ -3840,22 +3880,22 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:74
 msgid "To choose this mode:"
-msgstr ""
+msgstr "For at vælge denne tilstand:"
 
 #. (itstool) path: listitem/para
 #: C/cact-sorting.xml:79
 msgid "Click on <_:guibutton-1/> button."
-msgstr ""
+msgstr "Klik på knappen <_:guibutton-1/>."
 
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:2
 msgid "Starting <_:application-1/>"
-msgstr ""
+msgstr "Starter <_:application-1/>"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:3
 msgid "You can start <_:application-1/> in the following ways:"
-msgstr ""
+msgstr "Du kan starte <_:application-1/> på de følgende måder:"
 
 #. (itstool) path: term/guimenu
 #: C/cact-starting.xml:8
@@ -3865,7 +3905,7 @@ msgstr "System"
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:8
 msgid "<_:guimenu-1/> menu"
-msgstr ""
+msgstr "<_:guimenu-1/> menu"
 
 #. (itstool) path: menuchoice/guisubmenu
 #: C/cact-starting.xml:10
@@ -3875,7 +3915,7 @@ msgstr "Udseende og opførsel"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:10
 msgid "Choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "Vælg <_:menuchoice-1/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:14
@@ -3887,11 +3927,13 @@ msgstr "Kommandolinje"
 msgid ""
 "To start <_:application-1/> from a command line, type the following command:"
 msgstr ""
+"For at starte <_:application-1/> fra en kommandolinje tastes den følgende "
+"kommando:"
 
 #. (itstool) path: command/filename
 #: C/cact-starting.xml:20 C/cact-starting.xml:32
 msgid "caja-actions-config-tool"
-msgstr ""
+msgstr "caja-actions-config-tool"
 
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
@@ -3903,27 +3945,27 @@ msgstr "Retur"
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:22 C/cact-starting.xml:36 C/cact-starting.xml:430
 msgid "then press <_:keycap-1/>."
-msgstr ""
+msgstr "tryk så <_:keycap-1/>."
 
 #. (itstool) path: tip/para
 #: C/cact-starting.xml:27
 msgid "To view available command line options, type:"
-msgstr ""
+msgstr "For at se alle tilgængelige kommandolinjetilvalg tastes:"
 
 #. (itstool) path: command/option
 #: C/cact-starting.xml:33
 msgid "--help-all"
-msgstr ""
+msgstr "--help-all"
 
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:46
 msgid "The first run"
-msgstr ""
+msgstr "Den første afvikling"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:47
 msgid "When you start <_:application-1/>, the following window is displayed."
-msgstr ""
+msgstr "Når du starter <_:application-1/>, så vises det følgende vindue."
 
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:51
@@ -4028,7 +4070,7 @@ msgstr "Slet"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:187
 msgid "Delete the current selection."
-msgstr ""
+msgstr "Slet den nuværende markering."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
@@ -4038,7 +4080,7 @@ msgstr "F5"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
 msgid "Reload the actions and menus."
-msgstr ""
+msgstr "Genindlæs handlingerne og menuerne."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
@@ -4048,12 +4090,12 @@ msgstr "F1"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211
 msgid "Display the help."
-msgstr ""
+msgstr "Vis denne hjælpetekst."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:220
 msgid "Toolbar."
-msgstr ""
+msgstr "Værktøjslinje."
 
 #. (itstool) path: menuchoice/guimenu
 #: C/cact-starting.xml:222
@@ -4071,11 +4113,13 @@ msgid ""
 "Several toolbars may be displayed below the menubar, depending of your "
 "choices in the <_:menuchoice-1/> submenu."
 msgstr ""
+"Flere værktøjslinjer kan vises under menulinjen, afhængig af dine valg i  "
+"undermenuen <_:menuchoice-1/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:226
 msgid "Items list."
-msgstr ""
+msgstr "Punktliste."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:228
@@ -4104,17 +4148,17 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:247
 msgid "Sort buttons"
-msgstr ""
+msgstr "Sorter knapper"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:249
 msgid "Three buttons allow you to toggle between sort modes."
-msgstr ""
+msgstr "Tre knapper gør det muligt at skifte mellem sorteringstilstande."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:255
 msgid "Properties tabs."
-msgstr ""
+msgstr "Egenskabsfaneblade."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:257
@@ -4126,7 +4170,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:264
 msgid "Action/Menu"
-msgstr ""
+msgstr "Handling/menu"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:268

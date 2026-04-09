@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Dario Di Nucci <linkin88mail@gmail.com>, 2021
 # Marco Z. <minaz666@gmail.com>, 2021

@@ -8,6 +8,7 @@
 # Patricio Castagnaro <pcastagnaro@gmail.com>, 2021
 # Germán Herrou <german.herrou@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024
 # 
 msgid ""
 msgstr ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Last-Translator: Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024\n"
 "Language-Team: Spanish (Argentina) (https://app.transifex.com/mate/teams/13566/es_AR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1128,7 +1129,7 @@ msgstr "_Cancelar"
 
 #: src/cact/base-gtk-utils.c:394
 msgid "_Open"
-msgstr ""
+msgstr "_Abrir"
 
 #: src/cact/base-iunique.c:204
 #, c-format
@@ -1544,7 +1545,7 @@ msgstr ""
 #. * will be compare to Caja 'current_folder'
 #: src/cact/cact-ifolders-tab.c:263 src/cact/cact-ifolders-tab.c:291
 msgid "Select a folder"
-msgstr ""
+msgstr "Selecciona una carpeta"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
@@ -1679,7 +1680,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
-msgstr ""
+msgstr "_Archivo"
 
 #: src/cact/cact-menubar.c:60 src/cact/cact-menubar.c:174
 msgid "_Edit"
@@ -1687,7 +1688,7 @@ msgstr "_Editar"
 
 #: src/cact/cact-menubar.c:61
 msgid "_View"
-msgstr ""
+msgstr "_Ver"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
@@ -1695,7 +1696,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
-msgstr ""
+msgstr "_Herramientas"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
@@ -1760,7 +1761,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:88
 msgid "Cu_t"
-msgstr ""
+msgstr "Cor_tar"
 
 #. Translators: tooltip displayed in the status bar when selecting the Cut
 #. item
@@ -1770,7 +1771,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
-msgstr ""
+msgstr "_Copiar"
 
 #. Translators: tooltip displayed in the status bar when selecting the Copy
 #. item
@@ -1780,7 +1781,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
-msgstr ""
+msgstr "_Pegar"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. item
@@ -1800,7 +1801,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
-msgstr ""
+msgstr "D_uplicar"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Duplicate item
@@ -1810,7 +1811,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
-msgstr ""
+msgstr "_Borrar"
 
 #. Translators: tooltip displayed in the status bar when selecting the Delete
 #. item

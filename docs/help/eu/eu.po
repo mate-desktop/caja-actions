@@ -1,10 +1,9 @@
-# 
 # Translators:
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
 # Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
 # Alexander Gabilondo <alexgabi@disroot.org>, 2023
 # 
 msgid ""

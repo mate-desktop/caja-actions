@@ -1,16 +1,16 @@
-# 
 # Translators:
 # Davit Mayilyan <davit.mayilyan@protonmail.ch>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Siranush <ss.m.95@mail.ru>, 2021
 # Avag Sayan <avo777772012@gmail.com>, 2021
+# Tigran Khachatryan, 2024
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Avag Sayan <avo777772012@gmail.com>, 2021\n"
+"Last-Translator: Tigran Khachatryan, 2024\n"
 "Language-Team: Armenian (https://app.transifex.com/mate/teams/13566/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -941,7 +941,7 @@ msgstr ""
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:102
 msgid "January 2012"
-msgstr ""
+msgstr "Հունվար 2012-ի"
 
 #. (itstool) path: C/articleinfo.xml/articleinfo
 #: C/articleinfo.xml:1

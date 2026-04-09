@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Kimmo Kujansuu <mrkujansuu@gmail.com>, 2021
 # Riku Viitanen <riisseli4@gmail.com>, 2021
@@ -7,14 +6,15 @@
 # nomen omen, 2021
 # Ammuu5, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
+# Tommi Nieminen <translator@legisign.org>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2021\n"
+"Last-Translator: Tommi Nieminen <translator@legisign.org>, 2026\n"
 "Language-Team: Finnish (https://app.transifex.com/mate/teams/13566/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -884,7 +884,7 @@ msgstr ""
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:36
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "GNOMEn dokumentointiprojekti"
 
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:40
@@ -1274,7 +1274,7 @@ msgstr ""
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -3101,7 +3101,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:496
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:497
@@ -3111,7 +3111,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
@@ -3872,7 +3872,7 @@ msgstr ""
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "Enter"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para
@@ -4009,7 +4009,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
@@ -4019,7 +4019,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211

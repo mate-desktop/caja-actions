@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Marcin Kralka <marcink96@gmail.com>, 2021
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
@@ -6,7 +5,7 @@
 # Dominik Adrian Grzywak, 2021
 # Paweł Bandura <gawelx@gmail.com>, 2021
 # Jan Bońkowski <bonkowskijan@gmail.com>, 2021
-# Piotr Strębski <strebski@gmail.com>, 2021
+# Piotr Strebski <strebski@gmail.com>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
 # elzear <babciaroziazpogwizdowa@wp.pl>, 2021
 # emariusek <wisniowy@g.pl>, 2021
@@ -16,13 +15,14 @@
 # Daniel Tokarzewski <bezimo@gmail.com>, 2021
 # pietrasagh <kowalik.piotr@pm.me>, 2022
 # Marek Adamski, 2022
+# Bartek Adamski, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Marek Adamski, 2022\n"
+"Last-Translator: Bartek Adamski, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/mate/teams/13566/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -813,7 +813,7 @@ msgstr ""
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
@@ -966,7 +966,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:2
 msgid "Known bugs"
-msgstr ""
+msgstr "Znane błędy"
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:5
@@ -993,13 +993,13 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:14
 msgid "Known limitations"
-msgstr ""
+msgstr "Znane ograniczenia"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: sect4/title
 #: C/cact-bugs.xml:17 C/cact-execution.xml:138
 msgid "Execution mode"
-msgstr ""
+msgstr "Tryb wykonywania"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:18
@@ -1007,6 +1007,9 @@ msgid ""
 "As of version 3.0, execution mode may be configured in <_:application-1/> "
 "but is not yet honored by <_:productname-2/> plugin."
 msgstr ""
+"Począwszy od wersji 3.0, w programie <_:application-1/> można skonfigurować "
+"tryb wykonywania, ale nie jest on jeszcze honorowany przez dodatek "
+"<_:productname-2/>. ."
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:23
@@ -1018,7 +1021,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Sugerowany skrót"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1027,6 +1030,9 @@ msgid ""
 "specification, cannot be configured in <_:application-1/>, and is not "
 "honored by <_:productname-2/> plugin."
 msgstr ""
+"Począwszy od wersji 3.0, w programie <_:application-1/> nie da się "
+"skonfigurować sugerowanego skrótu opisanego w specyfikacji DES-EMA i nie "
+"jest on hionorowany przez dodatek <_:productname-2/>."
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:37
@@ -1050,7 +1056,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-conditions.xml:2
 msgid "Defining the conditions"
-msgstr ""
+msgstr "Określanie warunków"
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:3
@@ -1059,6 +1065,9 @@ msgid ""
 "manager context menus or in its toolbar depends on the conditions you will "
 "have defined for it."
 msgstr ""
+"Aby menedżer plików <_:productname-1/> wyświetlił twoje działanie w menu "
+"kontekstowym lub na pasku narzędzi, muszą zostać spełnione warunki określone"
+" dla tego działania."
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:8
@@ -1066,6 +1075,8 @@ msgid ""
 "Conditions may be put against the location the file manager currently points"
 " to, or against the currently selected items in this location."
 msgstr ""
+"Warunki mogą dotyczyć lokalizacji, którą obecnie wskazuje menedżer plików, "
+"lub obecnie wybranych elementów z tej lokalizacji."
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:12
@@ -1080,7 +1091,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:20 C/cact-conditions.xml:33
 msgid "Basename-based conditions"
-msgstr ""
+msgstr "Warunki dotyczące nazw podstawowych"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:21
@@ -1096,7 +1107,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:29 C/cact-starting.xml:296
 msgid "Basenames"
-msgstr ""
+msgstr "Nazwy podstawowe"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:27
@@ -1130,6 +1141,8 @@ msgid ""
 "If at least one element of the selection does not match all the defined "
 "conditions, then your action will not be displayed."
 msgstr ""
+"Jeśli jeden lub więcej zaznaczonych elementów nie spełnia wszystkich "
+"narzuconych warunków, twoje działanie się nie wyświetli."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:58
@@ -1191,6 +1204,8 @@ msgid ""
 "A basename-based condition may use « <_:literal-1/> » or « <_:literal-2/> » "
 "wildcard characters."
 msgstr ""
+"Warunek związany z nazwą podstawową może wykorzystywać znaki specjalne « "
+"<_:literal-1/> » oraz « <_:literal-2/> »."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:96 C/cact-conditions.xml:270
@@ -1255,7 +1270,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:123
 msgid "This is the default behavior on Unix-like systems."
-msgstr ""
+msgstr "To domyślne działanie na systemach unixopodobnych."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:128
@@ -1264,6 +1279,9 @@ msgid ""
 "that <_:filename-1/> and <_:filename-2/> filenames are considered the same "
 "name."
 msgstr ""
+"Po jego deaktywacji filtry będą niewrażliwe na wielkość liter, w związku  z "
+"czym nazwy plików <_:filename-1/> i <_:filename-2/>będą traktowane jak ta "
+"sama nazwa."
 
 #. (itstool) path: para/productname
 #: C/cact-conditions.xml:138 C/cact-conditions.xml:460
@@ -2512,12 +2530,14 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:70
 msgid "Where the action should it be executed ?"
-msgstr ""
+msgstr "Gdzie powinno zostać wykonane działanie?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:71
 msgid "Your action may be executed in a particular working directory."
 msgstr ""
+"Twoje działanie może zostać wykonane w określonym katalogu roboczym "
+"(aktywnym folderze)."
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
@@ -2566,7 +2586,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-execution.xml:111
 msgid "How should the action be executed ?"
-msgstr ""
+msgstr "W jaki sposób powinno zostać wykonane działanie?"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:112
@@ -2588,21 +2608,23 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which configures the "
 "execution of your command."
 msgstr ""
+"Kliknij zakładkę <_:guilabel-1/>, żeby wyświetlić stronę z opcjami "
+"dotyczącymi wykonywania działania."
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:124
 msgid "Configuration of the execution modes"
-msgstr ""
+msgstr "Konfiguracja trybów wykonywania"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:131
 msgid "Shows how to configure the execution modes of a command."
-msgstr ""
+msgstr "Pokazuje, jak konfigurować tryby wykonywania polecenia."
 
 #. (itstool) path: figure/title
 #: C/cact-execution.xml:140
 msgid "Configuration of the execution mode"
-msgstr ""
+msgstr "Konfiguracja trybu wykonywania"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-execution.xml:147
@@ -2614,6 +2636,7 @@ msgstr ""
 msgid ""
 "The execution mode of your command may be chosen between following values:"
 msgstr ""
+"Tryb wykonania twojego polecenia może przyjmować następujące wartości:"
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -2625,7 +2648,7 @@ msgstr "Zwykły"
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:162
 msgid "Starts the command as a standard graphical user interface."
-msgstr ""
+msgstr "Wykonuje polecenie wewnątrz standardowego interfejsu graficznego."
 
 #. (itstool) path: varlistentry/term
 #. (itstool) path: para/literal
@@ -2639,6 +2662,8 @@ msgid ""
 "Starts the preferred terminal of the desktop environment, and runs the "
 "command in it."
 msgstr ""
+"Uruchamia preferowany terminal lub środowisko, po czym wykonuje polecenie "
+"wewnątrz niego."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:179
@@ -2651,6 +2676,8 @@ msgid ""
 "Makes use of a special feature of the file manager which may allow a "
 "terminal to be ran in it."
 msgstr ""
+"Wykorzystuje specjalną właściwość menedżera plików, która może pozwalać na "
+"uruchamianie wewnątrz niego terminala."
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:187
@@ -2658,6 +2685,8 @@ msgid ""
 "As <_:productname-1/> does not have this feature, this option is strictly "
 "equivalent to <_:literal-2/> option."
 msgstr ""
+"Ze względu na to, że <_:productname-1/> nie posiada takiej możliwości, ta "
+"opcja jest równoważna z opcją <_:literal-2/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:194
@@ -2763,7 +2792,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Wykonaj jako użytkownik"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -2787,7 +2816,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:279
 msgid "Multiple executions"
-msgstr ""
+msgstr "Wykonywanie wielokrotne"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:280
@@ -2795,6 +2824,8 @@ msgid ""
 "You may want your command to be executed once, providing it the list of "
 "selected items as argument."
 msgstr ""
+"Możesz sprawić, że twoje polecenie zostanie wykonane raz, otrzymując jako "
+"argument liistę zaznaczonych elementów."
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:284
@@ -2802,6 +2833,9 @@ msgid ""
 "Or you may prefer your command to be repeated for each selected item, "
 "providing a different item as argument for each execution."
 msgstr ""
+"Inną możliwością jest wykonanie tego samego polecenia dla każdego z "
+"zaznaczonych elementów; wówczas przy każdym wykonaniu argumentem będzie inny"
+" element."
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:288
@@ -2868,7 +2902,7 @@ msgstr ""
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:319
 msgid "When the selection contains more than one item:"
-msgstr ""
+msgstr "Kiedy zaznaczenie zawiera więcej niż jeden element:"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:324
@@ -2902,7 +2936,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:356
 msgid "Parameter"
-msgstr ""
+msgstr "Parametr"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:357
@@ -3173,6 +3207,8 @@ msgid ""
 "contains the three files <_:filename-2/>, <_:filename-3/> and "
 "<_:filename-4/>."
 msgstr ""
+"Załóżmy, że aktywny folder to <_:filename-1/>, a bieżące zaznaczenie zawiera"
+" trzy pliki: <_:filename-2/>, <_:filename-3/> oraz <_:filename-4/>."
 
 #. (itstool) path: title/command
 #: C/cact-execution.xml:529
@@ -3187,7 +3223,7 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:531 C/cact-execution.xml:564
 msgid "then the following commands will be successively run:"
-msgstr ""
+msgstr "to z powodzeniem zadziałają następujące polecenia:"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:536
@@ -3224,12 +3260,12 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: C/cact-execution.xml:548
 msgid "then the following command will be run:"
-msgstr ""
+msgstr "to uruchomione zostanie polecenie:"
 
 #. (itstool) path: member/command
 #: C/cact-execution.xml:553
 msgid "echo pierre paul jacques"
-msgstr ""
+msgstr "echo pierre paul jacques"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:555
@@ -3304,17 +3340,17 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-export.xml:2
 msgid "Exporting your actions"
-msgstr ""
+msgstr "Eksportowanie działań"
 
 #. (itstool) path: sect2/title
 #: C/cact-import.xml:2
 msgid "Importing actions"
-msgstr ""
+msgstr "Importowanie działań"
 
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
 msgid "Organizing actions in menus"
-msgstr ""
+msgstr "Układanie działań w menu"
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:3
@@ -3322,6 +3358,8 @@ msgid ""
 "As your list of actions will grow, you most probably will want to organize "
 "them into menus, submenus, and so on."
 msgstr ""
+"Kiedy twoja lista działań urośnie, zapewne pomyślisz o pogrupowanie ich w "
+"menu, podmenu i tak dalej."
 
 #. (itstool) path: menuchoice/guimenu
 #. (itstool) path: menuchoice/guisubmenu
@@ -3335,12 +3373,12 @@ msgstr "Plik"
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-menus.xml:7
 msgid "New menu"
-msgstr ""
+msgstr "Nowe menu"
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:7
 msgid "In order to create a new menu, choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "Aby stworzyć nowe menu, wybierz <_:menuchoice-1/>."
 
 #. (itstool) path: para/abbrev
 #: C/cact-menus.xml:10 C/cact-where.xml:202
@@ -3474,12 +3512,14 @@ msgstr ""
 #: C/cact-prefs.xml:63
 msgid "Shows the tab which lets you define UI preferences."
 msgstr ""
+"Pokazuje zakładkę, w której możesz określić preferencje dotyczące "
+"interfejsu."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:71 C/cact-prefs.xml:73
 msgid "Import preferences"
-msgstr ""
+msgstr "Preferencje dotyczące importowania"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:80
@@ -3490,7 +3530,7 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-prefs.xml:90 C/cact-prefs.xml:92
 msgid "Export preferences"
-msgstr ""
+msgstr "Preferencje dotyczące eksportowania"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-prefs.xml:99
@@ -3535,12 +3575,13 @@ msgstr ""
 #. (itstool) path: example/title
 #: C/cact-profiles.xml:9
 msgid "Open a terminal here"
-msgstr ""
+msgstr "Otwórz terminal w tym miejscu"
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:10
 msgid "Say you have an action which opens a terminal in the current location."
 msgstr ""
+"Załóżmy, że jedno z twoich działań otwiera terminal w bieżącej lokalizacji."
 
 #. (itstool) path: example/para
 #: C/cact-profiles.xml:14
@@ -3589,7 +3630,7 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:37
 msgid "A new profile is created in your action."
-msgstr ""
+msgstr "W obrębie twojego działania powstanie nowy profil"
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:40
@@ -3597,11 +3638,13 @@ msgid ""
 "You can now define the conditions which must be met in order this profile be"
 " selected, and the command which will be executed."
 msgstr ""
+"Możesz teraz określić warunki, jakie muszą zostać spełnione, żeby właśnie "
+"ten profil został wybrany, a także polecenie, jakie zostanie wykonane."
 
 #. (itstool) path: sect3/title
 #: C/cact-profiles.xml:46
 msgid "Ordering the profiles inside an action"
-msgstr ""
+msgstr "Szeregowanie profili w obrębie działania"
 
 #. (itstool) path: sect3/para
 #: C/cact-profiles.xml:47
@@ -3643,7 +3686,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-profiles.xml:73
 msgid "You may order your profiles inside an action in two ways."
-msgstr ""
+msgstr "Możesz ułożyć profile zawarte wewnątrz działania na dwa sposoby."
 
 #. (itstool) path: listitem/para
 #: C/cact-profiles.xml:78
@@ -3660,12 +3703,13 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-properties.xml:2
 msgid "Accessing and editing item properties"
-msgstr ""
+msgstr "Odczytywanie i edytowanie właściwości elementów"
 
 #. (itstool) path: sect2/para
 #: C/cact-properties.xml:3
 msgid "An item has both editable and read-only properties."
 msgstr ""
+"Każdy element ma dwa rodzaje właściwości: edytowalne i tyko do odczytu."
 
 #. (itstool) path: figure/title
 #. (itstool) path: caption/para
@@ -3679,11 +3723,13 @@ msgid ""
 "Shows the tab which lets you access both editable and read-only item "
 "properties."
 msgstr ""
+"Pokazuje zakładkę, która pozwala ci przeglądać zarówno właściwości "
+"edytowalne, jak i właściwości tylko do odczytu."
 
 #. (itstool) path: sect2/title
 #: C/cact-save.xml:2
 msgid "Saving your modifications"
-msgstr ""
+msgstr "Zapisywanie zmian"
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-save.xml:3 C/cact-starting.xml:105 C/cact-starting.xml:644
@@ -3698,7 +3744,7 @@ msgstr "Zapisz"
 #. (itstool) path: sect2/para
 #: C/cact-save.xml:3
 msgid "To save your modifications, choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "Aby zapisać wprowadzone zmiany, wybierz <_:menuchoice-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-save.xml:4
@@ -3717,13 +3763,13 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-sorting.xml:2
 msgid "Sorting the items list"
-msgstr ""
+msgstr "Sortowanie listy elementów"
 
 #. (itstool) path: para/guilabel
 #: C/cact-sorting.xml:7 C/cact-starting.xml:462 C/cact-starting.xml:500
 #: C/cact-starting.xml:636
 msgid "Items list"
-msgstr ""
+msgstr "Lista elementów"
 
 #. (itstool) path: sect2/para
 #: C/cact-sorting.xml:3
@@ -3751,11 +3797,13 @@ msgid ""
 "or do not sort, and manually organize your actions and menus in your own "
 "order."
 msgstr ""
+"nie sortować i ręcznie ułożyć swoje działania i menu, zgodnie z wybraną "
+"przez siebie kolejnością."
 
 #. (itstool) path: sect3/title
 #: C/cact-sorting.xml:29
 msgid "Alphabetically sorting your actions and menus"
-msgstr ""
+msgstr "Układanie działań i menu w kolejności alfabetycznej"
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:30
@@ -3767,17 +3815,17 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-sorting.xml:35
 msgid "Sort buttons in the main window"
-msgstr ""
+msgstr "Przyciski sortujące z głównego okna"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-sorting.xml:42
 msgid "Shows the three sort buttons in the main window."
-msgstr ""
+msgstr "Pokazuje trzy przyciski sortujące z głównego okna."
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:47
 msgid "You may sort your actions by:"
-msgstr ""
+msgstr "Możesz sortować swoje działania według następujących kryteriów:"
 
 #. (itstool) path: para/abbrev
 #: C/cact-sorting.xml:52
@@ -3804,7 +3852,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-sorting.xml:63
 msgid "Manually organizing your actions and menus"
-msgstr ""
+msgstr "Ręczne układanie działań i menu"
 
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:64
@@ -3824,7 +3872,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-sorting.xml:74
 msgid "To choose this mode:"
-msgstr ""
+msgstr "Aby wybrać ten tryb:"
 
 #. (itstool) path: listitem/para
 #: C/cact-sorting.xml:79
@@ -3859,7 +3907,7 @@ msgstr "Wygląd"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:10
 msgid "Choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "Wybierz opcję <_:menuchoice-1/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:14
@@ -3871,11 +3919,13 @@ msgstr "Wiersz poleceń"
 msgid ""
 "To start <_:application-1/> from a command line, type the following command:"
 msgstr ""
+"Aby uruchomić <_:application-1/> przez wiersz poleceń, użyj następującego "
+"polecenia:"
 
 #. (itstool) path: command/filename
 #: C/cact-starting.xml:20 C/cact-starting.xml:32
 msgid "caja-actions-config-tool"
-msgstr ""
+msgstr "caja-actions-config-tool"
 
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
@@ -3887,27 +3937,29 @@ msgstr "Return"
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:22 C/cact-starting.xml:36 C/cact-starting.xml:430
 msgid "then press <_:keycap-1/>."
-msgstr ""
+msgstr "następnie naciśnij <_:keycap-1/>."
 
 #. (itstool) path: tip/para
 #: C/cact-starting.xml:27
 msgid "To view available command line options, type:"
-msgstr ""
+msgstr "Aby wyświetlić opcje dostępne dla wpisanego polecenia, wpisz:"
 
 #. (itstool) path: command/option
 #: C/cact-starting.xml:33
 msgid "--help-all"
-msgstr ""
+msgstr "--help-all"
 
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:46
 msgid "The first run"
-msgstr ""
+msgstr "Pierwsze uruchomienie"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:47
 msgid "When you start <_:application-1/>, the following window is displayed."
 msgstr ""
+"Po pierwszym uruchomieniu programu <_:application-1/> wyświetli się "
+"następujące okno."
 
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:51
@@ -3925,12 +3977,12 @@ msgstr ""
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:73
 msgid "The <_:application-1/> main window contains the following elements:"
-msgstr ""
+msgstr "Główne okno programu <_:application-1/> zawiera następujące elementy:"
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:78
 msgid "Menubar."
-msgstr ""
+msgstr "Pasek menu."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:80
@@ -3942,7 +3994,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:84
 msgid "Shortcuts are available for some commands:"
-msgstr ""
+msgstr "Niektórym poleceniom odpowiadają skróty klawiszowe:"
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:92 C/cact-starting.xml:435
@@ -3952,12 +4004,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:96
 msgid "Create a new action."
-msgstr ""
+msgstr "Tworzy nowe działanie."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:109
 msgid "Save modified actions and menus."
-msgstr ""
+msgstr "Zapisuje zmienione działania i menu."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:118
@@ -3967,7 +4019,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:122
 msgid "Quit the application."
-msgstr ""
+msgstr "Wychodzi z programu."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:131
@@ -3977,7 +4029,7 @@ msgstr "X"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:135
 msgid "Cut the current selection, keeping it in the clipboard."
-msgstr ""
+msgstr "Wycina aktualne zaznaczenie, zachowując je w schowku."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:144
@@ -3987,7 +4039,7 @@ msgstr "C"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:148
 msgid "Copy the current selection to the clipboard."
-msgstr ""
+msgstr "Kopiuje aktualne zaznaczenie do schowka."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:157 C/cact-starting.xml:171
@@ -3997,7 +4049,7 @@ msgstr "V"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:161
 msgid "Insert the content of the clipboard before the current item."
-msgstr ""
+msgstr "Wkleja zawartość schowka przed bieżącym elementem."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:175
@@ -4012,7 +4064,7 @@ msgstr "Skasuj"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:187
 msgid "Delete the current selection."
-msgstr ""
+msgstr "Usuwa aktualne zaznaczenie."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
@@ -4022,7 +4074,7 @@ msgstr "F5"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
 msgid "Reload the actions and menus."
-msgstr ""
+msgstr "Wczytuje ponownie listę działań i menu."
 
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
@@ -4032,12 +4084,12 @@ msgstr "F1"
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211
 msgid "Display the help."
-msgstr ""
+msgstr "Wyświetla pomoc."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:220
 msgid "Toolbar."
-msgstr ""
+msgstr "Pasek narzędzi."
 
 #. (itstool) path: menuchoice/guimenu
 #: C/cact-starting.xml:222
@@ -4055,11 +4107,13 @@ msgid ""
 "Several toolbars may be displayed below the menubar, depending of your "
 "choices in the <_:menuchoice-1/> submenu."
 msgstr ""
+"Pod paskiem menu może się wyświetlać kilka pasków narzędzi, w zależności od "
+"opcji wybranych w podmenu <_:menuchoice-1/>."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:226
 msgid "Items list."
-msgstr ""
+msgstr "Lista elementów."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:228
@@ -4078,12 +4132,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:238
 msgid "Invalid items are displayed in red color."
-msgstr ""
+msgstr "Elementy nieprawidłowe są wyświetlane na czerwono."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:241
 msgid "Modified items are displayed in italic characters."
-msgstr ""
+msgstr "Elementy zmienione są wyróżnione kursywą."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:247
@@ -4093,12 +4147,12 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:249
 msgid "Three buttons allow you to toggle between sort modes."
-msgstr ""
+msgstr "Trzy przyciski pozwalające przełączać się między trybami sortowania."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:255
 msgid "Properties tabs."
-msgstr ""
+msgstr "Zakładki z właściwościami."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:257
@@ -4106,6 +4160,8 @@ msgid ""
 "The right part of the main window displays all is needed to define how, when"
 " and where actions and menus should be displayed."
 msgstr ""
+"Prawa część głównego okna wyświetla wszystko co niezbędne do określenia, w "
+"jaki sposób, kiedy i gdzie powinny wyświetlać się działania i menu."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:264
@@ -4210,7 +4266,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:405
 msgid "Creating your first action"
-msgstr ""
+msgstr "Tworzenie swojego pierwszego działania"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:406
@@ -4218,6 +4274,8 @@ msgid ""
 "In this example, we are going to create an action which displays some pretty"
 " informations about the current selection."
 msgstr ""
+"W tym przykładzie stworzymy działanie, które wyświetla w schludnej formie "
+"trochę informacji na temat bieżącego zaznaczenia."
 
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:411
@@ -4233,7 +4291,7 @@ msgstr ""
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:412
 msgid "This action will require <_:productname-1/>."
-msgstr ""
+msgstr "To działanie będzie wymagało programu <_:productname-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:416
@@ -4241,6 +4299,8 @@ msgid ""
 "<_:productname-1/> is a program which will allow you to create a graphical "
 "user interface from a command-line."
 msgstr ""
+"<_:productname-1/> pozwala tworzyć interfejsy graficzne przez wiersz "
+"poleceń."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:420
@@ -4248,27 +4308,29 @@ msgid ""
 "You should check that this program is installed on your system, by example "
 "by typing the following command in a terminal:"
 msgstr ""
+"Upewnij się, że ten program jest zainstalowany na twoim systemie. W tym celu"
+" możesz na przykład wpisać w terminal polecenie:"
 
 #. (itstool) path: command/filename
 #. (itstool) path: para/userinput
 #: C/cact-starting.xml:427 C/cact-starting.xml:583
 msgid "matedialog"
-msgstr ""
+msgstr "matedialog"
 
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:434
 msgid "Creating the action"
-msgstr ""
+msgstr "Tworzenie działania"
 
 #. (itstool) path: menuchoice/guisubmenu
 #: C/cact-starting.xml:435
 msgid "New action"
-msgstr ""
+msgstr "Nowe działanie"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:435
 msgid "To create a new action, choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "Aby stworzyć nowe działanie, wybierz opcję <_:menuchoice-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:437
@@ -4287,12 +4349,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:446
 msgid "Default properties of a new action"
-msgstr ""
+msgstr "Domyślne właściwości nowego działania"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-starting.xml:453
 msgid "Shows the default properties of a newly created action."
-msgstr ""
+msgstr "Pokazuje domyślne właściwości świeżo stworzonego działania."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:460
@@ -4365,7 +4427,7 @@ msgstr ""
 #: C/cact-starting.xml:508 C/cact-starting.xml:512 C/cact-where.xml:118
 #: C/cact-where.xml:160
 msgid "Tooltip"
-msgstr ""
+msgstr "Dymek"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:510
@@ -4373,6 +4435,8 @@ msgid ""
 "The <_:guilabel-1/> entry box contains the text you want to be displayed as "
 "a short help to your action."
 msgstr ""
+"Pole <_:guilabel-1/> zawiera tekst, który wyświetli się jako krótka "
+"podpowiedź opisująca twoje działanie."
 
 #. (itstool) path: para/guilabel
 #: C/cact-starting.xml:520 C/cact-starting.xml:524 C/cact-starting.xml:536
@@ -4410,7 +4474,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:550
 msgid "Specifying the command to be executed"
-msgstr ""
+msgstr "Określanie polecenia do wykonania"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:551
@@ -4455,18 +4519,19 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:593
 msgid "You have two ways of defining the command to be executed:"
-msgstr ""
+msgstr "Możesz określić polecenie do wykonania na dwa sposoby:"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:598
 msgid "Enter it in the <_:guilabel-1/> entry box."
-msgstr ""
+msgstr "Wpisz je w pole <_:guilabel-1/>."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:604
 msgid ""
 "Click on <_:guibutton-1/> to select the executable file on the filesystem."
 msgstr ""
+"Kliknij <_:guibutton-1/>, żeby wybrać plik wykonywalny z systemu plików."
 
 #. (itstool) path: para/envar
 #: C/cact-starting.xml:612
@@ -4479,6 +4544,9 @@ msgid ""
 "If the command you enter does not have an absolute path, then it will be "
 "searched for in the <_:envar-1/> variable at execution time."
 msgstr ""
+"Jeśli wprowadzone polecenie nie określa ścieżki bezwględnej, to podczas "
+"wykonywania działania przeszukane zostaną lokalizacje ze zmiennej "
+"<_:envar-1/>."
 
 #. (itstool) path: para/userinput
 #: C/cact-starting.xml:619
@@ -4488,7 +4556,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-starting.xml:621 C/cact-starting.xml:626 C/cact-starting.xml:633
 msgid "Parameters"
-msgstr ""
+msgstr "Parametry"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:624
@@ -4510,12 +4578,12 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:643
 msgid "Saving"
-msgstr ""
+msgstr "Zapisywanie"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:644
 msgid "To save all pending modifications, choose <_:menuchoice-1/>."
-msgstr ""
+msgstr "Aby zapisać wszystkie niezapisane zmiany, wybierz <_:menuchoice-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:646
@@ -4523,16 +4591,18 @@ msgid ""
 "<_:productname-1/> automatically takes into account your new action, and "
 "displays it in its context menu."
 msgstr ""
+"<_:productname-1/> automatycznie uwzględni twoje nowe działanie i wyświetli "
+"je w swoim menu kontekstowym."
 
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:651
 msgid "Your first action in the <_:productname-1/> context menu"
-msgstr ""
+msgstr "Twoje pierwsze działanie w menu kontekstowym <_:productname-1/>"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-starting.xml:658
 msgid "Shows the first action in the <_:productname-1/> context menu."
-msgstr ""
+msgstr "Pokazuje pierwsze działanie w menu kontekstowym <_:productname-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:664
@@ -4540,11 +4610,13 @@ msgid ""
 "Cliking of the item in the <_:productname-1/> context menu activates it, and"
 " executes the corresponding command."
 msgstr ""
+"Kiknięcie elementu menu kontekstowego <_:productname-1/> aktywuje ten "
+"element i wykonuje odpowiadające mu działanie."
 
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:669
 msgid "The result of the execution of your first action"
-msgstr ""
+msgstr "Wynik wykonania twojego pierwszego działania"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-starting.xml:676
@@ -4561,13 +4633,14 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-where.xml:4
 msgid "Target configuration"
-msgstr ""
+msgstr "Określanie celu"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-where.xml:11
 msgid ""
 "Shows the three fields which let you configure the target of your action."
 msgstr ""
+"Pokazuje trzy pola, które pozwalają ci określić cel twojego działania."
 
 #. (itstool) path: sect2/para
 #: C/cact-where.xml:16
@@ -4576,6 +4649,9 @@ msgid ""
 " depending on what you will request here, and if some item is currently "
 "selected (or not)."
 msgstr ""
+"Menedżer plików <_:productname-1/> może wyświetlić twoje działanie w różnych"
+" miejscach, w zależności of tego, jakie opcje tu wybierzesz i tego, cy jakiś"
+" element jest (lub nie jest) zaznaczony w danej chwili."
 
 #. (itstool) path: para/guilabel
 #: C/cact-where.xml:23
@@ -4621,7 +4697,7 @@ msgstr ""
 #. (itstool) path: sect3/para
 #: C/cact-where.xml:47
 msgid "This target is checked by default."
-msgstr ""
+msgstr "Ten cel jest domyślnie zaznaczony."
 
 #. (itstool) path: sect3/title
 #: C/cact-where.xml:53
@@ -4655,12 +4731,12 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-where.xml:74
 msgid "Targeting the toolbar"
-msgstr ""
+msgstr "Cel: pasek narzędzi"
 
 #. (itstool) path: para/guilabel
 #: C/cact-where.xml:76
 msgid "Display item in the toolbar"
-msgstr ""
+msgstr "Wyświetla element w pasku narzędzi"
 
 #. (itstool) path: sect3/para
 #: C/cact-where.xml:75
@@ -4729,7 +4805,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-where.xml:138
 msgid "If your action is to be displayed in the toolbar"
-msgstr ""
+msgstr "Jeśli twoje działanie ma zostać wyświetlone w pasku narzędzi"
 
 #. (itstool) path: formalpara/para
 #: C/cact-where.xml:139
@@ -4773,7 +4849,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-where.xml:191
 msgid "Defining several targets"
-msgstr ""
+msgstr "Określanie kilku celów"
 
 #. (itstool) path: formalpara/para
 #: C/cact-where.xml:192
@@ -4781,11 +4857,14 @@ msgid ""
 "An action may target the selection context menu, the location context menu "
 "and the toolbar, or one or more of these."
 msgstr ""
+"Celem działania mogą być menu kontekstowe dla zaznaczonych elementów, menu "
+"kontekstowe dla lokalizacji, pasek narzędzi albo dowolne kombinacje tych "
+"rzeczy."
 
 #. (itstool) path: formalpara/title
 #: C/cact-where.xml:199
 msgid "Defining no target at all"
-msgstr ""
+msgstr "Brak określonego celu"
 
 #. (itstool) path: formalpara/para
 #: C/cact-where.xml:200
@@ -4817,6 +4896,11 @@ msgid ""
 "actions to the file manager context menus. These actions may be organized in"
 " menus and submenus, exported and shared with other desktop environments."
 msgstr ""
+"<productname>Caja-Actions</productname> to rozszerzenie programu "
+"<productname>Caja</productname>, którego główne działanie polega na "
+"umożliwieniu użytkownikom dodawania dowolnych działań do menu kontekstowych "
+"menedżera plików. Te działania można grupować w menu i podmenu, eksportować "
+"i współdzielić z innymi środowiskami graficznymi."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:80
@@ -4826,6 +4910,10 @@ msgid ""
 " your actions should appear in <productname>Caja</productname> context "
 "menus, and how they will be executed."
 msgstr ""
+"Program <application>Narzędzie Konfiguracji Caja-Actions</application> to "
+"interfejs, który pozwala ci dokładnie określić, w jaki sposób, gdzie i kiedy"
+" powinny pojawić się twoje działania związane z menu kontekstowymi programu "
+"<productname>Caja</productname>, a także sposób wykonania tych działań."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:85
@@ -4833,21 +4921,25 @@ msgid ""
 "<application>Caja-Actions Configuration Tool</application> provides the "
 "following features:"
 msgstr ""
+"<application>Nazrzędzie Konfiguracji Caja-Actions</application> zapewnia "
+"następujące możliwości:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:90
 msgid "Define and configure actions from scratch."
-msgstr ""
+msgstr "Definiowanie i konfigurowanie działań od zera."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:93
 msgid "Organize actions into menus, submenus and so on."
-msgstr ""
+msgstr "Grupowanie działań w menu, podmenu itd."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:96
 msgid "Import and export actions and menus from and to outside world."
 msgstr ""
+"Importowanie i eksportowanie działań i menu oraz ich wymiana ze światem "
+"zewnętrznym."
 
 #. (itstool) path: note/para
 #: C/index.docbook:100
@@ -4855,6 +4947,8 @@ msgid ""
 "<productname>Caja-Actions</productname> also comes with additional features "
 "such as:"
 msgstr ""
+"<productname>Caja-Actions</productname> zawiera również dodatkowe "
+"udogodnienia, takie jak:"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:105
@@ -4862,11 +4956,13 @@ msgid ""
 "A <productname>Caja</productname> plugin which exports in real time to D-Bus"
 " the currently selected files."
 msgstr ""
+"Dodatek do programu <productname>Caja</productname>, w czasie rzeczywistym "
+"eksportujący do interfejsu D-Bus aktualnie zaznaczone pliki."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:111
 msgid "A command-line program which is able to run any action."
-msgstr ""
+msgstr "Program konsolowy, który może uruchomić dowolne działania."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:114
@@ -4875,11 +4971,14 @@ msgid ""
 "action from a keyboard shortcut, applying this action to the item(s) "
 "currently selected in the file manager."
 msgstr ""
+"Ten program, związany z interfejsem D-Bus, pozwala użytkownikom uruchomić "
+"dowolne działanie skrótem klawiszowym, odnosząc je do elementów zaznaczonych"
+" obecnie w menedżerze plików."
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:121
 msgid "A command-line program which is able to create a new action."
-msgstr ""
+msgstr "Program konsolowy, który może stworzyć nowe działanie."
 
 #. (itstool) path: note/para
 #: C/index.docbook:126
@@ -4887,6 +4986,8 @@ msgid ""
 "All these features are more thoroughly described in the global "
 "<productname>Caja-Actions</productname> documentation."
 msgstr ""
+"Wszystkie te możliwości są dokładniej opisane w globalnej dokumentacji "
+"dodatku <productname>Caja-Actions</productname>."
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:143
@@ -4906,7 +5007,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:181
 msgid "Known Bugs and Limitations"
-msgstr ""
+msgstr "Znane błędy i ograniczenia"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:195
@@ -4923,6 +5024,12 @@ msgid ""
 "(<email>mate@raveit.de</email>). It is currently maintained by MATE "
 "developers."
 msgstr ""
+"Pierwszą wersję <productname>Caja-Actions</productname> stworzyli Frederic "
+"Ruaudel (<email>grumz@grumz.net</email>) i Rodrigo Moya "
+"(<email>rodrigo@gnome-db.org</email>). Znacząco poprawili ją Pierre Wieser "
+"(<email>pwieser@trychlos.org</email>) i Wolfgang Ulbrich "
+"(<email>mate@raveit.de</email>). Obecnie jest rozwijana przez zespół "
+"tworzący MATE."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:205
@@ -4932,6 +5039,9 @@ msgid ""
 "url=\"http://www.dragonartz.net/\" "
 "type=\"http\">http://www.dragonartz.net</ulink>)."
 msgstr ""
+"Ilustracje stworzyli Ulisse Perusin (<email>uli.peru@gmail.com</email>) i "
+"DragonArtz (<ulink url=\"http://www.dragonartz.net/\" "
+"type=\"http\">http://www.dragonartz.net</ulink>)."
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:211
