@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Empar Montoro <emontra2018@gmail.com>, 2021
 # Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2021

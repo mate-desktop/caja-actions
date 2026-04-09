@@ -4,8 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Benedikt Straub <benedikt-straub@web.de>, 2025
+# Tan, Kian-ting, 2024
 # 
 msgid ""
 msgstr ""
@@ -13,17 +12,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2025\n"
-"Language-Team: Low German (https://app.transifex.com/mate/teams/13566/nds/)\n"
+"Last-Translator: Tan, Kian-ting, 2024\n"
+"Language-Team: Chinese (Min Nan) (https://app.transifex.com/mate/teams/13566/nan/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nds\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nan\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr "_Fraag mi"
+msgstr "問我(_A)"
 
 #: src/core/na-exporter.c:54
 msgid ""
@@ -35,19 +34,19 @@ msgstr ""
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr "Keen NAIExporter-Implementeren för dat Formaat »%s« funnen."
+msgstr ""
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr "NAIExporter »%s« implementeert de Schnittstee »to_buffer« nich."
+msgstr ""
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr "NAIExporter »%s« implementeert de Schnittstee »to_file« nich."
+msgstr ""
 
 #: src/core/na-about.c:70
 msgid ""
@@ -76,8 +75,6 @@ msgstr ""
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
 msgstr ""
-"Eene graphisk Bruker-Schnittstee, um eegene Caja-Aktionen to maken un to "
-"bewarken."
 
 #: src/core/na-about.c:93
 msgid ""
@@ -88,44 +85,39 @@ msgstr ""
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr "Caja-Aktionen"
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
-msgstr ""
-"Launchpad Contributions:\n"
-"  Skullmaster https://launchpad.net/~koeritz-jonas\n"
-"  Valmantas Palikša https://launchpad.net/~walmis"
+msgstr "Tan Kian-ting <yoxem@kianting.info>, 2023"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr "MATE-Schrievdisk"
+msgstr ""
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr "KDE-Schrievdisk"
+msgstr ""
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr "LXDE-Schrievdisk"
+msgstr ""
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr "ROX-Schrievdisk"
+msgstr ""
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr "XFCE-Schrievdisk"
+msgstr ""
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr "Olle Systeemen"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
 msgstr ""
-"List vun Musters, wat mit de utköört Datei(en) un/of Verteeknis(sen) "
-"vergleken worden sallen"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -154,7 +146,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr "<UTDRUCK>"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
@@ -285,11 +277,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr "<TEXT>"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr "List vun Verteeknissen"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -310,7 +302,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr "<PADD>"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
@@ -330,45 +322,41 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr "Blot in Umgeven wiesen"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr "Normaal is all."
+msgstr ""
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
-"De Naam vun eener Schrievdisk-Umgeven, waar dat Ding wiest worden mutt. Du "
-"muttst för elkeen wünsket Umgeven een Instellen setten."
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr "<SCHRIEVDISK>"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr "In Umgeven nich wiesen"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr "Normaal is nix."
+msgstr ""
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
-"De Naam vun eener Schrievdisk-Umgeven, waar dat Ding nich wiest worden sall."
-" Du muttst för elkeen wünsket Umgeven een Instellen setten."
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr "Utföhren versöken"
+msgstr ""
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -382,12 +370,10 @@ msgstr ""
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
 msgstr ""
-"De Padd to eener Datei, för wat nakiekt worden sall, of man se utföhren "
-"kann."
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr "Wiesen wenn anmellt"
+msgstr ""
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -401,16 +387,16 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr "De Naam vun eenem Deenst, wat bi de Sittens-DBus anmellt wesen mutt"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr "<NAAM>"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr "Wiesen wenn Jau"
+msgstr ""
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -429,7 +415,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr "Wiesen wenn löppt"
+msgstr ""
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -443,11 +429,11 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr "De Naam vun eener utföhrbaren Datei, wat lopen mutt"
+msgstr ""
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr "Vermögens"
+msgstr ""
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -475,20 +461,16 @@ msgstr ""
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
-"Ding is umnummereert worden, denn de Uproper hett keene Prüffunktioon "
-"angeven."
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
 msgstr ""
-"Ding is umnummereert worden, denn de Uproper hett keene Bruker-Nafraag-"
-"Funktion angeven."
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr "Ding is umnummereert worden, denn de Bruker will dat so."
+msgstr ""
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
@@ -497,20 +479,20 @@ msgstr ""
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr "Ding %s gifft 't al."
+msgstr ""
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr "Import is ofbroken worden, denn de Bruker will dat so."
+msgstr ""
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr "(umnummereert)"
+msgstr ""
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr "Ding _nich importeren"
+msgstr ""
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -521,19 +503,17 @@ msgstr ""
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr "Dat Ding mit ne_jem Naam importeren"
+msgstr ""
 
 #: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
-"De utköört Datei word mit eenem Naam importeert, wat een bietje anners is, um dat Umnumereren to wiesen.\n"
-"Dat Ding, wat 't al gifft, word nich ännert."
 
 #: src/core/na-importer.c:74
 msgid "_Override the existing item"
-msgstr "Dat vörkomen Ding _utwesseln"
+msgstr ""
 
 #: src/core/na-importer.c:75
 msgid ""
@@ -544,18 +524,17 @@ msgstr ""
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
 msgstr ""
-"Du worst elkeen Maal fraggt, wenn 't eenen Naam tum Importeren al gifft."
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
-msgstr "%s kann nich laden worden (leeg of to grot of keene normaale Datei)"
+msgstr ""
 
 #: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
-msgstr "Kann »ImporterAskDialog« nich ut %s laden"
+msgstr ""
 
 #: src/core/na-importer-ask.c:398
 #, c-format
@@ -563,8 +542,6 @@ msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
-"De Aktioon »%s«, wat ut »%s« importeert word, hett de sülve Naam as »%s«, "
-"wat 't al gifft."
 
 #: src/core/na-importer-ask.c:404
 #, c-format
@@ -572,60 +549,56 @@ msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
-"Dat Menü »%s«, wat ut »%s« importeert word, hett de sülve Naam as »%s«, wat "
-"'t al gifft."
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr "Ding is al daar"
+msgstr ""
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr "Wat sall ick daarmit doon?"
+msgstr ""
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
-msgstr "Deese Utwahl för tokünftig Importerens _marken"
+msgstr ""
 
 #: src/core/na-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 msgstr ""
-"Büdde wees so nett un schriev een Fehlermellen up "
-"https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 
 #: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
-msgstr "I/O-Deenstleister nich verföögbaar."
+msgstr ""
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr "I/O-Deenstleister implementeert eene nödige API nich."
+msgstr ""
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
-msgstr "I/O-Deenstleister will nich schrieven."
+msgstr ""
 
 #: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
-msgstr "I/O-Deenstleister seggt, dat 't nich schrieven kann."
+msgstr ""
 
 #: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
-msgstr "I/O-Deenstleister is vun eenem Superbruker tosperrt worden."
+msgstr ""
 
 #: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
-msgstr "I/O-Deenstleister is vun de Bruker tosperrt worden."
+msgstr ""
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr "Ding is blot tum Lesen."
+msgstr ""
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr "Keen I/O-Deenstleister tum Schrieven funnen."
+msgstr ""
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -633,12 +606,10 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
-"Ding is nich tum Schrieven un keener weet um wat (%d).\n"
-"%s"
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr "Jau."
+msgstr ""
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -646,24 +617,22 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
-"Programm-Verloops-Fehler.\n"
-"%s"
 
 #: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
-msgstr "De I/O-Deenstleister will dat nich doon."
+msgstr ""
 
 #: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
-msgstr "Schriev-Fehler im I/O-Deenstleister."
+msgstr ""
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr "Kann MateConf-Schema nich lösken."
+msgstr ""
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr "Kann Konfigureren nich lösken."
+msgstr ""
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -671,13 +640,11 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
-"Unbekennter Rückgaav-Weert (%d).\n"
-"%s"
 
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr "Neje Caja-Aktioon"
+msgstr ""
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
@@ -775,7 +742,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr "Muushülptext vun de Kontextmenü-Indrag"
+msgstr ""
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -1095,7 +1062,7 @@ msgstr ""
 
 #: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
-msgstr "Beschrieven"
+msgstr "說明"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
@@ -1152,11 +1119,11 @@ msgstr ""
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
-msgstr "_Avbreken"
+msgstr "取消 (_C)"
 
 #: src/cact/base-gtk-utils.c:394
 msgid "_Open"
-msgstr "_Opmaken"
+msgstr "拍開 (_O)"
 
 #: src/cact/base-iunique.c:204
 #, c-format
@@ -1240,52 +1207,50 @@ msgstr ""
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
-msgstr "Datei is keene valide .desktop Datei"
+msgstr "檔案毋是有效ê .desktop 檔案"
 
 #: src/cact/egg-desktop-file.c:188
 #, c-format
 msgid "Unrecognized desktop file Version '%s'"
-msgstr "Dateiversioon '%s' vu'm Schrievdisk nich erkannt"
+msgstr "Buē當辨別ê桌面檔案「%s」版"
 
 #: src/cact/egg-desktop-file.c:957
 #, c-format
 msgid "Starting %s"
-msgstr "Starte %s"
+msgstr "啟動%s"
 
 #: src/cact/egg-desktop-file.c:1098
 msgid "Application does not accept documents on command line"
-msgstr "Anwennen nimmt keene Dokumenten up de Oorderrieg an"
+msgstr "應用程式m̄接受用命令列拍開文件。"
 
 #: src/cact/egg-desktop-file.c:1166
 #, c-format
 msgid "Unrecognized launch option: %d"
-msgstr "Unbekannte Startoption: %d"
+msgstr "Bē當辨別ê啟動選項：%d"
 
 #: src/cact/egg-desktop-file.c:1364
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr ""
-"Kann Dokument-URIs nich an eenen Schrievdisk-Indrag vun de Aard »Type=Link« "
-"geven"
+msgstr "Buē當kā文件ê URI傳到「Type=Link」ê桌面項目"
 
 #: src/cact/egg-desktop-file.c:1385
 msgid "Not a launchable item"
-msgstr "Keen startbares Element"
+msgstr "毋是通啟動ê項目"
 
 #: src/cact/egg-sm-client.c:235
 msgid "Disable connection to session manager"
-msgstr "Deaktiveert de Verbinnen to'm Törnoppasser"
+msgstr "關掉kàu階段管理器ê連結。"
 
 #: src/cact/egg-sm-client.c:238
 msgid "Specify file containing saved configuration"
-msgstr "Datei mit sekert Konfiguratioon angeven"
+msgstr "指定包含儲存ê設定ê檔案"
 
 #: src/cact/egg-sm-client.c:238
 msgid "FILE"
-msgstr "DATEI"
+msgstr "檔案"
 
 #: src/cact/egg-sm-client.c:241
 msgid "Specify session management ID"
-msgstr "Törnoppassens ID ingeven"
+msgstr "指定階段管理ID"
 
 #: src/cact/egg-sm-client.c:241
 msgid "ID"
@@ -1293,11 +1258,11 @@ msgstr "ID"
 
 #: src/cact/egg-sm-client.c:263
 msgid "Session management options:"
-msgstr "Törnoppassens-Instellens:"
+msgstr "階段管理器ê選項："
 
 #: src/cact/egg-sm-client.c:264
 msgid "Show session management options"
-msgstr "Törnoppassens-Instellens opwiesen"
+msgstr "顯示階段管理ê選項"
 
 #: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
@@ -1572,7 +1537,7 @@ msgstr ""
 #. * will be compare to Caja 'current_folder'
 #: src/cact/cact-ifolders-tab.c:263 src/cact/cact-ifolders-tab.c:291
 msgid "Select a folder"
-msgstr "Verteeknis utkören"
+msgstr ""
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
@@ -1582,7 +1547,7 @@ msgstr ""
 #: src/cact/cact-iproperties-tab.c:53
 #: src/cact/caja-actions-config-tool.ui:3375
 msgid "None"
-msgstr "Keen"
+msgstr "無"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
@@ -1595,7 +1560,7 @@ msgstr ""
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
 msgid "_Action"
-msgstr "_Aktioon"
+msgstr ""
 
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
@@ -1707,15 +1672,15 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
-msgstr "_Datei"
+msgstr "檔案(_F)"
 
 #: src/cact/cact-menubar.c:60 src/cact/cact-menubar.c:174
 msgid "_Edit"
-msgstr "_Bewarken"
+msgstr "編輯(_E)"
 
 #: src/cact/cact-menubar.c:61
 msgid "_View"
-msgstr "_Ansicht"
+msgstr "看(_V)"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
@@ -1723,7 +1688,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
-msgstr "_Warktüüg"
+msgstr ""
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
@@ -1731,7 +1696,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
-msgstr "_Hülp"
+msgstr "說明(_H)"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
@@ -1769,7 +1734,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
-msgstr "_Spiekern"
+msgstr "儲存(_S)"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Save' item
 #: src/cact/cact-menubar.c:82
@@ -1779,16 +1744,16 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
-msgstr "_Beennen"
+msgstr ""
 
 #. Translators: tooltip displayed in the status bar when selecting 'Quit' item
 #: src/cact/cact-menubar.c:86
 msgid "Quit the application"
-msgstr "Deeses Programm sluten"
+msgstr ""
 
 #: src/cact/cact-menubar.c:88
 msgid "Cu_t"
-msgstr "U_tsnieden"
+msgstr "鉸 (_T)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Cut
 #. item
@@ -1798,7 +1763,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
-msgstr "_Koperen"
+msgstr "Khóo-pih(_C)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Copy
 #. item
@@ -1808,7 +1773,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
-msgstr "_Infögen"
+msgstr "貼 (P)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. item
@@ -1828,7 +1793,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
-msgstr "Ver_doppeln"
+msgstr "重複製造(_D)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Duplicate item
@@ -1838,7 +1803,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
-msgstr "_Löschen"
+msgstr "Thâi掉 (_D)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Delete
 #. item
@@ -1860,7 +1825,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
-msgstr "_Eegenskuppen"
+msgstr ""
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Preferences' item
@@ -1950,7 +1915,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
-msgstr "Inholls"
+msgstr ""
 
 #. Translators: tooltip displayed in the status bar when selecting the Help
 #. item
@@ -1960,7 +1925,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
-msgstr "_Över"
+msgstr "關係 (_A)"
 
 #. Translators: tooltip displayed in the status bar when selecting the About
 #. item
@@ -2256,7 +2221,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
-msgstr "Minuuten"
+msgstr ""
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
@@ -2344,7 +2309,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
-msgstr "_Hoch"
+msgstr "頂層(_U)"
 
 #: src/cact/cact-preferences.ui:1215
 msgid ""
@@ -2354,7 +2319,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
-msgstr "_Runner"
+msgstr ""
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
@@ -2820,7 +2785,6 @@ msgstr ""
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
 msgstr ""
-"De Muushülptext, wat in de Dateiverwalter-Brukerschnittstee wiest word."
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
@@ -2834,7 +2798,7 @@ msgstr ""
 #: src/cact/caja-actions-config-tool.ui:1441
 #: src/cact/caja-actions-config-tool.ui:2329
 msgid "_Browse..."
-msgstr "_Nahkieken …"
+msgstr "瀏覽……(_B)"
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
@@ -2898,7 +2862,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
-msgstr "<b>Order</b>"
+msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1518
 msgid ""
@@ -3132,7 +3096,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
-msgstr "_Verteeknisse"
+msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2457
 msgid ""
@@ -3369,7 +3333,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
-msgstr "_Eegenskuppen"
+msgstr ""
 
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933

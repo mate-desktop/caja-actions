@@ -1,15 +1,14 @@
-# 
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Benedikt Straub <benedikt-straub@web.de>, 2023
+# Benedikt Straub <benedikt-straub@web.de>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2023\n"
+"Last-Translator: Benedikt Straub <benedikt-straub@web.de>, 2025\n"
 "Language-Team: Low German (https://app.transifex.com/mate/teams/13566/nds/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1144,7 +1143,7 @@ msgstr ""
 #: C/cact-conditions.xml:404 C/cact-conditions.xml:525
 #: C/cact-conditions.xml:665
 msgid "Insert"
-msgstr ""
+msgstr "Infögen"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:74 C/cact-conditions.xml:218
@@ -1269,7 +1268,7 @@ msgstr ""
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Entf"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -1714,7 +1713,7 @@ msgstr ""
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:563 C/cact-conditions.xml:702
 msgid "OK"
-msgstr ""
+msgstr "Jau"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:561
@@ -3096,7 +3095,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:496
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:497
@@ -3106,7 +3105,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
@@ -3831,7 +3830,7 @@ msgstr ""
 #. (itstool) path: term/guimenu
 #: C/cact-starting.xml:8
 msgid "System"
-msgstr "System"
+msgstr "Systeem"
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:8
@@ -3867,7 +3866,7 @@ msgstr ""
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "Ingaav"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para
@@ -3979,7 +3978,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:157 C/cact-starting.xml:171
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:161
@@ -4004,7 +4003,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
@@ -4014,7 +4013,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211
@@ -4161,7 +4160,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:368
 msgid "Properties"
-msgstr "Eegenschapten"
+msgstr "Eegenskuppen"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:372
@@ -4352,7 +4351,7 @@ msgstr ""
 #: C/cact-starting.xml:508 C/cact-starting.xml:512 C/cact-where.xml:118
 #: C/cact-where.xml:160
 msgid "Tooltip"
-msgstr ""
+msgstr "Muushülptext"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:510
@@ -4567,7 +4566,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-where.xml:23
 msgid "Action"
-msgstr "Aktschoon"
+msgstr "Aktioon"
 
 #. (itstool) path: sect2/para
 #: C/cact-where.xml:21

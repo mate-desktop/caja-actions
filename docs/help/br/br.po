@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Gwenn M <tornoz@laposte.net>, 2021
 # Alan Monfort <alan.monfort@free.fr>, 2021

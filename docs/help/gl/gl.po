@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2021
 # Martin Wimpress <code@flexion.org>, 2021

@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Pavol Šimo <palo.simo@gmail.com>, 2021
 # Dušan Kazik <prescott66@gmail.com>, 2021

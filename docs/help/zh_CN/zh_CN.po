@@ -1,4 +1,3 @@
-# 
 # Translators:
 # liu lizhi <xingzuo88@qq.com>, 2021
 # Zkdc, 2021
@@ -12,8 +11,8 @@
 # shuyu liu <liushuyu011@gmail.com>, 2021
 # zhineng404 <zhinengge@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
-# OkayPJ <1535253694@qq.com>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
+# OkayPJ <okaypjkk@outlook.com>, 2021
 # Wenbin Lv <wenbin816@gmail.com>, 2021
 # 
 msgid ""

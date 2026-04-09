@@ -1,13 +1,13 @@
-# 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# Fabio Tomat <f.t.public@gmail.com>, 2026
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>, 2026\n"
 "Language-Team: Friulian (https://app.transifex.com/mate/teams/13566/fur/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -783,7 +783,7 @@ msgstr ""
 #: C/cact-starting.xml:51 C/cact-starting.xml:59 C/cact-starting.xml:74
 #: C/cact-starting.xml:82 C/cact-starting.xml:231
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Strument di configurazion Azions-Caja"
 
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
@@ -833,7 +833,7 @@ msgstr ""
 #: C/cact-profiles.xml:52 C/cact-profiles.xml:57 C/cact-save.xml:10
 #: C/cact-starting.xml:498
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Azions-Caja"
 
 #. (itstool) path: para/productname
 #. (itstool) path: title/productname
@@ -877,12 +877,12 @@ msgstr ""
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:36
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "Progjet pe documentazion di GNOME"
 
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:40
 msgid "MATE Documentation Project"
-msgstr ""
+msgstr "Progjet pe documentazion di MATE"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
@@ -984,7 +984,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-bugs.xml:17 C/cact-execution.xml:138
 msgid "Execution mode"
-msgstr ""
+msgstr "Modalitât di esecuzion"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:18
@@ -1003,7 +1003,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Scurte sugjeride"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1142,7 +1142,7 @@ msgstr ""
 #: C/cact-conditions.xml:404 C/cact-conditions.xml:525
 #: C/cact-conditions.xml:665
 msgid "Insert"
-msgstr ""
+msgstr "Inserìs"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:74 C/cact-conditions.xml:218
@@ -1775,7 +1775,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "Capacitâts"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -1829,7 +1829,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:680
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Daûr a zontâ une gnove capacitât"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:676
@@ -2507,7 +2507,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
 msgid "Working directory"
-msgstr ""
+msgstr "Cartele di lavôr"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:74
@@ -2628,7 +2628,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:179
 msgid "Embedded"
-msgstr ""
+msgstr "Incorporât"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:183
@@ -2692,7 +2692,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
 msgid "Startup notify"
-msgstr ""
+msgstr "Notifiche di inviament"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:228
@@ -2748,7 +2748,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Eseguìs come utent"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -3294,7 +3294,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-import.xml:2
 msgid "Importing actions"
-msgstr ""
+msgstr "Importazion azions"
 
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
@@ -3370,7 +3370,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-menus.xml:41
 msgid "New Caja menu"
-msgstr ""
+msgstr "Gnûf menù di Caja"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:38
@@ -3562,7 +3562,7 @@ msgstr ""
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-profiles.xml:36
 msgid "New profile"
-msgstr ""
+msgstr "Gnûf profîl"
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:36
@@ -4792,7 +4792,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:73
 msgid "Introduction"
-msgstr ""
+msgstr "Introduzion"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:74
@@ -4954,6 +4954,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
+"Chest manuâl al fâs part di une racuelte di manuâi di MATE distribuîts sot "
+"de GFDL. Se tu desideris distribuî chest manuâl cence la sô racuelte, tu "
+"puedis fâlu zontant une copie de licence dal manuâl, come che al è descrit "
+"te sezion 6 de licence."
 
 #. (itstool) path: legalnotice/para
 #: C/legalnotice.xml:24
@@ -4964,6 +4968,10 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Tancj nons doprâts da lis aziendis par diferenziâ i propris prodots e "
+"servizis a son rivendicâts come marchis. Là che chei nons a vegnin fûr tes "
+"varis documentazions di MATE e i membris dal Progjet di Documentazion MATE "
+"lu san, i nons a son par maiuscul o cu la iniziâl maiuscule."
 
 #. (itstool) path: listitem/para
 #: C/legalnotice.xml:38

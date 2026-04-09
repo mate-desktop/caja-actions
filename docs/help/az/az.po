@@ -1,4 +1,3 @@
-# 
 # Translators:
 # She110ck Finch <hasan.hasanov1@yahoo.com>, 2021
 # Martin Wimpress <code@flexion.org>, 2021

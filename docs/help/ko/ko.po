@@ -1,19 +1,18 @@
-# 
 # Translators:
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2021
 # Martin Wimpress <code@flexion.org>, 2021
 # HanSol Park <totron114@gmail.com>, 2021
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Junghee Lee <daemul72@gmail.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>, 2021\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>, 2025\n"
 "Language-Team: Korean (https://app.transifex.com/mate/teams/13566/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -862,7 +861,7 @@ msgstr ""
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:15
 msgid "Wolfgang Ulbrich"
-msgstr ""
+msgstr "Wolfgang Ulbrich"
 
 #. (itstool) path: para/productname
 #: C/articleinfo.xml:19 C/cact-bugs.xml:8 C/cact-conditions.xml:14
@@ -872,7 +871,7 @@ msgstr ""
 #: C/cact-profiles.xml:52 C/cact-profiles.xml:57 C/cact-save.xml:10
 #: C/cact-starting.xml:498
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #. (itstool) path: para/productname
 #. (itstool) path: title/productname
@@ -1309,7 +1308,7 @@ msgstr ""
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -3909,7 +3908,7 @@ msgstr ""
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "Return"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para
@@ -4046,7 +4045,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
@@ -4056,7 +4055,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211

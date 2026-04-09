@@ -1,6 +1,5 @@
-# 
 # Translators:
-# David Ó Laıġeanáın, 2021
+# 954f5ff5c422edcda4204b9bb81bea95_ca00681, 2021
 # Martin Wimpress <code@flexion.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 

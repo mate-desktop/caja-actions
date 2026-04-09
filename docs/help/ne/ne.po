@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
 # Sven Keeter <sven.keeter@gmail.com>, 2021

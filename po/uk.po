@@ -5,13 +5,15 @@
 # 
 # Translators:
 # Yuri Chornoivan <yurchor@ukr.net>, 2021
-# Шаповалов Анатолій Романович <elrond.716.smith@gmail.com>, 2021
+# Анатолій Романович Шаповалов <elrond.716.smith@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Юрій Яновський <lytvyn349@ukr.net>, 2021
 # Микола Ткач <chistomov@gmail.com>, 2021
 # Taras Panchenko <top39@ukr.net>, 2021
-# Sergiy <sergiy@gorichenko.com>, 2022
+# Serhii <sergiy@gorichenko.com>, 2022
 # Gordon Freeman, 2023
+# zubr139, 2025
+# dsafsadf <heneral@gmail.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -19,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
 "PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Gordon Freeman, 2023\n"
+"Last-Translator: dsafsadf <heneral@gmail.com>, 2025\n"
 "Language-Team: Ukrainian (https://app.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,7 +31,7 @@ msgstr ""
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "Запитайте мене"
 
 #: src/core/na-exporter.c:54
 msgid ""
@@ -42,19 +44,19 @@ msgstr ""
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "Не знайдено реалізації NAIExporter для формату '%s'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "%s NAIExporter не реалізує інтерфейс 'to_buffer'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter не реалізує інтерфейс 'to_file'."
 
 #: src/core/na-about.c:70
 msgid ""
@@ -102,10 +104,13 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Авторське право © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Авторське право © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Авторське право © 2021 The MATE developers"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Дії Caja"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
@@ -137,11 +142,11 @@ msgstr "Стільниця XFCE"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Застарілі системи"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr ""
+msgstr "Список шаблонів для зіставлення з вибраними файлами/теками"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -152,6 +157,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"Список рядків із символами-замінниками '*' або '?', які будуть зіставлятися з іменами вибраних файлів/папок. Кожен вибраний елемент повинен відповідати принаймні одному з шаблонів імені файлу, щоб дія або меню були доступні для відображення.\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір.\n"
+"Типово: '*'."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -162,6 +170,9 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"Шаблон, який буде зіставлятися з базовими іменами вибраних файлів/папок. "
+"Може містити символи-замінники (* або ?). Ви повинні встановити одну опцію "
+"для кожного шаблону, який вам потрібен"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -170,11 +181,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<ВИРАЗ>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "Чи враховується регістр для вказаних базових імен (типово)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -184,12 +195,15 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Повинно бути встановлено 'true', якщо шаблони імен файлів чутливі до регістру, 'false' в іншому випадку. Наприклад, якщо вам потрібно зіставити ім'я файлу з урахуванням регістру, встановіть цей ключ на 'true'. Якщо ви також хочете, наприклад, щоб '*.jpg' збігався з 'photo.JPG', тоді встановіть 'false'.\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір.\n"
+"Типово: 'true'."
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
-msgstr ""
+msgstr "Список шаблонів для зіставлення з типами MIME вибраних файлів/теків"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -199,6 +213,9 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"Список рядків із символом-замінником '*', які будуть зіставлятися з типами MIME вибраних файлів/папок. Кожен вибраний елемент повинен відповідати принаймні одному з шаблонів типу MIME, щоб дія з'явилася.\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір.\n"
+"Типово: '*/*'."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -208,10 +225,13 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"Шаблон, який буде зіставлятися з типами MIME вибраних файлів/папок. Може "
+"містити символ-замінник '*'. Ви повинні встановити одну опцію для кожного "
+"шаблону, який вам потрібен"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
-msgstr ""
+msgstr "Чи застосовується профіль до файлів (застаріла опція, див. тип MIME)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -226,11 +246,19 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Встановіть 'true', якщо виділення може містити файли, 'false' в іншому випадку.\n"
+"Цей параметр пов'язаний з параметром 'isdir'. Допустимі комбінації: \n"
+"isfile='true' та isdir='false': виділення може містити лише файли\n"
+"isfile='false' та isdir='true': виділення може містити лише папки\n"
+"isfile='true' та isdir='true': виділення може містити як файли, так і папки\n"
+"isfile='false' та isdir='false': це недійсна комбінація (ваша конфігурація ніколи не з'явиться).\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір.\n"
+"Типово: 'true'."
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
-msgstr ""
+msgstr "Чи застосовується профіль до папок (застаріла опція, див. тип MIME)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -245,12 +273,22 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Встановіть 'true', якщо виділення може містити папки, 'false' в іншому випадку.\n"
+"Цей параметр пов'язаний з параметром 'isfile'. Допустимі комбінації: \n"
+"isfile='true' та isdir='false': виділення може містити лише файли\n"
+"isfile='false' та isdir='true': виділення може містити лише папки\n"
+"isfile='true' та isdir='true': виділення може містити як файли, так і папки\n"
+"isfile='false' та isdir='false': це недійсна комбінація (ваша конфігурація ніколи не з'явиться).\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір.\n"
+"Типово: 'false'."
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
+"Чи може виділення бути множинним (застаріла опція, див. кількість виділених "
+"елементів)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -260,11 +298,14 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Якщо вам потрібно вибрати більше одного файлу або тека, встановіть цей ключ на 'true'. Якщо вам потрібен лише один файл або папка, встановіть його на 'false'.\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір.\n"
+"Типово: 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
-msgstr ""
+msgstr "Список схем, які мають відповідати схемам вибраних файлів/папок"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -285,12 +326,27 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"Визначає список дійсних схем для порівняння з вибраними елементами. Схема – це протокол, що використовується для доступу до файлів. Ключове слово, яке потрібно використовувати, це те, що використовується в URI файловим менеджером.\n"
+"Приклади дійсних URI:\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@test.example.net/tmp/foo.txt\n"
+"Найпоширеніші схеми:\n"
+"'file': локальні файли\n"
+"'sftp': файли, доступ до яких здійснюється через SSH\n"
+"'ftp': файли, доступ до яких здійснюється через FTP\n"
+"'smb': файли, доступ до яких здійснюється через Samba (спільний доступ Windows)\n"
+"'dav': файли, доступ до яких здійснюється через WebDAV.\n"
+"Усі схеми, які використовуються вашим улюбленим файловим менеджером, можуть бути використані тут.\n"
+"Це, очевидно, застосовується лише тоді, коли є вибір, або коли цільовою є спеціальна схема 'x-caja-desktop'.\n"
+"Типово: 'file'."
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"Дійсна схема GIO, де мають бути розташовані вибрані файли/папки. Ви повинні "
+"встановити один параметр для кожної потрібної схеми"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -313,6 +369,9 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"Визначає список дійсних шляхів, які мають відповідати поточній папці.\n"
+" Усі папки, що знаходяться 'під' зазначеним шляхом, вважаються дійсними.\n"
+"Типово: '/'."
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
@@ -332,7 +391,7 @@ msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Оператор співвідношення кількості вибраних елементів"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -341,10 +400,14 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"Чи може цей профіль бути вибраний залежно від кількості вибору.\n"
+"Це рядок у формі \"{'<'|'='|'>'} число\".\n"
+"Приклади дійсних рядків: \"=0\", \"> 1\", \"< 10\".\n"
+"Типово: \">0\"."
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "Співвідношення кількості вибраних елементів [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
@@ -352,13 +415,15 @@ msgstr "Показувати лише в оточенні"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr "За замовчуванням для всіх."
+msgstr "Типово для всіх."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
+"Назва єдиного робочого середовища, де має відображатися елемент. Ви повинні "
+"встановити один параметр для кожного потрібного середовища"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
@@ -372,17 +437,19 @@ msgstr "Не показувати в оточенні"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr "За замовчуванням немає."
+msgstr "Типово немає."
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+"Назва робочого середовища, де елемент не має відображатися. Ви повинні "
+"встановити один параметр для кожного потрібного середовища"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "Спроба виконання"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -392,14 +459,17 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Зауважте, що при вказанні перевіряється лише наявність та статус виконуваності зазначеного файлу.\n"
+"Параметри можуть з'являтися у значенні 'TryExec' і будуть підставлятися під час виконання.\n"
+"Типово: успішно."
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "шлях до файлу, виконуваність якого має бути перевірена"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Показати, якщо зареєстровано"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -410,19 +480,23 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Загальновідома назва служби DBus.\n"
+"Елемент буде кандидатом, якщо названа служба зареєстрована в сеансі DBus під час виконання.\n"
+"Параметри можуть з'являтися у значенні 'ShowIfRegistered' і будуть підставлятися під час виконання.\n"
+"Типово: успішно."
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "Назва служби, яка має бути зареєстрована в сеансі DBus"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "Показати, якщо Істина"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -433,15 +507,19 @@ msgid ""
 "Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Команда, яка при виконанні повинна виводити рядок на stdout.\n"
+"Елемент буде кандидатом, якщо виведений рядок дорівнює \"true\".\n"
+"Параметри можуть з'являтися у значенні 'ShowIfTrue' і будуть підставлятися під час виконання.\n"
+"Типово: успішно."
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr ""
+msgstr "Шлях до команди, яка виведе рядок 'true'"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "Показати, якщо запущено"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -452,14 +530,18 @@ msgid ""
 "Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Назва процесу.\n"
+"Елемент буде кандидатом, якщо ім'я процесу знайдено в пам'яті під час виконання.\n"
+"Параметри можуть з'являтися у значенні 'ShowIfRunning' і будуть підставлятися під час виконання.\n"
+"Типово: успішно."
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "Назва бінарного файлу, який має бути запущений"
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Можливості"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -476,49 +558,64 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"Список можливостей, яким кожен елемент вибірки повинен відповідати, щоб бути кандидатом.\n"
+"Можливості можуть бути заперечені.\n"
+"Можливості повинні бути вибрані серед наступних визначених заздалегідь:\n"
+"- 'Owner': поточний користувач є власником вибраних елементів\n"
+"- 'Readable': вибрані елементи доступні для читання користувачем (ймовірно, корисніше при запереченні)\n"
+"- 'Writable': вибрані елементи доступні для запису користувачем\n"
+"- 'Executable': вибрані елементи доступні для виконання користувачем\n"
+"- 'Local': вибрані елементи є локальними.\n"
+"Типово – порожній список."
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
 msgstr ""
+"Назва можливості, якій вибірка повинна відповідати. Може бути 'Owner', "
+"'Readable', 'Writable', 'Executable' або 'Local'"
 
 #: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
+"Елемент було перенумеровано, оскільки викликаюча функція не надала жодної "
+"функції перевірки."
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
 msgstr ""
+"Елемент було перенумеровано, оскільки викликаюча функція не надала жодної "
+"функції запиту користувача."
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "Елемент було перенумеровано за запитом користувача."
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "Існуючий елемент було перезаписано за запитом користувача."
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "Елемент %s вже існує."
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "Імпорт було скасовано за запитом користувача."
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(перенумеровано)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "Не _імпортувати елемент"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -526,41 +623,50 @@ msgid ""
 "The selected file will be marked as \"NOT OK\" in the Summary page.\n"
 "The existing item will not be modified."
 msgstr ""
+"Це була історична поведінка.\n"
+"Вибраний файл буде позначено як \"НЕ ОК\" на сторінці Підсумків.\n"
+"Існуючий елемент не буде змінено."
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr ""
+msgstr "Імпортувати елемент, _присвоївши йому новий ідентифікатор"
 
 #: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
+"Вибраний файл буде імпортовано з трохи зміненою міткою, що вказує на перенумерацію.\n"
+"Існуючий елемент не буде змінено."
 
 #: src/core/na-importer.c:74
 msgid "_Override the existing item"
-msgstr ""
+msgstr "_Перезаписати існуючий елемент"
 
 #: src/core/na-importer.c:75
 msgid ""
 "The item found in the selected file will silently override the current one which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
 msgstr ""
+"Елемент, знайдений у вибраному файлі, безшумно перезапише поточний, який має той самий ідентифікатор.\n"
+"Будьте обережні: цей режим може бути небезпечним. Вас більше не питатимуть."
 
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
-msgstr ""
+msgstr "Вас запитуватимуть щоразу, коли імпортований ідентифікатор вже існує."
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
 msgstr ""
+"%s не завантажується (порожній або занадто великий, або не є звичайним "
+"файлом)"
 
 #: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
-msgstr ""
+msgstr "Не вдалося завантажити 'ImporterAskDialog' з %s"
 
 #: src/core/na-importer-ask.c:398
 #, c-format
@@ -568,6 +674,8 @@ msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
+"Дія \"%s\", імпортована з \"%s\", має той самий ідентифікатор, що й вже "
+"існуюча \"%s\"."
 
 #: src/core/na-importer-ask.c:404
 #, c-format
@@ -575,18 +683,20 @@ msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
+"Меню \"%s\", імпортоване з \"%s\", має той самий ідентифікатор, що й вже "
+"існуюче \"%s\"."
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr ""
+msgstr "Вже існуючий елемент"
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr ""
+msgstr "Що мені робити з цим?"
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
-msgstr ""
+msgstr "_Запам'ятати мій вибір для майбутніх операцій імпорту"
 
 #: src/core/na-io-provider.c:69
 msgid ""
@@ -598,35 +708,35 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
-msgstr ""
+msgstr "Недоступний постачальник вводу/виводу."
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr ""
+msgstr "Реалізація постачальника вводу/виводу не має необхідного API."
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
-msgstr ""
+msgstr "Постачальник вводу/виводу не бажає записувати."
 
 #: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
-msgstr ""
+msgstr "Постачальник вводу/виводу повідомляє про неможливість запису."
 
 #: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
-msgstr ""
+msgstr "Постачальник вводу/виводу був заблокований адміністратором."
 
 #: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
-msgstr ""
+msgstr "Постачальник вводу/виводу був заблокований користувачем."
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "Елемент доступний тільки для читання."
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr ""
+msgstr "Не знайдено постачальника вводу/виводу, доступного для запису."
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -634,6 +744,8 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
+"Елемент недоступний для запису з невідомої причини (%d).\n"
+"%s"
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
@@ -645,22 +757,24 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
+"Помилка потоку програми.\n"
+"%s"
 
 #: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
-msgstr ""
+msgstr "Постачальник вводу/виводу не бажає цього робити."
 
 #: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
-msgstr ""
+msgstr "Помилка запису в постачальнику вводу/виводу."
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr ""
+msgstr "Не вдалося видалити схеми MateConf."
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "Не вдалося видалити конфігурацію."
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -668,19 +782,21 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
+"Невідомий код повернення (%d).\n"
+"%s"
 
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr ""
+msgstr "Нова дія Caja"
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
-msgstr ""
+msgstr "Профіль автоматично створено з дії до версії 2"
 
 #: src/core/na-object-action-factory.c:80
 msgid "Targets the selection context menu"
-msgstr ""
+msgstr "Націлює контекстне меню вибору"
 
 #: src/core/na-object-action-factory.c:81
 msgid ""
@@ -689,14 +805,18 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to TRUE."
 msgstr ""
+"Чи дія спрямована на контекстні меню файлового менеджера вибору.\n"
+"Це була історична поведінка.\n"
+"Зауважте, що меню завжди є потенційним кандидатом для відображення в контекстних меню вибору за умови, що вони містять принаймні одну дію.\n"
+"Типово TRUE."
 
 #: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr ""
+msgstr "Націлює контекстне меню вибору [true]"
 
 #: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
-msgstr ""
+msgstr "Націлює контекстне меню розташування"
 
 #: src/core/na-object-action-factory.c:107
 msgid ""
@@ -704,14 +824,17 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to FALSE"
 msgstr ""
+"Чи дія спрямована на контекстні меню файлового менеджера, коли немає вибору, таким чином застосовуючись до поточного розташування.\n"
+"Зауважте, що меню завжди є потенційним кандидатом для відображення в контекстних меню вибору за умови, що вони містять принаймні одну дію.\n"
+"Типово FALSE"
 
 #: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr ""
+msgstr "Націлює контекстне меню розташування [false]"
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "Націлює панель інструментів"
 
 #: src/core/na-object-action-factory.c:133
 msgid ""
@@ -720,14 +843,18 @@ msgid ""
 "Note that menus are never displayed in the toolbar.\n"
 "Defaults to FALSE."
 msgstr ""
+"Чи є дія кандидатом для відображення на панелі інструментів файлового менеджера.\n"
+"Це стосується лише поточного розташування.\n"
+"Зауважте, що меню ніколи не відображаються на панелі інструментів.\n"
+"Типово FALSE."
 
 #: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr ""
+msgstr "Націлює панель інструментів [false]"
 
 #: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
-msgstr ""
+msgstr "Напис елемента панелі інструментів"
 
 #: src/core/na-object-action-factory.c:158
 msgid ""
@@ -735,16 +862,19 @@ msgid ""
 "Note that actual display may depend of your own Desktop Environment preferences.\n"
 "Defaults to label of the context menu when not set or empty."
 msgstr ""
+"Напис, що відображається поруч із піктограмою на панелі інструментів файлового менеджера.\n"
+"Зауважте, що фактичне відображення може залежати від ваших власних налаштувань середовища робочого столу.\n"
+"Типово використовується напис контекстного меню, якщо не встановлено або порожньо."
 
 #. Translators: copied items have a label as 'Copy of original label'
 #: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "Копія %s"
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "Тип елемента"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -753,24 +883,30 @@ msgid ""
 "- 'Menu'.\n"
 "The value is case sensitive and must not be localized."
 msgstr ""
+"Визначає, чи є елемент дією чи меню. Можливі значення:\n"
+"- 'Action',\n"
+"- 'Menu'.\n"
+"Значення чутливе до регістру та не повинно локалізуватися."
 
 #: src/core/na-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
-msgstr ""
+msgstr "Напис пункту контекстного меню (обов'язково)"
 
 #: src/core/na-object-item-factory.c:95
 msgid ""
 "The label of the menu item that will appear in the file manager context menu when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
 msgstr ""
+"Напис пункту меню, який з'явиться в контекстному меню файлового менеджера, коли вибір відповідає налаштуванням умов відображення.\n"
+"Він також використовується як типове значення для написи панелі інструментів дії."
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "Порожній напис"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "Підказка пункту контекстного меню"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -778,34 +914,41 @@ msgid ""
 "when the user points to the file manager context menu item with his/her "
 "mouse."
 msgstr ""
+"Підказка пункту меню, яка з'явиться в рядку стану файлового менеджера, коли "
+"користувач наведе курсор миші на пункт контекстного меню файлового "
+"менеджера."
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "Піктограма пункту контекстного меню"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
 msgstr ""
+"Піктограма пункту меню, яка з'явиться поруч із написом у контекстному меню файлового менеджера, коли вибір відповідає налаштуванням умов відображення.\n"
+"Може бути локалізованою назвою тематичної піктограми або повним шляхом до будь-якого відповідного зображення."
 
 #: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<ШЛЯХ|ІМ'Я>"
 
 #: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
-msgstr ""
+msgstr "Опис, що стосується елемента"
 
 #: src/core/na-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
 msgstr ""
+"Деякий текст, який пояснює мету меню або дії.\n"
+"Може використовуватися, наприклад, при відображенні доступних елементів на веб-сайті."
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Запропонований ярлик"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -814,74 +957,88 @@ msgid ""
 "The format may look like \"<Control>a\" or \"<Shift><Alt>F1\".\n"
 "Defaults to empty."
 msgstr ""
+"Ярлик, запропонований для дії або меню.\n"
+"Зверніть увагу, що це може бути лише пропозиція, оскільки ярлик може бути вже зарезервований для іншого використання. Реалізація не повинна перевизначати вже існуючий ярлик для визначення цього.\n"
+"Формат може виглядати як \"<Control>a\" або \"<Shift><Alt>F1\".\n"
+"Типово порожньо."
 
 #: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
-msgstr ""
+msgstr "Список ідентифікаторів підпунктів"
 
 #: src/core/na-object-item-factory.c:269
 msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
 msgstr ""
+"Упорядкований список ідентифікаторів підпунктів. Це можуть бути дії або меню, якщо елемент є меню, або профілі, якщо елемент є дією.\n"
+"Якщо цей список не існує або порожній для дії чи меню, підпункти прикріплюються в порядку операцій читання."
 
 #: src/core/na-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
-msgstr ""
+msgstr "Чи увімкнено дію або меню"
 
 #: src/core/na-object-item-factory.c:294
 msgid ""
 "If the or the menu action is disabled, it will never appear in the file manager context menu.\n"
 "Defaults to TRUE."
 msgstr ""
+"Якщо дія або меню вимкнено, воно ніколи не з'явиться в контекстному меню файлового менеджера.\n"
+"Типово TRUE."
 
 #: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr ""
+msgstr "Чи активована дія або меню [активовано]"
 
 #: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
-msgstr ""
+msgstr "Версія формату"
 
 #: src/core/na-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward"
 " compatibility."
 msgstr ""
+"Версія формату конфігурації, яка буде використовуватися для керування "
+"зворотною сумісністю."
 
 #. Translators: default label for a new menu
 #: src/core/na-object-menu.c:57
 msgid "New Caja menu"
-msgstr ""
+msgstr "Нове меню Caja"
 
 #. Translators: label for the default profile
 #: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "Типовий профіль"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "Назва профілю"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
+"Може використовуватися як опис функції профілю.\n"
+"Якщо не встановлено, типово використовується автоматично згенерована назва."
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "Шлях до команди"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
 msgstr ""
+"Шлях до команди, яка буде виконана, коли користувач обере пункт меню у "
+"контекстному меню файлового менеджера або на панелі інструментів."
 
 #: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "Параметри команди"
 
 #: src/core/na-object-profile-factory.c:129
 msgid ""
@@ -923,10 +1080,47 @@ msgid ""
 "  %X: space-separated list of the extensions of the selected file(s)/folder(s)\n"
 "  %%: a percent sign."
 msgstr ""
+"Параметри команди, яка буде виконана, коли користувач обере пункт меню у контекстному меню файлового менеджера або на панелі інструментів.\n"
+"Параметри можуть містити спеціальні токени, які замінюються інформацією, наданою файловим менеджером, перед запуском команди:\n"
+"- до версії 2.0:\n"
+"  %d: базова тека вибраних файлів\n"
+"  %f: ім'я вибраного файлу або першого, якщо вибрано кілька\n"
+"  %h: ім'я хосту URI\n"
+"  %m: список базових імен вибраних файлів/тек, розділених пробілами\n"
+"  %M: список вибраних файлів/тек з їх повними шляхами, розділених пробілами\n"
+"  %p: номер порту першого URI\n"
+"  %R: список вибраних URI, розділених пробілами\n"
+"  %s: схема URI\n"
+"  %u: URI\n"
+"  %U: ім'я користувача URI\n"
+"  %%: знак відсотка.\n"
+"- починаючи з версії 3:\n"
+"  %b: (перше) базове ім'я\n"
+"  %B: список базових імен вибраних файлів/тек, розділених пробілами\n"
+"  %c: кількість вибраних файлів/тек\n"
+"  %d: (перший) базовий каталог\n"
+"  %D: список базових каталогів вибраних файлів/тек, розділених пробілами\n"
+"  %f: (перше) ім'я файлу\n"
+"  %F: список імен файлів вибраних файлів/тек, розділених пробілами\n"
+"  %h: ім'я хосту (першого) URI\n"
+"  %m: (перший) MIME-тип\n"
+"  %M: список MIME-типів вибраних файлів/тек, розділених пробілами\n"
+"  %n: ім'я користувача (першого) URI\n"
+"  %o: оператор без дії, який примушує до виконання в однині (з 3.0.2)\n"
+"  %O: оператор без дії, який примушує до виконання у множині (з 3.0.2)\n"
+"  %p: номер порту (першого) URI\n"
+"  %s: схема (першого) URI\n"
+"  %u: (перший) URI\n"
+"  %U: список URI вибраних файлів/тек, розділених пробілами\n"
+"  %w: (перше) базове ім'я без розширення\n"
+"  %W: список базових імен без розширення, розділених пробілами\n"
+"  %x: (перше) розширення\n"
+"  %X: список розширень вибраних файлів/тек, розділених пробілами\n"
+"  %%: знак відсотка."
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "Робочий каталог"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -934,10 +1128,12 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to \"%d\"."
 msgstr ""
+"Робочий каталог, в якому буде запущена команда.\n"
+"Типово \"%d\"."
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "Режим виконання"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -951,30 +1147,41 @@ msgid ""
 "- DisplayOutput: the ran terminal may be closed at end of the command, but standard streams (stdout, stderr) should be collected and displayed; an acceptable fallback is Terminal.\n"
 "Defaults to \"Normal\"."
 msgstr ""
+"Режим виконання програми.\n"
+"Може бути обрано одне з наступних значень:\n"
+"- Normal: запускається як стандартний графічний інтерфейс користувача\n"
+"- Terminal: запускає бажаний термінал графічного середовища та виконує команду в ньому\n"
+"- Embedded: використовує спеціальну функцію файлового менеджера, яка дозволяє запускати термінал всередині нього; прийнятний запасний варіант - Terminal\n"
+"- DisplayOutput: запущений термінал може бути закритий після завершення команди, але стандартні потоки (stdout, stderr) повинні бути зібрані та відображені; прийнятний запасний варіант - Terminal.\n"
+"Типово \"Normal\"."
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "Сповіщення про запуск"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to FALSE."
 msgstr ""
+"Актуально лише, коли ExecutionMode=Normal.\n"
+"Типово FALSE."
 
 #: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
-msgstr ""
+msgstr "Клас WM при запуску"
 
 #: src/core/na-object-profile-factory.c:268
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to empty."
 msgstr ""
+"Актуально лише, коли ExecutionMode=Normal.\n"
+"Типово порожньо."
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Виконати як користувач"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -982,59 +1189,62 @@ msgid ""
 "The profile is ignored if defined with a non-existing UID or login.\n"
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
+"Користувач, від імені якого має бути виконана команда. Користувача можна ідентифікувати за його числовим UID або за його логіном.\n"
+"Профіль ігнорується, якщо визначено з неіснуючим UID або логіном.\n"
+"Типово порожній: команда буде виконана від імені поточного користувача."
 
 #: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
-msgstr ""
+msgstr "Помилка під час запиту інформації для URI %s: %s"
 
 #: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///path/to/file1.mid"
 
 #: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///path/to/file2.jpeg"
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "користувач"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
-msgstr ""
+msgstr "Вивід запущеної команди"
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "Виконати команду:"
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "Стандартний вивід:"
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "Стандартна помилка:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
-msgstr ""
+msgstr "Caja-Actions Desktop I/O Provider"
 
 #: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
-msgstr ""
+msgstr "Експортувати як файл ._desktop"
 
 #: src/io-desktop/cadp-formats.c:56
 msgid ""
@@ -1045,20 +1255,26 @@ msgid ""
 "- drag-n-drop into the Caja-Actions Configuration Tool,\n"
 "- or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
+"Цей формат було запроваджено в серії v 3.0 і він має бути вашим новим бажаним форматом під час експорту елементів.\n"
+"Він дозволяє легко ділитися вашими діями з усім світом, включаючи користувачів інших робочих середовищ, якщо їхня власна програма реалізує специфікацію DES-EMA, яка описує цей формат.\n"
+"Експортований файл .desktop може бути пізніше імпортований через:\n"
+"- Помічника імпорту інструмента конфігурації Caja-Actions,\n"
+"- перетягуванням у інструмент конфігурації Caja-Actions,\n"
+"- або копіюванням його до каталогу XDG_DATA_DIRS/file-manager/actions."
 
 #: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr ""
+msgstr "Desktop I/O Provider не може обробити URI"
 
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
 #, c-format
 msgid "unknown type: %s"
-msgstr ""
+msgstr "невідомий тип: %s"
 
 #: src/cact/base-application.c:182
 msgid "Arguments count"
-msgstr ""
+msgstr "Кількість аргументів"
 
 #: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
@@ -1070,15 +1286,15 @@ msgstr "Аргументи"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
-msgstr ""
+msgstr "Масив аргументів командного рядка"
 
 #: src/cact/base-application.c:198
 msgid "Option entries"
-msgstr ""
+msgstr "Записи опцій"
 
 #: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
-msgstr ""
+msgstr "Масив визначень опцій командного рядка"
 
 #: src/cact/base-application.c:205
 msgid "Application name"
@@ -1086,7 +1302,7 @@ msgstr "Назва програми"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
-msgstr ""
+msgstr "Назва програми"
 
 #: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
@@ -1094,7 +1310,7 @@ msgstr "Опис"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
-msgstr ""
+msgstr "Короткий опис для відображення в першому рядку виводу --help"
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
@@ -1102,48 +1318,50 @@ msgstr "Назва піктограми"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
-msgstr ""
+msgstr "Назва піктограми програми"
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
-msgstr ""
+msgstr "Унікальне ім'я програми"
 
 #: src/cact/base-application.c:230
 msgid "The Unique name of the application"
-msgstr ""
+msgstr "Унікальне ім'я програми"
 
 #: src/cact/base-application.c:237
 msgid "Return code"
-msgstr ""
+msgstr "Код повернення"
 
 #: src/cact/base-application.c:238
 msgid "The return code of the application"
-msgstr ""
+msgstr "Код повернення програми"
 
 #: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
-msgstr ""
+msgstr "Не вдалося інтерпретувати аргументи командного рядка"
 
 #: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
-msgstr ""
+msgstr "Вийти за Escape"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
-msgstr ""
+msgstr "Чи має помічник «Вийти», коли користувач натискає Escape?"
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
-msgstr ""
+msgstr "Попереджати при Escape"
 
 #: src/cact/base-assistant.c:160
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
 msgstr ""
+"Чи слід запитувати підтвердження у користувача при виході з помічника за "
+"допомогою Escape?"
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr ""
+msgstr "Ви впевнені, що бажаєте вийти з цього помічника?"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1159,79 +1377,85 @@ msgid ""
 "Another instance of %s is already running.\n"
 "Please switch back to it."
 msgstr ""
+"Інший екземпляр %s вже запущено.\n"
+"Будь ласка, перейдіть до нього."
 
 #: src/cact/base-iunique.c:207
 msgid "The application is not unique"
-msgstr ""
+msgstr "Додаток не унікальний"
 
 #: src/cact/base-window.c:204
 msgid "XML UI filename"
-msgstr ""
+msgstr "Ім'я файлу XML UI"
 
 #: src/cact/base-window.c:205
 msgid "The filename which contains the XML UI definition"
-msgstr ""
+msgstr "Ім'я файлу, який містить визначення XML UI"
 
 #: src/cact/base-window.c:212
 msgid "Has its own GtkBuilder"
-msgstr ""
+msgstr "Має власний GtkBuilder"
 
 #: src/cact/base-window.c:213
 msgid ""
 "Whether this BaseWindow reallocates a new GtkBuilder each time it is opened"
 msgstr ""
+"Чи перерозподіляє це BaseWindow новий GtkBuilder щоразу, коли воно "
+"відкривається"
 
 #: src/cact/base-window.c:220
 msgid "Toplevel name"
-msgstr ""
+msgstr "Назва верхнього рівня"
 
 #: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
-msgstr ""
+msgstr "Внутрішнє ім'я GtkBuildable вікна верхнього рівня"
 
 #: src/cact/base-window.c:228
 msgid "BaseApplication"
-msgstr ""
+msgstr "Базова програма"
 
 #: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
-msgstr ""
+msgstr "Вказівник (не посилання) на екземпляр BaseApplication"
 
 #: src/cact/base-window.c:235 src/cact/cact-tree-model.c:225
 msgid "Parent BaseWindow"
-msgstr ""
+msgstr "Батьківське BaseWindow"
 
 #: src/cact/base-window.c:236
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of this BaseWindow"
 msgstr ""
+"Вказівник (не посилання) на батьківське BaseWindow для цього BaseWindow"
 
 #: src/cact/base-window.c:242
 msgid "WSP name"
-msgstr ""
+msgstr "Назва WSP"
 
 #: src/cact/base-window.c:243
 msgid ""
 "The string which handles the window size and position in user preferences"
 msgstr ""
+"Рядок, який обробляє розмір і положення вікна в налаштуваннях користувача"
 
 #: src/cact/base-window.c:250
 msgid "Destroy the Gtk toplevel"
-msgstr ""
+msgstr "Знищити Gtk верхнього рівня"
 
 #: src/cact/base-window.c:251
 msgid "Whether the embedded Gtk Toplevel should be destroyed at dispose time"
-msgstr ""
+msgstr "Чи слід знищувати вбудований Gtk Toplevel під час звільнення ресурсів"
 
 #: src/cact/base-window.c:735
 #, c-format
 msgid "Unable to load %s UI XML definition: %s"
-msgstr ""
+msgstr "Не вдалося завантажити визначення XML UI для %s: %s"
 
 #: src/cact/base-window.c:750
 #, c-format
 msgid "Unable to load %s dialog definition."
-msgstr ""
+msgstr "Не вдалося завантажити визначення діалогу %s."
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
@@ -1294,58 +1518,58 @@ msgstr "Показати параметри взаємодії з керівни
 
 #: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Інструмент конфігурації Caja-Actions"
 
 #: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
-msgstr ""
+msgstr "Інтерфейс користувача для редагування власних контекстних дій"
 
 #: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
-msgstr ""
+msgstr "Встановити для запуску кількох екземплярів програми [unique]"
 
 #: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
-msgstr ""
+msgstr "Вивести номер версії та коректно завершити роботу [no]"
 
 #: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
-msgstr ""
+msgstr "Користувач є власником елемента"
 
 #: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
-msgstr ""
+msgstr "Елемент доступний для читання користувачем"
 
 #: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
-msgstr ""
+msgstr "Елемент доступний для запису користувачем"
 
 #: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
-msgstr ""
+msgstr "Елемент доступний для виконання користувачем"
 
 #: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
-msgstr ""
+msgstr "Елемент локальний"
 
 #. Translators: add a comment when a capability is already used by current
 #. item
 #: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
-msgstr ""
+msgstr "%s (вже вставлено)"
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Додавання нової можливості"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
-msgstr ""
+msgstr "<b>Керовані можливості</b>"
 
 #: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
-msgstr ""
+msgstr "Додавання нової схеми"
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
@@ -1358,11 +1582,11 @@ msgstr "Експорт скасовано через дії користувач
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
-msgstr ""
+msgstr "Успішно експортовано як"
 
 #: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
-msgstr ""
+msgstr "Можливо, у вас немає прав на запис у вибрану теку."
 
 #: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
@@ -1374,7 +1598,7 @@ msgstr "Який формат вибрати для експорту?"
 
 #: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
-msgstr ""
+msgstr "_Запам'ятати мій вибір у майбутніх операціях експорту"
 
 #: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
@@ -1387,7 +1611,7 @@ msgstr "Цей асистент проведе вас через процес е
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr ""
+msgstr "_Список дій :"
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1395,6 +1619,9 @@ msgid ""
 "\n"
 "You may use Ctrl and Shift keys to extend the selection."
 msgstr ""
+"Будь ласка, виберіть одну або кілька дій для експорту.\n"
+"\n"
+"Ви можете використовувати клавіші Ctrl та Shift для розширення виділення."
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
@@ -1422,15 +1649,15 @@ msgstr "У теку призначення:"
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "Підсумок"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
-msgstr ""
+msgstr "Вибрані елементи оброблено:"
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "Експорт виконано"
 
 #. Translators: indicate that the file has been successfully imported
 #: src/cact/cact-assistant-import.c:764
@@ -1442,7 +1669,7 @@ msgstr "Import OK"
 #: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "Ід.: %s\t%s"
 
 #. Translators: indicate that the file was not imported
 #: src/cact/cact-assistant-import.c:778
@@ -1478,57 +1705,57 @@ msgstr "Про імпорт вибраних файлів:"
 
 #: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
-msgstr ""
+msgstr "При імпорті елемента, ідентифікатор якого вже існує:"
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
-msgstr ""
+msgstr "Вибрані файли оброблено:"
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
-msgstr ""
+msgstr "Імпорт виконано"
 
 #: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
-msgstr ""
+msgstr "Налаштуйте елементи, які будуть додані до контекстних меню Caja"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
-msgstr ""
+msgstr "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
-msgstr ""
+msgstr "Дію \"%s\" буде експортовано."
 
 #. Translators: The menu <label> is about to be exported
 #: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
-msgstr ""
+msgstr "Меню \"%s\" буде експортовано."
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr ""
+msgstr "Увага: мітка є обов'язковою для дії або меню."
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
-msgstr ""
+msgstr "Фільтр базового імені"
 
 #: src/cact/cact-icapabilities-tab.c:198
 msgid "Capability filter"
-msgstr ""
+msgstr "Фільтр можливостей"
 
 #: src/cact/cact-icommand-tab.c:567
 msgid "Choosing a command"
-msgstr ""
+msgstr "Вибір команди"
 
 #: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
-msgstr ""
+msgstr "Вибір робочої директорії"
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
@@ -1536,27 +1763,27 @@ msgstr "Вибір піктограм"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
-msgstr ""
+msgstr "_Тематичні піктограми"
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
-msgstr ""
+msgstr "Піктограми за _шляхом"
 
 #: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
-msgstr ""
+msgstr "(суворо менше ніж)"
 
 #: src/cact/cact-ienvironment-tab.c:72
 msgid "(equal to)"
-msgstr ""
+msgstr "(дорівнює)"
 
 #: src/cact/cact-ienvironment-tab.c:73
 msgid "(strictly greater than)"
-msgstr ""
+msgstr "(суворо більше ніж)"
 
 #: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
-msgstr ""
+msgstr "Вибір виконуваного файлу"
 
 #: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
@@ -1570,7 +1797,7 @@ msgstr "Вибрати теку"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
-msgstr ""
+msgstr "Фільтр типу MIME"
 
 #. Translators: label of the push button when there is not yet any shortcut
 #: src/cact/cact-iproperties-tab.c:53
@@ -1580,11 +1807,11 @@ msgstr "Немає"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "Ме_ню"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr ""
+msgstr "<b>Властивості меню, що редагуються</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1594,99 +1821,105 @@ msgstr "Д_ія"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr ""
+msgstr "<b>Властивості дії, що редагуються</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
-msgstr ""
+msgstr "Фільтр схеми"
 
 #: src/cact/cact-main-window.c:344
 msgid "Current NAObjectItem"
-msgstr ""
+msgstr "Поточний NAObjectItem"
 
 #: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
-msgstr ""
+msgstr "Вказівник на поточний редагований NAObjectItem, дію або меню"
 
 #: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
-msgstr ""
+msgstr "Поточний NAObjectProfile"
 
 #: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
-msgstr ""
+msgstr "Вказівник на поточний редагований NAObjectProfile"
 
 #: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
-msgstr ""
+msgstr "Поточний NAIContext"
 
 #: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
-msgstr ""
+msgstr "Вказівник на поточний редагований NAIContext"
 
 #: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
-msgstr ""
+msgstr "Елемент, що редагується?"
 
 #: src/cact/cact-main-window.c:366
 msgid "Whether the item will be able to be updated against its I/O provider"
 msgstr ""
+"Чи буде елемент здатен оновлюватися відповідно до його провайдера "
+"вводу/виводу"
 
 #: src/cact/cact-main-window.c:373
 msgid "No edition reason"
-msgstr ""
+msgstr "Причина неможливості редагування"
 
 #: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
-msgstr ""
+msgstr "Чому цей елемент не редагується"
 
 #: src/cact/cact-main-window.c:1267
 msgid ""
 "One or more actions have been modified in the filesystem.\n"
 "You could keep to work with your current list of actions, or you may want to reload a fresh one."
 msgstr ""
+"Один або кілька дій було змінено у файловій системі.\n"
+"Ви можете продовжити працювати з поточним списком дій, або ви можете перезавантажити новий."
 
 #: src/cact/cact-main-window.c:1274
 msgid ""
 "Note that reloading a fresh list of actions requires that you give up with "
 "your current modifications."
 msgstr ""
+"Зверніть увагу, що перезавантаження нового списку дій вимагає відмови від "
+"поточних змін."
 
 #: src/cact/cact-main-window.c:1280
 msgid "Do you want to reload a fresh list of actions ?"
-msgstr ""
+msgstr "Ви бажаєте перезавантажити новий список дій?"
 
 #: src/cact/cact-main-window.c:1303
 msgid ""
 "Reloading a fresh list of actions requires that you give up with your "
 "current modifications."
-msgstr ""
+msgstr "Перезавантаження нового списку дій вимагає відмови від поточних змін."
 
 #: src/cact/cact-main-window.c:1306
 msgid "Do you really want to do this ?"
-msgstr ""
+msgstr "Ви дійсно хочете це зробити?"
 
 #: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
-msgstr ""
+msgstr "Деякі елементи було змінено."
 
 #: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
-msgstr ""
+msgstr "Ви впевнені, що хочете вийти без збереження?"
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
-msgstr ""
+msgstr "Повинен відповідати одному з"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
-msgstr ""
+msgstr "Повинен відповідати всім з"
 
 #. Translators: label of the header of a column which let the user select a
 #. negative filter
 #: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
-msgstr ""
+msgstr "Не повинен відповідати жодному з"
 
 #: src/cact/cact-match-list.c:548
 #, c-format
@@ -1694,10 +1927,12 @@ msgid ""
 "'%s' filter already exists in the list.\n"
 "Please provide another one."
 msgstr ""
+"'%s' фільтр вже існує в списку.\n"
+"Будь ласка, введіть інший."
 
 #: src/cact/cact-match-list.c:926
 msgid "new-filter"
-msgstr ""
+msgstr "новий-фільтр"
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
@@ -1713,7 +1948,7 @@ msgstr "_Перегляд"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "_Панелі інструментів"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
@@ -1721,7 +1956,7 @@ msgstr "Зна_ряддя"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "_Супровід"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1729,31 +1964,31 @@ msgstr "_Допомога"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
-msgstr ""
+msgstr "_Вкладки блокнота"
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
-msgstr ""
+msgstr "Нове _меню"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. menu' item
 #: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
-msgstr ""
+msgstr "Вставити нове меню в поточну позицію"
 
 #: src/cact/cact-menubar.c:72
 msgid "_New action"
-msgstr ""
+msgstr "_Нова дія"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. action' item
 #: src/cact/cact-menubar.c:74
 msgid "Define a new action"
-msgstr ""
+msgstr "Визначити нову дію"
 
 #: src/cact/cact-menubar.c:76
 msgid "New _profile"
-msgstr ""
+msgstr "Новий _профіль"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. profile' item
@@ -1769,7 +2004,7 @@ msgstr "З_берегти"
 #: src/cact/cact-menubar.c:82
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
-msgstr ""
+msgstr "Записати всі змінені дії. Недійсні дії будуть мовчки проігноровані"
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
@@ -1788,7 +2023,7 @@ msgstr "_Вирізати"
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Вирізати вибрані елементи до буфера обміну"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1798,7 +2033,7 @@ msgstr "_Копіювати"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Копіювати вибрані елементи до буфера обміну"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
@@ -1808,17 +2043,19 @@ msgstr "Вст_авити"
 #. item
 #: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
-msgstr ""
+msgstr "Вставити вміст буфера обміну безпосередньо перед поточною позицією"
 
 #: src/cact/cact-menubar.c:100
 msgid "Paste _into"
-msgstr ""
+msgstr "Вставити _в"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. Into item
 #: src/cact/cact-menubar.c:102
 msgid "Insert the content of the clipboard as first child of the current item"
 msgstr ""
+"Вставити вміст буфера обміну як першого дочірнього елемента поточного "
+"елемента"
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
@@ -1828,7 +2065,7 @@ msgstr "Д_ублювати"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "Дублювати вибрані елементи"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
@@ -1838,11 +2075,11 @@ msgstr "В_илучити"
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "Видалити вибрані елементи"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr ""
+msgstr "_Перезавантажити елементи"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -1851,6 +2088,7 @@ msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
 msgstr ""
+"Скасувати поточні зміни та перезавантажити початковий список меню та дій"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1860,87 +2098,89 @@ msgstr "_Налаштування"
 #. 'Preferences' item
 #: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
-msgstr ""
+msgstr "Редагувати ваші налаштування"
 
 #: src/cact/cact-menubar.c:120
 msgid "_Expand all"
-msgstr ""
+msgstr "_Розгорнути всі"
 
 #. Translators: tooltip displayed in the status bar when selecting the Expand
 #. all item
 #: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
-msgstr ""
+msgstr "Повністю розгорнути ієрархію елементів"
 
 #: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
-msgstr ""
+msgstr "_Згорнути всі"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr ""
+msgstr "Повністю згорнути ієрархію елементів"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
-msgstr ""
+msgstr "_Помічник імпорту..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Import
 #. item
 #: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
 msgstr ""
+"Імпортувати одну або кілька дій із зовнішніх файлів у вашу конфігурацію"
 
 #: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
-msgstr ""
+msgstr "_Помічник експорту..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Export
 #. item
 #: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
 msgstr ""
+"Експортувати одну або кілька дій з вашої конфігурації у зовнішні файли"
 
 #: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
-msgstr ""
+msgstr "_Дамп виділення"
 
 #. Translators: tooltip displayed in the status bar when selecting the Dump
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr ""
+msgstr "Рекурсивно вивантажити вибрані елементи"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
-msgstr ""
+msgstr "_Короткий дамп сховища дерева"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. BriefTreeStoreDump item
 #: src/cact/cact-menubar.c:144
 msgid "Briefly dump the tree store"
-msgstr ""
+msgstr "Коротко вивантажити сховище дерева"
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr ""
+msgstr "_Перелічити змінені елементи"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
 #: src/cact/cact-menubar.c:148
 msgid "List the modified items"
-msgstr ""
+msgstr "Перелічити змінені елементи"
 
 #: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
-msgstr ""
+msgstr "_Дамп буфера обміну"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr ""
+msgstr "Вивантажити вміст об'єкта буфера обміну"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -1966,94 +2206,94 @@ msgstr "Показати інформацію про цю програму"
 #. File toolbar' item
 #: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
-msgstr ""
+msgstr "Показати панель інструментів Файл"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. Edit toolbar' item
 #: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
-msgstr ""
+msgstr "Показати панель інструментів Редагувати"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
 #: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
-msgstr ""
+msgstr "Показати панель інструментів Інструменти"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr ""
+msgstr "Показати панель інструментів Довідка"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
-msgstr ""
+msgstr "Зліва"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the left' item
 #: src/cact/cact-menubar.c:192
 msgid "Display the notebook tabs on the left side"
-msgstr ""
+msgstr "Відображати вкладки блокнота зліва"
 
 #: src/cact/cact-menubar.c:194
 msgid "On the _right"
-msgstr ""
+msgstr "Справа"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the right' item
 #: src/cact/cact-menubar.c:196
 msgid "Display the notebook tabs on the right side"
-msgstr ""
+msgstr "Відображати вкладки блокнота справа"
 
 #: src/cact/cact-menubar.c:198
 msgid "On the _top"
-msgstr ""
+msgstr "Зверху"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the top' item
 #: src/cact/cact-menubar.c:200
 msgid "Display the notebook tabs on the top side"
-msgstr ""
+msgstr "Відображати вкладки блокнота зверху"
 
 #: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
-msgstr ""
+msgstr "Знизу"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the bottom' item
 #: src/cact/cact-menubar.c:204
 msgid "Display the notebook tabs on the bottom side"
-msgstr ""
+msgstr "Відображати вкладки блокнота знизу"
 
 #: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
-msgstr ""
+msgstr " Завантажено %d меню, %d дії, %d профілі"
 
 #: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
-msgstr ""
+msgstr "Не всі елементи були вирізані, оскільки наступні неможливо змінити:"
 
 #: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
-msgstr ""
+msgstr "Не всі елементи були видалені, оскільки наступні неможливо змінити:"
 
 #: src/cact/cact-menubar-file.c:52
 msgid "Save error"
-msgstr ""
+msgstr "Помилка збереження"
 
 #: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
-msgstr ""
+msgstr "Деякі елементи, можливо, не були збережені"
 
 #: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
-msgstr ""
+msgstr "Не вдалося перезаписати список елементів нульового рівня"
 
 #: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
-msgstr ""
+msgstr "Деякі елементи не були видалені"
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
@@ -2061,69 +2301,79 @@ msgstr "Новий профіль"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
-msgstr ""
+msgstr "Автоматичне збереження очікуючих змін..."
 
 #: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
-msgstr ""
+msgstr "Налаштування Caja-Actions"
 
 #: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
-msgstr ""
+msgstr "_Висхідний алфавітний порядок"
 
 #: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Меню та дії будуть відображатися у висхідному алфавітному порядку їхніх "
+"міток як у контекстному меню Caja, так і в інтерфейсі користувача CACT."
 
 #: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
-msgstr ""
+msgstr "_Низхідний алфавітний порядок"
 
 #: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Меню та дії будуть відображатися у низхідному алфавітному порядку їхніх "
+"міток як у контекстному меню Caja, так і в інтерфейсі користувача CACT."
 
 #: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
-msgstr ""
+msgstr "_Ручний порядок"
 
 #: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
 msgstr ""
+"Порядок відображення меню та дій, як у контекстному меню Caja, так і в "
+"користувацькому інтерфейсі CACT, має бути налаштований вручну."
 
 #: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
-msgstr ""
+msgstr "<b>Порядок елементів</b>"
 
 #: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
-msgstr ""
+msgstr "_Створити кореневе меню 'Caja-Actions'"
 
 #: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
+"Якщо цю опцію вибрано, меню та дії відображатимуться як підпункти кореневого"
+" меню 'Caja-Actions' у контекстному меню Caja."
 
 #: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
-msgstr ""
+msgstr "Додати елемент '_Про Caja-Actions' у контекстні меню Caja"
 
 #: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
 msgstr ""
+"Якщо цю опцію вибрано, елемент 'Про Caja-Actions' буде додано до кореневого меню Caja-Actions у контекстному меню Caja.\n"
+"Зауважте, що цей елемент відображатиметься лише якщо в контекстному меню Caja визначено унікальне меню (наприклад, якщо вибрано опцію кореневого меню 'Caja-Actions' вище)."
 
 #: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
-msgstr ""
+msgstr "<b>Макет меню Caja</b>"
 
 #: src/cact/cact-preferences.ui:263
 msgid ""
@@ -2131,86 +2381,99 @@ msgid ""
 "as well as in the Caja context menu. You may also choose here how actions "
 "will be displayed in the Caja context menu."
 msgstr ""
+"Ця вкладка дозволяє вибрати порядок дій у відображеному списку, а також у "
+"контекстному меню Caja. Ви також можете вибрати тут, як дії "
+"відображатимуться в контекстому меню Caja."
 
 #: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
-msgstr ""
+msgstr "_Налаштування часу виконання"
 
 #: src/cact/cact-preferences.ui:298
 msgid ""
 "Specify here the command to run and keep opened a terminal.\n"
 "This command should include a 'COMMAND' keyword, which will be substituted at runtime with the action path and parameters."
 msgstr ""
+"Вкажіть тут команду для запуску та утримання відкритого терміналу.\n"
+"Ця команда повинна містити ключове слово 'COMMAND', яке під час виконання буде замінено шляхом дії та параметрами."
 
 #: src/cact/cact-preferences.ui:331
 msgid "_Command pattern :"
-msgstr ""
+msgstr "_Шаблон команди :"
 
 #: src/cact/cact-preferences.ui:359
 msgid "<b>Execution in a terminal</b>"
-msgstr ""
+msgstr "<b>Виконання в терміналі</b>"
 
 #: src/cact/cact-preferences.ui:399
 msgid "Running _desktop environment :"
-msgstr ""
+msgstr "Запущене _середовище робочого столу :"
 
 #: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
-msgstr ""
+msgstr "<i>Поточне виявлене :</i>"
 
 #: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
-msgstr ""
+msgstr "<b>Середовище робочого столу</b>"
 
 #: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
 msgstr ""
+"Ця вкладка дозволяє вказати параметри, необхідні для деяких режимів "
+"виконання."
 
 #: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
-msgstr ""
+msgstr "Виконання _під час роботи"
 
 #: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
-msgstr ""
+msgstr "Що робити при вставці або дублюванні елемента в дереві?"
 
 #: src/cact/cact-preferences.ui:534
 msgid "Relabel _menus"
-msgstr ""
+msgstr "Перейменувати _меню"
 
 #: src/cact/cact-preferences.ui:538
 msgid ""
 "When a menu is copied/pasted, or duplicated, the new menu will be relabelled"
 " as 'Copy of ...'."
 msgstr ""
+"Коли меню копіюється/вставляється або дублюється, нове меню буде "
+"перейменовано на 'Копія ...'."
 
 #: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
-msgstr ""
+msgstr "Перейменувати _дії"
 
 #: src/cact/cact-preferences.ui:555
 msgid ""
 "When an action is copied/pasted, or duplicated, the new action will be "
 "relabelled as 'Copy of ...'."
 msgstr ""
+"Коли дія копіюється/вставляється або дублюється, нова дія буде перейменована"
+" на 'Копія ...'."
 
 #: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
-msgstr ""
+msgstr "Перейменувати _профілі"
 
 #: src/cact/cact-preferences.ui:572
 msgid ""
 "When a profile is copied/pasted, or duplicated, the new profile will be "
 "relabelled as 'Copy of ...'."
 msgstr ""
+"Коли профіль копіюється/вставляється або дублюється, новий профіль буде "
+"перейменовано на 'Копія ...'."
 
 #: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
-msgstr ""
+msgstr "<b>Перейменування елементів</b>"
 
 #: src/cact/cact-preferences.ui:631
 msgid "Esc key _quits the assistant"
-msgstr ""
+msgstr "Клавіша Esc _завершує роботу помічника"
 
 #: src/cact/cact-preferences.ui:635
 msgid ""
@@ -2218,10 +2481,14 @@ msgid ""
 "assistant. Else, quitting the assistant is only possible by hitting the "
 "'Cancel' button."
 msgstr ""
+"Якщо цю опцію вибрано, клавіша 'Escape' дозволить вийти з поточного "
+"помічника. В іншому випадку, вихід з помічника можливий лише натисканням "
+"кнопки 'Скасувати'."
 
 #: src/cact/cact-preferences.ui:648
 msgid "Ask for a _confirmation when quitting the assistant on Esc key"
 msgstr ""
+"Запитувати _підтвердження при виході з помічника за допомогою клавіші Esc"
 
 #: src/cact/cact-preferences.ui:652
 msgid ""
@@ -2229,24 +2496,29 @@ msgid ""
 "assistant. When checked, the user will be prompted for a confirmation in "
 "order to help prevent erroneous hits of the Esc key."
 msgstr ""
+"Ця опція актуальна лише тоді, коли клавіша 'Escape' дозволяє користувачеві "
+"вийти з помічника. Якщо її вибрано, користувачеві буде запропоновано "
+"підтвердження, щоб запобігти помилковим натисканням клавіші Esc."
 
 #: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
-msgstr ""
+msgstr "<b>Помічники</b>"
 
 #: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
-msgstr ""
+msgstr "Автоматично _зберігає незавершені зміни"
 
 #: src/cact/cact-preferences.ui:711
 msgid ""
 "When this option is checked, pending modification will be periodically and "
 "automatically saved."
 msgstr ""
+"Якщо цю опцію вибрано, незавершені зміни будуть періодично та автоматично "
+"зберігатися."
 
 #: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
-msgstr ""
+msgstr "Періодичність :"
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
@@ -2254,51 +2526,56 @@ msgstr "хвилин"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
-msgstr ""
+msgstr "<b>Автозбереження</b>"
 
 #: src/cact/cact-preferences.ui:809
 msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
 msgstr ""
+"Ця вкладка дозволяє користувачеві вибрати власні налаштування для "
+"користувацького інтерфейсу інструмента налаштування Caja-Actions."
 
 #: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
-msgstr ""
+msgstr "_Налаштування інтерфейсу користувача"
 
 #: src/cact/cact-preferences.ui:847
 msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
 msgstr ""
+"Що робити, коли елемент, дія або меню, вибрані для імпорту, мають той самий "
+"ідентифікатор, що й існуючий?"
 
 #: src/cact/cact-preferences.ui:883
 msgid "<b>Import mode</b>"
-msgstr ""
+msgstr "<b>Режим імпорту</b>"
 
 #: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
-msgstr ""
+msgstr "Ця вкладка дозволяє визначити стандартну поведінку операцій імпорту."
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "_Імпорт"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
-msgstr ""
+msgstr "Який ваш бажаний формат експорту?"
 
 #: src/cact/cact-preferences.ui:977
 msgid "<b>Export format</b>"
-msgstr ""
+msgstr "<b>Формат експорту</b>"
 
 #: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
 msgstr ""
+"Ця вкладка дозволяє вам визначити поведінку типову для операцій експорту."
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "_Експорт"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2306,28 +2583,33 @@ msgid ""
 "If the list becomes empty, CACT will automatically refill in with this default list.\n"
 "You can add a new scheme by clicking on the '+' button."
 msgstr ""
+"Ви можете визначити тут будь-яку кількість схем. Вони будуть запропоновані як типові схеми при визначенні умов для дії.\n"
+"Якщо список стане порожнім, CACT автоматично заповнить його цим списком за замовчуванням.\n"
+"Ви можете додати нову схему, натиснувши кнопку '+'."
 
 #: src/cact/cact-preferences.ui:1070
 msgid "Click to add a new default scheme."
-msgstr ""
+msgstr "Натисніть, щоб додати типову нову схему."
 
 #: src/cact/cact-preferences.ui:1091
 msgid "Click to remove the selected default scheme."
-msgstr ""
+msgstr "Натисніть, щоб видалити вибрану схему типово."
 
 #: src/cact/cact-preferences.ui:1123
 msgid "<b>Default schemes</b>"
-msgstr ""
+msgstr "<b>Типові схеми</b>"
 
 #: src/cact/cact-preferences.ui:1143
 msgid ""
 "This tab lets you decide which schemes are proposed by default when editing "
 "advanced conditions for an item."
 msgstr ""
+"Ця вкладка дозволяє вам вирішити, які схеми пропонуються типово при "
+"редагуванні розширених умов для елемента."
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
-msgstr ""
+msgstr "_Схеми"
 
 #: src/cact/cact-preferences.ui:1186
 msgid ""
@@ -2335,6 +2617,9 @@ msgid ""
 "startup, to be writable, and the order in which they will be tested when "
 "trying to write a new menu or action."
 msgstr ""
+"Визначте тут для доступних провайдерів вводу/виводу, чи хочете ви, щоб вони "
+"читались при запуску, були доступними для запису, та порядок, в якому вони "
+"будуть перевірятись при спробі написати нове меню або дію."
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
@@ -2345,6 +2630,8 @@ msgid ""
 "Move up the selected I/O provider in the order of priority when trying to "
 "write a new item."
 msgstr ""
+"Перемістити вибраний провайдер вводу/виводу вгору в порядку пріоритету при "
+"спробі написати новий елемент."
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
@@ -2352,476 +2639,494 @@ msgstr "_Вниз"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
-msgstr ""
+msgstr "<b>Активація та пріоритет</b>"
 
 #: src/cact/cact-preferences.ui:1278
 msgid ""
 "This tab lets you decide whether the I/O providers are enabled or not, and "
 "in which order they will be tried when writing a new item."
 msgstr ""
+"Ця вкладка дозволяє вам вирішити, чи увімкнені провайдери вводу/виводу, і в "
+"якому порядку вони будуть перевірятись при написанні нового елемента."
 
 #: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
-msgstr ""
+msgstr "Провайдери _вводу/виводу"
 
 #. Translators: the user is not willing to identify his current desktop
 #. environment,
 #. *       and prefers rely on the runtime detection
 #: src/cact/cact-preferences-editor.c:118
 msgid "Rely on runtime detection"
-msgstr ""
+msgstr "Покладатися на виявлення під час виконання"
 
 #: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
-msgstr ""
+msgstr "Наприклад:"
 
 #: src/cact/cact-providers-list.c:136
 msgid "Readable"
-msgstr ""
+msgstr "Читабельний"
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "Доступний для запису"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
-msgstr ""
+msgstr "Провайдер вводу/виводу"
 
 #. Translators: default name when the I/O providers doesn't provide one
 #: src/cact/cact-providers-list.c:260
 msgid "no name"
-msgstr ""
+msgstr "без імені"
 
 #. Translators: name displayed when the corresponding I/O provider is
 #. unavailable at runtime
 #: src/cact/cact-providers-list.c:264
 msgid "unavailable I/O provider"
-msgstr ""
+msgstr "недоступний провайдер вводу/виводу"
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "Ключове слово"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
-msgstr ""
+msgstr "Локальні файли"
 
 #: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
-msgstr ""
+msgstr "Файли SSH"
 
 #: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
-msgstr ""
+msgstr "Файли Windows"
 
 #: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
-msgstr ""
+msgstr "Файли FTP"
 
 #: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
-msgstr ""
+msgstr "Файли WebDAV"
 
 #. Translators: add a comment when a scheme is already used by current item
 #: src/cact/cact-schemes-list.c:400
 #, c-format
 msgid "%s (already used)"
-msgstr ""
+msgstr "%s (вже використовується)"
 
 #: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
-msgstr ""
+msgstr "нова-схема"
 
 #: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
-msgstr ""
+msgstr "Опис нової схеми"
 
 #: src/cact/cact-tree-model.c:226
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
 msgstr ""
+"Вказівник (не посилання) на батьківське вікно BaseWindow вбудованого "
+"деревоподібного перегляду"
 
 #: src/cact/cact-tree-model.c:232
 msgid "Embedding GtkTreeView"
-msgstr ""
+msgstr "Вбудований GtkTreeView"
 
 #: src/cact/cact-tree-model.c:233
 msgid "The GtkTreeView which relies on this CactTreeModel"
-msgstr ""
+msgstr "GtkTreeView, який покладається на цю CactTreeModel"
 
 #: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
-msgstr ""
+msgstr "Режим редагування"
 
 #: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
-msgstr ""
+msgstr "Режим редагування проти режиму вибору"
 
 #: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
-msgstr ""
+msgstr "Неможливо перетягнути профіль сюди"
 
 #: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
-msgstr ""
+msgstr "Неможливо перетягнути дію чи меню сюди"
 
 #: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
 msgstr ""
+"Неможливо перетягнути сюди, оскільки батьківський елемент не є доступним для"
+" запису"
 
 #: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
 msgstr ""
+"Неможливо перетягнути сюди, оскільки нульовий рівень не є доступним для "
+"запису"
 
 #: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
-msgstr ""
+msgstr "Деякі повідомлення виникли під час операції перетягування."
 
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
-msgstr ""
+msgstr "Базове вікно"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:217
 msgid "The BaseWindow parent"
-msgstr ""
+msgstr "Батьківське вікно BaseWindow"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "Контейнер"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
-msgstr ""
+msgstr "GtkContainer, який містить віджет GtkTreeView"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
 msgid "Widget name"
-msgstr ""
+msgstr "Назва віджета"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
-msgstr ""
+msgstr "Назва віджета GtkTreeView"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:243
 msgid "Management mode"
-msgstr ""
+msgstr "Режим управління"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
-msgstr ""
+msgstr "Режим управління деревоподібним переглядом, вибір або редагування"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:255
 msgid "Allow notify"
-msgstr ""
+msgstr "Дозволити сповіщення"
 
 #. Translators: CactTreeView property loong description
 #: src/cact/cact-tree-view.c:257
 msgid "Whether notifications are allowed"
-msgstr ""
+msgstr "Чи дозволені сповіщення"
 
 #: src/cact/caja-actions-config-tool.ui:16
 msgid "End of session"
-msgstr ""
+msgstr "Кінець сесії"
 
 #: src/cact/caja-actions-config-tool.ui:122
 msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
-msgstr ""
+msgstr "<span size=\"larger\"><b>Легенда параметрів</b></span>"
 
 #: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
-msgstr ""
+msgstr "<b>%b</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
-msgstr ""
+msgstr "(перше) базове ім'я."
 
 #: src/cact/caja-actions-config-tool.ui:184
 msgid "count of selected item(s)."
-msgstr ""
+msgstr "кількість вибраних елементів."
 
 #: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
-msgstr ""
+msgstr "(перший) базовий каталог."
 
 #: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
-msgstr ""
+msgstr "список базових каталогів вибраних файлів/папок, розділених пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:220
 msgid "port number of the (first) selected URI."
-msgstr ""
+msgstr "номер порту (першого) вибраного URI."
 
 #: src/cact/caja-actions-config-tool.ui:232
 msgid "scheme of the (first) selected URI."
-msgstr ""
+msgstr "схема (першого) вибраного URI."
 
 #: src/cact/caja-actions-config-tool.ui:244
 msgid "(first) URI."
-msgstr ""
+msgstr "(перший) URI."
 
 #: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "список URI вибраних файлів/папок, розділених пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
-msgstr ""
+msgstr "знак відсотка."
 
 #: src/cact/caja-actions-config-tool.ui:280
 msgid "(first) filename."
-msgstr ""
+msgstr "(перший) назва файлу."
 
 #: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "список назв файлів вибраних файлів/папок, розділений пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
-msgstr ""
+msgstr "ім'я хоста (першого) вибраного URI."
 
 #: src/cact/caja-actions-config-tool.ui:316
 msgid "username of the (first) selected URI."
-msgstr ""
+msgstr "ім'я користувача (першого) вибраного URI."
 
 #: src/cact/caja-actions-config-tool.ui:328
 msgid "(first) basename without the extension."
-msgstr ""
+msgstr "(перша) базова назва без розширення."
 
 #: src/cact/caja-actions-config-tool.ui:340
 msgid "space-separated list of the basenames without the extension."
-msgstr ""
+msgstr "список базових назв без розширення, розділений пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:352
 msgid "(first) extension."
-msgstr ""
+msgstr "(перше) розширення."
 
 #: src/cact/caja-actions-config-tool.ui:364
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "список розширень вибраних файлів/папок, розділений пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
-msgstr ""
+msgstr "(перший) тип MIME."
 
 #: src/cact/caja-actions-config-tool.ui:388
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "список типів MIME вибраних файлів/папок, розділений пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
-msgstr ""
+msgstr "оператор без дії, який примушує до виконання в однині."
 
 #: src/cact/caja-actions-config-tool.ui:412
 msgid "no-op operator which forces a plural form of execution."
-msgstr ""
+msgstr "оператор без дії, який примушує до виконання в множині."
 
 #: src/cact/caja-actions-config-tool.ui:423
 msgid "<b>%B</b> :"
-msgstr ""
+msgstr "<b>%B</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:436
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "список базових назв вибраних файлів/папок, розділений пробілами."
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
 msgid "<b>%o</b> :"
-msgstr ""
+msgstr "<b>%o</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
-msgstr ""
+msgstr "<b>%O</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:579
 #, c-format
 msgid "<b>%p</b> :"
-msgstr ""
+msgstr "<b>%p</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:591
 #, c-format
 msgid "<b>%s</b> :"
-msgstr ""
+msgstr "<b>%s</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:603
 #, c-format
 msgid "<b>%u</b> :"
-msgstr ""
+msgstr "<b>%u</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
-msgstr ""
+msgstr "<b>%U</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
-msgstr ""
+msgstr "<b>%w</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
-msgstr ""
+msgstr "<b>%W</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:651
 #, c-format
 msgid "<b>%x</b> :"
-msgstr ""
+msgstr "<b>%x</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:663
 #, c-format
 msgid "<b>%X</b> :"
-msgstr ""
+msgstr "<b>%X</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:675
 #, c-format
 msgid "<b>%%</b> :"
-msgstr ""
+msgstr "<b>%%</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr ""
+msgstr "Перелік елементів :"
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
-msgstr ""
+msgstr "Сортувати список у порядку спадання за алфавітом."
 
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
-msgstr ""
+msgstr "Не сортувати список, дозволяючи вручну змінювати порядок елементів."
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
-msgstr ""
+msgstr "Сортувати список у порядку зростання за алфавітом."
 
 #: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
-msgstr ""
+msgstr "Показати елемент у контекстному меню _вибору"
 
 #: src/cact/caja-actions-config-tool.ui:923
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager"
 " context menu, with a non-empty selection."
 msgstr ""
+"Якщо відмічено, елемент буде кандидатом для відображення у контекстному меню"
+" файлового менеджера, з непорожнім вибором."
 
 #: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
-msgstr ""
+msgstr "Назва елемента в контекстних меню файлового менеджера."
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
-msgstr ""
+msgstr "Показати елемент у контекстному меню _розташування"
 
 #: src/cact/caja-actions-config-tool.ui:954
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager context menu when the selection is empty.\n"
 "In this case, the defined conditions will be applied to the current displayed folder."
 msgstr ""
+"Якщо відмічено, елемент буде кандидатом для відображення у контекстному меню файлового менеджера, коли вибір порожній.\n"
+"У цьому випадку, визначені умови будуть застосовані до поточної відображеної папки."
 
 #: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
-msgstr ""
+msgstr "_Назва контексту :"
 
 #: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
-msgstr ""
+msgstr "Показати елемент на _панелі інструментів"
 
 #: src/cact/caja-actions-config-tool.ui:985
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager toolbar.\n"
 "In this case, the defined conditions will be applied to the current folder, and do not depend of the possible current selection."
 msgstr ""
+"Якщо відмічено, елемент буде кандидатом для відображення на панелі інструментів файлового менеджера.\n"
+"У цьому випадку, визначені умови будуть застосовані до поточної папки і не залежать від можливого поточного вибору."
 
 #: src/cact/caja-actions-config-tool.ui:998
 msgid "Use s_ame label for icon in the toolbar"
-msgstr ""
+msgstr "Використовувати _ту саму назву для значка на панелі інструментів"
 
 #: src/cact/caja-actions-config-tool.ui:1002
 msgid ""
 "When checked, the label displayed in the toolbar will be the same that the "
 "one displayed in the context menus."
 msgstr ""
+"Якщо відмічено, назва, що відображається на панелі інструментів, буде такою "
+"ж, як та, що відображається в контекстних меню."
 
 #: src/cact/caja-actions-config-tool.ui:1017
 msgid "T_oolbar label :"
-msgstr ""
+msgstr "Назва _панелі інструментів :"
 
 #: src/cact/caja-actions-config-tool.ui:1029
 msgid "The label displayed in the file manager toolbar."
-msgstr ""
+msgstr "Назва, що відображається на панелі інструментів файлового менеджера."
 
 #: src/cact/caja-actions-config-tool.ui:1045
 msgid "Toolti_p :"
-msgstr ""
+msgstr "Підка_зка :"
 
 #: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
-msgstr ""
+msgstr "_Значок :"
 
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
 msgstr ""
+"Підказка, що відображається в інтерфейсі користувача файлового менеджера."
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
 msgstr ""
+"Значок, що відображається в інтерфейсі користувача файлового менеджера."
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
-msgstr ""
+msgstr "Назва тематичного значка або ім'я файлу зображення."
 
 #: src/cact/caja-actions-config-tool.ui:1129
 #: src/cact/caja-actions-config-tool.ui:1441
@@ -2831,47 +3136,51 @@ msgstr "О_гляд..."
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
-msgstr ""
+msgstr "<b>Елемент Caja</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1196
 msgid ""
 "This tab lets you determine the main characteristics of the currently "
 "selected item."
 msgstr ""
+"Ця вкладка дозволяє визначити основні характеристики поточного вибраного "
+"елемента."
 
 #: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
-msgstr ""
+msgstr "Просто мітка, щоб нагадати вам, чому ви створили цей профіль."
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
-msgstr ""
+msgstr "_Назва :"
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>Профіль</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
 "The path of the command.\n"
 "If this is not an absolute path, then the PATH environment variable at execution time will be considered."
 msgstr ""
+"Шлях до команди.\n"
+"Якщо це не абсолютний шлях, то під час виконання буде враховано змінну середовища PATH."
 
 #: src/cact/caja-actions-config-tool.ui:1331
 msgid "The parameters of the command."
-msgstr ""
+msgstr "Параметри команди."
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "Легенда"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
-msgstr ""
+msgstr "Типова робоча директорія, в якій повинна бути запущена команда."
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "О_гляд..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
@@ -2879,15 +3188,15 @@ msgstr "Приклад"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
-msgstr ""
+msgstr "_Шлях :"
 
 #: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
-msgstr ""
+msgstr "Па_раметри :"
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr ""
+msgstr "_Робоча директорія :"
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -2898,42 +3207,46 @@ msgid ""
 "This tab lets you choose the command to be executed, along with its parameters.\n"
 "Defining several profiles lets you have several commands, each applying with a different set of conditions."
 msgstr ""
+"Ця вкладка дозволяє вибрати команду для виконання, а також її параметри.\n"
+"Визначення кількох профілів дозволяє мати кілька команд, кожна з яких застосовується з різним набором умов."
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "К_оманда"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "З_вичайний"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
-msgstr ""
+msgstr "Команда буде запущена як стандартний графічний інтерфейс користувача."
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
-msgstr ""
+msgstr "У _терміналі"
 
 #: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
 "The command will be started in the preferred terminal of the graphical "
 "environment."
-msgstr ""
+msgstr "Команда буде запущена у бажаному терміналі графічного середовища."
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "_Вбудований"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"Ця опція використовує спеціальну функцію файлового менеджера, яка дозволяє запускати термінал всередині нього.\n"
+"Припустимим резервним варіантом є запуск у стандартному терміналі."
 
 #: src/cact/caja-actions-config-tool.ui:1616
 msgid "_Display output"
-msgstr ""
+msgstr "_Вивести результат"
 
 #: src/cact/caja-actions-config-tool.ui:1620
 msgid ""
@@ -2941,18 +3254,21 @@ msgid ""
 "The terminal will be closed at the end of the execution; standard error and output streams will be displayed.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"Команда буде запущена в терміналі.\n"
+"Термінал буде закрито після завершення виконання; будуть відображені стандартні потоки помилок і виводу.\n"
+"Припустимим резервним варіантом є запуск у стандартному терміналі."
 
 #: src/cact/caja-actions-config-tool.ui:1662
 msgid "<b>Execution mode</b>"
-msgstr ""
+msgstr "<b>Режим виконання</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1677
 msgid "Note: this is not yet implemented in Caja-Actions.\n"
-msgstr ""
+msgstr "Примітка: це ще не реалізовано в Caja-Actions.\n"
 
 #: src/cact/caja-actions-config-tool.ui:1699
 msgid "_Startup notify"
-msgstr ""
+msgstr "_Сповіщення про запуск"
 
 #: src/cact/caja-actions-config-tool.ui:1703
 msgid ""
@@ -2960,6 +3276,9 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"Якщо встановлено, відомо, що запущена команда надішле повідомлення \"видалити\" до середовища робочого столу.\n"
+"Дивіться специфікацію протоколу Startup Notification для отримання додаткової інформації.\n"
+"Актуально лише тоді, коли обраний режим виконання – Звичайний."
 
 #: src/cact/caja-actions-config-tool.ui:1718
 msgid ""
@@ -2967,22 +3286,25 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"Якщо вказано, це має бути ім'я WM-класу принаймні одного вікна запущеної команди.\n"
+"Дивіться специфікацію протоколу Startup Notification для отримання додаткової інформації.\n"
+"Актуально лише тоді, коли обраний режим виконання – Звичайний."
 
 #: src/cact/caja-actions-config-tool.ui:1735
 msgid "Startup Window Manager _class :"
-msgstr ""
+msgstr "_Клас менеджера вікон при запуску :"
 
 #: src/cact/caja-actions-config-tool.ui:1756
 msgid "<b>Startup mode</b>"
-msgstr ""
+msgstr "<b>Режим запуску</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1771
 msgid "Note: this is not yet implemented in Caja-Actions."
-msgstr ""
+msgstr "Примітка: це ще не реалізовано в Caja-Actions."
 
 #: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
-msgstr ""
+msgstr "Виконати як _користувач :"
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
@@ -2990,20 +3312,25 @@ msgid ""
 "The user may be defined by his numeric UID or his login name.\n"
 "Leave the field empty to run the command as the current user."
 msgstr ""
+"Введіть тут користувача, від імені якого повинна бути запущена команда.\n"
+"Користувач може бути визначений за його числовим UID або логіном.\n"
+"Залиште поле порожнім, щоб запустити команду як поточний користувач."
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>Виконати як користувач</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
 "This advanced tab lets you precisely define how your command will be "
 "executed."
 msgstr ""
+"Ця розширена вкладка дозволяє точно визначити, як буде виконуватися ваша "
+"команда."
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "_Виконання"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -3011,6 +3338,10 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"Поточний елемент з'явиться, якщо базова назва кожного елемента виділення "
+"відповідає одному фільтру зі стовпця 'Повинно відповідати одному з', при "
+"цьому не відповідаючи жодному з фільтрів зі стовпця 'Не повинно відповідати "
+"жодному з'."
 
 #: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
@@ -3018,36 +3349,43 @@ msgid ""
 "Basenames may use '*' and '?' wildcards.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"Цей список дозволяє визначити, для яких базових назв поточний вибраний елемент буде відображатися в контекстному меню Caja.\n"
+"Базові назви можуть використовувати символи підстановки '*' та '?'.\n"
+"Базові назви можуть бути заперечені, щоб вказати, для яких базових назв ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:1945
 msgid "Click to add a new basename filter."
-msgstr ""
+msgstr "Натисніть, щоб додати новий фільтр базових назв."
 
 #: src/cact/caja-actions-config-tool.ui:1965
 msgid "Click to remove the current basename filter."
-msgstr ""
+msgstr "Натисніть, щоб видалити поточний фільтр базових назв."
 
 #: src/cact/caja-actions-config-tool.ui:1996
 msgid "Match _case"
-msgstr ""
+msgstr "З урахуванням _регістру"
 
 #: src/cact/caja-actions-config-tool.ui:2000
 msgid "Click to define the above basename filters as case sensitive."
 msgstr ""
+"Натисніть, щоб визначити, що вищезазначені фільтри базових назв чутливі до "
+"регістру."
 
 #: src/cact/caja-actions-config-tool.ui:2022
 msgid "<b>Basenames conditions</b>"
-msgstr ""
+msgstr "<b>Умови базових назв</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2042
 msgid ""
 "This tab lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"Ця вкладка дозволяє визначити, для яких базових імен поточний вибраний елемент буде відображатися в контекстному меню Caja.\n"
+"Базові імена можуть бути заперечені, щоб вказати, для яких базових імен ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "_Базові імена"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3055,6 +3393,9 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"Поточний елемент з'явиться, якщо тип MIME кожного елемента виділення "
+"відповідає одному фільтру зі стовпця «Має відповідати одному з», і при цьому"
+" не відповідає жодному з фільтрів зі стовпця «Не має відповідати жодному з»."
 
 #: src/cact/caja-actions-config-tool.ui:2103
 msgid ""
@@ -3062,18 +3403,21 @@ msgid ""
 "Mimetypes may be specified as '*', '*/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"Цей список дозволяє визначити, для яких типів MIME поточний вибраний елемент буде відображатися в контекстному меню Caja.\n"
+"Типи MIME можуть бути вказані як '*', '*/*', 'group/*' або 'group/subgroup'.\n"
+"Типи MIME можуть бути заперечені, щоб вказати, для яких типів об'єктів ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2134
 msgid "Click to add a new mimetype filter."
-msgstr ""
+msgstr "Натисніть, щоб додати новий фільтр типів MIME."
 
 #: src/cact/caja-actions-config-tool.ui:2154
 msgid "Click to remove the current mimetype filter."
-msgstr ""
+msgstr "Натисніть, щоб видалити поточний фільтр типів MIME."
 
 #: src/cact/caja-actions-config-tool.ui:2193
 msgid "<b>Mimetypes conditions</b>"
-msgstr ""
+msgstr "<b>Умови типів MIME</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2213
 msgid ""
@@ -3081,10 +3425,13 @@ msgid ""
 "Mimetypes may be specified as '*', '/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"Ця вкладка дозволяє визначити, для яких типів MIME поточний вибраний елемент буде відображатися в контекстному меню Caja.\n"
+"Типи MIME можуть бути вказані як '*', '/*', 'group/*' або 'group/subgroup'.\n"
+"Типи MIME можуть бути заперечені, щоб вказати, для яких типів об'єктів ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "_Типи MIME"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3093,6 +3440,10 @@ msgid ""
 "column, while not being one or inside one of the 'Must not match any of' "
 "column."
 msgstr ""
+"Поточний елемент з'явиться, якщо розташування кожного елемента виділення є "
+"одним з шляхів або знаходиться всередині одного з шляхів стовпця «Має "
+"відповідати одному з», і при цьому не є одним з шляхів або не знаходиться "
+"всередині одного з шляхів стовпця «Не має відповідати жодному з»."
 
 #: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
@@ -3100,28 +3451,34 @@ msgid ""
 "Folders may use '*' or '?' wildcards.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Цей список дозволяє визначити, де (у яких теках) повинні знаходитися поточні вибрані файли, щоб елемент відображався в контекстному меню Caja.\n"
+"У назвах тек можуть використовуватися символи-замінники '*' або '?'.\n"
+"Фільтри тек можуть бути заперечені, щоб вказати, для яких тек ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
-msgstr ""
+msgstr "Натисніть, щоб додати новий фільтр папок."
 
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
 msgstr ""
+"Натисніть, щоб переглянути файлову систему для вибору нового фільтра папок."
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
-msgstr ""
+msgstr "Натисніть, щоб видалити поточний фільтр папок."
 
 #: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
-msgstr ""
+msgstr "<b>Умови папок</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Ця вкладка дозволяє визначити, де (у яких теках) повинні знаходитися поточні вибрані файли, щоб елемент відображався в контекстному меню Caja.\n"
+"Фільтри тек можуть бути заперечені, щоб вказати, для яких тек ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
@@ -3133,38 +3490,45 @@ msgid ""
 "matches one of the 'Must match one of' column, while not matching any of the"
 " 'Must not match any of' column."
 msgstr ""
+"Поточний елемент з'явиться, якщо схема кожного елемента виділення відповідає"
+" одному зі стовпця «Має відповідати одному з», і при цьому не відповідає "
+"жодному зі стовпця «Не має відповідати жодному з»."
 
 #: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
 "This list lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Цей список дозволяє визначити, яким схемам повинні відповідати поточні вибрані файли, щоб елемент відображався в контекстному меню Caja.\n"
+"Фільтри можуть бути заперечені, щоб вказати, для яких схем ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
-msgstr ""
+msgstr "Натисніть, щоб додати новий фільтр схем."
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "_Типово..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
-msgstr ""
+msgstr "Натисніть, щоб вибрати новий фільтр схем серед типових схем."
 
 #: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
-msgstr ""
+msgstr "Натисніть, щоб видалити поточний фільтр схем."
 
 #: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
-msgstr ""
+msgstr "<b>Умови схем</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
 "This tab lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Ця вкладка дозволяє визначити, яким схемам повинні відповідати поточні вибрані файли, щоб елемент відображався в контекстному меню Caja.\n"
+"Фільтри можуть бути заперечені, щоб вказати, для яких схем ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2659
 msgid ""
@@ -3172,76 +3536,89 @@ msgid ""
 "capabilities of the 'Must match all of' column, while not matching any "
 "capability of the 'Must not match any of' column."
 msgstr ""
+"Поточний елемент з'явиться, якщо кожен елемент виділення відповідає всім "
+"можливостям зі стовпця «Має відповідати всім з», і при цьому не відповідає "
+"жодній можливості зі стовпця «Не має відповідати жодній з»."
 
 #: src/cact/caja-actions-config-tool.ui:2677
 msgid ""
 "This list lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Capabilities may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Цей список дозволяє визначити, яким можливостям мають відповідати поточні вибрані файли, щоб елемент відображався у контекстному меню Caja.\n"
+"Можливості можуть бути заперечені, щоб вказати, для яких можливостей ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
-msgstr ""
+msgstr "Натисніть, щоб додати новий фільтр можливостей."
 
 #: src/cact/caja-actions-config-tool.ui:2730
 msgid "Click to remove the current capability."
-msgstr ""
+msgstr "Натисніть, щоб видалити поточну можливість."
 
 #: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
-msgstr ""
+msgstr "<b>Умови можливостей</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
 "This tab lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Ця вкладка дозволяє визначити, яким можливостям мають відповідати поточні вибрані файли, щоб елемент відображався у контекстному меню Caja.\n"
+"Фільтри можуть бути заперечені, щоб вказати, для яких можливостей ваш елемент не повинен з'являтися."
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "Мо_жливості"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
 "This is an advanced condition based on the count of the current selection.\n"
 "If the current selection does not match this condition, then the item will not be displayed in the file manager context menus or toolbar."
 msgstr ""
+"Це розширена умова, заснована на кількості поточного вибору.\n"
+"Якщо поточний вибір не відповідає цій умові, то елемент не буде відображатися в контекстних меню файлового менеджера або на панелі інструментів."
 
 #: src/cact/caja-actions-config-tool.ui:2839
 msgid "_Count :"
-msgstr ""
+msgstr "_Кількість :"
 
 #: src/cact/caja-actions-config-tool.ui:2898
 msgid "<b>Appears if selection contains</b>"
-msgstr ""
+msgstr "<b>З'являється, якщо вибір містить</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2927
 msgid ""
 "This is an advanced condition based on the running desktop environment.\n"
 "First choose on the left if the item depends of a particular desktop environment, then select on the right the adequate desktop environment."
 msgstr ""
+"Це розширена умова, заснована на запущеному середовищі робочого столу.\n"
+"Спершу виберіть ліворуч, чи залежить елемент від конкретного середовища робочого столу, потім праворуч виберіть відповідне середовище робочого столу."
 
 #: src/cact/caja-actions-config-tool.ui:2939
 msgid "Item may appear depending of the desktop environment."
-msgstr ""
+msgstr "Елемент може з'являтися залежно від середовища робочого столу."
 
 #: src/cact/caja-actions-config-tool.ui:2959
 msgid "_Always appears"
-msgstr ""
+msgstr "_Завжди з'являється"
 
 #: src/cact/caja-actions-config-tool.ui:2976
 msgid "_Only appears in selected environments"
-msgstr ""
+msgstr "_З'являється лише у вибраних середовищах"
 
 #: src/cact/caja-actions-config-tool.ui:2993
 msgid "_Never appears in selected environments"
-msgstr ""
+msgstr "_Ніколи не з'являється у вибраних середовищах"
 
 #: src/cact/caja-actions-config-tool.ui:3094
 msgid ""
 "This is an advanced condition based on the presence of a particular service on the D-Bus system.\n"
 "This may be used for example for testing that a prerequisite service is currently available."
 msgstr ""
+"Це розширена умова, заснована на наявності певної служби в системі D-Bus.\n"
+"Це може бути використано, наприклад, для перевірки, чи доступна в даний момент необхідна служба."
 
 #: src/cact/caja-actions-config-tool.ui:3110
 msgid ""
@@ -3249,6 +3626,9 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
+"Це розширена умова, заснована на результаті виконання.\n"
+"Введіть тут команду, яка здатна вивести точний рядок \"true\" на свій стандартний вивід.\n"
+"Це може бути використано, наприклад, для тестування складної умови."
 
 #: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
@@ -3256,40 +3636,45 @@ msgid ""
 "Note that only the basename of the binary is checked, not its dirname nor its parameters.\n"
 "This may be used for example for testing the presence of a prerequisite daemon."
 msgstr ""
+"Це розширена умова, заснована на наявності запущеного бінарного файлу.\n"
+"Зверніть увагу, що перевіряється лише базове ім'я бінарного файлу, а не його шлях чи параметри.\n"
+"Це може бути використано, наприклад, для перевірки наявності необхідного демона."
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "О_гляд..."
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
-msgstr ""
+msgstr "З'являється, якщо файл є ви_конуваним :"
 
 #: src/cact/caja-actions-config-tool.ui:3171
 msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
 msgstr ""
+"Це розширена умова, заснована на наявності виконуваного файлу у файловій системі.\n"
+"Це може бути використано, наприклад, для перевірки наявності необхідного пакунка."
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
-msgstr ""
+msgstr "О_гляд..."
 
 #: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
-msgstr ""
+msgstr "З'являється, якщо ім'я _зареєстроване в D-Bus :"
 
 #: src/cact/caja-actions-config-tool.ui:3215
 msgid "Appears if the command outputs \"_true\" :"
-msgstr ""
+msgstr "З'являється, якщо команда виводить \"_true\" :"
 
 #: src/cact/caja-actions-config-tool.ui:3228
 msgid "Appears if the _binary is running :"
-msgstr ""
+msgstr "З'являється, якщо _бінарний файл запущено :"
 
 #: src/cact/caja-actions-config-tool.ui:3252
 msgid "<b>Execution environment</b>"
-msgstr ""
+msgstr "<b>Середовище виконання</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3274
 msgid ""
@@ -3297,68 +3682,81 @@ msgid ""
 "files must satisfy in order for the item to be displayed in the file manager"
 " context menu."
 msgstr ""
+"Ця вкладка дозволяє визначити деякі розширені умови, яким мають відповідати "
+"поточні вибрані файли, щоб елемент відображався у контекстному меню "
+"файлового менеджера."
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "_Середовище"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
-msgstr ""
+msgstr "_Опис :"
 
 #: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
 "Enter here a free text which may be used (e.g. in a Web service or in a "
 "search tool) to describe your item."
 msgstr ""
+"Введіть тут вільний текст, який може бути використаний (наприклад, у веб-"
+"службі або інструменті пошуку) для опису вашого елемента."
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "Уві_мкнено"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
 "Check the box to enable this item.\n"
 "If unchecked, then the item will never appear in the file manager context menus or toolbar."
 msgstr ""
+"Встановіть прапорець, щоб увімкнути цей елемент.\n"
+"Якщо прапорець знятий, то елемент ніколи не з'явиться в контекстних меню файлового менеджера або на панелі інструментів."
 
 #: src/cact/caja-actions-config-tool.ui:3379
 msgid ""
 "Enter here the keyboard touch combination you suggest as a shortcut to your action.\n"
 "Note: this is not yet implemented in Caja-Actions."
 msgstr ""
+"Введіть тут комбінацію клавіш, яку ви пропонуєте як швидкий доступ до вашої дії.\n"
+"Примітка: це ще не реалізовано в Caja-Actions."
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
-msgstr ""
+msgstr "Запропонований _ярлик :"
 
 #: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
-msgstr ""
+msgstr "Елемент лише для читання"
 
 #: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
 "This box is checked if the item cannot be edited.\n"
 "There may be multiple reasons for why an item cannot be edited. See your User's Manual."
 msgstr ""
+"Цей прапорець встановлений, якщо елемент не може бути відредагований.\n"
+"Причин, чому елемент не може бути відредагований, може бути кілька. Дивіться посібник користувача."
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "Ідентифікатор:"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
-msgstr ""
+msgstr "Провайдер вводу/виводу:"
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>Властивості тільки для читання</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
 "This tab lets you edit some miscellaneous properties, and access some non-"
 "modifiable information."
 msgstr ""
+"Ця вкладка дозволяє редагувати деякі інші властивості та отримувати доступ "
+"до незмінюваної інформації."
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
@@ -3367,7 +3765,7 @@ msgstr "В_ластивості"
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
 msgid "Caja-Actions actions"
-msgstr ""
+msgstr "Дії Caja-Actions"
 
 #. Translators: tooltip of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:935
@@ -3375,38 +3773,41 @@ msgid ""
 "A submenu which embeds the currently available Caja-Actions actions and "
 "menus"
 msgstr ""
+"Підменю, яке включає доступні на даний момент дії та меню Caja-Actions"
 
 #: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
-msgstr ""
+msgstr "Про Caja-Actions"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
-msgstr ""
+msgstr "Відобразити інформацію про Caja-Actions"
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
-msgstr ""
+msgstr "URI файлу для імпорту"
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
 #: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
-msgstr ""
+msgstr "Вивести номер версії"
 
 #: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "Імпортувати файл."
 
 #: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"Повідомлення про помилки вітаються на http://bugzilla.gnome.org, або ви "
+"можете надіслати листа на <maintainer@caja-actions.org>.\n"
 
 #: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
 #: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
@@ -3419,147 +3820,154 @@ msgstr "Інші параметри"
 #: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "Синтаксична помилка: %s\n"
 
 #: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
-msgstr ""
+msgstr "Помилка: URI є обов'язковим.\n"
 
 #: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
 #: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
 #: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
-msgstr ""
+msgstr "Для використання спробуйте %s --help.\n"
 
 #: src/utils/console-utils.c:55
 msgid ""
 "Bug reports are welcomed at https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
 "or you may prefer to mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"Повідомлення про помилки вітаються на https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
+"або ви можете надіслати листа на <maintainer@caja-actions.org>.\n"
 
 #: src/utils/na-print-schemas.c:56
 msgid "Output the schema on stdout"
-msgstr ""
+msgstr "Вивести схему на stdout"
 
 #: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
-msgstr ""
+msgstr "Вивести схеми дій [типово]"
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
-msgstr ""
+msgstr "Вивести схеми меню"
 
 #: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
-msgstr ""
+msgstr "Вивести схеми Caja-Actions MateConf на stdout."
 
 #: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
+"Починаючи з версії 3.1.0, MateConf як провайдер вводу/виводу застарів.\n"
+"Ця програма більше не підтримується."
 
 #: src/utils/na-print-schemas.c:159
 msgid "Type options"
-msgstr ""
+msgstr "Тип опцій"
 
 #: src/utils/na-set-conf.c:52
 msgid "Set a key=value pair in a key file."
-msgstr ""
+msgstr "Встановити пару ключ=значення у файлі ключів."
 
 #: src/utils/na-set-conf.c:63
 msgid "The group to be updated"
-msgstr ""
+msgstr "Група для оновлення"
 
 #: src/utils/na-set-conf.c:65
 msgid "The key to be updated"
-msgstr ""
+msgstr "Ключ для оновлення"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
 msgstr ""
+"Тип значення, яке потрібно встановити, може бути 'str', 'int' або 'bool'"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
-msgstr ""
+msgstr "Значення, яке потрібно встановити"
 
 #: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
-msgstr ""
+msgstr "Вивести номер версії та коректно завершити роботу"
 
 #: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
-msgstr ""
+msgstr "Помилка: група є обов'язковою.\n"
 
 #: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
-msgstr ""
+msgstr "Помилка: ключ є обов'язковим.\n"
 
 #: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
-msgstr ""
+msgstr "Помилка: тип є обов'язковим для встановлення/оновлення значення.\n"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
-msgstr ""
+msgstr "Помилка: невідомий тип: %s. Використовуйте 'str', 'int' або 'bool'.\n"
 
 #: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
-msgstr ""
+msgstr "Помилка: значення є обов'язковим.\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
-msgstr ""
+msgstr "Встановіть, якщо елемент має бути вимкнений під час створення"
 
 #: src/utils/caja-actions-new.c:136
 msgid "Set it if the item doesn't target the selection context menu"
 msgstr ""
+"Встановіть, якщо елемент не призначений для контекстного меню виділення"
 
 #: src/utils/caja-actions-new.c:138
 msgid "Set it if the item doesn't target the location context menu"
 msgstr ""
+"Встановіть, якщо елемент не призначений для контекстного меню розташування"
 
 #: src/utils/caja-actions-new.c:140
 msgid "Set it if the item doesn't target the toolbar"
-msgstr ""
+msgstr "Встановіть, якщо елемент не призначений для панелі інструментів"
 
 #: src/utils/caja-actions-new.c:142
 msgid "Set it if the basename patterns are case insensitive"
-msgstr ""
+msgstr "Встановіть, якщо шаблони базових імен не чутливі до регістру"
 
 #: src/utils/caja-actions-new.c:148
 msgid "Output the new item content on stdout (default)"
-msgstr ""
+msgstr "Вивести вміст нового елемента на stdout (типово)"
 
 #: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
-msgstr ""
+msgstr "Створити новий елемент як файл .desktop"
 
 #: src/utils/caja-actions-new.c:160
 #, c-format
 msgid "Error: '%s' and '%s' options cannot both be specified\n"
-msgstr ""
+msgstr "Помилка: опції '%s' і '%s' не можуть бути вказані одночасно\n"
 
 #: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
-msgstr ""
+msgstr "Опція '%s' застаріла, див. %s\n"
 
 #: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
-msgstr ""
+msgstr "Помилка: мітка дії є обов'язковою.\n"
 
 #: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
-msgstr ""
+msgstr "Помилка: можна вказати лише одну опцію виводу.\n"
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "Визначити нову дію."
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
@@ -3567,93 +3975,96 @@ msgid ""
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
+"Створена типова дія записується на stdout.\n"
+"Вона також може бути записана у вихідну теку, у файл, який пізніше підходить для імпорту в CACT.\n"
+"Або ви можете безпосередньо записати дію у вашу конфігурацію Caja-Actions."
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "Вивід програми"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
-msgstr ""
+msgstr "Виберіть, куди програма створює дію"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
 #: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
-msgstr ""
+msgstr "Помилка: не вдалося знайти провайдера вводу/виводу 'na-desktop'."
 
 #. Translators: caja-actions-print program summary
 #: src/utils/caja-actions-print.c:57
 msgid "Print a menu or an action to stdout."
-msgstr ""
+msgstr "Надрукувати меню або дію на stdout."
 
 #: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
-msgstr ""
+msgstr "Ідентифікатор меню або дії для друку"
 
 #. Translators: 'Desktop1' here is the internal identifier of an export
 #. format; it is not translatable
 #: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
-msgstr ""
+msgstr "Формат експорту [Desktop1]"
 
 #: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr ""
+msgstr "Помилка: ідентифікатор меню або дії є обов'язковим.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
 #: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
-msgstr ""
+msgstr "Помилка: %s: невідомий формат експорту.\n"
 
 #: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Помилка: елемент '%s' не існує.\n"
 
 #: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
-msgstr ""
+msgstr "Внутрішній ідентифікатор дії, яку потрібно запустити"
 
 #: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
-msgstr ""
+msgstr "Ціль, файл або тека для дії. Може бути вказано більше одного варіанта"
 
 #: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
-msgstr ""
+msgstr "Помилка: ідентифікатор дії є обов'язковим.\n"
 
 #: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
-msgstr ""
+msgstr "Немає поточного вибору. Нічого робити. Вихід.\n"
 
 #: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
-msgstr ""
+msgstr "Дія %s не є дійсним кандидатом. Вихід.\n"
 
 #: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
-msgstr ""
+msgstr "Жоден дійсний профіль не є кандидатом для виконання. Вихід.\n"
 
 #: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
-msgstr ""
+msgstr "Виконати дію на вказаній цілі."
 
 #: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Помилка: дія '%s' не існує.\n"
 
 #: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
-msgstr ""
+msgstr "Помилка: дія '%s' вимкнена.\n"
 
 #: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "Помилка: дія '%s' недійсна.\n"

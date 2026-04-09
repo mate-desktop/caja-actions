@@ -1,7 +1,6 @@
-# 
 # Translators:
 # clefebvre <clement.lefebvre@linuxmint.com>, 2021
-# Wolfgang Ulbrich <mate@raveit.de>, 2021
+# Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2021
 # Diogo Oliveira <diogodesigns@gmail.com>, 2021
 # Carlos Nova Duarte <cnova1998@gmail.com>, 2021

@@ -1,4 +1,3 @@
-# 
 # Translators:
 # Meongu Ng. <meongu@gmail.com>, 2021
 # Horazone Detex <thmmt2017d@gmail.com>, 2021

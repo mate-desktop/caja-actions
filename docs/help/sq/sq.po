@@ -1,4 +1,3 @@
-# 
 # Translators:
 # An Ostrich <illyric@live.se>, 2021
 # Alban <nofbname@gmail.com>, 2021
