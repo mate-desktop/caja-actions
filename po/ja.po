@@ -1242,6 +1242,7 @@ msgstr "デスクトップ I/O プロバイダが URI を扱えません"
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
 #, c-format
+#, fuzzy
 msgid "unknown type: %s"
 msgstr "不明な種類"
 
