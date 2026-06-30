@@ -1,9 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Aleksey Kabanov <ak099@mail.ru>, 2021
 # Victor Kukshiev <andrey0bolkonsky@gmail.com>, 2021
 # monsta <monsta@inbox.ru>, 2021
@@ -20,20 +17,27 @@
 # Леонид Дягилев, 2022
 # Alex Puts, 2022
 # Andrei Stepanov, 2025
-# 
+# "Sergey A." <Ser82-png@yandex.ru>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Andrei Stepanov, 2025\n"
-"Language-Team: Russian (https://app.transifex.com/mate/teams/13566/ru/)\n"
+"PO-Revision-Date: 2026-06-20 10:11+0000\n"
+"Last-Translator: \"Sergey A.\" <Ser82-png@yandex.ru>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-actions/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
@@ -127,7 +131,6 @@ msgstr ""
 "Александр Сигачёв <ajvol2@gmail.com>\n"
 "Александр Соколов\n"
 "Александр Хромин\n"
-"Алексей Родионов <alexey.rodionov@red-soft.ru>\n"
 "Алексей Рочев <equeim@gmail.com>\n"
 "Алексей Сорокин <sor.alexei@meowr.ru>\n"
 "Андрей Иванков\n"
@@ -141,6 +144,7 @@ msgstr ""
 "Влад Орлов <monsta@inbox.ru>\n"
 "Глеб Мехренин <mehrenin@gmail.com>\n"
 "Денис Арефьев <arefevdns@mail.ru>\n"
+"Дмитрий Астанков <mornie@basealt.ru>\n"
 "Дмитрий Мандрык <dmandryk@gmail.com>\n"
 "Дмитрий Мастрюков <dmitry@taurussoft.org>\n"
 "Дмитрий Михирев <mikhirev@gmail.com>\n"
@@ -154,7 +158,8 @@ msgstr ""
 "Сергей Панов <sipan@mit.edu>\n"
 "Сергей Яковлев\n"
 "Юрий Козлов <yuray@komyakino.ru>\n"
-"Evolve32 <evolve32@ya.ru>"
+"Evolve32 <evolve32@ya.ru>\n"
+"Артём Котлубай <artemkotlubai@yandex.ru>"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
@@ -367,7 +372,9 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
-"Определяет список допустимых схем для сопоставления с выбранными элементами. Схема — это протокол, используемый для доступа к файлам. Используемый ключ — это ключ, используемый файловым менеджером в URI.\n"
+"Определяет список допустимых схем для сопоставления с выбранными элементами. "
+"Схема — это протокол, используемый для доступа к файлам. Используемый ключ — "
+"это ключ, используемый файловым менеджером в URI.\n"
 "Примеры действительных ключей URI:\n"
 "- file:///tmp/foo.txt\n"
 "- sftp:///root@test.example.net/tmp/foo.txt\n"
@@ -375,10 +382,13 @@ msgstr ""
 "«file»: локальные файлы\n"
 "«sftp»: файлы, доступ к которым осуществляется через SSH\n"
 "«ftp»: файлы, доступ к которым осуществляется через FTP\n"
-"«smb»: файлы, доступ к которым осуществляется через  Samba (общий ресурс Windows)\n"
-"«dav»: файлы, доступ к которым осуществляется через  WebDAV.\n"
-"Здесь можно использовать все схемы, доступные вашему любимому файловому менеджеру.\n"
-"Очевидно, что это применимо только при наличии выбора или при нацеливании на специальную схему «x-caja-desktop».\n"
+"«smb»: файлы, доступ к которым осуществляется через Samba (общий ресурс "
+"Windows)\n"
+"«dav»: файлы, доступ к которым осуществляется через WebDAV.\n"
+"Здесь можно использовать все схемы, доступные вашему любимому файловому "
+"менеджеру.\n"
+"Очевидно, что это применимо только при наличии выбора или при нацеливании на "
+"специальную схему «x-caja-desktop».\n"
 "По умолчанию: «file»."
 
 #: src/core/na-icontext-factory.c:303
@@ -755,7 +765,7 @@ msgstr "Недоступный поставщик ввода-вывода."
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr "Реализация провайдера ввода / вывода не имеет необходимого  API."
+msgstr "Реализация провайдера ввода / вывода не имеет необходимого API."
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
@@ -887,8 +897,9 @@ msgid ""
 "Defaults to FALSE."
 msgstr ""
 "Является ли действие кандидатом для отображения на панели инструментов "
-"файлового менеджера. Это относится только к текущему местоположению. "
-"Обратите внимание, что меню никогда не отображаются на панели инструментов. "
+"файлового менеджера.\n"
+"Это относится только к текущему местоположению.\n"
+"Обратите внимание, что меню никогда не отображаются на панели инструментов.\n"
 "По умолчанию ЛОЖЬ."
 
 #: src/core/na-object-action-factory.c:150
@@ -1307,7 +1318,7 @@ msgstr ""
 
 #: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr "Провайдер ввода / вывода не может обработать URI "
+msgstr "Провайдер ввода / вывода не может обработать URI"
 
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
@@ -1777,7 +1788,8 @@ msgstr ""
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
-msgstr "caja;actions;configuration;tool;settings;MATE;filebrowser;"
+msgstr ""
+"caja;actions;configuration;tool;settings;MATE;filebrowser;конфигурация;настройки;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
@@ -3507,7 +3519,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr "Титы _MIME"
+msgstr "Типы _MIME"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3943,8 +3955,8 @@ msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
-"Начиная с версии 3.1.0 MateConf как провайдер ввода / вывода устарел. Эта "
-"программа больше не поддерживается."
+"Начиная с версии 3.1.0 MateConf как провайдер ввода / вывода устарел.\n"
+"Эта программа больше не поддерживается."
 
 #: src/utils/na-print-schemas.c:159
 msgid "Type options"
@@ -3965,7 +3977,7 @@ msgstr "Ключ, который нужно обновить"
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
-msgstr "Тип устанавливаемого значения может быть «str», «int» или «bool»."
+msgstr "Тип устанавливаемого значения может быть «str», «int» или «bool»"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"

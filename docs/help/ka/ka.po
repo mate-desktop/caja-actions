@@ -2,19 +2,20 @@
 # Martin Wimpress <code@flexion.org>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026\n"
-"Language-Team: Georgian (https://app.transifex.com/mate/teams/13566/ka/)\n"
+"PO-Revision-Date: 2026-06-24 20:17+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/caja-actions-help/ka/>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ka\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
@@ -639,7 +640,7 @@ msgstr ""
 #. (itstool) path: simpara/ulink
 #: C/appendix-gnu-fdl-1.3.xml:477
 msgid "Copyleft"
-msgstr ""
+msgstr "კოპილეფტი"
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:472
@@ -794,27 +795,27 @@ msgstr ""
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:5
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:8 C/articleinfo.xml:13
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:9 C/articleinfo.xml:14
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:10
@@ -834,7 +835,7 @@ msgstr ""
 #: C/cact-profiles.xml:52 C/cact-profiles.xml:57 C/cact-save.xml:10
 #: C/cact-starting.xml:498
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #. (itstool) path: para/productname
 #. (itstool) path: title/productname
@@ -851,7 +852,7 @@ msgstr ""
 #: C/cact-where.xml:62 C/cact-where.xml:67 C/cact-where.xml:68
 #: C/cact-where.xml:78 C/cact-where.xml:96
 msgid "Caja"
-msgstr "ნაუტილუსი"
+msgstr "Caja"
 
 #. (itstool) path: abstract/para
 #: C/articleinfo.xml:18
@@ -893,28 +894,28 @@ msgstr "პიერი"
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
 msgid "Wieser"
-msgstr ""
+msgstr "ვიზერი"
 
 #. (itstool) path: author/email
 #. (itstool) path: para/email
 #: C/articleinfo.xml:47 C/articleinfo.xml:96 C/articleinfo.xml:106
 msgid "pwieser@trychlos.org"
-msgstr ""
+msgstr "pwieser@trychlos.org"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:51
 msgid "Wolfgang"
-msgstr ""
+msgstr "ვოლფგანგ"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:52
 msgid "Ulbrich"
-msgstr ""
+msgstr "ულბრიხი"
 
 #. (itstool) path: author/email
 #: C/articleinfo.xml:53
 msgid "chat-to-me@raveit.de"
-msgstr ""
+msgstr "chat-to-me@raveit.de"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:91
@@ -985,7 +986,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-bugs.xml:17 C/cact-execution.xml:138
 msgid "Execution mode"
-msgstr ""
+msgstr "შესრულების რეჟიმი"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:18
@@ -1004,7 +1005,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "შეთავაზებული მალსახმობი"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1082,7 +1083,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:29 C/cact-starting.xml:296
 msgid "Basenames"
-msgstr ""
+msgstr "საბაზისო სახელები"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:27
@@ -1223,12 +1224,12 @@ msgstr ""
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:119 C/cact-conditions.xml:131
 msgid "/my/file"
-msgstr ""
+msgstr "/ჩემი/ფაილი"
 
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:121 C/cact-conditions.xml:133
 msgid "/My/File"
-msgstr ""
+msgstr "/ჩემი/ფაილი"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:116
@@ -1268,7 +1269,7 @@ msgstr ""
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -1311,7 +1312,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:170 C/cact-starting.xml:308
 msgid "Mimetypes"
-msgstr ""
+msgstr "Mime ტიპები"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:168
@@ -1361,7 +1362,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:233
 msgid "group/subgroup"
-msgstr ""
+msgstr "ჯგუფი/ქვეჯგუფი"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:230
@@ -1376,7 +1377,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:244 C/cact-conditions.xml:294
 msgid "*/*"
-msgstr ""
+msgstr "*/*"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:243
@@ -1389,12 +1390,12 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:252
 msgid "group/*"
-msgstr ""
+msgstr "ჯგუფი/*"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:254
 msgid "group"
-msgstr ""
+msgstr "ჯგუფი"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:250
@@ -1405,7 +1406,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:260
 msgid "*/subgroup"
-msgstr ""
+msgstr "*/ქვეჯგუფი"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:258
@@ -1440,7 +1441,7 @@ msgstr ""
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:304
 msgid "all/all"
-msgstr ""
+msgstr "ყველა/ყველა"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:307
@@ -1450,7 +1451,7 @@ msgstr ""
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:315
 msgid "all/allfiles"
-msgstr ""
+msgstr "ყველა/ყველაფაილი"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:318
@@ -1460,7 +1461,7 @@ msgstr ""
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:326
 msgid "inode/directory"
-msgstr ""
+msgstr "inode/საქაღალდე"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:329
@@ -1495,7 +1496,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:355 C/cact-starting.xml:320
 msgid "Folders"
-msgstr ""
+msgstr "საქაღალდეები"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:353
@@ -1551,7 +1552,7 @@ msgstr ""
 #: C/cact-conditions.xml:1058 C/cact-execution.xml:80 C/cact-starting.xml:542
 #: C/cact-starting.xml:605
 msgid "Browse"
-msgstr "ნუსხადასტებიდათვალიერებაგეზი"
+msgstr "მოძებნა"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:423
@@ -1573,7 +1574,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:455
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:451
@@ -1593,7 +1594,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-conditions.xml:467
 msgid "Scheme-base-conditions"
-msgstr ""
+msgstr "სქემაზე-დაფუძნებული-პირობები"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:468
@@ -1609,7 +1610,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:477 C/cact-starting.xml:332
 msgid "Schemes"
-msgstr ""
+msgstr "სქემები"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:475
@@ -1676,7 +1677,7 @@ msgstr "საერთო"
 #: C/cact-conditions.xml:543 C/cact-prefs.xml:3 C/cact-where.xml:44
 #: C/cact-where.xml:97
 msgid "Edit"
-msgstr "რედაქტირება"
+msgstr "ჩასწორება"
 
 #. (itstool) path: menuchoice/guimenuitem
 #. (itstool) path: para/guimenuitem
@@ -1684,7 +1685,7 @@ msgstr "რედაქტირება"
 #: C/cact-conditions.xml:543 C/cact-prefs.xml:3 C/cact-save.xml:12
 #: C/cact-starting.xml:10
 msgid "Preferences"
-msgstr "პარამეტრები"
+msgstr "მორგება"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:543
@@ -1713,7 +1714,7 @@ msgstr ""
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:563 C/cact-conditions.xml:702
 msgid "OK"
-msgstr ""
+msgstr "დიახ"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:561
@@ -1750,7 +1751,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:606
 msgid "Local"
-msgstr ""
+msgstr "ლოკალური"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:604
@@ -1763,7 +1764,7 @@ msgstr ""
 #. (itstool) path: title/abbrev
 #: C/cact-conditions.xml:611 C/cact-execution.xml:347 C/cact-execution.xml:520
 msgid "vs."
-msgstr ""
+msgstr "წინააღმდეგ."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:609
@@ -1776,7 +1777,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "შესაძლებლობები"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -1924,7 +1925,7 @@ msgstr ""
 #: C/cact-conditions.xml:1010 C/cact-conditions.xml:1049
 #: C/cact-starting.xml:356
 msgid "Environment"
-msgstr ""
+msgstr "გარემო"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:751 C/cact-conditions.xml:856
@@ -1990,7 +1991,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:807
 msgid "Count"
-msgstr ""
+msgstr "რაოდენობა"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:805
@@ -2002,7 +2003,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:811
 msgid "&lt;"
-msgstr ""
+msgstr "&lt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:811
@@ -2022,7 +2023,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:813
 msgid "&gt;"
-msgstr ""
+msgstr "&gt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:813
@@ -2248,7 +2249,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:1005 C/cact-conditions.xml:1019
 msgid "true"
-msgstr "true"
+msgstr "ჭეშმარიტი"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:1002
@@ -2317,7 +2318,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-edit.xml:2
 msgid "Editing"
-msgstr ""
+msgstr "მიმდინარეობს ჩასწორება"
 
 #. (itstool) path: sect2/para
 #: C/cact-edit.xml:3
@@ -2329,7 +2330,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-edit.xml:8
 msgid "Cut/Delete"
-msgstr ""
+msgstr "ამოჭრა/წაშლა"
 
 #. (itstool) path: sect3/para
 #: C/cact-edit.xml:9
@@ -2437,7 +2438,7 @@ msgstr ""
 #. (itstool) path: para/guibutton
 #: C/cact-execution.xml:26 C/cact-execution.xml:45
 msgid "Legend"
-msgstr ""
+msgstr "ლეგენდა"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:22
@@ -2471,7 +2472,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:54 C/cact-execution.xml:62 C/cact-execution.xml:104
 msgid "first"
-msgstr ""
+msgstr "პირველი"
 
 #. (itstool) path: note/para
 #: C/cact-execution.xml:52
@@ -2508,7 +2509,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
 msgid "Working directory"
-msgstr ""
+msgstr "სამუშაო საქაღალდე"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:74
@@ -2532,7 +2533,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:97 C/cact-execution.xml:102 C/cact-execution.xml:384
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:96
@@ -2566,7 +2567,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:120 C/cact-starting.xml:286
 msgid "Execution"
-msgstr ""
+msgstr "შესრულება"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:118
@@ -2606,7 +2607,7 @@ msgstr ""
 #: C/cact-execution.xml:158 C/cact-execution.xml:207 C/cact-execution.xml:229
 #: C/cact-execution.xml:242
 msgid "Normal"
-msgstr "ჩვეულებრივი"
+msgstr "ნორმალური"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:162
@@ -2629,7 +2630,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:179
 msgid "Embedded"
-msgstr "ჩაკერებული"
+msgstr "ჩაშენებული"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:183
@@ -2683,17 +2684,17 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-execution.xml:231
 msgid "remove"
-msgstr ""
+msgstr "წაშლა"
 
 #. (itstool) path: para/envar
 #: C/cact-execution.xml:232
 msgid "DESKTOP_STARTUP_ID"
-msgstr ""
+msgstr "DESKTOP_STARTUP_ID"
 
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
 msgid "Startup notify"
-msgstr ""
+msgstr "გაშვების შეტყობინება"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:228
@@ -2754,7 +2755,7 @@ msgstr ""
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
 msgid "UID"
-msgstr ""
+msgstr "UID"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:267
@@ -2800,13 +2801,13 @@ msgstr ""
 #. (itstool) path: para/abbrev
 #: C/cact-execution.xml:295 C/cact-execution.xml:301 C/cact-execution.xml:308
 msgid "e.g."
-msgstr ""
+msgstr "მაგ."
 
 #. (itstool) path: para/literal
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:295 C/cact-execution.xml:377
 msgid "%c"
-msgstr ""
+msgstr "%c"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:293
@@ -2821,7 +2822,7 @@ msgstr ""
 #: C/cact-execution.xml:302 C/cact-execution.xml:363 C/cact-execution.xml:541
 #: C/cact-execution.xml:575 C/cact-execution.xml:576 C/cact-execution.xml:596
 msgid "%b"
-msgstr ""
+msgstr "%b"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:300
@@ -2835,7 +2836,7 @@ msgstr ""
 #: C/cact-execution.xml:309 C/cact-execution.xml:370 C/cact-execution.xml:556
 #: C/cact-execution.xml:593 C/cact-execution.xml:594
 msgid "%B"
-msgstr ""
+msgstr "%B"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:307
@@ -2888,7 +2889,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:356
 msgid "Parameter"
-msgstr ""
+msgstr "პარამეტრი"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:357
@@ -2898,7 +2899,7 @@ msgstr "აღწერა"
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:358
 msgid "Repetition"
-msgstr ""
+msgstr "გამეორება"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:364
@@ -2911,7 +2912,7 @@ msgstr ""
 #: C/cact-execution.xml:421 C/cact-execution.xml:442 C/cact-execution.xml:470
 #: C/cact-execution.xml:484 C/cact-execution.xml:498 C/cact-execution.xml:541
 msgid "singular"
-msgstr ""
+msgstr "მხოლობითი"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:371
@@ -2924,7 +2925,7 @@ msgstr ""
 #: C/cact-execution.xml:430 C/cact-execution.xml:451 C/cact-execution.xml:479
 #: C/cact-execution.xml:493 C/cact-execution.xml:507 C/cact-execution.xml:556
 msgid "plural"
-msgstr ""
+msgstr "მრავლობითი"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:378
@@ -2935,7 +2936,7 @@ msgstr ""
 #: C/cact-execution.xml:380 C/cact-execution.xml:415 C/cact-execution.xml:436
 #: C/cact-execution.xml:457 C/cact-execution.xml:464 C/cact-execution.xml:513
 msgid "irrelevant"
-msgstr ""
+msgstr "შეუფერებელი"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:385
@@ -2945,7 +2946,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:391
 msgid "%D"
-msgstr ""
+msgstr "%D"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:392
@@ -2955,7 +2956,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:398
 msgid "%f"
-msgstr ""
+msgstr "%f"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:399
@@ -2965,7 +2966,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:405
 msgid "%F"
-msgstr ""
+msgstr "%F"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:406
@@ -2975,7 +2976,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:412
 msgid "%h"
-msgstr ""
+msgstr "%h"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:413
@@ -2985,7 +2986,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:419
 msgid "%m"
-msgstr ""
+msgstr "%m"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:420
@@ -2995,7 +2996,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:426
 msgid "%M"
-msgstr ""
+msgstr "%M"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:427
@@ -3005,7 +3006,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:433
 msgid "%n"
-msgstr ""
+msgstr "%n"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:434
@@ -3015,7 +3016,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:440
 msgid "%o"
-msgstr ""
+msgstr "%o"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:441
@@ -3025,7 +3026,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:447
 msgid "%O"
-msgstr ""
+msgstr "%O"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:448
@@ -3035,7 +3036,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:454
 msgid "%p"
-msgstr ""
+msgstr "%p"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:455
@@ -3055,7 +3056,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:468
 msgid "%u"
-msgstr ""
+msgstr "%u"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:469
@@ -3065,7 +3066,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:475
 msgid "%U"
-msgstr ""
+msgstr "%U"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:476
@@ -3075,7 +3076,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:482
 msgid "%w"
-msgstr ""
+msgstr "%w"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:483
@@ -3085,7 +3086,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:489
 msgid "%W"
-msgstr ""
+msgstr "%W"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:490
@@ -3095,7 +3096,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:496
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:497
@@ -3105,7 +3106,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
@@ -3115,7 +3116,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:510
 msgid "%%"
-msgstr ""
+msgstr "%%"
 
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:511
@@ -3135,22 +3136,22 @@ msgstr ""
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:522
 msgid "/data"
-msgstr ""
+msgstr "/data"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "pierre"
-msgstr ""
+msgstr "პიერ"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:524
 msgid "paul"
-msgstr ""
+msgstr "პოლ"
 
 #. (itstool) path: para/filename
 #: C/cact-execution.xml:525
 msgid "jacques"
-msgstr ""
+msgstr "ჟაკ"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:521
@@ -3247,7 +3248,7 @@ msgstr ""
 #. (itstool) path: para/emphasis
 #: C/cact-execution.xml:574 C/cact-execution.xml:592
 msgid "relevant"
-msgstr ""
+msgstr "შესაფერისი"
 
 #. (itstool) path: example/para
 #: C/cact-execution.xml:573
@@ -3331,7 +3332,7 @@ msgstr ""
 #. (itstool) path: para/abbrev
 #: C/cact-menus.xml:10 C/cact-where.xml:202
 msgid "i.e."
-msgstr ""
+msgstr "მაგ."
 
 #. (itstool) path: sect2/para
 #: C/cact-menus.xml:8
@@ -3674,12 +3675,12 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-save.xml:3 C/cact-starting.xml:105 C/cact-starting.xml:644
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #. (itstool) path: menuchoice/guisubmenu
 #: C/cact-save.xml:3 C/cact-starting.xml:644
 msgid "Save"
-msgstr "დაიმახსოვრე"
+msgstr "შენახვა"
 
 #. (itstool) path: sect2/para
 #: C/cact-save.xml:3
@@ -3768,12 +3769,12 @@ msgstr ""
 #. (itstool) path: para/abbrev
 #: C/cact-sorting.xml:52
 msgid "resp.)"
-msgstr ""
+msgstr "შესაბ.)"
 
 #. (itstool) path: para/abbrev
 #: C/cact-sorting.xml:52
 msgid "resp."
-msgstr ""
+msgstr "შესაბ."
 
 #. (itstool) path: listitem/para
 #: C/cact-sorting.xml:52
@@ -3840,7 +3841,7 @@ msgstr ""
 #. (itstool) path: menuchoice/guisubmenu
 #: C/cact-starting.xml:10
 msgid "Look and Feel"
-msgstr ""
+msgstr "გარეგნობა"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:10
@@ -3850,7 +3851,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:14
 msgid "Command line"
-msgstr "ბრძანების ველი:"
+msgstr "ბრძანების სტრიქონი"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:16
@@ -3861,12 +3862,12 @@ msgstr ""
 #. (itstool) path: command/filename
 #: C/cact-starting.xml:20 C/cact-starting.xml:32
 msgid "caja-actions-config-tool"
-msgstr ""
+msgstr "caja-actions-config-tool"
 
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "დაბრუნება"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para
@@ -3883,7 +3884,7 @@ msgstr ""
 #. (itstool) path: command/option
 #: C/cact-starting.xml:33
 msgid "--help-all"
-msgstr ""
+msgstr "--help-all"
 
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:46
@@ -3916,7 +3917,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:78
 msgid "Menubar."
-msgstr ""
+msgstr "მენიუს ზოლი."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:80
@@ -3933,7 +3934,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:92 C/cact-starting.xml:435
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:96
@@ -3948,7 +3949,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:118
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:122
@@ -3968,7 +3969,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:144
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:148
@@ -3978,7 +3979,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:157 C/cact-starting.xml:171
 msgid "V"
-msgstr "ვ"
+msgstr "V"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:161
@@ -4003,7 +4004,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
@@ -4013,7 +4014,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211
@@ -4023,7 +4024,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:220
 msgid "Toolbar."
-msgstr ""
+msgstr "ხელსაწყოთა პანელი."
 
 #. (itstool) path: menuchoice/guimenu
 #: C/cact-starting.xml:222
@@ -4033,7 +4034,7 @@ msgstr "ხედი"
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-starting.xml:222
 msgid "Toolbars"
-msgstr "პულტები"
+msgstr "ხელსაწყოთა პანელები"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:222
@@ -4096,7 +4097,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:264
 msgid "Action/Menu"
-msgstr ""
+msgstr "ქმედება/მენიუ"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:268
@@ -4160,7 +4161,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:368
 msgid "Properties"
-msgstr "პარამეტრები"
+msgstr "თვისებები"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:372
@@ -4170,7 +4171,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:381
 msgid "Statusbar."
-msgstr ""
+msgstr "სტატუსის ზოლი."
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:383
@@ -4214,7 +4215,7 @@ msgstr ""
 #. (itstool) path: phrase/productname
 #: C/cact-starting.xml:413 C/cact-starting.xml:417 C/cact-starting.xml:678
 msgid "MateDialog"
-msgstr ""
+msgstr "MateDialog"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:412
@@ -4239,7 +4240,7 @@ msgstr ""
 #. (itstool) path: para/userinput
 #: C/cact-starting.xml:427 C/cact-starting.xml:583
 msgid "matedialog"
-msgstr ""
+msgstr "matedialog"
 
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:434
@@ -4351,7 +4352,7 @@ msgstr ""
 #: C/cact-starting.xml:508 C/cact-starting.xml:512 C/cact-where.xml:118
 #: C/cact-where.xml:160
 msgid "Tooltip"
-msgstr ""
+msgstr "მინიშნება"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:510
@@ -4429,7 +4430,7 @@ msgstr ""
 #: C/cact-starting.xml:585 C/cact-starting.xml:589 C/cact-starting.xml:600
 #: C/cact-starting.xml:633
 msgid "Path"
-msgstr "გეზი"
+msgstr "ბილიკი"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:587
@@ -4457,7 +4458,7 @@ msgstr ""
 #. (itstool) path: para/envar
 #: C/cact-starting.xml:612
 msgid "PATH"
-msgstr "გეზი"
+msgstr "ბილიკი"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:610
@@ -4474,7 +4475,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-starting.xml:621 C/cact-starting.xml:626 C/cact-starting.xml:633
 msgid "Parameters"
-msgstr ""
+msgstr "პარამეტრები"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:624
@@ -4496,7 +4497,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-starting.xml:643
 msgid "Saving"
-msgstr ""
+msgstr "მიმდინარეობს შენახვა"
 
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:644
@@ -4566,7 +4567,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-where.xml:23
 msgid "Action"
-msgstr "მოქმედება"
+msgstr "ქმედება"
 
 #. (itstool) path: sect2/para
 #: C/cact-where.xml:21
@@ -4667,7 +4668,7 @@ msgstr ""
 #. (itstool) path: sect3/title
 #: C/cact-where.xml:90
 msgid "Notes"
-msgstr "ჩანაწერები"
+msgstr "შენიშვნები"
 
 #. (itstool) path: formalpara/title
 #: C/cact-where.xml:93
@@ -4783,12 +4784,12 @@ msgstr ""
 #. (itstool) path: article/indexterm
 #: C/index.docbook:60
 msgid "<primary><productname>Caja</productname></primary>"
-msgstr ""
+msgstr "<primary><productname>Caja</productname></primary>"
 
 #. (itstool) path: article/indexterm
 #: C/index.docbook:63
 msgid "<primary><productname>Caja-Actions</productname></primary>"
-msgstr ""
+msgstr "<primary><productname>Caja-Actions</productname></primary>"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:73
