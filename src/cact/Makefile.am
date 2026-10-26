@@ -200,7 +200,7 @@ ui_data_DATA = \
 	$(NULL)
 
 applicationsdir = $(datadir)/applications
-applications_in_files = cact.desktop.in
+applications_in_files = caja-actions-config-tool.desktop.in
 applications_DATA = $(applications_in_files:.desktop.in=.desktop)
 
 %.desktop: %.desktop.in

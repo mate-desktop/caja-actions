@@ -34,7 +34,6 @@ src/cact/cact-assistant-export.c
 src/cact/cact-assistant-export.ui
 src/cact/cact-assistant-import.c
 src/cact/cact-assistant-import.ui
-src/cact/cact.desktop.in
 src/cact/cact-export-ask.c
 src/cact/cact-iaction-tab.c
 src/cact/cact-ibasenames-tab.c
@@ -58,6 +57,7 @@ src/cact/cact-schemes-list.c
 src/cact/cact-tree-model.c
 src/cact/cact-tree-model-dnd.c
 src/cact/cact-tree-view.c
+src/cact/caja-actions-config-tool.desktop.in
 src/cact/caja-actions-config-tool.ui
 src/plugin-menu/caja-actions.c
 src/test/test-reader.c
