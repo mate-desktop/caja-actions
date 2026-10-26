@@ -1294,14 +1294,17 @@ base_window_signal_disconnect( BaseWindow *window, gulong handler_id )
 
 	if( !window->private->dispose_has_run ){
 
-		for( it = window->private->signals ; it ; it = it->next ){
+		for( it = window->private->signals ; it ; ){
 			RecordedSignal *str = ( RecordedSignal * ) it->data;
+			GList *next = it->next;
 
 			if( str->handler_id == handler_id ){
 				g_signal_handler_disconnect( str->instance, str->handler_id );
 				window->private->signals = g_list_delete_link( window->private->signals, it );
 				g_free( str );
 			}
+
+			it = next;
 		}
 	}
 }
