@@ -1,10 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# e0468a3273212d32165a91bfa31ede41_72f4ea0 <bc0cf8dd1a62f7f5ee4a64d16d2178af_44233>, 2021
 # Willian Nunes de Oliveira <williangd@yahoo.com.br>, 2021
 # jose, 2021
 # Herick Vinicius <herick.gustavo@gmail.com>, 2021
@@ -22,20 +18,28 @@
 # Josué Teodoro Moreira <jteodomo@gmail.com>, 2021
 # Walter Andrade, 2023
 # Davi Ricieri, 2025
-# 
+# Mark Adhans <aphrax@users.noreply.translate.fedoraproject.org>, 2026.
+#
+# Translators:
+# e0468a3273212d32165a91bfa31ede41_72f4ea0 <bc0cf8dd1a62f7f5ee4a64d16d2178af_44233>, 2021
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Davi Ricieri, 2025\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/mate/teams/13566/pt_BR/)\n"
+"PO-Revision-Date: 2026-08-01 15:17+0000\n"
+"Last-Translator: Mark Adhans "
+"<aphrax@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
+"projects/mate-desktop/applications/caja-actions/pt_BR/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt_BR\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
@@ -53,7 +57,7 @@ msgstr ""
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr "Nenhuma implementação de NAIExporter  encontrada para o formato '%s'."
+msgstr "Nenhuma implementação de NAIExporter encontrada para o formato '%s'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
@@ -114,6 +118,9 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
@@ -123,7 +130,8 @@ msgstr "Ações-do-Caja"
 msgid "translator-credits"
 msgstr ""
 "Equipe de tradução no Transifex:\n"
-"Fabrizzio Alphonsus Soares https://www.transifex.com/accounts/profile/fabrizzio\n"
+"Fabrizzio Alphonsus Soares https://www.transifex.com/accounts/profile/"
+"fabrizzio\n"
 "Alberto Federman Neto https://www.transifex.com/accounts/profile/albfneto\n"
 "Appes https://www.transifex.com/accounts/profile/apps\n"
 "arm332 https://www.transifex.com/accounts/profile/arm332\n"
@@ -132,19 +140,25 @@ msgstr ""
 "Enrico Nicoletto https://www.transifex.com/accounts/profile/EnricoNicoletto\n"
 "everton_seib https://www.transifex.com/accounts/profile/everton_seib\n"
 "Felipe Rozelio https://www.transifex.com/accounts/profile/feliperozelio\n"
-"João Paulo da Silva Júnior https://www.transifex.com/accounts/profile/jpsilvaj\n"
+"João Paulo da Silva Júnior https://www.transifex.com/accounts/profile/"
+"jpsilvaj\n"
 "Juliana Paula Felix https://www.transifex.com/accounts/profile/jufelix\n"
-"Lucas Cenir Friederich https://www.transifex.com/user/profile/lucasalvarokedrines\n"
+"Lucas Cenir Friederich https://www.transifex.com/user/profile/"
+"lucasalvarokedrines\n"
 "Marcelo Ghelman https://www.transifex.com/accounts/profile/marcelo.ghelman\n"
 "Marcio Andre Padula https://www.transifex.com/accounts/profile/Padula\n"
-"Marcus Vinícius Marques https://www.transifex.com/accounts/profile/Pygmalion\n"
+"Marcus Vinícius Marques https://www.transifex.com/accounts/profile/"
+"Pygmalion\n"
 "Matheus Macabu https://www.transifex.com/accounts/profile/mkbu95\n"
 "Matheus Martins https://www.transifex.com/accounts/profile/Matheus_Martins\n"
-"Michele dos Santos da Silva https://www.transifex.com/accounts/profile/mchelem\n"
+"Michele dos Santos da Silva https://www.transifex.com/accounts/profile/"
+"mchelem\n"
 "Thiago Cangussu https://www.transifex.com/accounts/profile/cangussu.thg\n"
 "vitorgatti https://www.transifex.com/accounts/profile/vitorgatti\n"
-"Ítalo Rangel Penaforte https://www.transifex.com/accounts/profile/italo.penaforte\n"
-"George Salu da Silva https://www.transifex.com/user/profile/George_salu_da_silva/\n"
+"Ítalo Rangel Penaforte https://www.transifex.com/accounts/profile/"
+"italo.penaforte\n"
+"George Salu da Silva https://www.transifex.com/user/profile/"
+"George_salu_da_silva/\n"
 "Josué Teodoro Moreira https://www.transifex.com/user/profile/J0sueTM/"
 
 #: src/core/na-desktop-environment.c:39
@@ -153,19 +167,19 @@ msgstr "Ambiente de Trabalho MATE"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "Ambiente de trabalho KDE"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "Ambiente de trabalho LXDE"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "Ambiente de trabalho ROX"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "Ambiente de trabalho XFCE"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
@@ -186,8 +200,11 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
-"Uma lista de caracteres com os padrões '*' ou '?' para ser comparada com o(s) nome(s) dos arquivo(s)/pasta(s) selecionadas. Cada item selecionado deve ser compatível com pelo menos um dos padrões de nome de arquivo para que a ação ou menu seja válida para exibição.  \n"
-"Isso obviamente só se aplica quando há uma seleção.  \n"
+"Uma lista de caracteres com os padrões '*' ou '?' para ser comparada com o"
+"(s) nome(s) dos arquivo(s)/pasta(s) selecionadas. Cada item selecionado deve "
+"ser compatível com pelo menos um dos padrões de nome de arquivo para que a "
+"ação ou menu seja válida para exibição.\n"
+"Isso obviamente só se aplica quando há uma seleção.\n"
 "O padrão é '*'."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
@@ -225,12 +242,21 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Deve ser definido como 'true' se o nome do arquivo se distinguir entre "
+"maiúsculas e minúsculas, ou para 'false' caso contrario. Por exemplo, se "
+"necessitar fazer com que o nome de um arquivo se distinga entre maiúsculas e "
+"minúsculas, defina essa chave como 'true'. Se também desejar, por exemplo, "
+"que '*.jpg' coincida com 'foto.JPG', então define como 'false'.\n"
+"Obviamente isso apenas se aplicará quando houver uma seleção.\n"
+"O padrão é 'true'."
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
 msgstr ""
+"Lista de padrões a serem comparados com os tipos MIME dos arquivos/pastas "
+"selecionados"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -240,6 +266,11 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"Uma lista de séries com os padrões '*' a serem comparados com os tipos MIME "
+"dos arquivos/pastas selecionados. Cada item selecionado deve coincidir com "
+"ao menos um padrões dos tipos MIME para que se apresente a ação.\n"
+"Isso obviamente só se aplica quando houver uma seleção.\n"
+"O padrão é '*/*'."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -249,10 +280,14 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"Um padrão para ser comparado com os tipos MIME dos arquivos/pastas "
+"selecionados. Podem incluir o curinga '*'. Precisa definir uma opção para "
+"cada padrão que necessitar"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
 msgstr ""
+"Se o perfil se aplica aos arquivos (opção obsoleta, consulte o tipo MIME)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -267,11 +302,24 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Defina como 'true' se a seleção pode ter arquivos, e para 'false' caso "
+"contrario.\n"
+"Essa definição está relacionada com a definição 'isdir'. As combinações "
+"válidas são:\n"
+"isfile='true' e isdir='false': a seleção só pode conter arquivos\n"
+"isfile=falte e isdir='true': a seleção só pode conter pastas\n"
+"isfile='true e isdir='true: a seleção pode conter tanto arquivos quanto "
+"pastas\n"
+"isfile='false e isdir='false': isso é uma combinação inválida ( sua "
+"configuração nunca aparecerá).\n"
+"Isso obviamente só se aplica quando houver uma seleção.\n"
+"O padrão é 'true'."
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
 msgstr ""
+"Se o perfil se aplica as pastas (opção obsoleta, consulte os tipos MIME)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -286,12 +334,25 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Defina como 'true' se a seleção pode ter pastas, e para 'false' caso "
+"contrario.\n"
+"Essa definição está relacionada com a definição 'isfile'. As combinações "
+"válidas são:\n"
+"isfile='true' e isdir='false': a seleção só pode conter arquivos\n"
+"isfile=falte e isdir='true': a seleção só pode conter pastas\n"
+"isfile='true e isdir='true: a seleção pode conter tanto arquivos quanto "
+"pastas\n"
+"isfile='false e isdir='false': isso é uma combinação inválida ( sua "
+"configuração nunca aparecerá).\n"
+"Isso obviamente só se aplica quando houver uma seleção.\n"
+"O padrão é 'true'."
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
+"Se a seleção pode ser múltipla (opção obsoleta, consulte a soma da seleção)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -301,11 +362,17 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Se necessitar que mais que um arquivo ou pastas sejam selecionados, defina "
+"essa chave como 'true'. Se você quiser apenas um arquivo ou pasta, defina "
+"como 'false'.\n"
+"Isso obviamente só se aplica quando houver uma seleção.\n"
+"O padrão é 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
 msgstr ""
+"Lista de esquemas a serem combinados com os arquivos/pastas selecionados"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -326,12 +393,31 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"Define a lista de esquemas válidos para combinar com os itens selecionados. "
+"O esquema é o protocolo usado para acessar os arquivos. A palavra-chave para "
+"usar é a aquela utilizada na URI do gerenciador de arquivos.\n"
+"Exemplos de URI válidos incluem:\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@teste.exemplo.net/tmp/foo.txt\n"
+"Os exemplo mais comuns de esquemas são:\n"
+"'file': arquivos locais\n"
+"'sftp': arquivos acessados via SSH\n"
+"'ftp':arquivos acessados via FTP\n"
+"'smb': arquivos acessados via Samba (Compartilhado pelo Windows)\n"
+"'dav': arquivos acessados via WebDAV.\n"
+"Todos esquemas utilizados pelo seu gerenciador de arquivos favorito podem "
+"ser utilizados aqui.\n"
+"Isso obviamente apenas se aplica quando houver uma seleção, or quando se "
+"seleciona o esquema especial 'x-caja-desktop'.\n"
+"O padrão é 'file'."
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"Um esquema GIO válido onde o(s) arquivo(s)/pasta(s) selecionado(s) devem "
+"estar localizado. Deve definir uma opção para cada esquema que necessitar"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -342,7 +428,7 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr "<STRING>"
+msgstr "<SÉRIE>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
@@ -354,12 +440,17 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"Define a lista de caminhos válidos para serem comparados com a pasta atual.\n"
+"Todas as pastas 'sob' o caminho especificado são consideradas válidas.\n"
+"O padrão é '/'."
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
+"O caminho de um diretório (matriz) para onde o item será exibido. Deve "
+"definir uma opção para cada pastar que necessita"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -367,11 +458,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr "<PATH>"
+msgstr "<CAMINHO>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Operador da relação de soma de seleção"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -380,24 +471,30 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"Indica se esse perfil pode ser selecionado dependendo da soma da seleção.\n"
+"Essa é uma série da fórmula \"{'<'|'='|'>'} número\".\n"
+"Exemplos de séries válidas são: \"=0\", \"> 1\", \"< 10\".\n"
+"O padrão é \">0\"."
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "Seleção da relação de soma [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "Apenas exibir no ambiente"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "Padrão para todos."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
+"O nome de um único ambiente de área de trabalho onde o item deve ser "
+"exibido. Você deve definir uma opção para cada ambiente que você deseja"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
@@ -407,21 +504,23 @@ msgstr "<DESKTOP>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "Não mostrar no ambiente"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "Por padrão, todos."
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+"O nome de um ambiente de trabalho onde o item não deve ser exibido. Você "
+"deve definir uma opção para cada ambiente que você deseja"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "TryExec"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -431,14 +530,19 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Observe que, quando especificado, apenas a presença e o status de "
+"executabilidade do arquivo especificado são verificados.\n"
+"Os parâmetros podem aparecer no valor 'TryExec' e serão substituídos em "
+"tempo de execução.\n"
+"O padrão é satisfatório."
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "o caminho para um arquivo cuja executabilidade deve ser verificada"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Mostrar se foi registrado"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -449,19 +553,25 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"O nome bem conhecido de um serviço de DBus.\n"
+"O item será candidato se o serviço nomeado estiver registrado no DBus de "
+"sessão em tempo de execução.\n"
+"Os parâmetros podem aparecer no valor 'ShowIfRegistered' e serão "
+"substituídos em tempo de execução.\n"
+"O padrão é satisfatório."
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "O nome de um serviço que deve ser registrado na sessão DBus"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr "<NAME>"
+msgstr "<NOME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "ShowIfTrue"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
