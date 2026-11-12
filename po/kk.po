@@ -1,53 +1,54 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021
-# 
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-24 10:19+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-actions/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "_Менен сұрау"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
-msgstr ""
+msgstr "Элементті әрбір экспорттау алдында оның пішімін таңдау сұралады."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "'%s' пішімі үшін NAIExporter іске асыруы табылмады."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "%s NAIExporter «to_buffer» интерфейсін іске асырмайды."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter «to_file» интерфейсін іске асырмайды."
 
 #: src/core/na-about.c:70
 msgid ""
@@ -56,6 +57,10 @@ msgid ""
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"Caja-Actions конфигурация сайманы — еркін бағдарламалық қамтама; оны Free "
+"Software Foundation шығарған GNU General Public License шартымен "
+"(лицензияның 2-нұсқасы немесе (қалауыңыз бойынша) кез келген кейінгі "
+"нұсқасы) қайта таратуға және/немесе өзгертуге болады."
 
 #: src/core/na-about.c:74
 msgid ""
@@ -64,6 +69,10 @@ msgid ""
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"Caja-Actions конфигурация сайманы пайдалы болады деген үмітпен таратылады, "
+"бірақ ЕШҚАНДАЙ КЕПІЛДІК БЕРІЛМЕЙДІ; тіпті САТУҒА ЖАРАМДЫЛЫҒЫ немесе БЕЛГІЛІ "
+"БІР МАҚСАТҚА СӘЙКЕСТІГІ кепілдендірілмейді. Толық ақпаратты GNU General "
+"Public License құжатынан қараңыз."
 
 #: src/core/na-about.c:78
 msgid ""
@@ -72,10 +81,14 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"Caja-Actions конфигурация сайманымен бірге GNU General Public License "
+"көшірмесі берілуі керек еді; егер берілмесе, Free Software Foundation, Inc., "
+"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA мекенжайына "
+"жазыңыз."
 
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
-msgstr ""
+msgstr "Caja әрекеттерін жасау және түзетуге арналған графикалық интерфейс."
 
 #: src/core/na-about.c:93
 msgid ""
@@ -83,10 +96,13 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
@@ -94,31 +110,31 @@ msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "MATE жұмыс үстелі"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "KDE жұмыс үстелі"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "LXDE жұмыс үстелі"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "ROX жұмыс үстелі"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "XFCE жұмыс үстелі"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Ескі жүйелер"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr ""
+msgstr "Таңдалған файл(дар)/бума(лар)-ға сәйкестендірілетін өрнектер тізімі"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -129,6 +145,12 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"Таңдалған файл(дар)/бума(лар) атауына сәйкестендірілетін '*' немесе '?' "
+"алмастырғыш таңбалары бар жолдар тізімі. Әрекет немесе мәзір көрсетілуге "
+"кандидат болу үшін әрбір таңдалған элемент кем дегенде бір файл атауы "
+"өрнегіне сәйкес келуі тиіс.\n"
+"Бұл тек таңдау бар кезде ғана қолданылады.\n"
+"Үнсіз келісім бойынша: '*'."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -139,6 +161,9 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"Таңдалған файл(дар)/бума(лар)-дың негізгі атауларына сәйкестендірілетін "
+"өрнек. Алмастырғыш таңбаларды (* немесе ?) қамтуы мүмкін. Қажетті әрбір "
+"өрнек үшін бір опцияны орнатуыңыз керек"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -147,11 +172,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<EXPR>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "Көрсетілген негізгі атаулар регистрді ескере ме (бастапқы)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -161,12 +186,20 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Файл атауы өрнектері регистрді ескеретін болса, 'true', әйтпесе 'false' "
+"мәніне орнатылуы тиіс. Мысалы, файл атауын регистрді ескере отырып "
+"сәйкестендіру қажет болса, осы кілтті 'true' мәніне орнатыңыз. Егер '*.jpg' "
+"өрнегі 'photo.JPG' файлына да сәйкес келсін десеңіз, 'false' орнатыңыз.\n"
+"Бұл тек таңдау бар кезде ғана қолданылады.\n"
+"Үнсіз келісім бойынша: 'true'."
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
 msgstr ""
+"Таңдалған файл(дар)/бума(лар)-дың MIME түрлеріне сәйкестендірілетін өрнектер "
+"тізімі"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -176,6 +209,11 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"Таңдалған файл(дар)/бума(лар)-дың MIME түрлеріне сәйкестендірілетін '*' "
+"алмастырғыш таңбасы бар жолдар тізімі. Әрекет көрсетілуі үшін әрбір "
+"таңдалған элемент кем дегенде бір MIME түрінің өрнегіне сәйкес келуі тиіс.\n"
+"Бұл тек таңдау бар кезде ғана қолданылады.\n"
+"Үнсіз келісім бойынша: '*/*'."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -185,10 +223,13 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"Таңдалған файл(дар)/бума(лар)-дың MIME түрлеріне сәйкестендірілетін өрнек. "
+"'*' жұлдызша алмастырғыш таңбасын қамтуы мүмкін. Қажетті әрбір өрнек үшін "
+"бір опцияны орнатуыңыз керек"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
-msgstr ""
+msgstr "Профиль файлдарға қолданыла ма (ескірген опция, mimetype қараңыз)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -203,11 +244,21 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Таңдауда файлдар болуы мүмкін болса 'true', әйтпесе 'false' орнатыңыз.\n"
+"Бұл баптау 'isdir' баптауымен байланысты. Жарамды комбинациялар:\n"
+"isfile='true' және isdir='false': таңдауда тек файлдар болуы мүмкін\n"
+"isfile='false' және isdir='true': таңдауда тек бумалар болуы мүмкін\n"
+"isfile='true' және isdir='true': таңдауда файлдар да, бумалар да болуы "
+"мүмкін\n"
+"isfile='false' және isdir='false': бұл жарамсыз комбинация (конфигурацияңыз "
+"ешқашан көрсетілмейді).\n"
+"Бұл тек таңдау бар кезде ғана қолданылады.\n"
+"Үнсіз келісім бойынша: 'true'."
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
-msgstr ""
+msgstr "Профиль бумаларға қолданыла ма (ескірген опция, mimetype қараңыз)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -222,12 +273,22 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Таңдауда бумалар болуы мүмкін болса 'true', әйтпесе 'false' орнатыңыз.\n"
+"Бұл баптау 'isfile' баптауымен байланысты. Жарамды комбинациялар:\n"
+"isfile='true' және isdir='false': таңдауда тек файлдар болуы мүмкін\n"
+"isfile='false' және isdir='true': таңдауда тек бумалар болуы мүмкін\n"
+"isfile='true' және isdir='true': таңдауда файлдар да, бумалар да болуы "
+"мүмкін\n"
+"isfile='false' және isdir='false': бұл жарамсыз комбинация (конфигурацияңыз "
+"ешқашан көрсетілмейді).\n"
+"Бұл тек таңдау бар кезде ғана қолданылады.\n"
+"Үнсіз келісім бойынша: 'false'."
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
-msgstr ""
+msgstr "Таңдау бірнешеу бола ала ма (ескірген опция, таңдау санын қараңыз)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -237,11 +298,16 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Егер бірнеше файл немесе буманың таңдалуы қажет болса, осы кілтті 'true' "
+"мәніне орнатыңыз. Тек бір файл немесе бума қажет болса, 'false' орнатыңыз.\n"
+"Бұл тек таңдау бар кезде ғана қолданылады.\n"
+"Үнсіз келісім бойынша: 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
 msgstr ""
+"Таңдалған файл(дар)/бума(лар) сұлбаларына сәйкестендірілетін сұлбалар тізімі"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -262,12 +328,32 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"Таңдалған элементтерге сәйкестендірілетін жарамды сұлбалар тізімін "
+"сипаттайды. Сұлба дегеніміз — файлдарға қол жеткізу үшін пайдаланылатын "
+"хаттама. Қолданылатын кілтсөз файл менеджері URI ішінде пайдаланатын кілтсөз "
+"болуы керек.\n"
+"Жарамды URI мысалдары:\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@test.example.net/tmp/foo.txt\n"
+"Ең көп таралған сұлбалар:\n"
+"'file': жергілікті файлдар\n"
+"'sftp': SSH арқылы қол жеткізілетін файлдар\n"
+"'ftp': FTP арқылы қол жеткізілетін файлдар\n"
+"'smb': Samba (Windows ортақ қатынасы) арқылы қол жеткізілетін файлдар\n"
+"'dav': WebDAV арқылы қол жеткізілетін файлдар.\n"
+"Таңдаулы файл менеджеріңіз қолданатын барлық сұлбаларды осында пайдалануға "
+"болады.\n"
+"Бұл тек таңдау болғанда немесе арнайы 'x-caja-desktop' сұлбасы "
+"мақсатталғанда ғана қолданылады.\n"
+"Үнсіз келісім бойынша: 'file'."
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"Таңдалған файл(дар)/бума(лар) орналасуы тиіс жарамды GIO сұлбасы. Қажетті "
+"әрбір сұлба үшін бір опцияны орнатуыңыз керек"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -278,11 +364,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<STRING>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "Бумалар тізімі"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -290,12 +376,17 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"Ағымдағы бумаға сәйкестендірілетін жарамды жолдар тізімін сипаттайды.\n"
+" Көрсетілген жолдың «ішіндегі» барлық бумалар жарамды деп саналады.\n"
+"Үнсіз келісім бойынша: '/'."
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
+"Элемент көрсетілетін (ата-аналық) буманың жолы. Қажетті әрбір бума үшін бір "
+"опцияны орнатуыңыз керек"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -303,11 +394,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<PATH>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Таңдау саны байланысының операторы"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -316,48 +407,56 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"Бұл профиль таңдау санына байланысты таңдалуы мүмкін бе.\n"
+"Бұл — «{'<'|'='|'>'} сан» пішіміндегі жол.\n"
+"Жарамды жолдар мысалдары: «=0», «> 1», «< 10».\n"
+"Үнсіз келісім бойынша: «>0»."
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "Таңдау санының байланысы [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "Тек белгілі бір ортада көрсету"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "Үнсіз келісім бойынша: барлығы."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
+"Элемент тек көрсетілуі тиіс жұмыс үстелі ортасының атауы. Қажетті әрбір орта "
+"үшін бір опцияны орнатуыңыз керек"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DESKTOP>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "Ортада көрсетпеу"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "Үнсіз келісім бойынша: жоқ."
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+"Элемент көрсетілмеуі тиіс жұмыс үстелі ортасының атауы. Қажетті әрбір орта "
+"үшін бір опцияны орнатуыңыз керек"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "Try exec"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -367,14 +466,19 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Ескертпе: көрсетілген кезде тек көрсетілген файлдың бар-жоғы және орындалу "
+"қалып-күйі ғана тексеріледі.\n"
+"Параметрлер 'TryExec' мәнінде көрсетілуі мүмкін және орындау кезінде "
+"алмастырылады.\n"
+"Үнсіз келісім бойынша: сәтті."
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "орындалу қабілеті тексерілуі тиіс файлға дейінгі жол"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Тіркелген болса көрсету"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -385,19 +489,25 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"DBus қызметінің белгілі атауы.\n"
+"Егер көрсетілген қызмет орындау уақытында сеанстық DBus жүйесінде тіркелген "
+"болса, элемент кандидат болады.\n"
+"Параметрлер 'ShowIfRegistered' мәнінде көрсетілуі мүмкін және орындау "
+"кезінде алмастырылады.\n"
+"Үнсіз келісім бойынша: сәтті."
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "Сеанстық DBus-та тіркелген болуы тиіс қызметтің атауы"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NAME>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "Ақиқат болса көрсету"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -408,15 +518,20 @@ msgid ""
 "Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Орындалған кезде стандартты шығысқа (stdout) жолды шығаратын команда.\n"
+"Егер шығарылған жол «true» мәніне тең болса, элемент кандидат болады.\n"
+"Параметрлер 'ShowIfTrue' мәнінде көрсетілуі мүмкін және орындау кезінде "
+"алмастырылады.\n"
+"Үнсіз келісім бойынша: сәтті."
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr ""
+msgstr "'true' жолын көрсететін командаға дейінгі жол"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "Орындалып тұрса көрсету"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -427,14 +542,20 @@ msgid ""
 "Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Процестің атауы.\n"
+"Егер орындау уақытында процестің атауы жадыдан табылса, элемент кандидат "
+"болады.\n"
+"Параметрлер 'ShowIfRunning' мәнінде көрсетілуі мүмкін және орындау кезінде "
+"алмастырылады.\n"
+"Үнсіз келісім бойынша: сәтті."
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "Орындалуда болуы тиіс екілік файлдың атауы"
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Мүмкіндіктер"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -451,49 +572,65 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"Элемент кандидат болуы үшін таңдаудың әрбір элементі қанағаттандыруы тиіс "
+"мүмкіндіктер тізімі.\n"
+"Мүмкіндіктерді теріске шығаруға болады.\n"
+"Мүмкіндіктер келесі алдын ала анықталғандардың ішінен таңдалуы керек:\n"
+"- 'Owner': ағымдағы пайдаланушы таңдалған элементтердің иесі болып табылады\n"
+"- 'Readable': таңдалған элементтер пайдаланушы үшін оқылатын (теріске "
+"шығарғанда пайдалырақ болуы мүмкін)\n"
+"- 'Writable': таңдалған элементтер пайдаланушы үшін жазылатын\n"
+"- 'Executable': таңдалған элементтер пайдаланушы үшін орындалатын\n"
+"- 'Local': таңдалған элементтер жергілікті болып табылады.\n"
+"Үнсіз келісім бойынша: бос тізім."
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
 msgstr ""
+"Таңдау сәйкес келуі тиіс мүмкіндіктің атауы. Мүмкін мәндер: 'Owner', "
+"'Readable', 'Writable', 'Executable' немесе 'Local'"
 
 #: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
 msgstr ""
+"Шақырушы тексеру функциясын ұсынбағандықтан, элементтің нөмірі қайта қойылды."
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
 msgstr ""
+"Шақырушы пайдаланушыдан сұрау функциясын ұсынбағандықтан, элементтің нөмірі "
+"қайта қойылды."
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "Пайдаланушының сұрауы бойынша элементтің нөмірі қайта қойылды."
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "Пайдаланушының сұрауы бойынша бар элементтің үстінен жазылды."
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "%s элементі әлдеқашан бар."
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "Пайдаланушының сұрауы бойынша импорттау тоқтатылды."
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(нөмірі өзгертілген)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "Элементті импортта_мау"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -501,41 +638,51 @@ msgid ""
 "The selected file will be marked as \"NOT OK\" in the Summary page.\n"
 "The existing item will not be modified."
 msgstr ""
+"Бұл бұрынғы қалыпты әрекет болған.\n"
+"Таңдалған файл Қорытынды бетінде «ҚАТЕ» ретінде белгіленеді.\n"
+"Бар элемент өзгертілмейді."
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr ""
+msgstr "Элементті жаңа идентификатор _беріп импорттау"
 
 #: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
+"Таңдалған файл қайта нөмірленгенін көрсететін аздап өзгертілген жапсырмамен "
+"импортталады.\n"
+"Бар элемент өзгертілмейді."
 
 #: src/core/na-importer.c:74
 msgid "_Override the existing item"
-msgstr ""
+msgstr "Бар элементтің үстінен _жазу"
 
 #: src/core/na-importer.c:75
 msgid ""
 "The item found in the selected file will silently override the current one which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
 msgstr ""
+"Таңдалған файлдағы элемент бірдей идентификаторы бар ағымдағы элементті "
+"ескертусіз алмастырады.\n"
+"Ескерту: бұл режим қауіпті болуы мүмкін. Сізден қайтадан сұралмайды."
 
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
 msgstr ""
+"Импортталған идентификатор әлдеқашан бар болған сайын сұралатын боласыз."
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
-msgstr ""
+msgstr "%s жүктелмейді (бос немесе тым үлкен, не кәдімгі файл емес)"
 
 #: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
-msgstr ""
+msgstr "%s ішінен «ImporterAskDialog» жүктелмеді"
 
 #: src/core/na-importer-ask.c:398
 #, c-format
@@ -543,6 +690,8 @@ msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
+"«%2$s» ішінен импортталған «%1$s» әрекетінің идентификаторы әлдеқашан бар "
+"«%3$s» әрекетімен бірдей."
 
 #: src/core/na-importer-ask.c:404
 #, c-format
@@ -550,56 +699,60 @@ msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
+"«%2$s» ішінен импортталған «%1$s» мәзірінің идентификаторы әлдеқашан бар "
+"«%3$s» мәзірімен бірдей."
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr ""
+msgstr "Әлдеқашан бар элемент"
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr ""
+msgstr "Бұнымен не істеу керек?"
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
-msgstr ""
+msgstr "Кейінгі импорттау операцияларында таңдауымды есте сақ_тау"
 
 #: src/core/na-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 msgstr ""
+"https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions сілтемесі "
+"бойынша қате туралы есепті толтыруыңызды өтінеміз."
 
 #: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
-msgstr ""
+msgstr "Қолжетімсіз Е/Ш провайдері."
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr ""
+msgstr "Е/Ш провайдерінің іске асырылуында қажетті API жоқ."
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
-msgstr ""
+msgstr "Е/Ш провайдері жазуға дайын емес."
 
 #: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
-msgstr ""
+msgstr "Е/Ш провайдері жаза алмайтынын хабарлады."
 
 #: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
-msgstr ""
+msgstr "Е/Ш провайдерін әкімші бұғаттаған."
 
 #: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
-msgstr ""
+msgstr "Е/Ш провайдерін пайдаланушы бұғаттаған."
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "Элемент тек оқуға арналған."
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr ""
+msgstr "Жазуға болатын Е/Ш провайдері табылмады."
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -607,10 +760,12 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
+"Элемент белгісіз себеппен жазуға жабық (%d).\n"
+"%s"
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "Дайын."
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -618,22 +773,24 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
+"Бағдарламаның орындалу ағынының қатесі.\n"
+"%s"
 
 #: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
-msgstr ""
+msgstr "Е/Ш провайдері мұны істеуге дайын емес."
 
 #: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
-msgstr ""
+msgstr "Е/Ш провайдеріндегі жазу қатесі."
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr ""
+msgstr "MateConf схемаларын өшіру мүмкін емес."
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "Конфигурацияны өшіру мүмкін емес."
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -641,19 +798,21 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
+"Белгісіз қайтару коды (%d).\n"
+"%s"
 
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr ""
+msgstr "Жаңа Caja әрекеті"
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
-msgstr ""
+msgstr "Профиль v2 алдындағы әрекеттен автоматты түрде жасалды"
 
 #: src/core/na-object-action-factory.c:80
 msgid "Targets the selection context menu"
-msgstr ""
+msgstr "Таңдау контекст мәзіріне бағытталады"
 
 #: src/core/na-object-action-factory.c:81
 msgid ""
@@ -662,14 +821,19 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to TRUE."
 msgstr ""
+"Әрекет файл менеджерінің таңдау контекст мәзірлеріне бағыттала ма.\n"
+"Бұл бұрынғы қалыпты әрекет болған.\n"
+"Мәзірлер кем дегенде бір әрекетті қамтыса, олар әрқашан таңдау контекст "
+"мәзірлерінде көрсетілуге ықтимал кандидат болып табылатынын ескеріңіз.\n"
+"Үнсіз келісім бойынша: АҚИҚАТ."
 
 #: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr ""
+msgstr "Таңдау контекст мәзіріне бағытталады [ақиқат]"
 
 #: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
-msgstr ""
+msgstr "Орналасу контекст мәзіріне бағытталады"
 
 #: src/core/na-object-action-factory.c:107
 msgid ""
@@ -677,14 +841,19 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to FALSE"
 msgstr ""
+"Таңдау болмаған кезде әрекет файл менеджерінің контекст мәзірлеріне "
+"бағытталып, ағымдағы орынға қолданыла ма.\n"
+"Мәзірлер кем дегенде бір әрекетті қамтыса, олар әрқашан таңдау контекст "
+"мәзірлерінде көрсетілуге ықтимал кандидат болып табылатынын ескеріңіз.\n"
+"Үнсіз келісім бойынша: ЖАЛҒАН"
 
 #: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr ""
+msgstr "Орналасу контекст мәзіріне бағытталады [жалған]"
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "Саймандар панеліне бағытталады"
 
 #: src/core/na-object-action-factory.c:133
 msgid ""
@@ -693,14 +862,18 @@ msgid ""
 "Note that menus are never displayed in the toolbar.\n"
 "Defaults to FALSE."
 msgstr ""
+"Әрекет файл менеджерінің саймандар панелінде көрсетілуге кандидат па.\n"
+"Бұл тек ағымдағы орынға қолданылады.\n"
+"Мәзірлер саймандар панелінде ешқашан көрсетілмейтінін ескеріңіз.\n"
+"Үнсіз келісім бойынша: ЖАЛҒАН."
 
 #: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr ""
+msgstr "Саймандар панеліне бағытталады [жалған]"
 
 #: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
-msgstr ""
+msgstr "Саймандар панелі элементінің жапсырмасы"
 
 #: src/core/na-object-action-factory.c:158
 msgid ""
@@ -708,16 +881,22 @@ msgid ""
 "Note that actual display may depend of your own Desktop Environment preferences.\n"
 "Defaults to label of the context menu when not set or empty."
 msgstr ""
+"Файл менеджерінің саймандар панеліндегі таңбашаның жанында көрсетілетін "
+"жапсырма.\n"
+"Нақты көрсетілу жеке жұмыс үстелі ортасының баптауларына байланысты болуы "
+"мүмкін екенін ескеріңіз.\n"
+"Орнатылмаған немесе бос болса, үнсіз келісім бойынша контекст мәзірінің "
+"жапсырмасына теңестіріледі."
 
 #. Translators: copied items have a label as 'Copy of original label'
 #: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "%s көшірмесі"
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "Элемент түрі"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -726,24 +905,32 @@ msgid ""
 "- 'Menu'.\n"
 "The value is case sensitive and must not be localized."
 msgstr ""
+"Элементтің әрекет немесе мәзір екенін анықтайды. Ықтимал мәндер:\n"
+"- 'Action',\n"
+"- 'Menu'.\n"
+"Мән регистрді ескереді және локализацияланбауы тиіс."
 
 #: src/core/na-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
-msgstr ""
+msgstr "Контекст мәзірі элементінің жапсырмасы (міндетті)"
 
 #: src/core/na-object-item-factory.c:95
 msgid ""
 "The label of the menu item that will appear in the file manager context menu when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
 msgstr ""
+"Таңдау сыртқы көрініс шарты баптауларына сәйкес келген кезде файл "
+"менеджерінің контекст мәзірінде пайда болатын мәзір элементінің жапсырмасы.\n"
+"Ол сондай-ақ әрекеттің саймандар панелі жапсырмасының үнсіз келісім бойынша "
+"мәні ретінде де қолданылады."
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "Бос жапсырма"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "Контекст мәзірі элементінің қалқымалы кеңесі"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -751,34 +938,44 @@ msgid ""
 "when the user points to the file manager context menu item with his/her "
 "mouse."
 msgstr ""
+"Пайдаланушы тышқан курсорын файл менеджерінің контекст мәзірі элементіне "
+"апарғанда қалып-күй жолағында пайда болатын мәзір элементінің қалқымалы "
+"кеңесі."
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "Контекст мәзірі элементінің таңбашасы"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
 msgstr ""
+"Таңдау сыртқы көрініс шарттары баптауларына сәйкес келген кезде файл "
+"менеджерінің контекст мәзіріндегі жапсырманың қасында пайда болатын мәзір "
+"элементінің таңбашасы.\n"
+"Темалық таңбашаның локализацияланған атауы немесе кез келген сәйкес суретке "
+"толық жол болуы мүмкін."
 
 #: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<PATH|NAME>"
 
 #: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
-msgstr ""
+msgstr "Элементке қатысты сипаттама"
 
 #: src/core/na-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
 msgstr ""
+"Мәзірдің немесе әрекеттің мақсатын түсіндіретін мәтін.\n"
+"Мысалы, қолжетімді элементтерді веб-сайтта көрсету кезінде қолданылуы мүмкін."
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Ұсынылған жарлық"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -787,74 +984,94 @@ msgid ""
 "The format may look like \"<Control>a\" or \"<Shift><Alt>F1\".\n"
 "Defaults to empty."
 msgstr ""
+"Әрекет немесе мәзір үшін ұсынылған жарлық.\n"
+"Бұл тек ұсыныс болуы мүмкін екенін ескеріңіз, себебі бұл жарлық басқа "
+"мақсатта пайдаланылуы мүмкін. Іске асыру осыны анықтау үшін бұрыннан бар "
+"жарлықты алмастырмауы тиіс.\n"
+"Пішімі «<Control>a» немесе «<Shift><Alt>F1» сияқты болуы мүмкін.\n"
+"Үнсіз келісім бойынша бос."
 
 #: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
-msgstr ""
+msgstr "Ішкі элементтердің идентификаторлар тізімі"
 
 #: src/core/na-object-item-factory.c:269
 msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
 msgstr ""
+"Ішкі элементтер ID-лерінің реттелген тізімі. Бұл — егер элемент мәзір болса, "
+"әрекеттер немесе мәзірлер, ал егер әрекет болса, профильдер болуы мүмкін.\n"
+"Егер бұл тізім болмаса немесе әрекет не мәзір үшін бос болса, ішкі "
+"элементтер оқу операцияларының ретімен тіркеледі."
 
 #: src/core/na-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
-msgstr ""
+msgstr "Әрекет немесе мәзір іске қосылған ба"
 
 #: src/core/na-object-item-factory.c:294
 msgid ""
 "If the or the menu action is disabled, it will never appear in the file manager context menu.\n"
 "Defaults to TRUE."
 msgstr ""
+"Егер әрекет немесе мәзір сөндірілген болса, ол файл менеджерінің контекст "
+"мәзірінде ешқашан пайда болмайды.\n"
+"Үнсіз келісім бойынша: АҚИҚАТ."
 
 #: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr ""
+msgstr "Әрекет немесе мәзір іске қосылған ба [іске қосылған]"
 
 #: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
-msgstr ""
+msgstr "Пішім нұсқасы"
 
 #: src/core/na-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward"
 " compatibility."
 msgstr ""
+"Кері үйлесімділікті басқару үшін пайдаланылатын конфигурация пішімінің "
+"нұсқасы."
 
 #. Translators: default label for a new menu
 #: src/core/na-object-menu.c:57
 msgid "New Caja menu"
-msgstr ""
+msgstr "Жаңа Caja мәзірі"
 
 #. Translators: label for the default profile
 #: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "Бастапқы профиль"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "Профиль атауы"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
+"Профильдің қызметін сипаттау ретінде пайдаланылуы мүмкін.\n"
+"Орнатылмаса, үнсіз келісім бойынша автоматты түрде жасалған атау "
+"тағайындалады."
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "Команда жолы"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
 msgstr ""
+"Пайдаланушы файл менеджерінің контекст мәзірінен немесе саймандар панелінен "
+"мәзір элементін таңдаған кезде орындалатын команданың жолы."
 
 #: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "Команда параметрлері"
 
 #: src/core/na-object-profile-factory.c:129
 msgid ""
@@ -896,10 +1113,59 @@ msgid ""
 "  %X: space-separated list of the extensions of the selected file(s)/folder(s)\n"
 "  %%: a percent sign."
 msgstr ""
+"Пайдаланушы файл менеджерінің контекст мәзірінен немесе саймандар панелінен "
+"мәзір элементін таңдаған кезде орындалатын команданың параметрлері.\n"
+"Параметрлерде команданы іске қосу алдында файл менеджері ұсынатын ақпаратпен "
+"ауыстырылатын арнайы таңбалар болуы мүмкін:\n"
+"- 2.0 нұсқасына дейін:\n"
+"  %d: таңдалған файл(дар) орналасқан негізгі бума\n"
+"  %f: таңдалған файл атауы немесе бірнешеу таңдалса, біріншісі\n"
+"  %h: URI хост атауы\n"
+"  %m: таңдалған файл(дар)/бума(лар) негізгі атауларының бос орынмен бөлінген "
+"тізімі\n"
+"  %M: таңдалған файл(дар)/бума(лар)-дың толық жолдары бар, бос орынмен "
+"бөлінген тізімі\n"
+"  %p: бірінші URI порт нөмірі\n"
+"  %R: таңдалған URI мекенжайларының бос орынмен бөлінген тізімі\n"
+"  %s: URI сұлбасы\n"
+"  %u: URI\n"
+"  %U: URI пайдаланушы аты\n"
+"  %%: пайыз таңбасы.\n"
+"- 3-нұсқадан бастап:\n"
+"  %b: (бірінші) негізгі атау\n"
+"  %B: таңдалған файл(дар)/бума(лар) негізгі атауларының бос орынмен бөлінген "
+"тізімі\n"
+"  %c: таңдалған файл(дар)/бума(лар) саны\n"
+"  %d: (бірінші) негізгі бума\n"
+"  %D: таңдалған файл(дар)/бума(лар) негізгі бумаларының бос орынмен бөлінген "
+"тізімі\n"
+"  %f: (бірінші) файл атауы\n"
+"  %F: таңдалған файл(дар)/бума(лар) файл атауларының бос орынмен бөлінген "
+"тізімі\n"
+"  %h: (бірінші) URI хост атауы\n"
+"  %m: (бірінші) MIME түрі\n"
+"  %M: таңдалған файл(дар)/бума(лар) MIME түрлерінің бос орынмен бөлінген "
+"тізімі\n"
+"  %n: (бірінші) URI пайдаланушы аты\n"
+"  %o: орындаудың жекеше түрін мәжбүрлейтін no-op операторы (3.0.2 нұсқасынан "
+"бастап)\n"
+"  %O: орындаудың көпше түрін мәжбүрлейтін no-op операторы (3.0.2 нұсқасынан "
+"бастап)\n"
+"  %p: (бірінші) URI порт нөмірі\n"
+"  %s: (бірінші) URI сұлбасы\n"
+"  %u: (бірінші) URI\n"
+"  %U: таңдалған файл(дар)/бума(лар) URI мекенжайларының бос орынмен бөлінген "
+"тізімі\n"
+"  %w: кеңейтусіз (бірінші) негізгі атау\n"
+"  %W: кеңейтусіз негізгі атаулардың бос орынмен бөлінген тізімі\n"
+"  %x: (бірінші) кеңейту\n"
+"  %X: таңдалған файл(дар)/бума(лар) кеңейтулерінің бос орынмен бөлінген "
+"тізімі\n"
+"  %%: пайыз таңбасы."
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "Жұмыс бумасы"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -907,10 +1173,12 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to \"%d\"."
 msgstr ""
+"Команда іске қосылатын жұмыс бумасы.\n"
+"Үнсіз келісім бойынша: «%d»."
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "Орындау режимі"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -924,30 +1192,46 @@ msgid ""
 "- DisplayOutput: the ran terminal may be closed at end of the command, but standard streams (stdout, stderr) should be collected and displayed; an acceptable fallback is Terminal.\n"
 "Defaults to \"Normal\"."
 msgstr ""
+"Бағдарламаның орындалу режимі.\n"
+"Бұл келесі мәндер арасынан таңдалуы мүмкін:\n"
+"- Қалыпты: стандартты графикалық пайдаланушы интерфейсі ретінде іске "
+"қосылады\n"
+"- Терминал: графикалық ортаның таңдаулы терминалын ашып, команданы соның "
+"ішінде орындайды\n"
+"- Ендірілген: терминалды файл менеджерінің ішінде орындауға мүмкіндік "
+"беретін оның арнайы мүмкіндігін пайдаланады; қолайлы балама — Терминал\n"
+"- Шығысты көрсету: орындалған терминал команда аяқталғанда жабылуы мүмкін, "
+"бірақ стандартты ағындар (stdout, stderr) жиналып, көрсетілуі тиіс; қолайлы "
+"балама — Терминал.\n"
+"Үнсіз келісім бойынша: «Normal»."
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "Іске қосылу туралы хабарландыру"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to FALSE."
 msgstr ""
+"Тек ExecutionMode=Normal болғанда ғана маңызды.\n"
+"Үнсіз келісім бойынша: ЖАЛҒАН."
 
 #: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
-msgstr ""
+msgstr "Іске қосылу WM класы"
 
 #: src/core/na-object-profile-factory.c:268
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to empty."
 msgstr ""
+"Тек ExecutionMode=Normal болғанда ғана маңызды.\n"
+"Үнсіз келісім бойынша: бос."
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Пайдаланушы ретінде орындау"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -955,59 +1239,63 @@ msgid ""
 "The profile is ignored if defined with a non-existing UID or login.\n"
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
+"Команда қай пайдаланушы ретінде орындалуы керек. Пайдаланушы сандық UID "
+"арқылы немесе логині бойынша анықталуы мүмкін.\n"
+"Егер профиль жоқ UID немесе логинмен анықталса, ол ескерілмейді.\n"
+"Үнсіз келісім бойынша бос: команда ағымдағы пайдаланушы атынан орындалады."
 
 #: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
-msgstr ""
+msgstr "%s URI үшін ақпаратты сұрау кезінде қате орын алды: %s"
 
 #: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///path/to/file1.mid"
 
 #: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///path/to/file2.jpeg"
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
-msgstr ""
+msgstr "Орындалған команданың шығысы"
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "Орындалатын команда:"
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "Стандартты шығыс:"
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "Стандартты қателер шығысы:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
-msgstr ""
+msgstr "Caja-Actions жұмыс үстелінің Е/Ш провайдері"
 
 #: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
-msgstr ""
+msgstr "._desktop файлы ретінде экспорттау"
 
 #: src/io-desktop/cadp-formats.c:56
 msgid ""
@@ -1018,48 +1306,57 @@ msgid ""
 "- drag-n-drop into the Caja-Actions Configuration Tool,\n"
 "- or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
+"Бұл пішім v 3.0 сериясымен ұсынылған және элементтерді экспорттау кезінде "
+"жаңа таңдаулы пішіміңіз болуы керек.\n"
+"Ол өз қолданбалары осы пішімді сипаттайтын DES-EMA спецификациясын іске "
+"асырған жағдайда, әрекеттеріңізді басқа жұмыс үстелі орталарының "
+"пайдаланушыларымен қоса бүкіл әлеммен оңай бөлісуге мүмкіндік береді.\n"
+"Экспортталған .desktop файлын кейінірек мыналар арқылы импорттауға болады:\n"
+"- Caja-Actions баптау сайманының импорттау көмекшісі,\n"
+"- Caja-Actions баптау сайманына сүйреп апарып тастау,\n"
+"- немесе оны XDG_DATA_DIRS/file-manager/actions бумасына көшіру."
 
 #: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr ""
+msgstr "Жұмыс үстелінің Е/Ш провайдері бұл URI өңдей алмайды"
 
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
 #, c-format
 msgid "unknown type: %s"
-msgstr ""
+msgstr "белгісіз түр: %s"
 
 #: src/cact/base-application.c:182
 msgid "Arguments count"
-msgstr ""
+msgstr "Аргументтер саны"
 
 #: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
-msgstr ""
+msgstr "Командалық жол аргументтерінің саны"
 
 #: src/cact/base-application.c:190
 msgid "Arguments"
-msgstr ""
+msgstr "Аргументтер"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
-msgstr ""
+msgstr "Командалық жол аргументтерінің массиві"
 
 #: src/cact/base-application.c:198
 msgid "Option entries"
-msgstr ""
+msgstr "Опция жазбалары"
 
 #: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
-msgstr ""
+msgstr "Командалық жол опциялары сипаттамаларының массиві"
 
 #: src/cact/base-application.c:205
 msgid "Application name"
-msgstr ""
+msgstr "Қолданба атауы"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
-msgstr ""
+msgstr "Қолданбаның атауы"
 
 #: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
@@ -1067,56 +1364,57 @@ msgstr "Анықтамасы"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
-msgstr ""
+msgstr "--help шығысының бірінші жолында көрсетілетін қысқаша сипаттама"
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "Таңбаша атауы"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
-msgstr ""
+msgstr "Қолданба таңбашасының атауы"
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
-msgstr ""
+msgstr "UniqueApp атауы"
 
 #: src/cact/base-application.c:230
 msgid "The Unique name of the application"
-msgstr ""
+msgstr "Қолданбаның бірегей атауы"
 
 #: src/cact/base-application.c:237
 msgid "Return code"
-msgstr ""
+msgstr "Қайтару коды"
 
 #: src/cact/base-application.c:238
 msgid "The return code of the application"
-msgstr ""
+msgstr "Қолданбаның қайтару коды"
 
 #: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
-msgstr ""
+msgstr "Командалық жол аргументтерін талдау мүмкін емес"
 
 #: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
-msgstr ""
+msgstr "Escape басылғанда шығу"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
-msgstr ""
+msgstr "Пайдаланушы Escape пернесін басқанда көмекшіден шығу керек пе?"
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
-msgstr ""
+msgstr "Escape басылғанда ескерту"
 
 #: src/cact/base-assistant.c:160
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
 msgstr ""
+"Пайдаланушы көмекшіден Escape арқылы шыққан кезде растау сұралуы керек пе?"
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr ""
+msgstr "Бұл көмекшіден шығуды шынымен қалайсыз ба?"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1132,79 +1430,81 @@ msgid ""
 "Another instance of %s is already running.\n"
 "Please switch back to it."
 msgstr ""
+"%s бағдарламасының басқа данасы орындалуда.\n"
+"Соған ауысыңыз."
 
 #: src/cact/base-iunique.c:207
 msgid "The application is not unique"
-msgstr ""
+msgstr "Қолданба бірегей емес"
 
 #: src/cact/base-window.c:204
 msgid "XML UI filename"
-msgstr ""
+msgstr "XML UI файл атауы"
 
 #: src/cact/base-window.c:205
 msgid "The filename which contains the XML UI definition"
-msgstr ""
+msgstr "XML интерфейс сипаттамасын қамтитын файл атауы"
 
 #: src/cact/base-window.c:212
 msgid "Has its own GtkBuilder"
-msgstr ""
+msgstr "Өзінің GtkBuilder бар"
 
 #: src/cact/base-window.c:213
 msgid ""
 "Whether this BaseWindow reallocates a new GtkBuilder each time it is opened"
-msgstr ""
+msgstr "Бұл BaseWindow әр ашылған сайын жаңа GtkBuilder бөле ме"
 
 #: src/cact/base-window.c:220
 msgid "Toplevel name"
-msgstr ""
+msgstr "Жоғарғы деңгей атауы"
 
 #: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
-msgstr ""
+msgstr "Жоғарғы деңгейдегі терезенің ішкі GtkBuildable атауы"
 
 #: src/cact/base-window.c:228
 msgid "BaseApplication"
-msgstr ""
+msgstr "BaseApplication"
 
 #: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
-msgstr ""
+msgstr "BaseApplication данасына нұсқағыш (сілтеме емес)"
 
 #: src/cact/base-window.c:235 src/cact/cact-tree-model.c:225
 msgid "Parent BaseWindow"
-msgstr ""
+msgstr "Ата-аналық BaseWindow"
 
 #: src/cact/base-window.c:236
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of this BaseWindow"
-msgstr ""
+msgstr "Осы BaseWindow-дың ата-аналық BaseWindow-ына нұсқағыш (сілтеме емес)"
 
 #: src/cact/base-window.c:242
 msgid "WSP name"
-msgstr ""
+msgstr "WSP атауы"
 
 #: src/cact/base-window.c:243
 msgid ""
 "The string which handles the window size and position in user preferences"
-msgstr ""
+msgstr "Пайдаланушы баптауларында терезе өлшемі мен орнын басқаратын жол"
 
 #: src/cact/base-window.c:250
 msgid "Destroy the Gtk toplevel"
-msgstr ""
+msgstr "Жоғарғы деңгейлі Gtk терезесін жою"
 
 #: src/cact/base-window.c:251
 msgid "Whether the embedded Gtk Toplevel should be destroyed at dispose time"
-msgstr ""
+msgstr "Ендірілген Gtk Toplevel тазарту кезінде жойылуы керек пе"
 
 #: src/cact/base-window.c:735
 #, c-format
 msgid "Unable to load %s UI XML definition: %s"
-msgstr ""
+msgstr "%s интерфейсінің XML сипаттамасын жүктеу мүмкін емес: %s"
 
 #: src/cact/base-window.c:750
 #, c-format
 msgid "Unable to load %s dialog definition."
-msgstr ""
+msgstr "%s сұхбат терезесінің сипаттамасын жүктеу мүмкін емес."
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
@@ -1267,100 +1567,100 @@ msgstr "Сессия менеджмент опцияларын көрсету"
 
 #: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Caja-Actions баптау сайманы"
 
 #: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
-msgstr ""
+msgstr "Жеке контексттік әрекеттерді түзетуге арналған пайдаланушы интерфейсі"
 
 #: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
-msgstr ""
+msgstr "Бағдарламаның бірнеше данасын орындауға орнату [unique]"
 
 #: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
-msgstr ""
+msgstr "Нұсқа нөмірін шығарып, қалыпты шығу [no]"
 
 #: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
-msgstr ""
+msgstr "Пайдаланушы элементтің иесі болып табылады"
 
 #: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
-msgstr ""
+msgstr "Элементті пайдаланушы оқи алады"
 
 #: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
-msgstr ""
+msgstr "Элементке пайдаланушы жаза алады"
 
 #: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
-msgstr ""
+msgstr "Элементті пайдаланушы орындай алады"
 
 #: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
-msgstr ""
+msgstr "Элемент жергілікті болып табылады"
 
 #. Translators: add a comment when a capability is already used by current
 #. item
 #: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
-msgstr ""
+msgstr "%s (әлдеқашан кірістірілген)"
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Жаңа мүмкіндік қосу"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
-msgstr ""
+msgstr "<b>Басқарылатын мүмкіндіктер</b>"
 
 #: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
-msgstr ""
+msgstr "Жаңа сұлбаны қосу"
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
-msgstr ""
+msgstr "<b>Сұлба</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
-msgstr ""
+msgstr "Пайдаланушының әрекеті салдарынан экспорттау тоқтатылды."
 
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
-msgstr ""
+msgstr "Сәтті экспортталды:"
 
 #: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
-msgstr ""
+msgstr "Таңдалған бумаға жазу рұқсатыңыз болмауы мүмкін."
 
 #: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
-msgstr ""
+msgstr "Әрекетті экспорттау"
 
 #: src/cact/cact-assistant-export.ui:96
 msgid "Which format should I choose to export it ?"
-msgstr ""
+msgstr "Оны экспорттау үшін қай пішімді таңдауым керек?"
 
 #: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
-msgstr ""
+msgstr "Кейінгі экспорттау операцияларында таңдауымды есте сақ_тау"
 
 #: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
-msgstr ""
+msgstr "Әрекеттерді экспорттау"
 
 #: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
-msgstr ""
+msgstr "Бұл көмекші сізге әрекеттерді экспорттау процесіне бағыт-бағдар береді."
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr ""
+msgstr "Әрекеттер _тізімі:"
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1368,171 +1668,178 @@ msgid ""
 "\n"
 "You may use Ctrl and Shift keys to extend the selection."
 msgstr ""
+"Экспортталатын бір немесе бірнеше әрекетті таңдаңыз.\n"
+"\n"
+"Таңдауды кеңейту үшін Ctrl және Shift пернелерін пайдалануға болады."
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
-msgstr ""
+msgstr "Экспортталатын әрекеттерді таңдау"
 
 #: src/cact/cact-assistant-export.ui:327
 msgid "Selecting the target folder"
-msgstr ""
+msgstr "Мақсатты буманы таңдау"
 
 #: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
-msgstr ""
+msgstr "Бұл элементтерді экспорттау кезінде қай пішімді пайдалануым керек?"
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
-msgstr ""
+msgstr "Экспорттау пішімін таңдау"
 
 #: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
-msgstr ""
+msgstr "Таңдалған элементтер экспортталуда:"
 
 #: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
-msgstr ""
+msgstr "Мақсатты бумаға:"
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "Қорытынды"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
-msgstr ""
+msgstr "Таңдалған элементтер өңделді:"
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "Экспорттау аяқталды"
 
 #. Translators: indicate that the file has been successfully imported
 #: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
-msgstr ""
+msgstr "Импорттау сәтті аяқталды"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
 #: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "Id.: %s\t%s"
 
 #. Translators: indicate that the file was not imported
 #: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
-msgstr ""
+msgstr "Импортталмады"
 
 #: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
-msgstr ""
+msgstr "Әрекеттерді импорттау"
 
 #: src/cact/cact-assistant-import.ui:19
 msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
 msgstr ""
+"Бұл көмекші сізге элементтерді, әрекеттерді немесе мәзірлерді импорттау "
+"процесіне бағыт-бағдар береді."
 
 #: src/cact/cact-assistant-import.ui:55
 msgid "Selecting files to import"
-msgstr ""
+msgstr "Импортталатын файлдарды таңдау"
 
 #: src/cact/cact-assistant-import.ui:81
 msgid "What should I do when importing an item whose ID already exists ?"
 msgstr ""
+"Идентификатор ID-і әлдеқашан бар элементті импорттаған кезде не істеу керек?"
 
 #: src/cact/cact-assistant-import.ui:122
 msgid "Managing duplicates"
-msgstr ""
+msgstr "Көшірмелерді басқару"
 
 #: src/cact/cact-assistant-import.ui:163
 msgid "About to import selected files:"
-msgstr ""
+msgstr "Таңдалған файлдар импортталуда:"
 
 #: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
-msgstr ""
+msgstr "ID-і әлдеқашан бар элементті импорттаған кезде:"
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
-msgstr ""
+msgstr "Таңдалған файлдар өңделді:"
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
-msgstr ""
+msgstr "Импорттау аяқталды"
 
 #: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
-msgstr ""
+msgstr "Caja контекст мәзірлеріне қосылатын элементтерді баптау"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 msgstr ""
+"caja;actions;configuration;tool;settings;MATE;filebrowser;әрекеттер;конфигурация;сайман;баптаулар;файлшолғыш;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
-msgstr ""
+msgstr "«%s» әрекеті экспортталуда."
 
 #. Translators: The menu <label> is about to be exported
 #: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
-msgstr ""
+msgstr "«%s» мәзірі экспортталуда."
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr ""
+msgstr "Ескерту: әрекет немесе мәзір үшін жапсырма міндетті болып табылады."
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
-msgstr ""
+msgstr "Негізгі атау сүзгісі"
 
 #: src/cact/cact-icapabilities-tab.c:198
 msgid "Capability filter"
-msgstr ""
+msgstr "Мүмкіндік сүзгісі"
 
 #: src/cact/cact-icommand-tab.c:567
 msgid "Choosing a command"
-msgstr ""
+msgstr "Команданы таңдау"
 
 #: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
-msgstr ""
+msgstr "Жұмыс бумасын таңдау"
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
-msgstr ""
+msgstr "Таңбаша таңдаушысы"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
-msgstr ""
+msgstr "_Темалық таңбашалар"
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
-msgstr ""
+msgstr "_Жол бойынша таңбашалар"
 
 #: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
-msgstr ""
+msgstr "(қатаң түрде кіші)"
 
 #: src/cact/cact-ienvironment-tab.c:72
 msgid "(equal to)"
-msgstr ""
+msgstr "(тең)"
 
 #: src/cact/cact-ienvironment-tab.c:73
 msgid "(strictly greater than)"
-msgstr ""
+msgstr "(қатаң түрде үлкен)"
 
 #: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
-msgstr ""
+msgstr "Орындалатын файлды таңдау"
 
 #: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
-msgstr ""
+msgstr "Бума сүзгісі"
 
 #. Translators: title of the FileChoose dialog when selecting an URI which
 #. * will be compare to Caja 'current_folder'
@@ -1542,7 +1849,7 @@ msgstr "Буманы таңдаңыз"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
-msgstr ""
+msgstr "MIME түрінің сүзгісі"
 
 #. Translators: label of the push button when there is not yet any shortcut
 #: src/cact/cact-iproperties-tab.c:53
@@ -1552,11 +1859,11 @@ msgstr "Жоқ"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "_Мәзір"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr ""
+msgstr "<b>Мәзірдің түзетілетін қасиеттері</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1566,99 +1873,108 @@ msgstr "Әр_екет"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr ""
+msgstr "<b>Әрекеттің түзетілетін қасиеттері</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
-msgstr ""
+msgstr "Сұлба сүзгісі"
 
 #: src/cact/cact-main-window.c:344
 msgid "Current NAObjectItem"
-msgstr ""
+msgstr "Ағымдағы NAObjectItem"
 
 #: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
 msgstr ""
+"Ағымда түзетіліп жатқан NAObjectItem нысанына, әрекетке немесе мәзірге "
+"нұсқағыш"
 
 #: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
-msgstr ""
+msgstr "Ағымдағы NAObjectProfile"
 
 #: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
-msgstr ""
+msgstr "Ағымда түзетіліп жатқан NAObjectProfile нысанына нұсқағыш"
 
 #: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
-msgstr ""
+msgstr "Ағымдағы NAIContext"
 
 #: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
-msgstr ""
+msgstr "Ағымда түзетіліп жатқан NAIContext нысанына нұсқағыш"
 
 #: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
-msgstr ""
+msgstr "Түзетілетін элемент пе?"
 
 #: src/cact/cact-main-window.c:366
 msgid "Whether the item will be able to be updated against its I/O provider"
-msgstr ""
+msgstr "Элементті оның Е/Ш провайдеріне сәйкес жаңарту мүмкін бола ма"
 
 #: src/cact/cact-main-window.c:373
 msgid "No edition reason"
-msgstr ""
+msgstr "Түзетуге болмау себебі"
 
 #: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
-msgstr ""
+msgstr "Бұл элемент неліктен түзетуге келмейді"
 
 #: src/cact/cact-main-window.c:1267
 msgid ""
 "One or more actions have been modified in the filesystem.\n"
 "You could keep to work with your current list of actions, or you may want to reload a fresh one."
 msgstr ""
+"Файлдық жүйеде бір немесе бірнеше әрекет өзгертілді.\n"
+"Сіз әрекеттердің ағымдағы тізімімен жұмысты жалғастыра аласыз немесе жаңасын "
+"қайта жүктей аласыз."
 
 #: src/cact/cact-main-window.c:1274
 msgid ""
 "Note that reloading a fresh list of actions requires that you give up with "
 "your current modifications."
 msgstr ""
+"Әрекеттердің жаңа тізімін қайта жүктеу ағымдағы өзгертулеріңізден бас "
+"тартуды талап ететінін ескеріңіз."
 
 #: src/cact/cact-main-window.c:1280
 msgid "Do you want to reload a fresh list of actions ?"
-msgstr ""
+msgstr "Әрекеттердің жаңа тізімін қайта жүктегіңіз келе ме?"
 
 #: src/cact/cact-main-window.c:1303
 msgid ""
 "Reloading a fresh list of actions requires that you give up with your "
 "current modifications."
 msgstr ""
+"Әрекеттердің жаңа тізімін қайта жүктеу ағымдағы өзгертулерден бас тартуды "
+"талап етеді."
 
 #: src/cact/cact-main-window.c:1306
 msgid "Do you really want to do this ?"
-msgstr ""
+msgstr "Мұны шынымен істегіңіз келе ме?"
 
 #: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
-msgstr ""
+msgstr "Кейбір элементтер өзгертілді."
 
 #: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
-msgstr ""
+msgstr "Оларды сақтамай шығуды шынымен қалайсыз ба?"
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
-msgstr ""
+msgstr "Біреуіне сәйкес келуі тиіс"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
-msgstr ""
+msgstr "Барлығына сәйкес келуі тиіс"
 
 #. Translators: label of the header of a column which let the user select a
 #. negative filter
 #: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
-msgstr ""
+msgstr "Ешбіріне сәйкес келмеуі тиіс"
 
 #: src/cact/cact-match-list.c:548
 #, c-format
@@ -1666,10 +1982,12 @@ msgid ""
 "'%s' filter already exists in the list.\n"
 "Please provide another one."
 msgstr ""
+"«%s» сүзгісі тізімде әлдеқашан бар.\n"
+"Басқасын ұсыныңыз."
 
 #: src/cact/cact-match-list.c:926
 msgid "new-filter"
-msgstr ""
+msgstr "жаңа-сүзгі"
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
@@ -1685,7 +2003,7 @@ msgstr "_Түрі"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "_Саймандар панельдері"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
@@ -1693,7 +2011,7 @@ msgstr "Са_ймандар"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "Сүйемелдеу_ші"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1701,37 +2019,37 @@ msgstr "Көм_ек"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
-msgstr ""
+msgstr "Панель _беттері"
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
-msgstr ""
+msgstr "Жаңа _мәзір"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. menu' item
 #: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
-msgstr ""
+msgstr "Ағымдағы орынға жаңа мәзір кірістіру"
 
 #: src/cact/cact-menubar.c:72
 msgid "_New action"
-msgstr ""
+msgstr "_Жаңа әрекет"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. action' item
 #: src/cact/cact-menubar.c:74
 msgid "Define a new action"
-msgstr ""
+msgstr "Жаңа әрекетті сипаттау"
 
 #: src/cact/cact-menubar.c:76
 msgid "New _profile"
-msgstr ""
+msgstr "Жаңа _профиль"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. profile' item
 #: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
-msgstr ""
+msgstr "Ағымдағы әрекетке бекітілген жаңа профильді сипаттау"
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
@@ -1742,6 +2060,8 @@ msgstr "_Сақтау"
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
 msgstr ""
+"Барлық өзгертілген әрекеттерді жазу. Жарамсыз әрекеттер ескертусіз өткізіліп "
+"жіберіледі"
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
@@ -1750,7 +2070,7 @@ msgstr "_Шығу"
 #. Translators: tooltip displayed in the status bar when selecting 'Quit' item
 #: src/cact/cact-menubar.c:86
 msgid "Quit the application"
-msgstr ""
+msgstr "Қолданбадан шығу"
 
 #: src/cact/cact-menubar.c:88
 msgid "Cu_t"
@@ -1760,7 +2080,7 @@ msgstr "Қ_иып алу"
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Таңдалған элемент(тер)ді алмасу буферіне қиып алу"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1770,7 +2090,7 @@ msgstr "_Көшіру"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Таңдалған элемент(тер)ді алмасу буферіне көшіру"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
@@ -1780,17 +2100,19 @@ msgstr "Кірі_стіру"
 #. item
 #: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
-msgstr ""
+msgstr "Алмасу буферінің мазмұнын дәл ағымдағы орынның алдына кірістіру"
 
 #: src/cact/cact-menubar.c:100
 msgid "Paste _into"
-msgstr ""
+msgstr "_Ішіне кірістіру"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. Into item
 #: src/cact/cact-menubar.c:102
 msgid "Insert the content of the clipboard as first child of the current item"
 msgstr ""
+"Алмасу буферінің мазмұнын ағымдағы элементтің бірінші еншілесі ретінде "
+"кірістіру"
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
@@ -1800,7 +2122,7 @@ msgstr "Қо_сарлау"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "Таңдалған элемент(тер)дің көшірмесін жасау"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
@@ -1810,11 +2132,11 @@ msgstr "Ө_шіру"
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "Таңдалған элемент(тер)ді өшіру"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr ""
+msgstr "Элементтерді қайта _жүктеу"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -1823,6 +2145,8 @@ msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
 msgstr ""
+"Ағымдағы өзгертулерден бас тартып, мәзірлер мен әрекеттердің бастапқы "
+"тізімін қайта жүктеу"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1832,87 +2156,89 @@ msgstr "Баптаулар"
 #. 'Preferences' item
 #: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
-msgstr ""
+msgstr "Баптауларыңызды түзету"
 
 #: src/cact/cact-menubar.c:120
 msgid "_Expand all"
-msgstr ""
+msgstr "Барлығын _жазу"
 
 #. Translators: tooltip displayed in the status bar when selecting the Expand
 #. all item
 #: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
-msgstr ""
+msgstr "Элементтер иерархиясын толығымен жазу"
 
 #: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
-msgstr ""
+msgstr "Барлығын _жию"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr ""
+msgstr "Элементтер иерархиясын толығымен жию"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
-msgstr ""
+msgstr "_Импорттау көмекшісі..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Import
 #. item
 #: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
 msgstr ""
+"Сыртқы файлдардан бір немесе бірнеше әрекетті конфигурацияңызға импорттау"
 
 #: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
-msgstr ""
+msgstr "_Экспорттау көмекшісі..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Export
 #. item
 #: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
 msgstr ""
+"Конфигурацияңыздан бір немесе бірнеше әрекетті сыртқы файлдарға экспорттау"
 
 #: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
-msgstr ""
+msgstr "Таңдаудың _дампын шығару"
 
 #. Translators: tooltip displayed in the status bar when selecting the Dump
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr ""
+msgstr "Таңдалған элементтердің рекурсивті дампын шығару"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
-msgstr ""
+msgstr "Ағаш сақтау орнының қысқаша _дампы"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. BriefTreeStoreDump item
 #: src/cact/cact-menubar.c:144
 msgid "Briefly dump the tree store"
-msgstr ""
+msgstr "Ағаш сақтау орнының қысқаша дампын шығару"
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr ""
+msgstr "Өзгертілген элементтер _тізімі"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
 #: src/cact/cact-menubar.c:148
 msgid "List the modified items"
-msgstr ""
+msgstr "Өзгертілген элементтерді тізіп шығу"
 
 #: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
-msgstr ""
+msgstr "Алмасу буферінің _дампын шығару"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr ""
+msgstr "Алмасу буфері объектісі мазмұнының дампын шығару"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -1922,7 +2248,7 @@ msgstr "Құрамасы"
 #. item
 #: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
-msgstr ""
+msgstr "Бұл бағдарлама туралы анықтаманы көрсету"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
@@ -1932,170 +2258,185 @@ msgstr "О_сы туралы"
 #. item
 #: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
-msgstr ""
+msgstr "Бұл бағдарлама туралы ақпаратты көрсету"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. File toolbar' item
 #: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
-msgstr ""
+msgstr "«Файл» саймандар панелін көрсету"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. Edit toolbar' item
 #: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
-msgstr ""
+msgstr "«Түзету» саймандар панелін көрсету"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
 #: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
-msgstr ""
+msgstr "«Саймандар» саймандар панелін көрсету"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr ""
+msgstr "«Көмек» саймандар панелін көрсету"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
-msgstr ""
+msgstr "_Сол жақта"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the left' item
 #: src/cact/cact-menubar.c:192
 msgid "Display the notebook tabs on the left side"
-msgstr ""
+msgstr "Панель беттерін сол жақта көрсету"
 
 #: src/cact/cact-menubar.c:194
 msgid "On the _right"
-msgstr ""
+msgstr "_Оң жақта"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the right' item
 #: src/cact/cact-menubar.c:196
 msgid "Display the notebook tabs on the right side"
-msgstr ""
+msgstr "Панель беттерін оң жақта көрсету"
 
 #: src/cact/cact-menubar.c:198
 msgid "On the _top"
-msgstr ""
+msgstr "Жоғ_арыда"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the top' item
 #: src/cact/cact-menubar.c:200
 msgid "Display the notebook tabs on the top side"
-msgstr ""
+msgstr "Панель беттерін жоғарғы жағында көрсету"
 
 #: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
-msgstr ""
+msgstr "_Төменде"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the bottom' item
 #: src/cact/cact-menubar.c:204
 msgid "Display the notebook tabs on the bottom side"
-msgstr ""
+msgstr "Панель беттерін төменгі жағында көрсету"
 
 #: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
-msgstr ""
+msgstr " Қазіргі уақытта %d мәзір, %d әрекет, %d профиль жүктелген"
 
 #: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
 msgstr ""
+"Келесі элементтер өзгертілмейтін болғандықтан барлық элементтер қиылмады:"
 
 #: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
 msgstr ""
+"Келесі элементтер өзгертілмейтін болғандықтан барлық элементтер өшірілмеді:"
 
 #: src/cact/cact-menubar-file.c:52
 msgid "Save error"
-msgstr ""
+msgstr "Сақтау қатесі"
 
 #: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
-msgstr ""
+msgstr "Кейбір элементтер сақталмаған болуы мүмкін"
 
 #: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
-msgstr ""
+msgstr "Нөлдік деңгейдегі элементтер тізімін қайта жазу мүмкін емес"
 
 #: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
-msgstr ""
+msgstr "Кейбір элементтер өшірілмеді"
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
-msgstr ""
+msgstr "Жаңа профиль"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
-msgstr ""
+msgstr "Күтуде тұрған өзгертулер автоматты түрде сақталуда..."
 
 #: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
-msgstr ""
+msgstr "Caja-Actions баптаулары"
 
 #: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
-msgstr ""
+msgstr "Әліпби бойынша ө_су ретімен"
 
 #: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Мәзірлер мен әрекеттер олардың жапсырмасының әліпбилік өсу ретімен Caja "
+"контекст мәзірінде де, CACT пайдаланушы интерфейсінде де көрсетіледі."
 
 #: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
-msgstr ""
+msgstr "Әліпби бойынша к_ему ретімен"
 
 #: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Мәзірлер мен әрекеттер олардың жапсырмасының әліпбилік кему ретімен Caja "
+"контекст мәзірінде де, CACT пайдаланушы интерфейсінде де көрсетіледі."
 
 #: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
-msgstr ""
+msgstr "Қо_лмен реттеу"
 
 #: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
 msgstr ""
+"Мәзірлер мен әрекеттердің Caja контекст мәзірінде және CACT интерфейсінде "
+"көрсетілу реті қолмен реттелуі тиіс."
 
 #: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
-msgstr ""
+msgstr "<b>Элементтерді реттеу</b>"
 
 #: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
-msgstr ""
+msgstr "Түбірлік «Caja-Actions» мәзірін _жасау"
 
 #: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
+"Бұл опция белгіленген кезде мәзірлер мен әрекеттер Caja контекст мәзірінде "
+"түбірлік 'Caja-Actions' мәзірінің ішкі элементтері ретінде көрсетіледі."
 
 #: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
-msgstr ""
+msgstr "Caja контекст мәзірлеріне «Caja-Actions ту_ралы» элементін қосу"
 
 #: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
 msgstr ""
+"Бұл опция белгіленген кезде Caja контекст мәзіріндегі түбірлік Caja-Actions "
+"мәзіріне «Caja-Actions туралы» элементі қосылады.\n"
+"Бұл элемент тек Caja контекст мәзірінде бірегей мәзір анықталған кезде ғана "
+"көрсетілетінін ескеріңіз (мысалы, жоғарыдағы түбірлік «Caja-Actions» мәзірі "
+"опциясы белгіленгенде)."
 
 #: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
-msgstr ""
+msgstr "<b>Caja мәзірінің жаймасы</b>"
 
 #: src/cact/cact-preferences.ui:263
 msgid ""
@@ -2103,86 +2444,101 @@ msgid ""
 "as well as in the Caja context menu. You may also choose here how actions "
 "will be displayed in the Caja context menu."
 msgstr ""
+"Бұл бет көрсетілетін тізімде және Caja контекст мәзірінде әрекеттердің ретін "
+"таңдауға мүмкіндік береді. Сондай-ақ әрекеттердің Caja контекст мәзірінде "
+"қалай көрсетілетінін де осы жерден таңдай аласыз."
 
 #: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
-msgstr ""
+msgstr "Орындау ортасының _баптаулары"
 
 #: src/cact/cact-preferences.ui:298
 msgid ""
 "Specify here the command to run and keep opened a terminal.\n"
 "This command should include a 'COMMAND' keyword, which will be substituted at runtime with the action path and parameters."
 msgstr ""
+"Терминалды іске қосатын және ашық ұстайтын команданы осында көрсетіңіз.\n"
+"Бұл команда құрамында орындалу уақытында әрекет жолымен және параметрлермен "
+"алмастырылатын 'COMMAND' кілтсөзі болуы керек."
 
 #: src/cact/cact-preferences.ui:331
 msgid "_Command pattern :"
-msgstr ""
+msgstr "_Команда өрнегі:"
 
 #: src/cact/cact-preferences.ui:359
 msgid "<b>Execution in a terminal</b>"
-msgstr ""
+msgstr "<b>Терминалда орындау</b>"
 
 #: src/cact/cact-preferences.ui:399
 msgid "Running _desktop environment :"
-msgstr ""
+msgstr "Орындалудағы жұмыс үстелі _ортасы:"
 
 #: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
-msgstr ""
+msgstr "<i>Ағымда анықталған:</i>"
 
 #: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
-msgstr ""
+msgstr "<b>Жұмыс үстелі ортасы</b>"
 
 #: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
 msgstr ""
+"Бұл бет кейбір орындау режимдері үшін қажетті параметрлерді көрсетуге "
+"мүмкіндік береді."
 
 #: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
-msgstr ""
+msgstr "Орындау ортасын_да орындау"
 
 #: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
 msgstr ""
+"Ағашта элементті кірістіру немесе көшірмесін жасау кезінде не істеу керек?"
 
 #: src/cact/cact-preferences.ui:534
 msgid "Relabel _menus"
-msgstr ""
+msgstr "_Мәзірлер атауын өзгерту"
 
 #: src/cact/cact-preferences.ui:538
 msgid ""
 "When a menu is copied/pasted, or duplicated, the new menu will be relabelled"
 " as 'Copy of ...'."
 msgstr ""
+"Мәзір көшірілгенде/кірістірілгенде немесе көшірмесі жасалғанда жаңа мәзір "
+"«... көшірмесі» деп қайта аталады."
 
 #: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
-msgstr ""
+msgstr "Әр_екеттер атауын өзгерту"
 
 #: src/cact/cact-preferences.ui:555
 msgid ""
 "When an action is copied/pasted, or duplicated, the new action will be "
 "relabelled as 'Copy of ...'."
 msgstr ""
+"Әрекет көшірілгенде/кірістірілгенде немесе көшірмесі жасалғанда жаңа әрекет "
+"«... көшірмесі» деп қайта аталады."
 
 #: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
-msgstr ""
+msgstr "Пр_офильдер атауын өзгерту"
 
 #: src/cact/cact-preferences.ui:572
 msgid ""
 "When a profile is copied/pasted, or duplicated, the new profile will be "
 "relabelled as 'Copy of ...'."
 msgstr ""
+"Профиль көшірілгенде/кірістірілгенде немесе көшірмесі жасалғанда жаңа "
+"профиль «... көшірмесі» деп қайта аталады."
 
 #: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
-msgstr ""
+msgstr "<b>Элементтердің атауын өзгерту</b>"
 
 #: src/cact/cact-preferences.ui:631
 msgid "Esc key _quits the assistant"
-msgstr ""
+msgstr "Esc пернесі көмекшіден _шығарады"
 
 #: src/cact/cact-preferences.ui:635
 msgid ""
@@ -2190,10 +2546,13 @@ msgid ""
 "assistant. Else, quitting the assistant is only possible by hitting the "
 "'Cancel' button."
 msgstr ""
+"Бұл опция белгіленген кезде 'Escape' пернесі ағымдағы көмекшіден шығуға "
+"мүмкіндік береді. Әйтпесе, көмекшіден шығу тек «Бас тарту» батырмасын басу "
+"арқылы ғана мүмкін болады."
 
 #: src/cact/cact-preferences.ui:648
 msgid "Ask for a _confirmation when quitting the assistant on Esc key"
-msgstr ""
+msgstr "Esc пернесімен көмекшіден шыққан кезде _растауды сұрау"
 
 #: src/cact/cact-preferences.ui:652
 msgid ""
@@ -2201,24 +2560,29 @@ msgid ""
 "assistant. When checked, the user will be prompted for a confirmation in "
 "order to help prevent erroneous hits of the Esc key."
 msgstr ""
+"Бұл опция тек 'Escape' пернесі пайдаланушыға көмекшіден шығуға мүмкіндік "
+"бергенде ғана маңызды. Белгіленген кезде Esc пернесін байқаусызда басып "
+"қалуды болдырмау үшін пайдаланушыдан растау сұралады."
 
 #: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
-msgstr ""
+msgstr "<b>Көмекшілер</b>"
 
 #: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
-msgstr ""
+msgstr "Күтудегі өзгертулерді автоматты түрде _сақтау"
 
 #: src/cact/cact-preferences.ui:711
 msgid ""
 "When this option is checked, pending modification will be periodically and "
 "automatically saved."
 msgstr ""
+"Бұл опция белгіленген кезде күтудегі өзгертулер мезгіл-мезгіл автоматты "
+"түрде сақталып тұрады."
 
 #: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
-msgstr ""
+msgstr "Мерзімділігі:"
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
@@ -2226,51 +2590,59 @@ msgstr "минут"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
-msgstr ""
+msgstr "<b>Автосақтау</b>"
 
 #: src/cact/cact-preferences.ui:809
 msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
 msgstr ""
+"Бұл бет Caja-Actions конфигурация сайманының пайдаланушы интерфейсі үшін "
+"жеке баптауларды таңдауға мүмкіндік береді."
 
 #: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
-msgstr ""
+msgstr "_Интерфейс баптаулары"
 
 #: src/cact/cact-preferences.ui:847
 msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
 msgstr ""
+"Импорттау үшін таңдалған элементтің, әрекеттің немесе мәзірдің "
+"идентификаторы қазіргі бар элементпен бірдей болса, не істеу керек?"
 
 #: src/cact/cact-preferences.ui:883
 msgid "<b>Import mode</b>"
-msgstr ""
+msgstr "<b>Импорттау режимі</b>"
 
 #: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
 msgstr ""
+"Бұл бет импорттау операцияларының үнсіз келісім бойынша әрекетін анықтауға "
+"мүмкіндік береді."
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "_Импорт"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
-msgstr ""
+msgstr "Таңдаулы экспорттау пішіміңіз қандай?"
 
 #: src/cact/cact-preferences.ui:977
 msgid "<b>Export format</b>"
-msgstr ""
+msgstr "<b>Экспорттау пішімі</b>"
 
 #: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
 msgstr ""
+"Бұл бет экспорттау операцияларының үнсіз келісім бойынша әрекетін анықтауға "
+"мүмкіндік береді."
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "_Экспорт"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2278,28 +2650,35 @@ msgid ""
 "If the list becomes empty, CACT will automatically refill in with this default list.\n"
 "You can add a new scheme by clicking on the '+' button."
 msgstr ""
+"Осында сұлбалардың кез келген санын анықтай аласыз. Олар әрекет үшін "
+"шарттарды сипаттау кезінде бастапқы сұлбалар ретінде ұсынылады.\n"
+"Егер тізім бос болып қалса, CACT оны осы бастапқы тізіммен автоматты түрде "
+"қайта толтырады.\n"
+"Жаңа сұлбаны «+» батырмасын шерту арқылы қоса аласыз."
 
 #: src/cact/cact-preferences.ui:1070
 msgid "Click to add a new default scheme."
-msgstr ""
+msgstr "Жаңа бастапқы сұлбаны қосу үшін шертіңіз."
 
 #: src/cact/cact-preferences.ui:1091
 msgid "Click to remove the selected default scheme."
-msgstr ""
+msgstr "Таңдалған бастапқы сұлбаны өшіру үшін шертіңіз."
 
 #: src/cact/cact-preferences.ui:1123
 msgid "<b>Default schemes</b>"
-msgstr ""
+msgstr "<b>Бастапқы сұлбалар</b>"
 
 #: src/cact/cact-preferences.ui:1143
 msgid ""
 "This tab lets you decide which schemes are proposed by default when editing "
 "advanced conditions for an item."
 msgstr ""
+"Бұл бет элемент үшін кеңейтілген шарттарды өңдеу кезінде үнсіз келісім "
+"бойынша қандай сұлбалар ұсынылатынын шешуге мүмкіндік береді."
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
-msgstr ""
+msgstr "_Сұлбалар"
 
 #: src/cact/cact-preferences.ui:1186
 msgid ""
@@ -2307,6 +2686,9 @@ msgid ""
 "startup, to be writable, and the order in which they will be tested when "
 "trying to write a new menu or action."
 msgstr ""
+"Қолжетімді Е/Ш провайдерлері үшін олар іске қосылғанда оқылуы керек пе, "
+"жазуға бола ма және жаңа мәзірді не әрекетті жазуға әрекеттенгенде қандай "
+"ретпен тексерілетінін осында сипаттаңыз."
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
@@ -2317,483 +2699,509 @@ msgid ""
 "Move up the selected I/O provider in the order of priority when trying to "
 "write a new item."
 msgstr ""
+"Жаңа элементті жазуға әрекеттенген кезде таңдалған Е/Ш провайдерін басымдық "
+"реті бойынша жоғары жылжыту."
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
-msgstr ""
+msgstr "_Төмен"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
-msgstr ""
+msgstr "<b>Белсендіру және басымдық</b>"
 
 #: src/cact/cact-preferences.ui:1278
 msgid ""
 "This tab lets you decide whether the I/O providers are enabled or not, and "
 "in which order they will be tried when writing a new item."
 msgstr ""
+"Бұл бет Е/Ш провайдерлерінің іске қосылған-қосылмағанын және жаңа элементті "
+"жазу кезінде олар қандай ретпен қолданылатынын шешуге мүмкіндік береді."
 
 #: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
-msgstr ""
+msgstr "Е/Ш _провайдерлері"
 
 #. Translators: the user is not willing to identify his current desktop
 #. environment,
 #. *       and prefers rely on the runtime detection
 #: src/cact/cact-preferences-editor.c:118
 msgid "Rely on runtime detection"
-msgstr ""
+msgstr "Орындалу ортасындағы анықтауға сүйену"
 
 #: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
-msgstr ""
+msgstr "Мыс.:"
 
 #: src/cact/cact-providers-list.c:136
 msgid "Readable"
-msgstr ""
+msgstr "Оқылатын"
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "Жазылатын"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
-msgstr ""
+msgstr "Е/Ш провайдері"
 
 #. Translators: default name when the I/O providers doesn't provide one
 #: src/cact/cact-providers-list.c:260
 msgid "no name"
-msgstr ""
+msgstr "атаусыз"
 
 #. Translators: name displayed when the corresponding I/O provider is
 #. unavailable at runtime
 #: src/cact/cact-providers-list.c:264
 msgid "unavailable I/O provider"
-msgstr ""
+msgstr "қолжетімсіз Е/Ш провайдері"
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "Кілтсөз"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
-msgstr ""
+msgstr "Жергілікті файлдар"
 
 #: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
-msgstr ""
+msgstr "SSH файлдары"
 
 #: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
-msgstr ""
+msgstr "Windows файлдары"
 
 #: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
-msgstr ""
+msgstr "FTP файлдары"
 
 #: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
-msgstr ""
+msgstr "WebDAV файлдары"
 
 #. Translators: add a comment when a scheme is already used by current item
 #: src/cact/cact-schemes-list.c:400
 #, c-format
 msgid "%s (already used)"
-msgstr ""
+msgstr "%s (әлдеқашан қолданыста)"
 
 #: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
-msgstr ""
+msgstr "жаңа-сұлба"
 
 #: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
-msgstr ""
+msgstr "Жаңа сұлба сипаттамасы"
 
 #: src/cact/cact-tree-model.c:226
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
 msgstr ""
+"Ендірілген ағаш көрінісінің ата-аналық BaseWindow-ына нұсқағыш (сілтеме емес)"
 
 #: src/cact/cact-tree-model.c:232
 msgid "Embedding GtkTreeView"
-msgstr ""
+msgstr "Ендірілген GtkTreeView"
 
 #: src/cact/cact-tree-model.c:233
 msgid "The GtkTreeView which relies on this CactTreeModel"
-msgstr ""
+msgstr "Осы CactTreeModel-ге негізделген GtkTreeView"
 
 #: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
-msgstr ""
+msgstr "Түзету режимі"
 
 #: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
-msgstr ""
+msgstr "Түзету және таңдау режимі"
 
 #: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
-msgstr ""
+msgstr "Профильді мұнда тастау мүмкін емес"
 
 #: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
-msgstr ""
+msgstr "Әрекетті немесе мәзірді мұнда тастау мүмкін емес"
 
 #: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
-msgstr ""
+msgstr "Ата-ана жазуға жабық болғандықтан мұнда тастау мүмкін емес"
 
 #: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
-msgstr ""
+msgstr "Нөлдік деңгей жазуға жабық болғандықтан мұнда тастау мүмкін емес"
 
 #: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
-msgstr ""
+msgstr "Тастау операциясы кезінде кейбір хабарламалар орын алды."
 
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
-msgstr ""
+msgstr "BaseWindow"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:217
 msgid "The BaseWindow parent"
-msgstr ""
+msgstr "Ата-аналық BaseWindow"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "Контейнер"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView виджетін қамтитын GtkContainer"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
 msgid "Widget name"
-msgstr ""
+msgstr "Виджет атауы"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView виджетінің атауы"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:243
 msgid "Management mode"
-msgstr ""
+msgstr "Басқару режимі"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
-msgstr ""
+msgstr "Ағаш көрінісін басқару режимі, таңдау немесе түзету"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:255
 msgid "Allow notify"
-msgstr ""
+msgstr "Хабарландыруға рұқсат ету"
 
 #. Translators: CactTreeView property loong description
 #: src/cact/cact-tree-view.c:257
 msgid "Whether notifications are allowed"
-msgstr ""
+msgstr "Хабарландыруларға рұқсат етілген бе"
 
 #: src/cact/caja-actions-config-tool.ui:16
 msgid "End of session"
-msgstr ""
+msgstr "Сеанс соңы"
 
 #: src/cact/caja-actions-config-tool.ui:122
 msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
-msgstr ""
+msgstr "<span size=\"larger\"><b>Параметрлер шартты белгілері</b></span>"
 
 #: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
-msgstr ""
+msgstr "<b>%b</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
-msgstr ""
+msgstr "(бірінші) негізгі атау."
 
 #: src/cact/caja-actions-config-tool.ui:184
 msgid "count of selected item(s)."
-msgstr ""
+msgstr "таңдалған элемент(тер) саны."
 
 #: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
-msgstr ""
+msgstr "(бірінші) негізгі бума."
 
 #: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
 msgstr ""
+"таңдалған файл(дар)/бума(лар) негізгі бумаларының бос орынмен бөлінген "
+"тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:220
 msgid "port number of the (first) selected URI."
-msgstr ""
+msgstr "(бірінші) таңдалған URI порт нөмірі."
 
 #: src/cact/caja-actions-config-tool.ui:232
 msgid "scheme of the (first) selected URI."
-msgstr ""
+msgstr "(бірінші) таңдалған URI сұлбасы."
 
 #: src/cact/caja-actions-config-tool.ui:244
 msgid "(first) URI."
-msgstr ""
+msgstr "(бірінші) URI."
 
 #: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
 msgstr ""
+"таңдалған файл(дар)/бума(лар) URI мекенжайларының бос орынмен бөлінген "
+"тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
-msgstr ""
+msgstr "пайыз таңбасы."
 
 #: src/cact/caja-actions-config-tool.ui:280
 msgid "(first) filename."
-msgstr ""
+msgstr "(бірінші) файл атауы."
 
 #: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
 msgstr ""
+"таңдалған файл(дар)/бума(лар) файл атауларының бос орынмен бөлінген тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
-msgstr ""
+msgstr "(бірінші) таңдалған URI хост атауы."
 
 #: src/cact/caja-actions-config-tool.ui:316
 msgid "username of the (first) selected URI."
-msgstr ""
+msgstr "(бірінші) таңдалған URI пайдаланушы аты."
 
 #: src/cact/caja-actions-config-tool.ui:328
 msgid "(first) basename without the extension."
-msgstr ""
+msgstr "кеңейтусіз (бірінші) негізгі атау."
 
 #: src/cact/caja-actions-config-tool.ui:340
 msgid "space-separated list of the basenames without the extension."
-msgstr ""
+msgstr "кеңейтусіз негізгі атаулардың бос орынмен бөлінген тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:352
 msgid "(first) extension."
-msgstr ""
+msgstr "(бірінші) кеңейту."
 
 #: src/cact/caja-actions-config-tool.ui:364
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
 msgstr ""
+"таңдалған файл(дар)/бума(лар) кеңейтулерінің бос орынмен бөлінген тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
-msgstr ""
+msgstr "(бірінші) MIME түрі."
 
 #: src/cact/caja-actions-config-tool.ui:388
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
 msgstr ""
+"таңдалған файл(дар)/бума(лар) MIME түрлерінің бос орынмен бөлінген тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
-msgstr ""
+msgstr "орындаудың жекеше түрін мәжбүрлейтін no-op операторы."
 
 #: src/cact/caja-actions-config-tool.ui:412
 msgid "no-op operator which forces a plural form of execution."
-msgstr ""
+msgstr "орындаудың көпше түрін мәжбүрлейтін no-op операторы."
 
 #: src/cact/caja-actions-config-tool.ui:423
 msgid "<b>%B</b> :"
-msgstr ""
+msgstr "<b>%B</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:436
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
 msgstr ""
+"таңдалған файл(дар)/бума(лар) негізгі атауларының бос орынмен бөлінген "
+"тізімі."
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
 msgid "<b>%o</b> :"
-msgstr ""
+msgstr "<b>%o</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
-msgstr ""
+msgstr "<b>%O</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:579
 #, c-format
 msgid "<b>%p</b> :"
-msgstr ""
+msgstr "<b>%p</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:591
 #, c-format
 msgid "<b>%s</b> :"
-msgstr ""
+msgstr "<b>%s</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:603
 #, c-format
 msgid "<b>%u</b> :"
-msgstr ""
+msgstr "<b>%u</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
-msgstr ""
+msgstr "<b>%U</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
-msgstr ""
+msgstr "<b>%w</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
-msgstr ""
+msgstr "<b>%W</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:651
 #, c-format
 msgid "<b>%x</b> :"
-msgstr ""
+msgstr "<b>%x</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:663
 #, c-format
 msgid "<b>%X</b> :"
-msgstr ""
+msgstr "<b>%X</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:675
 #, c-format
 msgid "<b>%%</b> :"
-msgstr ""
+msgstr "<b>%%</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr ""
+msgstr "Элементтер _тізімі:"
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
-msgstr ""
+msgstr "Тізімді әліпби бойынша кему ретімен сұрыптау."
 
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
-msgstr ""
+msgstr "Элементтер ретін қолмен реттеу үшін тізімді сұрыптамау."
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
-msgstr ""
+msgstr "Тізімді әліпби бойынша өсу ретімен сұрыптау."
 
 #: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
-msgstr ""
+msgstr "Элементті _таңдау контекст мәзірінде көрсету"
 
 #: src/cact/caja-actions-config-tool.ui:923
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager"
 " context menu, with a non-empty selection."
 msgstr ""
+"Белгіленген кезде элемент бос емес таңдаумен бірге файл менеджерінің "
+"контекст мәзірінде көрсетілуге кандидат болады."
 
 #: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
-msgstr ""
+msgstr "Файл менеджерінің контекст мәзірлеріндегі элементтің жапсырмасы."
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
-msgstr ""
+msgstr "Элементті _орналасу контекст мәзірінде көрсету"
 
 #: src/cact/caja-actions-config-tool.ui:954
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager context menu when the selection is empty.\n"
 "In this case, the defined conditions will be applied to the current displayed folder."
 msgstr ""
+"Белгіленген кезде таңдау бос болған кезде элемент файл менеджерінің контекст "
+"мәзірінде көрсетілуге кандидат болады.\n"
+"Бұл жағдайда анықталған шарттар ағымдағы көрсетілген бумаға қолданылады."
 
 #: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
-msgstr ""
+msgstr "_Контекст жапсырмасы:"
 
 #: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
-msgstr ""
+msgstr "Элементті _саймандар панелінде көрсету"
 
 #: src/cact/caja-actions-config-tool.ui:985
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager toolbar.\n"
 "In this case, the defined conditions will be applied to the current folder, and do not depend of the possible current selection."
 msgstr ""
+"Белгіленген кезде элемент файл менеджерінің саймандар панелінде көрсетілуге "
+"кандидат болады.\n"
+"Бұл жағдайда анықталған шарттар ағымдағы бумаға қолданылады және ықтимал "
+"ағымдағы таңдауға байланысты болмайды."
 
 #: src/cact/caja-actions-config-tool.ui:998
 msgid "Use s_ame label for icon in the toolbar"
-msgstr ""
+msgstr "Саймандар панеліндегі таңбаша үшін дәл с_ол жапсырманы пайдалану"
 
 #: src/cact/caja-actions-config-tool.ui:1002
 msgid ""
 "When checked, the label displayed in the toolbar will be the same that the "
 "one displayed in the context menus."
 msgstr ""
+"Белгіленген кезде саймандар панелінде көрсетілетін жапсырма контекст "
+"мәзірлерінде көрсетілген жапсырмамен бірдей болады."
 
 #: src/cact/caja-actions-config-tool.ui:1017
 msgid "T_oolbar label :"
-msgstr ""
+msgstr "Сайманда_р панелінің жапсырмасы:"
 
 #: src/cact/caja-actions-config-tool.ui:1029
 msgid "The label displayed in the file manager toolbar."
-msgstr ""
+msgstr "Файл менеджерінің саймандар панелінде көрсетілетін жапсырма."
 
 #: src/cact/caja-actions-config-tool.ui:1045
 msgid "Toolti_p :"
-msgstr ""
+msgstr "Қалқымалы кең_ес:"
 
 #: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
-msgstr ""
+msgstr "_Таңбаша:"
 
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
 msgstr ""
+"Файл менеджерінің пайдаланушы интерфейсінде көрсетілетін қалқымалы кеңес."
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
-msgstr ""
+msgstr "Файл менеджерінің пайдаланушы интерфейсінде көрсетілетін таңбаша."
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
-msgstr ""
+msgstr "Темалық таңбашаның атауы немесе сурет файлының атауы."
 
 #: src/cact/caja-actions-config-tool.ui:1129
 #: src/cact/caja-actions-config-tool.ui:1441
@@ -2803,63 +3211,68 @@ msgstr "Қара_п шығу..."
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
-msgstr ""
+msgstr "<b>Caja элементі</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1196
 msgid ""
 "This tab lets you determine the main characteristics of the currently "
 "selected item."
 msgstr ""
+"Бұл бет ағымда таңдалған элементтің негізгі сипаттамаларын анықтауға "
+"мүмкіндік береді."
 
 #: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
-msgstr ""
+msgstr "Бұл профильді не үшін жасағаныңызды еске салатын жай ғана жапсырма."
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
-msgstr ""
+msgstr "_Жапсырма:"
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>Профиль</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
 "The path of the command.\n"
 "If this is not an absolute path, then the PATH environment variable at execution time will be considered."
 msgstr ""
+"Команданың жолы.\n"
+"Егер бұл абсолютті жол болмаса, орындау кезінде PATH орта айнымалысы "
+"ескеріледі."
 
 #: src/cact/caja-actions-config-tool.ui:1331
 msgid "The parameters of the command."
-msgstr ""
+msgstr "Команданың параметрлері."
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "Шартты бел_гілер"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
-msgstr ""
+msgstr "Команда іске қосылуы тиіс бастапқы жұмыс бумасы."
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "_Шолу..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "Мысал"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
-msgstr ""
+msgstr "_Жол:"
 
 #: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
-msgstr ""
+msgstr "_Параметрлер:"
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr ""
+msgstr "_Жұмыс бумасы:"
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -2870,42 +3283,50 @@ msgid ""
 "This tab lets you choose the command to be executed, along with its parameters.\n"
 "Defining several profiles lets you have several commands, each applying with a different set of conditions."
 msgstr ""
+"Бұл бет орындалатын команданы және оның параметрлерін таңдауға мүмкіндік "
+"береді.\n"
+"Бірнеше профильді анықтау әрқайсысы әртүрлі шарттар жиынтығымен қолданылатын "
+"бірнеше командаға ие болуға мүмкіндік береді."
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "_Команда"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "Қ_алыпты"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
 msgstr ""
+"Команда стандартты графикалық пайдаланушы интерфейсі ретінде іске қосылады."
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
-msgstr ""
+msgstr "_Терминалда"
 
 #: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
 "The command will be started in the preferred terminal of the graphical "
 "environment."
-msgstr ""
+msgstr "Команда графикалық ортаның таңдаулы терминалында іске қосылады."
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "_Ендірілген"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"Бұл опция терминалды файл менеджерінің ішінде орындауға мүмкіндік беретін "
+"оның арнайы мүмкіндігін пайдаланады.\n"
+"Қолайлы балама — стандартты терминалда орындау."
 
 #: src/cact/caja-actions-config-tool.ui:1616
 msgid "_Display output"
-msgstr ""
+msgstr "Шығысты көрс_ету"
 
 #: src/cact/caja-actions-config-tool.ui:1620
 msgid ""
@@ -2913,18 +3334,22 @@ msgid ""
 "The terminal will be closed at the end of the execution; standard error and output streams will be displayed.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"Команда терминалда орындалады.\n"
+"Орындау аяқталғанда терминал жабылады; стандартты қателер мен шығыс ағындары "
+"көрсетіледі.\n"
+"Қолайлы балама — стандартты терминалда орындау."
 
 #: src/cact/caja-actions-config-tool.ui:1662
 msgid "<b>Execution mode</b>"
-msgstr ""
+msgstr "<b>Орындау режимі</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1677
 msgid "Note: this is not yet implemented in Caja-Actions.\n"
-msgstr ""
+msgstr "Ескертпе: бұл мүмкіндік Caja-Actions ішінде әлі іске асырылмаған.\n"
 
 #: src/cact/caja-actions-config-tool.ui:1699
 msgid "_Startup notify"
-msgstr ""
+msgstr "Іске қосылу туралы _хабарландыру"
 
 #: src/cact/caja-actions-config-tool.ui:1703
 msgid ""
@@ -2932,6 +3357,11 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"Белгіленген кезде орындалатын команда жұмыс үстелі ортасына «remove» "
+"хабарламасын жіберетіні белгілі болады.\n"
+"Толығырақ ақпаратты Іске қосылу туралы хабарландыру хаттамасының "
+"спецификациясынан қараңыз.\n"
+"Тек таңдалған орындау режимі «Қалыпты» болғанда ғана маңызды."
 
 #: src/cact/caja-actions-config-tool.ui:1718
 msgid ""
@@ -2939,22 +3369,27 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"Көрсетілген кезде бұл орындалатын команданың кем дегенде бір терезесінің WM "
+"класының атауы болуы керек.\n"
+"Толығырақ ақпаратты Іске қосылу туралы хабарландыру хаттамасының "
+"спецификациясынан қараңыз.\n"
+"Тек таңдалған орындау режимі «Қалыпты» болғанда ғана маңызды."
 
 #: src/cact/caja-actions-config-tool.ui:1735
 msgid "Startup Window Manager _class :"
-msgstr ""
+msgstr "Іске қосылу терезе басқарушысының _класы:"
 
 #: src/cact/caja-actions-config-tool.ui:1756
 msgid "<b>Startup mode</b>"
-msgstr ""
+msgstr "<b>Іске қосылу режимі</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1771
 msgid "Note: this is not yet implemented in Caja-Actions."
-msgstr ""
+msgstr "Ескертпе: бұл мүмкіндік Caja-Actions ішінде әлі іске асырылмаған."
 
 #: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
-msgstr ""
+msgstr "Пайдаланушы атынан _орындау:"
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
@@ -2962,20 +3397,25 @@ msgid ""
 "The user may be defined by his numeric UID or his login name.\n"
 "Leave the field empty to run the command as the current user."
 msgstr ""
+"Команда қай пайдаланушы ретінде орындалуы керек екенін осында енгізіңіз.\n"
+"Пайдаланушы сандық UID арқылы немесе логин атауы бойынша анықталуы мүмкін.\n"
+"Команданы ағымдағы пайдаланушы ретінде орындау үшін өрісті бос қалдырыңыз."
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>Пайдаланушы ретінде орындау</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
 "This advanced tab lets you precisely define how your command will be "
 "executed."
 msgstr ""
+"Бұл кеңейтілген бет командаңыздың қалай орындалатынын дәл анықтауға "
+"мүмкіндік береді."
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "Оры_ндау"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -2983,6 +3423,9 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"Ағымдағы элемент егер таңдаудың әрбір элементінің негізгі атауы «Біреуіне "
+"сәйкес келуі тиіс» бағанының бір сүзгісіне сәйкес келіп, «Ешбіріне сәйкес "
+"келмеуі тиіс» бағанының ешбір сүзгісіне сәйкес келмесе, пайда болады."
 
 #: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
@@ -2990,36 +3433,47 @@ msgid ""
 "Basenames may use '*' and '?' wildcards.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"Бұл тізім ағымда таңдалған элемент Caja контекст мәзірінде қай негізгі "
+"атаулар үшін көрсетілетінін анықтауға мүмкіндік береді.\n"
+"Негізгі атауларда '*' және '?' алмастырғыш таңбаларын пайдалануға болады.\n"
+"Элементіңіз қай негізгі атаулар үшін көрсетілмеуі тиіс екенін көрсету үшін "
+"негізгі атауларды теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:1945
 msgid "Click to add a new basename filter."
-msgstr ""
+msgstr "Жаңа негізгі атау сүзгісін қосу үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:1965
 msgid "Click to remove the current basename filter."
-msgstr ""
+msgstr "Ағымдағы негізгі атау сүзгісін өшіру үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:1996
 msgid "Match _case"
-msgstr ""
+msgstr "Регистрді еск_еру"
 
 #: src/cact/caja-actions-config-tool.ui:2000
 msgid "Click to define the above basename filters as case sensitive."
 msgstr ""
+"Жоғарыдағы негізгі атау сүзгілерін регистрді ескеретін етіп анықтау үшін "
+"шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2022
 msgid "<b>Basenames conditions</b>"
-msgstr ""
+msgstr "<b>Негізгі атау шарттары</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2042
 msgid ""
 "This tab lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"Бұл бет ағымда таңдалған элемент Caja контекст мәзірінде қай негізгі атаулар "
+"үшін көрсетілетінін анықтауға мүмкіндік береді.\n"
+"Элементіңіз қай негізгі атаулар үшін көрсетілмеуі тиіс екенін көрсету үшін "
+"негізгі атауларды теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "_Негізгі атаулар"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3027,6 +3481,9 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"Ағымдағы элемент егер таңдаудың әрбір элементінің MIME түрі «Біреуіне сәйкес "
+"келуі тиіс» бағанының бір сүзгісіне сәйкес келіп, «Ешбіріне сәйкес келмеуі "
+"тиіс» бағанының ешбір сүзгісіне сәйкес келмесе, пайда болады."
 
 #: src/cact/caja-actions-config-tool.ui:2103
 msgid ""
@@ -3034,18 +3491,24 @@ msgid ""
 "Mimetypes may be specified as '*', '*/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"Бұл тізім ағымда таңдалған элемент Caja контекст мәзірінде қай MIME түрлері "
+"үшін көрсетілетінін анықтауға мүмкіндік береді.\n"
+"MIME түрлерін '*', '*/*', 'group/*' немесе 'group/subgroup' түрінде "
+"көрсетуге болады.\n"
+"Элементіңіз объектілердің қай түрі үшін көрсетілмеуі тиіс екенін көрсету "
+"үшін MIME түрлерін теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2134
 msgid "Click to add a new mimetype filter."
-msgstr ""
+msgstr "Жаңа MIME түрінің сүзгісін қосу үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2154
 msgid "Click to remove the current mimetype filter."
-msgstr ""
+msgstr "Ағымдағы MIME түрінің сүзгісін өшіру үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2193
 msgid "<b>Mimetypes conditions</b>"
-msgstr ""
+msgstr "<b>MIME түрлерінің шарттары</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2213
 msgid ""
@@ -3053,10 +3516,16 @@ msgid ""
 "Mimetypes may be specified as '*', '/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"Бұл бет ағымда таңдалған элемент Caja контекст мәзірінде қай MIME түрлері "
+"үшін көрсетілетінін анықтауға мүмкіндік береді.\n"
+"MIME түрлерін '*', '/*', 'group/*' немесе 'group/subgroup' түрінде көрсетуге "
+"болады.\n"
+"Элементіңіз объектілердің қай түрі үшін көрсетілмеуі тиіс екенін көрсету "
+"үшін MIME түрлерін теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "_MIME түрлері"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3065,6 +3534,10 @@ msgid ""
 "column, while not being one or inside one of the 'Must not match any of' "
 "column."
 msgstr ""
+"Ағымдағы элемент егер таңдаудың әрбір элементінің орналасуы «Біреуіне сәйкес "
+"келуі тиіс» бағанының жолдарының біреуіне сәйкес не оның ішінде болып, ал «"
+"Ешбіріне сәйкес келмеуі тиіс» бағанындағы жолдардың ешбіріне сәйкес не оның "
+"ішінде болмаса, пайда болады."
 
 #: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
@@ -3072,28 +3545,39 @@ msgid ""
 "Folders may use '*' or '?' wildcards.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Бұл тізім элемент Caja контекст мәзірінде көрсетілуі үшін ағымда таңдалған "
+"файлдар қай жерден (қай бумалардан) табылуы тиіс екенін анықтауға мүмкіндік "
+"береді.\n"
+"Бумаларда '*' немесе '?' алмастырғыш таңбаларын пайдалануға болады.\n"
+"Элементіңіз қай бумалар үшін көрсетілмеуі тиіс екенін көрсету үшін бума "
+"сүзгілерін теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
-msgstr ""
+msgstr "Жаңа бума сүзгісін қосу үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
-msgstr ""
+msgstr "Жаңа бума сүзгісін таңдау үшін файлдық жүйені шолу үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
-msgstr ""
+msgstr "Ағымдағы бума сүзгісін өшіру үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
-msgstr ""
+msgstr "<b>Бумалар шарттары</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Бұл бет элемент Caja контекст мәзірінде көрсетілуі үшін ағымда таңдалған "
+"файлдар қай жерден (қай бумалардан) табылуы тиіс екенін анықтауға мүмкіндік "
+"береді.\n"
+"Элементіңіз қай бумалар үшін көрсетілмеуі тиіс екенін көрсету үшін бума "
+"сүзгілерін теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
@@ -3105,38 +3589,51 @@ msgid ""
 "matches one of the 'Must match one of' column, while not matching any of the"
 " 'Must not match any of' column."
 msgstr ""
+"Ағымдағы элемент егер таңдаудың әрбір элементінің сұлбасы «Біреуіне сәйкес "
+"келуі тиіс» бағанының біреуіне сәйкес келіп, «Ешбіріне сәйкес келмеуі тиіс» "
+"бағанының ешбіріне сәйкес келмесе, пайда болады."
 
 #: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
 "This list lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Бұл тізім элемент Caja контекст мәзірінде көрсетілуі үшін ағымда таңдалған "
+"файлдар қай сұлбаларды қанағаттандыруы тиіс екенін анықтауға мүмкіндік "
+"береді.\n"
+"Элементіңіз қай сұлбалар үшін көрсетілмеуі тиіс екенін көрсету үшін "
+"сүзгілерді теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
-msgstr ""
+msgstr "Жаңа сұлба сүзгісін қосу үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "Бас_тапқылар..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
-msgstr ""
+msgstr "Бастапқы сұлбалар арасынан жаңа сұлба сүзгісін таңдау үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
-msgstr ""
+msgstr "Ағымдағы сұлба сүзгісін өшіру үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
-msgstr ""
+msgstr "<b>Сұлба шарттары</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
 "This tab lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Бұл бет элемент Caja контекст мәзірінде көрсетілуі үшін ағымда таңдалған "
+"файлдар қай сұлбаларды қанағаттандыруы тиіс екенін анықтауға мүмкіндік "
+"береді.\n"
+"Элементіңіз қай сұлбалар үшін көрсетілмеуі тиіс екенін көрсету үшін "
+"сүзгілерді теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2659
 msgid ""
@@ -3144,76 +3641,99 @@ msgid ""
 "capabilities of the 'Must match all of' column, while not matching any "
 "capability of the 'Must not match any of' column."
 msgstr ""
+"Ағымдағы элемент егер таңдаудың әрбір элементі «Барлығына сәйкес келуі тиіс» "
+"бағанының барлық мүмкіндіктеріне сәйкес келіп, «Ешбіріне сәйкес келмеуі тиіс"
+"» бағанының ешбір мүмкіндігіне сәйкес келмесе, пайда болады."
 
 #: src/cact/caja-actions-config-tool.ui:2677
 msgid ""
 "This list lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Capabilities may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Бұл тізім элемент Caja контекст мәзірінде көрсетілуі үшін ағымда таңдалған "
+"файлдар қай мүмкіндіктерді қанағаттандыруы тиіс екенін анықтауға мүмкіндік "
+"береді.\n"
+"Элементіңіз қай мүмкіндіктер үшін көрсетілмеуі тиіс екенін көрсету үшін "
+"мүмкіндіктерді теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
-msgstr ""
+msgstr "Жаңа мүмкіндік сүзгісін қосу үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2730
 msgid "Click to remove the current capability."
-msgstr ""
+msgstr "Ағымдағы мүмкіндікті өшіру үшін шертіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
-msgstr ""
+msgstr "<b>Мүмкіндіктер шарттары</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
 "This tab lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Бұл бет элемент Caja контекст мәзірінде көрсетілуі үшін ағымда таңдалған "
+"файлдар қай мүмкіндіктерді қанағаттандыруы тиіс екенін анықтауға мүмкіндік "
+"береді.\n"
+"Элементіңіз қай мүмкіндіктер үшін көрсетілмеуі тиіс екенін көрсету үшін "
+"сүзгілерді теріске шығаруға болады."
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "Мүмкінді_ктер"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
 "This is an advanced condition based on the count of the current selection.\n"
 "If the current selection does not match this condition, then the item will not be displayed in the file manager context menus or toolbar."
 msgstr ""
+"Бұл — ағымдағы таңдау санына негізделген кеңейтілген шарт.\n"
+"Егер ағымдағы таңдау осы шартқа сәйкес келмесе, онда элемент файл "
+"менеджерінің контекст мәзірлерінде немесе саймандар панелінде көрсетілмейді."
 
 #: src/cact/caja-actions-config-tool.ui:2839
 msgid "_Count :"
-msgstr ""
+msgstr "_Саны:"
 
 #: src/cact/caja-actions-config-tool.ui:2898
 msgid "<b>Appears if selection contains</b>"
-msgstr ""
+msgstr "<b>Таңдау мыналарды қамтыса көрінеді</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2927
 msgid ""
 "This is an advanced condition based on the running desktop environment.\n"
 "First choose on the left if the item depends of a particular desktop environment, then select on the right the adequate desktop environment."
 msgstr ""
+"Бұл — орындалып жатқан жұмыс үстелі ортасына негізделген кеңейтілген шарт.\n"
+"Алдымен сол жақтан элементтің белгілі бір жұмыс үстелі ортасына тәуелділігін "
+"таңдаңыз, содан кейін оң жақтан сәйкес келетін жұмыс үстелі ортасын таңдаңыз."
 
 #: src/cact/caja-actions-config-tool.ui:2939
 msgid "Item may appear depending of the desktop environment."
-msgstr ""
+msgstr "Элемент жұмыс үстелі ортасына байланысты пайда болуы мүмкін."
 
 #: src/cact/caja-actions-config-tool.ui:2959
 msgid "_Always appears"
-msgstr ""
+msgstr "Әрқа_шан көрінеді"
 
 #: src/cact/caja-actions-config-tool.ui:2976
 msgid "_Only appears in selected environments"
-msgstr ""
+msgstr "_Тек таңдалған орталарда көрінеді"
 
 #: src/cact/caja-actions-config-tool.ui:2993
 msgid "_Never appears in selected environments"
-msgstr ""
+msgstr "Таңдалған орталарда ешқ_ашан көрінбейді"
 
 #: src/cact/caja-actions-config-tool.ui:3094
 msgid ""
 "This is an advanced condition based on the presence of a particular service on the D-Bus system.\n"
 "This may be used for example for testing that a prerequisite service is currently available."
 msgstr ""
+"Бұл — D-Bus жүйесінде белгілі бір қызметтің болуына негізделген кеңейтілген "
+"шарт.\n"
+"Бұл мысалы қажетті қызметтің қазіргі уақытта қолжетімділігін тексеру үшін "
+"пайдаланылуы мүмкін."
 
 #: src/cact/caja-actions-config-tool.ui:3110
 msgid ""
@@ -3221,6 +3741,10 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
+"Бұл — орындалу уақыты нәтижесіне негізделген кеңейтілген шарт.\n"
+"Стандартты шығысқа дәл «true» жолын көрсете алатын команданы осында "
+"енгізіңіз.\n"
+"Бұл мысалы күрделі шартты тексеру үшін пайдаланылуы мүмкін."
 
 #: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
@@ -3228,40 +3752,48 @@ msgid ""
 "Note that only the basename of the binary is checked, not its dirname nor its parameters.\n"
 "This may be used for example for testing the presence of a prerequisite daemon."
 msgstr ""
+"Бұл — орындалып жатқан екілік файлдың болуына негізделген кеңейтілген шарт.\n"
+"Екілік файлдың бума атауы не оның параметрлері емес, тек негізгі атауы ғана "
+"тексерілетінін ескеріңіз.\n"
+"Бұл мысалы қажетті демоның (қызметтің) бар-жоғын тексеру үшін пайдаланылуы "
+"мүмкін."
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "Ш_олу..."
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
-msgstr ""
+msgstr "Файл ор_ындалатын болса көрінеді:"
 
 #: src/cact/caja-actions-config-tool.ui:3171
 msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
 msgstr ""
+"Бұл — файлдық жүйеде орындалатын файлдың болуына негізделген кеңейтілген "
+"шарт.\n"
+"Бұл мысалы қажетті дестенің бар-жоғын тексеру үшін пайдаланылуы мүмкін."
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
-msgstr ""
+msgstr "Шол_у..."
 
 #: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
-msgstr ""
+msgstr "Атау D-Bus-та _тіркелген болса көрінеді:"
 
 #: src/cact/caja-actions-config-tool.ui:3215
 msgid "Appears if the command outputs \"_true\" :"
-msgstr ""
+msgstr "Команда «_true» мәнін шығарса көрінеді:"
 
 #: src/cact/caja-actions-config-tool.ui:3228
 msgid "Appears if the _binary is running :"
-msgstr ""
+msgstr "_Екілік файл орындалуда болса көрінеді:"
 
 #: src/cact/caja-actions-config-tool.ui:3252
 msgid "<b>Execution environment</b>"
-msgstr ""
+msgstr "<b>Орындау ортасы</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3274
 msgid ""
@@ -3269,68 +3801,84 @@ msgid ""
 "files must satisfy in order for the item to be displayed in the file manager"
 " context menu."
 msgstr ""
+"Бұл бет элемент файл менеджерінің контекст мәзірінде көрсетілуі үшін ағымда "
+"таңдалған файлдар қанағаттандыруы тиіс кейбір кеңейтілген шарттарды "
+"анықтауға мүмкіндік береді."
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "_Орта"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
-msgstr ""
+msgstr "Сипатта_масы:"
 
 #: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
 "Enter here a free text which may be used (e.g. in a Web service or in a "
 "search tool) to describe your item."
 msgstr ""
+"Элементіңізді сипаттау үшін пайдаланылуы мүмкін (мысалы, веб-қызметте немесе "
+"іздеу сайманында) еркін мәтінді осында енгізіңіз."
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "Іске _қосылған"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
 "Check the box to enable this item.\n"
 "If unchecked, then the item will never appear in the file manager context menus or toolbar."
 msgstr ""
+"Бұл элементті іске қосу үшін құсбелгіні қойыңыз.\n"
+"Егер белгіленбесе, онда элемент файл менеджерінің контекст мәзірлерінде "
+"немесе саймандар панелінде ешқашан көрсетілмейді."
 
 #: src/cact/caja-actions-config-tool.ui:3379
 msgid ""
 "Enter here the keyboard touch combination you suggest as a shortcut to your action.\n"
 "Note: this is not yet implemented in Caja-Actions."
 msgstr ""
+"Әрекетіңіз үшін жарлық ретінде ұсынатын пернетақта комбинациясын осында "
+"енгізіңіз.\n"
+"Ескертпе: бұл мүмкіндік Caja-Actions ішінде әлі іске асырылмаған."
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
-msgstr ""
+msgstr "Ұсынылған _жарлық:"
 
 #: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
-msgstr ""
+msgstr "Тек оқуға арналған элемент"
 
 #: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
 "This box is checked if the item cannot be edited.\n"
 "There may be multiple reasons for why an item cannot be edited. See your User's Manual."
 msgstr ""
+"Бұл ұяшық элементті түзету мүмкін болмаған кезде белгіленеді.\n"
+"Элементті түзетуге болмауының бірнеше себебі болуы мүмкін. Пайдаланушы "
+"нұсқаулығын қараңыз."
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "Id. :"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
-msgstr ""
+msgstr "Е/Ш провайдері:"
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>Тек оқуға арналған қасиеттер</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
 "This tab lets you edit some miscellaneous properties, and access some non-"
 "modifiable information."
 msgstr ""
+"Бұл бет кейбір әртүрлі қасиеттерді түзетуге және өзгертілмейтін кейбір "
+"ақпаратқа қол жеткізуге мүмкіндік береді."
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
@@ -3339,7 +3887,7 @@ msgstr "Қас_иеттері"
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
 msgid "Caja-Actions actions"
-msgstr ""
+msgstr "Caja-Actions әрекеттері"
 
 #. Translators: tooltip of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:935
@@ -3347,38 +3895,42 @@ msgid ""
 "A submenu which embeds the currently available Caja-Actions actions and "
 "menus"
 msgstr ""
+"Қазіргі уақытта қолжетімді Caja-Actions әрекеттері мен мәзірлерін ендіретін "
+"ішкі мәзір"
 
 #: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions туралы"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions туралы кейбір ақпаратты көрсету"
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
-msgstr ""
+msgstr "Импортталатын файлдың URI мекенжайы"
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
 #: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
-msgstr ""
+msgstr "Нұсқа нөмірін шығару"
 
 #: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "Файлды импорттау."
 
 #: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"Қателер туралы есептер http://bugzilla.gnome.org сайтында қабылданады немесе "
+"<maintainer@caja-actions.org> мекенжайына хат жаза аласыз.\n"
 
 #: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
 #: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
@@ -3391,147 +3943,152 @@ msgstr "Түрлі опциялар"
 #: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "Синтаксистік қате: %s\n"
 
 #: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
-msgstr ""
+msgstr "Қате: uri көрсетілуі міндетті.\n"
 
 #: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
 #: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
 #: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
-msgstr ""
+msgstr "Пайдалану ақпараты үшін %s --help көріңіз.\n"
 
 #: src/utils/console-utils.c:55
 msgid ""
 "Bug reports are welcomed at https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
 "or you may prefer to mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"Қателер туралы есептер https://bugzilla.gnome.org/enter_bug.cgi?product=caja-"
+"actions сайтында қабылданады,\n"
+"немесе <maintainer@caja-actions.org> мекенжайына хат жаза аласыз.\n"
 
 #: src/utils/na-print-schemas.c:56
 msgid "Output the schema on stdout"
-msgstr ""
+msgstr "Схеманы stdout шығысына шығару"
 
 #: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
-msgstr ""
+msgstr "Әрекет схемаларын шығару [үнсіз келісім бойынша]"
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
-msgstr ""
+msgstr "Мәзір схемаларын шығару"
 
 #: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
-msgstr ""
+msgstr "Caja-Actions MateConf схемаларын stdout шығысына шығару."
 
 #: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
+"3.1.0 нұсқасынан бастап MateConf Е/Ш провайдері ретінде ескірген.\n"
+"Бұл бағдарлама бұдан былай сүйемелденбейді."
 
 #: src/utils/na-print-schemas.c:159
 msgid "Type options"
-msgstr ""
+msgstr "Түр опциялары"
 
 #: src/utils/na-set-conf.c:52
 msgid "Set a key=value pair in a key file."
-msgstr ""
+msgstr "Кілттер файлында кілт=мән жұбын орнату."
 
 #: src/utils/na-set-conf.c:63
 msgid "The group to be updated"
-msgstr ""
+msgstr "Жаңартылатын топ"
 
 #: src/utils/na-set-conf.c:65
 msgid "The key to be updated"
-msgstr ""
+msgstr "Жаңартылатын кілт"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
-msgstr ""
+msgstr "Орнатылатын мәннің түрі, 'str', 'int' немесе 'bool' болуы мүмкін"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
-msgstr ""
+msgstr "Орнатылатын мән"
 
 #: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
-msgstr ""
+msgstr "Нұсқа нөмірін шығарып, қалыпты шығу"
 
 #: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
-msgstr ""
+msgstr "Қате: топ көрсетілуі міндетті.\n"
 
 #: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
-msgstr ""
+msgstr "Қате: кілт көрсетілуі міндетті.\n"
 
 #: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
-msgstr ""
+msgstr "Қате: мәнді орнату/жаңарту үшін түр көрсетілуі міндетті.\n"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
-msgstr ""
+msgstr "Қате: белгісіз түр: %s. 'str', 'int' немесе 'bool' пайдаланыңыз.\n"
 
 #: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
-msgstr ""
+msgstr "Қате: мән көрсетілуі міндетті.\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
-msgstr ""
+msgstr "Элемент жасалған кезде сөндірулі болуы керек болса орнатыңыз"
 
 #: src/utils/caja-actions-new.c:136
 msgid "Set it if the item doesn't target the selection context menu"
-msgstr ""
+msgstr "Элемент таңдау контекст мәзіріне бағытталмаса орнатыңыз"
 
 #: src/utils/caja-actions-new.c:138
 msgid "Set it if the item doesn't target the location context menu"
-msgstr ""
+msgstr "Элемент орналасу контекст мәзіріне бағытталмаса орнатыңыз"
 
 #: src/utils/caja-actions-new.c:140
 msgid "Set it if the item doesn't target the toolbar"
-msgstr ""
+msgstr "Элемент саймандар панеліне бағытталмаса орнатыңыз"
 
 #: src/utils/caja-actions-new.c:142
 msgid "Set it if the basename patterns are case insensitive"
-msgstr ""
+msgstr "Негізгі атау өрнектері регистрді ескермейтін болса орнатыңыз"
 
 #: src/utils/caja-actions-new.c:148
 msgid "Output the new item content on stdout (default)"
-msgstr ""
+msgstr "Жаңа элемент мазмұнын stdout шығысына шығару (бастапқы)"
 
 #: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
-msgstr ""
+msgstr "Жаңа элементті .desktop файлы ретінде жасау"
 
 #: src/utils/caja-actions-new.c:160
 #, c-format
 msgid "Error: '%s' and '%s' options cannot both be specified\n"
-msgstr ""
+msgstr "Қате: '%s' және '%s' опцияларын бірге көрсетуге болмайды\n"
 
 #: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
-msgstr ""
+msgstr "'%s' опциясы ескірген, %s қараңыз\n"
 
 #: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
-msgstr ""
+msgstr "Қате: әрекет жапсырмасы міндетті.\n"
 
 #: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
-msgstr ""
+msgstr "Қате: тек бір ғана шығыс опциясын көрсетуге болады.\n"
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "Жаңа әрекетті анықтау."
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
@@ -3539,93 +4096,98 @@ msgid ""
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
+"Жасалған әрекет үнсіз келісім бойынша stdout шығысына жазылады.\n"
+"Ол сондай-ақ CACT-қа кейін импорттауға жарамды файл ретінде шығыс бумасына "
+"да жазылуы мүмкін.\n"
+"Немесе әрекетті Caja-Actions конфигурациясына тікелей жазуды таңдауыңызға "
+"болады."
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "Бағдарламаның шығысы"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
-msgstr ""
+msgstr "Бағдарлама әрекетті қайда жасайтынын таңдаңыз"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
 #: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
-msgstr ""
+msgstr "Қате: «na-desktop» Е/Ш провайдері табылмады."
 
 #. Translators: caja-actions-print program summary
 #: src/utils/caja-actions-print.c:57
 msgid "Print a menu or an action to stdout."
-msgstr ""
+msgstr "Мәзірді немесе әрекетті stdout шығысына басып шығару."
 
 #: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
-msgstr ""
+msgstr "Басып шығарылатын мәзірдің немесе әрекеттің идентификаторы"
 
 #. Translators: 'Desktop1' here is the internal identifier of an export
 #. format; it is not translatable
 #: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
-msgstr ""
+msgstr "Экспорттау пішімі [Desktop1]"
 
 #: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr ""
+msgstr "Қате: мәзір немесе әрекет идентификаторы міндетті.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
 #: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
-msgstr ""
+msgstr "Қате: %s: белгісіз экспорттау пішімі.\n"
 
 #: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Қате: «%s» элементі жоқ.\n"
 
 #: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
-msgstr ""
+msgstr "Іске қосылатын әрекеттің ішкі идентификаторы"
 
 #: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
-msgstr ""
+msgstr "Әрекет үшін мақсат, файл немесе бума. Бірнеше опцияны көрсетуге болады"
 
 #: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
-msgstr ""
+msgstr "Қате: әрекет идентификаторы міндетті.\n"
 
 #: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
-msgstr ""
+msgstr "Ағымдағы таңдау жоқ. Істейтін ештеңе жоқ. Шығуда.\n"
 
 #: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
-msgstr ""
+msgstr "%s әрекеті жарамды кандидат емес. Шығуда.\n"
 
 #: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
-msgstr ""
+msgstr "Орындау үшін жарамды профиль кандидаты жоқ. Шығуда.\n"
 
 #: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
-msgstr ""
+msgstr "Көрсетілген мақсатта әрекетті орындау."
 
 #: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Қате: «%s» әрекеті жоқ.\n"
 
 #: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
-msgstr ""
+msgstr "Қате: «%s» әрекеті сөндірілген.\n"
 
 #: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "Қате: «%s» әрекеті жарамды емес.\n"
