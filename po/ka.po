@@ -1,29 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026
-# 
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2026\n"
-"Language-Team: Georgian (https://app.transifex.com/mate/teams/13566/ka/)\n"
+"PO-Revision-Date: 2026-06-24 20:17+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-actions/ka/>\n"
+"Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ka\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "მ_კითხე"
 
 #: src/core/na-exporter.c:54
 msgid ""
@@ -86,35 +87,35 @@ msgstr ""
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
-msgstr "Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>"
+msgstr "თემური დოღონაძე"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "სამუშაო მაგიდა MATE"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "სამუშაო გარემო KDE"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "სამუშაო გარემო LXDE"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "სამუშაო გარემო ROX"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "სამუშაო გარემო XFCE"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "მოძველებული სისტემები"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
@@ -147,7 +148,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<გამოს>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
@@ -278,7 +279,7 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<სტრიქონი>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
@@ -303,7 +304,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<ბილიკი>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
@@ -339,7 +340,7 @@ msgstr ""
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<სამუშაო მაგიდა>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
@@ -357,7 +358,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "სცადეთ, გაუშვათ"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -393,7 +394,7 @@ msgstr ""
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<სახელი>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
@@ -434,7 +435,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "შესაძლებლობები"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -489,7 +490,7 @@ msgstr ""
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(გადანომრილია)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
@@ -610,7 +611,7 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "დიახ."
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -739,7 +740,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "ცარიელი ჭდე"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
@@ -764,7 +765,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<ბილიკი|სახელი>"
 
 #: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
@@ -778,7 +779,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "შეთავაზებული მალსახმობი"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -830,7 +831,7 @@ msgstr ""
 #. Translators: label for the default profile
 #: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "ნაგულისხმევი პროფილი"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
@@ -899,7 +900,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "სამუშაო საქაღალდე"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -910,7 +911,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "შესრულების რეჟიმი"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -927,7 +928,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "გაშვების შეტყობინება"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
@@ -963,27 +964,27 @@ msgstr ""
 
 #: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///path/to/file1.mid"
 
 #: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///path/to/file2.jpeg"
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "მომხმარებელი"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
@@ -991,15 +992,15 @@ msgstr ""
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "ბრძანების გაშვება:"
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "სტანდარტული გამოტანა:"
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "სტანდარტული შეცდომა:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
@@ -1031,7 +1032,7 @@ msgstr ""
 
 #: src/cact/base-application.c:182
 msgid "Arguments count"
-msgstr ""
+msgstr "არგუმენტების რაოდენობა"
 
 #: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
@@ -1039,7 +1040,7 @@ msgstr ""
 
 #: src/cact/base-application.c:190
 msgid "Arguments"
-msgstr ""
+msgstr "არგუმენტები"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
@@ -1047,7 +1048,7 @@ msgstr ""
 
 #: src/cact/base-application.c:198
 msgid "Option entries"
-msgstr ""
+msgstr "პარამეტრის ჩანაწერები"
 
 #: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
@@ -1055,7 +1056,7 @@ msgstr ""
 
 #: src/cact/base-application.c:205
 msgid "Application name"
-msgstr ""
+msgstr "აპლიკაციის სახელი"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
@@ -1071,7 +1072,7 @@ msgstr ""
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "ხატულას სახელი"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
@@ -1079,7 +1080,7 @@ msgstr ""
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
-msgstr ""
+msgstr "UniqueApp სახელი"
 
 #: src/cact/base-application.c:230
 msgid "The Unique name of the application"
@@ -1087,7 +1088,7 @@ msgstr ""
 
 #: src/cact/base-application.c:237
 msgid "Return code"
-msgstr ""
+msgstr "დაბრუნებული კოდი"
 
 #: src/cact/base-application.c:238
 msgid "The return code of the application"
@@ -1156,7 +1157,7 @@ msgstr ""
 
 #: src/cact/base-window.c:220
 msgid "Toplevel name"
-msgstr ""
+msgstr "Toplevel სახელი"
 
 #: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
@@ -1164,7 +1165,7 @@ msgstr ""
 
 #: src/cact/base-window.c:228
 msgid "BaseApplication"
-msgstr ""
+msgstr "BaseApplication"
 
 #: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
@@ -1323,7 +1324,7 @@ msgstr ""
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
-msgstr ""
+msgstr "<b>სქემა</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
@@ -1396,7 +1397,7 @@ msgstr ""
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "სქემა"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
@@ -1470,6 +1471,7 @@ msgstr ""
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 msgstr ""
+"caja;actions;configuration;tool;settings;MATE;filebrowser;ქმედებები;მორგება;ხელსაწყო;ბრაუზერი;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
@@ -1549,11 +1551,11 @@ msgstr ""
 #: src/cact/cact-iproperties-tab.c:53
 #: src/cact/caja-actions-config-tool.ui:3375
 msgid "None"
-msgstr "არა"
+msgstr "არცერთი"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "მე_ნიუ"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
@@ -1562,7 +1564,7 @@ msgstr ""
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
 msgid "_Action"
-msgstr "_მოქმედება"
+msgstr "ქმედებ_ა"
 
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
@@ -1670,7 +1672,7 @@ msgstr ""
 
 #: src/cact/cact-match-list.c:926
 msgid "new-filter"
-msgstr ""
+msgstr "ახალი-ფილტრი"
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
@@ -1678,7 +1680,7 @@ msgstr "_ფაილი"
 
 #: src/cact/cact-menubar.c:60 src/cact/cact-menubar.c:174
 msgid "_Edit"
-msgstr "_დამუშავება"
+msgstr "ჩასწორ_ება"
 
 #: src/cact/cact-menubar.c:61
 msgid "_View"
@@ -1686,15 +1688,15 @@ msgstr "_ხედი"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "_ხელსაწყოს პანელები"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
-msgstr "_ხელსაწყო"
+msgstr "_ხელსაწყოები"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "წა_მყვანი პროგრამისტი"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1795,7 +1797,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
-msgstr "დუპლიკატი"
+msgstr "დ_უბლირება"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Duplicate item
@@ -1805,7 +1807,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
-msgstr "_წაშლა"
+msgstr "წა_შლა"
 
 #. Translators: tooltip displayed in the status bar when selecting the Delete
 #. item
@@ -1827,7 +1829,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
-msgstr "_პარამეტრები"
+msgstr "_მორგება"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Preferences' item
@@ -1917,7 +1919,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
-msgstr "შიგთავსი"
+msgstr "შემცველობა"
 
 #. Translators: tooltip displayed in the status bar when selecting the Help
 #. item
@@ -2205,7 +2207,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
-msgstr ""
+msgstr "<b>დამხმარეები</b>"
 
 #: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
@@ -2227,7 +2229,7 @@ msgstr "წუთი"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
-msgstr ""
+msgstr "<b>ავტოშენახვა</b>"
 
 #: src/cact/cact-preferences.ui:809
 msgid ""
@@ -2255,7 +2257,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "შემო_ტანა"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
@@ -2271,7 +2273,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "გატა_ნა"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2300,7 +2302,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
-msgstr ""
+msgstr "_სქემები"
 
 #: src/cact/cact-preferences.ui:1186
 msgid ""
@@ -2321,7 +2323,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
-msgstr "_დაბლა"
+msgstr "_ქვემოთ"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
@@ -2346,15 +2348,15 @@ msgstr ""
 
 #: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
-msgstr ""
+msgstr "მაგ:"
 
 #: src/cact/cact-providers-list.c:136
 msgid "Readable"
-msgstr ""
+msgstr "წაკითხვადი"
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "ჩაწერადი"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
@@ -2373,7 +2375,7 @@ msgstr ""
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "საკვანძო სიტყვა"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
@@ -2403,7 +2405,7 @@ msgstr ""
 
 #: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
-msgstr ""
+msgstr "ახალი-სქემა"
 
 #: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
@@ -2454,7 +2456,7 @@ msgstr ""
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
-msgstr ""
+msgstr "BaseWindow"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:217
@@ -2464,7 +2466,7 @@ msgstr ""
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "კონტეინერი"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
@@ -2822,7 +2824,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>პროფილი</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
@@ -2836,7 +2838,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "ლე_გენდა"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
@@ -2844,11 +2846,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "დათვალიე_რება..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "მაგალითი"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
@@ -2874,11 +2876,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "ბრ_ძანება"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "_ნორმალური"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
@@ -2896,7 +2898,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "ჩაშ_ენებული"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
@@ -2976,7 +2978,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "შესრ_ულება"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -3020,7 +3022,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "სა_ბაზისო სახელები"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3057,7 +3059,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "_Mime ტიპები"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3098,7 +3100,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
-msgstr ""
+msgstr "სა_ქაღალდეები"
 
 #: src/cact/caja-actions-config-tool.ui:2457
 msgid ""
@@ -3119,7 +3121,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "ნაგულის_ხმევები..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
@@ -3172,7 +3174,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "შესა_ძლებლობები"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
@@ -3232,7 +3234,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "და_თვალიერება..."
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
@@ -3246,7 +3248,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
-msgstr ""
+msgstr "დათ_ვალიერება..."
 
 #: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
@@ -3273,7 +3275,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "გარ_ემო"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
@@ -3287,7 +3289,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "ჩართ_ულია"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
@@ -3335,7 +3337,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
-msgstr "პარამე_ტრები"
+msgstr "თ_ვისებები"
 
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
@@ -3363,7 +3365,7 @@ msgstr ""
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
