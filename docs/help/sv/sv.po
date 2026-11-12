@@ -11,20 +11,21 @@
 # Wolfgang Ulbrich <raveit65.sun@gmail.com>, 2021
 # Luna Jernberg <droidbittin@gmail.com>, 2021
 # Kristoffer Grundström <lovaren@gmail.com>, 2021
-# Daniel Nylander <po@danielnylander.se>, 2025
-# 
+# Daniel Nylander <po@danielnylander.se>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2025\n"
-"Language-Team: Swedish (https://app.transifex.com/mate/teams/13566/sv/)\n"
+"PO-Revision-Date: 2026-10-11 12:28+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/caja-actions-help/sv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
@@ -221,9 +222,9 @@ msgstr ""
 "Med en \"Transparent\" kopia av Dokumentet avses en maskinläsbar kopia, "
 "återgiven i ett format vars specifikation är tillgänglig för allmänheten, "
 "som är lämplig för att revidera dokumentet på ett enkelt sätt med generiska "
-"textredigerare eller (för bilder som består av pixlar) generiska färgprogram"
-" eller (för ritningar) någon allmänt tillgänglig ritningsredigerare, och som"
-" är lämplig för inmatning till textformaterare eller för automatisk "
+"textredigerare eller (för bilder som består av pixlar) generiska färgprogram "
+"eller (för ritningar) någon allmänt tillgänglig ritningsredigerare och som "
+"är lämplig för inmatning till textformaterare eller för automatisk "
 "översättning till en mängd olika format som är lämpliga för inmatning till "
 "textformaterare. En kopia som gjorts i ett i övrigt Transparent filformat "
 "vars markering, eller avsaknad av markering, har arrangerats för att "
@@ -247,12 +248,12 @@ msgid ""
 msgstr ""
 "Exempel på lämpliga format för transparenta kopior är vanlig ASCII utan "
 "markering, Texinfo-ingångsformat, LaTeX-ingångsformat, SGML eller XML med "
-"hjälp av en allmänt tillgänglig DTD, och standardkonform enkel HTML, "
+"hjälp av en allmänt tillgänglig DTD och standardkonform enkel HTML, "
 "PostScript eller PDF utformad för mänsklig modifiering. Exempel på "
 "transparenta bildformat är PNG, XCF och JPG. Ogenomskinliga format "
 "inkluderar proprietära format som endast kan läsas och redigeras av "
 "proprietära ordbehandlare, SGML eller XML för vilka DTD och/eller "
-"bearbetningsverktyg inte är allmänt tillgängliga, och den maskingenererade "
+"bearbetningsverktyg inte är allmänt tillgängliga och den maskingenererade "
 "HTML, PostScript eller PDF som produceras av vissa ordbehandlare endast för "
 "utmatningsändamål."
 
@@ -352,8 +353,8 @@ msgid ""
 "You may also lend copies, under the same conditions stated above, and you "
 "may publicly display copies."
 msgstr ""
-"Du får också låna ut kopior, under samma förutsättningar som anges ovan, och"
-" du får visa kopior offentligt."
+"Du får också låna ut kopior, under samma förutsättningar som anges ovan och "
+"du får visa kopior offentligt."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:158
@@ -376,13 +377,13 @@ msgid ""
 "verbatim copying in other respects."
 msgstr ""
 "Om du publicerar tryckta kopior (eller kopior i media som vanligtvis har "
-"tryckta omslag) av Dokumentet, fler än 100 stycken, och Dokumentets "
-"licensmeddelande kräver omslagstexter, måste du bifoga kopiorna i omslag som"
-" tydligt och läsligt bär alla dessa omslagstexter: Framsida-omslagstexter på"
-" framsidan och baksida-omslagstexter på baksidan. Båda omslagen måste också "
+"tryckta omslag) av Dokumentet, fler än 100 stycken och Dokumentets "
+"licensmeddelande kräver omslagstexter, måste du bifoga kopiorna i omslag som "
+"tydligt och läsligt bär alla dessa omslagstexter: Framsida-omslagstexter på "
+"framsidan och baksida-omslagstexter på baksidan. Båda omslagen måste också "
 "tydligt och läsligt identifiera dig som utgivare av dessa exemplar. På "
-"omslagets framsida ska hela titeln anges och alla ord i titeln ska vara lika"
-" framträdande och synliga. Du får dessutom lägga till annat material på "
+"omslagets framsida ska hela titeln anges och alla ord i titeln ska vara lika "
+"framträdande och synliga. Du får dessutom lägga till annat material på "
 "omslagen. Kopiering med ändringar begränsade till omslagen, så länge de "
 "bevarar Dokumentets titel och uppfyller dessa villkor, kan behandlas som "
 "ordagrann kopiering i andra avseenden."
@@ -568,7 +569,7 @@ msgid ""
 "or if the original publisher of the version it refers to gives permission."
 msgstr ""
 "Bevara den nätverksplats, om någon, som anges i dokumentet för allmän "
-"tillgång till en transparent kopia av dokumentet, och likaså de "
+"tillgång till en transparent kopia av dokumentet och likaså de "
 "nätverksplatser som anges i dokumentet för tidigare versioner som det "
 "baserades på. Dessa kan placeras i avsnittet \"Historik\". Du kan utelämna "
 "en nätverksplats för ett verk som publicerades minst fyra år före själva "
@@ -707,9 +708,9 @@ msgstr ""
 "Du får kombinera Dokumentet med andra dokument som har släppts under denna "
 "Licens, enligt de villkor som anges i avsnitt 4 ovan för modifierade "
 "versioner, under förutsättning att du i kombinationen inkluderar alla "
-"Invarianta Avsnitt av alla originaldokumenten, omodifierade, och listar dem "
-"alla som Invarianta Avsnitt av ditt kombinerade verk i dess "
-"licensmeddelande, och att du bevarar alla deras Garantifriskrivningar."
+"Invarianta Avsnitt av alla originaldokumenten, omodifierade och listar dem "
+"alla som Invarianta Avsnitt av ditt kombinerade verk i dess licensmeddelande "
+"och att du bevarar alla deras Garantifriskrivningar."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:361
@@ -723,13 +724,13 @@ msgid ""
 "titles in the list of Invariant Sections in the license notice of the "
 "combined work."
 msgstr ""
-"Det kombinerade verket behöver endast innehålla ett exemplar av denna "
-"licens, och flera identiska invarianta avsnitt kan ersättas med ett enda "
-"exemplar. Om det finns flera invarianta avsnitt med samma namn men olika "
-"innehåll, skall titeln på varje sådant avsnitt göras unik genom att i slutet"
-" av titeln, inom parentes, lägga till namnet på den ursprungliga författaren"
-" eller utgivaren av avsnittet, om detta är känt, eller ett unikt nummer. Gör"
-" samma justering av avsnittstitlarna i listan över invarianta avsnitt i "
+"Det kombinerade verket behöver endast innehålla ett exemplar av denna licens "
+"och flera identiska invarianta avsnitt kan ersättas med ett enda exemplar. "
+"Om det finns flera invarianta avsnitt med samma namn men olika innehåll, "
+"skall titeln på varje sådant avsnitt göras unik genom att i slutet av "
+"titeln, inom parentes, lägga till namnet på den ursprungliga författaren "
+"eller utgivaren av avsnittet, om detta är känt, eller ett unikt nummer. Gör "
+"samma justering av avsnittstitlarna i listan över invarianta avsnitt i "
 "licensmeddelandet för det kombinerade verket."
 
 #. (itstool) path: appendix/simpara
@@ -761,10 +762,10 @@ msgid ""
 "copying of each of the documents in all other respects."
 msgstr ""
 "Du får skapa en samling bestående av Dokumentet och andra dokument som "
-"utgivits under denna Licens, och ersätta de enskilda kopiorna av denna "
-"Licens i de olika dokumenten med en enda kopia som ingår i samlingen, "
-"förutsatt att du i övrigt följer reglerna i denna Licens för ordagrann "
-"kopiering av vart och ett av dokumenten."
+"utgivits under denna Licens och ersätta de enskilda kopiorna av denna Licens "
+"i de olika dokumenten med en enda kopia som ingår i samlingen, förutsatt att "
+"du i övrigt följer reglerna i denna Licens för ordagrann kopiering av vart "
+"och ett av dokumenten."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:389
@@ -815,11 +816,11 @@ msgid ""
 "covers that bracket the whole aggregate."
 msgstr ""
 "Om kravet på omslagstext i avsnitt 3 är tillämpligt på dessa exemplar av "
-"Dokumentet, och om Dokumentet utgör mindre än hälften av hela aggregatet, "
-"får Dokumentets omslagstexter placeras på omslag som omsluter Dokumentet "
-"inom aggregatet, eller den elektroniska motsvarigheten till omslag om "
-"Dokumentet är i elektronisk form. I annat fall måste de förekomma på tryckta"
-" omslag som omsluter hela aggregatet."
+"Dokumentet och om Dokumentet utgör mindre än hälften av hela aggregatet, får "
+"Dokumentets omslagstexter placeras på omslag som omsluter Dokumentet inom "
+"aggregatet, eller den elektroniska motsvarigheten till omslag om Dokumentet "
+"är i elektronisk form. I annat fall måste de förekomma på tryckta omslag som "
+"omsluter hela aggregatet."
 
 #. (itstool) path: appendix/bridgehead
 #: C/appendix-gnu-fdl-1.3.xml:416
@@ -894,9 +895,9 @@ msgid ""
 "violation by some reasonable means prior to 60 days after the cessation."
 msgstr ""
 "Om du upphör med alla överträdelser av denna licens återinförs dock din "
-"licens från en viss upphovsrättsinnehavare (a) provisoriskt, såvida inte och"
-" tills upphovsrättsinnehavaren uttryckligen och slutgiltigt säger upp din "
-"licens, och (b) permanent, om upphovsrättsinnehavaren inte meddelar dig om "
+"licens från en viss upphovsrättsinnehavare (a) provisoriskt, såvida inte och "
+"tills upphovsrättsinnehavaren uttryckligen och slutgiltigt säger upp din "
+"licens och (b) permanent, om upphovsrättsinnehavaren inte meddelar dig om "
 "överträdelsen på något rimligt sätt inom 60 dagar efter upphörandet."
 
 #. (itstool) path: appendix/simpara
@@ -1036,7 +1037,7 @@ msgid ""
 msgstr ""
 "En MMC är \"berättigad till återlicensiering\" om den är licensierad under "
 "denna licens och om alla verk som först publicerades under denna licens "
-"någon annanstans än i denna MMC, och som därefter helt eller delvis "
+"någon annanstans än i denna MMC och som därefter helt eller delvis "
 "införlivades i MMC, (1) inte hade några omslagstexter eller invarianta "
 "avsnitt och (2) införlivades före den 1 november 2008."
 
@@ -1215,7 +1216,7 @@ msgid ""
 "context menus. These actions may be organized in menus and submenus, "
 "exported and shared with other desktop environments."
 msgstr ""
-"<_:produktnamn-1/> är ett <_:produktnamn-2/>-tillägg vars huvudsakliga "
+"<_:productname-1/> är ett <_:productname-2/>-tillägg vars huvudsakliga "
 "funktion är att låta användaren lägga till godtyckliga åtgärder i "
 "filhanterarens snabbmenyer. Dessa åtgärder kan organiseras i menyer och "
 "undermenyer, exporteras och delas med andra skrivbordsmiljöer."
@@ -1340,7 +1341,7 @@ msgid ""
 "If you find some new bug in <_:productname-1/>, you are welcome to open it "
 "by pointing your favorite browser to <_:ulink-2/>."
 msgstr ""
-"Om du hittar någon ny bugg i <_:produktnamn-1/> är du välkommen att öppna "
+"Om du hittar någon ny bugg i <_:productname-1/> är du välkommen att öppna "
 "den genom att peka din favoritwebbläsare till <_:ulink-2/>."
 
 #. (itstool) path: sect2/title
@@ -1385,9 +1386,9 @@ msgid ""
 "specification, cannot be configured in <_:application-1/>, and is not "
 "honored by <_:productname-2/> plugin."
 msgstr ""
-"Från och med version 3.0 kan den föreslagna genvägen, som beskrivs i DES-"
-"EMA-specifikationen, inte konfigureras i <_:application-1/>, och respekteras"
-" inte av <_:productname-2/> plugin."
+"Från och med version 3.0 kan den föreslagna genvägen, som beskrivs i DES-EMA-"
+"specifikationen, inte konfigureras i <_:application-1/> och respekteras inte "
+"av <_:productname-2/> plugin."
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:37
@@ -1401,7 +1402,7 @@ msgid ""
 "<_:application-1/>, and are not honored by <_:productname-2/> plugin."
 msgstr ""
 "Från och med version 3.0 kan menyavgränsare inte konfigureras i "
-"<_:application-1/>, och respekteras inte av <_:productname-2/> plugin."
+"<_:application-1/> och respekteras inte av <_:productname-2/> plugin."
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:43
@@ -1409,7 +1410,7 @@ msgid ""
 "One has to note that, for now, <_:productname-1/> file manager does not "
 "allow its plugins to define separators in the context menu."
 msgstr ""
-"Man måste notera att filhanteraren <_:produktnamn-1/> för närvarande inte "
+"Man måste notera att filhanteraren <_:productname-1/> för närvarande inte "
 "tillåter sina plugins att definiera separatorer i snabbmenyn."
 
 #. (itstool) path: sect2/title
@@ -1424,8 +1425,8 @@ msgid ""
 "manager context menus or in its toolbar depends on the conditions you will "
 "have defined for it."
 msgstr ""
-"Om din åtgärd slutligen kommer att visas i <_:produktnamn-1/> filhanterarens"
-" kontextmenyer eller i dess verktygsfält beror på de villkor som du har "
+"Om din åtgärd slutligen kommer att visas i <_:productname-1/> filhanterarens "
+"kontextmenyer eller i dess verktygsfält beror på de villkor som du har "
 "definierat för den."
 
 #. (itstool) path: sect2/para
@@ -1446,9 +1447,9 @@ msgid ""
 "satisfied in order your action be actually displayed."
 msgstr ""
 "Varje gång urvalet eller platsen ändras i filhanteraren kontrollerar "
-"<_:produktnamn-1/> alla dina åtgärder och jämför de definierade villkoren "
-"med den nya platsen och det nya urvalet: alla definierade villkor måste vara"
-" uppfyllda för att din åtgärd faktiskt ska visas."
+"<_:productname-1/> alla dina åtgärder och jämför de definierade villkoren "
+"med den nya platsen och det nya urvalet: alla definierade villkor måste vara "
+"uppfyllda för att din åtgärd faktiskt ska visas."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
@@ -1467,8 +1468,8 @@ msgid ""
 msgstr ""
 "Du kan bestämma att din åtgärd ska visas beroende på basnamnen på de objekt "
 "som för närvarande är markerade i filhanteraren: du kan definiera att varje "
-"objekt i urvalet måste ha något slags basnamn, och du kan samtidigt bestämma"
-" att inget av de markerade objekten får ha något annat slags basnamn."
+"objekt i urvalet måste ha något slags basnamn och du kan samtidigt bestämma "
+"att inget av de markerade objekten får ha något annat slags basnamn."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
@@ -1506,7 +1507,7 @@ msgstr ""
 "åtgärd ska vara en kandidat för dessa basenamebaserade villkor måste varje "
 "element i urvalet vara giltigt för alla listade villkor: basenamnet för "
 "varje element måste matcha minst ett av de definierade \" måste matcha ett "
-"av \" -mönstren, och får inte matcha något av de definierade \" får inte "
+"av \" -mönstren och får inte matcha något av de definierade \" får inte "
 "matcha något av \" -mönstren."
 
 #. (itstool) path: sect3/para
@@ -1658,8 +1659,8 @@ msgid ""
 "one."
 msgstr ""
 "När den är aktiverad betraktas alla filter som skiftlägeskänsliga, vilket "
-"innebär att <_:filnamn-1/>-filnamnet betraktas som skilt från "
-"<_:filnamn-2/>-filnamnet."
+"innebär att <_:filename-1/>-filnamnet betraktas som skilt från <_:filename-"
+"2/>-filnamnet."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:123
@@ -1674,7 +1675,7 @@ msgid ""
 "name."
 msgstr ""
 "När filter är avaktiverade anses de inte skilja på versaler och gemener, "
-"vilket innebär att filnamnen <_:filnamn-1/> och <_:filnamn-2/> anses vara "
+"vilket innebär att filnamnen <_:filename-1/> och <_:filename-2/> anses vara "
 "samma namn."
 
 #. (itstool) path: para/productname
@@ -1689,7 +1690,7 @@ msgid ""
 "<_:productname-1/> system."
 msgstr ""
 "Detta är troligen vad du vill ha om du riktar in dig på något slags "
-"<_:produktnamn-1/>-system."
+"<_:productname-1/>-system."
 
 #. (itstool) path: para/keycap
 #: C/cact-conditions.xml:145 C/cact-conditions.xml:286
@@ -1780,10 +1781,10 @@ msgstr ""
 "I själva verket är mimetype-baserade villkor uppbyggda som en lista med "
 "mönstren \" måste matcha ett av \" och \" får inte matcha något av \". För "
 "att din åtgärd ska vara en kandidat när det gäller dessa mimetype-baserade "
-"villkor måste varje element i urvalet vara giltigt för alla listade villkor:"
-" mimetypen för varje element måste matcha minst ett av de definierade \" "
-"måste matcha ett av \" mönstren, och får inte matcha något av de definierade"
-" \" får inte matcha något av \" mönstren."
+"villkor måste varje element i urvalet vara giltigt för alla listade villkor: "
+"mimetypen för varje element måste matcha minst ett av de definierade \" "
+"måste matcha ett av \" mönstren och får inte matcha något av de definierade "
+"\" får inte matcha något av \" mönstren."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:199
@@ -2084,7 +2085,7 @@ msgid ""
 "If you target a <_:productname-1/> system, then this default value may not "
 "be what you actually want."
 msgstr ""
-"Om du har ett <_:produktnamn-1/>-system som mål kanske detta standardvärde "
+"Om du har ett <_:productname-1/>-system som mål kanske detta standardvärde "
 "inte är vad du faktiskt vill ha."
 
 #. (itstool) path: sect3/title
@@ -2144,10 +2145,10 @@ msgid ""
 msgstr ""
 "I själva verket är schemabaserade villkor uppbyggda som en lista med \" "
 "måste matcha ett av \" och \" får inte matcha något av \" mönstren. För att "
-"din åtgärd ska vara en kandidat för dessa schemabaserade villkor måste varje"
-" element i urvalet vara giltigt för alla listade villkor: schemat för varje "
+"din åtgärd ska vara en kandidat för dessa schemabaserade villkor måste varje "
+"element i urvalet vara giltigt för alla listade villkor: schemat för varje "
 "element måste matcha minst ett av de definierade \" måste matcha ett av \" "
-"mönstren, och får inte matcha något av de definierade \" får inte matcha "
+"mönstren och får inte matcha något av de definierade \" får inte matcha "
 "något av \" mönstren."
 
 #. (itstool) path: sect3/para
@@ -2340,12 +2341,12 @@ msgid ""
 "capabilities, and must not match any of the defined « must not match any of "
 "» ones."
 msgstr ""
-"Kapacitetsbaserade villkor är faktiskt uppbyggda som en lista med mönster av"
-" typen \"måste matcha alla\" och \"får inte matcha något av\". För att din "
-"åtgärd ska vara en kandidat för dessa kapacitetsbaserade villkor måste varje"
-" element i urvalet vara giltigt för alla listade villkor: kapaciteten för "
-"varje element måste matcha var och en av de definierade \" måste matcha alla"
-" \" kapaciteterna, och får inte matcha någon av de definierade \" får inte "
+"Kapacitetsbaserade villkor är faktiskt uppbyggda som en lista med mönster av "
+"typen \"måste matcha alla\" och \"får inte matcha något av\". För att din "
+"åtgärd ska vara en kandidat för dessa kapacitetsbaserade villkor måste varje "
+"element i urvalet vara giltigt för alla listade villkor: kapaciteten för "
+"varje element måste matcha var och en av de definierade \" måste matcha alla "
+"\" kapaciteterna och får inte matcha någon av de definierade \" får inte "
 "matcha någon av \"."
 
 #. (itstool) path: sect3/para
@@ -2370,7 +2371,7 @@ msgstr "Att definiera ett nytt förmågebaserat villkor innebär två steg."
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:663
 msgid "Press <_:keycap-1/> to insert a new condition filter."
-msgstr "Tryck på <_:knappsats-1/> för att infoga ett nytt villkorfilter."
+msgstr "Tryck på <_:keycap-1/> för att infoga ett nytt villkorfilter."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:670
@@ -2690,7 +2691,7 @@ msgstr "Välj först typ av filter:"
 #: C/cact-conditions.xml:890
 msgid ""
 "should your action always appear, regardless of the desktop environment ?"
-msgstr "ska din åtgärd alltid visas, oavsett skrivbordsmiljö ?"
+msgstr "ska din åtgärd alltid visas, oavsett skrivbordsmiljö?"
 
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:892
@@ -2700,7 +2701,7 @@ msgstr "ska din åtgärd bara visas i vissa skrivbordsmiljöer?"
 #. (itstool) path: simplelist/member
 #: C/cact-conditions.xml:894
 msgid "should your action never appear in some desktop environment(s) ?"
-msgstr "bör din åtgärd aldrig visas i någon skrivbordsmiljö (er) ?"
+msgstr "bör din åtgärd aldrig visas i någon skrivbordsmiljö (er)?"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:899
@@ -2820,7 +2821,7 @@ msgid ""
 "frame."
 msgstr ""
 "Klicka på fliken <_:guilabel-1/> för att visa sidan där du kan konfigurera "
-"dina miljöbaserade villkor, och fokusera på ramen <_:guilabel-2/>."
+"dina miljöbaserade villkor och fokusera på ramen <_:guilabel-2/>."
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:984
@@ -3229,8 +3230,8 @@ msgid ""
 "you to configure how exactly your command will be executed."
 msgstr ""
 "Förutom att konfigurera villkoren, som måste uppfyllas för att din åtgärd "
-"ska visas i filhanterarens menyer, kan du med <_:produktnamn-1/> konfigurera"
-" exakt hur ditt kommando ska utföras."
+"ska visas i filhanterarens menyer, kan du med <_:productname-1/> konfigurera "
+"exakt hur ditt kommando ska utföras."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
@@ -3415,9 +3416,9 @@ msgid ""
 " the application will map at least one window with a given class name, then "
 "enter that name into the <_:guilabel-2/> entry box."
 msgstr ""
-"Om kommandots exekveringsläge är <_:literal-1/>, och om du vet att "
-"programmet kommer att mappa minst ett fönster med ett visst klassnamn, anger"
-" du namnet i inmatningsrutan <_:guilabel-2/>."
+"Om kommandots exekveringsläge är <_:literal-1/> och om du vet att programmet "
+"kommer att mappa minst ett fönster med ett visst klassnamn, anger du namnet "
+"i inmatningsrutan <_:guilabel-2/>."
 
 #. (itstool) path: sect4/title
 #: C/cact-execution.xml:253
@@ -3492,8 +3493,8 @@ msgid ""
 "depending of the form and the order of the parameters in the command "
 "arguments."
 msgstr ""
-"I själva verket hanterar <_:produktnamn-1/> automatiskt dessa två beteenden,"
-" beroende på formen och ordningen på parametrarna i kommandots argument."
+"I själva verket hanterar <_:productname-1/> automatiskt dessa två beteenden, "
+"beroende på formen och ordningen på parametrarna i kommandots argument."
 
 #. (itstool) path: para/abbrev
 #: C/cact-execution.xml:295 C/cact-execution.xml:301 C/cact-execution.xml:308
@@ -3555,7 +3556,7 @@ msgid ""
 "When the selection is empty or contains only one element, and from this "
 "topic point of view, these two forms are exactly equivalent."
 msgstr ""
-"När urvalet är tomt eller bara innehåller ett element, och ur denna "
+"När urvalet är tomt eller bara innehåller ett element och ur denna "
 "ämnesmässiga synvinkel är dessa två former exakt likvärdiga."
 
 #. (itstool) path: sect4/para
@@ -3571,9 +3572,9 @@ msgid ""
 "one item at a time, and thus that it has to be ran one time for each "
 "selected item;"
 msgstr ""
-"om den första relevanta parametern är i singularform, kommer "
-"<_:produktnamn-1/> att anse att kommandot endast kan hantera ett objekt i "
-"taget och att det därför måste köras en gång för varje valt objekt;"
+"om den första relevanta parametern är i singularform, kommer <_:productname-"
+"1/> att anse att kommandot endast kan hantera ett objekt i taget och att det "
+"därför måste köras en gång för varje valt objekt;"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:332
@@ -3583,7 +3584,7 @@ msgid ""
 "a list of items, and thus the command will be executed only once;"
 msgstr ""
 "om den första relevanta parametern som hittas är i pluralform, kommer "
-"<_:productname-1/> att anse att kommandot kan hantera en lista med objekt, "
+"<_:productname-1/> att anse att kommandot kan hantera en lista med objekt "
 "och kommandot kommer därför att utföras endast en gång;"
 
 #. (itstool) path: listitem/para
@@ -3874,8 +3875,9 @@ msgid ""
 "contains the three files <_:filename-2/>, <_:filename-3/> and "
 "<_:filename-4/>."
 msgstr ""
-"Säg att den aktuella mappen är <_:filnamn-1/> och att det aktuella urvalet "
-"innehåller de tre filerna <_:filnamn-2/>, <_:filnamn-3/> och <_:filnamn-4/>."
+"Säg att den aktuella mappen är <_:filename-1/> och att det aktuella urvalet "
+"innehåller de tre filerna <_:filename-2/>, <_:filename-3/> och <_:filename-"
+"4/>."
 
 #. (itstool) path: title/command
 #: C/cact-execution.xml:529
@@ -3979,10 +3981,10 @@ msgid ""
 "occurrence the <_:literal-3/> parameter with the corresponding item. The "
 "second parameter is computed and added as arguments to the executed command."
 msgstr ""
-"Detta beror på att den första <_:emphasis-1/>-parametern är <_:literal-2/>, "
-"och kommandot körs därför en gång för varje markerat objekt och ersätter vid"
-" varje tillfälle <_:literal-3/>-parametern med motsvarande objekt. Den andra"
-" parametern beräknas och läggs till som argument i det exekverade kommandot."
+"Detta beror på att den första <_:emphasis-1/>-parametern är <_:literal-2/> "
+"och kommandot körs därför en gång för varje markerat objekt och ersätter vid "
+"varje tillfälle <_:literal-3/>-parametern med motsvarande objekt. Den andra "
+"parametern beräknas och läggs till som argument i det exekverade kommandot."
 
 #. (itstool) path: title/literal
 #: C/cact-execution.xml:582
@@ -4139,8 +4141,8 @@ msgid ""
 "submenus, its actions and so on, will not be displayed."
 msgstr ""
 "Som en åtgärd kräver en meny också en etikett och kan ha en ikon och en "
-"verktygstips. Du kan också definiera vissa villkor för att din meny ska vara"
-" kandidat för att visas i <_:produktnamn-1/> kontextmeny. Om de definierade "
+"verktygstips. Du kan också definiera vissa villkor för att din meny ska vara "
+"kandidat för att visas i <_:productname-1/> kontextmeny. Om de definierade "
 "villkoren inte uppfylls vid körning kommer hela menyn, inklusive "
 "undermenyerna, åtgärderna och så vidare, inte att visas."
 
@@ -4154,10 +4156,10 @@ msgid ""
 "this newly inserted action has some suitable defaults, it lacks a command to"
 " be executed to be considered valid by <_:application-2/>"
 msgstr ""
-"Den nya åtgärden visas också i röd färg i objektlistan. Röd färg används som"
-" en indikator på att objektet är ogiltigt, dvs. att objektet inte kan vara "
-"kandidat för att visas i en <_:produktnamn-1/>-kontextmeny eftersom en del "
-"av informationen saknas eller är felaktig. Här, och även om denna nyligen "
+"Den nya åtgärden visas också i röd färg i objektlistan. Röd färg används som "
+"en indikator på att objektet är ogiltigt, dvs. att objektet inte kan vara "
+"kandidat för att visas i en <_:productname-1/>-kontextmeny eftersom en del "
+"av informationen saknas eller är felaktig. Här och även om denna nyligen "
 "infogade åtgärd har några lämpliga standardvärden, saknar den ett kommando "
 "som ska utföras för att betraktas som giltigt av <_:application-2/>"
 
@@ -4327,9 +4329,9 @@ msgid ""
 "selected a directory, then <_:productname-2/> will just try with your second"
 " profile."
 msgstr ""
-"Vid körning kommer <_:produktnamn-1/> successivt att undersöka varje profil "
+"Vid körning kommer <_:productname-1/> successivt att undersöka varje profil "
 "som är kopplad till din åtgärd. Om den första profilen riktar in sig på en "
-"fil medan du har valt en katalog, kommer <_:produktnamn-2/> att försöka med "
+"fil medan du har valt en katalog, kommer <_:productname-2/> att försöka med "
 "din andra profil."
 
 #. (itstool) path: menuchoice/guimenuitem
@@ -4371,8 +4373,8 @@ msgid ""
 "At runtime, <_:productname-1/> will begin with examining the conditions set "
 "on your action."
 msgstr ""
-"Vid körning kommer <_:produktnamn-1/> att börja med att undersöka de villkor"
-" som ställts för din åtgärd."
+"Vid körning kommer <_:productname-1/> att börja med att undersöka de villkor "
+"som ställts för din åtgärd."
 
 #. (itstool) path: sect3/para
 #: C/cact-profiles.xml:51 C/cact-profiles.xml:55
@@ -4380,7 +4382,7 @@ msgid ""
 "If these conditions (the action-conditions) are met, then <_:productname-1/>"
 " will examine in order each profile."
 msgstr ""
-"Om dessa villkor (åtgärdsvillkoren) är uppfyllda kommer <_:produktnamn-1/> "
+"Om dessa villkor (åtgärdsvillkoren) är uppfyllda kommer <_:productname-1/> "
 "att granska varje profil i ordning."
 
 #. (itstool) path: sect3/para
@@ -4401,8 +4403,8 @@ msgid ""
 "made selectable in the <_:productname-1/> context menu."
 msgstr ""
 "Profiler för en åtgärd är ordnade och de undersöks i den ordningen vid "
-"körning. Den första profilen vars villkor uppfylls valideras och görs valbar"
-" i snabbmenyn <_:produktnamn-1/>."
+"körning. Den första profilen vars villkor uppfylls valideras och görs valbar "
+"i snabbmenyn <_:productname-1/>."
 
 #. (itstool) path: sect3/para
 #: C/cact-profiles.xml:69
@@ -4492,7 +4494,7 @@ msgid ""
 "<_:productname-1/> also has an Auto-save feature which is configurable in "
 "<_:guimenuitem-2/> dialog box."
 msgstr ""
-"<_:produktnamn-1/> har också en funktion för automatisk sparning som kan "
+"<_:productname-1/> har också en funktion för automatisk sparning som kan "
 "konfigureras i dialogrutan <_:guimenuitem-2/>."
 
 #. (itstool) path: sect2/title
@@ -4537,7 +4539,7 @@ msgid ""
 "or do not sort, and manually organize your actions and menus in your own "
 "order."
 msgstr ""
-"eller inte sortera, och manuellt organisera dina åtgärder och menyer i din "
+"eller inte sortera och manuellt organisera dina åtgärder och menyer i din "
 "egen ordning."
 
 #. (itstool) path: sect3/title
@@ -4631,7 +4633,7 @@ msgstr "Klicka på knappen <_:guibutton-1/>."
 #. (itstool) path: sect2/title
 #: C/cact-starting.xml:2
 msgid "Starting <_:application-1/>"
-msgstr "Startar <_:applikation-1/>"
+msgstr "Startar <_:application-1/>"
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:3
@@ -4691,7 +4693,7 @@ msgstr "tryck sedan på <_:keycap-1/>."
 #. (itstool) path: tip/para
 #: C/cact-starting.xml:27
 msgid "To view available command line options, type:"
-msgstr "Om du vill visa tillgängliga kommandoradsalternativ skriver du :"
+msgstr "Om du vill visa tillgängliga kommandoradsalternativ skriver du:"
 
 #. (itstool) path: command/option
 #: C/cact-starting.xml:33
@@ -4932,7 +4934,7 @@ msgid ""
 "Define in which <_:productname-1/> menus the item should appear, and how it "
 "will be displayed."
 msgstr ""
-"Definiera i vilka <_:produktnamn-1/>-menyer artikeln ska visas och hur den "
+"Definiera i vilka <_:productname-1/>-menyer artikeln ska visas och hur den "
 "ska visas."
 
 #. (itstool) path: listitem/para
@@ -4971,7 +4973,7 @@ msgid ""
 "Define the folder filters the <_:productname-1/> selection must satisfy in "
 "order the action or menu be candidate for display."
 msgstr ""
-"Definiera de mappfilter som <_:produktnamn-1/>-urvalet måste uppfylla för "
+"Definiera de mappfilter som <_:productname-1/>-urvalet måste uppfylla för "
 "att åtgärden eller menyn ska kunna visas."
 
 #. (itstool) path: listitem/para
@@ -4980,7 +4982,7 @@ msgid ""
 "Define the scheme filters the <_:productname-1/> selection must satisfy in "
 "order the action or menu be candidate for display."
 msgstr ""
-"Definiera de schemafilter som <_:produktnamn-1/>-valet måste uppfylla för "
+"Definiera de schemafilter som <_:productname-1/>-valet måste uppfylla för "
 "att åtgärden eller menyn ska kunna visas."
 
 #. (itstool) path: listitem/para
@@ -4989,7 +4991,7 @@ msgid ""
 "Define the capability filters the <_:productname-1/> selection must satisfy "
 "in order the action or menu be candidate for display."
 msgstr ""
-"Definiera de kapacitetsfilter som <_:produktnamn-1/>-valet måste uppfylla "
+"Definiera de kapacitetsfilter som <_:productname-1/>-valet måste uppfylla "
 "för att åtgärden eller menyn ska kunna visas."
 
 #. (itstool) path: listitem/para
@@ -4998,8 +5000,8 @@ msgid ""
 "Define some environment conditions the <_:productname-1/> selection must "
 "satisfy in order the action or menu be candidate for display."
 msgstr ""
-"Definiera några miljövillkor som <_:produktnamn-1/>-valet måste uppfylla för"
-" att åtgärden eller menyn ska kunna visas."
+"Definiera några miljövillkor som <_:productname-1/>-valet måste uppfylla för "
+"att åtgärden eller menyn ska kunna visas."
 
 #. (itstool) path: varlistentry/term
 #: C/cact-starting.xml:368
@@ -5071,7 +5073,7 @@ msgstr "MateDialog"
 #. (itstool) path: formalpara/para
 #: C/cact-starting.xml:412
 msgid "This action will require <_:productname-1/>."
-msgstr "Denna åtgärd kommer att kräva <_:produktnamn-1/>."
+msgstr "Denna åtgärd kommer att kräva <_:productname-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:416
@@ -5079,7 +5081,7 @@ msgid ""
 "<_:productname-1/> is a program which will allow you to create a graphical "
 "user interface from a command-line."
 msgstr ""
-"<_:produktnamn-1/> är ett program som gör att du kan skapa ett grafiskt "
+"<_:productname-1/> är ett program som gör att du kan skapa ett grafiskt "
 "användargränssnitt från en kommandorad."
 
 #. (itstool) path: sect2/para
@@ -5409,12 +5411,12 @@ msgstr ""
 #. (itstool) path: figure/title
 #: C/cact-starting.xml:651
 msgid "Your first action in the <_:productname-1/> context menu"
-msgstr "Din första åtgärd i snabbmenyn <_:produktnamn-1/>"
+msgstr "Din första åtgärd i snabbmenyn <_:productname-1/>"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-starting.xml:658
 msgid "Shows the first action in the <_:productname-1/> context menu."
-msgstr "Visar den första åtgärden i snabbmenyn <_:produktnamn-1/>."
+msgstr "Visar den första åtgärden i snabbmenyn <_:productname-1/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-starting.xml:664
@@ -5422,7 +5424,7 @@ msgid ""
 "Cliking of the item in the <_:productname-1/> context menu activates it, and"
 " executes the corresponding command."
 msgstr ""
-"Om du klickar på objektet i snabbmenyn <_:produktnamn-1/> aktiveras det och "
+"Om du klickar på objektet i snabbmenyn <_:productname-1/> aktiveras det och "
 "motsvarande kommando utförs."
 
 #. (itstool) path: figure/title
@@ -5437,7 +5439,7 @@ msgid ""
 "<_:productname-1/> dialog box, displaying the URI of the selected item."
 msgstr ""
 "Visar resultatet av utförandet av din första åtgärd. Detta är dialogrutan "
-"<_:produktnamn-1/> som visar URI:n för det valda objektet."
+"<_:productname-1/> som visar URI:n för det valda objektet."
 
 #. (itstool) path: sect2/title
 #: C/cact-where.xml:2
@@ -5501,10 +5503,10 @@ msgid ""
 " in the <_:productname-3/> file manager."
 msgstr ""
 "När <_:guilabel-1/> är markerad kommer din åtgärd att vara en kandidat för "
-"att visas i <_:produktnamn-2/>:s snabbmeny så snart minst ett objekt är valt"
-" i filhanteraren. För att din åtgärd ska kunna visas måste alla villkor som "
-"definieras i din kandidatåtgärd uppfyllas av varje objekt som för närvarande"
-" är valt i filhanteraren <_:produktnamn-3/>."
+"att visas i <_:productname-2/>:s snabbmeny så snart minst ett objekt är valt "
+"i filhanteraren. För att din åtgärd ska kunna visas måste alla villkor som "
+"definieras i din kandidatåtgärd uppfyllas av varje objekt som för närvarande "
+"är valt i filhanteraren <_:productname-3/>."
 
 #. (itstool) path: tip/para
 #: C/cact-where.xml:41
@@ -5514,7 +5516,7 @@ msgid ""
 "<_:productname-2/>' <_:guimenu-3/> menu."
 msgstr ""
 "När en åtgärd riktar sig till urvalets kontextmeny och faktiskt visas i "
-"<_:produktnamn-1/>' kontextmeny, visas den också i <_:produktnamn-2/>' "
+"<_:productname-1/>' kontextmeny, visas den också i <_:productname-2/>' "
 "<_:guimenu-3/>' meny."
 
 #. (itstool) path: sect3/para
@@ -5544,10 +5546,10 @@ msgid ""
 msgstr ""
 "När kryssrutan <_:guilabel-1/> är aktiverad kommer din åtgärd att vara en "
 "kandidat för att visas i <_:productname-2/>' kontextmeny när "
-"filhanterarvalet är tomt. Din åtgärd kommer alltså att hantera den plats som"
-" visas för närvarande. För att faktiskt visas måste alla villkor som "
+"filhanterarvalet är tomt. Din åtgärd kommer alltså att hantera den plats som "
+"visas för närvarande. För att faktiskt visas måste alla villkor som "
 "definieras i din kandidatåtgärd uppfyllas av den plats som för närvarande "
-"visas i filhanteraren <_:produktnamn-3/>."
+"visas i filhanteraren <_:productname-3/>."
 
 #. (itstool) path: tip/para
 #: C/cact-where.xml:65
@@ -5557,7 +5559,7 @@ msgid ""
 "<_:productname-2/>' <_:guimenu-3/> menu."
 msgstr ""
 "När en åtgärd riktar sig till platsens kontextmeny och faktiskt visas i "
-"kontextmenyn för <_:produktnamn-1/>', visas den också i <_:produktnamn-2/>' "
+"kontextmenyn för <_:productname-1/>', visas den också i <_:productname-2/>' "
 "<_:guimenu-3/>-menyn."
 
 #. (itstool) path: sect3/title
@@ -5609,9 +5611,9 @@ msgid ""
 "both in <_:productname-1/>' context menus and in <_:guimenu-2/> or "
 "<_:guimenu-3/> menus, it will be displayed as"
 msgstr ""
-"Oavsett om det är kontextmenyn för val eller kontextmenyn för plats, och "
-"både i <_:produktnamn-1/>' kontextmenyer och i <_:guimenu-2/> eller "
-"<_:guimenu-3/>-menyer, kommer den att visas som"
+"Oavsett om det är kontextmenyn för val eller kontextmenyn för plats och både "
+"i <_:productname-1/>' kontextmenyer och i <_:guimenu-2/> eller <_:guimenu-"
+"3/>-menyer, kommer den att visas som"
 
 #. (itstool) path: listitem/para
 #: C/cact-where.xml:103 C/cact-where.xml:145
@@ -5989,15 +5991,15 @@ msgstr ""
 "BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
 "DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
 "ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
-"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET"
-" LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
 "VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
 "HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
 "NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
 "SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
 "EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
 "ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
-"UNDER DENNA ANSVARSFRISKRIVNING;"
+"UNDER DENNA ANSVARSFRISKRIVNING"
 
 #. (itstool) path: listitem/para
 #: C/legalnotice.xml:59
@@ -6035,4 +6037,4 @@ msgid ""
 msgstr ""
 "DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS ENLIGT "
 "VILLKOREN I GNU:S LICENS FÖR FRI DOKUMENTATION MED DEN YTTERLIGARE "
-"ÖVERENSKOMMELSEN ATT: <_:beställningslista-1/>"
+"ÖVERENSKOMMELSEN ATT: <_:orderedlist-1/>"
