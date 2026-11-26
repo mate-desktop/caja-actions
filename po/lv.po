@@ -1,55 +1,58 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Imants Liepiņš <imzzinator@gmail.com>, 2021
 # Rihards Priedītis <rprieditis@gmail.com>, 2021
 # reki the human <voiceofwise1@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 
+# Rihards Prieditis <rprieditis@gmail.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
-"Language-Team: Latvian (https://app.transifex.com/mate/teams/13566/lv/)\n"
+"PO-Revision-Date: 2026-11-26 13:18+0000\n"
+"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
+"Language-Team: Latvian <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-actions/lv/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+"X-Generator: Weblate 2026.11.2\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "_Vaicāt man"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
 msgstr ""
+"Ikreiz, kad vienums tiks eksportēts, jums vaicās, kādu formātu izvēlēties."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "Formātam '%s' nav atrasta neviena NAIExporter realizācija."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "%s NAIExporter nerealizē saskarni 'to_buffer'."
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter nerealizē saskarni 'to_file'."
 
 #: src/core/na-about.c:70
 msgid ""
@@ -58,6 +61,10 @@ msgid ""
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"Caja-Actions konfigurēšanas rīks ir brīva programmatūra; jūs varat to "
+"izplatīt tālāk un/vai mainīt saskaņā ar GNU Vispārējās publiskās licences "
+"noteikumiem, kā to publicējis Brīvās programmatūras fonds; vai nu Licences "
+"2. versiju, vai (pēc jūsu izvēles) jebkuru vēlāku versiju."
 
 #: src/core/na-about.c:74
 msgid ""
@@ -66,6 +73,9 @@ msgid ""
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"Caja-Actions konfigurēšanas rīks tiek izplatīts cerībā, ka tas būs noderīgs, "
+"taču BEZ JEBKĀDĀM GARANTIJĀM; pat bez netiešām PĀRDODAMĪBAS vai PIEMĒROTĪBAS "
+"KONKRĒTAM NOLŪKAM garantijām. Sīkāk skatiet GNU Vispārējo publisko licenci."
 
 #: src/core/na-about.c:78
 msgid ""
@@ -74,10 +84,14 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"Jums kopā ar Caja-Actions konfigurēšanas rīku vajadzēja saņemt GNU "
+"Vispārējās publiskās licences kopiju; ja tā nav, rakstiet Free Software "
+"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
+"USA."
 
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
-msgstr ""
+msgstr "Grafiska saskarne Caja darbību izveidei un rediģēšanai."
 
 #: src/core/na-about.c:93
 msgid ""
@@ -85,44 +99,49 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Autortiesības © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Autortiesības © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Autortiesības © 2021 MATE izstrādātāji"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
 msgstr ""
+"Rihards Priedītis <rprieditis@gmail.com>\n"
+"\n"
 "Launchpad Contributions:\n"
-"  Kristaps https://launchpad.net/~retail"
+" Kristaps https://launchpad.net/~retail"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "MATE darbvirsma"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "KDE darbvirsma"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "LXDE darbvirsma"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "ROX darbvirsma"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "XFCE darbvirsma"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "Novecojušas sistēmas"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr ""
+msgstr "Šablonu saraksts, ar ko salīdzināt atlasītos failus/mapes"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -133,6 +152,11 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"Virkņu saraksts ar aizstājējzīmēm '*' vai '?', ar ko salīdzināt atlasīto "
+"failu/mapju nosaukumus. Lai darbība vai izvēlne varētu tikt rādīta, katram "
+"atlasītajam vienumam jāatbilst vismaz vienam no faila nosaukuma šabloniem.\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase.\n"
+"Noklusējums: '*'."
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -143,6 +167,8 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"Šablons, ar ko salīdzināt atlasīto failu/mapju bāzes nosaukumus. Var saturēt "
+"aizstājējzīmes (* vai ?). Katram vajadzīgajam šablonam jānorāda sava opcija"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -151,11 +177,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<IZTEIKSME>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "Vai norādītie bāzes nosaukumi ir reģistrjutīgi (noklusējums)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -165,12 +191,18 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Jāiestata 'true', ja failu nosaukumu šabloni ir reģistrjutīgi, citādi — "
+"'false'. Piemēram, ja faila nosaukums jāsalīdzina, ņemot vērā reģistru, "
+"iestatiet šo atslēgu uz 'true'. Ja vēlaties, lai, piemēram, '*.jpg' atbilstu "
+"arī 'photo.JPG', iestatiet 'false'.\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase.\n"
+"Noklusējums: 'true'."
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
-msgstr ""
+msgstr "Šablonu saraksts, ar ko salīdzināt atlasīto failu/mapju MIME tipus"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -180,6 +212,11 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"Virkņu saraksts ar aizstājējzīmi '*', ar ko salīdzināt atlasīto failu/mapju "
+"MIME tipus. Lai darbība parādītos, katram atlasītajam vienumam jāatbilst "
+"vismaz vienam no MIME tipu šabloniem.\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase.\n"
+"Noklusējums: '*/*'."
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -189,10 +226,13 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"Šablons, ar ko salīdzināt atlasīto failu/mapju MIME tipus. Var saturēt "
+"aizstājējzīmi zvaigznīti '*'. Katram vajadzīgajam šablonam jānorāda sava "
+"opcija"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
-msgstr ""
+msgstr "Vai profils attiecas uz failiem (novecojusi opcija, skatiet MIME tipu)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -207,11 +247,20 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"Iestatiet 'true', ja atlasē var būt faili, citādi — 'false'.\n"
+"Šis iestatījums ir saistīts ar iestatījumu 'isdir'. Derīgās kombinācijas:\n"
+"isfile='true' un isdir='false': atlasē var būt tikai faili\n"
+"isfile='false' un isdir='true': atlasē var būt tikai mapes\n"
+"isfile='true' un isdir='true': atlasē var būt gan faili, gan mapes\n"
+"isfile='false' un isdir='false': nederīga kombinācija (jūsu konfigurācija "
+"nekad netiks parādīta).\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase.\n"
+"Noklusējums: 'true'."
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
-msgstr ""
+msgstr "Vai profils attiecas uz mapēm (novecojusi opcija, skatiet MIME tipu)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -226,12 +275,22 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Iestatiet 'true', ja atlasē var būt mapes, citādi — 'false'.\n"
+"Šis iestatījums ir saistīts ar iestatījumu 'isfile'. Derīgās kombinācijas:\n"
+"isfile='true' un isdir='false': atlasē var būt tikai faili\n"
+"isfile='false' un isdir='true': atlasē var būt tikai mapes\n"
+"isfile='true' un isdir='true': atlasē var būt gan faili, gan mapes\n"
+"isfile='false' un isdir='false': nederīga kombinācija (jūsu konfigurācija "
+"nekad netiks parādīta).\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase.\n"
+"Noklusējums: 'false'."
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
 msgstr ""
+"Vai var atlasīt vairākus vienumus (novecojusi opcija, skatiet atlases skaitu)"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -241,11 +300,15 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"Ja jāatlasa vairāk nekā viens fails vai mape, iestatiet šo atslēgu uz "
+"'true'. Ja vajag tikai vienu failu vai mapi, iestatiet 'false'.\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase.\n"
+"Noklusējums: 'false'."
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
-msgstr ""
+msgstr "Shēmu saraksts, ar ko salīdzināt atlasīto failu/mapju shēmas"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -266,12 +329,31 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"Nosaka derīgo shēmu sarakstu, ar ko salīdzināt atlasītos vienumus. Shēma ir "
+"protokols, ar kuru piekļūst failiem. Jāizmanto atslēgvārds, ko failu "
+"pārvaldnieks lieto URI.\n"
+"Derīgu URI piemēri:\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@test.example.net/tmp/foo.txt\n"
+"Biežāk lietotās shēmas:\n"
+"'file': lokāli faili\n"
+"'sftp': faili, kuriem piekļūst caur SSH\n"
+"'ftp': faili, kuriem piekļūst caur FTP\n"
+"'smb': faili, kuriem piekļūst caur Samba (Windows koplietojums)\n"
+"'dav': faili, kuriem piekļūst caur WebDAV.\n"
+"Šeit var izmantot visas shēmas, ko lieto jūsu iecienītais failu "
+"pārvaldnieks.\n"
+"Tas, protams, attiecas tikai uz gadījumu, kad ir atlase vai kad mērķis ir "
+"īpašā shēma 'x-caja-desktop'.\n"
+"Noklusējums: 'file'."
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
 msgstr ""
+"Derīga GIO shēma, kurā jāatrodas atlasītajiem failiem/mapēm. Katrai "
+"vajadzīgajai shēmai jānorāda sava opcija"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -282,11 +364,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<VIRKNE>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "Mapju saraksts"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -294,12 +376,17 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"Nosaka derīgo ceļu sarakstu, ar ko salīdzināt pašreizējo mapi.\n"
+" Visas mapes, kas atrodas „zem” norādītā ceļa, tiek uzskatītas par derīgām.\n"
+"Noklusējums: '/'."
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
 msgstr ""
+"(Vecāk)mapes ceļš, kurai vienums tiks rādīts. Katrai vajadzīgajai mapei "
+"jānorāda sava opcija"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -307,11 +394,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<CEĻŠ>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "Atlases skaita attiecības operators"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -320,48 +407,56 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"Vai šo profilu var izvēlēties atkarībā no atlasīto vienumu skaita.\n"
+"Šī ir virkne formā \"{'<'|'='|'>'} skaitlis\".\n"
+"Derīgu virkņu piemēri: \"=0\", \"> 1\", \"< 10\".\n"
+"Noklusējums: \">0\"."
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "Atlases skaita attiecība [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "Rādīt tikai vidē"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "Noklusējums: visas."
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
 msgstr ""
+"Vienīgās darbvirsmas vides nosaukums, kurā vienums jārāda. Katrai "
+"vajadzīgajai videi jānorāda sava opcija"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<DARBVIRSMA>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "Nerādīt vidē"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "Noklusējums: neviena."
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
 msgstr ""
+"Darbvirsmas vides nosaukums, kurā vienumu nedrīkst rādīt. Katrai "
+"vajadzīgajai videi jānorāda sava opcija"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "Mēģināt izpildīt"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -371,14 +466,18 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Ievērojiet: ja tas norādīts, tiek pārbaudīts tikai tas, vai norādītais fails "
+"eksistē un ir izpildāms.\n"
+"Vērtībā 'TryExec' var būt parametri, kas tiek aizstāti izpildes laikā.\n"
+"Noklusējums: veiksmīgs."
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "faila ceļš, kura izpildāmība jāpārbauda"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "Rādīt, ja reģistrēts"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -389,19 +488,25 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"DBus pakalpojuma labi zināmais nosaukums.\n"
+"Vienums var tikt rādīts, ja izpildes laikā nosauktais pakalpojums ir "
+"reģistrēts sesijas DBus.\n"
+"Vērtībā 'ShowIfRegistered' var būt parametri, kas tiek aizstāti izpildes "
+"laikā.\n"
+"Noklusējums: veiksmīgs."
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "Pakalpojuma nosaukums, kam jābūt reģistrētam sesijas DBus"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<NOSAUKUMS>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "Rādīt, ja patiess"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -412,15 +517,19 @@ msgid ""
 "Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Komanda, kurai, to izpildot, standarta izvadā jāizvada virkne.\n"
+"Vienums var tikt rādīts, ja izvadītā virkne ir \"true\".\n"
+"Vērtībā 'ShowIfTrue' var būt parametri, kas tiek aizstāti izpildes laikā.\n"
+"Noklusējums: veiksmīgs."
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr ""
+msgstr "Ceļš uz komandu, kas izvadīs virkni 'true'"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "Rādīt, ja darbojas"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -431,14 +540,20 @@ msgid ""
 "Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"Procesa nosaukums.\n"
+"Vienums var tikt rādīts, ja izpildes laikā procesa nosaukums ir atrodams "
+"atmiņā.\n"
+"Vērtībā 'ShowIfRunning' var būt parametri, kas tiek aizstāti izpildes "
+"laikā.\n"
+"Noklusējums: veiksmīgs."
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "Izpildāmā faila nosaukums, kam jādarbojas"
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Spējas"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -455,49 +570,64 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"Spēju saraksts, kam jāatbilst katram atlases vienumam, lai vienums varētu "
+"tikt rādīts.\n"
+"Spējas var noliegt.\n"
+"Spējas jāizvēlas no šīm iepriekš definētajām:\n"
+"- 'Owner': pašreizējais lietotājs ir atlasīto vienumu īpašnieks\n"
+"- 'Readable': lietotājs var lasīt atlasītos vienumus (droši vien noderīgāk, "
+"ja noliegts)\n"
+"- 'Writable': lietotājs var rakstīt atlasītajos vienumos\n"
+"- 'Executable': lietotājs var izpildīt atlasītos vienumus\n"
+"- 'Local': atlasītie vienumi ir lokāli.\n"
+"Noklusējums: tukšs saraksts."
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
 msgstr ""
+"Spējas nosaukums, kurai jāatbilst atlasei. Var būt 'Owner', 'Readable', "
+"'Writable', 'Executable' vai 'Local'"
 
 #: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
-msgstr ""
+msgstr "Vienums tika pārnumurēts, jo izsaucējs nesniedza pārbaudes funkciju."
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
 msgstr ""
+"Vienums tika pārnumurēts, jo izsaucējs nesniedza lietotāja vaicāšanas "
+"funkciju."
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "Vienums tika pārnumurēts pēc lietotāja pieprasījuma."
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "Esošais vienums tika pārrakstīts pēc lietotāja pieprasījuma."
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "Vienums %s jau eksistē."
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "Importēšana tika atcelta pēc lietotāja pieprasījuma."
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(pārnumurēts)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "_Neimportēt vienumu"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -505,41 +635,50 @@ msgid ""
 "The selected file will be marked as \"NOT OK\" in the Summary page.\n"
 "The existing item will not be modified."
 msgstr ""
+"Tā bija iepriekšējā uzvedība.\n"
+"Atlasītais fails lapā „Kopsavilkums” tiks atzīmēts kā \"NAV KĀRTĪBĀ\".\n"
+"Esošais vienums netiks mainīts."
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr ""
+msgstr "Importēt vienumu, _piešķirot tam jaunu identifikatoru"
 
 #: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
+"Atlasītais fails tiks importēts ar nedaudz mainītu etiķeti, kas norāda uz "
+"pārnumurēšanu.\n"
+"Esošais vienums netiks mainīts."
 
 #: src/core/na-importer.c:74
 msgid "_Override the existing item"
-msgstr ""
+msgstr "_Pārrakstīt esošo vienumu"
 
 #: src/core/na-importer.c:75
 msgid ""
 "The item found in the selected file will silently override the current one which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
 msgstr ""
+"Atlasītajā failā atrastais vienums bez brīdinājuma pārrakstīs pašreizējo "
+"vienumu ar tādu pašu identifikatoru.\n"
+"Uzmanību: šis režīms var būt bīstams. Jums vairs nevaicās."
 
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
-msgstr ""
+msgstr "Jums vaicās katru reizi, kad importētais ID jau eksistē."
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
-msgstr ""
+msgstr "%s nevar ielādēt (tukšs, pārāk liels vai nav parasts fails)"
 
 #: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
-msgstr ""
+msgstr "Neizdevās ielādēt 'ImporterAskDialog' no %s"
 
 #: src/core/na-importer-ask.c:398
 #, c-format
@@ -547,6 +686,8 @@ msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
+"Darbībai \"%s\", kas importēta no \"%s\", ir tāds pats identifikators kā jau "
+"esošajai \"%s\"."
 
 #: src/core/na-importer-ask.c:404
 #, c-format
@@ -554,56 +695,60 @@ msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
 msgstr ""
+"Izvēlnei \"%s\", kas importēta no \"%s\", ir tāds pats identifikators kā jau "
+"esošajai \"%s\"."
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr ""
+msgstr "Jau esošs vienums"
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr ""
+msgstr "Ko ar to darīt?"
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
-msgstr ""
+msgstr "_Atcerēties manu izvēli nākamajām importēšanas reizēm"
 
 #: src/core/na-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 msgstr ""
+"Lūdzu, ziņojiet par kļūdu: https://bugzilla.gnome.org/"
+"enter_bug.cgi?product=caja-actions."
 
 #: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
-msgstr ""
+msgstr "I/O nodrošinātājs nav pieejams."
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr ""
+msgstr "I/O nodrošinātāja realizācijai trūkst vajadzīgās API."
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
-msgstr ""
+msgstr "I/O nodrošinātājs nevēlas rakstīt."
 
 #: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
-msgstr ""
+msgstr "I/O nodrošinātājs paziņo, ka nespēj rakstīt."
 
 #: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
-msgstr ""
+msgstr "Administrators ir bloķējis I/O nodrošinātāju."
 
 #: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
-msgstr ""
+msgstr "Lietotājs ir bloķējis I/O nodrošinātāju."
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "Vienums ir tikai lasāms."
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr ""
+msgstr "Nav atrasts neviens rakstāms I/O nodrošinātājs."
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -611,10 +756,12 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
+"Vienumā nevar rakstīt nezināma iemesla dēļ (%d).\n"
+"%s"
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "Kārtībā."
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -622,22 +769,24 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
+"Programmas plūsmas kļūda.\n"
+"%s"
 
 #: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
-msgstr ""
+msgstr "I/O nodrošinātājs nevēlas to darīt."
 
 #: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
-msgstr ""
+msgstr "Rakstīšanas kļūda I/O nodrošinātājā."
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr ""
+msgstr "Neizdevās izdzēst MateConf shēmas."
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "Neizdevās izdzēst konfigurāciju."
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -645,19 +794,21 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
+"Nezināms atgriešanas kods (%d).\n"
+"%s"
 
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr ""
+msgstr "Jauna Caja darbība"
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
-msgstr ""
+msgstr "Profils automātiski izveidots no darbības, kas vecāka par v2"
 
 #: src/core/na-object-action-factory.c:80
 msgid "Targets the selection context menu"
-msgstr ""
+msgstr "Paredzēts atlases konteksta izvēlnei"
 
 #: src/core/na-object-action-factory.c:81
 msgid ""
@@ -666,14 +817,19 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to TRUE."
 msgstr ""
+"Vai darbība paredzēta failu pārvaldnieka atlases konteksta izvēlnēm.\n"
+"Tā bija iepriekšējā uzvedība.\n"
+"Ievērojiet, ka izvēlnes vienmēr var tikt rādītas atlases konteksta izvēlnēs, "
+"ja tajās ir vismaz viena darbība.\n"
+"Noklusējums: TRUE."
 
 #: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr ""
+msgstr "Paredzēts atlases konteksta izvēlnei [true]"
 
 #: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
-msgstr ""
+msgstr "Paredzēts atrašanās vietas konteksta izvēlnei"
 
 #: src/core/na-object-action-factory.c:107
 msgid ""
@@ -681,14 +837,19 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to FALSE"
 msgstr ""
+"Vai darbība paredzēta failu pārvaldnieka konteksta izvēlnēm, kad nav "
+"atlases, tātad attiecas uz pašreizējo atrašanās vietu.\n"
+"Ievērojiet, ka izvēlnes vienmēr var tikt rādītas atlases konteksta izvēlnēs, "
+"ja tajās ir vismaz viena darbība.\n"
+"Noklusējums: FALSE"
 
 #: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr ""
+msgstr "Paredzēts atrašanās vietas konteksta izvēlnei [false]"
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "Paredzēts rīkjoslai"
 
 #: src/core/na-object-action-factory.c:133
 msgid ""
@@ -697,14 +858,18 @@ msgid ""
 "Note that menus are never displayed in the toolbar.\n"
 "Defaults to FALSE."
 msgstr ""
+"Vai darbība var tikt rādīta failu pārvaldnieka rīkjoslā.\n"
+"Tas attiecas tikai uz pašreizējo atrašanās vietu.\n"
+"Ievērojiet, ka izvēlnes rīkjoslā nekad netiek rādītas.\n"
+"Noklusējums: FALSE."
 
 #: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr ""
+msgstr "Paredzēts rīkjoslai [false]"
 
 #: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
-msgstr ""
+msgstr "Rīkjoslas vienuma etiķete"
 
 #: src/core/na-object-action-factory.c:158
 msgid ""
@@ -712,16 +877,20 @@ msgid ""
 "Note that actual display may depend of your own Desktop Environment preferences.\n"
 "Defaults to label of the context menu when not set or empty."
 msgstr ""
+"Etiķete, kas tiek rādīta blakus ikonai failu pārvaldnieka rīkjoslā.\n"
+"Ievērojiet, ka faktiskais attēlojums var būt atkarīgs no jūsu darbvirsmas "
+"vides iestatījumiem.\n"
+"Ja nav iestatīta vai ir tukša, tiek izmantota konteksta izvēlnes etiķete."
 
 #. Translators: copied items have a label as 'Copy of original label'
 #: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "%s kopija"
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "Vienuma veids"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -730,24 +899,31 @@ msgid ""
 "- 'Menu'.\n"
 "The value is case sensitive and must not be localized."
 msgstr ""
+"Nosaka, vai vienums ir darbība vai izvēlne. Iespējamās vērtības:\n"
+"- 'Action',\n"
+"- 'Menu'.\n"
+"Vērtība ir reģistrjutīga, un to nedrīkst lokalizēt."
 
 #: src/core/na-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
-msgstr ""
+msgstr "Konteksta izvēlnes vienuma etiķete (obligāta)"
 
 #: src/core/na-object-item-factory.c:95
 msgid ""
 "The label of the menu item that will appear in the file manager context menu when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
 msgstr ""
+"Izvēlnes vienuma etiķete, kas parādīsies failu pārvaldnieka konteksta "
+"izvēlnē, kad atlase atbilst parādīšanās nosacījumu iestatījumiem.\n"
+"Tā tiek izmantota arī kā darbības rīkjoslas etiķetes noklusējums."
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "Tukša etiķete"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "Konteksta izvēlnes vienuma paskaidre"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -755,34 +931,43 @@ msgid ""
 "when the user points to the file manager context menu item with his/her "
 "mouse."
 msgstr ""
+"Izvēlnes vienuma paskaidre, kas parādīsies failu pārvaldnieka statusa joslā, "
+"kad lietotājs ar peli norāda uz failu pārvaldnieka konteksta izvēlnes "
+"vienumu."
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "Konteksta izvēlnes vienuma ikona"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
 msgstr ""
+"Izvēlnes vienuma ikona, kas parādīsies blakus etiķetei failu pārvaldnieka "
+"konteksta izvēlnē, kad atlase atbilst parādīšanās nosacījumu iestatījumiem.\n"
+"Var būt motīva ikonas lokalizētais nosaukums vai pilns ceļš uz jebkuru "
+"piemērotu attēlu."
 
 #: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<CEĻŠ|NOSAUKUMS>"
 
 #: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
-msgstr ""
+msgstr "Vienuma apraksts"
 
 #: src/core/na-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
 msgstr ""
+"Teksts, kas paskaidro izvēlnes vai darbības mērķi.\n"
+"Var izmantot, piemēram, rādot pieejamos vienumus tīmekļa vietnē."
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Ieteiktais īsinājumtaustiņš"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -791,74 +976,92 @@ msgid ""
 "The format may look like \"<Control>a\" or \"<Shift><Alt>F1\".\n"
 "Defaults to empty."
 msgstr ""
+"Darbībai vai izvēlnei ieteiktais īsinājumtaustiņš.\n"
+"Ievērojiet, ka tas var būt tikai ieteikums, jo īsinājumtaustiņš var jau būt "
+"rezervēts citam nolūkam. Realizācijai nevajadzētu pārrakstīt jau esošu "
+"īsinājumtaustiņu, lai definētu šo.\n"
+"Formāts var būt, piemēram, \"<Control>a\" vai \"<Shift><Alt>F1\".\n"
+"Noklusējums: tukšs."
 
 #: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
-msgstr ""
+msgstr "Apakšvienumu ID saraksts"
 
 #: src/core/na-object-item-factory.c:269
 msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
 msgstr ""
+"Sakārtots apakšvienumu ID saraksts. Tās var būt darbības vai izvēlnes, ja "
+"vienums ir izvēlne, vai profili, ja vienums ir darbība.\n"
+"Ja šī saraksta nav vai tas ir tukšs, darbības vai izvēlnes apakšvienumi tiek "
+"pievienoti nolasīšanas secībā."
 
 #: src/core/na-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
-msgstr ""
+msgstr "Vai darbība vai izvēlne ir iespējota"
 
 #: src/core/na-object-item-factory.c:294
 msgid ""
 "If the or the menu action is disabled, it will never appear in the file manager context menu.\n"
 "Defaults to TRUE."
 msgstr ""
+"Ja darbība vai izvēlne ir atspējota, tā nekad neparādīsies failu "
+"pārvaldnieka konteksta izvēlnē.\n"
+"Noklusējums: TRUE."
 
 #: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr ""
+msgstr "Vai darbība vai izvēlne ir iespējota [iespējota]"
 
 #: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
-msgstr ""
+msgstr "Formāta versija"
 
 #: src/core/na-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward"
 " compatibility."
 msgstr ""
+"Konfigurācijas formāta versija, ko izmantos atpakaļsaderības pārvaldībai."
 
 #. Translators: default label for a new menu
 #: src/core/na-object-menu.c:57
 msgid "New Caja menu"
-msgstr ""
+msgstr "Jauna Caja izvēlne"
 
 #. Translators: label for the default profile
 #: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "Noklusējuma profils"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "Profila nosaukums"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
+"Var izmantot kā profila funkcijas aprakstu.\n"
+"Ja nav iestatīts, tiek izmantots automātiski ģenerēts nosaukums."
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "Komandas ceļš"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
 msgstr ""
+"Ceļš uz komandu, kas tiks izpildīta, kad lietotājs failu pārvaldnieka "
+"konteksta izvēlnē vai rīkjoslā izvēlēsies izvēlnes vienumu."
 
 #: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "Komandas parametri"
 
 #: src/core/na-object-profile-factory.c:129
 msgid ""
@@ -900,10 +1103,49 @@ msgid ""
 "  %X: space-separated list of the extensions of the selected file(s)/folder(s)\n"
 "  %%: a percent sign."
 msgstr ""
+"Komandas parametri, kas tiks izpildīti, kad lietotājs failu pārvaldnieka "
+"konteksta izvēlnē vai rīkjoslā izvēlēsies izvēlnes vienumu.\n"
+"Parametros var būt īpaši marķieri, kurus pirms komandas palaišanas aizstāj "
+"ar failu pārvaldnieka sniegto informāciju:\n"
+"- līdz versijai 2.0:\n"
+"  %d: atlasītā(-o) faila(-u) bāzes mape\n"
+"  %f: atlasītā faila nosaukums vai pirmā nosaukums, ja atlasīti vairāki\n"
+"  %h: URI resursdatora nosaukums\n"
+"  %m: ar atstarpēm atdalīts atlasīto failu/mapju bāzes nosaukumu saraksts\n"
+"  %M: ar atstarpēm atdalīts atlasīto failu/mapju saraksts ar pilniem ceļiem\n"
+"  %p: pirmā URI porta numurs\n"
+"  %R: ar atstarpēm atdalīts atlasīto URI saraksts\n"
+"  %s: URI shēma\n"
+"  %u: URI\n"
+"  %U: URI lietotājvārds\n"
+"  %%: procentu zīme.\n"
+"- sākot ar versiju 3:\n"
+"  %b: (pirmais) bāzes nosaukums\n"
+"  %B: ar atstarpēm atdalīts atlasīto failu/mapju bāzes nosaukumu saraksts\n"
+"  %c: atlasīto failu/mapju skaits\n"
+"  %d: (pirmā) bāzes mape\n"
+"  %D: ar atstarpēm atdalīts atlasīto failu/mapju bāzes mapju saraksts\n"
+"  %f: (pirmais) faila nosaukums\n"
+"  %F: ar atstarpēm atdalīts atlasīto failu/mapju nosaukumu saraksts\n"
+"  %h: (pirmā) URI resursdatora nosaukums\n"
+"  %m: (pirmais) MIME tips\n"
+"  %M: ar atstarpēm atdalīts atlasīto failu/mapju MIME tipu saraksts\n"
+"  %n: (pirmā) URI lietotājvārds\n"
+"  %o: tukšais operators, kas liek izpildīt vienskaitļa formā (kopš 3.0.2)\n"
+"  %O: tukšais operators, kas liek izpildīt daudzskaitļa formā (kopš 3.0.2)\n"
+"  %p: (pirmā) URI porta numurs\n"
+"  %s: (pirmā) URI shēma\n"
+"  %u: (pirmais) URI\n"
+"  %U: ar atstarpēm atdalīts atlasīto failu/mapju URI saraksts\n"
+"  %w: (pirmais) bāzes nosaukums bez paplašinājuma\n"
+"  %W: ar atstarpēm atdalīts bāzes nosaukumu bez paplašinājumiem saraksts\n"
+"  %x: (pirmais) paplašinājums\n"
+"  %X: ar atstarpēm atdalīts atlasīto failu/mapju paplašinājumu saraksts\n"
+"  %%: procentu zīme."
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "Darba mapa"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -911,10 +1153,12 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to \"%d\"."
 msgstr ""
+"Mape, kurā tiks palaista komanda.\n"
+"Noklusējums: \"%d\"."
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "Izpildes režīms"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -928,30 +1172,44 @@ msgid ""
 "- DisplayOutput: the ran terminal may be closed at end of the command, but standard streams (stdout, stderr) should be collected and displayed; an acceptable fallback is Terminal.\n"
 "Defaults to \"Normal\"."
 msgstr ""
+"Programmas izpildes režīms.\n"
+"Var izvēlēties kādu no šīm vērtībām:\n"
+"- Normal: palaiž kā standarta grafisko lietotāja saskarni\n"
+"- Terminal: palaiž grafiskās vides vēlamo termināli un izpilda komandu tajā\n"
+"- Embedded: izmanto īpašu failu pārvaldnieka iespēju palaist termināli tā "
+"iekšienē; pieņemama rezerves vērtība ir Terminal\n"
+"- DisplayOutput: palaisto termināli komandas beigās var aizvērt, bet "
+"standarta plūsmas (stdout, stderr) jāsavāc un jāparāda; pieņemama rezerves "
+"vērtība ir Terminal.\n"
+"Noklusējums: \"Normal\"."
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "Palaišanas paziņošana"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to FALSE."
 msgstr ""
+"Attiecas tikai uz ExecutionMode=Normal.\n"
+"Noklusējums: FALSE."
 
 #: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
-msgstr ""
+msgstr "Palaišanas WM klase"
 
 #: src/core/na-object-profile-factory.c:268
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to empty."
 msgstr ""
+"Attiecas tikai uz ExecutionMode=Normal.\n"
+"Noklusējums: tukšs."
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "Izpildīt kā lietotājam"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -959,59 +1217,64 @@ msgid ""
 "The profile is ignored if defined with a non-existing UID or login.\n"
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
+"Lietotājs, kura vārdā jāizpilda komanda. Lietotāju var norādīt ar skaitlisko "
+"UID vai pieteikšanās vārdu.\n"
+"Profils tiek ignorēts, ja tajā norādīts neeksistējošs UID vai pieteikšanās "
+"vārds.\n"
+"Noklusējums: tukšs — komanda tiks izpildīta pašreizējā lietotāja vārdā."
 
 #: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
-msgstr ""
+msgstr "Kļūda, vaicājot informāciju par URI %s: %s"
 
 #: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///ceļš/uz/fails1.mid"
 
 #: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///ceļš/uz/fails2.jpeg"
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "lietotājs"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
-msgstr ""
+msgstr "Palaistās komandas izvade"
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "Palaistā komanda:"
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "Standarta izvade:"
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "Standarta kļūdu izvade:"
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
-msgstr ""
+msgstr "Caja-Actions darbvirsmas I/O nodrošinātājs"
 
 #: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
-msgstr ""
+msgstr "Eksportēt kā ._desktop failu"
 
 #: src/io-desktop/cadp-formats.c:56
 msgid ""
@@ -1022,48 +1285,57 @@ msgid ""
 "- drag-n-drop into the Caja-Actions Configuration Tool,\n"
 "- or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
+"Šis formāts ieviests 3.0 versiju sērijā, un tam vajadzētu būt jūsu jaunajam "
+"vēlamajam formātam, eksportējot vienumus.\n"
+"Tas ļauj viegli koplietot jūsu darbības ar visu pasauli, arī ar citu "
+"darbvirsmas vižu lietotājiem, ja vien viņu lietotne realizē DES-EMA "
+"specifikāciju, kas apraksta šo formātu.\n"
+"Eksportēto .desktop failu vēlāk var importēt:\n"
+"- ar Caja-Actions konfigurēšanas rīka importēšanas palīgu,\n"
+"- ievelkot to Caja-Actions konfigurēšanas rīkā,\n"
+"- vai nokopējot to direktorijā XDG_DATA_DIRS/file-manager/actions."
 
 #: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr ""
+msgstr "Darbvirsmas I/O nodrošinātājs nespēj apstrādāt šo URI"
 
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
 #, c-format
 msgid "unknown type: %s"
-msgstr ""
+msgstr "nezināms veids: %s"
 
 #: src/cact/base-application.c:182
 msgid "Arguments count"
-msgstr ""
+msgstr "Argumentu skaits"
 
 #: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
-msgstr ""
+msgstr "Komandrindas argumentu skaits"
 
 #: src/cact/base-application.c:190
 msgid "Arguments"
-msgstr ""
+msgstr "Argumenti"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
-msgstr ""
+msgstr "Komandrindas argumentu masīvs"
 
 #: src/cact/base-application.c:198
 msgid "Option entries"
-msgstr ""
+msgstr "Opciju ieraksti"
 
 #: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
-msgstr ""
+msgstr "Komandrindas opciju definīciju masīvs"
 
 #: src/cact/base-application.c:205
 msgid "Application name"
-msgstr ""
+msgstr "Lietotnes nosaukums"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
-msgstr ""
+msgstr "Lietotnes nosaukums"
 
 #: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
@@ -1071,56 +1343,56 @@ msgstr "Apraksts"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
-msgstr ""
+msgstr "Īss apraksts, ko rādīt --help izvades pirmajā rindā"
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "Ikonas nosaukums"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
-msgstr ""
+msgstr "Lietotnes ikonas nosaukums"
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
-msgstr ""
+msgstr "UniqueApp nosaukums"
 
 #: src/cact/base-application.c:230
 msgid "The Unique name of the application"
-msgstr ""
+msgstr "Lietotnes unikālais nosaukums"
 
 #: src/cact/base-application.c:237
 msgid "Return code"
-msgstr ""
+msgstr "Atgriešanas kods"
 
 #: src/cact/base-application.c:238
 msgid "The return code of the application"
-msgstr ""
+msgstr "Lietotnes atgriešanas kods"
 
 #: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
-msgstr ""
+msgstr "Neizdevās interpretēt komandrindas argumentus"
 
 #: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
-msgstr ""
+msgstr "Iziet, nospiežot Escape"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
-msgstr ""
+msgstr "Vai palīgam jābeidz darbs, kad lietotājs nospiež Escape?"
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
-msgstr ""
+msgstr "Brīdināt, nospiežot Escape"
 
 #: src/cact/base-assistant.c:160
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
-msgstr ""
+msgstr "Vai lietotājam jāapstiprina iziešana no palīga ar Escape?"
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr ""
+msgstr "Vai tiešām vēlaties iziet no šī palīga?"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1136,79 +1408,81 @@ msgid ""
 "Another instance of %s is already running.\n"
 "Please switch back to it."
 msgstr ""
+"Cita %s instance jau darbojas.\n"
+"Lūdzu, pārslēdzieties uz to."
 
 #: src/cact/base-iunique.c:207
 msgid "The application is not unique"
-msgstr ""
+msgstr "Lietotne nav unikāla"
 
 #: src/cact/base-window.c:204
 msgid "XML UI filename"
-msgstr ""
+msgstr "XML UI faila nosaukums"
 
 #: src/cact/base-window.c:205
 msgid "The filename which contains the XML UI definition"
-msgstr ""
+msgstr "Faila nosaukums, kurā ir XML UI definīcija"
 
 #: src/cact/base-window.c:212
 msgid "Has its own GtkBuilder"
-msgstr ""
+msgstr "Ir savs GtkBuilder"
 
 #: src/cact/base-window.c:213
 msgid ""
 "Whether this BaseWindow reallocates a new GtkBuilder each time it is opened"
-msgstr ""
+msgstr "Vai šis BaseWindow ikreiz, kad tiek atvērts, izvieto jaunu GtkBuilder"
 
 #: src/cact/base-window.c:220
 msgid "Toplevel name"
-msgstr ""
+msgstr "Augšējā līmeņa nosaukums"
 
 #: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
-msgstr ""
+msgstr "Augšējā līmeņa loga iekšējais GtkBuildable nosaukums"
 
 #: src/cact/base-window.c:228
 msgid "BaseApplication"
-msgstr ""
+msgstr "BaseApplication"
 
 #: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
-msgstr ""
+msgstr "Rādītājs (ne atsauce) uz BaseApplication instanci"
 
 #: src/cact/base-window.c:235 src/cact/cact-tree-model.c:225
 msgid "Parent BaseWindow"
-msgstr ""
+msgstr "Vecāka BaseWindow"
 
 #: src/cact/base-window.c:236
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of this BaseWindow"
-msgstr ""
+msgstr "Rādītājs (ne atsauce) uz šī BaseWindow vecāka BaseWindow"
 
 #: src/cact/base-window.c:242
 msgid "WSP name"
-msgstr ""
+msgstr "WSP nosaukums"
 
 #: src/cact/base-window.c:243
 msgid ""
 "The string which handles the window size and position in user preferences"
-msgstr ""
+msgstr "Virkne, kas lietotāja iestatījumos glabā loga izmēru un novietojumu"
 
 #: src/cact/base-window.c:250
 msgid "Destroy the Gtk toplevel"
-msgstr ""
+msgstr "Iznīcināt Gtk augšējo līmeni"
 
 #: src/cact/base-window.c:251
 msgid "Whether the embedded Gtk Toplevel should be destroyed at dispose time"
-msgstr ""
+msgstr "Vai iegultais Gtk augšējais līmenis jāiznīcina atbrīvošanas laikā"
 
 #: src/cact/base-window.c:735
 #, c-format
 msgid "Unable to load %s UI XML definition: %s"
-msgstr ""
+msgstr "Neizdevās ielādēt %s UI XML definīciju: %s"
 
 #: src/cact/base-window.c:750
 #, c-format
 msgid "Unable to load %s dialog definition."
-msgstr ""
+msgstr "Neizdevās ielādēt %s dialoglodziņa definīciju."
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
@@ -1222,11 +1496,11 @@ msgstr "Neatpazīta darbvirsmas faila versija '%s'"
 #: src/cact/egg-desktop-file.c:957
 #, c-format
 msgid "Starting %s"
-msgstr "Startē %s"
+msgstr "Palaiž %s"
 
 #: src/cact/egg-desktop-file.c:1098
 msgid "Application does not accept documents on command line"
-msgstr "Lietotne nepieņem norādes uz dokumentiem no komandrindas"
+msgstr "Lietotne nepieņem dokumentus komandrindā"
 
 #: src/cact/egg-desktop-file.c:1166
 #, c-format
@@ -1235,19 +1509,19 @@ msgstr "Neatpazīta palaišanas opcija: %d"
 
 #: src/cact/egg-desktop-file.c:1364
 msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
-msgstr "Nevar nodot dokumenta URI 'Typa=Link' darbvirsmas ierakstam"
+msgstr "Nevar nodot dokumentu URI darbvirsmas ierakstam 'Type=Link'"
 
 #: src/cact/egg-desktop-file.c:1385
 msgid "Not a launchable item"
-msgstr "Nepalaižama vienība"
+msgstr "Šo vienumu nevar palaist"
 
 #: src/cact/egg-sm-client.c:235
 msgid "Disable connection to session manager"
-msgstr "Atvienoties no sesiju pārvaldnieka"
+msgstr "Atspējot savienojumu ar sesiju pārvaldnieku"
 
 #: src/cact/egg-sm-client.c:238
 msgid "Specify file containing saved configuration"
-msgstr "Norādīt failu, kurš satur saglabāto konfigurāciju"
+msgstr "Norādīt failu, kas satur saglabāto konfigurāciju"
 
 #: src/cact/egg-sm-client.c:238
 msgid "FILE"
@@ -1271,100 +1545,100 @@ msgstr "Rādīt sesijas pārvaldības opcijas"
 
 #: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Caja-Actions konfigurēšanas rīks"
 
 #: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
-msgstr ""
+msgstr "Lietotāja saskarne savu konteksta darbību rediģēšanai"
 
 #: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
-msgstr ""
+msgstr "Iestatiet, lai palaistu vairākas programmas instances [unikāla]"
 
 #: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
-msgstr ""
+msgstr "Izvadīt versijas numuru un korekti iziet [nē]"
 
 #: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
-msgstr ""
+msgstr "Lietotājs ir vienuma īpašnieks"
 
 #: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
-msgstr ""
+msgstr "Lietotājs var lasīt vienumu"
 
 #: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
-msgstr ""
+msgstr "Lietotājs var rakstīt vienumā"
 
 #: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
-msgstr ""
+msgstr "Lietotājs var izpildīt vienumu"
 
 #: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
-msgstr ""
+msgstr "Vienums ir lokāls"
 
 #. Translators: add a comment when a capability is already used by current
 #. item
 #: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
-msgstr ""
+msgstr "%s (jau ievietots)"
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Jaunas spējas pievienošana"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
-msgstr ""
+msgstr "<b>Pārvaldītās spējas</b>"
 
 #: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
-msgstr ""
+msgstr "Jaunas shēmas pievienošana"
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
-msgstr ""
+msgstr "<b>Shēma</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
-msgstr ""
+msgstr "Eksportēšana atcelta pēc lietotāja darbības."
 
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
-msgstr ""
+msgstr "Veiksmīgi eksportēts kā"
 
 #: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
-msgstr ""
+msgstr "Iespējams, jums nav rakstīšanas atļaujas atlasītajā mapē."
 
 #: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
-msgstr ""
+msgstr "Darbības eksportēšana"
 
 #: src/cact/cact-assistant-export.ui:96
 msgid "Which format should I choose to export it ?"
-msgstr ""
+msgstr "Kādā formātā to eksportēt?"
 
 #: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
-msgstr ""
+msgstr "_Atcerēties manu izvēli nākamajām eksportēšanas reizēm"
 
 #: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
-msgstr ""
+msgstr "Darbību eksportēšana"
 
 #: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
-msgstr ""
+msgstr "Šis palīgs jums palīdzēs eksportēt darbības."
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr ""
+msgstr "Darbību _saraksts:"
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1372,195 +1646,200 @@ msgid ""
 "\n"
 "You may use Ctrl and Shift keys to extend the selection."
 msgstr ""
+"Lūdzu, atlasiet vienu vai vairākas eksportējamās darbības.\n"
+"\n"
+"Lai paplašinātu atlasi, varat izmantot taustiņus Ctrl un Shift."
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
-msgstr ""
+msgstr "Eksportējamo darbību atlase"
 
 #: src/cact/cact-assistant-export.ui:327
 msgid "Selecting the target folder"
-msgstr ""
+msgstr "Mērķa mapes atlase"
 
 #: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
-msgstr ""
+msgstr "Kādā formātā eksportēt šos vienumus?"
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
-msgstr ""
+msgstr "Eksportēšanas formāta atlase"
 
 #: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
-msgstr ""
+msgstr "Tiks eksportēti atlasītie vienumi:"
 
 #: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
-msgstr ""
+msgstr "Uz mērķa mapi:"
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "Kopsavilkums"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
-msgstr ""
+msgstr "Atlasītie vienumi ir apstrādāti:"
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "Eksportēšana pabeigta"
 
 #. Translators: indicate that the file has been successfully imported
 #: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
-msgstr ""
+msgstr "Importēts"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
 #: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "ID: %s\t%s"
 
 #. Translators: indicate that the file was not imported
 #: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
-msgstr ""
+msgstr "Nav importēts"
 
 #: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
-msgstr ""
+msgstr "Darbību importēšana"
 
 #: src/cact/cact-assistant-import.ui:19
 msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
-msgstr ""
+msgstr "Šis palīgs jums palīdzēs importēt vienumus — darbības vai izvēlnes."
 
 #: src/cact/cact-assistant-import.ui:55
 msgid "Selecting files to import"
-msgstr ""
+msgstr "Importējamo failu atlase"
 
 #: src/cact/cact-assistant-import.ui:81
 msgid "What should I do when importing an item whose ID already exists ?"
-msgstr ""
+msgstr "Ko darīt, importējot vienumu, kura ID jau eksistē?"
 
 #: src/cact/cact-assistant-import.ui:122
 msgid "Managing duplicates"
-msgstr ""
+msgstr "Dublikātu pārvaldība"
 
 #: src/cact/cact-assistant-import.ui:163
 msgid "About to import selected files:"
-msgstr ""
+msgstr "Tiks importēti atlasītie faili:"
 
 #: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
-msgstr ""
+msgstr "Importējot vienumu, kura ID jau eksistē:"
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
-msgstr ""
+msgstr "Atlasītie faili ir apstrādāti:"
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
-msgstr ""
+msgstr "Importēšana pabeigta"
 
 #: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
-msgstr ""
+msgstr "Konfigurēt vienumus, ko pievienot Caja konteksta izvēlnēm"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 msgstr ""
+"caja;darbības;konfigurācija;rīks;iestatījumi;MATE;failu "
+"pārlūks;actions;configuration;tool;settings;filebrowser;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
-msgstr ""
+msgstr "Tiks eksportēta darbība \"%s\"."
 
 #. Translators: The menu <label> is about to be exported
 #: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
-msgstr ""
+msgstr "Tiks eksportēta izvēlne \"%s\"."
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr ""
+msgstr "Uzmanību: darbībai vai izvēlnei etiķete ir obligāta."
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
-msgstr ""
+msgstr "Bāzes nosaukumu filtrs"
 
 #: src/cact/cact-icapabilities-tab.c:198
 msgid "Capability filter"
-msgstr ""
+msgstr "Spēju filtrs"
 
 #: src/cact/cact-icommand-tab.c:567
 msgid "Choosing a command"
-msgstr ""
+msgstr "Komandas izvēle"
 
 #: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
-msgstr ""
+msgstr "Darba mapes izvēle"
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
-msgstr ""
+msgstr "Ikonu izvēlētājs"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
-msgstr ""
+msgstr "_Motīva ikonas"
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
-msgstr ""
+msgstr "Ikonas pēc _ceļa"
 
 #: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
-msgstr ""
+msgstr "(stingri mazāks par)"
 
 #: src/cact/cact-ienvironment-tab.c:72
 msgid "(equal to)"
-msgstr ""
+msgstr "(vienāds ar)"
 
 #: src/cact/cact-ienvironment-tab.c:73
 msgid "(strictly greater than)"
-msgstr ""
+msgstr "(stingri lielāks par)"
 
 #: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
-msgstr ""
+msgstr "Izpildāmā faila izvēle"
 
 #: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
-msgstr ""
+msgstr "Mapju filtrs"
 
 #. Translators: title of the FileChoose dialog when selecting an URI which
 #. * will be compare to Caja 'current_folder'
 #: src/cact/cact-ifolders-tab.c:263 src/cact/cact-ifolders-tab.c:291
 msgid "Select a folder"
-msgstr "Izvēlieties mapi"
+msgstr "Atlasiet mapi"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
-msgstr ""
+msgstr "MIME tipu filtrs"
 
 #. Translators: label of the push button when there is not yet any shortcut
 #: src/cact/cact-iproperties-tab.c:53
 #: src/cact/caja-actions-config-tool.ui:3375
 msgid "None"
-msgstr "Nekas"
+msgstr "Nav"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "Iz_vēlne"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr ""
+msgstr "<b>Izvēlnes rediģējamās īpašības</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1570,99 +1849,104 @@ msgstr "D_arbība"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr ""
+msgstr "<b>Darbības rediģējamās īpašības</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
-msgstr ""
+msgstr "Shēmu filtrs"
 
 #: src/cact/cact-main-window.c:344
 msgid "Current NAObjectItem"
-msgstr ""
+msgstr "Pašreizējais NAObjectItem"
 
 #: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
-msgstr ""
+msgstr "Rādītājs uz pašlaik rediģējamo NAObjectItem — darbību vai izvēlni"
 
 #: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
-msgstr ""
+msgstr "Pašreizējais NAObjectProfile"
 
 #: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
-msgstr ""
+msgstr "Rādītājs uz pašlaik rediģējamo NAObjectProfile"
 
 #: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
-msgstr ""
+msgstr "Pašreizējais NAIContext"
 
 #: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
-msgstr ""
+msgstr "Rādītājs uz pašlaik rediģējamo NAIContext"
 
 #: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
-msgstr ""
+msgstr "Rediģējams vienums?"
 
 #: src/cact/cact-main-window.c:366
 msgid "Whether the item will be able to be updated against its I/O provider"
-msgstr ""
+msgstr "Vai vienumu varēs atjaunināt tā I/O nodrošinātājā"
 
 #: src/cact/cact-main-window.c:373
 msgid "No edition reason"
-msgstr ""
+msgstr "Iemesls, kāpēc nav rediģējams"
 
 #: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
-msgstr ""
+msgstr "Kāpēc šis vienums nav rediģējams"
 
 #: src/cact/cact-main-window.c:1267
 msgid ""
 "One or more actions have been modified in the filesystem.\n"
 "You could keep to work with your current list of actions, or you may want to reload a fresh one."
 msgstr ""
+"Failu sistēmā ir mainīta viena vai vairākas darbības.\n"
+"Varat turpināt darbu ar pašreizējo darbību sarakstu vai ielādēt to no jauna."
 
 #: src/cact/cact-main-window.c:1274
 msgid ""
 "Note that reloading a fresh list of actions requires that you give up with "
 "your current modifications."
 msgstr ""
+"Ievērojiet, ka, ielādējot darbību sarakstu no jauna, jūsu pašreizējās "
+"izmaiņas tiks zaudētas."
 
 #: src/cact/cact-main-window.c:1280
 msgid "Do you want to reload a fresh list of actions ?"
-msgstr ""
+msgstr "Vai vēlaties ielādēt darbību sarakstu no jauna?"
 
 #: src/cact/cact-main-window.c:1303
 msgid ""
 "Reloading a fresh list of actions requires that you give up with your "
 "current modifications."
 msgstr ""
+"Ielādējot darbību sarakstu no jauna, jūsu pašreizējās izmaiņas tiks zaudētas."
 
 #: src/cact/cact-main-window.c:1306
 msgid "Do you really want to do this ?"
-msgstr ""
+msgstr "Vai tiešām vēlaties to darīt?"
 
 #: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
-msgstr ""
+msgstr "Daži vienumi ir mainīti."
 
 #: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
-msgstr ""
+msgstr "Vai tiešām vēlaties iziet, tos nesaglabājot?"
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
-msgstr ""
+msgstr "Jāatbilst vienam no"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
-msgstr ""
+msgstr "Jāatbilst visiem"
 
 #. Translators: label of the header of a column which let the user select a
 #. negative filter
 #: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
-msgstr ""
+msgstr "Nedrīkst atbilst nevienam no"
 
 #: src/cact/cact-match-list.c:548
 #, c-format
@@ -1670,10 +1954,12 @@ msgid ""
 "'%s' filter already exists in the list.\n"
 "Please provide another one."
 msgstr ""
+"Filtrs '%s' sarakstā jau eksistē.\n"
+"Lūdzu, norādiet citu."
 
 #: src/cact/cact-match-list.c:926
 msgid "new-filter"
-msgstr ""
+msgstr "jauns-filtrs"
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
@@ -1689,7 +1975,7 @@ msgstr "_Skats"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "_Rīkjoslas"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
@@ -1697,7 +1983,7 @@ msgstr "_Rīki"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "_Uzturētājs"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1705,37 +1991,37 @@ msgstr "_Palīdzība"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
-msgstr ""
+msgstr "_Cilnes"
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
-msgstr ""
+msgstr "Jauna iz_vēlne"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. menu' item
 #: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
-msgstr ""
+msgstr "Ievietot jaunu izvēlni pašreizējā vietā"
 
 #: src/cact/cact-menubar.c:72
 msgid "_New action"
-msgstr ""
+msgstr "_Jauna darbība"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. action' item
 #: src/cact/cact-menubar.c:74
 msgid "Define a new action"
-msgstr ""
+msgstr "Definēt jaunu darbību"
 
 #: src/cact/cact-menubar.c:76
 msgid "New _profile"
-msgstr ""
+msgstr "Jauns _profils"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. profile' item
 #: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
-msgstr ""
+msgstr "Definēt jaunu profilu, kas piesaistīts pašreizējai darbībai"
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
@@ -1746,6 +2032,7 @@ msgstr "_Saglabāt"
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
 msgstr ""
+"Saglabāt visas mainītās darbības. Nederīgās darbības tiks klusi ignorētas"
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
@@ -1754,17 +2041,17 @@ msgstr "_Iziet"
 #. Translators: tooltip displayed in the status bar when selecting 'Quit' item
 #: src/cact/cact-menubar.c:86
 msgid "Quit the application"
-msgstr "Iziet no aplikācijas"
+msgstr "Iziet no lietotnes"
 
 #: src/cact/cact-menubar.c:88
 msgid "Cu_t"
-msgstr "Izņe_mt"
+msgstr "_Izgriezt"
 
 #. Translators: tooltip displayed in the status bar when selecting the Cut
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Izgriezt atlasīto(-s) vienumu(-us) uz starpliktuvi"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1774,27 +2061,27 @@ msgstr "_Kopēt"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "Kopēt atlasīto(-s) vienumu(-us) uz starpliktuvi"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
-msgstr "_Izlikt"
+msgstr "Ie_līmēt"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. item
 #: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
-msgstr ""
+msgstr "Ievietot starpliktuves saturu tieši pirms pašreizējās vietas"
 
 #: src/cact/cact-menubar.c:100
 msgid "Paste _into"
-msgstr ""
+msgstr "I_elīmēt iekšā"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. Into item
 #: src/cact/cact-menubar.c:102
 msgid "Insert the content of the clipboard as first child of the current item"
-msgstr ""
+msgstr "Ievietot starpliktuves saturu kā pašreizējā vienuma pirmo bērnu"
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
@@ -1804,21 +2091,21 @@ msgstr "D_ublēt"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "Dublēt atlasīto(-s) vienumu(-us)"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
-msgstr "_Izdzēst"
+msgstr "_Dzēst"
 
 #. Translators: tooltip displayed in the status bar when selecting the Delete
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "Dzēst atlasīto(-s) vienumu(-us)"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr ""
+msgstr "_Pārlādēt vienumus"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -1827,6 +2114,8 @@ msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
 msgstr ""
+"Atcelt pašreizējās izmaiņas un no jauna ielādēt sākotnējo izvēlņu un darbību "
+"sarakstu"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1836,87 +2125,89 @@ msgstr "_Iestatījumi"
 #. 'Preferences' item
 #: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
-msgstr ""
+msgstr "Rediģēt iestatījumus"
 
 #: src/cact/cact-menubar.c:120
 msgid "_Expand all"
-msgstr ""
+msgstr "_Izvērst visu"
 
 #. Translators: tooltip displayed in the status bar when selecting the Expand
 #. all item
 #: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
-msgstr ""
+msgstr "Pilnībā izvērst vienumu hierarhiju"
 
 #: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
-msgstr ""
+msgstr "_Sakļaut visu"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr ""
+msgstr "Pilnībā sakļaut vienumu hierarhiju"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
-msgstr ""
+msgstr "_Importēšanas palīgs..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Import
 #. item
 #: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
 msgstr ""
+"Importēt vienu vai vairākas darbības no ārējiem failiem savā konfigurācijā"
 
 #: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
-msgstr ""
+msgstr "_Eksportēšanas palīgs..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Export
 #. item
 #: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
 msgstr ""
+"Eksportēt vienu vai vairākas darbības no savas konfigurācijas ārējos failos"
 
 #: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
-msgstr ""
+msgstr "_Izmest atlasi"
 
 #. Translators: tooltip displayed in the status bar when selecting the Dump
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr ""
+msgstr "Rekursīvi izmest atlasītos vienumus"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
-msgstr ""
+msgstr "Īsi izmest _koka krātuvi"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. BriefTreeStoreDump item
 #: src/cact/cact-menubar.c:144
 msgid "Briefly dump the tree store"
-msgstr ""
+msgstr "Īsi izmest koka krātuvi"
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr ""
+msgstr "_Uzskaitīt mainītos vienumus"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
 #: src/cact/cact-menubar.c:148
 msgid "List the modified items"
-msgstr ""
+msgstr "Uzskaitīt mainītos vienumus"
 
 #: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
-msgstr ""
+msgstr "Izmest _starpliktuvi"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr ""
+msgstr "Izmest starpliktuves objekta saturu"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -1926,7 +2217,7 @@ msgstr "Saturs"
 #. item
 #: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
-msgstr ""
+msgstr "Rādīt palīdzību par šo programmu"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
@@ -1936,170 +2227,183 @@ msgstr "P_ar"
 #. item
 #: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
-msgstr ""
+msgstr "Rādīt informāciju par šo programmu"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. File toolbar' item
 #: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
-msgstr ""
+msgstr "Rādīt rīkjoslu „Fails”"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. Edit toolbar' item
 #: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
-msgstr ""
+msgstr "Rādīt rīkjoslu „Rediģēt”"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
 #: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
-msgstr ""
+msgstr "Rādīt rīkjoslu „Rīki”"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr ""
+msgstr "Rādīt rīkjoslu „Palīdzība”"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
-msgstr ""
+msgstr "Pa _kreisi"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the left' item
 #: src/cact/cact-menubar.c:192
 msgid "Display the notebook tabs on the left side"
-msgstr ""
+msgstr "Rādīt cilnes kreisajā pusē"
 
 #: src/cact/cact-menubar.c:194
 msgid "On the _right"
-msgstr ""
+msgstr "Pa _labi"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the right' item
 #: src/cact/cact-menubar.c:196
 msgid "Display the notebook tabs on the right side"
-msgstr ""
+msgstr "Rādīt cilnes labajā pusē"
 
 #: src/cact/cact-menubar.c:198
 msgid "On the _top"
-msgstr ""
+msgstr "_Augšā"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the top' item
 #: src/cact/cact-menubar.c:200
 msgid "Display the notebook tabs on the top side"
-msgstr ""
+msgstr "Rādīt cilnes augšpusē"
 
 #: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
-msgstr ""
+msgstr "A_pakšā"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the bottom' item
 #: src/cact/cact-menubar.c:204
 msgid "Display the notebook tabs on the bottom side"
-msgstr ""
+msgstr "Rādīt cilnes apakšpusē"
 
 #: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
-msgstr ""
+msgstr " Ielādēts: izvēlņu — %d, darbību — %d, profilu — %d"
 
 #: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
-msgstr ""
+msgstr "Ne visi vienumi ir izgriezti, jo šie nav maināmi:"
 
 #: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
-msgstr ""
+msgstr "Ne visi vienumi ir izdzēsti, jo šie nav maināmi:"
 
 #: src/cact/cact-menubar-file.c:52
 msgid "Save error"
-msgstr ""
+msgstr "Saglabāšanas kļūda"
 
 #: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
-msgstr ""
+msgstr "Daži vienumi, iespējams, netika saglabāti"
 
 #: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
-msgstr ""
+msgstr "Neizdevās pārrakstīt nulles līmeņa vienumu sarakstu"
 
 #: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
-msgstr ""
+msgstr "Daži vienumi netika izdzēsti"
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
-msgstr ""
+msgstr "Jauns profils"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
-msgstr ""
+msgstr "Automātiski saglabā nesaglabātās izmaiņas..."
 
 #: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
-msgstr ""
+msgstr "Caja-Actions iestatījumi"
 
 #: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
-msgstr ""
+msgstr "_Augošā alfabētiskā secībā"
 
 #: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Izvēlnes un darbības tiks rādītas to etiķešu augošā alfabētiskā secībā gan "
+"Caja konteksta izvēlnē, gan CACT lietotāja saskarnē."
 
 #: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
-msgstr ""
+msgstr "_Dilstošā alfabētiskā secībā"
 
 #: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"Izvēlnes un darbības tiks rādītas to etiķešu dilstošā alfabētiskā secībā gan "
+"Caja konteksta izvēlnē, gan CACT lietotāja saskarnē."
 
 #: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
-msgstr ""
+msgstr "_Manuāla secība"
 
 #: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
 msgstr ""
+"Izvēlņu un darbību rādīšanas secība gan Caja konteksta izvēlnē, gan CACT "
+"lietotāja saskarnē jāpielāgo manuāli."
 
 #: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
-msgstr ""
+msgstr "<b>Vienumu kārtošana</b>"
 
 #: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
-msgstr ""
+msgstr "_Izveidot saknes izvēlni 'Caja-Actions'"
 
 #: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
+"Ja šī opcija ir atzīmēta, Caja konteksta izvēlnē izvēlnes un darbības tiks "
+"rādītas kā saknes izvēlnes 'Caja-Actions' apakšvienumi."
 
 #: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
-msgstr ""
+msgstr "Pievienot Caja konteksta izvēlnēm vienumu '_Par Caja-Actions'"
 
 #: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
 msgstr ""
+"Ja šī opcija ir atzīmēta, Caja konteksta izvēlnē saknes izvēlnei 'Caja-"
+"Actions' tiks pievienots vienums 'Par Caja-Actions'.\n"
+"Ievērojiet, ka šis vienums tiks rādīts tikai tad, ja Caja konteksta izvēlnē "
+"ir definēta viena vienīga izvēlne (piemēram, ja ir atzīmēta iepriekš minētā "
+"opcija par saknes izvēlni 'Caja-Actions')."
 
 #: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
-msgstr ""
+msgstr "<b>Caja izvēlnes izkārtojums</b>"
 
 #: src/cact/cact-preferences.ui:263
 msgid ""
@@ -2107,86 +2411,99 @@ msgid ""
 "as well as in the Caja context menu. You may also choose here how actions "
 "will be displayed in the Caja context menu."
 msgstr ""
+"Šajā cilnē var izvēlēties, kā darbības tiek kārtotas rādītajā sarakstā un "
+"Caja konteksta izvēlnē. Šeit var arī izvēlēties, kā darbības tiks rādītas "
+"Caja konteksta izvēlnē."
 
 #: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
-msgstr ""
+msgstr "_Darbības laika iestatījumi"
 
 #: src/cact/cact-preferences.ui:298
 msgid ""
 "Specify here the command to run and keep opened a terminal.\n"
 "This command should include a 'COMMAND' keyword, which will be substituted at runtime with the action path and parameters."
 msgstr ""
+"Šeit norādiet komandu, ar ko palaist termināli un paturēt to atvērtu.\n"
+"Komandā jābūt atslēgvārdam 'COMMAND', ko izpildes laikā aizstās ar darbības "
+"ceļu un parametriem."
 
 #: src/cact/cact-preferences.ui:331
 msgid "_Command pattern :"
-msgstr ""
+msgstr "_Komandas šablons:"
 
 #: src/cact/cact-preferences.ui:359
 msgid "<b>Execution in a terminal</b>"
-msgstr ""
+msgstr "<b>Izpilde terminālī</b>"
 
 #: src/cact/cact-preferences.ui:399
 msgid "Running _desktop environment :"
-msgstr ""
+msgstr "Pašreizējā _darbvirsmas vide:"
 
 #: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
-msgstr ""
+msgstr "<i>Pašlaik noteiktā:</i>"
 
 #: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
-msgstr ""
+msgstr "<b>Darbvirsmas vide</b>"
 
 #: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
 msgstr ""
+"Šajā cilnē var norādīt parametrus, kas vajadzīgi dažiem izpildes režīmiem."
 
 #: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
-msgstr ""
+msgstr "_Izpilde"
 
 #: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
-msgstr ""
+msgstr "Ko darīt, ielīmējot vai dublējot vienumu kokā?"
 
 #: src/cact/cact-preferences.ui:534
 msgid "Relabel _menus"
-msgstr ""
+msgstr "Mainīt _izvēlņu etiķetes"
 
 #: src/cact/cact-preferences.ui:538
 msgid ""
 "When a menu is copied/pasted, or duplicated, the new menu will be relabelled"
 " as 'Copy of ...'."
 msgstr ""
+"Kad izvēlne tiek kopēta/ielīmēta vai dublēta, jaunās izvēlnes etiķete tiks "
+"mainīta uz '... kopija'."
 
 #: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
-msgstr ""
+msgstr "Mainīt _darbību etiķetes"
 
 #: src/cact/cact-preferences.ui:555
 msgid ""
 "When an action is copied/pasted, or duplicated, the new action will be "
 "relabelled as 'Copy of ...'."
 msgstr ""
+"Kad darbība tiek kopēta/ielīmēta vai dublēta, jaunās darbības etiķete tiks "
+"mainīta uz '... kopija'."
 
 #: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
-msgstr ""
+msgstr "Mainīt _profilu etiķetes"
 
 #: src/cact/cact-preferences.ui:572
 msgid ""
 "When a profile is copied/pasted, or duplicated, the new profile will be "
 "relabelled as 'Copy of ...'."
 msgstr ""
+"Kad profils tiek kopēts/ielīmēts vai dublēts, jaunā profila etiķete tiks "
+"mainīta uz '... kopija'."
 
 #: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
-msgstr ""
+msgstr "<b>Vienumu etiķešu maiņa</b>"
 
 #: src/cact/cact-preferences.ui:631
 msgid "Esc key _quits the assistant"
-msgstr ""
+msgstr "Esc taustiņš _aizver palīgu"
 
 #: src/cact/cact-preferences.ui:635
 msgid ""
@@ -2194,10 +2511,12 @@ msgid ""
 "assistant. Else, quitting the assistant is only possible by hitting the "
 "'Cancel' button."
 msgstr ""
+"Ja šī opcija ir atzīmēta, ar taustiņu 'Escape' varēs iziet no pašreizējā "
+"palīga. Citādi no palīga var iziet tikai, nospiežot pogu 'Atcelt'."
 
 #: src/cact/cact-preferences.ui:648
 msgid "Ask for a _confirmation when quitting the assistant on Esc key"
-msgstr ""
+msgstr "Prasīt _apstiprinājumu, aizverot palīgu ar Esc taustiņu"
 
 #: src/cact/cact-preferences.ui:652
 msgid ""
@@ -2205,76 +2524,85 @@ msgid ""
 "assistant. When checked, the user will be prompted for a confirmation in "
 "order to help prevent erroneous hits of the Esc key."
 msgstr ""
+"Šī opcija attiecas tikai uz gadījumu, kad ar taustiņu 'Escape' lietotājs var "
+"iziet no palīga. Ja tā ir atzīmēta, lietotājam tiks prasīts apstiprinājums, "
+"lai novērstu nejaušu Esc taustiņa nospiešanu."
 
 #: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
-msgstr ""
+msgstr "<b>Palīgi</b>"
 
 #: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
-msgstr ""
+msgstr "Automātiski _saglabāt nesaglabātās izmaiņas"
 
 #: src/cact/cact-preferences.ui:711
 msgid ""
 "When this option is checked, pending modification will be periodically and "
 "automatically saved."
 msgstr ""
+"Ja šī opcija ir atzīmēta, nesaglabātās izmaiņas tiks periodiski automātiski "
+"saglabātas."
 
 #: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
-msgstr ""
+msgstr "Periodiskums:"
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
-msgstr "minūtes"
+msgstr "minūtēm"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
-msgstr ""
+msgstr "<b>Automātiskā saglabāšana</b>"
 
 #: src/cact/cact-preferences.ui:809
 msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
 msgstr ""
+"Šajā cilnē lietotājs var izvēlēties pielāgotus Caja-Actions konfigurēšanas "
+"rīka lietotāja saskarnes iestatījumus."
 
 #: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
-msgstr ""
+msgstr "_Saskarnes iestatījumi"
 
 #: src/cact/cact-preferences.ui:847
 msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
 msgstr ""
+"Ko darīt, ja importēšanai atlasītajam vienumam (darbībai vai izvēlnei) ir "
+"tāds pats identifikators kā jau esošam?"
 
 #: src/cact/cact-preferences.ui:883
 msgid "<b>Import mode</b>"
-msgstr ""
+msgstr "<b>Importēšanas režīms</b>"
 
 #: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
-msgstr ""
+msgstr "Šajā cilnē var noteikt importēšanas darbību noklusējuma uzvedību."
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "Im_portēšana"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
-msgstr ""
+msgstr "Kurš ir jūsu vēlamais eksportēšanas formāts?"
 
 #: src/cact/cact-preferences.ui:977
 msgid "<b>Export format</b>"
-msgstr ""
+msgstr "<b>Eksportēšanas formāts</b>"
 
 #: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
-msgstr ""
+msgstr "Šajā cilnē var noteikt eksportēšanas darbību noklusējuma uzvedību."
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "_Eksportēšana"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2282,28 +2610,35 @@ msgid ""
 "If the list becomes empty, CACT will automatically refill in with this default list.\n"
 "You can add a new scheme by clicking on the '+' button."
 msgstr ""
+"Šeit var definēt jebkuru skaitu shēmu. Tās tiks piedāvātas kā noklusējuma "
+"shēmas, definējot darbības nosacījumus.\n"
+"Ja saraksts kļūst tukšs, CACT to automātiski aizpildīs ar šo noklusējuma "
+"sarakstu.\n"
+"Jaunu shēmu var pievienot, noklikšķinot uz pogas '+'."
 
 #: src/cact/cact-preferences.ui:1070
 msgid "Click to add a new default scheme."
-msgstr ""
+msgstr "Noklikšķiniet, lai pievienotu jaunu noklusējuma shēmu."
 
 #: src/cact/cact-preferences.ui:1091
 msgid "Click to remove the selected default scheme."
-msgstr ""
+msgstr "Noklikšķiniet, lai noņemtu atlasīto noklusējuma shēmu."
 
 #: src/cact/cact-preferences.ui:1123
 msgid "<b>Default schemes</b>"
-msgstr ""
+msgstr "<b>Noklusējuma shēmas</b>"
 
 #: src/cact/cact-preferences.ui:1143
 msgid ""
 "This tab lets you decide which schemes are proposed by default when editing "
 "advanced conditions for an item."
 msgstr ""
+"Šajā cilnē var noteikt, kuras shēmas pēc noklusējuma tiek piedāvātas, "
+"rediģējot vienuma papildu nosacījumus."
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
-msgstr ""
+msgstr "Shē_mas"
 
 #: src/cact/cact-preferences.ui:1186
 msgid ""
@@ -2311,6 +2646,9 @@ msgid ""
 "startup, to be writable, and the order in which they will be tested when "
 "trying to write a new menu or action."
 msgstr ""
+"Šeit pieejamajiem I/O nodrošinātājiem varat norādīt, vai tos nolasīt "
+"palaišanas laikā, vai tajos var rakstīt un kādā secībā tos izmēģināt, "
+"rakstot jaunu izvēlni vai darbību."
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
@@ -2321,549 +2659,566 @@ msgid ""
 "Move up the selected I/O provider in the order of priority when trying to "
 "write a new item."
 msgstr ""
+"Pārvietot atlasīto I/O nodrošinātāju augstāk prioritāšu secībā, rakstot "
+"jaunu vienumu."
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
-msgstr ""
+msgstr "_Lejup"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
-msgstr ""
+msgstr "<b>Aktivizēšana un prioritāte</b>"
 
 #: src/cact/cact-preferences.ui:1278
 msgid ""
 "This tab lets you decide whether the I/O providers are enabled or not, and "
 "in which order they will be tried when writing a new item."
 msgstr ""
+"Šajā cilnē var noteikt, vai I/O nodrošinātāji ir iespējoti un kādā secībā "
+"tos izmēģināt, rakstot jaunu vienumu."
 
 #: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
-msgstr ""
+msgstr "I/O _nodrošinātāji"
 
 #. Translators: the user is not willing to identify his current desktop
 #. environment,
 #. *       and prefers rely on the runtime detection
 #: src/cact/cact-preferences-editor.c:118
 msgid "Rely on runtime detection"
-msgstr ""
+msgstr "Paļauties uz noteikšanu izpildes laikā"
 
 #: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
-msgstr ""
+msgstr "Piem.:"
 
 #: src/cact/cact-providers-list.c:136
 msgid "Readable"
-msgstr ""
+msgstr "Lasāms"
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "Rakstāms"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
-msgstr ""
+msgstr "I/O nodrošinātājs"
 
 #. Translators: default name when the I/O providers doesn't provide one
 #: src/cact/cact-providers-list.c:260
 msgid "no name"
-msgstr ""
+msgstr "bez nosaukuma"
 
 #. Translators: name displayed when the corresponding I/O provider is
 #. unavailable at runtime
 #: src/cact/cact-providers-list.c:264
 msgid "unavailable I/O provider"
-msgstr ""
+msgstr "nepieejams I/O nodrošinātājs"
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "Atslēgvārds"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
-msgstr ""
+msgstr "Lokāli faili"
 
 #: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
-msgstr ""
+msgstr "SSH faili"
 
 #: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
-msgstr ""
+msgstr "Windows faili"
 
 #: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
-msgstr ""
+msgstr "FTP faili"
 
 #: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
-msgstr ""
+msgstr "WebDAV faili"
 
 #. Translators: add a comment when a scheme is already used by current item
 #: src/cact/cact-schemes-list.c:400
 #, c-format
 msgid "%s (already used)"
-msgstr ""
+msgstr "%s (jau izmantota)"
 
 #: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
-msgstr ""
+msgstr "jauna-shēma"
 
 #: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
-msgstr ""
+msgstr "Jaunās shēmas apraksts"
 
 #: src/cact/cact-tree-model.c:226
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
-msgstr ""
+msgstr "Rādītājs (ne atsauce) uz iegultā koka skata vecāka BaseWindow"
 
 #: src/cact/cact-tree-model.c:232
 msgid "Embedding GtkTreeView"
-msgstr ""
+msgstr "Iegultais GtkTreeView"
 
 #: src/cact/cact-tree-model.c:233
 msgid "The GtkTreeView which relies on this CactTreeModel"
-msgstr ""
+msgstr "GtkTreeView, kas izmanto šo CactTreeModel"
 
 #: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
-msgstr ""
+msgstr "Rediģēšanas režīms"
 
 #: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
-msgstr ""
+msgstr "Rediģēšanas vai atlases režīms"
 
 #: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
-msgstr ""
+msgstr "Šeit nevar nomest profilu"
 
 #: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
-msgstr ""
+msgstr "Šeit nevar nomest darbību vai izvēlni"
 
 #: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
-msgstr ""
+msgstr "Šeit nevar nomest, jo vecākā nevar rakstīt"
 
 #: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
-msgstr ""
+msgstr "Šeit nevar nomest, jo nulles līmenī nevar rakstīt"
 
 #: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
-msgstr ""
+msgstr "Nomešanas laikā radās daži ziņojumi."
 
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
-msgstr ""
+msgstr "BaseWindow"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:217
 msgid "The BaseWindow parent"
-msgstr ""
+msgstr "Vecāka BaseWindow"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "Konteiners"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
-msgstr ""
+msgstr "GtkContainer, kurā ir GtkTreeView logrīks"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
 msgid "Widget name"
-msgstr ""
+msgstr "Logrīka nosaukums"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView logrīka nosaukums"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:243
 msgid "Management mode"
-msgstr ""
+msgstr "Pārvaldības režīms"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
-msgstr ""
+msgstr "Koka skata pārvaldības režīms — atlase vai rediģēšana"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:255
 msgid "Allow notify"
-msgstr ""
+msgstr "Atļaut paziņošanu"
 
 #. Translators: CactTreeView property loong description
 #: src/cact/cact-tree-view.c:257
 msgid "Whether notifications are allowed"
-msgstr ""
+msgstr "Vai paziņojumi ir atļauti"
 
 #: src/cact/caja-actions-config-tool.ui:16
 msgid "End of session"
-msgstr ""
+msgstr "Sesijas beigas"
 
 #: src/cact/caja-actions-config-tool.ui:122
 msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
-msgstr ""
+msgstr "<span size=\"larger\"><b>Parametru skaidrojums</b></span>"
 
 #: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
-msgstr ""
+msgstr "<b>%b</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
-msgstr ""
+msgstr "(pirmais) bāzes nosaukums."
 
 #: src/cact/caja-actions-config-tool.ui:184
 msgid "count of selected item(s)."
-msgstr ""
+msgstr "atlasīto vienumu skaits."
 
 #: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
-msgstr ""
+msgstr "(pirmā) bāzes mape."
 
 #: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
-msgstr ""
+msgstr "ar atstarpēm atdalīts atlasīto failu/mapju bāzes mapju saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:220
 msgid "port number of the (first) selected URI."
-msgstr ""
+msgstr "(pirmā) atlasītā URI porta numurs."
 
 #: src/cact/caja-actions-config-tool.ui:232
 msgid "scheme of the (first) selected URI."
-msgstr ""
+msgstr "(pirmā) atlasītā URI shēma."
 
 #: src/cact/caja-actions-config-tool.ui:244
 msgid "(first) URI."
-msgstr ""
+msgstr "(pirmais) URI."
 
 #: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "ar atstarpēm atdalīts atlasīto failu/mapju URI saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
-msgstr ""
+msgstr "procentu zīme."
 
 #: src/cact/caja-actions-config-tool.ui:280
 msgid "(first) filename."
-msgstr ""
+msgstr "(pirmais) faila nosaukums."
 
 #: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "ar atstarpēm atdalīts atlasīto failu/mapju nosaukumu saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
-msgstr ""
+msgstr "(pirmā) atlasītā URI resursdatora nosaukums."
 
 #: src/cact/caja-actions-config-tool.ui:316
 msgid "username of the (first) selected URI."
-msgstr ""
+msgstr "(pirmā) atlasītā URI lietotājvārds."
 
 #: src/cact/caja-actions-config-tool.ui:328
 msgid "(first) basename without the extension."
-msgstr ""
+msgstr "(pirmais) bāzes nosaukums bez paplašinājuma."
 
 #: src/cact/caja-actions-config-tool.ui:340
 msgid "space-separated list of the basenames without the extension."
-msgstr ""
+msgstr "ar atstarpēm atdalīts bāzes nosaukumu bez paplašinājumiem saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:352
 msgid "(first) extension."
-msgstr ""
+msgstr "(pirmais) paplašinājums."
 
 #: src/cact/caja-actions-config-tool.ui:364
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "ar atstarpēm atdalīts atlasīto failu/mapju paplašinājumu saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
-msgstr ""
+msgstr "(pirmais) MIME tips."
 
 #: src/cact/caja-actions-config-tool.ui:388
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "ar atstarpēm atdalīts atlasīto failu/mapju MIME tipu saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
-msgstr ""
+msgstr "tukšais operators, kas liek izpildīt vienskaitļa formā."
 
 #: src/cact/caja-actions-config-tool.ui:412
 msgid "no-op operator which forces a plural form of execution."
-msgstr ""
+msgstr "tukšais operators, kas liek izpildīt daudzskaitļa formā."
 
 #: src/cact/caja-actions-config-tool.ui:423
 msgid "<b>%B</b> :"
-msgstr ""
+msgstr "<b>%B</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:436
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "ar atstarpēm atdalīts atlasīto failu/mapju bāzes nosaukumu saraksts."
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
 msgid "<b>%o</b> :"
-msgstr ""
+msgstr "<b>%o</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
-msgstr ""
+msgstr "<b>%O</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:579
 #, c-format
 msgid "<b>%p</b> :"
-msgstr ""
+msgstr "<b>%p</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:591
 #, c-format
 msgid "<b>%s</b> :"
-msgstr ""
+msgstr "<b>%s</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:603
 #, c-format
 msgid "<b>%u</b> :"
-msgstr ""
+msgstr "<b>%u</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
-msgstr ""
+msgstr "<b>%U</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
-msgstr ""
+msgstr "<b>%w</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
-msgstr ""
+msgstr "<b>%W</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:651
 #, c-format
 msgid "<b>%x</b> :"
-msgstr ""
+msgstr "<b>%x</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:663
 #, c-format
 msgid "<b>%X</b> :"
-msgstr ""
+msgstr "<b>%X</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:675
 #, c-format
 msgid "<b>%%</b> :"
-msgstr ""
+msgstr "<b>%%</b>:"
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr ""
+msgstr "Vienumu _saraksts:"
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
-msgstr ""
+msgstr "Kārtot sarakstu dilstošā alfabētiskā secībā."
 
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
-msgstr ""
+msgstr "Nekārtot sarakstu, lai vienumus varētu pārkārtot manuāli."
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
-msgstr ""
+msgstr "Kārtot sarakstu augošā alfabētiskā secībā."
 
 #: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
-msgstr ""
+msgstr "Rādīt vienumu a_tlases konteksta izvēlnē"
 
 #: src/cact/caja-actions-config-tool.ui:923
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager"
 " context menu, with a non-empty selection."
 msgstr ""
+"Ja atzīmēts, vienums var tikt rādīts failu pārvaldnieka konteksta izvēlnē, "
+"kad atlase nav tukša."
 
 #: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
-msgstr ""
+msgstr "Vienuma etiķete failu pārvaldnieka konteksta izvēlnēs."
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
-msgstr ""
+msgstr "Rādīt vienumu atrašanās _vietas konteksta izvēlnē"
 
 #: src/cact/caja-actions-config-tool.ui:954
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager context menu when the selection is empty.\n"
 "In this case, the defined conditions will be applied to the current displayed folder."
 msgstr ""
+"Ja atzīmēts, vienums var tikt rādīts failu pārvaldnieka konteksta izvēlnē, "
+"kad atlase ir tukša.\n"
+"Šajā gadījumā definētie nosacījumi tiks piemēroti pašlaik rādītajai mapei."
 
 #: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
-msgstr ""
+msgstr "_Konteksta etiķete:"
 
 #: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
-msgstr ""
+msgstr "Rādīt vienumu _rīkjoslā"
 
 #: src/cact/caja-actions-config-tool.ui:985
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager toolbar.\n"
 "In this case, the defined conditions will be applied to the current folder, and do not depend of the possible current selection."
 msgstr ""
+"Ja atzīmēts, vienums var tikt rādīts failu pārvaldnieka rīkjoslā.\n"
+"Šajā gadījumā definētie nosacījumi tiks piemēroti pašreizējai mapei un nav "
+"atkarīgi no iespējamās pašreizējās atlases."
 
 #: src/cact/caja-actions-config-tool.ui:998
 msgid "Use s_ame label for icon in the toolbar"
-msgstr ""
+msgstr "Rīkjoslā ikonai izmantot to pašu _etiķeti"
 
 #: src/cact/caja-actions-config-tool.ui:1002
 msgid ""
 "When checked, the label displayed in the toolbar will be the same that the "
 "one displayed in the context menus."
 msgstr ""
+"Ja atzīmēts, rīkjoslā rādītā etiķete būs tāda pati kā konteksta izvēlnēs "
+"rādītā."
 
 #: src/cact/caja-actions-config-tool.ui:1017
 msgid "T_oolbar label :"
-msgstr ""
+msgstr "Rīk_joslas etiķete:"
 
 #: src/cact/caja-actions-config-tool.ui:1029
 msgid "The label displayed in the file manager toolbar."
-msgstr ""
+msgstr "Etiķete, kas tiek rādīta failu pārvaldnieka rīkjoslā."
 
 #: src/cact/caja-actions-config-tool.ui:1045
 msgid "Toolti_p :"
-msgstr ""
+msgstr "_Paskaidre:"
 
 #: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
-msgstr ""
+msgstr "_Ikona:"
 
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
-msgstr ""
+msgstr "Paskaidre, kas tiek rādīta failu pārvaldnieka lietotāja saskarnē."
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
-msgstr ""
+msgstr "Ikona, kas tiek rādīta failu pārvaldnieka lietotāja saskarnē."
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
-msgstr ""
+msgstr "Motīva ikonas nosaukums vai attēla faila nosaukums."
 
 #: src/cact/caja-actions-config-tool.ui:1129
 #: src/cact/caja-actions-config-tool.ui:1441
 #: src/cact/caja-actions-config-tool.ui:2329
 msgid "_Browse..."
-msgstr "_Lūkoties..."
+msgstr "_Pārlūkot..."
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
-msgstr ""
+msgstr "<b>Caja vienums</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1196
 msgid ""
 "This tab lets you determine the main characteristics of the currently "
 "selected item."
-msgstr ""
+msgstr "Šajā cilnē var noteikt pašlaik atlasītā vienuma galvenās īpašības."
 
 #: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
-msgstr ""
+msgstr "Etiķete, kas atgādina, kāpēc izveidojāt šo profilu."
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
-msgstr ""
+msgstr "_Etiķete:"
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>Profils</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
 "The path of the command.\n"
 "If this is not an absolute path, then the PATH environment variable at execution time will be considered."
 msgstr ""
+"Komandas ceļš.\n"
+"Ja tas nav absolūts ceļš, izpildes laikā tiks ņemts vērā vides mainīgais "
+"PATH."
 
 #: src/cact/caja-actions-config-tool.ui:1331
 msgid "The parameters of the command."
-msgstr ""
+msgstr "Komandas parametri."
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "_Skaidrojums"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
-msgstr ""
+msgstr "Noklusējuma darba mape, kurā komanda jāpalaiž."
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "Pā_rlūkot..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "Piemērs"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
-msgstr ""
+msgstr "_Ceļš:"
 
 #: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
-msgstr ""
+msgstr "P_arametri:"
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr ""
+msgstr "_Darba mape:"
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -2874,42 +3229,48 @@ msgid ""
 "This tab lets you choose the command to be executed, along with its parameters.\n"
 "Defining several profiles lets you have several commands, each applying with a different set of conditions."
 msgstr ""
+"Šajā cilnē var izvēlēties izpildāmo komandu un tās parametrus.\n"
+"Definējot vairākus profilus, var izmantot vairākas komandas, katru ar "
+"atšķirīgu nosacījumu kopu."
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "_Komanda"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "_Parasts"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
-msgstr ""
+msgstr "Komanda tiks palaista kā standarta grafiskā lietotāja saskarne."
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
-msgstr ""
+msgstr "_Terminālī"
 
 #: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
 "The command will be started in the preferred terminal of the graphical "
 "environment."
-msgstr ""
+msgstr "Komanda tiks palaista grafiskās vides vēlamajā terminālī."
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "_Iegults"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"Šī opcija izmanto īpašu failu pārvaldnieka iespēju palaist termināli tā "
+"iekšienē.\n"
+"Pieņemama rezerves iespēja ir palaišana standarta terminālī."
 
 #: src/cact/caja-actions-config-tool.ui:1616
 msgid "_Display output"
-msgstr ""
+msgstr "_Rādīt izvadi"
 
 #: src/cact/caja-actions-config-tool.ui:1620
 msgid ""
@@ -2917,18 +3278,22 @@ msgid ""
 "The terminal will be closed at the end of the execution; standard error and output streams will be displayed.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"Komanda tiks palaista terminālī.\n"
+"Izpildes beigās terminālis tiks aizvērts; tiks parādītas standarta kļūdu un "
+"izvades plūsmas.\n"
+"Pieņemama rezerves iespēja ir palaišana standarta terminālī."
 
 #: src/cact/caja-actions-config-tool.ui:1662
 msgid "<b>Execution mode</b>"
-msgstr ""
+msgstr "<b>Izpildes režīms</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1677
 msgid "Note: this is not yet implemented in Caja-Actions.\n"
-msgstr ""
+msgstr "Piezīme: Caja-Actions tas vēl nav realizēts.\n"
 
 #: src/cact/caja-actions-config-tool.ui:1699
 msgid "_Startup notify"
-msgstr ""
+msgstr "Palaišanas _paziņošana"
 
 #: src/cact/caja-actions-config-tool.ui:1703
 msgid ""
@@ -2936,6 +3301,10 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"Ja atzīmēts, zināms, ka palaistā komanda nosūtīs darbvirsmas videi ziņojumu "
+"\"remove\".\n"
+"Sīkāk skatiet Startup Notification Protocol specifikāciju.\n"
+"Attiecas tikai uz gadījumu, kad izvēlētais izpildes režīms ir „Parasts”."
 
 #: src/cact/caja-actions-config-tool.ui:1718
 msgid ""
@@ -2943,22 +3312,26 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"Ja norādīts, tam jābūt vismaz viena palaistās komandas loga WM klases "
+"nosaukumam.\n"
+"Sīkāk skatiet Startup Notification Protocol specifikāciju.\n"
+"Attiecas tikai uz gadījumu, kad izvēlētais izpildes režīms ir „Parasts”."
 
 #: src/cact/caja-actions-config-tool.ui:1735
 msgid "Startup Window Manager _class :"
-msgstr ""
+msgstr "Palaišanas logu pārvaldnieka _klase:"
 
 #: src/cact/caja-actions-config-tool.ui:1756
 msgid "<b>Startup mode</b>"
-msgstr ""
+msgstr "<b>Palaišanas režīms</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1771
 msgid "Note: this is not yet implemented in Caja-Actions."
-msgstr ""
+msgstr "Piezīme: Caja-Actions tas vēl nav realizēts."
 
 #: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
-msgstr ""
+msgstr "Izpildīt kā _lietotājam:"
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
@@ -2966,20 +3339,23 @@ msgid ""
 "The user may be defined by his numeric UID or his login name.\n"
 "Leave the field empty to run the command as the current user."
 msgstr ""
+"Šeit ievadiet lietotāju, kura vārdā jāpalaiž komanda.\n"
+"Lietotāju var norādīt ar skaitlisko UID vai pieteikšanās vārdu.\n"
+"Atstājiet lauku tukšu, lai palaistu komandu pašreizējā lietotāja vārdā."
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>Izpildīt kā lietotājam</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
 "This advanced tab lets you precisely define how your command will be "
 "executed."
-msgstr ""
+msgstr "Šajā papildu cilnē var precīzi noteikt, kā komanda tiks izpildīta."
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "_Izpilde"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -2987,6 +3363,9 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"Pašreizējais vienums parādīsies, ja katra atlases elementa bāzes nosaukums "
+"atbilst vienam no kolonnas „Jāatbilst vienam no” filtriem un neatbilst "
+"nevienam no kolonnas „Nedrīkst atbilst nevienam no” filtriem."
 
 #: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
@@ -2994,36 +3373,47 @@ msgid ""
 "Basenames may use '*' and '?' wildcards.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"Šajā sarakstā var noteikt, kuriem bāzes nosaukumiem pašlaik atlasītais "
+"vienums tiks rādīts Caja konteksta izvēlnē.\n"
+"Bāzes nosaukumos var izmantot aizstājējzīmes '*' un '?'.\n"
+"Bāzes nosaukumus var noliegt, lai norādītu, kuriem bāzes nosaukumiem vienums "
+"nedrīkst parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:1945
 msgid "Click to add a new basename filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai pievienotu jaunu bāzes nosaukumu filtru."
 
 #: src/cact/caja-actions-config-tool.ui:1965
 msgid "Click to remove the current basename filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai noņemtu pašreizējo bāzes nosaukumu filtru."
 
 #: src/cact/caja-actions-config-tool.ui:1996
 msgid "Match _case"
-msgstr ""
+msgstr "Ievērot _reģistru"
 
 #: src/cact/caja-actions-config-tool.ui:2000
 msgid "Click to define the above basename filters as case sensitive."
 msgstr ""
+"Noklikšķiniet, lai iepriekš minētos bāzes nosaukumu filtrus padarītu "
+"reģistrjutīgus."
 
 #: src/cact/caja-actions-config-tool.ui:2022
 msgid "<b>Basenames conditions</b>"
-msgstr ""
+msgstr "<b>Bāzes nosaukumu nosacījumi</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2042
 msgid ""
 "This tab lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"Šajā cilnē var noteikt, kuriem bāzes nosaukumiem pašlaik atlasītais vienums "
+"tiks rādīts Caja konteksta izvēlnē.\n"
+"Bāzes nosaukumus var noliegt, lai norādītu, kuriem bāzes nosaukumiem vienums "
+"nedrīkst parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "_Bāzes nosaukumi"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3031,6 +3421,9 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"Pašreizējais vienums parādīsies, ja katra atlases elementa MIME tips atbilst "
+"vienam no kolonnas „Jāatbilst vienam no” filtriem un neatbilst nevienam no "
+"kolonnas „Nedrīkst atbilst nevienam no” filtriem."
 
 #: src/cact/caja-actions-config-tool.ui:2103
 msgid ""
@@ -3038,18 +3431,23 @@ msgid ""
 "Mimetypes may be specified as '*', '*/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"Šajā sarakstā var noteikt, kuriem MIME tipiem pašlaik atlasītais vienums "
+"tiks rādīts Caja konteksta izvēlnē.\n"
+"MIME tipus var norādīt kā '*', '*/*', 'grupa/*' vai 'grupa/apakšgrupa'.\n"
+"MIME tipus var noliegt, lai norādītu, kāda tipa objektiem vienums nedrīkst "
+"parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2134
 msgid "Click to add a new mimetype filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai pievienotu jaunu MIME tipu filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2154
 msgid "Click to remove the current mimetype filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai noņemtu pašreizējo MIME tipu filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2193
 msgid "<b>Mimetypes conditions</b>"
-msgstr ""
+msgstr "<b>MIME tipu nosacījumi</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2213
 msgid ""
@@ -3057,10 +3455,15 @@ msgid ""
 "Mimetypes may be specified as '*', '/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"Šajā cilnē var noteikt, kuriem MIME tipiem pašlaik atlasītais vienums tiks "
+"rādīts Caja konteksta izvēlnē.\n"
+"MIME tipus var norādīt kā '*', '/*', 'grupa/*' vai 'grupa/apakšgrupa'.\n"
+"MIME tipus var noliegt, lai norādītu, kāda tipa objektiem vienums nedrīkst "
+"parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "MIME _tipi"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3069,6 +3472,9 @@ msgid ""
 "column, while not being one or inside one of the 'Must not match any of' "
 "column."
 msgstr ""
+"Pašreizējais vienums parādīsies, ja katra atlases elementa atrašanās vieta "
+"ir viens no kolonnas „Jāatbilst vienam no” ceļiem vai atrodas tajā, bet nav "
+"neviens no kolonnas „Nedrīkst atbilst nevienam no” ceļiem un neatrodas tajos."
 
 #: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
@@ -3076,32 +3482,42 @@ msgid ""
 "Folders may use '*' or '?' wildcards.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Šajā sarakstā var noteikt, kur (kurās mapēs) jāatrodas pašlaik atlasītajiem "
+"failiem, lai vienums tiktu rādīts Caja konteksta izvēlnē.\n"
+"Mapēs var izmantot aizstājējzīmes '*' vai '?'.\n"
+"Mapju filtrus var noliegt, lai norādītu, kurām mapēm vienums nedrīkst "
+"parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai pievienotu jaunu mapju filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
 msgstr ""
+"Noklikšķiniet, lai pārlūkotu failu sistēmu un atlasītu jaunu mapju filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai noņemtu pašreizējo mapju filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
-msgstr ""
+msgstr "<b>Mapju nosacījumi</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"Šajā cilnē var noteikt, kur (kurās mapēs) jāatrodas pašlaik atlasītajiem "
+"failiem, lai vienums tiktu rādīts Caja konteksta izvēlnē.\n"
+"Mapju filtrus var noliegt, lai norādītu, kurām mapēm vienums nedrīkst "
+"parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
-msgstr "_Mapes"
+msgstr "Ma_pes"
 
 #: src/cact/caja-actions-config-tool.ui:2457
 msgid ""
@@ -3109,38 +3525,47 @@ msgid ""
 "matches one of the 'Must match one of' column, while not matching any of the"
 " 'Must not match any of' column."
 msgstr ""
+"Pašreizējais vienums parādīsies, ja katra atlases elementa shēma atbilst "
+"vienai no kolonnas „Jāatbilst vienam no” shēmām un neatbilst nevienai no "
+"kolonnas „Nedrīkst atbilst nevienam no” shēmām."
 
 #: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
 "This list lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Šajā sarakstā var noteikt, kurām shēmām jāatbilst pašlaik atlasītajiem "
+"failiem, lai vienums tiktu rādīts Caja konteksta izvēlnē.\n"
+"Filtrus var noliegt, lai norādītu, kurām shēmām vienums nedrīkst parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai pievienotu jaunu shēmu filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "_Noklusējumi..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
-msgstr ""
+msgstr "Noklikšķiniet, lai atlasītu jaunu shēmu filtru no noklusējuma shēmām."
 
 #: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai noņemtu pašreizējo shēmu filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
-msgstr ""
+msgstr "<b>Shēmu nosacījumi</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
 "This tab lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"Šajā cilnē var noteikt, kurām shēmām jāatbilst pašlaik atlasītajiem failiem, "
+"lai vienums tiktu rādīts Caja konteksta izvēlnē.\n"
+"Filtrus var noliegt, lai norādītu, kurām shēmām vienums nedrīkst parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2659
 msgid ""
@@ -3148,76 +3573,96 @@ msgid ""
 "capabilities of the 'Must match all of' column, while not matching any "
 "capability of the 'Must not match any of' column."
 msgstr ""
+"Pašreizējais vienums parādīsies, ja katrs atlases elements atbilst visām "
+"kolonnas „Jāatbilst visiem” spējām un neatbilst nevienai kolonnas „Nedrīkst "
+"atbilst nevienam no” spējai."
 
 #: src/cact/caja-actions-config-tool.ui:2677
 msgid ""
 "This list lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Capabilities may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Šajā sarakstā var noteikt, kurām spējām jāatbilst pašlaik atlasītajiem "
+"failiem, lai vienums tiktu rādīts Caja konteksta izvēlnē.\n"
+"Spējas var noliegt, lai norādītu, kurām spējām vienums nedrīkst parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
-msgstr ""
+msgstr "Noklikšķiniet, lai pievienotu jaunu spēju filtru."
 
 #: src/cact/caja-actions-config-tool.ui:2730
 msgid "Click to remove the current capability."
-msgstr ""
+msgstr "Noklikšķiniet, lai noņemtu pašreizējo spēju."
 
 #: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
-msgstr ""
+msgstr "<b>Spēju nosacījumi</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
 "This tab lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"Šajā cilnē var noteikt, kurām spējām jāatbilst pašlaik atlasītajiem failiem, "
+"lai vienums tiktu rādīts Caja konteksta izvēlnē.\n"
+"Filtrus var noliegt, lai norādītu, kurām spējām vienums nedrīkst parādīties."
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "_Spējas"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
 "This is an advanced condition based on the count of the current selection.\n"
 "If the current selection does not match this condition, then the item will not be displayed in the file manager context menus or toolbar."
 msgstr ""
+"Šis ir papildu nosacījums, kas balstās uz pašreizējās atlases vienumu "
+"skaitu.\n"
+"Ja pašreizējā atlase neatbilst šim nosacījumam, vienums netiks rādīts failu "
+"pārvaldnieka konteksta izvēlnēs vai rīkjoslā."
 
 #: src/cact/caja-actions-config-tool.ui:2839
 msgid "_Count :"
-msgstr ""
+msgstr "_Skaits:"
 
 #: src/cact/caja-actions-config-tool.ui:2898
 msgid "<b>Appears if selection contains</b>"
-msgstr ""
+msgstr "<b>Parādās, ja atlasē ir</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2927
 msgid ""
 "This is an advanced condition based on the running desktop environment.\n"
 "First choose on the left if the item depends of a particular desktop environment, then select on the right the adequate desktop environment."
 msgstr ""
+"Šis ir papildu nosacījums, kas balstās uz pašreizējo darbvirsmas vidi.\n"
+"Vispirms kreisajā pusē izvēlieties, vai vienums ir atkarīgs no konkrētas "
+"darbvirsmas vides, tad labajā pusē atlasiet atbilstošo darbvirsmas vidi."
 
 #: src/cact/caja-actions-config-tool.ui:2939
 msgid "Item may appear depending of the desktop environment."
-msgstr ""
+msgstr "Vienums var parādīties atkarībā no darbvirsmas vides."
 
 #: src/cact/caja-actions-config-tool.ui:2959
 msgid "_Always appears"
-msgstr ""
+msgstr "_Vienmēr parādās"
 
 #: src/cact/caja-actions-config-tool.ui:2976
 msgid "_Only appears in selected environments"
-msgstr ""
+msgstr "Parādās tikai _atlasītajās vidēs"
 
 #: src/cact/caja-actions-config-tool.ui:2993
 msgid "_Never appears in selected environments"
-msgstr ""
+msgstr "_Nekad neparādās atlasītajās vidēs"
 
 #: src/cact/caja-actions-config-tool.ui:3094
 msgid ""
 "This is an advanced condition based on the presence of a particular service on the D-Bus system.\n"
 "This may be used for example for testing that a prerequisite service is currently available."
 msgstr ""
+"Šis ir papildu nosacījums, kas balstās uz konkrēta pakalpojuma esamību D-Bus "
+"sistēmā.\n"
+"To var izmantot, piemēram, lai pārbaudītu, vai priekšnoteikuma pakalpojums "
+"pašlaik ir pieejams."
 
 #: src/cact/caja-actions-config-tool.ui:3110
 msgid ""
@@ -3225,6 +3670,10 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
+"Šis ir papildu nosacījums, kas balstās uz izpildes laika rezultātu.\n"
+"Šeit ievadiet komandu, kas standarta izvadā spēj izvadīt tieši virkni "
+"\"true\".\n"
+"To var izmantot, piemēram, lai pārbaudītu sarežģītu nosacījumu."
 
 #: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
@@ -3232,40 +3681,49 @@ msgid ""
 "Note that only the basename of the binary is checked, not its dirname nor its parameters.\n"
 "This may be used for example for testing the presence of a prerequisite daemon."
 msgstr ""
+"Šis ir papildu nosacījums, kas balstās uz darbojoša izpildāmā faila "
+"esamību.\n"
+"Ievērojiet, ka tiek pārbaudīts tikai izpildāmā faila bāzes nosaukums, nevis "
+"tā direktorija vai parametri.\n"
+"To var izmantot, piemēram, lai pārbaudītu, vai darbojas priekšnoteikuma "
+"dēmons."
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "Pārlū_kot..."
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
-msgstr ""
+msgstr "Parādās, ja fails ir _izpildāms:"
 
 #: src/cact/caja-actions-config-tool.ui:3171
 msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
 msgstr ""
+"Šis ir papildu nosacījums, kas balstās uz izpildāma faila esamību failu "
+"sistēmā.\n"
+"To var izmantot, piemēram, lai pārbaudītu priekšnoteikuma pakotni."
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
-msgstr ""
+msgstr "Pārl_ūkot..."
 
 #: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
-msgstr ""
+msgstr "Parādās, ja nosaukums ir _reģistrēts D-Bus:"
 
 #: src/cact/caja-actions-config-tool.ui:3215
 msgid "Appears if the command outputs \"_true\" :"
-msgstr ""
+msgstr "Parādās, ja komanda izvada \"_true\":"
 
 #: src/cact/caja-actions-config-tool.ui:3228
 msgid "Appears if the _binary is running :"
-msgstr ""
+msgstr "Parādās, ja darbojas _binārais fails:"
 
 #: src/cact/caja-actions-config-tool.ui:3252
 msgid "<b>Execution environment</b>"
-msgstr ""
+msgstr "<b>Izpildes vide</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3274
 msgid ""
@@ -3273,77 +3731,92 @@ msgid ""
 "files must satisfy in order for the item to be displayed in the file manager"
 " context menu."
 msgstr ""
+"Šajā cilnē var noteikt dažus papildu nosacījumus, kam jāatbilst pašlaik "
+"atlasītajiem failiem, lai vienums tiktu rādīts failu pārvaldnieka konteksta "
+"izvēlnē."
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "Vi_de"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
-msgstr ""
+msgstr "_Apraksts:"
 
 #: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
 "Enter here a free text which may be used (e.g. in a Web service or in a "
 "search tool) to describe your item."
 msgstr ""
+"Šeit ievadiet brīvu tekstu, ko var izmantot vienuma aprakstīšanai (piemēram, "
+"tīmekļa pakalpojumā vai meklēšanas rīkā)."
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "_Iespējots"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
 "Check the box to enable this item.\n"
 "If unchecked, then the item will never appear in the file manager context menus or toolbar."
 msgstr ""
+"Atzīmējiet rūtiņu, lai iespējotu šo vienumu.\n"
+"Ja tā nav atzīmēta, vienums nekad neparādīsies failu pārvaldnieka konteksta "
+"izvēlnēs vai rīkjoslā."
 
 #: src/cact/caja-actions-config-tool.ui:3379
 msgid ""
 "Enter here the keyboard touch combination you suggest as a shortcut to your action.\n"
 "Note: this is not yet implemented in Caja-Actions."
 msgstr ""
+"Šeit ievadiet taustiņu kombināciju, ko iesakāt kā darbības "
+"īsinājumtaustiņu.\n"
+"Piezīme: Caja-Actions tas vēl nav realizēts."
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
-msgstr ""
+msgstr "Ieteicamais _īsinājumtaustiņš:"
 
 #: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
-msgstr ""
+msgstr "Tikai lasāms vienums"
 
 #: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
 "This box is checked if the item cannot be edited.\n"
 "There may be multiple reasons for why an item cannot be edited. See your User's Manual."
 msgstr ""
+"Šī rūtiņa ir atzīmēta, ja vienumu nevar rediģēt.\n"
+"Iemesli, kāpēc vienumu nevar rediģēt, var būt dažādi. Skatiet lietotāja "
+"rokasgrāmatu."
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "ID:"
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
-msgstr ""
+msgstr "I/O nodrošinātājs:"
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>Tikai lasāmas īpašības</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
 "This tab lets you edit some miscellaneous properties, and access some non-"
 "modifiable information."
 msgstr ""
+"Šajā cilnē var rediģēt dažādas īpašības un piekļūt nemaināmai informācijai."
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
-msgstr "Pa_rametri"
+msgstr "Īpa_šības"
 
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
 msgid "Caja-Actions actions"
-msgstr ""
+msgstr "Caja-Actions darbības"
 
 #. Translators: tooltip of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:935
@@ -3351,38 +3824,41 @@ msgid ""
 "A submenu which embeds the currently available Caja-Actions actions and "
 "menus"
 msgstr ""
+"Apakšizvēlne, kurā ir pašlaik pieejamās Caja-Actions darbības un izvēlnes"
 
 #: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
-msgstr ""
+msgstr "Par Caja-Actions"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
-msgstr ""
+msgstr "Rādīt informāciju par Caja-Actions"
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
-msgstr ""
+msgstr "Importējamā faila URI"
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
 #: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
-msgstr ""
+msgstr "Izvadīt versijas numuru"
 
 #: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "Importēt failu."
 
 #: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"Ziņojumus par kļūdām gaidām vietnē http://bugzilla.gnome.org vai e-pastā "
+"<maintainer@caja-actions.org>.\n"
 
 #: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
 #: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
@@ -3395,147 +3871,152 @@ msgstr "Dažādas opcijas"
 #: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "Sintakses kļūda: %s\n"
 
 #: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: URI ir obligāts.\n"
 
 #: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
 #: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
 #: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
-msgstr ""
+msgstr "Lai uzzinātu lietošanu, mēģiniet %s --help.\n"
 
 #: src/utils/console-utils.c:55
 msgid ""
 "Bug reports are welcomed at https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
 "or you may prefer to mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"Ziņojumus par kļūdām gaidām vietnē https://bugzilla.gnome.org/"
+"enter_bug.cgi?product=caja-actions\n"
+"vai e-pastā <maintainer@caja-actions.org>.\n"
 
 #: src/utils/na-print-schemas.c:56
 msgid "Output the schema on stdout"
-msgstr ""
+msgstr "Izvadīt shēmu standarta izvadā"
 
 #: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
-msgstr ""
+msgstr "Izvadīt darbību shēmas [noklusējums]"
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
-msgstr ""
+msgstr "Izvadīt izvēlņu shēmas"
 
 #: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
-msgstr ""
+msgstr "Izvadīt Caja-Actions MateConf shēmas standarta izvadā."
 
 #: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
+"Kopš versijas 3.1.0 MateConf kā I/O nodrošinātājs ir novecojis.\n"
+"Šī programma vairs netiek uzturēta."
 
 #: src/utils/na-print-schemas.c:159
 msgid "Type options"
-msgstr ""
+msgstr "Veida opcijas"
 
 #: src/utils/na-set-conf.c:52
 msgid "Set a key=value pair in a key file."
-msgstr ""
+msgstr "Iestatīt pāri atslēga=vērtība atslēgu failā."
 
 #: src/utils/na-set-conf.c:63
 msgid "The group to be updated"
-msgstr ""
+msgstr "Atjaunināmā grupa"
 
 #: src/utils/na-set-conf.c:65
 msgid "The key to be updated"
-msgstr ""
+msgstr "Atjaunināmā atslēga"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
-msgstr ""
+msgstr "Iestatāmās vērtības veids: 'str', 'int' vai 'bool'"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
-msgstr ""
+msgstr "Iestatāmā vērtība"
 
 #: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
-msgstr ""
+msgstr "Izvadīt versijas numuru un korekti iziet"
 
 #: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: grupa ir obligāta.\n"
 
 #: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: atslēga ir obligāta.\n"
 
 #: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
-msgstr ""
+msgstr "Kļūda: lai iestatītu/atjauninātu vērtību, veids ir obligāts.\n"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
-msgstr ""
+msgstr "Kļūda: nezināms veids: %s. Izmantojiet 'str', 'int' vai 'bool'.\n"
 
 #: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: vērtība ir obligāta.\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
-msgstr ""
+msgstr "Iestatiet, ja vienumam izveidojot jābūt atspējotam"
 
 #: src/utils/caja-actions-new.c:136
 msgid "Set it if the item doesn't target the selection context menu"
-msgstr ""
+msgstr "Iestatiet, ja vienums nav paredzēts atlases konteksta izvēlnei"
 
 #: src/utils/caja-actions-new.c:138
 msgid "Set it if the item doesn't target the location context menu"
-msgstr ""
+msgstr "Iestatiet, ja vienums nav paredzēts atrašanās vietas konteksta izvēlnei"
 
 #: src/utils/caja-actions-new.c:140
 msgid "Set it if the item doesn't target the toolbar"
-msgstr ""
+msgstr "Iestatiet, ja vienums nav paredzēts rīkjoslai"
 
 #: src/utils/caja-actions-new.c:142
 msgid "Set it if the basename patterns are case insensitive"
-msgstr ""
+msgstr "Iestatiet, ja bāzes nosaukumu šabloni nav reģistrjutīgi"
 
 #: src/utils/caja-actions-new.c:148
 msgid "Output the new item content on stdout (default)"
-msgstr ""
+msgstr "Izvadīt jaunā vienuma saturu standarta izvadā (noklusējums)"
 
 #: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
-msgstr ""
+msgstr "Izveidot jauno vienumu kā .desktop failu"
 
 #: src/utils/caja-actions-new.c:160
 #, c-format
 msgid "Error: '%s' and '%s' options cannot both be specified\n"
-msgstr ""
+msgstr "Kļūda: opcijas '%s' un '%s' nevar norādīt vienlaikus\n"
 
 #: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
-msgstr ""
+msgstr "Opcija '%s' ir novecojusi, skatiet %s\n"
 
 #: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: darbības etiķete ir obligāta.\n"
 
 #: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
-msgstr ""
+msgstr "Kļūda: var norādīt tikai vienu izvades opciju.\n"
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "Definēt jaunu darbību."
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
@@ -3543,93 +4024,97 @@ msgid ""
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
+"Izveidotā darbība pēc noklusējuma tiek rakstīta standarta izvadā.\n"
+"To var arī ierakstīt izvades mapē failā, ko vēlāk var importēt CACT.\n"
+"Vai arī varat izvēlēties ierakstīt darbību tieši savā Caja-Actions "
+"konfigurācijā."
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "Programmas izvade"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
-msgstr ""
+msgstr "Izvēlieties, kur programma izveido darbību"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
 #: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
-msgstr ""
+msgstr "Kļūda: neizdevās atrast I/O nodrošinātāju 'na-desktop'."
 
 #. Translators: caja-actions-print program summary
 #: src/utils/caja-actions-print.c:57
 msgid "Print a menu or an action to stdout."
-msgstr ""
+msgstr "Izdrukāt izvēlni vai darbību standarta izvadā."
 
 #: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
-msgstr ""
+msgstr "Drukājamās izvēlnes vai darbības identifikators"
 
 #. Translators: 'Desktop1' here is the internal identifier of an export
 #. format; it is not translatable
 #: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
-msgstr ""
+msgstr "Eksportēšanas formāts [Desktop1]"
 
 #: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: izvēlnes vai darbības ID ir obligāts.\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
 #: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
-msgstr ""
+msgstr "Kļūda: %s: nezināms eksportēšanas formāts.\n"
 
 #: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Kļūda: vienums '%s' neeksistē.\n"
 
 #: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
-msgstr ""
+msgstr "Palaižamās darbības iekšējais identifikators"
 
 #: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
-msgstr ""
+msgstr "Darbības mērķis — fails vai mape. Var norādīt vairākas opcijas"
 
 #: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
-msgstr ""
+msgstr "Kļūda: darbības ID ir obligāts.\n"
 
 #: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
-msgstr ""
+msgstr "Nav pašreizējās atlases. Nav ko darīt. Iziet.\n"
 
 #: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
-msgstr ""
+msgstr "Darbība %s nav derīga izpildei. Iziet.\n"
 
 #: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
-msgstr ""
+msgstr "Neviens profils nav derīgs izpildei. Iziet.\n"
 
 #: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
-msgstr ""
+msgstr "Izpildīt darbību norādītajam mērķim."
 
 #: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
-msgstr ""
+msgstr "Kļūda: darbība '%s' neeksistē.\n"
 
 #: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
-msgstr ""
+msgstr "Kļūda: darbība '%s' ir atspējota.\n"
 
 #: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "Kļūda: darbība '%s' nav derīga.\n"
