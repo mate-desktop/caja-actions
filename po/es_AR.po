@@ -1,28 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # mbarbero <bastayadefumar@gmail.com>, 2021
 # Patricio Castagnaro <pcastagnaro@gmail.com>, 2021
 # Germán Herrou <german.herrou@gmail.com>, 2021
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024
-# 
+# Fernando Velo <seacat.linux@gmail.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024\n"
-"Language-Team: Spanish (Argentina) (https://app.transifex.com/mate/teams/13566/es_AR/)\n"
+"PO-Revision-Date: 2026-11-06 13:29+0000\n"
+"Last-Translator: Fernando Velo <seacat.linux@gmail.com>\n"
+"Language-Team: Spanish (Argentina) <https://translate.fedoraproject.org/"
+"projects/mate-desktop/applications/caja-actions/es_AR/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_AR\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
@@ -93,9 +96,7 @@ msgstr ""
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
-msgstr ""
-"Francisco Javier F. Serrador <serrador@cvs.mate.org>\n"
-"Jorge González González <jorge.gonzalez.gonzalez@hispalinux.es>"
+msgstr "translator-credits"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
@@ -439,7 +440,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Capacidades"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -783,7 +784,7 @@ msgstr ""
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Atajo sugerido"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -915,7 +916,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "Modo de ejecución"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -1213,7 +1214,7 @@ msgstr ""
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
-msgstr "El archivo no posee un formato .desktop válido"
+msgstr "El archivo no es un archivo .desktop válido"
 
 #: src/cact/egg-desktop-file.c:188
 #, c-format
@@ -1227,7 +1228,7 @@ msgstr "Empezando %s"
 
 #: src/cact/egg-desktop-file.c:1098
 msgid "Application does not accept documents on command line"
-msgstr "La aplicación no acepta documentos en la línea de comandos."
+msgstr "La aplicación no acepta documentos en la línea de comandos"
 
 #: src/cact/egg-desktop-file.c:1166
 #, c-format
@@ -1246,7 +1247,7 @@ msgstr "No es un ítem de lanzamiento"
 
 #: src/cact/egg-sm-client.c:235
 msgid "Disable connection to session manager"
-msgstr "Deshabilitar la conexión a la sesión de manager"
+msgstr "Deshabilitar la conexión con el administrador de sesiones"
 
 #: src/cact/egg-sm-client.c:238
 msgid "Specify file containing saved configuration"
@@ -1258,7 +1259,7 @@ msgstr "ARCHIVO"
 
 #: src/cact/egg-sm-client.c:241
 msgid "Specify session management ID"
-msgstr "Especifique el ID de la sesión de management"
+msgstr "Especifique el ID de gestión de sesiones"
 
 #: src/cact/egg-sm-client.c:241
 msgid "ID"
@@ -1266,11 +1267,11 @@ msgstr "ID"
 
 #: src/cact/egg-sm-client.c:263
 msgid "Session management options:"
-msgstr ""
+msgstr "Opciones de gestión de sesiones:"
 
 #: src/cact/egg-sm-client.c:264
 msgid "Show session management options"
-msgstr ""
+msgstr "Mostrar las opciones de gestión de sesiones"
 
 #: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
@@ -1317,7 +1318,7 @@ msgstr ""
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Agregar una nueva capacidad"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
@@ -1555,7 +1556,7 @@ msgstr ""
 #: src/cact/cact-iproperties-tab.c:53
 #: src/cact/caja-actions-config-tool.ui:3375
 msgid "None"
-msgstr ""
+msgstr "Ninguno"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
@@ -1655,7 +1656,7 @@ msgstr ""
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
-msgstr ""
+msgstr "Debe coincidir con uno de"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
@@ -1665,7 +1666,7 @@ msgstr ""
 #. negative filter
 #: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
-msgstr ""
+msgstr "No debe coincidir con ninguno de los"
 
 #: src/cact/cact-match-list.c:548
 #, c-format
@@ -2806,7 +2807,7 @@ msgstr ""
 #: src/cact/caja-actions-config-tool.ui:1441
 #: src/cact/caja-actions-config-tool.ui:2329
 msgid "_Browse..."
-msgstr ""
+msgstr "_Navegar..."
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
@@ -3341,7 +3342,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
-msgstr ""
+msgstr "P_ropiedades"
 
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
