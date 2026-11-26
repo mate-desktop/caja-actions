@@ -6,19 +6,22 @@
 # Germán Herrou <german.herrou@gmail.com>, 2021
 # Dario Badagnani <grupovmo@gmail.com>, 2021
 # Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024
-# 
+# Fernando Velo <seacat.linux@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Alejo Fernandez <alejoo.fernandez.2003@gmail.com>, 2024\n"
-"Language-Team: Spanish (Argentina) (https://app.transifex.com/mate/teams/13566/es_AR/)\n"
+"PO-Revision-Date: 2026-11-06 13:29+0000\n"
+"Last-Translator: Fernando Velo <seacat.linux@gmail.com>\n"
+"Language-Team: Spanish (Argentina) <https://translate.fedoraproject.org/"
+"projects/mate-desktop/help-documentation/caja-actions-help/es_AR/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_AR\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == "
+"0) ? 1 : 2);\n"
+"X-Generator: Weblate 2026.11.1\n"
 
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
@@ -744,6 +747,12 @@ msgid ""
 " copy of the license is included in the section entitled “GNU Free "
 "Documentation License”."
 msgstr ""
+"Copyright © AÑO TU NOMBRE Se concede permiso para copiar, distribuir y/o "
+"modificar este documento bajo los términos de la Licencia de Documentación "
+"Libre de GNU, versión 1.3 o cualquier versión posterior publicada por la "
+"Free Software Foundation; sin Secciones Invariantes, sin Textos de Portada "
+"ni Textos de Contraportada. Una copia de la licencia se incluye en la "
+"sección titulada «Licencia de Documentación Libre de GNU»."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:542
@@ -751,6 +760,8 @@ msgid ""
 "If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, "
 "replace the “with… Texts.” line with this:"
 msgstr ""
+"Si tiene secciones invariables, textos de portada y textos de contraportada, "
+"reemplace la línea “con… textos.” con esto:"
 
 #. (itstool) path: appendix/screen
 #: C/appendix-gnu-fdl-1.3.xml:546
@@ -766,6 +777,9 @@ msgid ""
 "combination of the three, merge those two alternatives to suit the "
 "situation."
 msgstr ""
+"Si dispone de secciones invariables sin textos de portada, o alguna otra "
+"combinación de las tres, combine esas dos alternativas para adaptarlas a la "
+"situación."
 
 #. (itstool) path: appendix/simpara
 #: C/appendix-gnu-fdl-1.3.xml:553
@@ -775,6 +789,10 @@ msgid ""
 "license, such as the GNU General Public License, to permit their use in free"
 " software."
 msgstr ""
+"Si su documento contiene ejemplos de código de programa que no son "
+"triviales, le recomendamos que publique estos ejemplos en paralelo bajo la "
+"licencia de software libre de su elección, como la Licencia Pública General "
+"de GNU, para permitir su uso en software libre."
 
 #. (itstool) path: title/application
 #. (itstool) path: para/application
@@ -793,42 +811,42 @@ msgstr ""
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
 msgid "<_:application-1/> User's Manual"
-msgstr ""
+msgstr "<_:application-1/> Manual del usuario"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:5
 msgid "2010"
-msgstr ""
+msgstr "2010"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:6
 msgid "2011"
-msgstr ""
+msgstr "2011"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:7
 msgid "2012"
-msgstr ""
+msgstr "2012"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:8 C/articleinfo.xml:13
 msgid "2013"
-msgstr ""
+msgstr "2013"
 
 #. (itstool) path: copyright/year
 #: C/articleinfo.xml:9 C/articleinfo.xml:14
 msgid "2014"
-msgstr ""
+msgstr "2014"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:10
 msgid "Pierre Wieser"
-msgstr ""
+msgstr "Pierre Wieser"
 
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:15
 msgid "Wolfgang Ulbrich"
-msgstr ""
+msgstr "Wolfgang Ulbrich"
 
 #. (itstool) path: para/productname
 #: C/articleinfo.xml:19 C/cact-bugs.xml:8 C/cact-conditions.xml:14
@@ -865,6 +883,11 @@ msgid ""
 "context menus. These actions may be organized in menus and submenus, "
 "exported and shared with other desktop environments."
 msgstr ""
+"<_:productname-1/> es una extensión <_:productname-2/> cuya función "
+"principal es permitir al usuario agregar acciones arbitrarias a los menús "
+"contextuales del administrador de archivos. Estas acciones pueden "
+"organizarse en menús y submenús, exportarse y compartirse con otros entornos "
+"de escritorio."
 
 #. (itstool) path: abstract/para
 #: C/articleinfo.xml:24
@@ -873,6 +896,9 @@ msgid ""
 "how you may configure your menus and actions, making them be displayed and "
 "applied depending on specific conditions."
 msgstr ""
+"Este manual describe la interfaz de usuario de <_:application-1/> y explica "
+"cómo puede configurar sus menús y acciones, haciendo que se muestren y "
+"apliquen según condiciones específicas."
 
 #. (itstool) path: articleinfo/releaseinfo
 #: C/articleinfo.xml:31
@@ -892,58 +918,60 @@ msgstr "Proyecto de Documentación para MATE"
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "Pierre"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
 msgid "Wieser"
-msgstr ""
+msgstr "Wieser"
 
 #. (itstool) path: author/email
 #. (itstool) path: para/email
 #: C/articleinfo.xml:47 C/articleinfo.xml:96 C/articleinfo.xml:106
 msgid "pwieser@trychlos.org"
-msgstr ""
+msgstr "pwieser@trychlos.org"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:51
 msgid "Wolfgang"
-msgstr ""
+msgstr "Wolfgang"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:52
 msgid "Ulbrich"
-msgstr ""
+msgstr "Ulbrich"
 
 #. (itstool) path: author/email
 #: C/articleinfo.xml:53
 msgid "chat-to-me@raveit.de"
-msgstr ""
+msgstr "chat-to-me@raveit.de"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:91
 msgid "Caja-Actions Configuration Tool User's Manual v 3.1"
 msgstr ""
+"Manual de usuario de la herramienta de configuración de Caja-Actions v 3.1"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:92
 msgid "May 2011"
-msgstr ""
+msgstr "Mayo de 2011"
 
 #. (itstool) path: revdescription/para
 #: C/articleinfo.xml:94 C/articleinfo.xml:104
 msgid "Pierre Wieser <_:email-1/>"
-msgstr ""
+msgstr "Pierre Wieser <_:email-1/>"
 
 #. (itstool) path: revision/revnumber
 #: C/articleinfo.xml:101
 msgid "Caja-Actions Configuration Tool User's Manual v 3.2"
 msgstr ""
+"Manual de usuario de la herramienta de configuración de Caja-Actions v 3.2"
 
 #. (itstool) path: revision/date
 #: C/articleinfo.xml:102
 msgid "January 2012"
-msgstr ""
+msgstr "Enero de 2012"
 
 #. (itstool) path: C/articleinfo.xml/articleinfo
 #: C/articleinfo.xml:1
@@ -952,26 +980,29 @@ msgid ""
 "<_:releaseinfo-5/> <_:publisher-6/> <_:publisher-7/> <_:authorgroup-8/> "
 "<_:revhistory-9/> legalnotice.xml"
 msgstr ""
+"<_:title-1/> <_:copyright-2/> <_:copyright-3/> <_:abstract-4/> "
+"<_:releaseinfo-5/> <_:publisher-6/> <_:publisher-7/> <_:authorgroup-8/> "
+"<_:revhistory-9/> legalnotice.xml"
 
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:2
 msgid "Known bugs"
-msgstr ""
+msgstr "Errores conocidos"
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:5
 msgid "Bugzilla summary page"
-msgstr ""
+msgstr "Página de resumen de Bugzilla"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:3
 msgid "Known bugs are available on <_:ulink-1/>."
-msgstr ""
+msgstr "Los errores conocidos están disponibles en <_:ulink-1/>."
 
 #. (itstool) path: para/ulink
 #: C/cact-bugs.xml:10
 msgid "Bugzilla web site"
-msgstr ""
+msgstr "Sitio web de Bugzilla"
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:7
@@ -979,17 +1010,19 @@ msgid ""
 "If you find some new bug in <_:productname-1/>, you are welcome to open it "
 "by pointing your favorite browser to <_:ulink-2/>."
 msgstr ""
+"Si encuentra algún nuevo error en <_:productname-1/>, puede reportarlo "
+"accediendo a <_:ulink-2/> desde su navegador favorito."
 
 #. (itstool) path: sect2/title
 #: C/cact-bugs.xml:14
 msgid "Known limitations"
-msgstr ""
+msgstr "Limitaciones conocidas"
 
 #. (itstool) path: formalpara/title
 #. (itstool) path: sect4/title
 #: C/cact-bugs.xml:17 C/cact-execution.xml:138
 msgid "Execution mode"
-msgstr ""
+msgstr "Modo de ejecución"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:18
@@ -997,6 +1030,9 @@ msgid ""
 "As of version 3.0, execution mode may be configured in <_:application-1/> "
 "but is not yet honored by <_:productname-2/> plugin."
 msgstr ""
+"A partir de la versión 3.0, el modo de ejecución se puede configurar en "
+"<_:application-1/> pero aún no es respetado por el complemento "
+"<_:productname-2/>."
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:23
@@ -1004,11 +1040,13 @@ msgid ""
 "This concern working directory, execution mode, startup notification and "
 "execution's owner parameters."
 msgstr ""
+"Esto concierne al directorio de trabajo, el modo de ejecución, la "
+"notificación de inicio y los parámetros del propietario de la ejecución."
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Atajo sugerido"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1017,11 +1055,14 @@ msgid ""
 "specification, cannot be configured in <_:application-1/>, and is not "
 "honored by <_:productname-2/> plugin."
 msgstr ""
+"A partir de la versión 3.0, el acceso directo sugerido, tal como se describe "
+"en la especificación DES-EMA, no se puede configurar en <_:application-1/> y "
+"no es respetado por el complemento <_:productname-2/>."
 
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:37
 msgid "Menu separator"
-msgstr ""
+msgstr "Separador de menú"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:38
@@ -1029,6 +1070,8 @@ msgid ""
 "As of version 3.0, menu separators cannot be configured in "
 "<_:application-1/>, and are not honored by <_:productname-2/> plugin."
 msgstr ""
+"A partir de la versión 3.0, los separadores de menú no se pueden configurar "
+"en <_:application-1/> y el complemento <_:productname-2/> no los respeta."
 
 #. (itstool) path: sect2/para
 #: C/cact-bugs.xml:43
@@ -1036,11 +1079,13 @@ msgid ""
 "One has to note that, for now, <_:productname-1/> file manager does not "
 "allow its plugins to define separators in the context menu."
 msgstr ""
+"Cabe señalar que, por ahora, el gestor de archivos <_:productname-1/> no "
+"permite que sus complementos definan separadores en el menú contextual."
 
 #. (itstool) path: sect2/title
 #: C/cact-conditions.xml:2
 msgid "Defining the conditions"
-msgstr ""
+msgstr "Definir las condiciones"
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:3
@@ -1049,6 +1094,9 @@ msgid ""
 "manager context menus or in its toolbar depends on the conditions you will "
 "have defined for it."
 msgstr ""
+"Que su acción se muestre finalmente en los menús contextuales del "
+"administrador de archivos <_:productname-1/> o en su barra de herramientas "
+"depende de las condiciones que haya definido para ella."
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:8
@@ -1056,6 +1104,9 @@ msgid ""
 "Conditions may be put against the location the file manager currently points"
 " to, or against the currently selected items in this location."
 msgstr ""
+"Se pueden establecer condiciones para la ubicación a la que apunta "
+"actualmente el administrador de archivos, o para los elementos seleccionados "
+"actualmente en dicha ubicación."
 
 #. (itstool) path: sect2/para
 #: C/cact-conditions.xml:12
@@ -1065,12 +1116,17 @@ msgid ""
 " against the new location and selection: all defined conditions must be "
 "satisfied in order your action be actually displayed."
 msgstr ""
+"Cada vez que cambia la selección o la ubicación en el administrador de "
+"archivos, <_:productname-1/> verifica todas sus acciones, comparando las "
+"condiciones definidas con la nueva ubicación y selección: todas las "
+"condiciones definidas deben cumplirse para que su acción se muestre "
+"realmente."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:20 C/cact-conditions.xml:33
 msgid "Basename-based conditions"
-msgstr ""
+msgstr "Condiciones basadas en el nombre base"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:21
@@ -1081,12 +1137,17 @@ msgid ""
 "simultaneously decide that none of the selected item(s) can have some other "
 "sort of basename."
 msgstr ""
+"Puedes decidir que tu acción aparecerá dependiendo de los nombres base de "
+"los elementos seleccionados actualmente en el administrador de archivos: "
+"puedes definir que cada elemento de la selección debe cumplir con algún tipo "
+"de nombre base, y puedes decidir simultáneamente que ninguno de los "
+"elementos seleccionados puede tener otro tipo de nombre base."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:29 C/cact-starting.xml:296
 msgid "Basenames"
-msgstr ""
+msgstr "Nombres base"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:27
@@ -1094,11 +1155,14 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which will permit you to "
 "configure your basename-based conditions."
 msgstr ""
+"Haz clic en la pestaña <_:guilabel-1/> para mostrar la página que te "
+"permitirá configurar tus condiciones basadas en el nombre base."
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:40
 msgid "Shows the tab which lets you define basename-based conditions."
 msgstr ""
+"Muestra la pestaña que permite definir condiciones basadas en el nombre base."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:45
@@ -1111,6 +1175,14 @@ msgid ""
 "patterns, and must not match any of the defined « must not match any of » "
 "patterns."
 msgstr ""
+"De hecho, las condiciones basadas en el nombre base se construyen como una "
+"lista de patrones «debe coincidir con uno de » y «no debe coincidir con "
+"ninguno de ». Para que su acción sea candidata a cumplir con estas "
+"condiciones basadas en el nombre base, cada elemento de la selección debe "
+"ser válido para todas las condiciones enumeradas: el nombre base de cada "
+"elemento debe coincidir con al menos uno de los patrones definidos «debe "
+"coincidir con uno de » y no debe coincidir con ninguno de los patrones "
+"definidos «no debe coincidir con ninguno de »."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:54 C/cact-conditions.xml:195
@@ -1120,6 +1192,8 @@ msgid ""
 "If at least one element of the selection does not match all the defined "
 "conditions, then your action will not be displayed."
 msgstr ""
+"Si al menos un elemento de la selección no cumple con todas las condiciones "
+"definidas, su acción no se mostrará."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:58
@@ -1129,18 +1203,22 @@ msgid ""
 "location context menu or the toolbar, your basename-based conditions will be"
 " checked against the basename of the current location."
 msgstr ""
+"Al seleccionar el menú contextual, las condiciones basadas en el nombre base "
+"se compararán con los elementos seleccionados. Al seleccionar el menú "
+"contextual de ubicación o la barra de herramientas, las condiciones basadas "
+"en el nombre base se compararán con el nombre base de la ubicación actual."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:64
 msgid "Defining a new basename-based condition involves two steps."
-msgstr ""
+msgstr "Definir una nueva condición basada en el nombre base implica dos pasos."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:69 C/cact-conditions.xml:213
 #: C/cact-conditions.xml:397 C/cact-conditions.xml:518
 #: C/cact-conditions.xml:658
 msgid "Define the new condition filter."
-msgstr ""
+msgstr "Defina el nuevo filtro de condición."
 
 #. (itstool) path: para/keycap
 #: C/cact-conditions.xml:76 C/cact-conditions.xml:220
@@ -1156,24 +1234,28 @@ msgid ""
 "Press <_:keycap-1/> or click on <_:guibutton-2/> button to insert a new "
 "condition filter"
 msgstr ""
+"Pulse <_:keycap-1/> o haga clic en el botón <_:guibutton-2/> para insertar "
+"un nuevo filtro de condición"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:82
 msgid ""
 "Edit the newly inserted condition filter to the basename you want match."
 msgstr ""
+"Edita el filtro de condición recién insertado con el nombre base que deseas "
+"que coincida."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:88 C/cact-conditions.xml:153
 #: C/cact-conditions.xml:238 C/cact-conditions.xml:246
 #: C/cact-conditions.xml:416 C/cact-conditions.xml:537 C/cact-starting.xml:471
 msgid "*"
-msgstr ""
+msgstr "*"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:89 C/cact-conditions.xml:416
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #. (itstool) path: tip/para
 #: C/cact-conditions.xml:87
@@ -1181,6 +1263,8 @@ msgid ""
 "A basename-based condition may use « <_:literal-1/> » or « <_:literal-2/> » "
 "wildcard characters."
 msgstr ""
+"Una condición basada en el nombre base puede usar caracteres comodín « "
+"<_:literal-1/> » o « <_:literal-2/> »."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:96 C/cact-conditions.xml:270
@@ -1189,19 +1273,21 @@ msgid ""
 "Indicates whether this a « must match one of » or a « must not match any of "
 "» condition."
 msgstr ""
+"Indica si se trata de una condición «debe coincidir con una de las siguientes"
+"» o «no debe coincidir con ninguna de las siguientes»."
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:102 C/cact-conditions.xml:276
 #: C/cact-conditions.xml:437 C/cact-conditions.xml:576
 msgid "Must match one of"
-msgstr ""
+msgstr "Debe coincidir con uno de"
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:104 C/cact-conditions.xml:278
 #: C/cact-conditions.xml:439 C/cact-conditions.xml:578
 #: C/cact-conditions.xml:717
 msgid "Must not match any of"
-msgstr ""
+msgstr "No debe coincidir con ninguno de los"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:100 C/cact-conditions.xml:274
@@ -1211,6 +1297,8 @@ msgid ""
 "Click on the <_:guilabel-1/> or <_:guilabel-2/> radio button in the same row"
 " to set the corresponding condition."
 msgstr ""
+"Haga clic en el botón de opción <_:guilabel-1/> o <_:guilabel-2/> en la "
+"misma fila para establecer la condición correspondiente."
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:112
@@ -1223,16 +1311,18 @@ msgid ""
 "Depending of your target operating system, make sure that the "
 "<_:guilabel-1/> checkbox is activated (or not)."
 msgstr ""
+"Dependiendo del sistema operativo de destino, asegúrese de que la casilla de "
+"verificación <_:guilabel-1/> esté activada (o no)."
 
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:119 C/cact-conditions.xml:131
 msgid "/my/file"
-msgstr ""
+msgstr "/mi/archivo"
 
 #. (itstool) path: para/filename
 #: C/cact-conditions.xml:121 C/cact-conditions.xml:133
 msgid "/My/File"
-msgstr ""
+msgstr "/Mi/Archivo"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:116
@@ -1241,11 +1331,14 @@ msgid ""
 "that <_:filename-1/> filename is considered distinct from <_:filename-2/> "
 "one."
 msgstr ""
+"Cuando se activan, todos los filtros se consideran sensibles a mayúsculas y "
+"minúsculas, lo que significa que el nombre de archivo <_:filename-1/> se "
+"considera distinto del nombre de archivo <_:filename-2/>."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:123
 msgid "This is the default behavior on Unix-like systems."
-msgstr ""
+msgstr "Este es el comportamiento predeterminado en los sistemas tipo Unix."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:128
@@ -1254,6 +1347,9 @@ msgid ""
 "that <_:filename-1/> and <_:filename-2/> filenames are considered the same "
 "name."
 msgstr ""
+"Cuando están desactivados, los filtros se consideran insensibles a "
+"mayúsculas y minúsculas, lo que significa que los nombres de archivo "
+"<_:filename-1/> y <_:filename-2/> se consideran el mismo nombre."
 
 #. (itstool) path: para/productname
 #: C/cact-conditions.xml:138 C/cact-conditions.xml:460
@@ -1266,13 +1362,15 @@ msgid ""
 "This is most probably what you want if you target some sort of "
 "<_:productname-1/> system."
 msgstr ""
+"Esto es muy probablemente lo que buscas si tu objetivo es algún tipo de "
+"sistema <_:productname-1/>."
 
 #. (itstool) path: para/keycap
 #: C/cact-conditions.xml:145 C/cact-conditions.xml:286
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Supr"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -1280,11 +1378,14 @@ msgid ""
 "Removing a defined basename-based condition is as simple as selecting it, "
 "and pressing <_:keycap-1/> (or clicking on <_:guibutton-2/> button)."
 msgstr ""
+"Eliminar una condición definida basada en el nombre base es tan simple como "
+"seleccionarla y presionar <_:keycap-1/> (o hacer clic en el botón "
+"<_:guibutton-2/>)."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:152 C/cact-conditions.xml:593
 msgid "must match one of *"
-msgstr ""
+msgstr "debe coincidir con uno de *"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:149
@@ -1294,12 +1395,16 @@ msgid ""
 "this just means that basename-based conditions are not considered as "
 "relevant for the action."
 msgstr ""
+"Por defecto, la condición basada en el nombre base es solo una condición « "
+"<_:literal-1/> ». Como todos los nombres base siempre coinciden con la "
+"condición « <_:literal-2/> », esto simplemente significa que las condiciones "
+"basadas en el nombre base no se consideran relevantes para la acción."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:160 C/cact-conditions.xml:174
 msgid "Mimetype-based conditions"
-msgstr ""
+msgstr "Condiciones basadas en el tipo mime"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:161
@@ -1310,12 +1415,17 @@ msgid ""
 "simultaneously decide that none of the selected item(s) can have some other "
 "sort of mimetype."
 msgstr ""
+"Puedes decidir que tu acción aparecerá dependiendo de los tipos mime de los "
+"elementos seleccionados actualmente en el administrador de archivos: puedes "
+"definir que cada elemento de la selección debe cumplir con algún tipo mime; "
+"y puedes decidir simultáneamente que ninguno de los elementos seleccionados "
+"puede tener otro tipo mime."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:170 C/cact-starting.xml:308
 msgid "Mimetypes"
-msgstr ""
+msgstr "Tipos mime"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:168
@@ -1323,11 +1433,14 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which will permit you to "
 "configure your mimetype-based conditions."
 msgstr ""
+"Haz clic en la pestaña <_:guilabel-1/> para ver la página que te permitirá "
+"configurar tus condiciones basadas en el tipo mime."
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:181
 msgid "Shows the tab which lets you define mimetype-based conditions."
 msgstr ""
+"Muestra la pestaña que permite definir condiciones basadas en el tipo mime."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:186
@@ -1340,6 +1453,15 @@ msgid ""
 "patterns, and must not match any of the defined « must not match any of » "
 "patterns."
 msgstr ""
+"De hecho, las condiciones basadas en el tipo mime se construyen como una "
+"lista de patrones que «deben coincidir con uno de los siguientes» y «no "
+"deben coincidir con ninguno de los siguientes». Para que su acción sea "
+"candidata a cumplir con estas condiciones basadas en el tipo mime, cada "
+"elemento de la selección debe ser válido para todas las condiciones "
+"enumeradas: el tipo mime de cada elemento debe coincidir con al menos uno de "
+"los patrones definidos que «debe coincidir con uno de los siguientes» y no "
+"debe coincidir con ninguno de los patrones definidos que «no debe coincidir "
+"con ninguno de los siguientes»."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:199
@@ -1350,37 +1472,44 @@ msgid ""
 " checked against the mimetype of the current location, which happens to be "
 "the well known « inode/directory » mimetype."
 msgstr ""
+"Al seleccionar el menú contextual, las condiciones basadas en el tipo mime "
+"se compararán con los elementos seleccionados. Al seleccionar el menú "
+"contextual de ubicación o la barra de herramientas, las condiciones basadas "
+"en el tipo mime se compararán con el tipo mime de la ubicación actual, que "
+"suele ser el conocido tipo mime «inode/directory»."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:208
 msgid "Defining a new mimetype-based condition involves two steps."
-msgstr ""
+msgstr "Definir una nueva condición basada en el tipo mime implica dos pasos."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:226
 msgid ""
 "Edit the newly inserted condition filter to the mimetype you want match."
 msgstr ""
+"Edita el filtro de condición recién insertado para que coincida con el tipo "
+"mime que deseas."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:233
 msgid "group/subgroup"
-msgstr ""
+msgstr "grupo/subgrupo"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:230
 msgid "A mimetype must be defined as a <_:literal-1/> expression."
-msgstr ""
+msgstr "Un tipo mime debe definirse como una expresión <_:literal-1/>."
 
 #. (itstool) path: tip/para
 #: C/cact-conditions.xml:237
 msgid "The « <_:literal-1/> » wildcard is supported only in some situations:"
-msgstr ""
+msgstr "El comodín « <_:literal-1/> » solo se admite en algunas situaciones:"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:244 C/cact-conditions.xml:294
 msgid "*/*"
-msgstr ""
+msgstr "*/*"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:243
@@ -1389,32 +1518,37 @@ msgid ""
 "shortcut, the « <_:literal-2/> » literal is also accepted for this same "
 "purpose."
 msgstr ""
+"La expresión « <_:literal-1/> » coincide con todos los tipos mime. Como "
+"atajo práctico, el literal « <_:literal-2/> » también se acepta para este "
+"mismo propósito."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:252
 msgid "group/*"
-msgstr ""
+msgstr "grupo/*"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:254
 msgid "group"
-msgstr ""
+msgstr "grupo"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:250
 msgid ""
 "A <_:literal-1/> string matches all subgroups of <_:literal-2/> mimetype."
 msgstr ""
+"Una cadena <_:literal-1/> coincide con todos los subgrupos del tipo mime "
+"<_:literal-2/>."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:260
 msgid "*/subgroup"
-msgstr ""
+msgstr "*/subgrupo"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:258
 msgid "The <_:literal-1/> string is not accepted as a valid wildcard."
-msgstr ""
+msgstr "La cadena <_:literal-1/> no se acepta como un comodín válido."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:283
@@ -1422,11 +1556,14 @@ msgid ""
 "Removing a defined mimetype-based condition is as simple as selecting it, "
 "and pressing <_:keycap-1/> (or clicking on <_:guibutton-2/> button)."
 msgstr ""
+"Eliminar una condición definida basada en el tipo mime es tan sencillo como "
+"seleccionarla y pulsar <_:keycap-1/> (o hacer clic en el botón <_:guibutton-"
+"2/>)."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:293
 msgid "must match one of */*"
-msgstr ""
+msgstr "debe coincidir con uno de */*"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:290
@@ -1435,47 +1572,51 @@ msgid ""
 "condition. As all mimetypes always match the « <_:literal-2/> », this just "
 "means that mimetypes are not considered as relevant for the action."
 msgstr ""
+"Por defecto, la condición basada en el tipo mime es solo una condición "
+"«<_:literal-1/>». Como todos los tipos mime siempre coinciden con la "
+"condición «<_:literal-2/>», esto simplemente significa que los tipos mime no "
+"se consideran relevantes para la acción."
 
 #. (itstool) path: example/title
 #: C/cact-conditions.xml:299
 msgid "Example of usual mimetypes"
-msgstr ""
+msgstr "Ejemplo de tipos mime habituales"
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:304
 msgid "all/all"
-msgstr ""
+msgstr "todos/todos"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:307
 msgid "Matches all items."
-msgstr ""
+msgstr "Coincide con todos los artículos."
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:315
 msgid "all/allfiles"
-msgstr ""
+msgstr "todos/todos los archivos"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:318
 msgid "Matches all regular files."
-msgstr ""
+msgstr "Coincide con todos los archivos regulares."
 
 #. (itstool) path: term/literal
 #: C/cact-conditions.xml:326
 msgid "inode/directory"
-msgstr ""
+msgstr "inodo/directorio"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:329
 msgid "Matches only directories."
-msgstr ""
+msgstr "Solo coincide con directorios."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:339 C/cact-conditions.xml:359
 msgid "Folder-based conditions"
-msgstr ""
+msgstr "Condiciones basadas en carpetas"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:340
@@ -1486,6 +1627,12 @@ msgid ""
 "another; and you may simultaneously decide that none of the selected item(s)"
 " can be located in some other hierarchy."
 msgstr ""
+"Puedes decidir que tu acción aparecerá dependiendo del directorio en el que "
+"se encuentren los elementos seleccionados actualmente en el administrador de "
+"archivos: puedes definir que cada elemento de la selección debe estar "
+"ubicado en una jerarquía u otra; y puedes decidir simultáneamente que "
+"ninguno de los elementos seleccionados puede estar ubicado en alguna otra "
+"jerarquía."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:348
@@ -1494,12 +1641,15 @@ msgid ""
 "hierarchy in which the currently examined item should (or should not) stay: "
 "this is a pattern on the dirname of the element."
 msgstr ""
+"Una condición basada en carpetas debe entenderse como la especificación de "
+"la jerarquía en la que el elemento examinado actualmente debe (o no debe) "
+"permanecer: este es un patrón en el nombre del directorio del elemento."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:355 C/cact-starting.xml:320
 msgid "Folders"
-msgstr ""
+msgstr "Carpetas"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:353
@@ -1507,11 +1657,13 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which will permit you to "
 "configure your folder-based conditions."
 msgstr ""
+"Haz clic en la pestaña <_:guilabel-1/> para mostrar la página que te "
+"permitirá configurar tus condiciones basadas en carpetas."
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:366
 msgid "Shows the tab which lets you define folder-based conditions."
-msgstr ""
+msgstr "Muestra la pestaña que permite definir condiciones basadas en carpetas."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:371
@@ -1523,6 +1675,14 @@ msgid ""
 "located in one of the defined « must match one of » folders, and must not "
 "match any of the defined « must not match any of » folders."
 msgstr ""
+"De hecho, las condiciones basadas en carpetas se construyen como una lista "
+"de patrones que «deben coincidir con uno de» y «no deben coincidir con "
+"ninguno de». Para que su acción sea candidata a cumplir con estas "
+"condiciones basadas en carpetas, cada elemento de la selección debe ser "
+"válido para todas las condiciones enumeradas: cada elemento debe estar "
+"ubicado en una de las carpetas definidas que «debe coincidir con uno de» y "
+"no debe coincidir con ninguna de las carpetas definidas que «no debe "
+"coincidir con ninguna de»."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:384
@@ -1532,16 +1692,22 @@ msgid ""
 "targeting the location context menu or the toolbar, your folder-based "
 "conditions will be checked against the current location."
 msgstr ""
+"Al seleccionar el menú contextual, las condiciones basadas en carpetas se "
+"compararán con el nombre del directorio de cada elemento seleccionado. Al "
+"seleccionar el menú contextual de ubicación o la barra de herramientas, las "
+"condiciones basadas en carpetas se compararán con la ubicación actual."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:392
 msgid "Defining a new folder-based condition involves two steps."
-msgstr ""
+msgstr "Definir una nueva condición basada en carpetas implica dos pasos."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:410
 msgid "Edit the newly inserted condition filter to the folder you want match."
 msgstr ""
+"Edita el filtro de condición recién insertado para que coincida con la "
+"carpeta que deseas."
 
 #. (itstool) path: tip/para
 #: C/cact-conditions.xml:415
@@ -1549,18 +1715,22 @@ msgid ""
 "The « <_:literal-1/> » and « <_:literal-2/> » characters are accepted as "
 "wildcards at any level of the defined folder filter."
 msgstr ""
+"Los caracteres « <_:literal-1/> » y « <_:literal-2/> » se aceptan como "
+"comodines en cualquier nivel del filtro de carpeta definido."
 
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:425 C/cact-conditions.xml:953
 #: C/cact-conditions.xml:1058 C/cact-execution.xml:80 C/cact-starting.xml:542
 #: C/cact-starting.xml:605
 msgid "Browse"
-msgstr ""
+msgstr "Navegar"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:423
 msgid "Or click on <_:guibutton-1/> to select a folder on the file system."
 msgstr ""
+"O haga clic en <_:guibutton-1/> para seleccionar una carpeta en el sistema "
+"de archivos."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:444
@@ -1568,16 +1738,19 @@ msgid ""
 "Removing a defined folder-based condition is as simple as selecting it, and "
 "pressing <_:keycap-1/> (or clicking on <_:guibutton-2/> button)."
 msgstr ""
+"Eliminar una condición definida basada en carpetas es tan simple como "
+"seleccionarla y presionar <_:keycap-1/> (o hacer clic en el botón "
+"<_:guibutton-2/>)."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:454
 msgid "must match one of /"
-msgstr ""
+msgstr "debe coincidir con uno de /"
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:455
 msgid "/"
-msgstr ""
+msgstr "/"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:451
@@ -1586,6 +1759,10 @@ msgid ""
 "condition. As <_:literal-2/> is always the top of an Unix-like file system, "
 "then all selected items always match this condition."
 msgstr ""
+"Por defecto, la condición basada en carpetas es solo una condición « "
+"<_:literal-1/> ». Como <_:literal-2/> siempre es la raíz de un sistema de "
+"archivos tipo Unix, todos los elementos seleccionados siempre coinciden con "
+"esta condición."
 
 #. (itstool) path: note/para
 #: C/cact-conditions.xml:459
@@ -1593,11 +1770,13 @@ msgid ""
 "If you target a <_:productname-1/> system, then this default value may not "
 "be what you actually want."
 msgstr ""
+"Si su objetivo es un sistema <_:productname-1/>, es posible que este valor "
+"predeterminado no sea lo que realmente desea."
 
 #. (itstool) path: sect3/title
 #: C/cact-conditions.xml:467
 msgid "Scheme-base-conditions"
-msgstr ""
+msgstr "Condiciones base del esquema"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:468
@@ -1608,12 +1787,17 @@ msgid ""
 "simultaneously decide that none of the selected item(s) may have some other "
 "scheme."
 msgstr ""
+"Puedes decidir que tu acción aparecerá dependiendo de los esquemas de las "
+"URI de los elementos seleccionados actualmente en el administrador de "
+"archivos: puedes definir que cada elemento de la selección debe tener algún "
+"esquema; y puedes decidir simultáneamente que ninguno de los elementos "
+"seleccionados puede tener otro esquema."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:477 C/cact-starting.xml:332
 msgid "Schemes"
-msgstr ""
+msgstr "Esquemas"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:475
@@ -1621,16 +1805,18 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which will permit you to "
 "configure your scheme-based conditions."
 msgstr ""
+"Haz clic en la pestaña <_:guilabel-1/> para mostrar la página que te "
+"permitirá configurar tus condiciones basadas en esquemas."
 
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:481
 msgid "Scheme-based conditions"
-msgstr ""
+msgstr "Condiciones basadas en el esquema"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:488
 msgid "Shows the tab which lets you define scheme-based conditions."
-msgstr ""
+msgstr "Muestra la pestaña que permite definir condiciones basadas en esquemas."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:493
@@ -1643,6 +1829,15 @@ msgid ""
 "patterns, and must not match any of the defined « must not match any of » "
 "patterns."
 msgstr ""
+"De hecho, las condiciones basadas en esquemas se construyen como una lista "
+"de patrones que «deben coincidir con uno de los siguientes» y «no deben "
+"coincidir con ninguno de los siguientes». Para que su acción sea candidata a "
+"cumplir con estas condiciones basadas en esquemas, cada elemento de la "
+"selección debe ser válido para todas las condiciones enumeradas: el esquema "
+"de cada elemento debe coincidir con al menos uno de los patrones definidos "
+"que «deben coincidir con uno de los siguientes» y no debe coincidir con "
+"ninguno de los patrones definidos que «no deben coincidir con ninguno de los "
+"siguientes»."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:506
@@ -1652,16 +1847,22 @@ msgid ""
 "location context menu or the toolbar, your scheme-based conditions will be "
 "checked against the scheme of the current location."
 msgstr ""
+"Al seleccionar el menú contextual de selección, las condiciones basadas en "
+"el esquema se compararán con los elementos seleccionados. Al seleccionar el "
+"menú contextual de ubicación o la barra de herramientas, las condiciones "
+"basadas en el esquema se compararán con el esquema de la ubicación actual."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:513
 msgid "Defining a new scheme-based condition involves two steps."
-msgstr ""
+msgstr "Definir una nueva condición basada en un esquema implica dos pasos."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:531
 msgid "Edit the newly inserted condition filter to the scheme you want match."
 msgstr ""
+"Edita el filtro de condición recién insertado para que coincida con el "
+"esquema que deseas."
 
 #. (itstool) path: tip/para
 #: C/cact-conditions.xml:536
@@ -1669,11 +1870,13 @@ msgid ""
 "Scheme-based conditions only accept « <_:literal-1/> » wildcard, which "
 "stands for « any scheme »."
 msgstr ""
+"Las condiciones basadas en esquemas solo aceptan el comodín « <_:literal-1/> "
+"», que significa «cualquier esquema »."
 
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:543
 msgid "Common"
-msgstr ""
+msgstr "Común"
 
 #. (itstool) path: menuchoice/guimenu
 #. (itstool) path: para/guimenu
@@ -1696,16 +1899,18 @@ msgid ""
 "Or click on <_:guibutton-1/> to select a scheme among those predefined in "
 "<_:menuchoice-2/>."
 msgstr ""
+"O haga clic en <_:guibutton-1/> para seleccionar un esquema entre los "
+"predefinidos en <_:menuchoice-2/>."
 
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:545
 msgid "Selecting a scheme among predefined defaults"
-msgstr ""
+msgstr "Seleccionar un esquema entre opciones predeterminadas"
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:552
 msgid "Show the list of predefined schemes."
-msgstr ""
+msgstr "Mostrar la lista de esquemas predefinidos."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:557
@@ -1713,11 +1918,13 @@ msgid ""
 "A new scheme may only be selected here if it is not already defined as a "
 "scheme filter."
 msgstr ""
+"Aquí solo se podrá seleccionar un nuevo esquema si no está ya definido como "
+"filtro de esquema."
 
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:563 C/cact-conditions.xml:702
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:561
@@ -1725,6 +1932,8 @@ msgid ""
 "To select a new scheme, click <_:guibutton-1/>, or double-click on the "
 "desired row."
 msgstr ""
+"Para seleccionar un nuevo esquema, haga clic en <_:guibutton-1/> o haga "
+"doble clic en la fila deseada."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:583
@@ -1732,6 +1941,9 @@ msgid ""
 "Removing a defined scheme-based condition is as simple as selecting it, and "
 "pressing <_:keycap-1/> (or clicking on <_:guibutton-2/> button)."
 msgstr ""
+"Eliminar una condición definida basada en un esquema es tan simple como "
+"seleccionarla y presionar <_:keycap-1/> (o hacer clic en el botón "
+"<_:guibutton-2/>)."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:590
@@ -1739,22 +1951,27 @@ msgid ""
 "By default, the scheme-based condition is just one « <_:literal-1/> » "
 "condition, which means that schemes are not relevant for this action."
 msgstr ""
+"Por defecto, la condición basada en esquema es solo una condición « "
+"<_:literal-1/> », lo que significa que los esquemas no son relevantes para "
+"esta acción."
 
 #. (itstool) path: sect3/title
 #. (itstool) path: figure/title
 #: C/cact-conditions.xml:599 C/cact-conditions.xml:620
 msgid "Capability-based conditions"
-msgstr ""
+msgstr "Condiciones basadas en la capacidad"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:600
 msgid "Capabilities are some properties that a file may exhibit to the user."
 msgstr ""
+"Las capacidades son algunas propiedades que un archivo puede mostrar al "
+"usuario."
 
 #. (itstool) path: para/literal
 #: C/cact-conditions.xml:606
 msgid "Local"
-msgstr ""
+msgstr "Local"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:604
@@ -1762,12 +1979,14 @@ msgid ""
 "But except for the <_:literal-1/> capability, all others depend on the user "
 "who executes the command."
 msgstr ""
+"Pero, a excepción de la capacidad <_:literal-1/>, todas las demás dependen "
+"del usuario que ejecuta el comando."
 
 #. (itstool) path: para/abbrev
 #. (itstool) path: title/abbrev
 #: C/cact-conditions.xml:611 C/cact-execution.xml:347 C/cact-execution.xml:520
 msgid "vs."
-msgstr ""
+msgstr "vs."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:609
@@ -1775,12 +1994,15 @@ msgid ""
 "You may so decide that your action will appear, or not, depending on the "
 "capabilities of the selected item(s) <_:abbrev-1/> the current user."
 msgstr ""
+"Usted puede decidir que su acción aparecerá o no, dependiendo de las "
+"capacidades del/de los elemento(s) seleccionado(s) <_:abbrev-1/> del usuario "
+"actual."
 
 #. (itstool) path: para/guilabel
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "Capacidades"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -1788,11 +2010,14 @@ msgid ""
 "Click on the <_:guilabel-1/> tab to show the page which will permit you to "
 "configure your capability-based conditions."
 msgstr ""
+"Haz clic en la pestaña <_:guilabel-1/> para mostrar la página que te "
+"permitirá configurar tus condiciones basadas en capacidades."
 
 #. (itstool) path: textobject/phrase
 #: C/cact-conditions.xml:627
 msgid "Shows the tab which lets you define capability-based conditions."
 msgstr ""
+"Muestra la pestaña que permite definir condiciones basadas en capacidades."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:632
@@ -1805,6 +2030,14 @@ msgid ""
 "capabilities, and must not match any of the defined « must not match any of "
 "» ones."
 msgstr ""
+"De hecho, las condiciones basadas en capacidades se construyen como una "
+"lista de patrones que «deben coincidir con todos» y «no deben coincidir con "
+"ninguno». Para que su acción sea candidata a cumplir con estas condiciones "
+"basadas en capacidades, cada elemento de la selección debe ser válido para "
+"todas las condiciones enumeradas: la capacidad de cada elemento debe "
+"coincidir con cada una de las capacidades definidas que «deben coincidir con "
+"todas» y no debe coincidir con ninguna de las definidas que «no deben "
+"coincidir con ninguna»."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:646
@@ -1814,27 +2047,33 @@ msgid ""
 "location context menu or the toolbar, your capability-based conditions will "
 "be checked against those of the current location."
 msgstr ""
+"Al seleccionar el menú contextual, las condiciones basadas en capacidades se "
+"compararán con los elementos seleccionados. Al seleccionar el menú "
+"contextual de ubicación o la barra de herramientas, las condiciones basadas "
+"en capacidades se compararán con las de la ubicación actual."
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:653
 msgid "Defining a new capability-based condition involves two steps."
-msgstr ""
+msgstr "Definir una nueva condición basada en capacidades implica dos pasos."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:663
 msgid "Press <_:keycap-1/> to insert a new condition filter."
-msgstr ""
+msgstr "Pulse <_:keycap-1/> para insertar un nuevo filtro de condición."
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:670
 msgid ""
 "Edit the newly inserted condition filter to the capability you want match."
 msgstr ""
+"Edita el filtro de condición recién insertado para que coincida con la "
+"capacidad que deseas."
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:680
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Agregar una nueva capacidad"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:676
@@ -2633,7 +2872,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-execution.xml:179
 msgid "Embedded"
-msgstr ""
+msgstr "Incrustado"
 
 #. (itstool) path: listitem/para
 #: C/cact-execution.xml:183
@@ -4368,7 +4607,7 @@ msgstr ""
 #: C/cact-starting.xml:520 C/cact-starting.xml:524 C/cact-starting.xml:536
 #: C/cact-where.xml:111 C/cact-where.xml:153
 msgid "Icon"
-msgstr ""
+msgstr "Icono"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:517
@@ -4797,7 +5036,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:73
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #. (itstool) path: sect1/para
 #: C/index.docbook:74
