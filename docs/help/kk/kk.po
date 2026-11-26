@@ -1,20 +1,21 @@
 # Translators:
 # Martin Wimpress <code@flexion.org>, 2021
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2021, 2026.
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:12+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2021\n"
-"Language-Team: Kazakh (https://app.transifex.com/mate/teams/13566/kk/)\n"
+"PO-Revision-Date: 2026-08-30 03:18+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/mate-"
+"desktop/help-documentation/caja-actions-help/kk/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: kk\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
 
 #. (itstool) path: appendix/title
 #: C/appendix-gnu-fdl-1.3.xml:2
@@ -784,7 +785,7 @@ msgstr ""
 #: C/cact-starting.xml:51 C/cact-starting.xml:59 C/cact-starting.xml:74
 #: C/cact-starting.xml:82 C/cact-starting.xml:231
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Caja-Actions баптау сайманы"
 
 #. (itstool) path: articleinfo/title
 #: C/articleinfo.xml:2
@@ -824,7 +825,7 @@ msgstr ""
 #. (itstool) path: copyright/holder
 #: C/articleinfo.xml:15
 msgid "Wolfgang Ulbrich"
-msgstr ""
+msgstr "Wolfgang Ulbrich"
 
 #. (itstool) path: para/productname
 #: C/articleinfo.xml:19 C/cact-bugs.xml:8 C/cact-conditions.xml:14
@@ -834,7 +835,7 @@ msgstr ""
 #: C/cact-profiles.xml:52 C/cact-profiles.xml:57 C/cact-save.xml:10
 #: C/cact-starting.xml:498
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #. (itstool) path: para/productname
 #. (itstool) path: title/productname
@@ -878,17 +879,17 @@ msgstr ""
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:36
 msgid "GNOME Documentation Project"
-msgstr ""
+msgstr "GNOME құжаттама жобасы"
 
 #. (itstool) path: publisher/publishername
 #: C/articleinfo.xml:40
 msgid "MATE Documentation Project"
-msgstr ""
+msgstr "MATE құжаттама жобасы"
 
 #. (itstool) path: author/firstname
 #: C/articleinfo.xml:45
 msgid "Pierre"
-msgstr ""
+msgstr "Пирр"
 
 #. (itstool) path: author/surname
 #: C/articleinfo.xml:46
@@ -985,7 +986,7 @@ msgstr ""
 #. (itstool) path: sect4/title
 #: C/cact-bugs.xml:17 C/cact-execution.xml:138
 msgid "Execution mode"
-msgstr ""
+msgstr "Орындау режимі"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:18
@@ -1004,7 +1005,7 @@ msgstr ""
 #. (itstool) path: formalpara/title
 #: C/cact-bugs.xml:29
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "Ұсынылған жарлық"
 
 #. (itstool) path: formalpara/para
 #: C/cact-bugs.xml:30
@@ -1190,14 +1191,14 @@ msgstr ""
 #: C/cact-conditions.xml:102 C/cact-conditions.xml:276
 #: C/cact-conditions.xml:437 C/cact-conditions.xml:576
 msgid "Must match one of"
-msgstr ""
+msgstr "Біреуіне сәйкес келуі тиіс"
 
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:104 C/cact-conditions.xml:278
 #: C/cact-conditions.xml:439 C/cact-conditions.xml:578
 #: C/cact-conditions.xml:717
 msgid "Must not match any of"
-msgstr ""
+msgstr "Ешбіріне сәйкес келмеуі тиіс"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:100 C/cact-conditions.xml:274
@@ -1268,7 +1269,7 @@ msgstr ""
 #: C/cact-conditions.xml:447 C/cact-conditions.xml:586
 #: C/cact-conditions.xml:725
 msgid "Del"
-msgstr ""
+msgstr "Del"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:142
@@ -1713,7 +1714,7 @@ msgstr ""
 #. (itstool) path: para/guibutton
 #: C/cact-conditions.xml:563 C/cact-conditions.xml:702
 msgid "OK"
-msgstr ""
+msgstr "Жарайды"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:561
@@ -1776,7 +1777,7 @@ msgstr ""
 #. (itstool) path: varlistentry/term
 #: C/cact-conditions.xml:616 C/cact-starting.xml:344
 msgid "Capabilities"
-msgstr ""
+msgstr "Мүмкіндіктер"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:614
@@ -1830,7 +1831,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:680
 msgid "Adding a new capability"
-msgstr ""
+msgstr "Жаңа мүмкіндік қосу"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:676
@@ -1871,7 +1872,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-conditions.xml:715
 msgid "Must match all of"
-msgstr ""
+msgstr "Барлығына сәйкес келуі тиіс"
 
 #. (itstool) path: sect3/para
 #: C/cact-conditions.xml:722
@@ -2002,7 +2003,7 @@ msgstr ""
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:811
 msgid "&lt;"
-msgstr ""
+msgstr "&lt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:811
@@ -2017,17 +2018,17 @@ msgstr "="
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:812
 msgid "(equal to)"
-msgstr ""
+msgstr "(тең)"
 
 #. (itstool) path: member/literal
 #: C/cact-conditions.xml:813
 msgid "&gt;"
-msgstr ""
+msgstr "&gt;"
 
 #. (itstool) path: member/termdef
 #: C/cact-conditions.xml:813
 msgid "(strictly greater than)"
-msgstr ""
+msgstr "(қатаң түрде үлкен)"
 
 #. (itstool) path: listitem/para
 #: C/cact-conditions.xml:817
@@ -2508,7 +2509,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:78
 msgid "Working directory"
-msgstr ""
+msgstr "Жұмыс бумасы"
 
 #. (itstool) path: sect3/para
 #: C/cact-execution.xml:74
@@ -2693,7 +2694,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:234
 msgid "Startup notify"
-msgstr ""
+msgstr "Іске қосылу туралы хабарландыру"
 
 #. (itstool) path: sect4/para
 #: C/cact-execution.xml:228
@@ -2749,7 +2750,7 @@ msgstr ""
 #. (itstool) path: para/guilabel
 #: C/cact-execution.xml:268
 msgid "Execute as user"
-msgstr ""
+msgstr "Пайдаланушы ретінде орындау"
 
 #. (itstool) path: para/acronym
 #: C/cact-execution.xml:269
@@ -2888,7 +2889,7 @@ msgstr ""
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:356
 msgid "Parameter"
-msgstr ""
+msgstr "Параметр"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:357
@@ -3105,7 +3106,7 @@ msgstr ""
 #. (itstool) path: entry/literal
 #: C/cact-execution.xml:503
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #. (itstool) path: row/entry
 #: C/cact-execution.xml:504
@@ -3295,7 +3296,7 @@ msgstr ""
 #. (itstool) path: sect2/title
 #: C/cact-import.xml:2
 msgid "Importing actions"
-msgstr ""
+msgstr "Әрекеттерді импорттау"
 
 #. (itstool) path: sect2/title
 #: C/cact-menus.xml:2
@@ -3371,7 +3372,7 @@ msgstr ""
 #. (itstool) path: para/literal
 #: C/cact-menus.xml:41
 msgid "New Caja menu"
-msgstr ""
+msgstr "Жаңа Caja мәзірі"
 
 #. (itstool) path: listitem/para
 #: C/cact-menus.xml:38
@@ -3563,7 +3564,7 @@ msgstr ""
 #. (itstool) path: menuchoice/guimenuitem
 #: C/cact-profiles.xml:36
 msgid "New profile"
-msgstr ""
+msgstr "Жаңа профиль"
 
 #. (itstool) path: sect2/para
 #: C/cact-profiles.xml:36
@@ -3866,7 +3867,7 @@ msgstr ""
 #. (itstool) path: para/keycap
 #: C/cact-starting.xml:24 C/cact-starting.xml:38 C/cact-starting.xml:431
 msgid "Return"
-msgstr ""
+msgstr "Return"
 
 #. (itstool) path: listitem/para
 #. (itstool) path: tip/para
@@ -4003,7 +4004,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:195
 msgid "F5"
-msgstr ""
+msgstr "F5"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:199
@@ -4013,7 +4014,7 @@ msgstr ""
 #. (itstool) path: keycombo/keycap
 #: C/cact-starting.xml:207
 msgid "F1"
-msgstr ""
+msgstr "F1"
 
 #. (itstool) path: listitem/para
 #: C/cact-starting.xml:211
@@ -4877,7 +4878,7 @@ msgstr ""
 #. (itstool) path: sect1/title
 #: C/index.docbook:143
 msgid "Getting Started"
-msgstr ""
+msgstr "Жұмысқа кірісу"
 
 #. (itstool) path: sect1/title
 #: C/index.docbook:152
@@ -4955,6 +4956,10 @@ msgid ""
 "you can do so by adding a copy of the license to the manual, as described in"
 " section 6 of the license."
 msgstr ""
+"Бұл нұсқаулық GFDL аясында үлестірілген MATE нұсқаулықтар жиынтығының бөлігі "
+"болып табылады. Егер бұл нұсқаулықты жиынтықтан бөлек үлестіргіңіз келсе, "
+"лицензияның 6-бөлімінде сипатталғандай, лицензияның көшірмесін нұсқаулыққа "
+"қосу арқылы жасай аласыз."
 
 #. (itstool) path: legalnotice/para
 #: C/legalnotice.xml:24
@@ -4965,6 +4970,11 @@ msgid ""
 "aware of those trademarks, then the names are in capital letters or initial "
 "capital letters."
 msgstr ""
+"Компаниялар өз өнімдері мен қызметтерін ажырату үшін пайдаланатын көптеген "
+"аттар сауда белгісі ретінде мәлімделген. Мұндай аттар кез келген MATE "
+"құжаттамасында кездескен жағдайда және MATE құжаттама жобасының мүшелері сол "
+"сауда белгілері туралы хабардар болса, онда аттар бас әріптермен немесе "
+"бастапқы бас әріптермен жазылады."
 
 #. (itstool) path: listitem/para
 #: C/legalnotice.xml:38
@@ -4981,6 +4991,18 @@ msgid ""
 "ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
 "OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
 msgstr ""
+"ҚҰЖАТ «СОЛАЙ БОЛҒАН КҮЙІНДЕ» НЕГІЗІНДЕ, ЕШҚАНДАЙ КЕПІЛДІКСІЗ, ТІКЕЛЕЙ НЕМЕСЕ "
+"ЖАНАМА ТҮРДЕ БЕРІЛЕДІ, СОНЫҢ ІШІНДЕ ШЕКТЕУСІЗ, ҚҰЖАТ НЕМЕСЕ ОНЫҢ ӨЗГЕРТІЛГЕН "
+"НҰСҚАСЫ КЕМШІЛІКСІЗ, ТАУАРЛЫҚ КҮЙДЕ, БЕЛГІЛІ БІР МАҚСАТҚА САЙ КЕЛЕТІН НЕМЕСЕ "
+"ҚҰҚЫҚТАРДЫ БҰЗБАЙТЫН ДЕГЕН КЕПІЛДІКТЕР БЕРІЛМЕЙДІ. ҚҰЖАТТЫҢ НЕМЕСЕ ОНЫҢ "
+"ӨЗГЕРТІЛГЕН НҰСҚАСЫНЫҢ САПАСЫНА, ДӘЛДІГІНЕ ЖӘНЕ ӨНІМДІЛІГІНЕ ҚАТЫСТЫ БАРЛЫҚ "
+"ТӘУЕКЕЛ СІЗГЕ ЖҮКТЕЛЕДІ. ЕГЕР ҚАНДАЙ ДА БІР ҚҰЖАТ НЕМЕСЕ ӨЗГЕРТІЛГЕН НҰСҚА "
+"КЕЗ КЕЛГЕН ЖАҒДАЙДА АҚАУЛЫ БОЛЫП ШЫҚСА, КЕЗ КЕЛГЕН ҚАЖЕТТІ ҚЫЗМЕТ КӨРСЕТУ, "
+"ЖӨНДЕУ НЕМЕСЕ ТҮЗЕТУ ШЫҒЫНДАРЫН СІЗ (БАСТАПҚЫ WRITER, АВТОР НЕМЕСЕ КЕЗ "
+"КЕЛГЕН CONTRIBUTOR ЕМЕС) ӨЗ МОЙНЫҢЫЗҒА АЛАСЫЗ. КЕПІЛДІКТЕН БАС ТАРТУ ТУРАЛЫ "
+"ОСЫ ЕРЕЖЕ ОСЫ ЛИЦЕНЗИЯНЫҢ МІНДЕТТІ БӨЛІГІ БОЛЫП ТАБЫЛАДЫ. ҚҰЖАТТЫҢ НЕМЕСЕ "
+"ОНЫҢ ӨЗГЕРТІЛГЕН НҰСҚАСЫНЫҢ КЕЗ КЕЛГЕН ПАЙДАЛАНЫЛУЫНА ТЕК ОСЫ КЕПІЛДІКТЕН "
+"БАС ТАРТУ ШАРТТАРЫМЕН ҒАН РҰҚСАТ БЕРІЛЕДІ; ЖӘНЕ"
 
 #. (itstool) path: listitem/para
 #: C/legalnotice.xml:59
@@ -4996,6 +5018,17 @@ msgid ""
 "VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE"
 " POSSIBILITY OF SUCH DAMAGES."
 msgstr ""
+"ЕШҚАНДАЙ ЖАҒДАЙДА ЖӘНЕ ЕШҚАНДАЙ ҚҰҚЫҚТЫҚ ТЕОРИЯ БОЙЫНША, МЕЙЛІ АЗАМАТТЫҚ "
+"ҚҰҚЫҚ БҰЗУШЫЛЫҚ (СОНЫҢ ІШІНДЕ ҰҚЫПСЫЗДЫҚ), КЕЛІСІМШАРТ НЕМЕСЕ ӘЙТПЕСЕ "
+"БОЛСЫН, АВТОР, БАСТАПҚЫ WRITER, КЕЗ КЕЛГЕН CONTRIBUTOR НЕМЕСЕ ҚҰЖАТТЫҢ "
+"НЕМЕСЕ ӨЗГЕРТІЛГЕН НҰСҚАСЫНЫҢ КЕЗ КЕЛГЕН ДИСТРИБЬЮТОРЫ НЕМЕСЕ ОСЫНДАЙ "
+"ТАРАПТАРДЫҢ КЕЗ КЕЛГЕН ЖЕТКІЗУШІСІ КЕЗ КЕЛГЕН ТҰЛҒА АЛДЫНДА КЕЗ КЕЛГЕН "
+"ТІКЕЛЕЙ, ЖАНАМА, АРНАЙЫ, КЕЗДЕЙСОҚ НЕМЕСЕ ЖАНАМА ШЫҒЫНДАР ҮШІН, СОНЫҢ ІШІНДЕ "
+"ШЕКТЕУСІЗ, ІСКЕРЛІК БЕДЕЛДІҢ ЖОҒАЛУЫ, ЖҰМЫСТЫҢ ТОҚТАП ҚАЛУЫ, КОМПЬЮТЕРДІҢ "
+"СӘТСІЗДІГІ НЕМЕСЕ ДҰРЫС ЖҰМЫС ІСТЕМЕУІ НЕМЕСЕ ҚҰЖАТТЫ ПАЙДАЛАНУДАН НЕМЕСЕ "
+"ОҒАН ҚАТЫСТЫ ТУЫНДАҒАН БАРЛЫҚ БАСҚА ШЫҒЫНДАР НЕМЕСЕ ЖОҒАЛТУЛАР ҮШІН, ТІПТІ "
+"ОСЫНДАЙ ТАРАП ОСЫНДАЙ ШЫҒЫНДАРДЫҢ МҮМКІНДІГІ ТУРАЛЫ ХАБАРДАР БОЛСА ДА, "
+"ЖАУАПТЫ БОЛМАЙДЫ."
 
 #. (itstool) path: legalnotice/para
 #: C/legalnotice.xml:32
@@ -5004,3 +5037,5 @@ msgid ""
 "OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
 "<_:orderedlist-1/>"
 msgstr ""
+"ҚҰЖАТ ЖӘНЕ ҚҰЖАТТЫҢ ӨЗГЕРТІЛГЕН НҰСҚАЛАРЫ КЕЛЕСІ ҚОСЫМША ТҮСІНІКТЕМЕЛЕРМЕН "
+"GNU ЕРКІН ҚҰЖАТТАМА ЛИЦЕНЗИЯСЫНЫҢ ШАРТТАРЫМЕН БЕРІЛЕДІ: <_:orderedlist-1/>"
