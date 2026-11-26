@@ -1,54 +1,56 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2021
 # 趙惟倫 <bluebat@member.fsf.org>, 2021
 # 黃柏諺 <s8321414@gmail.com>, 2021
-# 
+# Alang Hsu <alang.hsu@gmail.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: 黃柏諺 <s8321414@gmail.com>, 2021\n"
-"Language-Team: Chinese (Taiwan) (https://app.transifex.com/mate/teams/13566/zh_TW/)\n"
+"PO-Revision-Date: 2026-08-02 08:51+0000\n"
+"Last-Translator: Alang Hsu <alang.hsu@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/mate-desktop/applications/caja-actions/zh_TW/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.7.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "詢問我(_A)"
 
 #: src/core/na-exporter.c:54
 msgid ""
 "You will be asked for the format to choose each time an item is about to be "
 "exported."
-msgstr ""
+msgstr "每次項目即將匯出時，都會詢問您要選擇的格式。"
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:60
 #, c-format
 msgid "No NAIExporter implementation found for '%s' format."
-msgstr ""
+msgstr "找不到適用於「%s」格式的 NAIExporter 實作。"
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:304
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_buffer' interface."
-msgstr ""
+msgstr "%s NAIExporter 未實作「to_buffer」介面。"
 
 #. Translators: NAIExporter is an interface name, do not even try to translate
 #: src/core/na-exporter.c:377
 #, c-format
 msgid "%s NAIExporter doesn't implement 'to_file' interface."
-msgstr ""
+msgstr "%s NAIExporter 未實作「to_file」介面。"
 
 #: src/core/na-about.c:70
 msgid ""
@@ -57,6 +59,9 @@ msgid ""
 "published by the Free Software Foundation; either version 2 of the License, "
 "or (at your option) any later version."
 msgstr ""
+"Caja-Actions 設定工具是自由軟體；您可以依照自由軟體基金會所發布之 GNU 通用公"
+"共授權條款（第 2 版，或（由您選擇）任何更新的版本）的規範，再散布與／或修改本"
+"程式。"
 
 #: src/core/na-about.c:74
 msgid ""
@@ -65,6 +70,8 @@ msgid ""
 "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
 "Public License for more details."
 msgstr ""
+"Caja-Actions 設定工具以「現況」發布，希望它有用，但不提供任何保證；甚至沒有隱"
+"含的適售性或特定用途適用性保證。詳情請參閱 GNU 通用公共授權條款。"
 
 #: src/core/na-about.c:78
 msgid ""
@@ -73,10 +80,13 @@ msgid ""
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, "
 "USA."
 msgstr ""
+"您應該已隨 Caja-Actions 設定工具收到一份 GNU 通用公共授權條款；若沒有，請寫信"
+"至 Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, "
+"MA 02110-1301, USA。"
 
 #: src/core/na-about.c:92
 msgid "A graphical interface to create and edit your Caja actions."
-msgstr ""
+msgstr "建立與編輯您的 Caja 動作的圖形介面。"
 
 #: src/core/na-about.c:93
 msgid ""
@@ -84,10 +94,13 @@ msgid ""
 "Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
 "Copyright © 2021 The MATE developers"
 msgstr ""
+"Copyright © 2009-2012 Pierre Wieser <pwieser@trychlos.org>\n"
+"Copyright © 2013-2020 Wolfgang Ulbrich <mate@raveit.de>\n"
+"Copyright © 2021 The MATE developers"
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
@@ -97,35 +110,36 @@ msgstr ""
 "  Jose Sun https://launchpad.net/~josesun\n"
 "  Toomore https://launchpad.net/~toomore\n"
 "  fetag https://launchpad.net/~coolfire\n"
-"Walter Cheuk <wwycheuk@gmail.com>, 2016."
+"Walter Cheuk <wwycheuk@gmail.com>, 2016.\n"
+"Alang Hsu <alang.hsu@gmail.com>, 2026."
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "MATE 桌面環境"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "KDE 桌面環境"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "LXDE 桌面環境"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "ROX 桌面環境"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "XFCE 桌面環境"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
-msgstr ""
+msgstr "舊版系統"
 
 #: src/core/na-icontext-factory.c:51
 msgid "List of patterns to be matched against the selected file(s)/folder(s)"
-msgstr ""
+msgstr "與所選取檔案／資料夾比對的模式清單"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literals,
@@ -136,6 +150,10 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*'."
 msgstr ""
+"一組含有萬用字元「*」或「?」的字串，用於比對所選取檔案／資料夾的名稱。每個選"
+"取的項目至少必須符合其中一個檔名模式，動作或選單才會是候選顯示項目。\n"
+"這明顯只在有選取項目時才適用。\n"
+"預設為「*」。"
 
 #. Translators: wildcard characters '*' and '?' should be considered as
 #. literalls,
@@ -146,6 +164,8 @@ msgid ""
 " include wildcards (* or ?). You must set one option for each pattern you "
 "need"
 msgstr ""
+"與所選取檔案／資料夾之基本名稱比對的模式。可以包含萬用字元（* 或 ?）。每個所"
+"需模式都必須設定一個選項"
 
 #. Translators: the "<EXPR>" is just an abbreviation for "an expression",
 #. *  so is tranlatable
@@ -154,11 +174,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:80 src/core/na-icontext-factory.c:139
 #: src/core/na-icontext-factory.c:358
 msgid "<EXPR>"
-msgstr ""
+msgstr "<運算式>"
 
 #: src/core/na-icontext-factory.c:86
 msgid "Whether the specified basenames are case sensitive (default)"
-msgstr ""
+msgstr "指定的基本名稱是否區分大小寫（預設）"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -168,12 +188,17 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"若檔案名稱模式區分大小寫，請設為「true」，否則設為「false」。例如，若您需要以"
+"區分大小寫的方式比對檔名，請將此鍵設為「true」。若您也希望例如「*.jpg」能符合"
+"「photo.JPG」，則設為「false」。\n"
+"這明顯只在有選取項目時才適用。\n"
+"預設為「true」。"
 
 #: src/core/na-icontext-factory.c:114
 msgid ""
 "List of patterns to be matched against the mimetypes of the selected "
 "file(s)/folder(s)"
-msgstr ""
+msgstr "與所選取檔案／資料夾之 MIME 類型比對的模式清單"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -183,6 +208,10 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to '*/*'."
 msgstr ""
+"一組含有萬用字元「*」的字串，用於比對所選取檔案／資料夾的 MIME 類型。每個選取"
+"的項目至少必須符合其中一個 MIME 類型模式，動作才會顯示。\n"
+"這明顯只在有選取項目時才適用。\n"
+"預設為「*/*」。"
 
 #. Translators: wildcard character '*' is taken literally, and should not be
 #. translated
@@ -192,10 +221,12 @@ msgid ""
 " include the asterisk wildcard '*'. You must set one option for each pattern"
 " you need"
 msgstr ""
+"與所選取檔案／資料夾之 MIME 類型比對的模式。可以包含星號萬用字元「*」。每個所"
+"需模式都必須設定一個選項"
 
 #: src/core/na-icontext-factory.c:179
 msgid "Whether the profile applies to files (deprecated option, see mimetype)"
-msgstr ""
+msgstr "設定檔是否套用於檔案（已停用選項，請參閱 mimetype）"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -210,11 +241,19 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'true'."
 msgstr ""
+"若選取項目可包含檔案，請設為「true」，否則設為「false」。\n"
+"此設定與「isdir」設定相關。有效的組合如下：\n"
+"isfile='true' 且 isdir='false'：選取項目只能包含檔案\n"
+"isfile='false' 且 isdir='true'：選取項目只能包含資料夾\n"
+"isfile='true' 且 isdir='true'：選取項目可同時包含檔案與資料夾\n"
+"isfile='false' 且 isdir='false'：這是無效的組合（您的設定將永遠不會生效）。\n"
+"這明顯只在有選取項目時才適用。\n"
+"預設為「true」。"
 
 #: src/core/na-icontext-factory.c:210
 msgid ""
 "Whether the profile applies to folders (deprecated option, see mimetype)"
-msgstr ""
+msgstr "設定檔是否套用於資料夾（已停用選項，請參閱 mimetype）"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -229,12 +268,20 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"若選取項目可包含資料夾，請設為「true」，否則設為「false」。\n"
+"此設定與「isfile」設定相關。有效的組合如下：\n"
+"isfile='true' 且 isdir='false'：選取項目只能包含檔案\n"
+"isfile='false' 且 isdir='true'：選取項目只能包含資料夾\n"
+"isfile='true' 且 isdir='true'：選取項目可同時包含檔案與資料夾\n"
+"isfile='false' 且 isdir='false'：這是無效的組合（您的設定將永遠不會生效）。\n"
+"這明顯只在有選取項目時才適用。\n"
+"預設為「false」。"
 
 #: src/core/na-icontext-factory.c:244
 msgid ""
 "Whether the selection may be multiple (deprecated option, see selection "
 "count)"
-msgstr ""
+msgstr "選取項目是否可為多個（已停用選項，請參閱 selection count）"
 
 #. Translators: 'true' and 'false' values are taken literally, and should not
 #. be translated
@@ -244,11 +291,15 @@ msgid ""
 "This obviously only applies when there is a selection.\n"
 "Defaults to 'false'."
 msgstr ""
+"若您需要選取多個檔案或資料夾，請將此鍵設為「true」。若您只要選取單一檔案或資"
+"料夾，則設為「false」。\n"
+"這明顯只在有選取項目時才適用。\n"
+"預設為「false」。"
 
 #: src/core/na-icontext-factory.c:270
 msgid ""
 "List of schemes to be matched against those of selected file(s)/folder(s)"
-msgstr ""
+msgstr "與所選取檔案／資料夾之協定比對的協定清單"
 
 #. Translators: schemes (sftp, ssh, ftp, file, etc.) are standard keywords
 #. which define
@@ -269,12 +320,26 @@ msgid ""
 "This obviously only applies when there is a selection, or when targeting the special 'x-caja-desktop' scheme.\n"
 "Defaults to 'file'."
 msgstr ""
+"定義與所選取項目比對的有效協定清單。協定是用來存取檔案的傳輸協定。使用的關鍵"
+"字必須與檔案管理員在 URI 中所使用的一致。\n"
+"有效的 URI 範例包括：\n"
+"- file:///tmp/foo.txt\n"
+"- sftp:///root@test.example.net/tmp/foo.txt\n"
+"最常見的協定有：\n"
+"'file'：本機檔案\n"
+"'sftp'：透過 SSH 存取的檔案\n"
+"'ftp'：透過 FTP 存取的檔案\n"
+"'smb'：透過 Samba（Windows 分享）存取的檔案\n"
+"'dav'：透過 WebDAV 存取的檔案。\n"
+"您喜愛的檔案管理員所使用的任何協定都可以在此使用。\n"
+"這明顯只在有選取項目、或指定特殊的「x-caja-desktop」協定時才適用。\n"
+"預設為「file」。"
 
 #: src/core/na-icontext-factory.c:303
 msgid ""
 "A valid GIO scheme where the selected file(s)/folder(s) should be located. "
 "You must set one option for each scheme you need"
-msgstr ""
+msgstr "所選取檔案／資料夾應位於的有效 GIO 協定。每個所需協定都必須設定一個選項"
 
 #. Translators: "<STRING>" is just an abbreviation for "a string", so is
 #. tranlatable
@@ -285,11 +350,11 @@ msgstr ""
 #: src/utils/na-set-conf.c:70 src/utils/caja-actions-print.c:62
 #: src/utils/caja-actions-print.c:65 src/utils/caja-actions-run.c:60
 msgid "<STRING>"
-msgstr ""
+msgstr "<字串>"
 
 #: src/core/na-icontext-factory.c:312
 msgid "List of folders"
-msgstr ""
+msgstr "資料夾清單"
 
 #: src/core/na-icontext-factory.c:313
 msgid ""
@@ -297,12 +362,15 @@ msgid ""
 " All folders 'under' the specified path are considered valid.\n"
 "Defaults to '/'."
 msgstr ""
+"定義與目前資料夾比對的有效路徑清單。\n"
+" 指定路徑「之下」的所有資料夾都視為有效。\n"
+"預設為「/」。"
 
 #: src/core/na-icontext-factory.c:329
 msgid ""
 "The path of a (parent) directory for which the item will be displayed. You "
 "must set one option for each folder you need"
-msgstr ""
+msgstr "顯示項目時所需的（上層）目錄路徑。每個所需資料夾都必須設定一個選項"
 
 #. Translators: "<PATH>" is just an abbreviation for "a folder path", so is
 #. tranlatable
@@ -310,11 +378,11 @@ msgstr ""
 #: src/core/na-icontext-factory.c:332 src/core/na-icontext-factory.c:433
 #: src/core/na-icontext-factory.c:486 src/core/na-object-profile-factory.c:117
 msgid "<PATH>"
-msgstr ""
+msgstr "<路徑>"
 
 #: src/core/na-icontext-factory.c:338
 msgid "Operator of the selection count relation"
-msgstr ""
+msgstr "選取數量關係的運算子"
 
 #: src/core/na-icontext-factory.c:339
 msgid ""
@@ -323,48 +391,52 @@ msgid ""
 "Examples of valid strings are: \"=0\", \"> 1\", \"< 10\".\n"
 "Defaults to \">0\"."
 msgstr ""
+"此設定檔是否可依選取項目的數量決定。\n"
+"這是形式為「{'<'|'='|'>'} 數字」的字串。\n"
+"有效字串範例：「=0」、「> 1」、「< 10」。\n"
+"預設為「>0」。"
 
 #: src/core/na-icontext-factory.c:356
 msgid "Selection count relation [>0]"
-msgstr ""
+msgstr "選取數量關係 [>0]"
 
 #: src/core/na-icontext-factory.c:364
 msgid "Only show in environment"
-msgstr ""
+msgstr "僅在桌面環境中顯示"
 
 #: src/core/na-icontext-factory.c:365
 msgid "Defaults to all."
-msgstr ""
+msgstr "預設為全部。"
 
 #: src/core/na-icontext-factory.c:379
 msgid ""
 "The name of an only desktop environment where the item must be displayed. "
 "You must set one option for each environment you want"
-msgstr ""
+msgstr "項目必須在其中顯示的唯一桌面環境名稱。每個所需環境都必須設定一個選項"
 
 #. Translators: "<DESKTOP>" is just a placeholder for "a desktop name", so is
 #. tranlatable
 #: src/core/na-icontext-factory.c:382 src/core/na-icontext-factory.c:406
 msgid "<DESKTOP>"
-msgstr ""
+msgstr "<桌面環境>"
 
 #: src/core/na-icontext-factory.c:388
 msgid "Not show in environment"
-msgstr ""
+msgstr "不在桌面環境中顯示"
 
 #: src/core/na-icontext-factory.c:389
 msgid "Defaults to none."
-msgstr ""
+msgstr "預設為無。"
 
 #: src/core/na-icontext-factory.c:403
 msgid ""
 "The name of a desktop environment where the item must not be displayed. You "
 "must set one option for each environment you want"
-msgstr ""
+msgstr "項目不得在其中顯示的桌面環境名稱。每個所需環境都必須設定一個選項"
 
 #: src/core/na-icontext-factory.c:412
 msgid "Try exec"
-msgstr ""
+msgstr "嘗試執行"
 
 #. Translators: TryExec is a keyword of the specification, it is not
 #. translatable
@@ -374,14 +446,17 @@ msgid ""
 "Parameters may appear in 'TryExec' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"請注意，指定時只會檢查指定檔案是否存在及其可執行狀態。\n"
+"「TryExec」值中可出現參數，執行時會以實際值取代。\n"
+"預設為成功。"
 
 #: src/core/na-icontext-factory.c:431
 msgid "the path to a file whose executability is to be checked"
-msgstr ""
+msgstr "要檢查可執行性的檔案路徑"
 
 #: src/core/na-icontext-factory.c:439
 msgid "Show if registered"
-msgstr ""
+msgstr "已註冊時顯示"
 
 #. Translators: ShowIfRegistered is a keyword of the specification, it is not
 #. translatable
@@ -392,19 +467,23 @@ msgid ""
 "Parameters may appear in 'ShowIfRegistered' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"D-Bus 服務的 well-known 名稱。\n"
+"若執行時指定的服務已註冊於工作階段 D-Bus，則此項目會是候選項目。\n"
+"「ShowIfRegistered」值中可出現參數，執行時會以實際值取代。\n"
+"預設為成功。"
 
 #: src/core/na-icontext-factory.c:458
 msgid "The name of a service which must be registered on session DBus"
-msgstr ""
+msgstr "必須註冊於工作階段 D-Bus 的服務名稱"
 
 #: src/core/na-icontext-factory.c:459 src/core/na-icontext-factory.c:512
 #: src/core/na-icontext-factory.c:545
 msgid "<NAME>"
-msgstr ""
+msgstr "<名稱>"
 
 #: src/core/na-icontext-factory.c:465
 msgid "Show if True"
-msgstr ""
+msgstr "為「true」時顯示"
 
 #. Translators: ShowIfTrue is a keyword of the specification, it is not
 #. translatable
@@ -415,15 +494,19 @@ msgid ""
 "Parameters may appear in 'ShowIfTrue' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"執行時應在標準輸出輸出字串的命令。\n"
+"若輸出的字串等於「true」，則此項目會是候選項目。\n"
+"「ShowIfTrue」值中可出現參數，執行時會以實際值取代。\n"
+"預設為成功。"
 
 #. Translators: 'true' is to be taken as a literal, must not be translated
 #: src/core/na-icontext-factory.c:485
 msgid "The path to a command which will display the 'true' string"
-msgstr ""
+msgstr "會輸出「true」字串的命令路徑"
 
 #: src/core/na-icontext-factory.c:492
 msgid "Show if running"
-msgstr ""
+msgstr "執行中時顯示"
 
 #. Translators: ShowIfRunning is a keyword of the specification, it is not
 #. translatable
@@ -434,14 +517,18 @@ msgid ""
 "Parameters may appear in 'ShowIfRunning' value, and will be substituted at runtime.\n"
 "Defaults to successful."
 msgstr ""
+"處理程序名稱。\n"
+"若執行時在記憶體中找到此處理程序名稱，則此項目會是候選項目。\n"
+"「ShowIfRunning」值中可出現參數，執行時會以實際值取代。\n"
+"預設為成功。"
 
 #: src/core/na-icontext-factory.c:511
 msgid "The name of a binary which must be running"
-msgstr ""
+msgstr "必須正在執行的二進位程式名稱"
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "能力"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -458,49 +545,60 @@ msgid ""
 "- 'Local': selected items are local.\n"
 "Defaults to empty list."
 msgstr ""
+"選取項目中的每個項目都必須符合的能力清單，才可成為候選項目。\n"
+"能力可以被否定。\n"
+"能力必須從下列預先定義的項目中選擇：\n"
+"- 'Owner'：目前使用者是所選取項目的擁有者\n"
+"- 'Readable'：所選取項目可由使用者讀取（否定時可能更有用）\n"
+"- 'Writable'：所選取項目可由使用者寫入\n"
+"- 'Executable'：所選取項目可由使用者執行\n"
+"- 'Local'：所選取項目為本機項目。\n"
+"預設為空清單。"
 
 #: src/core/na-icontext-factory.c:543
 msgid ""
 "The name of a capability the selection must meet. May be 'Owner', "
 "'Readable', 'Writable', 'Executable' or 'Local'"
 msgstr ""
+"選取項目必須符合的能力名稱。可以是「Owner」、「Readable」、「Writable」、「"
+"Executable」或「Local」"
 
 #: src/core/na-iimporter.c:239 src/core/na-importer.c:293
 msgid ""
 "Item was renumbered because the caller did not provide any check function."
-msgstr ""
+msgstr "項目已重新編號，因為呼叫端未提供任何檢查函式。"
 
 #: src/core/na-iimporter.c:254
 msgid ""
 "Item was renumbered because the caller did not provide any ask user "
 "function."
-msgstr ""
+msgstr "項目已重新編號，因為呼叫端未提供任何詢問使用者的函式。"
 
 #: src/core/na-iimporter.c:273 src/core/na-importer.c:326
 msgid "Item was renumbered due to user request."
-msgstr ""
+msgstr "項目已依使用者要求重新編號。"
 
 #: src/core/na-iimporter.c:279 src/core/na-importer.c:335
 msgid "Existing item was overridden due to user request."
-msgstr ""
+msgstr "既有項目已依使用者要求被覆寫。"
 
 #: src/core/na-iimporter.c:286 src/core/na-importer.c:344
 #, c-format
 msgid "Item %s already exists."
-msgstr ""
+msgstr "項目 %s 已存在。"
 
 #: src/core/na-iimporter.c:288 src/core/na-importer.c:350
 msgid "Import was canceled due to user request."
-msgstr ""
+msgstr "匯入已依使用者要求取消。"
 
 #. Translators: the action has been renumbered during import operation
 #: src/core/na-iimporter.c:311 src/core/na-importer.c:417
 msgid "(renumbered)"
-msgstr ""
+msgstr "(已重新編號)"
 
 #: src/core/na-importer.c:58
 msgid "Do _not import the item"
-msgstr ""
+msgstr "不要匯入該項目(_N)"
 
 #: src/core/na-importer.c:59
 msgid ""
@@ -508,105 +606,114 @@ msgid ""
 "The selected file will be marked as \"NOT OK\" in the Summary page.\n"
 "The existing item will not be modified."
 msgstr ""
+"這是舊版的行為。\n"
+"所選取的檔案將在「摘要」頁面標記為「NOT OK」。\n"
+"既有的項目不會被修改。"
 
 #: src/core/na-importer.c:66
 msgid "Import the item, _allocating it a new identifier"
-msgstr ""
+msgstr "匯入項目並設定新的識別碼(_A)"
 
 #: src/core/na-importer.c:67
 msgid ""
 "The selected file will be imported with a slightly modified label indicating the renumbering.\n"
 "The existing item will not be modified."
 msgstr ""
+"所選取的檔案將以稍作修改、標示已重新編號的標籤匯入。\n"
+"既有的項目不會被修改。"
 
 #: src/core/na-importer.c:74
 msgid "_Override the existing item"
-msgstr ""
+msgstr "覆寫既有項目(_O)"
 
 #: src/core/na-importer.c:75
 msgid ""
 "The item found in the selected file will silently override the current one which has the same identifier.\n"
 "Be warned: this mode may be dangerous. You will not be prompted another time."
 msgstr ""
+"在所選取檔案中找到的項目將靜默覆寫目前具有相同識別碼的項目。\n"
+"請注意：此模式可能很危險。系統不會再次提示您。"
 
 #: src/core/na-importer.c:88
 msgid "You will be asked each time an imported ID already exists."
-msgstr ""
+msgstr "每次匯入的 ID 已存在時都會詢問您。"
 
 #. Translators: '%s' stands for the file URI
 #: src/core/na-importer.c:101
 #, c-format
 msgid "%s is not loadable (empty or too big or not a regular file)"
-msgstr ""
+msgstr "%s 無法載入（空檔案、過大或不是一般檔案）"
 
 #: src/core/na-importer-ask.c:270
 #, c-format
 msgid "Unable to load 'ImporterAskDialog' from %s"
-msgstr ""
+msgstr "無法從 %s 載入「ImporterAskDialog」"
 
 #: src/core/na-importer-ask.c:398
 #, c-format
 msgid ""
 "The action \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
-msgstr ""
+msgstr "從「%s」匯入的動作「%s」與既有的「%s」具有相同的識別碼。"
 
 #: src/core/na-importer-ask.c:404
 #, c-format
 msgid ""
 "The menu \"%s\" imported from \"%s\" has the same identifiant than the "
 "already existing \"%s\"."
-msgstr ""
+msgstr "從「%s」匯入的選單「%s」與既有的「%s」具有相同的識別碼。"
 
 #: src/core/na-importer-ask.ui:13
 msgid "Already existing item"
-msgstr ""
+msgstr "既有的項目"
 
 #: src/core/na-importer-ask.ui:98
 msgid "What should I do with this ?"
-msgstr ""
+msgstr "我該如何處理它？"
 
 #: src/core/na-importer-ask.ui:146
 msgid "Re_member my choice in future import operations"
-msgstr ""
+msgstr "記住我未來的匯入操作選擇(_M)"
 
 #: src/core/na-io-provider.c:69
 msgid ""
 "Please, be kind enough to fill out a bug report on "
 "https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions."
 msgstr ""
+"請您不吝在 https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions 填寫"
+"錯誤回報。"
 
 #: src/core/na-io-provider.c:1364
 msgid "Unavailable I/O provider."
-msgstr ""
+msgstr "I/O 提供者無法使用。"
 
 #: src/core/na-io-provider.c:1368
 msgid "I/O provider implementation lacks of required API."
-msgstr ""
+msgstr "I/O 提供者的實作缺少必要的 API。"
 
 #: src/core/na-io-provider.c:1372
 msgid "I/O provider is not willing to write."
-msgstr ""
+msgstr "I/O 提供者不願意寫入。"
 
 #: src/core/na-io-provider.c:1376
 msgid "I/O provider announces itself as unable to write."
-msgstr ""
+msgstr "I/O 提供者宣告自己無法寫入。"
 
 #: src/core/na-io-provider.c:1380
 msgid "I/O provider has been locked down by an administrator."
-msgstr ""
+msgstr "I/O 提供者已由系統管理員鎖定。"
 
 #: src/core/na-io-provider.c:1384
 msgid "I/O provider has been locked down by the user."
-msgstr ""
+msgstr "I/O 提供者已由使用者鎖定。"
 
 #: src/core/na-io-provider.c:1388
 msgid "Item is read-only."
-msgstr ""
+msgstr "項目是唯讀的。"
 
 #: src/core/na-io-provider.c:1392
 msgid "No writable I/O provider found."
-msgstr ""
+msgstr "找不到可寫入的 I/O 提供者。"
 
 #: src/core/na-io-provider.c:1397
 #, c-format
@@ -614,10 +721,12 @@ msgid ""
 "Item is not writable for an unknown reason (%d).\n"
 "%s"
 msgstr ""
+"項目因不明原因（%d）無法寫入。\n"
+"%s"
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "確定。"
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -625,22 +734,24 @@ msgid ""
 "Program flow error.\n"
 "%s"
 msgstr ""
+"程式流程錯誤。\n"
+"%s"
 
 #: src/core/na-io-provider.c:1428
 msgid "The I/O provider is not willing to do that."
-msgstr ""
+msgstr "I/O 提供者不願意執行該操作。"
 
 #: src/core/na-io-provider.c:1432
 msgid "Write error in I/O provider."
-msgstr ""
+msgstr "I/O 提供者發生寫入錯誤。"
 
 #: src/core/na-io-provider.c:1436
 msgid "Unable to delete MateConf schemas."
-msgstr ""
+msgstr "無法刪除 MateConf 結構描述。"
 
 #: src/core/na-io-provider.c:1440
 msgid "Unable to delete configuration."
-msgstr ""
+msgstr "無法刪除設定。"
 
 #: src/core/na-io-provider.c:1444
 #, c-format
@@ -648,19 +759,21 @@ msgid ""
 "Unknown return code (%d).\n"
 "%s"
 msgstr ""
+"未知的回傳碼（%d）。\n"
+"%s"
 
 #. Translators: default label for a new action
 #: src/core/na-object-action.c:58
 msgid "New Caja action"
-msgstr ""
+msgstr "新的 Caja 動作"
 
 #: src/core/na-object-action.c:491
 msgid "Profile automatically created from pre-v2 action"
-msgstr ""
+msgstr "自動從 v2 之前的動作建立的設定檔"
 
 #: src/core/na-object-action-factory.c:80
 msgid "Targets the selection context menu"
-msgstr ""
+msgstr "以選取情境選單為目標"
 
 #: src/core/na-object-action-factory.c:81
 msgid ""
@@ -669,14 +782,18 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to TRUE."
 msgstr ""
+"動作是否以選取時顯示的檔案管理員情境選單為目標。\n"
+"這是舊版的行為。\n"
+"請注意，只要選單包含至少一個動作，就永遠是選取情境選單的潛在候選顯示項目。\n"
+"預設為 TRUE。"
 
 #: src/core/na-object-action-factory.c:99
 msgid "Targets the selection context menu [true]"
-msgstr ""
+msgstr "以選取情境選單為目標 [true]"
 
 #: src/core/na-object-action-factory.c:106
 msgid "Targets the location context menu"
-msgstr ""
+msgstr "以位置情境選單為目標"
 
 #: src/core/na-object-action-factory.c:107
 msgid ""
@@ -684,14 +801,17 @@ msgid ""
 "Note that menus are always potential candidate to the display in selection context menus provided that they contain at least one action.\n"
 "Defaults to FALSE"
 msgstr ""
+"動作是否在沒有選取項目時以檔案管理員情境選單為目標，因而套用於目前位置。\n"
+"請注意，只要選單包含至少一個動作，就永遠是選取情境選單的潛在候選顯示項目。\n"
+"預設為 FALSE"
 
 #: src/core/na-object-action-factory.c:125
 msgid "Targets the location context menu [false]"
-msgstr ""
+msgstr "以位置情境選單為目標 [false]"
 
 #: src/core/na-object-action-factory.c:132
 msgid "Targets the toolbar"
-msgstr ""
+msgstr "以工具列為目標"
 
 #: src/core/na-object-action-factory.c:133
 msgid ""
@@ -700,14 +820,18 @@ msgid ""
 "Note that menus are never displayed in the toolbar.\n"
 "Defaults to FALSE."
 msgstr ""
+"動作是否為檔案管理員工具列的候選顯示項目。\n"
+"這只適用於目前位置。\n"
+"請注意，選單永遠不會顯示在工具列中。\n"
+"預設為 FALSE。"
 
 #: src/core/na-object-action-factory.c:150
 msgid "Targets the toolbar [false]"
-msgstr ""
+msgstr "以工具列為目標 [false]"
 
 #: src/core/na-object-action-factory.c:157
 msgid "Label of the toolbar item"
-msgstr ""
+msgstr "工具列項目的標籤"
 
 #: src/core/na-object-action-factory.c:158
 msgid ""
@@ -715,16 +839,19 @@ msgid ""
 "Note that actual display may depend of your own Desktop Environment preferences.\n"
 "Defaults to label of the context menu when not set or empty."
 msgstr ""
+"顯示在檔案管理員工具列中圖示旁的標籤。\n"
+"請注意，實際顯示可能取決於您的桌面環境偏好設定。\n"
+"未設定或為空時，預設使用情境選單的標籤。"
 
 #. Translators: copied items have a label as 'Copy of original label'
 #: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "複製 %s"
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
-msgstr ""
+msgstr "項目類型"
 
 #: src/core/na-object-item-factory.c:66
 msgid ""
@@ -733,24 +860,30 @@ msgid ""
 "- 'Menu'.\n"
 "The value is case sensitive and must not be localized."
 msgstr ""
+"定義項目是動作還是選單。可能的值有：\n"
+"- 'Action'（動作），\n"
+"- 'Menu'（選單）。\n"
+"此值區分大小寫，且不得本地化。"
 
 #: src/core/na-object-item-factory.c:94
 msgid "Label of the context menu item (mandatory)"
-msgstr ""
+msgstr "情境選單項目的標籤（必填）"
 
 #: src/core/na-object-item-factory.c:95
 msgid ""
 "The label of the menu item that will appear in the file manager context menu when the selection matches the appearance condition settings.\n"
 "It is also used as a default for the toolbar label of an action."
 msgstr ""
+"當選取項目符合顯示條件設定時，會顯示在檔案管理員情境選單中的選單項目標籤。\n"
+"它也會作為動作工具列標籤的預設值。"
 
 #: src/core/na-object-item-factory.c:99
 msgid "Empty label"
-msgstr ""
+msgstr "空白標籤"
 
 #: src/core/na-object-item-factory.c:118
 msgid "Tooltip of the context menu item"
-msgstr ""
+msgstr "情境選單項目的工具提示"
 
 #: src/core/na-object-item-factory.c:119
 msgid ""
@@ -758,34 +891,41 @@ msgid ""
 "when the user points to the file manager context menu item with his/her "
 "mouse."
 msgstr ""
+"當使用者以滑鼠指向檔案管理員情境選單項目時，會顯示在檔案管理員狀態列中的選單"
+"項目工具提示。"
 
 #: src/core/na-object-item-factory.c:142
 msgid "Icon of the context menu item"
-msgstr ""
+msgstr "情境選單項目的圖示"
 
 #: src/core/na-object-item-factory.c:143
 msgid ""
 "The icon of the menu item that will appear next to the label in the file manager context menu when the selection matches the appearance conditions settings.\n"
 "May be the localized name of a themed icon, or a full path to any appropriate image."
 msgstr ""
+"當選取項目符合顯示條件設定時，會顯示在檔案管理員情境選單中標籤旁的選單項目圖"
+"示。\n"
+"可以是主題圖示的本地化名稱，也可以是任何合適圖片的完整路徑。"
 
 #: src/core/na-object-item-factory.c:161
 msgid "<PATH|NAME>"
-msgstr ""
+msgstr "<路徑|名稱>"
 
 #: src/core/na-object-item-factory.c:191
 msgid "Description relative to the item"
-msgstr ""
+msgstr "與項目相關的描述"
 
 #: src/core/na-object-item-factory.c:192
 msgid ""
 "Some text which explains the goal of the menu or the action.\n"
 "May be used, e.g. when displaying available items on a web site."
 msgstr ""
+"說明選單或動作目標的文字。\n"
+"例如可用於在網站上顯示可用項目時。"
 
 #: src/core/na-object-item-factory.c:214
 msgid "Suggested shortcut"
-msgstr ""
+msgstr "建議的捷徑"
 
 #: src/core/na-object-item-factory.c:215
 msgid ""
@@ -794,74 +934,86 @@ msgid ""
 "The format may look like \"<Control>a\" or \"<Shift><Alt>F1\".\n"
 "Defaults to empty."
 msgstr ""
+"為動作或選單建議的捷徑。\n"
+"請注意，這可能只是建議，因為該捷徑可能已被其他用途占用。實作不應覆寫既有的捷"
+"徑來定義此捷徑。\n"
+"格式可能像「<Control>a」或「<Shift><Alt>F1」。\n"
+"預設為空。"
 
 #: src/core/na-object-item-factory.c:268
 msgid "List of subitem ids"
-msgstr ""
+msgstr "子項目 ID 清單"
 
 #: src/core/na-object-item-factory.c:269
 msgid ""
 "Ordered list of the IDs of the subitems. This may be actions or menus if the item is a menu, or profiles if the item is an action.\n"
 "If this list doesn't exist or is empty for an action or a menu, subitems are attached in the order of the read operations."
 msgstr ""
+"子項目 ID 的有序清單。若項目是選單，這可能是動作或選單；若項目是動作，則可能"
+"是設定檔。\n"
+"若動作或選單沒有此清單或清單為空，子項目將依讀取操作的順序附加。"
 
 #: src/core/na-object-item-factory.c:293
 msgid "Whether the action or the menu is enabled"
-msgstr ""
+msgstr "動作或選單是否已啟用"
 
 #: src/core/na-object-item-factory.c:294
 msgid ""
 "If the or the menu action is disabled, it will never appear in the file manager context menu.\n"
 "Defaults to TRUE."
 msgstr ""
+"若動作或選單已停用，它將永遠不會出現在檔案管理員情境選單中。\n"
+"預設為 TRUE。"
 
 #: src/core/na-object-item-factory.c:310
 msgid "Whether the action or the menu is enabled [enabled]"
-msgstr ""
+msgstr "動作或選單是否已啟用 [enabled]"
 
 #: src/core/na-object-item-factory.c:409
 msgid "Version of the format"
-msgstr ""
+msgstr "格式版本"
 
 #: src/core/na-object-item-factory.c:410
 msgid ""
 "The version of the configuration format that will be used to manage backward"
 " compatibility."
-msgstr ""
+msgstr "用於管理向後相容性的設定格式版本。"
 
 #. Translators: default label for a new menu
 #: src/core/na-object-menu.c:57
 msgid "New Caja menu"
-msgstr ""
+msgstr "新的 Caja 選單"
 
 #. Translators: label for the default profile
 #: src/core/na-object-profile.c:767
 msgid "Default profile"
-msgstr ""
+msgstr "預設設定檔"
 
 #: src/core/na-object-profile-factory.c:49
 msgid "Name of the profile"
-msgstr ""
+msgstr "設定檔名稱"
 
 #: src/core/na-object-profile-factory.c:50
 msgid ""
 "May be used as a description for the function of the profile.\n"
 "If not set, it defaults to an auto-generated name."
 msgstr ""
+"可用作設定檔功能的描述。\n"
+"若未設定，預設為自動產生的名稱。"
 
 #: src/core/na-object-profile-factory.c:100
 msgid "Path of the command"
-msgstr ""
+msgstr "命令路徑"
 
 #: src/core/na-object-profile-factory.c:101
 msgid ""
 "The path of the command to be executed when the user select the menu item in"
 " the file manager context menu or in the toolbar."
-msgstr ""
+msgstr "當使用者於檔案管理員情境選單或工具列中選取選單項目時，要執行的命令路徑。"
 
 #: src/core/na-object-profile-factory.c:127
 msgid "Parameters of the command"
-msgstr ""
+msgstr "命令參數"
 
 #: src/core/na-object-profile-factory.c:129
 msgid ""
@@ -903,10 +1055,47 @@ msgid ""
 "  %X: space-separated list of the extensions of the selected file(s)/folder(s)\n"
 "  %%: a percent sign."
 msgstr ""
+"當使用者於檔案管理員情境選單或工具列中選取選單項目時，要執行的命令參數。\n"
+"參數可包含一些特殊記號，啟動命令前會以檔案管理員提供的資訊取代：\n"
+"- 2.0 版之前：\n"
+"  %d：所選取檔案的基本資料夾\n"
+"  %f：所選取檔案的名稱；若選取多個檔案則為第一個的名稱\n"
+"  %h：URI 的主機名稱\n"
+"  %m：所選取檔案／資料夾之基本名稱的空白分隔清單\n"
+"  %M：所選取檔案／資料夾的空白分隔清單（含完整路徑）\n"
+"  %p：第一個 URI 的連接埠號碼\n"
+"  %R：所選取 URI 的空白分隔清單\n"
+"  %s：URI 的協定\n"
+"  %u：URI\n"
+"  %U：URI 的使用者名稱\n"
+"  %%：百分比符號。\n"
+"- 3.0 版起：\n"
+"  %b：（第一個）基本名稱\n"
+"  %B：所選取檔案／資料夾之基本名稱的空白分隔清單\n"
+"  %c：所選取檔案／資料夾的數量\n"
+"  %d：（第一個）基本目錄\n"
+"  %D：所選取檔案／資料夾之基本目錄的空白分隔清單\n"
+"  %f：（第一個）檔名\n"
+"  %F：所選取檔案／資料夾之檔名的空白分隔清單\n"
+"  %h：（第一個）URI 的主機名稱\n"
+"  %m：（第一個）MIME 類型\n"
+"  %M：所選取檔案／資料夾之 MIME 類型的空白分隔清單\n"
+"  %n：（第一個）URI 的使用者名稱\n"
+"  %o：強制單數形式執行的無操作運算子（自 3.0.2 起）\n"
+"  %O：強制複數形式執行的無操作運算子（自 3.0.2 起）\n"
+"  %p：（第一個）URI 的連接埠號碼\n"
+"  %s：（第一個）URI 的協定\n"
+"  %u：（第一個）URI\n"
+"  %U：所選取檔案／資料夾之 URI 的空白分隔清單\n"
+"  %w：（第一個）不含副檔名的基本名稱\n"
+"  %W：不含副檔名之基本名稱的空白分隔清單\n"
+"  %x：（第一個）副檔名\n"
+"  %X：所選取檔案／資料夾之副檔名的空白分隔清單\n"
+"  %%：百分比符號。"
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "工作目錄"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -914,10 +1103,12 @@ msgid ""
 "The working directory the command will be started in.\n"
 "Defaults to \"%d\"."
 msgstr ""
+"啟動命令的工作目錄。\n"
+"預設為「%d」。"
 
 #: src/core/na-object-profile-factory.c:211
 msgid "Execution mode"
-msgstr ""
+msgstr "執行模式"
 
 #. Translators: 'Normal', 'Terminal', 'Embedded' and 'DisplayOutput' are non-
 #. translatable keywords
@@ -931,30 +1122,43 @@ msgid ""
 "- DisplayOutput: the ran terminal may be closed at end of the command, but standard streams (stdout, stderr) should be collected and displayed; an acceptable fallback is Terminal.\n"
 "Defaults to \"Normal\"."
 msgstr ""
+"程式的執行模式。\n"
+"可以從下列值中選擇：\n"
+"- Normal：以標準圖形使用者介面啟動\n"
+"- Terminal：啟動圖形環境偏好的終端機，並在其中執行命令\n"
+"- Embedded：使用檔案管理員允許在其中執行終端機的特殊功能；可接受的替代方案是 "
+"Terminal\n"
+"- DisplayOutput：執行的終端機可以在命令結束時關閉，但應收集並顯示標準串流（"
+"stdout、stderr）；可接受的替代方案是 Terminal。\n"
+"預設為「Normal」。"
 
 #: src/core/na-object-profile-factory.c:244
 msgid "Startup notify"
-msgstr ""
+msgstr "啟動通知"
 
 #: src/core/na-object-profile-factory.c:245
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to FALSE."
 msgstr ""
+"僅在 ExecutionMode=Normal 時相關。\n"
+"預設為 FALSE。"
 
 #: src/core/na-object-profile-factory.c:267
 msgid "Startup WM Class"
-msgstr ""
+msgstr "啟動視窗管理員類別"
 
 #: src/core/na-object-profile-factory.c:268
 msgid ""
 "Only relevant when ExecutionMode=Normal.\n"
 "Defaults to empty."
 msgstr ""
+"僅在 ExecutionMode=Normal 時相關。\n"
+"預設為空。"
 
 #: src/core/na-object-profile-factory.c:290
 msgid "Execute as user"
-msgstr ""
+msgstr "以使用者身分執行"
 
 #: src/core/na-object-profile-factory.c:291
 msgid ""
@@ -962,59 +1166,62 @@ msgid ""
 "The profile is ignored if defined with a non-existing UID or login.\n"
 "Defaults to empty: the command will be executed as the current user."
 msgstr ""
+"命令必須以其身分執行的使用者。使用者可以數字 UID 或登入名稱識別。\n"
+"若使用不存在的 UID 或登入名稱定義，此設定檔將被忽略。\n"
+"預設為空：命令將以目前使用者身分執行。"
 
 #: src/core/na-selected-info.c:872
 #, c-format
 msgid "Error when querying information for %s URI: %s"
-msgstr ""
+msgstr "查詢 %s URI 的資訊時發生錯誤：%s"
 
 #: src/core/na-tokens.c:249
 msgid "file:///path/to/file1.mid"
-msgstr ""
+msgstr "file:///path/to/file1.mid"
 
 #: src/core/na-tokens.c:250
 msgid "file:///path/to/file2.jpeg"
-msgstr ""
+msgstr "file:///path/to/file2.jpeg"
 
 #: src/core/na-tokens.c:251
 msgid "audio/x-midi"
-msgstr ""
+msgstr "audio/x-midi"
 
 #: src/core/na-tokens.c:252
 msgid "image/jpeg"
-msgstr ""
+msgstr "image/jpeg"
 
 #: src/core/na-tokens.c:254
 msgid "test.example.net"
-msgstr ""
+msgstr "test.example.net"
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
-msgstr ""
+msgstr "執行命令的輸出"
 
 #: src/core/na-tokens.c:449
 msgid "Run command:"
-msgstr ""
+msgstr "執行命令："
 
 #: src/core/na-tokens.c:450
 msgid "Standard output:"
-msgstr ""
+msgstr "標準輸出："
 
 #: src/core/na-tokens.c:451
 msgid "Standard error:"
-msgstr ""
+msgstr "標準錯誤："
 
 #: src/io-desktop/cadp-desktop-provider.c:259
 msgid "Caja-Actions Desktop I/O Provider"
-msgstr ""
+msgstr "Caja-Actions 桌面 I/O 提供者"
 
 #: src/io-desktop/cadp-formats.c:55
 msgid "Export as a ._desktop file"
-msgstr ""
+msgstr "匯出為 .desktop 檔案(_D)"
 
 #: src/io-desktop/cadp-formats.c:56
 msgid ""
@@ -1025,48 +1232,55 @@ msgid ""
 "- drag-n-drop into the Caja-Actions Configuration Tool,\n"
 "- or by copying it into a XDG_DATA_DIRS/file-manager/actions directory."
 msgstr ""
+"此格式自 3.0 系列引入，應成為您匯出項目時新採用的偏好格式。\n"
+"只要其他桌面環境的應用程式實作描述此格式的 DES-EMA 規格，您就能輕鬆與全世界（"
+"包括其他桌面環境的使用者）分享您的動作。\n"
+"匯出的 .desktop 檔案之後可以透過下列方式匯入：\n"
+"- Caja-Actions 設定工具的匯入精靈，\n"
+"- 拖放至 Caja-Actions 設定工具中，\n"
+"- 或將它複製到 XDG_DATA_DIRS/file-manager/actions 目錄。"
 
 #: src/io-desktop/cadp-reader.c:64
 msgid "The Desktop I/O Provider is not able to handle the URI"
-msgstr ""
+msgstr "桌面 I/O 提供者無法處理此 URI"
 
 #. Translators: 'type' is the nature of the item: Action or Menu
 #: src/io-desktop/cadp-reader.c:292
 #, c-format
 msgid "unknown type: %s"
-msgstr ""
+msgstr "未知類型：%s"
 
 #: src/cact/base-application.c:182
 msgid "Arguments count"
-msgstr ""
+msgstr "引數數量"
 
 #: src/cact/base-application.c:183
 msgid "The count of command-line arguments"
-msgstr ""
+msgstr "命令列引數的數量"
 
 #: src/cact/base-application.c:190
 msgid "Arguments"
-msgstr ""
+msgstr "引數"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
-msgstr ""
+msgstr "命令列引數陣列"
 
 #: src/cact/base-application.c:198
 msgid "Option entries"
-msgstr ""
+msgstr "選項條目"
 
 #: src/cact/base-application.c:199
 msgid "The array of command-line option definitions"
-msgstr ""
+msgstr "命令列選項定義陣列"
 
 #: src/cact/base-application.c:205
 msgid "Application name"
-msgstr ""
+msgstr "應用程式名稱"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
-msgstr ""
+msgstr "應用程式的名稱"
 
 #: src/cact/base-application.c:213 src/cact/cact-schemes-list.c:167
 msgid "Description"
@@ -1074,56 +1288,56 @@ msgstr "描述"
 
 #: src/cact/base-application.c:214
 msgid "A short description to be displayed in the first line of --help output"
-msgstr ""
+msgstr "顯示在 --help 輸出的第一行的簡短描述"
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "圖示名稱"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
-msgstr ""
+msgstr "應用程式圖示的名稱"
 
 #: src/cact/base-application.c:229
 msgid "UniqueApp name"
-msgstr ""
+msgstr "UniqueApp 名稱"
 
 #: src/cact/base-application.c:230
 msgid "The Unique name of the application"
-msgstr ""
+msgstr "應用程式的 Unique 名稱"
 
 #: src/cact/base-application.c:237
 msgid "Return code"
-msgstr ""
+msgstr "回傳碼"
 
 #: src/cact/base-application.c:238
 msgid "The return code of the application"
-msgstr ""
+msgstr "應用程式的回傳碼"
 
 #: src/cact/base-application.c:601
 msgid "Unable to interpret command-line arguments"
-msgstr ""
+msgstr "無法解讀命令列引數"
 
 #: src/cact/base-assistant.c:151
 msgid "Quit on Escape"
-msgstr ""
+msgstr "按 Escape 結束"
 
 #: src/cact/base-assistant.c:152
 msgid "Should the assistant 'Quit' when the user hits Escape ?"
-msgstr ""
+msgstr "使用者按下 Escape 時，精靈是否要「結束」？"
 
 #: src/cact/base-assistant.c:159
 msgid "Warn on Escape"
-msgstr ""
+msgstr "按 Escape 時提出警告"
 
 #: src/cact/base-assistant.c:160
 msgid ""
 "Should the user be asked to confirm when exiting the assistant via Escape ?"
-msgstr ""
+msgstr "透過 Escape 結束精靈時，是否應要求使用者確認？"
 
 #: src/cact/base-assistant.c:460
 msgid "Are you sure you want to quit this assistant ?"
-msgstr ""
+msgstr "確定要結束這個精靈嗎？"
 
 #: src/cact/base-gtk-utils.c:392
 msgid "_Cancel"
@@ -1139,79 +1353,81 @@ msgid ""
 "Another instance of %s is already running.\n"
 "Please switch back to it."
 msgstr ""
+"%s 的另一個實例已在執行。\n"
+"請切換回該實例。"
 
 #: src/cact/base-iunique.c:207
 msgid "The application is not unique"
-msgstr ""
+msgstr "應用程式不是唯一的"
 
 #: src/cact/base-window.c:204
 msgid "XML UI filename"
-msgstr ""
+msgstr "XML UI 檔名"
 
 #: src/cact/base-window.c:205
 msgid "The filename which contains the XML UI definition"
-msgstr ""
+msgstr "包含 XML UI 定義的檔名"
 
 #: src/cact/base-window.c:212
 msgid "Has its own GtkBuilder"
-msgstr ""
+msgstr "擁有自己的 GtkBuilder"
 
 #: src/cact/base-window.c:213
 msgid ""
 "Whether this BaseWindow reallocates a new GtkBuilder each time it is opened"
-msgstr ""
+msgstr "此 BaseWindow 是否在每次開啟時重新設定新的 GtkBuilder"
 
 #: src/cact/base-window.c:220
 msgid "Toplevel name"
-msgstr ""
+msgstr "頂層名稱"
 
 #: src/cact/base-window.c:221
 msgid "The internal GtkBuildable name of the toplevel window"
-msgstr ""
+msgstr "頂層視窗的內部 GtkBuildable 名稱"
 
 #: src/cact/base-window.c:228
 msgid "BaseApplication"
-msgstr ""
+msgstr "BaseApplication"
 
 #: src/cact/base-window.c:229
 msgid "A pointer (not a reference) to the BaseApplication instance"
-msgstr ""
+msgstr "指向 BaseApplication 實例的指標（不是參照）"
 
 #: src/cact/base-window.c:235 src/cact/cact-tree-model.c:225
 msgid "Parent BaseWindow"
-msgstr ""
+msgstr "上層 BaseWindow"
 
 #: src/cact/base-window.c:236
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of this BaseWindow"
-msgstr ""
+msgstr "指向此 BaseWindow 之上層 BaseWindow 的指標（不是參照）"
 
 #: src/cact/base-window.c:242
 msgid "WSP name"
-msgstr ""
+msgstr "WSP 名稱"
 
 #: src/cact/base-window.c:243
 msgid ""
 "The string which handles the window size and position in user preferences"
-msgstr ""
+msgstr "在使用者偏好設定中處理視窗大小與位置的字串"
 
 #: src/cact/base-window.c:250
 msgid "Destroy the Gtk toplevel"
-msgstr ""
+msgstr "銷毀 Gtk 頂層視窗"
 
 #: src/cact/base-window.c:251
 msgid "Whether the embedded Gtk Toplevel should be destroyed at dispose time"
-msgstr ""
+msgstr "內嵌的 Gtk 頂層視窗是否應在釋放時銷毀"
 
 #: src/cact/base-window.c:735
 #, c-format
 msgid "Unable to load %s UI XML definition: %s"
-msgstr ""
+msgstr "無法載入 %s UI XML 定義：%s"
 
 #: src/cact/base-window.c:750
 #, c-format
 msgid "Unable to load %s dialog definition."
-msgstr ""
+msgstr "無法載入 %s 對話框定義。"
 
 #: src/cact/egg-desktop-file.c:165
 msgid "File is not a valid .desktop file"
@@ -1274,100 +1490,100 @@ msgstr "顯示作業階段管理選項"
 
 #: src/cact/cact-application.c:55 src/cact/cact.desktop.in:5
 msgid "Caja-Actions Configuration Tool"
-msgstr ""
+msgstr "Caja-Actions 設定工具"
 
 #: src/cact/cact-application.c:56
 msgid "A user interface to edit your own contextual actions"
-msgstr ""
+msgstr "用來編輯您自己的情境動作的使用者介面"
 
 #: src/cact/cact-application.c:64
 msgid "Set it to run multiple instances of the program [unique]"
-msgstr ""
+msgstr "設定以執行程式的多個實例 [unique]"
 
 #: src/cact/cact-application.c:66
 msgid "Output the version number, and exit gracefully [no]"
-msgstr ""
+msgstr "輸出版本號碼，並正常結束 [no]"
 
 #: src/cact/cact-add-capability-dialog.c:74
 msgid "User is the owner of the item"
-msgstr ""
+msgstr "使用者是項目的擁有者"
 
 #: src/cact/cact-add-capability-dialog.c:75
 msgid "Item is readable by the user"
-msgstr ""
+msgstr "項目可由使用者讀取"
 
 #: src/cact/cact-add-capability-dialog.c:76
 msgid "Item is writable by the user"
-msgstr ""
+msgstr "項目可由使用者寫入"
 
 #: src/cact/cact-add-capability-dialog.c:77
 msgid "Item is executable by the user"
-msgstr ""
+msgstr "項目可由使用者執行"
 
 #: src/cact/cact-add-capability-dialog.c:78
 msgid "Item is local"
-msgstr ""
+msgstr "項目是本機的"
 
 #. Translators: add a comment when a capability is already used by current
 #. item
 #: src/cact/cact-add-capability-dialog.c:525
 #, c-format
 msgid "%s (already inserted)"
-msgstr ""
+msgstr "%s（已插入）"
 
 #: src/cact/cact-add-capability.ui:13
 msgid "Adding a new capability"
-msgstr ""
+msgstr "新增能力"
 
 #: src/cact/cact-add-capability.ui:148
 msgid "<b>Managed capabilities</b>"
-msgstr ""
+msgstr "<b>管理的能力</b>"
 
 #: src/cact/cact-add-scheme.ui:13
 msgid "Adding a new scheme"
-msgstr ""
+msgstr "新增協定"
 
 #: src/cact/cact-add-scheme.ui:180
 msgid "<b>Scheme</b>"
-msgstr ""
+msgstr "<b>協定</b>"
 
 #: src/cact/cact-assistant-export.c:781
 msgid "Export canceled due to user action."
-msgstr ""
+msgstr "匯出已因使用者操作而取消。"
 
 #. Translators: action as been successfully exported to <filename>
 #: src/cact/cact-assistant-export.c:846
 msgid "Successfully exported as"
-msgstr ""
+msgstr "已成功匯出為"
 
 #: src/cact/cact-assistant-export.c:875
 msgid "You may not have write permissions on selected folder."
-msgstr ""
+msgstr "您可能沒有所選取資料夾的寫入權限。"
 
 #: src/cact/cact-assistant-export.ui:13
 msgid "Exporting an action"
-msgstr ""
+msgstr "匯出動作"
 
 #: src/cact/cact-assistant-export.ui:96
 msgid "Which format should I choose to export it ?"
-msgstr ""
+msgstr "我應該選擇哪種格式來匯出它？"
 
 #: src/cact/cact-assistant-export.ui:142
 msgid "Re_member my choice in future export operations"
-msgstr ""
+msgstr "記住我未來的匯出操作選擇(_M)"
 
 #: src/cact/cact-assistant-export.ui:178
 msgid "Exporting actions"
-msgstr ""
+msgstr "匯出動作"
 
 #: src/cact/cact-assistant-export.ui:185
 msgid ""
 "This assistant will guide you through the process of exporting actions."
-msgstr ""
+msgstr "此精靈將引導您完成匯出動作的流程。"
 
 #: src/cact/cact-assistant-export.ui:219
 msgid "Actions _list :"
-msgstr ""
+msgstr "動作清單(_L)："
 
 #: src/cact/cact-assistant-export.ui:267
 msgid ""
@@ -1375,171 +1591,174 @@ msgid ""
 "\n"
 "You may use Ctrl and Shift keys to extend the selection."
 msgstr ""
+"請選取一或多個要匯出的動作。\n"
+"\n"
+"您可以使用 Ctrl 與 Shift 鍵來擴展選取範圍。"
 
 #: src/cact/cact-assistant-export.ui:295
 msgid "Selecting the exported actions"
-msgstr ""
+msgstr "選取要匯出的動作"
 
 #: src/cact/cact-assistant-export.ui:327
 msgid "Selecting the target folder"
-msgstr ""
+msgstr "選取目標資料夾"
 
 #: src/cact/cact-assistant-export.ui:353
 msgid "Which format should I use when exporting these items ?"
-msgstr ""
+msgstr "匯出這些項目時，我應該使用哪種格式？"
 
 #: src/cact/cact-assistant-export.ui:393
 msgid "Selecting the export format"
-msgstr ""
+msgstr "選取匯出格式"
 
 #: src/cact/cact-assistant-export.ui:434
 msgid "About to export selected items:"
-msgstr ""
+msgstr "即將匯出所選取的項目："
 
 #: src/cact/cact-assistant-export.ui:478
 msgid "Into the destination folder:"
-msgstr ""
+msgstr "到目的資料夾："
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
-msgstr ""
+msgstr "已處理所選取的項目："
 
 #: src/cact/cact-assistant-export.ui:637
 msgid "Export is done"
-msgstr ""
+msgstr "匯出完成"
 
 #. Translators: indicate that the file has been successfully imported
 #: src/cact/cact-assistant-import.c:764
 msgid "Import OK"
-msgstr ""
+msgstr "匯入成功"
 
 #. Translators: this is the globally unique identifier and the label of the
 #. newly imported action
 #: src/cact/cact-assistant-import.c:768
 #, c-format
 msgid "Id.: %s\t%s"
-msgstr ""
+msgstr "識別碼：%s\t%s"
 
 #. Translators: indicate that the file was not imported
 #: src/cact/cact-assistant-import.c:778
 msgid "Not imported"
-msgstr ""
+msgstr "未匯入"
 
 #: src/cact/cact-assistant-import.ui:12
 msgid "Importing actions"
-msgstr ""
+msgstr "匯入動作"
 
 #: src/cact/cact-assistant-import.ui:19
 msgid ""
 "This assistant will guide you through the process of importing items, "
 "actions or menus."
-msgstr ""
+msgstr "此精靈將引導您完成匯入項目、動作或選單的流程。"
 
 #: src/cact/cact-assistant-import.ui:55
 msgid "Selecting files to import"
-msgstr ""
+msgstr "選取要匯入的檔案"
 
 #: src/cact/cact-assistant-import.ui:81
 msgid "What should I do when importing an item whose ID already exists ?"
-msgstr ""
+msgstr "匯入 ID 已存在的項目時，我該怎麼做？"
 
 #: src/cact/cact-assistant-import.ui:122
 msgid "Managing duplicates"
-msgstr ""
+msgstr "管理重複項目"
 
 #: src/cact/cact-assistant-import.ui:163
 msgid "About to import selected files:"
-msgstr ""
+msgstr "即將匯入所選取的檔案："
 
 #: src/cact/cact-assistant-import.ui:207
 msgid "When importing an item whose ID already exists:"
-msgstr ""
+msgstr "當匯入 ID 已存在的項目時："
 
 #: src/cact/cact-assistant-import.ui:294
 msgid "Selected files have been proceeded:"
-msgstr ""
+msgstr "已處理所選取的檔案："
 
 #: src/cact/cact-assistant-import.ui:321
 msgid "Import is done"
-msgstr ""
+msgstr "匯入完成"
 
 #: src/cact/cact.desktop.in:6
 msgid "Configure items to be added to the Caja context menus"
-msgstr ""
+msgstr "設定要新增至 Caja 情境選單的項目"
 
 #. Translators: Search terms to find this application. Do NOT translate or
 #. localize the semicolons! The list MUST also end with a semicolon!
 #: src/cact/cact.desktop.in:13
 msgid "caja;actions;configuration;tool;settings;MATE;filebrowser;"
-msgstr ""
+msgstr "caja;actions;configuration;tool;settings;MATE;filebrowser;"
 
 #. Translators: The action <label> is about to be exported
 #: src/cact/cact-export-ask.c:401
 #, c-format
 msgid "The action \"%s\" is about to be exported."
-msgstr ""
+msgstr "動作「%s」即將匯出。"
 
 #. Translators: The menu <label> is about to be exported
 #: src/cact/cact-export-ask.c:404
 #, c-format
 msgid "The menu \"%s\" is about to be exported."
-msgstr ""
+msgstr "選單「%s」即將匯出。"
 
 #: src/cact/cact-iaction-tab.c:617
 msgid "Caution: a label is mandatory for the action or the menu."
-msgstr ""
+msgstr "注意：動作或選單必須有標籤。"
 
 #: src/cact/cact-ibasenames-tab.c:219
 msgid "Basename filter"
-msgstr ""
+msgstr "基本名稱過濾器"
 
 #: src/cact/cact-icapabilities-tab.c:198
 msgid "Capability filter"
-msgstr ""
+msgstr "能力過濾器"
 
 #: src/cact/cact-icommand-tab.c:567
 msgid "Choosing a command"
-msgstr ""
+msgstr "選擇命令"
 
 #: src/cact/cact-icommand-tab.c:607
 msgid "Choosing a working directory"
-msgstr ""
+msgstr "選擇工作目錄"
 
 #: src/cact/cact-icon-chooser.ui:13
 msgid "Icon Chooser"
-msgstr ""
+msgstr "圖示選擇器"
 
 #: src/cact/cact-icon-chooser.ui:295
 msgid "_Themed icons"
-msgstr ""
+msgstr "主題圖示(_T)"
 
 #: src/cact/cact-icon-chooser.ui:376
 msgid "Icons by _path"
-msgstr ""
+msgstr "依路徑的圖示(_P)"
 
 #: src/cact/cact-ienvironment-tab.c:71
 msgid "(strictly lesser than)"
-msgstr ""
+msgstr "（嚴格小於）"
 
 #: src/cact/cact-ienvironment-tab.c:72
 msgid "(equal to)"
-msgstr ""
+msgstr "（等於）"
 
 #: src/cact/cact-ienvironment-tab.c:73
 msgid "(strictly greater than)"
-msgstr ""
+msgstr "（嚴格大於）"
 
 #: src/cact/cact-ienvironment-tab.c:769 src/cact/cact-ienvironment-tab.c:827
 msgid "Choosing an executable"
-msgstr ""
+msgstr "選擇可執行檔"
 
 #: src/cact/cact-ifolders-tab.c:203
 msgid "Folder filter"
-msgstr ""
+msgstr "資料夾過濾器"
 
 #. Translators: title of the FileChoose dialog when selecting an URI which
 #. * will be compare to Caja 'current_folder'
@@ -1549,7 +1768,7 @@ msgstr "選擇資料夾"
 
 #: src/cact/cact-imimetypes-tab.c:203
 msgid "Mimetype filter"
-msgstr ""
+msgstr "MIME 類型過濾器"
 
 #. Translators: label of the push button when there is not yet any shortcut
 #: src/cact/cact-iproperties-tab.c:53
@@ -1559,11 +1778,11 @@ msgstr "沒有"
 
 #: src/cact/cact-iproperties-tab.c:288
 msgid "Me_nu"
-msgstr ""
+msgstr "選單(_N)"
 
 #: src/cact/cact-iproperties-tab.c:289
 msgid "<b>Menu editable properties</b>"
-msgstr ""
+msgstr "<b>選單可編輯屬性</b>"
 
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
@@ -1573,99 +1792,101 @@ msgstr "動作(_A)"
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
 msgid "<b>Action editable properties</b>"
-msgstr ""
+msgstr "<b>動作可編輯屬性</b>"
 
 #: src/cact/cact-ischemes-tab.c:201
 msgid "Scheme filter"
-msgstr ""
+msgstr "協定過濾器"
 
 #: src/cact/cact-main-window.c:344
 msgid "Current NAObjectItem"
-msgstr ""
+msgstr "目前的 NAObjectItem"
 
 #: src/cact/cact-main-window.c:345
 msgid "A pointer to the currently edited NAObjectItem, an action or a menu"
-msgstr ""
+msgstr "指向目前編輯中 NAObjectItem（動作或選單）的指標"
 
 #: src/cact/cact-main-window.c:351
 msgid "Current NAObjectProfile"
-msgstr ""
+msgstr "目前的 NAObjectProfile"
 
 #: src/cact/cact-main-window.c:352
 msgid "A pointer to the currently edited NAObjectProfile"
-msgstr ""
+msgstr "指向目前編輯中 NAObjectProfile 的指標"
 
 #: src/cact/cact-main-window.c:358
 msgid "Current NAIContext"
-msgstr ""
+msgstr "目前的 NAIContext"
 
 #: src/cact/cact-main-window.c:359
 msgid "A pointer to the currently edited NAIContext"
-msgstr ""
+msgstr "指向目前編輯中 NAIContext 的指標"
 
 #: src/cact/cact-main-window.c:365
 msgid "Editable item ?"
-msgstr ""
+msgstr "可編輯項目？"
 
 #: src/cact/cact-main-window.c:366
 msgid "Whether the item will be able to be updated against its I/O provider"
-msgstr ""
+msgstr "項目是否可依其 I/O 提供者更新"
 
 #: src/cact/cact-main-window.c:373
 msgid "No edition reason"
-msgstr ""
+msgstr "無編輯原因"
 
 #: src/cact/cact-main-window.c:374
 msgid "Why is this item not editable"
-msgstr ""
+msgstr "此項目為何不可編輯"
 
 #: src/cact/cact-main-window.c:1267
 msgid ""
 "One or more actions have been modified in the filesystem.\n"
 "You could keep to work with your current list of actions, or you may want to reload a fresh one."
 msgstr ""
+"檔案系統中有一或多個動作已被修改。\n"
+"您可以繼續使用目前的動作清單，也可以重新載入一份新的清單。"
 
 #: src/cact/cact-main-window.c:1274
 msgid ""
 "Note that reloading a fresh list of actions requires that you give up with "
 "your current modifications."
-msgstr ""
+msgstr "請注意，重新載入新的動作清單必須放棄您目前的修改。"
 
 #: src/cact/cact-main-window.c:1280
 msgid "Do you want to reload a fresh list of actions ?"
-msgstr ""
+msgstr "您要重新載入新的動作清單嗎？"
 
 #: src/cact/cact-main-window.c:1303
 msgid ""
 "Reloading a fresh list of actions requires that you give up with your "
 "current modifications."
-msgstr ""
+msgstr "重新載入新的動作清單必須放棄您目前的修改。"
 
 #: src/cact/cact-main-window.c:1306
 msgid "Do you really want to do this ?"
-msgstr ""
+msgstr "您確定要這樣做嗎？"
 
 #: src/cact/cact-main-window.c:1424
 msgid "Some items have been modified."
-msgstr ""
+msgstr "有些項目已被修改。"
 
 #: src/cact/cact-main-window.c:1425
 msgid "Are you sure you want to quit without saving them ?"
-msgstr ""
+msgstr "確定要不儲存就結束嗎？"
 
 #: src/cact/cact-match-list.c:88
 msgid "Must match one of"
-msgstr ""
+msgstr "必須符合其中之一"
 
 #: src/cact/cact-match-list.c:89
 msgid "Must match all of"
-msgstr ""
+msgstr "必須符合全部"
 
 #. Translators: label of the header of a column which let the user select a
 #. negative filter
 #: src/cact/cact-match-list.c:245
 msgid "Must not match any of"
-msgstr ""
+msgstr "不得符合其中任何一個"
 
 #: src/cact/cact-match-list.c:548
 #, c-format
@@ -1673,10 +1894,12 @@ msgid ""
 "'%s' filter already exists in the list.\n"
 "Please provide another one."
 msgstr ""
+"清單中已存在「%s」過濾器。\n"
+"請提供另一個。"
 
 #: src/cact/cact-match-list.c:926
 msgid "new-filter"
-msgstr ""
+msgstr "新過濾器"
 
 #: src/cact/cact-menubar.c:59 src/cact/cact-menubar.c:170
 msgid "_File"
@@ -1692,7 +1915,7 @@ msgstr "檢視(_V)"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "工具列(_T)"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
@@ -1700,7 +1923,7 @@ msgstr "工具(_T)"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
-msgstr ""
+msgstr "維護者(_M)"
 
 #: src/cact/cact-menubar.c:65 src/cact/cact-menubar.c:182
 msgid "_Help"
@@ -1708,37 +1931,37 @@ msgstr "說明(_H)"
 
 #: src/cact/cact-menubar.c:66
 msgid "Notebook _tabs"
-msgstr ""
+msgstr "筆記本分頁(_T)"
 
 #: src/cact/cact-menubar.c:68
 msgid "New _menu"
-msgstr ""
+msgstr "新選單(_M)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. menu' item
 #: src/cact/cact-menubar.c:70
 msgid "Insert a new menu at the current position"
-msgstr ""
+msgstr "在目前位置插入新選單"
 
 #: src/cact/cact-menubar.c:72
 msgid "_New action"
-msgstr ""
+msgstr "新動作(_N)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. action' item
 #: src/cact/cact-menubar.c:74
 msgid "Define a new action"
-msgstr ""
+msgstr "定義新動作"
 
 #: src/cact/cact-menubar.c:76
 msgid "New _profile"
-msgstr ""
+msgstr "新設定檔(_P)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'New
 #. profile' item
 #: src/cact/cact-menubar.c:78
 msgid "Define a new profile attached to the current action"
-msgstr ""
+msgstr "定義附加於目前動作的新設定檔"
 
 #: src/cact/cact-menubar.c:80
 msgid "_Save"
@@ -1748,7 +1971,7 @@ msgstr "儲存(_S)"
 #: src/cact/cact-menubar.c:82
 msgid ""
 "Record all the modified actions. Invalid actions will be silently ignored"
-msgstr ""
+msgstr "儲存所有修改過的動作。無效的動作將被靜默忽略"
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
@@ -1767,7 +1990,7 @@ msgstr "剪下(_T)"
 #. item
 #: src/cact/cact-menubar.c:90
 msgid "Cut the selected item(s) to the clipboard"
-msgstr ""
+msgstr "將所選取的項目剪下到剪貼簿"
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
@@ -1777,7 +2000,7 @@ msgstr "複製(_C)"
 #. item
 #: src/cact/cact-menubar.c:94
 msgid "Copy the selected item(s) to the clipboard"
-msgstr ""
+msgstr "將所選取的項目複製到剪貼簿"
 
 #: src/cact/cact-menubar.c:96
 msgid "_Paste"
@@ -1787,17 +2010,17 @@ msgstr "貼上(_P)"
 #. item
 #: src/cact/cact-menubar.c:98
 msgid "Insert the content of the clipboard just before the current position"
-msgstr ""
+msgstr "在目前位置之前插入剪貼簿的內容"
 
 #: src/cact/cact-menubar.c:100
 msgid "Paste _into"
-msgstr ""
+msgstr "貼入(_I)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Paste
 #. Into item
 #: src/cact/cact-menubar.c:102
 msgid "Insert the content of the clipboard as first child of the current item"
-msgstr ""
+msgstr "將剪貼簿的內容插入為目前項目的第一個子項目"
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
@@ -1807,7 +2030,7 @@ msgstr "複製(_U)"
 #. Duplicate item
 #: src/cact/cact-menubar.c:106
 msgid "Duplicate the selected item(s)"
-msgstr ""
+msgstr "複製所選取的項目"
 
 #: src/cact/cact-menubar.c:108
 msgid "_Delete"
@@ -1817,11 +2040,11 @@ msgstr "刪除(_D)"
 #. item
 #: src/cact/cact-menubar.c:110
 msgid "Delete the selected item(s)"
-msgstr ""
+msgstr "刪除所選取的項目"
 
 #: src/cact/cact-menubar.c:112
 msgid "_Reload the items"
-msgstr ""
+msgstr "重新載入項目(_R)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Reload' item
@@ -1829,7 +2052,7 @@ msgstr ""
 msgid ""
 "Cancel your current modifications and reload the initial list of menus and "
 "actions"
-msgstr ""
+msgstr "取消您目前的修改，並重新載入初始的選單與動作清單"
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
@@ -1839,87 +2062,87 @@ msgstr "偏好設定(_P)"
 #. 'Preferences' item
 #: src/cact/cact-menubar.c:118
 msgid "Edit your preferences"
-msgstr ""
+msgstr "編輯您的偏好設定"
 
 #: src/cact/cact-menubar.c:120
 msgid "_Expand all"
-msgstr ""
+msgstr "全部展開(_E)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Expand
 #. all item
 #: src/cact/cact-menubar.c:122
 msgid "Entirely expand the items hierarchy"
-msgstr ""
+msgstr "完全展開項目階層"
 
 #: src/cact/cact-menubar.c:124
 msgid "_Collapse all"
-msgstr ""
+msgstr "全部收合(_C)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Collapse all item
 #: src/cact/cact-menubar.c:126
 msgid "Entirely collapse the items hierarchy"
-msgstr ""
+msgstr "完全收合項目階層"
 
 #: src/cact/cact-menubar.c:129
 msgid "_Import assistant..."
-msgstr ""
+msgstr "匯入精靈(_I)..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Import
 #. item
 #: src/cact/cact-menubar.c:131
 msgid "Import one or more actions from external files into your configuration"
-msgstr ""
+msgstr "從外部檔案匯入一或多個動作至您的設定"
 
 #: src/cact/cact-menubar.c:133
 msgid "E_xport assistant..."
-msgstr ""
+msgstr "匯出精靈(_X)..."
 
 #. Translators: tooltip displayed in the status bar when selecting the Export
 #. item
 #: src/cact/cact-menubar.c:135
 msgid "Export one or more actions from your configuration to external files"
-msgstr ""
+msgstr "從您的設定匯出一或多個動作至外部檔案"
 
 #: src/cact/cact-menubar.c:138
 msgid "_Dump the selection"
-msgstr ""
+msgstr "傾印選取項目(_D)"
 
 #. Translators: tooltip displayed in the status bar when selecting the Dump
 #. selection item
 #: src/cact/cact-menubar.c:140
 msgid "Recursively dump selected items"
-msgstr ""
+msgstr "遞迴傾印所選取的項目"
 
 #: src/cact/cact-menubar.c:142
 msgid "_Brief tree store dump"
-msgstr ""
+msgstr "簡短傾印樹狀儲存(_B)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. BriefTreeStoreDump item
 #: src/cact/cact-menubar.c:144
 msgid "Briefly dump the tree store"
-msgstr ""
+msgstr "簡短傾印樹狀儲存"
 
 #: src/cact/cact-menubar.c:146
 msgid "_List modified items"
-msgstr ""
+msgstr "列出已修改的項目(_L)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. ListModifiedItems item
 #: src/cact/cact-menubar.c:148
 msgid "List the modified items"
-msgstr ""
+msgstr "列出已修改的項目"
 
 #: src/cact/cact-menubar.c:150
 msgid "_Dump the clipboard"
-msgstr ""
+msgstr "傾印剪貼簿(_D)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. DumpClipboard item
 #: src/cact/cact-menubar.c:152
 msgid "Dump the content of the clipboard object"
-msgstr ""
+msgstr "傾印剪貼簿物件的內容"
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
@@ -1929,7 +2152,7 @@ msgstr "內容"
 #. item
 #: src/cact/cact-menubar.c:160
 msgid "Display help about this program"
-msgstr ""
+msgstr "顯示此程式的說明"
 
 #: src/cact/cact-menubar.c:162
 msgid "_About"
@@ -1939,170 +2162,182 @@ msgstr "關於(_A)"
 #. item
 #: src/cact/cact-menubar.c:164
 msgid "Display information about this program"
-msgstr ""
+msgstr "顯示此程式的資訊"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. File toolbar' item
 #: src/cact/cact-menubar.c:172
 msgid "Display the File toolbar"
-msgstr ""
+msgstr "顯示檔案工具列"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'View
 #. Edit toolbar' item
 #: src/cact/cact-menubar.c:176
 msgid "Display the Edit toolbar"
-msgstr ""
+msgstr "顯示編輯工具列"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Tools
 #. toolbar' item
 #: src/cact/cact-menubar.c:180
 msgid "Display the Tools toolbar"
-msgstr ""
+msgstr "顯示工具工具列"
 
 #. Translators: tooltip displayed in the status bar when selecting 'View Help
 #. toolbar' item
 #: src/cact/cact-menubar.c:184
 msgid "Display the Help toolbar"
-msgstr ""
+msgstr "顯示說明工具列"
 
 #: src/cact/cact-menubar.c:190
 msgid "On the _left"
-msgstr ""
+msgstr "在左側(_L)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the left' item
 #: src/cact/cact-menubar.c:192
 msgid "Display the notebook tabs on the left side"
-msgstr ""
+msgstr "在左側顯示筆記本分頁"
 
 #: src/cact/cact-menubar.c:194
 msgid "On the _right"
-msgstr ""
+msgstr "在右側(_R)"
 
 #. Translators: tooltip displayed in the status bar when selecting the 'Set
 #. tabs position on the right' item
 #: src/cact/cact-menubar.c:196
 msgid "Display the notebook tabs on the right side"
-msgstr ""
+msgstr "在右側顯示筆記本分頁"
 
 #: src/cact/cact-menubar.c:198
 msgid "On the _top"
-msgstr ""
+msgstr "在上方(_T)"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the top' item
 #: src/cact/cact-menubar.c:200
 msgid "Display the notebook tabs on the top side"
-msgstr ""
+msgstr "在上方顯示筆記本分頁"
 
 #: src/cact/cact-menubar.c:202
 msgid "On the _bottom"
-msgstr ""
+msgstr "在下方(_B)"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Set tabs
 #. position on the bottom' item
 #: src/cact/cact-menubar.c:204
 msgid "Display the notebook tabs on the bottom side"
-msgstr ""
+msgstr "在下方顯示筆記本分頁"
 
 #: src/cact/cact-menubar.c:718
 #, c-format
 msgid " %d menu(s), %d action(s), %d profile(s) are currently loaded"
-msgstr ""
+msgstr " 目前載入了 %d 個選單、%d 個動作、%d 個設定檔"
 
 #: src/cact/cact-menubar-edit.c:222
 msgid "Not all items have been cut as following ones are not modifiable:"
-msgstr ""
+msgstr "並非所有項目都已剪下，因為以下項目不可修改："
 
 #: src/cact/cact-menubar-edit.c:470
 msgid "Not all items have been deleted as following ones are not modifiable:"
-msgstr ""
+msgstr "並非所有項目都已刪除，因為以下項目不可修改："
 
 #: src/cact/cact-menubar-file.c:52
 msgid "Save error"
-msgstr ""
+msgstr "儲存錯誤"
 
 #: src/cact/cact-menubar-file.c:53
 msgid "Some items may not have been saved"
-msgstr ""
+msgstr "有些項目可能尚未儲存"
 
 #: src/cact/cact-menubar-file.c:54
 msgid "Unable to rewrite the level-zero items list"
-msgstr ""
+msgstr "無法重新寫入頂層項目清單"
 
 #: src/cact/cact-menubar-file.c:55
 msgid "Some items have not been deleted"
-msgstr ""
+msgstr "有些項目尚未刪除"
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
-msgstr ""
+msgstr "新設定檔"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
-msgstr ""
+msgstr "自動儲存待處理的修改..."
 
 #: src/cact/cact-preferences.ui:29
 msgid "Caja-Actions Preferences"
-msgstr ""
+msgstr "Caja-Actions 偏好設定"
 
 #: src/cact/cact-preferences.ui:109
 msgid "_Ascending alphabetical order"
-msgstr ""
+msgstr "依字母升冪排列(_A)"
 
 #: src/cact/cact-preferences.ui:113
 msgid ""
 "Menus and actions will be displayed in the ascending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"選單與動作將依標籤的字母升冪順序顯示，無論在 Caja 情境選單或 CACT 使用者介面"
+"中皆然。"
 
 #: src/cact/cact-preferences.ui:127
 msgid "_Descending alphabetical order"
-msgstr ""
+msgstr "依字母降冪排列(_D)"
 
 #: src/cact/cact-preferences.ui:131
 msgid ""
 "Menus and actions will be displayed in the descending alphabetical order of "
 "their label, both in the Caja context menu and in the CACT user interface."
 msgstr ""
+"選單與動作將依標籤的字母降冪順序顯示，無論在 Caja 情境選單或 CACT 使用者介面"
+"中皆然。"
 
 #: src/cact/cact-preferences.ui:145
 msgid "_Manual order"
-msgstr ""
+msgstr "手動排序(_M)"
 
 #: src/cact/cact-preferences.ui:149
 msgid ""
 "Display order of menus and actions, both in the Caja context menu and in the"
 " CACT user interface, must be manually adjusted."
 msgstr ""
+"選單與動作的顯示順序（無論在 Caja 情境選單或 CACT 使用者介面中）必須手動調整"
+"。"
 
 #: src/cact/cact-preferences.ui:171
 msgid "<b>Items ordering</b>"
-msgstr ""
+msgstr "<b>項目排序</b>"
 
 #: src/cact/cact-preferences.ui:203
 msgid "_Create a root 'Caja-Actions' menu"
-msgstr ""
+msgstr "建立根「Caja-Actions」選單(_C)"
 
 #: src/cact/cact-preferences.ui:207
 msgid ""
 "When this option is checked, menus and actions will actually be displayed as"
 " sub-items of a root 'Caja-Actions' menu in the Caja context menu."
 msgstr ""
+"勾選此選項時，選單與動作將實際顯示為 Caja 情境選單中根「Caja-Actions」選單的"
+"子項目。"
 
 #: src/cact/cact-preferences.ui:220
 msgid "Add an 'A_bout Caja-Actions' item in the Caja context menus"
-msgstr ""
+msgstr "在 Caja 情境選單中新增「關於 Caja-Actions(_B)」項目"
 
 #: src/cact/cact-preferences.ui:224
 msgid ""
 "When this option is checked, an 'About Caja-Actions' item will be added to the root Caja-Actions menu in the Caja context menu.\n"
 "Note that this item will be displayed only if a unique menu is defined in the Caja context menu (e.g. when having checked the root 'Caja-Actions' menu option above)."
 msgstr ""
+"勾選此選項時，「關於 Caja-Actions」項目將新增至 Caja 情境選單中的根 Caja-"
+"Actions 選單。\n"
+"請注意，此項目只有在 Caja 情境選單中定義了唯一選單時才會顯示（例如已勾選上述"
+"的根「Caja-Actions」選單選項時）。"
 
 #: src/cact/cact-preferences.ui:246
 msgid "<b>Caja menu layout</b>"
-msgstr ""
+msgstr "<b>Caja 選單版面</b>"
 
 #: src/cact/cact-preferences.ui:263
 msgid ""
@@ -2110,86 +2345,90 @@ msgid ""
 "as well as in the Caja context menu. You may also choose here how actions "
 "will be displayed in the Caja context menu."
 msgstr ""
+"此分頁可讓您選擇動作在顯示的清單以及 Caja 情境選單中的排序方式。您也可以在此"
+"選擇動作在 Caja 情境選單中的顯示方式。"
 
 #: src/cact/cact-preferences.ui:264
 msgid "_Runtime preferences"
-msgstr ""
+msgstr "執行時期偏好設定(_R)"
 
 #: src/cact/cact-preferences.ui:298
 msgid ""
 "Specify here the command to run and keep opened a terminal.\n"
 "This command should include a 'COMMAND' keyword, which will be substituted at runtime with the action path and parameters."
 msgstr ""
+"在此指定要執行並保持終端機開啟的命令。\n"
+"此命令應包含「COMMAND」關鍵字，執行時會以動作路徑與參數取代。"
 
 #: src/cact/cact-preferences.ui:331
 msgid "_Command pattern :"
-msgstr ""
+msgstr "命令模式(_C)："
 
 #: src/cact/cact-preferences.ui:359
 msgid "<b>Execution in a terminal</b>"
-msgstr ""
+msgstr "<b>在終端機中執行</b>"
 
 #: src/cact/cact-preferences.ui:399
 msgid "Running _desktop environment :"
-msgstr ""
+msgstr "正在執行的桌面環境(_D)："
 
 #: src/cact/cact-preferences.ui:434
 msgid "<i>Currently detected :</i>"
-msgstr ""
+msgstr "<i>目前偵測到：</i>"
 
 #: src/cact/cact-preferences.ui:459 src/cact/caja-actions-config-tool.ui:3057
 msgid "<b>Desktop environment</b>"
-msgstr ""
+msgstr "<b>桌面環境</b>"
 
 #: src/cact/cact-preferences.ui:479
 msgid "This tab lets you specify parameters needed for. some execution modes."
-msgstr ""
+msgstr "此分頁可讓您指定某些執行模式所需的參數。"
 
 #: src/cact/cact-preferences.ui:480
 msgid "Runtime E_xecution"
-msgstr ""
+msgstr "執行時期執行(_X)"
 
 #: src/cact/cact-preferences.ui:517
 msgid "What to do when pasting or duplicating an item in the tree ?"
-msgstr ""
+msgstr "在樹狀結構中貼上或複製項目時該怎麼做？"
 
 #: src/cact/cact-preferences.ui:534
 msgid "Relabel _menus"
-msgstr ""
+msgstr "重新命名選單(_M)"
 
 #: src/cact/cact-preferences.ui:538
 msgid ""
 "When a menu is copied/pasted, or duplicated, the new menu will be relabelled"
 " as 'Copy of ...'."
-msgstr ""
+msgstr "選單被複製／貼上或複製時，新選單將重新命名為「複製 ...」。"
 
 #: src/cact/cact-preferences.ui:551
 msgid "Relabel _actions"
-msgstr ""
+msgstr "重新命名動作(_A)"
 
 #: src/cact/cact-preferences.ui:555
 msgid ""
 "When an action is copied/pasted, or duplicated, the new action will be "
 "relabelled as 'Copy of ...'."
-msgstr ""
+msgstr "動作被複製／貼上或複製時，新動作將重新命名為「複製 ...」。"
 
 #: src/cact/cact-preferences.ui:568
 msgid "Relabel _profiles"
-msgstr ""
+msgstr "重新命名設定檔(_P)"
 
 #: src/cact/cact-preferences.ui:572
 msgid ""
 "When a profile is copied/pasted, or duplicated, the new profile will be "
 "relabelled as 'Copy of ...'."
-msgstr ""
+msgstr "設定檔被複製／貼上或複製時，新設定檔將重新命名為「複製 ...」。"
 
 #: src/cact/cact-preferences.ui:600
 msgid "<b>Relabeling items</b>"
-msgstr ""
+msgstr "<b>重新命名項目</b>"
 
 #: src/cact/cact-preferences.ui:631
 msgid "Esc key _quits the assistant"
-msgstr ""
+msgstr "Esc 鍵結束精靈(_Q)"
 
 #: src/cact/cact-preferences.ui:635
 msgid ""
@@ -2197,10 +2436,12 @@ msgid ""
 "assistant. Else, quitting the assistant is only possible by hitting the "
 "'Cancel' button."
 msgstr ""
+"勾選此選項時，「Escape」鍵可讓您結束目前的精靈。否則，只能按「取消」按鈕結束"
+"精靈。"
 
 #: src/cact/cact-preferences.ui:648
 msgid "Ask for a _confirmation when quitting the assistant on Esc key"
-msgstr ""
+msgstr "按 Esc 鍵結束精靈時要求確認(_C)"
 
 #: src/cact/cact-preferences.ui:652
 msgid ""
@@ -2208,24 +2449,26 @@ msgid ""
 "assistant. When checked, the user will be prompted for a confirmation in "
 "order to help prevent erroneous hits of the Esc key."
 msgstr ""
+"此選項只有在「Escape」鍵可讓使用者結束精靈時才相關。勾選時，系統會提示使用者"
+"確認，以避免誤按 Esc 鍵。"
 
 #: src/cact/cact-preferences.ui:676
 msgid "<b>Assistants</b>"
-msgstr ""
+msgstr "<b>精靈</b>"
 
 #: src/cact/cact-preferences.ui:707
 msgid "Automatically _saves pending modifications"
-msgstr ""
+msgstr "自動儲存待處理的修改(_S)"
 
 #: src/cact/cact-preferences.ui:711
 msgid ""
 "When this option is checked, pending modification will be periodically and "
 "automatically saved."
-msgstr ""
+msgstr "勾選此選項時，待處理的修改將定期自動儲存。"
 
 #: src/cact/cact-preferences.ui:733
 msgid "Periodicity :"
-msgstr ""
+msgstr "週期："
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
@@ -2233,51 +2476,51 @@ msgstr "分鐘"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
-msgstr ""
+msgstr "<b>自動儲存</b>"
 
 #: src/cact/cact-preferences.ui:809
 msgid ""
 "This tab allows the user to choose custom preferences for the Caja-Actions "
 "Configuration Tool user interface."
-msgstr ""
+msgstr "此分頁可讓使用者為 Caja-Actions 設定工具的使用者介面選擇自訂偏好設定。"
 
 #: src/cact/cact-preferences.ui:810
 msgid "_UI Preferences"
-msgstr ""
+msgstr "介面偏好設定(_U)"
 
 #: src/cact/cact-preferences.ui:847
 msgid ""
 "What to do when an item, action or menu, selected to be imported, has the "
 "same identifier that a currently existing one ?"
-msgstr ""
+msgstr "當選取要匯入的項目（動作或選單）與目前既有的項目具有相同識別碼時，該怎麼做？"
 
 #: src/cact/cact-preferences.ui:883
 msgid "<b>Import mode</b>"
-msgstr ""
+msgstr "<b>匯入模式</b>"
 
 #: src/cact/cact-preferences.ui:903
 msgid "This tab lets you decide on the default behavior of import operations."
-msgstr ""
+msgstr "此分頁可讓您決定匯入操作的預設行為。"
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "匯入(_I)"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
-msgstr ""
+msgstr "您偏好的匯出格式是什麼？"
 
 #: src/cact/cact-preferences.ui:977
 msgid "<b>Export format</b>"
-msgstr ""
+msgstr "<b>匯出格式</b>"
 
 #: src/cact/cact-preferences.ui:997
 msgid "This tab lets you decide on the default behavior of export operations."
-msgstr ""
+msgstr "此分頁可讓您決定匯出操作的預設行為。"
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "匯出(_E)"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2285,28 +2528,31 @@ msgid ""
 "If the list becomes empty, CACT will automatically refill in with this default list.\n"
 "You can add a new scheme by clicking on the '+' button."
 msgstr ""
+"您可以在此定義任意數量的協定。為動作定義條件時，它們會被建議為預設協定。\n"
+"若清單變空，CACT 會自動以這份預設清單重新填入。\n"
+"您可以按「+」按鈕新增協定。"
 
 #: src/cact/cact-preferences.ui:1070
 msgid "Click to add a new default scheme."
-msgstr ""
+msgstr "按一下以新增預設協定。"
 
 #: src/cact/cact-preferences.ui:1091
 msgid "Click to remove the selected default scheme."
-msgstr ""
+msgstr "按一下以移除所選取的預設協定。"
 
 #: src/cact/cact-preferences.ui:1123
 msgid "<b>Default schemes</b>"
-msgstr ""
+msgstr "<b>預設協定</b>"
 
 #: src/cact/cact-preferences.ui:1143
 msgid ""
 "This tab lets you decide which schemes are proposed by default when editing "
 "advanced conditions for an item."
-msgstr ""
+msgstr "此分頁可讓您決定編輯項目的進階條件時，預設建議哪些協定。"
 
 #: src/cact/cact-preferences.ui:1144 src/cact/caja-actions-config-tool.ui:2618
 msgid "_Schemes"
-msgstr ""
+msgstr "協定(_S)"
 
 #: src/cact/cact-preferences.ui:1186
 msgid ""
@@ -2314,6 +2560,8 @@ msgid ""
 "startup, to be writable, and the order in which they will be tested when "
 "trying to write a new menu or action."
 msgstr ""
+"在此為可用的 I/O 提供者定義：是否要在啟動時讀取、是否可以寫入，以及嘗試寫入新"
+"選單或動作時要測試的順序。"
 
 #: src/cact/cact-preferences.ui:1210
 msgid "_Up"
@@ -2323,7 +2571,7 @@ msgstr "上層(_U)"
 msgid ""
 "Move up the selected I/O provider in the order of priority when trying to "
 "write a new item."
-msgstr ""
+msgstr "嘗試寫入新項目時，將所選取的 I/O 提供者向上移至優先順序。"
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
@@ -2331,476 +2579,480 @@ msgstr "下(_D)"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
-msgstr ""
+msgstr "<b>啟用與優先順序</b>"
 
 #: src/cact/cact-preferences.ui:1278
 msgid ""
 "This tab lets you decide whether the I/O providers are enabled or not, and "
 "in which order they will be tried when writing a new item."
-msgstr ""
+msgstr "此分頁可讓您決定 I/O 提供者是否啟用，以及寫入新項目時嘗試的順序。"
 
 #: src/cact/cact-preferences.ui:1279
 msgid "I/O _Providers"
-msgstr ""
+msgstr "I/O 提供者(_P)"
 
 #. Translators: the user is not willing to identify his current desktop
 #. environment,
 #. *       and prefers rely on the runtime detection
 #: src/cact/cact-preferences-editor.c:118
 msgid "Rely on runtime detection"
-msgstr ""
+msgstr "依賴執行時期偵測"
 
 #: src/cact/cact-preferences-editor.c:815
 msgid "Ex.:"
-msgstr ""
+msgstr "例如："
 
 #: src/cact/cact-providers-list.c:136
 msgid "Readable"
-msgstr ""
+msgstr "可讀取"
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "可寫入"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
-msgstr ""
+msgstr "I/O 提供者"
 
 #. Translators: default name when the I/O providers doesn't provide one
 #: src/cact/cact-providers-list.c:260
 msgid "no name"
-msgstr ""
+msgstr "無名稱"
 
 #. Translators: name displayed when the corresponding I/O provider is
 #. unavailable at runtime
 #: src/cact/cact-providers-list.c:264
 msgid "unavailable I/O provider"
-msgstr ""
+msgstr "無法使用的 I/O 提供者"
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "關鍵字"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
-msgstr ""
+msgstr "本機檔案"
 
 #: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
-msgstr ""
+msgstr "SSH 檔案"
 
 #: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
-msgstr ""
+msgstr "Windows 檔案"
 
 #: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
-msgstr ""
+msgstr "FTP 檔案"
 
 #: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
-msgstr ""
+msgstr "WebDAV 檔案"
 
 #. Translators: add a comment when a scheme is already used by current item
 #: src/cact/cact-schemes-list.c:400
 #, c-format
 msgid "%s (already used)"
-msgstr ""
+msgstr "%s（已使用）"
 
 #: src/cact/cact-schemes-list.c:701
 msgid "new-scheme"
-msgstr ""
+msgstr "新協定"
 
 #: src/cact/cact-schemes-list.c:702
 msgid "New scheme description"
-msgstr ""
+msgstr "新協定描述"
 
 #: src/cact/cact-tree-model.c:226
 msgid ""
 "A pointer (not a reference) to the BaseWindow parent of the embedding "
 "treeview"
-msgstr ""
+msgstr "指向內嵌樹狀檢視之上層 BaseWindow 的指標（不是參照）"
 
 #: src/cact/cact-tree-model.c:232
 msgid "Embedding GtkTreeView"
-msgstr ""
+msgstr "內嵌的 GtkTreeView"
 
 #: src/cact/cact-tree-model.c:233
 msgid "The GtkTreeView which relies on this CactTreeModel"
-msgstr ""
+msgstr "依賴此 CactTreeModel 的 GtkTreeView"
 
 #: src/cact/cact-tree-model.c:239
 msgid "Edition mode"
-msgstr ""
+msgstr "編輯模式"
 
 #: src/cact/cact-tree-model.c:240
 msgid "Edition vs. Selection mode"
-msgstr ""
+msgstr "編輯與選取模式"
 
 #: src/cact/cact-tree-model-dnd.c:117
 msgid "Unable to drop a profile here"
-msgstr ""
+msgstr "無法在此放置設定檔"
 
 #: src/cact/cact-tree-model-dnd.c:118
 msgid "Unable to drop an action or a menu here"
-msgstr ""
+msgstr "無法在此放置動作或選單"
 
 #: src/cact/cact-tree-model-dnd.c:119
 msgid "Unable to drop here as parent is not writable"
-msgstr ""
+msgstr "無法在此放置，因為上層項目不可寫入"
 
 #: src/cact/cact-tree-model-dnd.c:120
 msgid "Unable to drop here as level zero is not writable"
-msgstr ""
+msgstr "無法在此放置，因為頂層項目不可寫入"
 
 #: src/cact/cact-tree-model-dnd.c:923
 msgid "Some messages have occurred during drop operation."
-msgstr ""
+msgstr "放置操作期間發生了一些訊息。"
 
 #. Translators: this is a class name and should not be translated
 #: src/cact/cact-tree-view.c:215
 msgid "BaseWindow"
-msgstr ""
+msgstr "BaseWindow"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:217
 msgid "The BaseWindow parent"
-msgstr ""
+msgstr "上層 BaseWindow"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "容器"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
 msgid "A GtkContainer which contains the GtkTreeView widget"
-msgstr ""
+msgstr "包含 GtkTreeView 小工具的 GtkContainer"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:233
 msgid "Widget name"
-msgstr ""
+msgstr "小工具名稱"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:235
 msgid "The name of GtkTreeView widget"
-msgstr ""
+msgstr "GtkTreeView 小工具的名稱"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:243
 msgid "Management mode"
-msgstr ""
+msgstr "管理模式"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:245
 msgid "Management mode of the tree view, selection or edition"
-msgstr ""
+msgstr "樹狀檢視的管理模式：選取或編輯"
 
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:255
 msgid "Allow notify"
-msgstr ""
+msgstr "允許通知"
 
 #. Translators: CactTreeView property loong description
 #: src/cact/cact-tree-view.c:257
 msgid "Whether notifications are allowed"
-msgstr ""
+msgstr "是否允許通知"
 
 #: src/cact/caja-actions-config-tool.ui:16
 msgid "End of session"
-msgstr ""
+msgstr "作業階段結束"
 
 #: src/cact/caja-actions-config-tool.ui:122
 msgid "<span size=\"larger\"><b>Parameter Legend</b></span>"
-msgstr ""
+msgstr "<span size=\"larger\"><b>參數圖例</b></span>"
 
 #: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
-msgstr ""
+msgstr "<b>%b</b>："
 
 #: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
-msgstr ""
+msgstr "（第一個）基本名稱。"
 
 #: src/cact/caja-actions-config-tool.ui:184
 msgid "count of selected item(s)."
-msgstr ""
+msgstr "所選取項目的數量。"
 
 #: src/cact/caja-actions-config-tool.ui:196
 msgid "(first) base directory."
-msgstr ""
+msgstr "（第一個）基本目錄。"
 
 #: src/cact/caja-actions-config-tool.ui:208
 msgid ""
 "space-separated list of the base directories of the selected "
 "file(s)/folder(s)."
-msgstr ""
+msgstr "所選取檔案／資料夾之基本目錄的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:220
 msgid "port number of the (first) selected URI."
-msgstr ""
+msgstr "（第一個）所選取 URI 的連接埠號碼。"
 
 #: src/cact/caja-actions-config-tool.ui:232
 msgid "scheme of the (first) selected URI."
-msgstr ""
+msgstr "（第一個）所選取 URI 的協定。"
 
 #: src/cact/caja-actions-config-tool.ui:244
 msgid "(first) URI."
-msgstr ""
+msgstr "（第一個）URI。"
 
 #: src/cact/caja-actions-config-tool.ui:256
 msgid "space-separated list of the URIs of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "所選取檔案／資料夾之 URI 的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:268
 msgid "a percent sign."
-msgstr ""
+msgstr "百分比符號。"
 
 #: src/cact/caja-actions-config-tool.ui:280
 msgid "(first) filename."
-msgstr ""
+msgstr "（第一個）檔名。"
 
 #: src/cact/caja-actions-config-tool.ui:292
 msgid ""
 "space-separated list of the filenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "所選取檔案／資料夾之檔名的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:304
 msgid "hostname of the (first) selected URI."
-msgstr ""
+msgstr "（第一個）所選取 URI 的主機名稱。"
 
 #: src/cact/caja-actions-config-tool.ui:316
 msgid "username of the (first) selected URI."
-msgstr ""
+msgstr "（第一個）所選取 URI 的使用者名稱。"
 
 #: src/cact/caja-actions-config-tool.ui:328
 msgid "(first) basename without the extension."
-msgstr ""
+msgstr "（第一個）不含副檔名的基本名稱。"
 
 #: src/cact/caja-actions-config-tool.ui:340
 msgid "space-separated list of the basenames without the extension."
-msgstr ""
+msgstr "不含副檔名之基本名稱的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:352
 msgid "(first) extension."
-msgstr ""
+msgstr "（第一個）副檔名。"
 
 #: src/cact/caja-actions-config-tool.ui:364
 msgid ""
 "space-separated list of the extensions of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "所選取檔案／資料夾之副檔名的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:376
 msgid "(first) mimetype."
-msgstr ""
+msgstr "（第一個）MIME 類型。"
 
 #: src/cact/caja-actions-config-tool.ui:388
 msgid ""
 "space-separated list of the mimetypes of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "所選取檔案／資料夾之 MIME 類型的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:400
 msgid "no-op operator which forces a singular form of execution."
-msgstr ""
+msgstr "強制單數形式執行的無操作運算子。"
 
 #: src/cact/caja-actions-config-tool.ui:412
 msgid "no-op operator which forces a plural form of execution."
-msgstr ""
+msgstr "強制複數形式執行的無操作運算子。"
 
 #: src/cact/caja-actions-config-tool.ui:423
 msgid "<b>%B</b> :"
-msgstr ""
+msgstr "<b>%B</b>："
 
 #: src/cact/caja-actions-config-tool.ui:436
 msgid ""
 "space-separated list of the basenames of the selected file(s)/folder(s)."
-msgstr ""
+msgstr "所選取檔案／資料夾之基本名稱的空白分隔清單。"
 
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b>："
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b>："
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b>："
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b>："
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b>："
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b>："
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b>："
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b>："
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b>："
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
 msgid "<b>%o</b> :"
-msgstr ""
+msgstr "<b>%o</b>："
 
 #: src/cact/caja-actions-config-tool.ui:567
 msgid "<b>%O</b> :"
-msgstr ""
+msgstr "<b>%O</b>："
 
 #: src/cact/caja-actions-config-tool.ui:579
 #, c-format
 msgid "<b>%p</b> :"
-msgstr ""
+msgstr "<b>%p</b>："
 
 #: src/cact/caja-actions-config-tool.ui:591
 #, c-format
 msgid "<b>%s</b> :"
-msgstr ""
+msgstr "<b>%s</b>："
 
 #: src/cact/caja-actions-config-tool.ui:603
 #, c-format
 msgid "<b>%u</b> :"
-msgstr ""
+msgstr "<b>%u</b>："
 
 #: src/cact/caja-actions-config-tool.ui:615
 msgid "<b>%U</b> :"
-msgstr ""
+msgstr "<b>%U</b>："
 
 #: src/cact/caja-actions-config-tool.ui:627
 msgid "<b>%w</b> :"
-msgstr ""
+msgstr "<b>%w</b>："
 
 #: src/cact/caja-actions-config-tool.ui:639
 msgid "<b>%W</b> :"
-msgstr ""
+msgstr "<b>%W</b>："
 
 #: src/cact/caja-actions-config-tool.ui:651
 #, c-format
 msgid "<b>%x</b> :"
-msgstr ""
+msgstr "<b>%x</b>："
 
 #: src/cact/caja-actions-config-tool.ui:663
 #, c-format
 msgid "<b>%X</b> :"
-msgstr ""
+msgstr "<b>%X</b>："
 
 #: src/cact/caja-actions-config-tool.ui:675
 #, c-format
 msgid "<b>%%</b> :"
-msgstr ""
+msgstr "<b>%%</b>："
 
 #: src/cact/caja-actions-config-tool.ui:761
 msgid "Items _list :"
-msgstr ""
+msgstr "項目清單(_L)："
 
 #: src/cact/caja-actions-config-tool.ui:775
 msgid "Sort the list in descending alphabetical order."
-msgstr ""
+msgstr "依字母降冪順序排序清單。"
 
 #: src/cact/caja-actions-config-tool.ui:797
 msgid "Do not sort the list, letting you manually reorder the items."
-msgstr ""
+msgstr "不排序清單，讓您手動重新排列項目。"
 
 #: src/cact/caja-actions-config-tool.ui:819
 msgid "Sort the list in ascending alphabetical order."
-msgstr ""
+msgstr "依字母升冪順序排序清單。"
 
 #: src/cact/caja-actions-config-tool.ui:919
 msgid "Display item in _selection context menu"
-msgstr ""
+msgstr "在選取情境選單中顯示項目(_S)"
 
 #: src/cact/caja-actions-config-tool.ui:923
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager"
 " context menu, with a non-empty selection."
-msgstr ""
+msgstr "勾選時，在有非空選取項目時，此項目將是檔案管理員情境選單的候選顯示項目。"
 
 #: src/cact/caja-actions-config-tool.ui:937
 msgid "The label of the item in the file manager context menus."
-msgstr ""
+msgstr "項目在檔案管理員情境選單中的標籤。"
 
 #: src/cact/caja-actions-config-tool.ui:950
 msgid "Display item in _location context menu"
-msgstr ""
+msgstr "在位置情境選單中顯示項目(_L)"
 
 #: src/cact/caja-actions-config-tool.ui:954
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager context menu when the selection is empty.\n"
 "In this case, the defined conditions will be applied to the current displayed folder."
 msgstr ""
+"勾選時，在選取項目為空時，此項目將是檔案管理員情境選單的候選顯示項目。\n"
+"在此情況下，已定義的條件將套用於目前顯示的資料夾。"
 
 #: src/cact/caja-actions-config-tool.ui:970
 msgid "_Context label :"
-msgstr ""
+msgstr "情境標籤(_C)："
 
 #: src/cact/caja-actions-config-tool.ui:981
 msgid "Display item in the _toolbar"
-msgstr ""
+msgstr "在工具列中顯示項目(_T)"
 
 #: src/cact/caja-actions-config-tool.ui:985
 msgid ""
 "When checked, the item will be candidate to be displayed in the file manager toolbar.\n"
 "In this case, the defined conditions will be applied to the current folder, and do not depend of the possible current selection."
 msgstr ""
+"勾選時，此項目將是檔案管理員工具列的候選顯示項目。\n"
+"在此情況下，已定義的條件將套用於目前資料夾，而不取決於目前可能的選取項目。"
 
 #: src/cact/caja-actions-config-tool.ui:998
 msgid "Use s_ame label for icon in the toolbar"
-msgstr ""
+msgstr "工具列中的圖示使用相同標籤(_A)"
 
 #: src/cact/caja-actions-config-tool.ui:1002
 msgid ""
 "When checked, the label displayed in the toolbar will be the same that the "
 "one displayed in the context menus."
-msgstr ""
+msgstr "勾選時，工具列中顯示的標籤將與情境選單中顯示的相同。"
 
 #: src/cact/caja-actions-config-tool.ui:1017
 msgid "T_oolbar label :"
-msgstr ""
+msgstr "工具列標籤(_O)："
 
 #: src/cact/caja-actions-config-tool.ui:1029
 msgid "The label displayed in the file manager toolbar."
-msgstr ""
+msgstr "顯示在檔案管理員工具列中的標籤。"
 
 #: src/cact/caja-actions-config-tool.ui:1045
 msgid "Toolti_p :"
-msgstr ""
+msgstr "工具提示(_P)："
 
 #: src/cact/caja-actions-config-tool.ui:1058
 msgid "_Icon :"
-msgstr ""
+msgstr "圖示(_I)："
 
 #: src/cact/caja-actions-config-tool.ui:1070
 msgid "The tooltip displayed in the file manager user interface."
-msgstr ""
+msgstr "顯示在檔案管理員使用者介面中的工具提示。"
 
 #: src/cact/caja-actions-config-tool.ui:1084
 msgid "The icon displayed in the file manager user interface."
-msgstr ""
+msgstr "顯示在檔案管理員使用者介面中的圖示。"
 
 #: src/cact/caja-actions-config-tool.ui:1116
 msgid "The name of a themed icon or the filename of an image."
-msgstr ""
+msgstr "主題圖示的名稱或圖片的檔名。"
 
 #: src/cact/caja-actions-config-tool.ui:1129
 #: src/cact/caja-actions-config-tool.ui:1441
@@ -2810,63 +3062,65 @@ msgstr "瀏覽(_B)…"
 
 #: src/cact/caja-actions-config-tool.ui:1177
 msgid "<b>Caja Item</b>"
-msgstr ""
+msgstr "<b>Caja 項目</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1196
 msgid ""
 "This tab lets you determine the main characteristics of the currently "
 "selected item."
-msgstr ""
+msgstr "此分頁可讓您決定目前所選取項目的主要特性。"
 
 #: src/cact/caja-actions-config-tool.ui:1237
 msgid "Just a label to remind you why you have created this profile."
-msgstr ""
+msgstr "僅是提醒您為何建立此設定檔的標籤。"
 
 #: src/cact/caja-actions-config-tool.ui:1244
 msgid "_Label :"
-msgstr ""
+msgstr "標籤(_L)："
 
 #: src/cact/caja-actions-config-tool.ui:1278
 msgid "<b>Profile</b>"
-msgstr ""
+msgstr "<b>設定檔</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1315
 msgid ""
 "The path of the command.\n"
 "If this is not an absolute path, then the PATH environment variable at execution time will be considered."
 msgstr ""
+"命令的路徑。\n"
+"若不是絕對路徑，則會考量執行時的 PATH 環境變數。"
 
 #: src/cact/caja-actions-config-tool.ui:1331
 msgid "The parameters of the command."
-msgstr ""
+msgstr "命令的參數。"
 
 #: src/cact/caja-actions-config-tool.ui:1344
 msgid "Le_gend"
-msgstr ""
+msgstr "圖例(_G)"
 
 #: src/cact/caja-actions-config-tool.ui:1360
 msgid "The default working directory the command should be started in."
-msgstr ""
+msgstr "命令應在其中啟動的預設工作目錄。"
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "瀏覽(_R)..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "範例"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
-msgstr ""
+msgstr "路徑(_P)："
 
 #: src/cact/caja-actions-config-tool.ui:1458
 msgid "P_arameters :"
-msgstr ""
+msgstr "參數(_A)："
 
 #: src/cact/caja-actions-config-tool.ui:1472
 msgid "_Working directory :"
-msgstr ""
+msgstr "工作目錄(_W)："
 
 #: src/cact/caja-actions-config-tool.ui:1496
 msgid "<b>Command</b>"
@@ -2877,42 +3131,46 @@ msgid ""
 "This tab lets you choose the command to be executed, along with its parameters.\n"
 "Defining several profiles lets you have several commands, each applying with a different set of conditions."
 msgstr ""
+"此分頁可讓您選擇要執行的命令及其參數。\n"
+"定義多個設定檔可讓您擁有多個命令，每個命令套用不同的條件組合。"
 
 #: src/cact/caja-actions-config-tool.ui:1520
 msgid "_Command"
-msgstr ""
+msgstr "命令(_C)"
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "一般(_N)"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
-msgstr ""
+msgstr "命令將以標準圖形使用者介面啟動。"
 
 #: src/cact/caja-actions-config-tool.ui:1581
 msgid "In a _terminal"
-msgstr ""
+msgstr "在終端機中(_T)"
 
 #: src/cact/caja-actions-config-tool.ui:1585
 msgid ""
 "The command will be started in the preferred terminal of the graphical "
 "environment."
-msgstr ""
+msgstr "命令將在圖形環境偏好的終端機中啟動。"
 
 #: src/cact/caja-actions-config-tool.ui:1598
 msgid "_Embedded"
-msgstr ""
+msgstr "內嵌(_E)"
 
 #: src/cact/caja-actions-config-tool.ui:1602
 msgid ""
 "This option makes use of a special feature of the file manager, which would allow a terminal to be ran inside of it.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"此選項使用檔案管理員的特殊功能，允許在其中執行終端機。\n"
+"可接受的替代方案是在標準終端機中執行。"
 
 #: src/cact/caja-actions-config-tool.ui:1616
 msgid "_Display output"
-msgstr ""
+msgstr "顯示輸出(_D)"
 
 #: src/cact/caja-actions-config-tool.ui:1620
 msgid ""
@@ -2920,18 +3178,21 @@ msgid ""
 "The terminal will be closed at the end of the execution; standard error and output streams will be displayed.\n"
 "An acceptable fallback is running in the standard terminal."
 msgstr ""
+"命令將在終端機中執行。\n"
+"執行結束時終端機會關閉；標準錯誤與輸出串流將顯示。\n"
+"可接受的替代方案是在標準終端機中執行。"
 
 #: src/cact/caja-actions-config-tool.ui:1662
 msgid "<b>Execution mode</b>"
-msgstr ""
+msgstr "<b>執行模式</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1677
 msgid "Note: this is not yet implemented in Caja-Actions.\n"
-msgstr ""
+msgstr "注意：Caja-Actions 尚未實作此功能。\n"
 
 #: src/cact/caja-actions-config-tool.ui:1699
 msgid "_Startup notify"
-msgstr ""
+msgstr "啟動通知(_S)"
 
 #: src/cact/caja-actions-config-tool.ui:1703
 msgid ""
@@ -2939,6 +3200,9 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"勾選時，表示執行的命令會向桌面環境傳送「remove」訊息。\n"
+"詳情請參閱「啟動通知協定規格」。\n"
+"只有在選擇的執行模式為 Normal 時才相關。"
 
 #: src/cact/caja-actions-config-tool.ui:1718
 msgid ""
@@ -2946,22 +3210,25 @@ msgid ""
 "See the Startup Notification Protocol Specification for more details.\n"
 "Only relevant when chosen execution mode is Normal."
 msgstr ""
+"指定時，這應該是執行命令至少一個視窗的 WM 類別名稱。\n"
+"詳情請參閱「啟動通知協定規格」。\n"
+"只有在選擇的執行模式為 Normal 時才相關。"
 
 #: src/cact/caja-actions-config-tool.ui:1735
 msgid "Startup Window Manager _class :"
-msgstr ""
+msgstr "啟動視窗管理員類別(_C)："
 
 #: src/cact/caja-actions-config-tool.ui:1756
 msgid "<b>Startup mode</b>"
-msgstr ""
+msgstr "<b>啟動模式</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1771
 msgid "Note: this is not yet implemented in Caja-Actions."
-msgstr ""
+msgstr "注意：Caja-Actions 尚未實作此功能。"
 
 #: src/cact/caja-actions-config-tool.ui:1794
 msgid "Execute as _user :"
-msgstr ""
+msgstr "以使用者身分執行(_U)："
 
 #: src/cact/caja-actions-config-tool.ui:1807
 msgid ""
@@ -2969,20 +3236,23 @@ msgid ""
 "The user may be defined by his numeric UID or his login name.\n"
 "Leave the field empty to run the command as the current user."
 msgstr ""
+"在此輸入命令應以其身分執行的使用者。\n"
+"使用者可以數字 UID 或登入名稱定義。\n"
+"將欄位留空即以目前使用者身分執行命令。"
 
 #: src/cact/caja-actions-config-tool.ui:1830
 msgid "<b>Execute as user</b>"
-msgstr ""
+msgstr "<b>以使用者身分執行</b>"
 
 #: src/cact/caja-actions-config-tool.ui:1852
 msgid ""
 "This advanced tab lets you precisely define how your command will be "
 "executed."
-msgstr ""
+msgstr "此進階分頁可讓您精確定義命令的執行方式。"
 
 #: src/cact/caja-actions-config-tool.ui:1853
 msgid "E_xecution"
-msgstr ""
+msgstr "執行(_X)"
 
 #: src/cact/caja-actions-config-tool.ui:1894
 msgid ""
@@ -2990,6 +3260,8 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"若選取項目中每個元素的基本名稱符合「必須符合其中之一」欄中的一個過濾器，且不"
+"符合「不得符合其中任何一個」欄中的任何過濾器，則目前的項目會顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:1912
 msgid ""
@@ -2997,36 +3269,41 @@ msgid ""
 "Basenames may use '*' and '?' wildcards.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"此清單可讓您決定目前所選取的項目要為哪些基本名稱顯示於 Caja 情境選單中。\n"
+"基本名稱可以使用「*」與「?」萬用字元。\n"
+"基本名稱可以被否定，以指定您的項目不得為哪些基本名稱顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:1945
 msgid "Click to add a new basename filter."
-msgstr ""
+msgstr "按一下以新增基本名稱過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:1965
 msgid "Click to remove the current basename filter."
-msgstr ""
+msgstr "按一下以移除目前的基本名稱過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:1996
 msgid "Match _case"
-msgstr ""
+msgstr "區分大小寫(_C)"
 
 #: src/cact/caja-actions-config-tool.ui:2000
 msgid "Click to define the above basename filters as case sensitive."
-msgstr ""
+msgstr "按一下以將上述基本名稱過濾器定義為區分大小寫。"
 
 #: src/cact/caja-actions-config-tool.ui:2022
 msgid "<b>Basenames conditions</b>"
-msgstr ""
+msgstr "<b>基本名稱條件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2042
 msgid ""
 "This tab lets you determine for which basenames the currently selected item will be displayed in the Caja context menu.\n"
 "Basenames may be negated to specify for which basenames your item must not appear."
 msgstr ""
+"此分頁可讓您決定目前所選取的項目要為哪些基本名稱顯示於 Caja 情境選單中。\n"
+"基本名稱可以被否定，以指定您的項目不得為哪些基本名稱顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2044
 msgid "_Basenames"
-msgstr ""
+msgstr "基本名稱(_B)"
 
 #: src/cact/caja-actions-config-tool.ui:2085
 msgid ""
@@ -3034,6 +3311,8 @@ msgid ""
 "selection matches one filter of the 'Must match one of' column, while not "
 "matching any of the filters of the 'Must not match any of' column."
 msgstr ""
+"若選取項目中每個元素的 MIME 類型符合「必須符合其中之一」欄中的一個過濾器，且"
+"不符合「不得符合其中任何一個」欄中的任何過濾器，則目前的項目會顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2103
 msgid ""
@@ -3041,18 +3320,21 @@ msgid ""
 "Mimetypes may be specified as '*', '*/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"此清單可讓您決定目前所選取的項目要為哪些 MIME 類型顯示於 Caja 情境選單中。\n"
+"MIME 類型可以指定為「*」、「*/*」、「group/*」或「group/subgroup」。\n"
+"MIME 類型可以被否定，以指定您的項目不得為哪些類型的物件顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2134
 msgid "Click to add a new mimetype filter."
-msgstr ""
+msgstr "按一下以新增 MIME 類型過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2154
 msgid "Click to remove the current mimetype filter."
-msgstr ""
+msgstr "按一下以移除目前的 MIME 類型過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2193
 msgid "<b>Mimetypes conditions</b>"
-msgstr ""
+msgstr "<b>MIME 類型條件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2213
 msgid ""
@@ -3060,10 +3342,13 @@ msgid ""
 "Mimetypes may be specified as '*', '/*', 'group/*' or 'group/subgroup'.\n"
 "Mimetypes may be negated to specify for which type of objects your item must not appear."
 msgstr ""
+"此分頁可讓您決定目前所選取的項目要為哪些 MIME 類型顯示於 Caja 情境選單中。\n"
+"MIME 類型可以指定為「*」、「/*」、「group/*」或「group/subgroup」。\n"
+"MIME 類型可以被否定，以指定您的項目不得為哪些類型的物件顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2216
 msgid "_Mimetypes"
-msgstr ""
+msgstr "MIME 類型(_M)"
 
 #: src/cact/caja-actions-config-tool.ui:2257
 msgid ""
@@ -3072,6 +3357,9 @@ msgid ""
 "column, while not being one or inside one of the 'Must not match any of' "
 "column."
 msgstr ""
+"若選取項目中每個元素的位置是「必須符合其中之一」欄中某個路徑本身或在該路徑之"
+"下，且不是「不得符合其中任何一個」欄中任何路徑本身或在任何路徑之下，則目前的"
+"項目會顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2275
 msgid ""
@@ -3079,28 +3367,35 @@ msgid ""
 "Folders may use '*' or '?' wildcards.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"此清單可讓您決定目前所選取的檔案必須位於何處（哪些資料夾），項目才會顯示在 "
+"Caja 情境選單中。\n"
+"資料夾可以使用「*」或「?」萬用字元。\n"
+"資料夾過濾器可以被否定，以指定您的項目不得為哪些資料夾顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2312
 msgid "Click to add a new folder filter."
-msgstr ""
+msgstr "按一下以新增資料夾過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2333
 msgid "Click to browse the filesystem in order to select a new folder filter."
-msgstr ""
+msgstr "按一下以瀏覽檔案系統，選取新的資料夾過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2355
 msgid "Click to remove the current folder filter."
-msgstr ""
+msgstr "按一下以移除目前的資料夾過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2394
 msgid "<b>Folders conditions</b>"
-msgstr ""
+msgstr "<b>資料夾條件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2414
 msgid ""
 "This tab lets you determine where (in which folders) the currently selected files must be found in order for the item to be displayed in the Caja context menu.\n"
 "Folder filters may be negated to specify for which folders your item must not appear."
 msgstr ""
+"此分頁可讓您決定目前所選取的檔案必須位於何處（哪些資料夾），項目才會顯示在 "
+"Caja 情境選單中。\n"
+"資料夾過濾器可以被否定，以指定您的項目不得為哪些資料夾顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
@@ -3112,38 +3407,46 @@ msgid ""
 "matches one of the 'Must match one of' column, while not matching any of the"
 " 'Must not match any of' column."
 msgstr ""
+"若選取項目中每個元素的協定符合「必須符合其中之一」欄中的一個協定，且不符合「"
+"不得符合其中任何一個」欄中的任何協定，則目前的項目會顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2475
 msgid ""
 "This list lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"此清單可讓您決定目前所選取的檔案必須符合哪些協定，項目才會顯示在 Caja 情境選"
+"單中。\n"
+"過濾器可以被否定，以指定您的項目不得為哪些協定顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2514
 msgid "Click to add a new scheme filter."
-msgstr ""
+msgstr "按一下以新增協定過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2531
 msgid "De_faults..."
-msgstr ""
+msgstr "預設值(_F)..."
 
 #: src/cact/caja-actions-config-tool.ui:2535
 msgid "Click to select a new scheme filter among default schemes."
-msgstr ""
+msgstr "按一下以從預設協定中選取新的協定過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2557
 msgid "Click to remove the current scheme filter."
-msgstr ""
+msgstr "按一下以移除目前的協定過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2596
 msgid "<b>Schemes conditions</b>"
-msgstr ""
+msgstr "<b>協定條件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2616
 msgid ""
 "This tab lets you determine which schemes the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which schemes your item must not appear."
 msgstr ""
+"此分頁可讓您決定目前所選取的檔案必須符合哪些協定，項目才會顯示在 Caja 情境選"
+"單中。\n"
+"過濾器可以被否定，以指定您的項目不得為哪些協定顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2659
 msgid ""
@@ -3151,76 +3454,90 @@ msgid ""
 "capabilities of the 'Must match all of' column, while not matching any "
 "capability of the 'Must not match any of' column."
 msgstr ""
+"若選取項目中的每個元素都符合「必須符合全部」欄中的所有能力，且不符合「不得符"
+"合其中任何一個」欄中的任何能力，則目前的項目會顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2677
 msgid ""
 "This list lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Capabilities may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"此清單可讓您決定目前所選取的檔案必須符合哪些能力，項目才會顯示在 Caja 情境選"
+"單中。\n"
+"能力可以被否定，以指定您的項目不得為哪些能力顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2710
 msgid "Click to add a new capability filter."
-msgstr ""
+msgstr "按一下以新增能力過濾器。"
 
 #: src/cact/caja-actions-config-tool.ui:2730
 msgid "Click to remove the current capability."
-msgstr ""
+msgstr "按一下以移除目前的能力。"
 
 #: src/cact/caja-actions-config-tool.ui:2769
 msgid "<b>Capabilities conditions</b>"
-msgstr ""
+msgstr "<b>能力條件</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2789
 msgid ""
 "This tab lets you determine which capabilities the currently selected files must satisfy in order for the item to be displayed in the Caja context menu.\n"
 "Filters may be negated to specify for which capabilities your item must not appear."
 msgstr ""
+"此分頁可讓您決定目前所選取的檔案必須符合哪些能力，項目才會顯示在 Caja 情境選"
+"單中。\n"
+"過濾器可以被否定，以指定您的項目不得為哪些能力顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2791
 msgid "Ca_pabilities"
-msgstr ""
+msgstr "能力(_P)"
 
 #: src/cact/caja-actions-config-tool.ui:2831
 msgid ""
 "This is an advanced condition based on the count of the current selection.\n"
 "If the current selection does not match this condition, then the item will not be displayed in the file manager context menus or toolbar."
 msgstr ""
+"這是基於目前選取數量的進階條件。\n"
+"若目前的選取不符合此條件，項目將不會顯示在檔案管理員情境選單或工具列中。"
 
 #: src/cact/caja-actions-config-tool.ui:2839
 msgid "_Count :"
-msgstr ""
+msgstr "數量(_C)："
 
 #: src/cact/caja-actions-config-tool.ui:2898
 msgid "<b>Appears if selection contains</b>"
-msgstr ""
+msgstr "<b>選取項目包含時顯示</b>"
 
 #: src/cact/caja-actions-config-tool.ui:2927
 msgid ""
 "This is an advanced condition based on the running desktop environment.\n"
 "First choose on the left if the item depends of a particular desktop environment, then select on the right the adequate desktop environment."
 msgstr ""
+"這是基於執行中桌面環境的進階條件。\n"
+"先選擇左側的項目是否取決於特定桌面環境，然後在右側選取適當的桌面環境。"
 
 #: src/cact/caja-actions-config-tool.ui:2939
 msgid "Item may appear depending of the desktop environment."
-msgstr ""
+msgstr "項目可能依桌面環境顯示。"
 
 #: src/cact/caja-actions-config-tool.ui:2959
 msgid "_Always appears"
-msgstr ""
+msgstr "永遠顯示(_A)"
 
 #: src/cact/caja-actions-config-tool.ui:2976
 msgid "_Only appears in selected environments"
-msgstr ""
+msgstr "僅在所選取的環境中顯示(_O)"
 
 #: src/cact/caja-actions-config-tool.ui:2993
 msgid "_Never appears in selected environments"
-msgstr ""
+msgstr "在所選取的環境中永不顯示(_N)"
 
 #: src/cact/caja-actions-config-tool.ui:3094
 msgid ""
 "This is an advanced condition based on the presence of a particular service on the D-Bus system.\n"
 "This may be used for example for testing that a prerequisite service is currently available."
 msgstr ""
+"這是基於 D-Bus 系統上是否存在特定服務的進階條件。\n"
+"例如，這可用於測試先決條件服務目前是否可用。"
 
 #: src/cact/caja-actions-config-tool.ui:3110
 msgid ""
@@ -3228,6 +3545,9 @@ msgid ""
 "Enter here a command which is able to display the exact \"true\" string on its standard output.\n"
 "This may be used for example for testing a complex condition."
 msgstr ""
+"這是基於執行時期結果的進階條件。\n"
+"在此輸入一個能在標準輸出輸出完全等於「true」字串的命令。\n"
+"例如，這可用於測試複雜的條件。"
 
 #: src/cact/caja-actions-config-tool.ui:3127
 msgid ""
@@ -3235,40 +3555,45 @@ msgid ""
 "Note that only the basename of the binary is checked, not its dirname nor its parameters.\n"
 "This may be used for example for testing the presence of a prerequisite daemon."
 msgstr ""
+"這是基於是否有執行中二進位程式的進階條件。\n"
+"請注意，只會檢查二進位程式的基本名稱，不會檢查其目錄名稱或參數。\n"
+"例如，這可用於測試先決條件常駐程式是否存在。"
 
 #: src/cact/caja-actions-config-tool.ui:3142
 msgid "Brow_se..."
-msgstr ""
+msgstr "瀏覽(_S)..."
 
 #: src/cact/caja-actions-config-tool.ui:3159
 msgid "Appears if the file is e_xecutable :"
-msgstr ""
+msgstr "檔案可執行時顯示(_X)："
 
 #: src/cact/caja-actions-config-tool.ui:3171
 msgid ""
 "This is an advanced condition based on the presence of an executable file on the file system.\n"
 "This may be used for example to test for a prerequisite package."
 msgstr ""
+"這是基於檔案系統中是否存在可執行檔的進階條件。\n"
+"例如，這可用於測試先決條件套件。"
 
 #: src/cact/caja-actions-config-tool.ui:3185
 msgid "Bro_wse..."
-msgstr ""
+msgstr "瀏覽(_W)..."
 
 #: src/cact/caja-actions-config-tool.ui:3202
 msgid "Appears if the name is _registered on D-Bus :"
-msgstr ""
+msgstr "名稱已註冊於 D-Bus 時顯示(_R)："
 
 #: src/cact/caja-actions-config-tool.ui:3215
 msgid "Appears if the command outputs \"_true\" :"
-msgstr ""
+msgstr "命令輸出「_true」時顯示："
 
 #: src/cact/caja-actions-config-tool.ui:3228
 msgid "Appears if the _binary is running :"
-msgstr ""
+msgstr "二進位程式執行中時顯示(_B)："
 
 #: src/cact/caja-actions-config-tool.ui:3252
 msgid "<b>Execution environment</b>"
-msgstr ""
+msgstr "<b>執行環境</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3274
 msgid ""
@@ -3276,68 +3601,76 @@ msgid ""
 "files must satisfy in order for the item to be displayed in the file manager"
 " context menu."
 msgstr ""
+"此分頁可讓您決定目前所選取的檔案必須符合的一些進階條件，項目才會顯示在檔案管"
+"理員情境選單中。"
 
 #: src/cact/caja-actions-config-tool.ui:3275
 msgid "_Environment"
-msgstr ""
+msgstr "環境(_E)"
 
 #: src/cact/caja-actions-config-tool.ui:3323
 msgid "_Description :"
-msgstr ""
+msgstr "描述(_D)："
 
 #: src/cact/caja-actions-config-tool.ui:3335
 msgid ""
 "Enter here a free text which may be used (e.g. in a Web service or in a "
 "search tool) to describe your item."
-msgstr ""
+msgstr "在此輸入可用來描述您的項目的任意文字（例如在 Web 服務或搜尋工具中使用）。"
 
 #: src/cact/caja-actions-config-tool.ui:3352
 msgid "E_nabled"
-msgstr ""
+msgstr "已啟用(_N)"
 
 #: src/cact/caja-actions-config-tool.ui:3356
 msgid ""
 "Check the box to enable this item.\n"
 "If unchecked, then the item will never appear in the file manager context menus or toolbar."
 msgstr ""
+"勾選此核取方塊以啟用此項目。\n"
+"若未勾選，項目將永遠不會出現在檔案管理員情境選單或工具列中。"
 
 #: src/cact/caja-actions-config-tool.ui:3379
 msgid ""
 "Enter here the keyboard touch combination you suggest as a shortcut to your action.\n"
 "Note: this is not yet implemented in Caja-Actions."
 msgstr ""
+"在此輸入您建議作為動作捷徑的鍵盤按鍵組合。\n"
+"注意：Caja-Actions 尚未實作此功能。"
 
 #: src/cact/caja-actions-config-tool.ui:3402
 msgid "Suggested _shortcut :"
-msgstr ""
+msgstr "建議的捷徑(_S)："
 
 #: src/cact/caja-actions-config-tool.ui:3480
 msgid "Read-only item"
-msgstr ""
+msgstr "唯讀項目"
 
 #: src/cact/caja-actions-config-tool.ui:3485
 msgid ""
 "This box is checked if the item cannot be edited.\n"
 "There may be multiple reasons for why an item cannot be edited. See your User's Manual."
 msgstr ""
+"若項目無法編輯，此核取方塊會被勾選。\n"
+"項目無法編輯的原因可能有很多。請參閱您的使用者手冊。"
 
 #: src/cact/caja-actions-config-tool.ui:3501
 msgid "Id. :"
-msgstr ""
+msgstr "識別碼："
 
 #: src/cact/caja-actions-config-tool.ui:3513
 msgid "I/O provider :"
-msgstr ""
+msgstr "I/O 提供者："
 
 #: src/cact/caja-actions-config-tool.ui:3533
 msgid "<b>Read-only properties</b>"
-msgstr ""
+msgstr "<b>唯讀屬性</b>"
 
 #: src/cact/caja-actions-config-tool.ui:3555
 msgid ""
 "This tab lets you edit some miscellaneous properties, and access some non-"
 "modifiable information."
-msgstr ""
+msgstr "此分頁可讓您編輯一些其它屬性，並存取一些不可修改的資訊。"
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
@@ -3346,46 +3679,48 @@ msgstr "屬性(_R)"
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
 msgid "Caja-Actions actions"
-msgstr ""
+msgstr "Caja-Actions 動作"
 
 #. Translators: tooltip of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:935
 msgid ""
 "A submenu which embeds the currently available Caja-Actions actions and "
 "menus"
-msgstr ""
+msgstr "嵌入目前可用之 Caja-Actions 動作與選單的子選單"
 
 #: src/plugin-menu/caja-actions.c:979
 msgid "About Caja-Actions"
-msgstr ""
+msgstr "關於 Caja-Actions"
 
 #: src/plugin-menu/caja-actions.c:980
 msgid "Display some information about Caja-Actions"
-msgstr ""
+msgstr "顯示一些關於 Caja-Actions 的資訊"
 
 #: src/test/test-reader.c:48
 msgid "The URI of the file to be imported"
-msgstr ""
+msgstr "要匯入的檔案 URI"
 
 #: src/test/test-reader.c:48 src/utils/caja-actions-run.c:62
 msgid "<URI>"
-msgstr ""
+msgstr "<URI>"
 
 #: src/test/test-reader.c:55 src/utils/na-print-schemas.c:67
 #: src/utils/caja-actions-new.c:156 src/utils/caja-actions-print.c:72
 #: src/utils/caja-actions-run.c:69
 msgid "Output the version number"
-msgstr ""
+msgstr "輸出版本號碼"
 
 #: src/test/test-reader.c:104
 msgid "Import a file."
-msgstr ""
+msgstr "匯入檔案。"
 
 #: src/test/test-reader.c:118
 msgid ""
 "Bug reports are welcomed at http://bugzilla.gnome.org, or you may prefer to "
 "mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"歡迎在 http://bugzilla.gnome.org 回報錯誤，或者您也可以寄信至 "
+"<maintainer@caja-actions.org>。\n"
 
 #: src/test/test-reader.c:126 src/utils/na-print-schemas.c:165
 #: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
@@ -3398,147 +3733,152 @@ msgstr "其它選項"
 #: src/utils/caja-actions-print.c:108 src/utils/caja-actions-run.c:110
 #, c-format
 msgid "Syntax error: %s\n"
-msgstr ""
+msgstr "語法錯誤：%s\n"
 
 #: src/test/test-reader.c:162
 msgid "Error: uri is mandatory.\n"
-msgstr ""
+msgstr "錯誤：uri 為必填。\n"
 
 #: src/test/test-reader.c:174 src/utils/na-print-schemas.c:179
 #: src/utils/na-set-conf.c:220 src/utils/caja-actions-new.c:620
 #: src/utils/caja-actions-print.c:237 src/utils/caja-actions-run.c:427
 #, c-format
 msgid "Try %s --help for usage.\n"
-msgstr ""
+msgstr "如需用法請嘗試 %s --help。\n"
 
 #: src/utils/console-utils.c:55
 msgid ""
 "Bug reports are welcomed at https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions,\n"
 "or you may prefer to mail to <maintainer@caja-actions.org>.\n"
 msgstr ""
+"歡迎在 https://bugzilla.gnome.org/enter_bug.cgi?product=caja-actions 回報錯誤"
+"，\n"
+"或者您也可以寄信至 <maintainer@caja-actions.org>。\n"
 
 #: src/utils/na-print-schemas.c:56
 msgid "Output the schema on stdout"
-msgstr ""
+msgstr "在標準輸出輸出結構描述"
 
 #: src/utils/na-print-schemas.c:61
 msgid "Output the action schemas [default]"
-msgstr ""
+msgstr "輸出動作結構描述 [default]"
 
 #: src/utils/na-print-schemas.c:62
 msgid "Output the menu schemas"
-msgstr ""
+msgstr "輸出選單結構描述"
 
 #: src/utils/na-print-schemas.c:136
 msgid "Output the Caja-Actions MateConf schemas on stdout."
-msgstr ""
+msgstr "在標準輸出輸出 Caja-Actions MateConf 結構描述。"
 
 #: src/utils/na-print-schemas.c:140
 msgid ""
 "As of version 3.1.0, MateConf as an I/O provider is deprecated.\n"
 "This program is no more maintained."
 msgstr ""
+"自 3.1.0 版起，MateConf 作為 I/O 提供者已停用。\n"
+"此程式不再維護。"
 
 #: src/utils/na-print-schemas.c:159
 msgid "Type options"
-msgstr ""
+msgstr "類型選項"
 
 #: src/utils/na-set-conf.c:52
 msgid "Set a key=value pair in a key file."
-msgstr ""
+msgstr "在 key 檔中設定 key=value 對。"
 
 #: src/utils/na-set-conf.c:63
 msgid "The group to be updated"
-msgstr ""
+msgstr "要更新的群組"
 
 #: src/utils/na-set-conf.c:65
 msgid "The key to be updated"
-msgstr ""
+msgstr "要更新的鍵"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:68
 msgid "The type of the value to be set, may be 'str', 'int' or 'bool'"
-msgstr ""
+msgstr "要設定之值的類型，可以是「str」、「int」或「bool」"
 
 #: src/utils/na-set-conf.c:70
 msgid "The value to be set"
-msgstr ""
+msgstr "要設定的值"
 
 #: src/utils/na-set-conf.c:77
 msgid "Output the version number and exit gracefully"
-msgstr ""
+msgstr "輸出版本號碼並正常結束"
 
 #: src/utils/na-set-conf.c:134
 msgid "Error: a group is mandatory.\n"
-msgstr ""
+msgstr "錯誤：群組為必填。\n"
 
 #: src/utils/na-set-conf.c:139
 msgid "Error: a key is mandatory.\n"
-msgstr ""
+msgstr "錯誤：鍵為必填。\n"
 
 #: src/utils/na-set-conf.c:144
 msgid "Error: a type is mandatory for setting/updating a value.\n"
-msgstr ""
+msgstr "錯誤：設定／更新值時必須指定類型。\n"
 
 #. Translators: 'str', 'int' and 'bool' are literal values: do not translate
 #: src/utils/na-set-conf.c:155
 #, c-format
 msgid "Error: unknown type: %s. Use 'str', 'int' or 'bool'.\n"
-msgstr ""
+msgstr "錯誤：未知的類型：%s。請使用「str」、「int」或「bool」。\n"
 
 #: src/utils/na-set-conf.c:162
 msgid "Error: a value is mandatory.\n"
-msgstr ""
+msgstr "錯誤：值為必填。\n"
 
 #: src/utils/caja-actions-new.c:134
 msgid "Set it if the item should be disabled at creation"
-msgstr ""
+msgstr "若項目建立時應停用請設定"
 
 #: src/utils/caja-actions-new.c:136
 msgid "Set it if the item doesn't target the selection context menu"
-msgstr ""
+msgstr "若項目不以選取情境選單為目標請設定"
 
 #: src/utils/caja-actions-new.c:138
 msgid "Set it if the item doesn't target the location context menu"
-msgstr ""
+msgstr "若項目不以位置情境選單為目標請設定"
 
 #: src/utils/caja-actions-new.c:140
 msgid "Set it if the item doesn't target the toolbar"
-msgstr ""
+msgstr "若項目不以工具列為目標請設定"
 
 #: src/utils/caja-actions-new.c:142
 msgid "Set it if the basename patterns are case insensitive"
-msgstr ""
+msgstr "若基本名稱模式不區分大小寫請設定"
 
 #: src/utils/caja-actions-new.c:148
 msgid "Output the new item content on stdout (default)"
-msgstr ""
+msgstr "在標準輸出輸出新項目的內容（預設）"
 
 #: src/utils/caja-actions-new.c:149
 msgid "Create the new item as a .desktop file"
-msgstr ""
+msgstr "以 .desktop 檔案建立新項目"
 
 #: src/utils/caja-actions-new.c:160
 #, c-format
 msgid "Error: '%s' and '%s' options cannot both be specified\n"
-msgstr ""
+msgstr "錯誤：無法同時指定「%s」與「%s」選項\n"
 
 #: src/utils/caja-actions-new.c:161
 #, c-format
 msgid "'%s' option is deprecated, see %s\n"
-msgstr ""
+msgstr "「%s」選項已停用，請參閱 %s\n"
 
 #: src/utils/caja-actions-new.c:209
 msgid "Error: an action label is mandatory.\n"
-msgstr ""
+msgstr "錯誤：動作標籤為必填。\n"
 
 #: src/utils/caja-actions-new.c:255
 msgid "Error: only one output option may be specified.\n"
-msgstr ""
+msgstr "錯誤：只能指定一個輸出選項。\n"
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "定義新動作。"
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
@@ -3546,93 +3886,96 @@ msgid ""
 "It can also be written to an output folder, in a file later suitable for an import in CACT.\n"
 "Or you may choose to directly write the action into your Caja-Actions configuration."
 msgstr ""
+"建立的動作預設寫入標準輸出。\n"
+"也可以寫入輸出資料夾中的檔案，之後適合匯入 CACT。\n"
+"或者您可以選擇直接將動作寫入您的 Caja-Actions 設定。"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Output of the program"
-msgstr ""
+msgstr "程式的輸出"
 
 #: src/utils/caja-actions-new.c:370
 msgid "Choose where the program creates the action"
-msgstr ""
+msgstr "選擇程式建立動作的位置"
 
 #. Translators: 'na-desktop' is a plugin identifier - do not translate
 #: src/utils/caja-actions-new.c:583
 msgid "Error: unable to find 'na-desktop' i/o provider."
-msgstr ""
+msgstr "錯誤：找不到「na-desktop」I/O 提供者。"
 
 #. Translators: caja-actions-print program summary
 #: src/utils/caja-actions-print.c:57
 msgid "Print a menu or an action to stdout."
-msgstr ""
+msgstr "將選單或動作列印至標準輸出。"
 
 #: src/utils/caja-actions-print.c:62
 msgid "The identifiant of the menu or the action to be printed"
-msgstr ""
+msgstr "要列印之選單或動作的識別碼"
 
 #. Translators: 'Desktop1' here is the internal identifier of an export
 #. format; it is not translatable
 #: src/utils/caja-actions-print.c:65
 msgid "An export format [Desktop1]"
-msgstr ""
+msgstr "匯出格式 [Desktop1]"
 
 #: src/utils/caja-actions-print.c:123
 msgid "Error: a menu or action id is mandatory.\n"
-msgstr ""
+msgstr "錯誤：選單或動作 ID 為必填。\n"
 
 #. Translators: %s stands for the id of the export format, and is not
 #. translatable
 #: src/utils/caja-actions-print.c:139
 #, c-format
 msgid "Error: %s: unknown export format.\n"
-msgstr ""
+msgstr "錯誤：%s：未知的匯出格式。\n"
 
 #: src/utils/caja-actions-print.c:202
 #, c-format
 msgid "Error: item '%s' doesn't exist.\n"
-msgstr ""
+msgstr "錯誤：項目「%s」不存在。\n"
 
 #: src/utils/caja-actions-run.c:60
 msgid "The internal identifier of the action to be launched"
-msgstr ""
+msgstr "要啟動之動作的內部識別碼"
 
 #: src/utils/caja-actions-run.c:62
 msgid ""
 "A target, file or folder, for the action. More than one options may be "
 "specified"
-msgstr ""
+msgstr "動作的目標（檔案或資料夾）。可以指定多個選項"
 
 #: src/utils/caja-actions-run.c:125
 msgid "Error: action id is mandatory.\n"
-msgstr ""
+msgstr "錯誤：動作 ID 為必填。\n"
 
 #: src/utils/caja-actions-run.c:150
 msgid "No current selection. Nothing to do. Exiting.\n"
-msgstr ""
+msgstr "沒有目前的選取項目。沒有要執行的事。結束。\n"
 
 #: src/utils/caja-actions-run.c:155
 #, c-format
 msgid "Action %s is not a valid candidate. Exiting.\n"
-msgstr ""
+msgstr "動作 %s 不是有效的候選項目。結束。\n"
 
 #: src/utils/caja-actions-run.c:161
 msgid "No valid profile is candidate to execution. Exiting.\n"
-msgstr ""
+msgstr "沒有有效的設定檔符合執行條件。結束。\n"
 
 #: src/utils/caja-actions-run.c:182
 msgid "Execute an action on the specified target."
-msgstr ""
+msgstr "在指定的目標上執行動作。"
 
 #: src/utils/caja-actions-run.c:225
 #, c-format
 msgid "Error: action '%s' doesn't exist.\n"
-msgstr ""
+msgstr "錯誤：動作「%s」不存在。\n"
 
 #: src/utils/caja-actions-run.c:228
 #, c-format
 msgid "Error: action '%s' is disabled.\n"
-msgstr ""
+msgstr "錯誤：動作「%s」已停用。\n"
 
 #: src/utils/caja-actions-run.c:233
 #, c-format
 msgid "Error: action '%s' is not valid.\n"
-msgstr ""
+msgstr "錯誤：動作「%s」無效。\n"
