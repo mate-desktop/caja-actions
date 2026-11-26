@@ -1,29 +1,32 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the caja-actions package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Azwaw <azwaw10@proton.me>, 2021
 # ButterflyOfFire, 2025
-# 
+# ButterflyOfFire <butterflyoffire@users.noreply.translate.fedoraproject.org>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: caja-actions 1.26.0\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/caja-actions/issues\n"
 "POT-Creation-Date: 2022-10-29 15:29+0200\n"
-"PO-Revision-Date: 2021-02-27 13:10+0000\n"
-"Last-Translator: ButterflyOfFire, 2025\n"
-"Language-Team: Kabyle (https://app.transifex.com/mate/teams/13566/kab/)\n"
+"PO-Revision-Date: 2026-06-30 19:18+0000\n"
+"Last-Translator: ButterflyOfFire "
+"<butterflyoffire@users.noreply.translate.fedoraproject.org>\n"
+"Language-Team: Kabyle <https://translate.fedoraproject.org/projects/mate-"
+"desktop/applications/caja-actions/kab/>\n"
+"Language: kab\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kab\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/core/na-exporter.c:53 src/core/na-importer.c:87
 msgid "_Ask me"
-msgstr ""
+msgstr "S_teqsi-yi-d"
 
 #: src/core/na-exporter.c:54
 msgid ""
@@ -86,34 +89,35 @@ msgstr ""
 
 #: src/core/na-about.c:99
 msgid "Caja-Actions"
-msgstr ""
+msgstr "Caja-Actions"
 
 #: src/core/na-about.c:100
 msgid "translator-credits"
 msgstr ""
 "Launchpad Contributions:\n"
 "  Belkacem Mohammed https://launchpad.net/~belkacem77\n"
-"  Slimane Amiri https://launchpad.net/~slimaneamiri"
+"  Slimane Amiri https://launchpad.net/~slimaneamiri\n"
+"  Athmane Mokraoui, 2026"
 
 #: src/core/na-desktop-environment.c:39
 msgid "MATE desktop"
-msgstr ""
+msgstr "Tanarit MATE"
 
 #: src/core/na-desktop-environment.c:40
 msgid "KDE desktop"
-msgstr ""
+msgstr "Tanarit KDE"
 
 #: src/core/na-desktop-environment.c:41
 msgid "LXDE desktop"
-msgstr ""
+msgstr "Tanarit LXDE"
 
 #: src/core/na-desktop-environment.c:42
 msgid "ROX desktop"
-msgstr ""
+msgstr "Tanarit ROX"
 
 #: src/core/na-desktop-environment.c:43
 msgid "XFCE desktop"
-msgstr ""
+msgstr "Tanarit XFCE"
 
 #: src/core/na-desktop-environment.c:44
 msgid "Legacy systems"
@@ -437,7 +441,7 @@ msgstr ""
 
 #: src/core/na-icontext-factory.c:518
 msgid "Capabilities"
-msgstr ""
+msgstr "Tizemmar"
 
 #. Translators: 'Owner', 'Readable', 'Writable', 'Executable' and 'Local' are
 #. all keywords
@@ -613,7 +617,7 @@ msgstr ""
 
 #: src/core/na-io-provider.c:1420
 msgid "OK."
-msgstr ""
+msgstr "Ih."
 
 #: src/core/na-io-provider.c:1424
 #, c-format
@@ -716,7 +720,7 @@ msgstr ""
 #: src/core/na-object-id.c:329
 #, c-format
 msgid "Copy of %s"
-msgstr ""
+msgstr "Anɣel n %s"
 
 #: src/core/na-object-item-factory.c:65
 msgid "Type of the item"
@@ -902,7 +906,7 @@ msgstr ""
 
 #: src/core/na-object-profile-factory.c:188
 msgid "Working directory"
-msgstr ""
+msgstr "Akaram n umahil"
 
 #: src/core/na-object-profile-factory.c:189
 #, c-format
@@ -986,7 +990,7 @@ msgstr ""
 
 #: src/core/na-tokens.c:255
 msgid "user"
-msgstr ""
+msgstr "aseqdac"
 
 #: src/core/na-tokens.c:441
 msgid "Output of the run command"
@@ -1042,7 +1046,7 @@ msgstr ""
 
 #: src/cact/base-application.c:190
 msgid "Arguments"
-msgstr ""
+msgstr "Ifukal"
 
 #: src/cact/base-application.c:191
 msgid "The array of command-line arguments"
@@ -1058,7 +1062,7 @@ msgstr ""
 
 #: src/cact/base-application.c:205
 msgid "Application name"
-msgstr ""
+msgstr "Isem n usnas"
 
 #: src/cact/base-application.c:206
 msgid "The name of the application"
@@ -1074,7 +1078,7 @@ msgstr ""
 
 #: src/cact/base-application.c:221
 msgid "Icon name"
-msgstr ""
+msgstr "Isem n tignit"
 
 #: src/cact/base-application.c:222
 msgid "The name of the icon of the application"
@@ -1221,7 +1225,7 @@ msgstr ""
 #: src/cact/egg-desktop-file.c:957
 #, c-format
 msgid "Starting %s"
-msgstr ""
+msgstr "Asekker n %s"
 
 #: src/cact/egg-desktop-file.c:1098
 msgid "Application does not accept documents on command line"
@@ -1242,7 +1246,7 @@ msgstr ""
 
 #: src/cact/egg-sm-client.c:235
 msgid "Disable connection to session manager"
-msgstr ""
+msgstr "Sens tuqqna i umsefrak n tɣimit"
 
 #: src/cact/egg-sm-client.c:238
 msgid "Specify file containing saved configuration"
@@ -1254,7 +1258,7 @@ msgstr "AFAYLU"
 
 #: src/cact/egg-sm-client.c:241
 msgid "Specify session management ID"
-msgstr ""
+msgstr "Asulay n usefrek n tɣimit tuzzigt"
 
 #: src/cact/egg-sm-client.c:241
 msgid "ID"
@@ -1398,7 +1402,7 @@ msgstr ""
 
 #: src/cact/cact-assistant-export.ui:575 src/cact/cact-assistant-import.ui:259
 msgid "Summary"
-msgstr ""
+msgstr "Agzul"
 
 #: src/cact/cact-assistant-export.ui:610
 msgid "Selected items have been proceeded:"
@@ -1564,7 +1568,7 @@ msgstr ""
 #: src/cact/cact-iproperties-tab.c:291
 #: src/cact/caja-actions-config-tool.ui:1197
 msgid "_Action"
-msgstr ""
+msgstr "Tig_awt"
 
 #: src/cact/cact-iproperties-tab.c:292
 #: src/cact/caja-actions-config-tool.ui:3423
@@ -1688,11 +1692,11 @@ msgstr "Sk_en"
 
 #: src/cact/cact-menubar.c:62
 msgid "_Toolbars"
-msgstr ""
+msgstr "I_feggagen n yifecka"
 
 #: src/cact/cact-menubar.c:63 src/cact/cact-menubar.c:178
 msgid "_Tools"
-msgstr ""
+msgstr "_Ifecka"
 
 #: src/cact/cact-menubar.c:64
 msgid "_Maintainer"
@@ -1748,12 +1752,12 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:84
 msgid "_Quit"
-msgstr ""
+msgstr "_Ffeq"
 
 #. Translators: tooltip displayed in the status bar when selecting 'Quit' item
 #: src/cact/cact-menubar.c:86
 msgid "Quit the application"
-msgstr ""
+msgstr "Ffeɣ seg usnas"
 
 #: src/cact/cact-menubar.c:88
 msgid "Cu_t"
@@ -1767,7 +1771,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:92
 msgid "_Copy"
-msgstr "_Suken"
+msgstr "_Nɣel"
 
 #. Translators: tooltip displayed in the status bar when selecting the Copy
 #. item
@@ -1797,7 +1801,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:104
 msgid "D_uplicate"
-msgstr ""
+msgstr "Si_sleg"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. Duplicate item
@@ -1829,7 +1833,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:116
 msgid "_Preferences"
-msgstr ""
+msgstr "Imenyafen (_P)"
 
 #. Translators: tooltip displayed in the status bar when selecting the
 #. 'Preferences' item
@@ -1919,7 +1923,7 @@ msgstr ""
 
 #: src/cact/cact-menubar.c:158
 msgid "Contents"
-msgstr ""
+msgstr "Igburen"
 
 #. Translators: tooltip displayed in the status bar when selecting the Help
 #. item
@@ -2032,7 +2036,7 @@ msgstr ""
 
 #: src/cact/cact-menubar-file.c:201
 msgid "New profile"
-msgstr ""
+msgstr "Amaɣnu amaynut"
 
 #: src/cact/cact-menubar-file.c:489
 msgid "Automatically saving pending modifications..."
@@ -2225,7 +2229,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:764
 msgid "minutes"
-msgstr ""
+msgstr "n tesdatin"
 
 #: src/cact/cact-preferences.ui:789
 msgid "<b>Auto-save</b>"
@@ -2257,7 +2261,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:904
 msgid "_Import"
-msgstr ""
+msgstr "Kter-d"
 
 #: src/cact/cact-preferences.ui:941
 msgid "What is your preferred export format ?"
@@ -2273,7 +2277,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:998
 msgid "_Export"
-msgstr ""
+msgstr "_Sifeḍ"
 
 #: src/cact/cact-preferences.ui:1040
 msgid ""
@@ -2323,7 +2327,7 @@ msgstr ""
 
 #: src/cact/cact-preferences.ui:1227
 msgid "_Down"
-msgstr ""
+msgstr "A_der"
 
 #: src/cact/cact-preferences.ui:1258
 msgid "<b>Activation and priority</b>"
@@ -2356,7 +2360,7 @@ msgstr ""
 
 #: src/cact/cact-providers-list.c:150
 msgid "Writable"
-msgstr ""
+msgstr "Yettwaddaf s tira"
 
 #: src/cact/cact-providers-list.c:164
 msgid "I/O Provider"
@@ -2375,23 +2379,23 @@ msgstr ""
 
 #: src/cact/cact-schemes-list.c:155
 msgid "Keyword"
-msgstr ""
+msgstr "Awal n tasarut"
 
 #: src/cact/cact-schemes-list.c:283
 msgid "Local files"
-msgstr ""
+msgstr "Ifuyla idiganen"
 
 #: src/cact/cact-schemes-list.c:285
 msgid "SSH files"
-msgstr ""
+msgstr "Ifuyla SSH"
 
 #: src/cact/cact-schemes-list.c:287
 msgid "Windows files"
-msgstr ""
+msgstr "Ifuyla n Windows"
 
 #: src/cact/cact-schemes-list.c:289
 msgid "FTP files"
-msgstr ""
+msgstr "Ifuyla FTP"
 
 #: src/cact/cact-schemes-list.c:291
 msgid "WebDAV files"
@@ -2466,7 +2470,7 @@ msgstr ""
 #. Translators: CactTreeView property short description
 #: src/cact/cact-tree-view.c:224
 msgid "Container"
-msgstr ""
+msgstr "Amagbar"
 
 #. Translators: CactTreeView property long description
 #: src/cact/cact-tree-view.c:226
@@ -2513,7 +2517,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:159
 msgid "<b>%b</b> :"
-msgstr ""
+msgstr "<b>%b</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:172
 msgid "(first) basename."
@@ -2616,44 +2620,44 @@ msgstr ""
 #: src/cact/caja-actions-config-tool.ui:447
 #, c-format
 msgid "<b>%c</b> :"
-msgstr ""
+msgstr "<b>%c</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:459
 #, c-format
 msgid "<b>%d</b> :"
-msgstr ""
+msgstr "<b>%d</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:471
 msgid "<b>%D</b> :"
-msgstr ""
+msgstr "<b>%D</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:483
 #, c-format
 msgid "<b>%f</b> :"
-msgstr ""
+msgstr "<b>%f</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:495
 #, c-format
 msgid "<b>%F</b> :"
-msgstr ""
+msgstr "<b>%F</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:507
 msgid "<b>%h</b> :"
-msgstr ""
+msgstr "<b>%h</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:519
 #, c-format
 msgid "<b>%m</b> :"
-msgstr ""
+msgstr "<b>%m</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:531
 msgid "<b>%M</b> :"
-msgstr ""
+msgstr "<b>%M</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:543
 #, c-format
 msgid "<b>%n</b> :"
-msgstr ""
+msgstr "<b>%n</b> :"
 
 #: src/cact/caja-actions-config-tool.ui:555
 #, c-format
@@ -2846,11 +2850,11 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1373
 msgid "B_rowse..."
-msgstr ""
+msgstr "S_nirem..."
 
 #: src/cact/caja-actions-config-tool.ui:1412
 msgid "Example"
-msgstr ""
+msgstr "Amedya"
 
 #: src/cact/caja-actions-config-tool.ui:1430
 msgid "_Path :"
@@ -2880,7 +2884,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:1564
 msgid "_Normal"
-msgstr ""
+msgstr "Amag_nu"
 
 #: src/cact/caja-actions-config-tool.ui:1568
 msgid "The command will be started as a standard graphical user interface."
@@ -3100,7 +3104,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:2416
 msgid "_Folders"
-msgstr ""
+msgstr "I_karamen"
 
 #: src/cact/caja-actions-config-tool.ui:2457
 msgid ""
@@ -3337,7 +3341,7 @@ msgstr ""
 
 #: src/cact/caja-actions-config-tool.ui:3556
 msgid "P_roperties"
-msgstr ""
+msgstr "I_raten"
 
 #. Translators: label of an automagic root submenu
 #: src/plugin-menu/caja-actions.c:933
@@ -3387,7 +3391,7 @@ msgstr ""
 #: src/utils/na-set-conf.c:206 src/utils/caja-actions-new.c:376
 #: src/utils/caja-actions-print.c:181 src/utils/caja-actions-run.c:201
 msgid "Miscellaneous options"
-msgstr ""
+msgstr "Tinefrunin tinḍanin"
 
 #: src/test/test-reader.c:147 src/utils/na-print-schemas.c:98
 #: src/utils/na-set-conf.c:118 src/utils/caja-actions-new.c:196
@@ -3534,7 +3538,7 @@ msgstr ""
 
 #: src/utils/caja-actions-new.c:341
 msgid "Define a new action."
-msgstr ""
+msgstr "Sbaddu tigawt tamaynut."
 
 #: src/utils/caja-actions-new.c:344
 msgid ""
